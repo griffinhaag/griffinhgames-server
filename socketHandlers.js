@@ -215,6 +215,38 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         socketId: socket.id
       });
     });
+    
+    // Host restart game
+    socket.on("host:restartGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:restartGame",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Host end game
+    socket.on("host:endGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:endGame",
+        payload: {},
+        socketId: socket.id
+      });
+    });
 
     // Generic route for future in-game events:
     // e.g. "game:event" with { roomCode, eventName, payload }

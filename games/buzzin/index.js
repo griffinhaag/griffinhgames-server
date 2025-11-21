@@ -12,7 +12,7 @@ export default {
 
   create({ io, room, roomManager }) {
     // Game State
-    let phase = "lobby"; // lobby, waiting, question, buzzed, answering, result, end
+    let phase = "lobby"; // lobby, countdown, waiting, question, buzzed, answering, result, end
     let questions = [];
     let currentQuestionIndex = -1;
     let scores = new Map(); // socketId -> number
@@ -22,6 +22,9 @@ export default {
       timestamp: null
     };
     let answerTimeout = null; // Timer for answer submission
+    let countdownInterval = null; // Countdown timer
+    let countdownSeconds = 0;
+    let gameSettings = null; // Store categories and question count
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -118,9 +121,43 @@ export default {
       broadcastState();
     }
 
-    function endGame() {
+    function startCountdown() {
+      countdownSeconds = 10;
+      phase = "countdown";
+      broadcastState();
+      
+      countdownInterval = setInterval(() => {
+        countdownSeconds--;
+        broadcastState();
+        
+        if (countdownSeconds <= 0) {
+          clearInterval(countdownInterval);
+          countdownInterval = null;
+          // Move to first question
+          currentQuestionIndex = -1;
+          nextQuestion();
+        }
+      }, 1000);
+    }
+    
+    function endGame(reason = "ended") {
+      // Clear all timers
+      if (answerTimeout) {
+        clearTimeout(answerTimeout);
+        answerTimeout = null;
+      }
+      if (countdownInterval) {
+        clearInterval(countdownInterval);
+        countdownInterval = null;
+      }
+      
       phase = "end";
       broadcastState();
+      
+      io.to(room.code).emit("game:event", {
+        type: "game_ended",
+        reason: reason
+      });
     }
 
     return {
@@ -153,13 +190,19 @@ export default {
               return;
             }
             
+            // Store settings for restart
+            gameSettings = {
+              categories: selectedCategories,
+              questionCount: payload?.questionCount || 10
+            };
+            
             let filteredQuestions = allQuestions.filter(q => 
               selectedCategories.includes(q.category)
             );
             
             // Get question count (5-50, default 10)
             const questionCount = Math.min(
-              Math.max(5, payload?.questionCount || 10),
+              Math.max(5, gameSettings.questionCount),
               50
             );
             
@@ -175,15 +218,63 @@ export default {
                 .slice(0, 10);
             }
             
-            // Initialize all player scores
+            // Initialize all player scores (including host)
             room.players.forEach((p) => {
               if (p.socketId) {
                 scores.set(p.socketId, 0);
               }
             });
             
+            // Start countdown
+            startCountdown();
+            break;
+            
+          case "host:restartGame":
+            if (room.hostSocketId !== socketId) return;
+            if (!gameSettings) {
+              io.to(socketId).emit("game:event", {
+                type: "error",
+                message: "Cannot restart: no game settings found"
+              });
+              return;
+            }
+            
+            // Reset game state
             currentQuestionIndex = -1;
-            nextQuestion(); // This sets phase to "waiting"
+            phase = "lobby";
+            buzzState = { locked: false, buzzedPlayerId: null, timestamp: null };
+            if (answerTimeout) {
+              clearTimeout(answerTimeout);
+              answerTimeout = null;
+            }
+            if (countdownInterval) {
+              clearInterval(countdownInterval);
+              countdownInterval = null;
+            }
+            
+            // Reset all scores
+            room.players.forEach((p) => {
+              if (p.socketId) {
+                scores.set(p.socketId, 0);
+              }
+            });
+            
+            // Re-randomize questions with same settings
+            let filteredQuestionsRestart = allQuestions.filter(q => 
+              gameSettings.categories.includes(q.category)
+            );
+            
+            questions = filteredQuestionsRestart
+              .sort(() => 0.5 - Math.random())
+              .slice(0, Math.min(gameSettings.questionCount, filteredQuestionsRestart.length));
+            
+            // Start countdown again
+            startCountdown();
+            break;
+            
+          case "host:endGame":
+            if (room.hostSocketId !== socketId) return;
+            endGame("ended_by_host");
             break;
 
           case "host:showQuestion":
@@ -202,6 +293,7 @@ export default {
 
           case "player:buzz":
             // Validate: can only buzz if phase is 'question' and not locked
+            // Host can also buzz (they're a player too)
             if (phase !== "question") {
               return; // Silently ignore if not in question phase
             }
@@ -210,7 +302,7 @@ export default {
               return; // Already locked, ignore duplicate buzz
             }
             
-            // Check if player exists in room
+            // Check if player exists in room (host is also a player)
             if (!room.players.has(socketId)) {
               return; // Player not in room
             }
@@ -331,6 +423,7 @@ export default {
         const roomPlayers = Array.from(room.players.values());
         return {
             phase,
+            countdownSeconds: phase === "countdown" ? countdownSeconds : null,
             currentQuestionIndex,
             totalQuestions: questions.length,
             currentQuestion: currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
@@ -359,8 +452,13 @@ export default {
           clearTimeout(answerTimeout);
           answerTimeout = null;
         }
+        if (countdownInterval) {
+          clearInterval(countdownInterval);
+          countdownInterval = null;
+        }
         questions = [];
         scores.clear();
+        gameSettings = null;
       }
     };
   }
