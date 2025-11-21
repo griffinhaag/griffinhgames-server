@@ -1,40 +1,20 @@
-import { logInfo } from "../../utils/logger.js";
-
-const triviaGame = {
+export default {
   id: "trivia",
-  name: "Trivia Battle",
+  name: "Trivia Game (placeholder)",
 
   create({ io, room, roomManager }) {
-    const state = {
-      roomCode: room.code,
-      startedAt: Date.now()
-      // Add trivia-specific state later (questions, scores, etc.)
-    };
-
-    logInfo(`Trivia game created for room ${room.code}`);
-
-    function handleEvent({ eventName, payload, socketId }) {
-      logInfo(
-        `Trivia event in room ${state.roomCode}: ${eventName} from ${socketId}`
-      );
-
-      // Example: io.to(state.roomCode).emit("game:trivia:update", {...})
-    }
-
-    function getState() {
-      return { ...state };
-    }
-
-    function teardown() {
-      logInfo(`Trivia game teardown for room ${state.roomCode}`);
-    }
-
     return {
-      handleEvent,
-      getState,
-      teardown
+      handleEvent({ eventName, payload, socketId }) {
+        // Placeholder — implement gameplay later
+      },
+
+      getState() {
+        return {};
+      },
+
+      teardown() {
+        // Placeholder teardown
+      }
     };
   }
 };
-
-export default triviaGame;
