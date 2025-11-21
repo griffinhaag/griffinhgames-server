@@ -1,9 +1,7 @@
-import reflexGame from "./reflex/index.js";
-import triviaGame from "./trivia/index.js";
+import buzzinGame from "./buzzin/index.js";
 
 const gameRegistry = {
-  reflex: reflexGame,
-  trivia: triviaGame
+  buzzin: buzzinGame
 };
 
 export default gameRegistry;
