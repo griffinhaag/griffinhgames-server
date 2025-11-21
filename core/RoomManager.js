@@ -8,6 +8,9 @@ export function createRoomManager() {
   const playerIndex = new Map();
   // Map<socketId, displayName>
   const names = new Map();
+  // Map<roomCode, timeoutId>
+  const destructionTimers = new Map();
+  const GRACE_PERIOD_MS = 10000; // 10 seconds to rejoin
 
   function createRoom({ hostSocketId, gameType = null }) {
     let code;
@@ -40,13 +43,29 @@ export function createRoomManager() {
   }
 
   function addPlayerToRoom(roomCode, { socketId, name, isHost = false }) {
+    // Cancel destruction if scheduled
+    if (destructionTimers.has(roomCode)) {
+      clearTimeout(destructionTimers.get(roomCode));
+      destructionTimers.delete(roomCode);
+      logInfo(`Room ${roomCode} destruction cancelled (player joined).`);
+    }
+
     const room = rooms.get(roomCode);
     if (!room) return false;
+
+    // If room has no host (e.g. host disconnected and room was empty), assign this player as host
+    // Or if the requested isHost is true (though usually we respect the room's state)
+    // Better logic: If no active host in room, make this player host.
+    let finalIsHost = isHost;
+    if (!room.hostSocketId || !room.players.has(room.hostSocketId)) {
+      finalIsHost = true;
+      room.hostSocketId = socketId;
+    }
 
     const player = {
       socketId,
       name,
-      isHost,
+      isHost: finalIsHost,
       joinedAt: Date.now()
     };
 
@@ -85,10 +104,21 @@ export function createRoomManager() {
 
     let roomDestroyed = false;
 
-    // If room is empty, delete it
+    // If room is empty, schedule destruction instead of deleting immediately
     if (room.players.size === 0) {
-      deleteRoom(roomCode);
-      roomDestroyed = true;
+      const timer = setTimeout(() => {
+        if (rooms.has(roomCode)) {
+          deleteRoom(roomCode);
+          logInfo(`Room ${roomCode} destroyed (empty after grace period).`);
+        }
+        destructionTimers.delete(roomCode);
+      }, GRACE_PERIOD_MS);
+      
+      destructionTimers.set(roomCode, timer);
+      logInfo(`Room ${roomCode} empty, scheduled destruction in ${GRACE_PERIOD_MS}ms`);
+      
+      // Return false so we don't emit room:closed yet
+      roomDestroyed = false;
     } else if (room.hostSocketId === socketId) {
       // Host left: promote a new host
       const [newHost] = room.players.values();
@@ -96,10 +126,8 @@ export function createRoomManager() {
         newHost.isHost = true;
         room.hostSocketId = newHost.socketId;
         room.updatedAt = Date.now();
-      } else {
-        deleteRoom(roomCode);
-        roomDestroyed = true;
       }
+      // If no new host found (should be covered by size===0 check), logic flows through
     }
 
     return { roomCode, roomDestroyed };
