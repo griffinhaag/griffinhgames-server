@@ -94,7 +94,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     });
 
     // (Future) host starts a game of a given type
-    socket.on("host:startGame", ({ roomCode, gameType }) => {
+    socket.on("host:startGame", ({ roomCode, gameType, ...payload }) => {
       const code = roomCode ||
         roomManager.getRoomCodeForSocket(socket.id);
 
@@ -111,7 +111,8 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       }
 
       try {
-        gameEngine.startGame(code, gameType);
+        // Pass payload (categories, questionCount, etc.) to startGame
+        gameEngine.startGame(code, gameType, payload);
       } catch (err) {
         logWarn(`Failed to start game: ${err?.message}`);
         socket.emit("room:error", err.message || "Failed to start game.");

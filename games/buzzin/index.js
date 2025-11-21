@@ -86,11 +86,30 @@ export default {
           case "host:startGame":
             if (room.hostSocketId !== socketId) return;
             
-            // Select random questions (default 10 or host choice)
-            const count = payload?.questionCount || 10;
-            questions = allQuestions
+            // Filter questions by selected categories
+            const selectedCategories = payload?.categories || [];
+            let filteredQuestions = allQuestions;
+            
+            if (selectedCategories.length > 0) {
+              filteredQuestions = allQuestions.filter(q => 
+                selectedCategories.includes(q.category)
+              );
+            }
+            
+            // Default to 10 questions if none specified, or use all available
+            const questionCount = payload?.questionCount || Math.min(10, filteredQuestions.length);
+            
+            // Shuffle and select questions
+            questions = filteredQuestions
               .sort(() => 0.5 - Math.random())
-              .slice(0, count);
+              .slice(0, questionCount);
+            
+            if (questions.length === 0) {
+              // Fallback to all questions if filtered result is empty
+              questions = allQuestions
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 10);
+            }
             
             currentQuestionIndex = -1;
             nextQuestion();
