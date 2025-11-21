@@ -74,7 +74,7 @@ try {
   });
 
   // Railway port binding
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 8080;
 
   // HTTP server error handler (must be set before listen)
   httpServer.on("error", (error) => {
