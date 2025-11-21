@@ -23,22 +23,37 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       const playerName = roomManager.getPlayerName(socket.id) ||
         `Host-${socket.id.slice(0, 4)}`;
 
+      // Validate game type if provided
+      if (gameType && gameType !== "buzzin") {
+        socket.emit("room:error", `Unknown game type: ${gameType}. Please use 'buzzin' or leave empty.`);
+        return;
+      }
+
       const room = roomManager.createRoom({
         hostSocketId: socket.id,
-        gameType: gameType || null
+        gameType: gameType || "buzzin" // Default to buzzin
       });
 
-      roomManager.addPlayerToRoom(room.code, {
+      const added = roomManager.addPlayerToRoom(room.code, {
         socketId: socket.id,
         name: playerName,
         isHost: true
       });
 
+      if (!added) {
+        socket.emit("room:error", "Failed to add host to room.");
+        return;
+      }
+
       socket.join(room.code);
 
       const roomState = roomManager.serializeRoom(room.code);
       socket.emit("room:created", roomState);
-      logInfo(`Room ${room.code} created by ${socket.id}`);
+      
+      // Also broadcast to room (though only host is in it)
+      io.to(room.code).emit("room:state", roomState);
+      
+      logInfo(`Room ${room.code} created by ${socket.id} (${playerName})`);
     });
 
     // Player joins an existing room by code
@@ -58,14 +73,36 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         return;
       }
 
-      const finalName =
-        (typeof name === "string" && name.trim()) ||
-        `Player-${socket.id.slice(0, 4)}`;
+      // Validate and sanitize name
+      let finalName = typeof name === "string" ? name.trim() : "";
+      if (!finalName || finalName.length === 0) {
+        finalName = `Player-${socket.id.slice(0, 4)}`;
+      }
+      // Limit name length
+      if (finalName.length > 20) {
+        finalName = finalName.substring(0, 20);
+      }
+      
+      // Store name immediately
+      roomManager.setPlayerName(socket.id, finalName);
+
+      // Prevent host from joining their own room as a player
+      if (room.hostSocketId === socket.id && room.players.has(socket.id)) {
+        // Host is already in the room, just send current state
+        socket.join(code);
+        const roomState = roomManager.serializeRoom(code);
+        socket.emit("room:state", roomState);
+        logInfo(`Host ${socket.id} reconnected to room ${code}`);
+        return;
+      }
+      
+      // Check if this player should be host (if room has no active host)
+      const shouldBeHost = !room.hostSocketId || !room.players.has(room.hostSocketId);
 
       const joined = roomManager.addPlayerToRoom(code, {
         socketId: socket.id,
         name: finalName,
-        isHost: false
+        isHost: shouldBeHost
       });
 
       if (!joined) {
@@ -77,8 +114,19 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       const roomState = roomManager.serializeRoom(code);
       io.to(code).emit("room:state", roomState);
+      
+      // If game is in progress, send current game state to the new player
+      if (roomState.phase === "in-progress") {
+        // Trigger player:joined event so game can broadcast state
+        gameEngine.handleGameEvent({
+          roomCode: code,
+          eventName: "player:joined",
+          payload: {},
+          socketId: socket.id
+        });
+      }
 
-      logInfo(`Socket ${socket.id} joined room ${code}`);
+      logInfo(`Socket ${socket.id} joined room ${code}${shouldBeHost ? ' as host' : ''}`);
     });
 
     // Generic "get current room state"
@@ -94,7 +142,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     });
 
     // (Future) host starts a game of a given type
-    socket.on("host:startGame", ({ roomCode, gameType }) => {
+    socket.on("host:startGame", ({ roomCode, gameType, ...payload }) => {
       const code = roomCode ||
         roomManager.getRoomCodeForSocket(socket.id);
 
@@ -111,11 +159,118 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       }
 
       try {
-        gameEngine.startGame(code, gameType);
+        // Pass payload (categories, questionCount, etc.) to startGame
+        gameEngine.startGame(code, gameType, payload);
       } catch (err) {
         logWarn(`Failed to start game: ${err?.message}`);
         socket.emit("room:error", err.message || "Failed to start game.");
       }
+    });
+
+    // Host shows question (after selecting it)
+    socket.on("host:showQuestion", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:showQuestion",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Player submits answer
+    socket.on("player:submitAnswer", ({ roomCode, answer }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "player:submitAnswer",
+        payload: { answer },
+        socketId: socket.id
+      });
+    });
+    
+    // Host next question
+    socket.on("host:nextQuestion", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:nextQuestion",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Player buzz
+    socket.on("player:buzz", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "player:buzz",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Host judge answer
+    socket.on("host:judgeAnswer", ({ roomCode, correct }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:judgeAnswer",
+        payload: { correct },
+        socketId: socket.id
+      });
+    });
+    
+    // Host restart game
+    socket.on("host:restartGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:restartGame",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Host end game
+    socket.on("host:endGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:endGame",
+        payload: {},
+        socketId: socket.id
+      });
     });
 
     // Generic route for future in-game events:

@@ -5,7 +5,7 @@ export function createGameEngine(io, roomManager) {
   // Map<roomCode, { gameType, instance }>
   const activeGames = new Map();
 
-  function startGame(roomCode, requestedGameType) {
+  function startGame(roomCode, requestedGameType, startPayload = {}) {
     const room = roomManager.getRoom(roomCode);
     if (!room) {
       throw new Error("Room does not exist.");
@@ -48,6 +48,15 @@ export function createGameEngine(io, roomManager) {
     });
 
     logInfo(`Game started in room ${roomCode}: ${gameType}`);
+    
+    // Route initial start event to game instance with payload
+    if (typeof instance.handleEvent === "function") {
+      instance.handleEvent({
+        eventName: "host:startGame",
+        payload: startPayload,
+        socketId: room.hostSocketId
+      });
+    }
   }
 
   function handleGameEvent({ roomCode, eventName, payload, socketId }) {
@@ -95,9 +104,20 @@ export function createGameEngine(io, roomManager) {
     logInfo(`Game ended in room ${roomCode}: ${reason}`);
   }
 
+  function getGameState(roomCode) {
+    const entry = activeGames.get(roomCode);
+    if (!entry || !entry.instance) return null;
+    
+    if (typeof entry.instance.getState === "function") {
+      return entry.instance.getState();
+    }
+    return null;
+  }
+
   return {
     startGame,
     handleGameEvent,
-    endGame
+    endGame,
+    getGameState
   };
 }
