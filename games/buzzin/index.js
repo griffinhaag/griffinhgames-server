@@ -171,7 +171,7 @@ export default {
             if (room.hostSocketId !== socketId) return;
             if (phase !== "lobby") return; // Can only start from lobby
             
-            // Validate minimum players
+            // Validate minimum players (host counts as a player)
             if (room.players.size < 2) {
               io.to(socketId).emit("game:event", {
                 type: "error",
@@ -201,21 +201,30 @@ export default {
             );
             
             // Get question count (5-50, default 10)
-            const questionCount = Math.min(
+            const requestedCount = Math.min(
               Math.max(5, gameSettings.questionCount),
               50
             );
             
+            // Validate we have enough questions
+            if (filteredQuestions.length < requestedCount) {
+              io.to(socketId).emit("game:event", {
+                type: "error",
+                message: `Only ${filteredQuestions.length} questions available for selected categories. Please select more categories or reduce question count.`
+              });
+              return;
+            }
+            
             // Shuffle and select questions
             questions = filteredQuestions
               .sort(() => 0.5 - Math.random())
-              .slice(0, Math.min(questionCount, filteredQuestions.length));
+              .slice(0, requestedCount);
             
             if (questions.length === 0) {
               // Fallback to all questions if filtered result is empty
               questions = allQuestions
                 .sort(() => 0.5 - Math.random())
-                .slice(0, 10);
+                .slice(0, Math.min(10, allQuestions.length));
             }
             
             // Initialize all player scores (including host)

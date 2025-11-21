@@ -23,22 +23,37 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       const playerName = roomManager.getPlayerName(socket.id) ||
         `Host-${socket.id.slice(0, 4)}`;
 
+      // Validate game type if provided
+      if (gameType && gameType !== "buzzin") {
+        socket.emit("room:error", `Unknown game type: ${gameType}. Please use 'buzzin' or leave empty.`);
+        return;
+      }
+
       const room = roomManager.createRoom({
         hostSocketId: socket.id,
-        gameType: gameType || null
+        gameType: gameType || "buzzin" // Default to buzzin
       });
 
-      roomManager.addPlayerToRoom(room.code, {
+      const added = roomManager.addPlayerToRoom(room.code, {
         socketId: socket.id,
         name: playerName,
         isHost: true
       });
 
+      if (!added) {
+        socket.emit("room:error", "Failed to add host to room.");
+        return;
+      }
+
       socket.join(room.code);
 
       const roomState = roomManager.serializeRoom(room.code);
       socket.emit("room:created", roomState);
-      logInfo(`Room ${room.code} created by ${socket.id}`);
+      
+      // Also broadcast to room (though only host is in it)
+      io.to(room.code).emit("room:state", roomState);
+      
+      logInfo(`Room ${room.code} created by ${socket.id} (${playerName})`);
     });
 
     // Player joins an existing room by code
@@ -71,6 +86,16 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // Store name immediately
       roomManager.setPlayerName(socket.id, finalName);
 
+      // Prevent host from joining their own room as a player
+      if (room.hostSocketId === socket.id && room.players.has(socket.id)) {
+        // Host is already in the room, just send current state
+        socket.join(code);
+        const roomState = roomManager.serializeRoom(code);
+        socket.emit("room:state", roomState);
+        logInfo(`Host ${socket.id} reconnected to room ${code}`);
+        return;
+      }
+      
       // Check if this player should be host (if room has no active host)
       const shouldBeHost = !room.hostSocketId || !room.players.has(room.hostSocketId);
 
