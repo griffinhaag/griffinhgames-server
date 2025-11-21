@@ -1,0 +1,19 @@
+{
+    "name": "griffinhgames-server",
+    "version": "1.0.0",
+    "description": "Backend server for GriffinGames - modular multiplayer game engine with rooms and pluggable game types.",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "socket.io": "^4.7.5"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
+  
