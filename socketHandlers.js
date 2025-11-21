@@ -62,10 +62,13 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         (typeof name === "string" && name.trim()) ||
         `Player-${socket.id.slice(0, 4)}`;
 
+      // Check if this player should be host (if room has no active host)
+      const shouldBeHost = !room.hostSocketId || !room.players.has(room.hostSocketId);
+
       const joined = roomManager.addPlayerToRoom(code, {
         socketId: socket.id,
         name: finalName,
-        isHost: false
+        isHost: shouldBeHost
       });
 
       if (!joined) {
@@ -77,8 +80,19 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       const roomState = roomManager.serializeRoom(code);
       io.to(code).emit("room:state", roomState);
+      
+      // If game is in progress, send current game state to the new player
+      if (roomState.phase === "in-progress") {
+        // Trigger player:joined event so game can broadcast state
+        gameEngine.handleGameEvent({
+          roomCode: code,
+          eventName: "player:joined",
+          payload: {},
+          socketId: socket.id
+        });
+      }
 
-      logInfo(`Socket ${socket.id} joined room ${code}`);
+      logInfo(`Socket ${socket.id} joined room ${code}${shouldBeHost ? ' as host' : ''}`);
     });
 
     // Generic "get current room state"

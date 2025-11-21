@@ -189,6 +189,16 @@ export default {
                  broadcastState();
              }
              break;
+             
+          case "player:joined":
+             // When a player joins an in-progress game, send them the current state
+             // Initialize their score if they don't have one
+             if (!scores.has(socketId)) {
+                 scores.set(socketId, 0);
+             }
+             // Broadcast state so the new player gets it
+             broadcastState();
+             break;
         }
       },
 

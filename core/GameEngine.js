@@ -104,9 +104,20 @@ export function createGameEngine(io, roomManager) {
     logInfo(`Game ended in room ${roomCode}: ${reason}`);
   }
 
+  function getGameState(roomCode) {
+    const entry = activeGames.get(roomCode);
+    if (!entry || !entry.instance) return null;
+    
+    if (typeof entry.instance.getState === "function") {
+      return entry.instance.getState();
+    }
+    return null;
+  }
+
   return {
     startGame,
     handleGameEvent,
-    endGame
+    endGame,
+    getGameState
   };
 }
