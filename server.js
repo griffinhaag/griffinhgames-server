@@ -74,7 +74,9 @@ try {
   });
 
   // Railway port binding
-  const PORT = process.env.PORT || 8080;
+  // Railway automatically sets process.env.PORT - we just need to use it
+  // The fallback (3000) is only for local development
+  const PORT = process.env.PORT || 3000;
 
   // HTTP server error handler (must be set before listen)
   httpServer.on("error", (error) => {
