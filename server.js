@@ -7,6 +7,7 @@ import { createRoomManager } from "./core/RoomManager.js";
 import { createGameEngine } from "./core/GameEngine.js";
 import registerSocketHandlers from "./socketHandlers.js";
 import { logInfo, logError } from "./utils/logger.js";
+import gameRegistry from "./games/index.js";
 
 // Global error handlers - must be set before any async operations
 process.on("unhandledRejection", (reason, promise) => {
@@ -49,6 +50,20 @@ try {
   // Simple health route
   app.get("/", (req, res) => {
     res.json({ status: "ok", service: "griffinhgames-server" });
+  });
+
+  // Games list endpoint for frontend discovery
+  app.get("/games", (req, res) => {
+    const games = Object.values(gameRegistry).map(game => ({
+      id: game.id,
+      name: game.name,
+      description: game.description || "",
+      minPlayers: game.minPlayers || 1,
+      maxPlayers: game.maxPlayers || 10,
+      icon: game.icon || "🎮",
+      type: "multiplayer" // Indicates this is a backend multiplayer game
+    }));
+    res.json({ games });
   });
 
   // Error handling middleware (must be after routes)
