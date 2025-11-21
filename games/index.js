@@ -1,10 +1,7 @@
-// Game registry - add your multiplayer games here
-// Example:
-// import myGame from "./mygame/index.js";
-// const gameRegistry = {
-//   mygame: myGame
-// };
+import buzzinGame from "./buzzin/index.js";
 
-const gameRegistry = {};
+const gameRegistry = {
+  buzzin: buzzinGame
+};
 
 export default gameRegistry;
