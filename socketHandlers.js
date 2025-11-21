@@ -58,9 +58,18 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         return;
       }
 
-      const finalName =
-        (typeof name === "string" && name.trim()) ||
-        `Player-${socket.id.slice(0, 4)}`;
+      // Validate and sanitize name
+      let finalName = typeof name === "string" ? name.trim() : "";
+      if (!finalName || finalName.length === 0) {
+        finalName = `Player-${socket.id.slice(0, 4)}`;
+      }
+      // Limit name length
+      if (finalName.length > 20) {
+        finalName = finalName.substring(0, 20);
+      }
+      
+      // Store name immediately
+      roomManager.setPlayerName(socket.id, finalName);
 
       // Check if this player should be host (if room has no active host)
       const shouldBeHost = !room.hostSocketId || !room.players.has(room.hostSocketId);
@@ -131,6 +140,80 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         logWarn(`Failed to start game: ${err?.message}`);
         socket.emit("room:error", err.message || "Failed to start game.");
       }
+    });
+
+    // Host shows question (after selecting it)
+    socket.on("host:showQuestion", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:showQuestion",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Player submits answer
+    socket.on("player:submitAnswer", ({ roomCode, answer }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "player:submitAnswer",
+        payload: { answer },
+        socketId: socket.id
+      });
+    });
+    
+    // Host next question
+    socket.on("host:nextQuestion", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:nextQuestion",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Player buzz
+    socket.on("player:buzz", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "player:buzz",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+    
+    // Host judge answer
+    socket.on("host:judgeAnswer", ({ roomCode, correct }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+      
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:judgeAnswer",
+        payload: { correct },
+        socketId: socket.id
+      });
     });
 
     // Generic route for future in-game events:
