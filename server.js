@@ -74,7 +74,7 @@ try {
   });
 
   // Port binding: use PORT from environment (Vercel, Railway, Fly, etc.) or 3000 for local
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 10000;
 
   // HTTP server error handler (must be set before listen)
   httpServer.on("error", (error) => {
