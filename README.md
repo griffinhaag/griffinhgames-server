@@ -6,7 +6,7 @@ Modular multiplayer backend for GriffinGames.
 - Express
 - Socket.IO
 - Modular game engine (rooms + pluggable game types)
-- Designed for hosting on Railway
+- Full server (HTTP + Socket.IO) deployed on **Render**: https://griffinhgames-server.onrender.com
 
 ## Running Locally
 

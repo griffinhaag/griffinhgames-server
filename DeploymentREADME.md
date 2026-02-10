@@ -1,197 +1,90 @@
-DeploymentREADME.md — GriffinGames Backend Deployment Guide
+# GriffinGames Backend Deployment Guide
 
-This document explains how to deploy the GriffinGames multiplayer backend to Railway, how to connect it to the frontend on Netlify, and how to run everything locally.
+Deploy the full backend (HTTP + WebSocket) to **Render** — one host for everything, similar to Fly.io, with a **free tier**.
 
-1. Requirements
-Tools Needed
+## 1. Requirements
 
-Node.js 18+
+- Node.js 18+
+- Git
+- GitHub repo containing `griffinhgames-server`
+- [Render](https://render.com) account (free)
 
-Git
+## 2. Local Setup
 
-GitHub repo containing griffinhgames-server
-
-Railway account
-
-Netlify frontend already deployed (griffinhgames.netlify.app)
-
-2. Local Setup Instructions
-Install dependencies
+```bash
 npm install
-
-Run the backend
 npm start
+```
 
+This starts the **full server** (HTTP + WebSocket) at `http://localhost:3000`.
 
-This starts the server at:
+**Frontend (local):** point your client to:
 
-http://localhost:3000
-
-Frontend Integration (Local)
-
-Set your frontend socket connection to:
-
+```js
 const socket = io("http://localhost:3000");
+```
 
-3. Railway Deployment
+## 3. Deploy to Render (everything on one host)
 
-Railway hosts the backend Node.js server.
+Use **one Render Web Service** for the whole backend — health check, `/games`, and Socket.IO — just like a single Fly.io app.
 
-Steps:
+1. Go to [render.com](https://render.com) and sign up (GitHub login is easiest).
+2. **New** → **Web Service**.
+3. Connect your GitHub account and select the `griffinhgames-server` repo.
+4. Configure:
+   - **Name:** e.g. `griffinhgames-server`
+   - **Runtime:** Node
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+   - **Instance Type:** **Free**
+5. Click **Create Web Service**. Render builds and deploys. Your URL will be like `https://griffinhgames-server.onrender.com`.
 
-Log into Railway
+No code changes needed; the app already uses `process.env.PORT`.
 
-Click New Project
+**Production URL (this deployment):** `https://griffinhgames-server.onrender.com`
 
-Select Deploy from GitHub
+**Frontend (e.g. Netlify):** point your app to this URL for both API and Socket.IO:
 
-Choose your griffinhgames-server repo
+```js
+const socket = io("https://griffinhgames-server.onrender.com");
+// Same base URL for fetch('/games') etc. if needed
+```
 
-Railway will auto-detect Node.js and install dependencies
+**Free tier:**
 
-Region
+- Service **spins down** after ~15 minutes with no traffic. First request after that can take 30–60 seconds (cold start), then it's fast. Fine for low traffic.
+- 750 hours/month on the free tier.
+- WebSockets work; very long idle connections may drop on free tier — clients can reconnect.
 
-Use:
+## 4. Verifying deployment
 
-US East (Virginia)
+- Open **https://griffinhgames-server.onrender.com/** → `{ "status": "ok", "service": "griffinhgames-server" }`
+- Open **https://griffinhgames-server.onrender.com/games** → games list JSON
+- In your frontend, connect with Socket.IO to the same URL and test creating/joining rooms and real-time updates.
 
+## 5. Frontend (Netlify) – point to Render
 
-This is the lowest latency for Minnesota-based clients.
+The frontend repo **griffinhgames** is hosted on Netlify. To use the Render backend:
 
-4. Environment Configuration
+- **Socket.IO:** Wherever you create the socket client, use:
+  ```js
+  const socket = io("https://griffinhgames-server.onrender.com");
+  ```
+- **API (e.g. fetch `/games`):** Use the same base URL: `https://griffinhgames-server.onrender.com`.
 
-The server already binds to:
+Optional: In Netlify, set an env var (e.g. `VITE_API_URL` or `GATSBY_API_URL` depending on your build tool) to `https://griffinhgames-server.onrender.com` and use it in code so you can change it without editing source. For a static site, hardcoding the URL in the script that connects to the backend is also fine.
 
-process.env.PORT || 3000
+## 6. Environment
 
+- The server uses `process.env.PORT || 3000`. Render sets `PORT` automatically.
+- No extra env vars required for the backend.
 
-No additional Railway environment variables are required.
+## 7. Optional: Vercel (API only, no WebSockets)
 
-5. Deployment Pipeline
-After linking GitHub → Railway:
+If you only need the HTTP API (`/`, `/games`) on Vercel (e.g. for a separate frontend or serverless use), the repo is set up for it: **`src/app.js`** is the Express app Vercel runs. Vercel does **not** support Socket.IO, so for the full multiplayer backend use Render (or another host that supports WebSockets) as in section 3.
 
-Every push to main:
+## 8. Summary
 
-triggers a new deployment
-
-builds the project
-
-boots a fresh server instance
-
-updates your live WebSocket endpoint
-
-Nothing else is required.
-
-6. Production Frontend Integration (Netlify)
-
-Your frontend connects to the deployed Railway server using:
-
-const socket = io("https://YOUR-APP.up.railway.app");
-
-Workflow
-
-Backend deploys to Railway
-
-Frontend reads the WebSocket URL
-
-Netlify frontend + Railway backend communicate in real time
-
-Netlify and Railway work perfectly together for this architecture.
-
-7. Verifying Deployment
-
-Visit:
-
-https://YOUR-APP.up.railway.app/
-
-
-You should see the backend health JSON:
-
-{ "status": "ok", "service": "griffinhgames-server" }
-
-
-Then open your frontend:
-
-https://griffinhgames.netlify.app
-
-
-Test creating a room, joining from another device, and verifying that:
-
-room codes generate
-
-players join
-
-room:state updates are received
-
-8. Scaling Notes
-
-Railway is ideal for:
-
-prototypes
-
-low-mid concurrency games
-
-WebSocket applications
-
-instant CI/CD from GitHub
-
-fast debugging
-
-If you outgrow Railway:
-
-This backend can be migrated to:
-
-AWS Elastic Beanstalk
-
-AWS ECS/Fargate
-
-EC2
-
-Fly.io
-
-DigitalOcean
-
-with zero code changes due to its Express + Socket.IO foundation.
-
-9. Troubleshooting
-CORS Issues
-
-Update server CORS:
-
-cors: {
-  origin: ["https://griffinhgames.netlify.app"]
-}
-
-WebSocket connection refused
-
-Verify:
-
-Railway instance is running
-
-Frontend uses correct URL
-
-HTTPS is used on production
-
-Rooms not updating
-
-Check:
-
-socketHandlers.js events
-
-client emits/receives correct event names
-
-10. Summary
-
-You now have:
-
-A modular multiplayer backend
-
-Full WebSocket support
-
-Automatic GitHub → Railway deployment
-
-Netlify → Railway real-time communication
-
-A clean development workflow
-
-Built-in scalability for future game modes
+- **Render:** One Web Service runs the full server (HTTP + Socket.IO). Free tier, same idea as running everything on Fly.io.
+- **Local:** `npm start` → full server on port 3000.
+- **Vercel:** Optional, API-only; use when you don't need WebSockets on that deployment.
