@@ -73,9 +73,7 @@ try {
     res.status(500).json({ error: "Internal server error" });
   });
 
-  // Railway port binding
-  // Railway automatically sets process.env.PORT - we just need to use it
-  // The fallback (3000) is only for local development
+  // Port binding: use PORT from environment (Vercel, Railway, Fly, etc.) or 3000 for local
   const PORT = process.env.PORT || 3000;
 
   // HTTP server error handler (must be set before listen)
