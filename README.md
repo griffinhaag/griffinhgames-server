@@ -6,7 +6,7 @@ Modular multiplayer backend for GriffinGames.
 - Express
 - Socket.IO
 - Modular game engine (rooms + pluggable game types)
-- HTTP API deployable on Vercel; full server (with Socket.IO) runs on Fly.io, Railway, or any Node host
+- Full server (HTTP + Socket.IO) deployed on **Render**: https://griffinhgames-server.onrender.com
 
 ## Running Locally
 

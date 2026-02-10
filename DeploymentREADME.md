@@ -1,13 +1,13 @@
 # GriffinGames Backend Deployment Guide
 
-This document explains how to deploy the GriffinGames backend to **Vercel**, how the HTTP API and WebSocket support work, and how to run everything locally.
+Deploy the full backend (HTTP + WebSocket) to **Render** — one host for everything, similar to Fly.io, with a **free tier**.
 
 ## 1. Requirements
 
 - Node.js 18+
 - Git
 - GitHub repo containing `griffinhgames-server`
-- Vercel account (for production deployment)
+- [Render](https://render.com) account (free)
 
 ## 2. Local Setup
 
@@ -24,72 +24,67 @@ This starts the **full server** (HTTP + WebSocket) at `http://localhost:3000`.
 const socket = io("http://localhost:3000");
 ```
 
-## 3. Vercel Deployment (HTTP API)
+## 3. Deploy to Render (everything on one host)
 
-The repo is set up for Vercel:
+Use **one Render Web Service** for the whole backend — health check, `/games`, and Socket.IO — just like a single Fly.io app.
 
-- **`src/app.js`** – Express app with HTTP routes only (`/`, `/games`). Vercel runs this as a serverless function (zero config: Vercel detects the default export).
-- **`vercel.json`** – Optional build/install commands.
+1. Go to [render.com](https://render.com) and sign up (GitHub login is easiest).
+2. **New** → **Web Service**.
+3. Connect your GitHub account and select the `griffinhgames-server` repo.
+4. Configure:
+   - **Name:** e.g. `griffinhgames-server`
+   - **Runtime:** Node
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+   - **Instance Type:** **Free**
+5. Click **Create Web Service**. Render builds and deploys. Your URL will be like `https://griffinhgames-server.onrender.com`.
 
-### Deploy to Vercel
+No code changes needed; the app already uses `process.env.PORT`.
 
-1. Log into [Vercel](https://vercel.com).
-2. **New Project** → Import your `griffinhgames-server` repo.
-3. Vercel will detect the Express app (from `src/app.js`). Deploy.
+**Production URL (this deployment):** `https://griffinhgames-server.onrender.com`
 
-After linking GitHub, every push to `main` can trigger a new deployment (enable in project settings).
+**Frontend (e.g. Netlify):** point your app to this URL for both API and Socket.IO:
 
-### What runs on Vercel
+```js
+const socket = io("https://griffinhgames-server.onrender.com");
+// Same base URL for fetch('/games') etc. if needed
+```
 
-| Endpoint   | Supported on Vercel |
-|-----------|----------------------|
-| `GET /`   | ✅ Health check      |
-| `GET /games` | ✅ Games list     |
-| **Socket.IO (WebSockets)** | ❌ **Not supported** |
+**Free tier:**
 
-**Why no WebSockets?** Vercel serverless functions are stateless and short-lived. They do not support long-lived WebSocket connections. Socket.IO cannot run on Vercel.
+- Service **spins down** after ~15 minutes with no traffic. First request after that can take 30–60 seconds (cold start), then it's fast. Fine for low traffic.
+- 750 hours/month on the free tier.
+- WebSockets work; very long idle connections may drop on free tier — clients can reconnect.
 
-## 4. Real-time (WebSocket) options
+## 4. Verifying deployment
 
-To keep multiplayer rooms and real-time game state, you have two approaches.
+- Open **https://griffinhgames-server.onrender.com/** → `{ "status": "ok", "service": "griffinhgames-server" }`
+- Open **https://griffinhgames-server.onrender.com/games** → games list JSON
+- In your frontend, connect with Socket.IO to the same URL and test creating/joining rooms and real-time updates.
 
-### Option A: Hybrid – Vercel (API) + separate WebSocket host
+## 5. Frontend (Netlify) – point to Render
 
-- **Vercel:** Serves `GET /` and `GET /games`.
-- **Another host:** Run the **full** server (Socket.IO) somewhere that supports long-lived connections:
-  - **Fly.io** – deploy with `fly launch` / `fly deploy` (use the same repo; run `node server.js`).
-  - **Railway** – connect repo, set start command `npm start`.
-  - **Render, Railway, etc.** – any Node host that keeps a process running.
+The frontend repo **griffinhgames** is hosted on Netlify. To use the Render backend:
 
-Frontend:
+- **Socket.IO:** Wherever you create the socket client, use:
+  ```js
+  const socket = io("https://griffinhgames-server.onrender.com");
+  ```
+- **API (e.g. fetch `/games`):** Use the same base URL: `https://griffinhgames-server.onrender.com`.
 
-- API/base URL: `https://your-app.vercel.app`
-- Socket URL: `https://your-websocket-host.fly.dev` (or Railway URL, etc.)
+Optional: In Netlify, set an env var (e.g. `VITE_API_URL` or `GATSBY_API_URL` depending on your build tool) to `https://griffinhgames-server.onrender.com` and use it in code so you can change it without editing source. For a static site, hardcoding the URL in the script that connects to the backend is also fine.
 
-### Option B: Full server on a single host (no Vercel for backend)
+## 6. Environment
 
-Deploy only the full Node server (`server.js`) to Fly.io, Railway, Render, etc. That single URL serves both HTTP and WebSocket. No Vercel for this repo in that case.
+- The server uses `process.env.PORT || 3000`. Render sets `PORT` automatically.
+- No extra env vars required for the backend.
 
-## 5. Environment
+## 7. Optional: Vercel (API only, no WebSockets)
 
-- The server uses `process.env.PORT || 3000`. Vercel and most hosts set `PORT` automatically.
-- No extra env vars are required for the basic HTTP API.
+If you only need the HTTP API (`/`, `/games`) on Vercel (e.g. for a separate frontend or serverless use), the repo is set up for it: **`src/app.js`** is the Express app Vercel runs. Vercel does **not** support Socket.IO, so for the full multiplayer backend use Render (or another host that supports WebSockets) as in section 3.
 
-## 6. Verifying deployment
+## 8. Summary
 
-**Vercel (HTTP only):**
-
-- Visit `https://your-app.vercel.app/`  
-  You should see: `{ "status": "ok", "service": "griffinhgames-server" }`
-- Visit `https://your-app.vercel.app/games` for the games list.
-
-**Full server (local or hybrid WebSocket host):**
-
-- Same JSON at `/` and `/games`.
-- Use the same URL as the Socket.IO endpoint in the frontend and test creating/joining rooms and real-time updates.
-
-## 7. Summary
-
-- **Vercel:** Use for the HTTP API (`/`, `/games`) via `src/app.js`; no code changes needed for deploy.
-- **WebSockets:** Not supported on Vercel; run `server.js` on Fly.io, Railway, or another Node host for Socket.IO.
-- **Local:** `npm start` runs the full server (HTTP + WebSocket) on port 3000.
+- **Render:** One Web Service runs the full server (HTTP + Socket.IO). Free tier, same idea as running everything on Fly.io.
+- **Local:** `npm start` → full server on port 3000.
+- **Vercel:** Optional, API-only; use when you don't need WebSockets on that deployment.

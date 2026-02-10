@@ -16,7 +16,7 @@ Modular, pluggable game engine
 
 Room-based multiplayer system
 
-Stateless frontend (Netlify) + Stateful backend (Railway)
+Stateless frontend (Netlify) + Stateful backend (Render)
 
 The system is intentionally designed for easy expansion, clean separation of concerns, and future migration to platforms like AWS, Fly.io, or Render without rewriting code.
 
@@ -70,7 +70,7 @@ Socket handlers
 
 PORT auto-binding for cloud environments
 
-This is the main entrypoint for Railway or any Node hosting provider.
+This is the main entrypoint for Render or any Node hosting provider.
 
 3.2 socketHandlers.js
 
@@ -240,9 +240,9 @@ You can test everything without deploying.
 
 6. Production Deployment Flow
 
-Frontend (Netlify) connects to backend (Railway) via:
+Frontend (Netlify) connects to backend (Render) via:
 
-const socket = io("https://your-railway-url.up.railway.app");
+const socket = io("https://griffinhgames-server.onrender.com");
 
 
 Deployment is automatic whenever you push to GitHub.
