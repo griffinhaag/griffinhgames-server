@@ -4,11 +4,11 @@ const allQuestions = require("./questions.json");
 
 export default {
   id: "buzzin",
-  name: "BuzzIn! Game Show",
-  description: "The ultimate multiplayer trivia face-off! Race to buzz in, answer correctly, and sabotage your friends.",
+  name: "LOCK IN Trivia",
+  description: "Race to buzz in, answer correctly, and sabotage the peeps.",
   minPlayers: 2,
   maxPlayers: 16,
-  icon: "🚨",
+  icon: "💡🦦",
 
   create({ io, room, roomManager }) {
     // Game State
