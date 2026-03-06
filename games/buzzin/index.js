@@ -449,6 +449,34 @@ export default {
             });
             break;
 
+          case "host:shuffleQuestions":
+            if (room.hostSocketId !== socketId) return;
+            if (phase === "lobby" || phase === "countdown") return;
+
+            // Shuffle remaining questions (keep current question, shuffle the rest)
+            if (currentQuestionIndex < questions.length - 1) {
+              const currentQ = questions[currentQuestionIndex];
+              const remainingQuestions = questions.slice(currentQuestionIndex + 1);
+
+              // Fisher-Yates shuffle for remaining questions
+              for (let i = remainingQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [remainingQuestions[i], remainingQuestions[j]] = [remainingQuestions[j], remainingQuestions[i]];
+              }
+
+              // Reconstruct questions array
+              questions = [
+                ...questions.slice(0, currentQuestionIndex + 1),
+                ...remainingQuestions
+              ];
+
+              io.to(room.code).emit("game:event", {
+                type: "questions_shuffled",
+                message: "Remaining questions have been shuffled!"
+              });
+            }
+            break;
+
           case "player:buzz":
             // In new flow: Everyone can buzz to indicate they want to answer
             if (phase !== "question") {
