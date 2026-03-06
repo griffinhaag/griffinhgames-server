@@ -261,13 +261,29 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     socket.on("host:endGame", ({ roomCode }) => {
       const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
       if (!code) return;
-      
+
       const room = roomManager.getRoom(code);
       if (!room || room.hostSocketId !== socket.id) return;
-      
+
       gameEngine.handleGameEvent({
         roomCode: code,
         eventName: "host:endGame",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+
+    // Host skip round (force advance to results/next question)
+    socket.on("host:skipRound", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:skipRound",
         payload: {},
         socketId: socket.id
       });
@@ -291,18 +307,33 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
     // Handle disconnects
     socket.on("disconnect", () => {
+      // Get room info before removing player
+      const roomCode = roomManager.getRoomCodeForSocket(socket.id);
+      const room = roomCode ? roomManager.getRoom(roomCode) : null;
+      const gameInProgress = room?.phase === "in-progress";
+
       const result = roomManager.removePlayerBySocket(socket.id);
 
       if (result && result.roomCode) {
-        const { roomCode, roomDestroyed } = result;
+        const { roomCode: code, roomDestroyed } = result;
 
         if (roomDestroyed) {
-          io.to(roomCode).emit("room:closed");
-          logInfo(`Room ${roomCode} destroyed (last player left).`);
+          io.to(code).emit("room:closed");
+          logInfo(`Room ${code} destroyed (last player left).`);
         } else {
-          const roomState = roomManager.serializeRoom(roomCode);
-          io.to(roomCode).emit("room:state", roomState);
-          logInfo(`Socket ${socket.id} left room ${roomCode}`);
+          // Notify game engine about player disconnect if game is in progress
+          if (gameInProgress) {
+            gameEngine.handleGameEvent({
+              roomCode: code,
+              eventName: "player:disconnected",
+              payload: { socketId: socket.id },
+              socketId: socket.id
+            });
+          }
+
+          const roomState = roomManager.serializeRoom(code);
+          io.to(code).emit("room:state", roomState);
+          logInfo(`Socket ${socket.id} left room ${code}`);
         }
       } else {
         logInfo(`Socket disconnected (no room): ${socket.id}`);

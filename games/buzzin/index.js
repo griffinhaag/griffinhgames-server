@@ -12,19 +12,20 @@ export default {
 
   create({ io, room, roomManager }) {
     // Game State
-    let phase = "lobby"; // lobby, countdown, waiting, question, buzzed, answering, result, end
+    let phase = "lobby"; // lobby, countdown, waiting, question, result, end
     let questions = [];
     let currentQuestionIndex = -1;
     let scores = new Map(); // socketId -> number
-    let buzzState = {
-      locked: false,
-      buzzedPlayerId: null,
-      timestamp: null
-    };
-    let answerTimeout = null; // Timer for answer submission
     let countdownInterval = null; // Countdown timer
     let countdownSeconds = 0;
     let gameSettings = null; // Store categories and question count
+
+    // New state for "everyone answers" mechanic
+    let playerAnswers = new Map(); // socketId -> { answer, timestamp, buzzedAt, isCorrect }
+    let timerDuration = 30; // 5-120 seconds, host configurable
+    let questionTimer = null;
+    let questionStartTime = null;
+    let timerRemaining = 0
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -53,14 +54,35 @@ export default {
 
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
-      
+
+      // Build player buzz/answer status (show who buzzed, but hide answers)
+      const playerBuzzStatus = roomPlayers
+        .filter(p => p.socketId)
+        .map(p => {
+          const answerData = playerAnswers.get(p.socketId);
+          return {
+            socketId: p.socketId,
+            name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
+            hasBuzzed: !!answerData,
+            hasAnswered: !!(answerData?.answer !== undefined)
+          };
+        });
+
       const state = {
         phase,
         currentQuestion: currentQ,
         currentQuestionIndex,
         totalQuestions: questions.length,
+        countdownSeconds: phase === "countdown" ? countdownSeconds : null,
+        // Timer state
+        timerRemaining,
+        timerDuration,
+        // Answer tracking
+        answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
+        totalPlayers: roomPlayers.filter(p => p.socketId).length,
+        playerBuzzStatus,
+        // Scores
         scores: Array.from(scores.entries()).map(([id, score]) => {
-          // Get name from room player or roomManager, with fallback
           const roomPlayer = roomPlayers.find(p => p.socketId === id);
           const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
           return {
@@ -68,30 +90,21 @@ export default {
             name: name,
             score: score
           };
-        }),
-        buzzState: {
-          locked: buzzState.locked,
-          buzzedPlayerId: buzzState.buzzedPlayerId,
-          buzzedPlayerName: buzzState.buzzedPlayerId
-            ? (roomPlayers.find(p => p.socketId === buzzState.buzzedPlayerId)?.name || 
-               roomManager.getPlayerName(buzzState.buzzedPlayerId) || 
-               `Player-${buzzState.buzzedPlayerId.slice(0, 4)}`)
-            : null
-        }
+        })
       };
 
       io.to(room.code).emit("game:state", state);
     }
 
     function nextQuestion() {
-      // Clear any existing answer timeout
-      if (answerTimeout) {
-        clearTimeout(answerTimeout);
-        answerTimeout = null;
-      }
-      
+      // Clear any existing timer
+      stopQuestionTimer();
+
+      // Clear answer state
+      playerAnswers.clear();
+
       currentQuestionIndex++;
-      
+
       if (currentQuestionIndex >= questions.length) {
         endGame();
         return;
@@ -99,25 +112,145 @@ export default {
 
       // First show "waiting" phase - host must click "Show Question"
       phase = "waiting";
-      buzzState = { locked: true, buzzedPlayerId: null, timestamp: null };
-      
+      timerRemaining = timerDuration;
+
       // Initialize scores for any new players
       room.players.forEach((p) => {
         if (p.socketId && !scores.has(p.socketId)) {
           scores.set(p.socketId, 0);
         }
       });
-      
+
       broadcastState();
     }
-    
+
     function showQuestion() {
       if (phase !== "waiting") return;
-      
+
       phase = "question";
-      buzzState = { locked: false, buzzedPlayerId: null, timestamp: null };
-      
+      playerAnswers.clear(); // Reset answers for new question
+
+      // Start the question timer
+      startQuestionTimer();
+
       io.to(room.code).emit("game:event", { type: "question_shown" });
+      broadcastState();
+    }
+
+    // --- Timer Functions ---
+
+    function startQuestionTimer() {
+      questionStartTime = Date.now();
+      timerRemaining = timerDuration;
+
+      questionTimer = setInterval(() => {
+        timerRemaining = Math.max(0, timerDuration - Math.floor((Date.now() - questionStartTime) / 1000));
+        broadcastState();
+
+        if (timerRemaining <= 0) {
+          clearInterval(questionTimer);
+          questionTimer = null;
+          endAnsweringPhase();
+        }
+      }, 1000);
+    }
+
+    function stopQuestionTimer() {
+      if (questionTimer) {
+        clearInterval(questionTimer);
+        questionTimer = null;
+      }
+    }
+
+    function checkAllAnswered() {
+      // Check if all active players have submitted answers
+      const activePlayers = Array.from(room.players.values()).filter(p => p.socketId);
+      const answeredPlayers = Array.from(playerAnswers.values()).filter(a => a.answer !== undefined);
+
+      if (answeredPlayers.length >= activePlayers.length && activePlayers.length > 0) {
+        stopQuestionTimer();
+        endAnsweringPhase();
+      }
+    }
+
+    function endAnsweringPhase() {
+      phase = "result";
+
+      // Calculate scores based on answers
+      const currentQ = questions[currentQuestionIndex];
+      const correctAnswer = currentQ?.answer?.toLowerCase().trim();
+
+      // Find first correct answer by timestamp
+      let firstCorrectId = null;
+      let firstCorrectTime = Infinity;
+      let firstBuzzTime = Infinity;
+
+      // First pass: determine correctness and find first correct
+      playerAnswers.forEach((data, socketId) => {
+        const playerAnswer = data.answer?.toLowerCase().trim();
+        const isCorrect = playerAnswer === correctAnswer;
+        data.isCorrect = isCorrect;
+
+        if (isCorrect && data.timestamp) {
+          // Use timestamp as primary, buzzedAt as tiebreaker
+          if (data.timestamp < firstCorrectTime ||
+              (data.timestamp === firstCorrectTime && data.buzzedAt < firstBuzzTime)) {
+            firstCorrectTime = data.timestamp;
+            firstBuzzTime = data.buzzedAt;
+            firstCorrectId = socketId;
+          }
+        }
+      });
+
+      // Second pass: award points
+      const results = [];
+      playerAnswers.forEach((data, socketId) => {
+        const roomPlayer = room.players.get(socketId);
+        const playerName = roomPlayer?.name || roomManager.getPlayerName(socketId) || `Player-${socketId.slice(0, 4)}`;
+
+        let points = 0;
+        let eventType = null;
+
+        if (data.isCorrect) {
+          if (socketId === firstCorrectId) {
+            points = 150; // First correct bonus
+            eventType = "first_correct";
+          } else {
+            points = 100; // Standard correct
+            eventType = "correct";
+          }
+          const oldScore = scores.get(socketId) || 0;
+          scores.set(socketId, oldScore + points);
+        }
+        // Wrong or no answer = 0 points (no penalty)
+
+        results.push({
+          socketId,
+          name: playerName,
+          answer: data.answer || "(No answer)",
+          isCorrect: data.isCorrect || false,
+          isFirstCorrect: socketId === firstCorrectId,
+          points,
+          buzzedAt: data.buzzedAt
+        });
+
+        // Emit individual events for animations
+        if (eventType) {
+          io.to(room.code).emit("game:event", {
+            type: eventType,
+            playerId: socketId,
+            points
+          });
+        }
+      });
+
+      // Emit round results with all answers revealed
+      io.to(room.code).emit("game:event", {
+        type: "round_results",
+        correctAnswer: currentQ?.answer,
+        results: results.sort((a, b) => (b.isFirstCorrect ? 1 : 0) - (a.isFirstCorrect ? 1 : 0))
+      });
+
       broadcastState();
     }
 
@@ -142,18 +275,15 @@ export default {
     
     function endGame(reason = "ended") {
       // Clear all timers
-      if (answerTimeout) {
-        clearTimeout(answerTimeout);
-        answerTimeout = null;
-      }
+      stopQuestionTimer();
       if (countdownInterval) {
         clearInterval(countdownInterval);
         countdownInterval = null;
       }
-      
+
       phase = "end";
       broadcastState();
-      
+
       io.to(room.code).emit("game:event", {
         type: "game_ended",
         reason: reason
@@ -190,10 +320,12 @@ export default {
               return;
             }
             
-            // Store settings for restart
+            // Store settings for restart (including timer duration)
+            timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
             gameSettings = {
               categories: selectedCategories,
-              questionCount: payload?.questionCount || 10
+              questionCount: payload?.questionCount || 10,
+              timerDuration: timerDuration
             };
             
             let filteredQuestions = allQuestions.filter(q => 
@@ -247,19 +379,19 @@ export default {
               });
               return;
             }
-            
+
             // Reset game state
             currentQuestionIndex = -1;
             phase = "lobby";
-            buzzState = { locked: false, buzzedPlayerId: null, timestamp: null };
-            if (answerTimeout) {
-              clearTimeout(answerTimeout);
-              answerTimeout = null;
-            }
+            playerAnswers.clear();
+            stopQuestionTimer();
             if (countdownInterval) {
               clearInterval(countdownInterval);
               countdownInterval = null;
             }
+
+            // Restore timer duration from settings
+            timerDuration = gameSettings.timerDuration || 30;
             
             // Reset all scores
             room.players.forEach((p) => {
@@ -295,120 +427,104 @@ export default {
 
           case "host:nextQuestion":
             if (room.hostSocketId !== socketId) return;
-            if (phase === "result" || phase === "buzzed") {
+            if (phase === "result") {
               nextQuestion();
             }
             break;
 
+          case "host:skipRound":
+            if (room.hostSocketId !== socketId) return;
+            if (phase !== "question" && phase !== "result") return;
+
+            stopQuestionTimer();
+
+            if (phase === "question") {
+              // Force end the answering phase with current answers
+              endAnsweringPhase();
+            }
+
+            // Emit skip event
+            io.to(room.code).emit("game:event", {
+              type: "round_skipped"
+            });
+            break;
+
           case "player:buzz":
-            // Validate: can only buzz if phase is 'question' and not locked
-            // Host can also buzz (they're a player too)
+            // In new flow: Everyone can buzz to indicate they want to answer
             if (phase !== "question") {
               return; // Silently ignore if not in question phase
             }
-            
-            if (buzzState.locked) {
-              return; // Already locked, ignore duplicate buzz
-            }
-            
+
             // Check if player exists in room (host is also a player)
             if (!room.players.has(socketId)) {
               return; // Player not in room
             }
 
-            // Lock the buzzer atomically
-            buzzState.locked = true;
-            buzzState.buzzedPlayerId = socketId;
-            buzzState.timestamp = Date.now();
-            phase = "buzzed";
+            // Check if player already buzzed
+            if (playerAnswers.has(socketId)) {
+              return; // Already buzzed, ignore
+            }
 
-            // Broadcast immediately
-            broadcastState();
-            io.to(room.code).emit("game:event", { 
-              type: "buzz", 
-              playerId: socketId 
+            // Record buzz timestamp (answer will come later)
+            playerAnswers.set(socketId, {
+              answer: undefined,
+              timestamp: null,
+              buzzedAt: Date.now(),
+              isCorrect: false
             });
-            
-            // Start answer timeout (30 seconds)
-            answerTimeout = setTimeout(() => {
-              if (phase === "buzzed" && buzzState.buzzedPlayerId === socketId) {
-                // Timeout - deduct points
-                const oldScore = scores.get(socketId) || 0;
-                scores.set(socketId, oldScore - 25);
-                
-                io.to(room.code).emit("game:event", {
-                  type: "timeout",
-                  playerId: socketId,
-                  points: -25
-                });
-                
-                phase = "result";
-                broadcastState();
-              }
-            }, 30000);
+
+            const buzzerName = room.players.get(socketId)?.name ||
+              roomManager.getPlayerName(socketId) ||
+              `Player-${socketId.slice(0, 4)}`;
+
+            io.to(room.code).emit("game:event", {
+              type: "player_buzzed",
+              playerId: socketId,
+              playerName: buzzerName
+            });
+
+            broadcastState();
             break;
             
           case "player:submitAnswer":
-            // Player submits their answer
-            if (phase !== "buzzed" || buzzState.buzzedPlayerId !== socketId) {
-              return; // Not the buzzer or wrong phase
-            }
-            
-            // Clear timeout since answer was submitted
-            if (answerTimeout) {
-              clearTimeout(answerTimeout);
-              answerTimeout = null;
-            }
-            
-            // Move to answering phase (host will judge)
-            phase = "answering";
-            broadcastState();
-            break;
-
-          case "host:judgeAnswer":
-            if (room.hostSocketId !== socketId) return;
-            if (phase !== "buzzed" && phase !== "answering") return;
-            
-            // payload: { correct: true/false }
-            const buzzerId = buzzState.buzzedPlayerId;
-            if (!buzzerId) return;
-            
-            // Clear timeout if still active
-            if (answerTimeout) {
-              clearTimeout(answerTimeout);
-              answerTimeout = null;
+            // In new flow: Any player can submit their answer
+            if (phase !== "question") {
+              return; // Wrong phase
             }
 
-            if (payload.correct === true) {
-              // Correct! +100 points
-              const oldScore = scores.get(buzzerId) || 0;
-              scores.set(buzzerId, oldScore + 100);
-              
-              io.to(room.code).emit("game:event", { 
-                type: "correct", 
-                playerId: buzzerId,
-                points: 100
+            // Check if player exists in room
+            if (!room.players.has(socketId)) {
+              return;
+            }
+
+            const existingData = playerAnswers.get(socketId);
+
+            if (!existingData) {
+              // Player hasn't buzzed yet - auto-buzz and submit in one action
+              playerAnswers.set(socketId, {
+                answer: payload?.answer || "",
+                timestamp: Date.now(),
+                buzzedAt: Date.now(),
+                isCorrect: false
               });
-              
-              phase = "result";
-              
-            } else if (payload.correct === false) {
-              // Wrong! -50 points
-              const oldScore = scores.get(buzzerId) || 0;
-              scores.set(buzzerId, oldScore - 50);
-              
-              io.to(room.code).emit("game:event", { 
-                type: "wrong", 
-                playerId: buzzerId,
-                points: -50
-              });
-
-              phase = "result";
+            } else if (existingData.answer === undefined) {
+              // Player buzzed but hasn't answered yet
+              existingData.answer = payload?.answer || "";
+              existingData.timestamp = Date.now();
+            } else {
+              // Already answered - ignore
+              return;
             }
+
+            io.to(room.code).emit("game:event", {
+              type: "player_answered",
+              playerId: socketId
+            });
 
             broadcastState();
+            checkAllAnswered();
             break;
-            
+
           case "host:overrideScore":
              if (room.hostSocketId !== socketId) return;
              // payload: { playerId, delta }
@@ -420,53 +536,73 @@ export default {
              break;
              
           case "player:joined":
-             // When a player joins an in-progress game, initialize their score
-             checkAndAddPlayer(socketId);
-             // Broadcast state so the new player gets it
-             broadcastState();
-             break;
+            // When a player joins an in-progress game, initialize their score
+            checkAndAddPlayer(socketId);
+            // Broadcast state so the new player gets it
+            broadcastState();
+            break;
+
+          case "player:disconnected":
+            // Handle player disconnection mid-game
+            playerAnswers.delete(socketId);
+            scores.delete(socketId);
+
+            // Check if all remaining players have answered
+            if (phase === "question") {
+              checkAllAnswered();
+            }
+            broadcastState();
+            break;
         }
       },
 
       getState() {
         const roomPlayers = Array.from(room.players.values());
+
+        // Build player buzz/answer status
+        const playerBuzzStatus = roomPlayers
+          .filter(p => p.socketId)
+          .map(p => {
+            const answerData = playerAnswers.get(p.socketId);
+            return {
+              socketId: p.socketId,
+              name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
+              hasBuzzed: !!answerData,
+              hasAnswered: !!(answerData?.answer !== undefined)
+            };
+          });
+
         return {
-            phase,
-            countdownSeconds: phase === "countdown" ? countdownSeconds : null,
-            currentQuestionIndex,
-            totalQuestions: questions.length,
-            currentQuestion: currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
-              ? questions[currentQuestionIndex]
-              : null,
-            scores: Array.from(scores.entries()).map(([id, score]) => {
-              const roomPlayer = roomPlayers.find(p => p.socketId === id);
-              const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
-              return { socketId: id, name, score };
-            }),
-            buzzState: {
-              locked: buzzState.locked,
-              buzzedPlayerId: buzzState.buzzedPlayerId,
-              buzzedPlayerName: buzzState.buzzedPlayerId
-                ? (roomPlayers.find(p => p.socketId === buzzState.buzzedPlayerId)?.name || 
-                   roomManager.getPlayerName(buzzState.buzzedPlayerId) || 
-                   `Player-${buzzState.buzzedPlayerId.slice(0, 4)}`)
-                : null
-            }
+          phase,
+          countdownSeconds: phase === "countdown" ? countdownSeconds : null,
+          currentQuestionIndex,
+          totalQuestions: questions.length,
+          currentQuestion: currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
+            ? questions[currentQuestionIndex]
+            : null,
+          timerRemaining,
+          timerDuration,
+          answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
+          totalPlayers: roomPlayers.filter(p => p.socketId).length,
+          playerBuzzStatus,
+          scores: Array.from(scores.entries()).map(([id, score]) => {
+            const roomPlayer = roomPlayers.find(p => p.socketId === id);
+            const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
+            return { socketId: id, name, score };
+          })
         };
       },
 
       teardown() {
-        // Cleanup if needed
-        if (answerTimeout) {
-          clearTimeout(answerTimeout);
-          answerTimeout = null;
-        }
+        // Cleanup timers
+        stopQuestionTimer();
         if (countdownInterval) {
           clearInterval(countdownInterval);
           countdownInterval = null;
         }
         questions = [];
         scores.clear();
+        playerAnswers.clear();
         gameSettings = null;
       }
     };
