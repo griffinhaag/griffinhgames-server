@@ -1,6 +1,63 @@
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-const allQuestions = require("./questions.json");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Load questions from category files
+function loadAllQuestions() {
+  const categoriesDir = path.join(__dirname, "categories");
+  const questions = [];
+
+  // Category name mapping (filename to display name)
+  const categoryNames = {
+    "general-knowledge": "General Knowledge",
+    "science": "Science",
+    "movies-tv": "Movies & TV",
+    "music": "Music",
+    "sports": "Sports",
+    "history": "History",
+    "geography": "Geography",
+    "pop-culture": "Pop Culture",
+    "games": "Games",
+    "random": "Random"
+  };
+
+  try {
+    const files = fs.readdirSync(categoriesDir);
+
+    for (const file of files) {
+      if (file.endsWith(".json")) {
+        const filePath = path.join(categoriesDir, file);
+        const categoryKey = file.replace(".json", "");
+        const categoryName = categoryNames[categoryKey] || categoryKey;
+
+        try {
+          const fileContents = fs.readFileSync(filePath, "utf-8");
+          const categoryQuestions = JSON.parse(fileContents);
+
+          // Add category to each question
+          for (const q of categoryQuestions) {
+            questions.push({
+              ...q,
+              category: categoryName
+            });
+          }
+        } catch (parseError) {
+          console.error(`Error loading ${file}:`, parseError.message);
+        }
+      }
+    }
+  } catch (dirError) {
+    console.error("Error reading categories directory:", dirError.message);
+  }
+
+  return questions;
+}
+
+const allQuestions = loadAllQuestions();
+console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
 
 export default {
   id: "buzzin",
@@ -78,6 +135,10 @@ export default {
           ? questions[currentQuestionIndex]
           : null;
 
+      // Determine if this is an "OFF THE DOME" question (last 3 questions are typing-based)
+      const isOffTheDome = currentQuestionIndex >= 0 &&
+        (questions.length - currentQuestionIndex) <= 3;
+
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
 
@@ -94,15 +155,26 @@ export default {
           };
         });
 
+      // Check if this is the first OFF THE DOME question (show announcement)
+      const isFirstOffTheDome = isOffTheDome &&
+        currentQuestionIndex === questions.length - 3;
+
       const state = {
         phase,
-        currentQuestion: currentQ,
+        currentQuestion: currentQ ? {
+          ...currentQ,
+          // Only include choices if NOT an OFF THE DOME question
+          choices: isOffTheDome ? null : (currentQ.choices || null)
+        } : null,
         currentQuestionIndex,
         totalQuestions: questions.length,
         countdownSeconds: phase === "countdown" ? countdownSeconds : null,
         // Timer state
         timerRemaining,
         timerDuration,
+        // OFF THE DOME state
+        isOffTheDome,
+        isFirstOffTheDome,
         // Answer tracking
         answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
         totalPlayers: roomPlayers.filter(p => p.socketId).length,
@@ -481,7 +553,6 @@ export default {
 
             // Shuffle remaining questions (keep current question, shuffle the rest)
             if (currentQuestionIndex < questions.length - 1) {
-              const currentQ = questions[currentQuestionIndex];
               const remainingQuestions = questions.slice(currentQuestionIndex + 1);
 
               // Fisher-Yates shuffle for remaining questions
@@ -651,16 +722,29 @@ export default {
             };
           });
 
+        // Determine if OFF THE DOME
+        const isOffTheDome = currentQuestionIndex >= 0 &&
+          (questions.length - currentQuestionIndex) <= 3;
+        const isFirstOffTheDome = isOffTheDome &&
+          currentQuestionIndex === questions.length - 3;
+
+        const currentQ = currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
+          ? questions[currentQuestionIndex]
+          : null;
+
         return {
           phase,
           countdownSeconds: phase === "countdown" ? countdownSeconds : null,
           currentQuestionIndex,
           totalQuestions: questions.length,
-          currentQuestion: currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
-            ? questions[currentQuestionIndex]
-            : null,
+          currentQuestion: currentQ ? {
+            ...currentQ,
+            choices: isOffTheDome ? null : (currentQ.choices || null)
+          } : null,
           timerRemaining,
           timerDuration,
+          isOffTheDome,
+          isFirstOffTheDome,
           answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
           totalPlayers: roomPlayers.filter(p => p.socketId).length,
           playerBuzzStatus,
