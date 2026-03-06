@@ -16,6 +16,7 @@ export default {
     let questions = [];
     let currentQuestionIndex = -1;
     let scores = new Map(); // socketId -> number
+    let scoresByName = new Map(); // playerName -> number (for reconnection)
     let countdownInterval = null; // Countdown timer
     let countdownSeconds = 0;
     let gameSettings = null; // Store categories and question count
@@ -31,18 +32,43 @@ export default {
     room.players.forEach((p) => {
       if (p.socketId && p.name) {
         scores.set(p.socketId, 0);
+        scoresByName.set(p.name.toLowerCase(), 0);
       }
     });
-    
-    // Listen for new players joining and initialize their scores
-    const checkAndAddPlayer = (socketId) => {
-      if (!scores.has(socketId)) {
-        const player = room.players.get(socketId);
-        if (player) {
-          scores.set(socketId, 0);
+
+    // Listen for new players joining and initialize/restore their scores
+    const checkAndAddPlayer = (socketId, isReconnecting = false) => {
+      const player = room.players.get(socketId);
+      if (!player) return;
+
+      const playerName = player.name;
+      const nameLower = playerName?.toLowerCase();
+
+      if (isReconnecting && nameLower && scoresByName.has(nameLower)) {
+        // Restore score for reconnecting player
+        const savedScore = scoresByName.get(nameLower);
+        scores.set(socketId, savedScore);
+        logInfo(`Restored score ${savedScore} for reconnecting player ${playerName}`);
+      } else if (!scores.has(socketId)) {
+        // New player, initialize score
+        scores.set(socketId, 0);
+        if (nameLower) {
+          scoresByName.set(nameLower, 0);
         }
       }
     };
+
+    // Helper to update scoresByName when scores change
+    const updateScoreByName = (socketId, score) => {
+      scores.set(socketId, score);
+      const player = room.players.get(socketId);
+      if (player?.name) {
+        scoresByName.set(player.name.toLowerCase(), score);
+      }
+    };
+
+    // Import logger for reconnection logging
+    const logInfo = (msg) => console.log(`[BuzzIn] ${msg}`);
 
     // --- Helper Functions ---
 
@@ -220,7 +246,7 @@ export default {
             eventType = "correct";
           }
           const oldScore = scores.get(socketId) || 0;
-          scores.set(socketId, oldScore + points);
+          updateScoreByName(socketId, oldScore + points);
         }
         // Wrong or no answer = 0 points (no penalty)
 
@@ -564,16 +590,41 @@ export default {
              break;
              
           case "player:joined":
-            // When a player joins an in-progress game, initialize their score
-            checkAndAddPlayer(socketId);
+            // When a player joins an in-progress game, initialize or restore their score
+            const isReconnecting = payload?.isReconnecting || false;
+            checkAndAddPlayer(socketId, isReconnecting);
             // Broadcast state so the new player gets it
             broadcastState();
+
+            if (isReconnecting) {
+              const player = room.players.get(socketId);
+              io.to(room.code).emit("game:event", {
+                type: "player_reconnected",
+                playerName: player?.name || "Player",
+                playerId: socketId
+              });
+            }
             break;
 
           case "player:disconnected":
             // Handle player disconnection mid-game
+            // Note: Score is preserved in scoresByName for reconnection
+            // The score by socketId is removed, but scoresByName keeps it
+            const disconnectedPlayer = room.players.get(socketId);
+            if (disconnectedPlayer?.name) {
+              const currentScore = scores.get(socketId) || 0;
+              scoresByName.set(disconnectedPlayer.name.toLowerCase(), currentScore);
+              logInfo(`Saved score ${currentScore} for disconnected player ${disconnectedPlayer.name}`);
+            }
+
             playerAnswers.delete(socketId);
             scores.delete(socketId);
+
+            // Notify others of disconnection
+            io.to(room.code).emit("game:event", {
+              type: "player_disconnected",
+              playerName: disconnectedPlayer?.name || "Player"
+            });
 
             // Check if all remaining players have answered
             if (phase === "question") {

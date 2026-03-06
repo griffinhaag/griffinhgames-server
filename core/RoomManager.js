@@ -10,7 +10,10 @@ export function createRoomManager() {
   const names = new Map();
   // Map<roomCode, timeoutId>
   const destructionTimers = new Map();
-  const GRACE_PERIOD_MS = 10000; // 10 seconds to rejoin
+  // Map<roomCode, Map<playerName, DisconnectedPlayer>>
+  const disconnectedPlayers = new Map();
+  const GRACE_PERIOD_MS = 60000; // 60 seconds to rejoin (increased for reconnection)
+  const PLAYER_RECONNECT_WINDOW_MS = 300000; // 5 minutes to reconnect as same player
 
   function createRoom({ hostSocketId, gameType = null }) {
     let code;
@@ -51,14 +54,36 @@ export function createRoomManager() {
     }
 
     const room = rooms.get(roomCode);
-    if (!room) return false;
+    if (!room) return { success: false };
 
-    // If room has no host (e.g. host disconnected and room was empty), assign this player as host
-    // Or if the requested isHost is true (though usually we respect the room's state)
-    // Better logic: If no active host in room, make this player host.
-    let finalIsHost = isHost;
+    // Check if this is a reconnecting player
+    let isReconnecting = false;
+    let wasHost = false;
+    const roomDisconnected = disconnectedPlayers.get(roomCode);
+    if (roomDisconnected && name) {
+      const disconnectedData = roomDisconnected.get(name.toLowerCase());
+      if (disconnectedData) {
+        isReconnecting = true;
+        wasHost = disconnectedData.wasHost;
+        // Clear the disconnected player data
+        roomDisconnected.delete(name.toLowerCase());
+        if (roomDisconnected.size === 0) {
+          disconnectedPlayers.delete(roomCode);
+        }
+        logInfo(`Player ${name} reconnecting to room ${roomCode} (was host: ${wasHost})`);
+      }
+    }
+
+    // Determine if this player should be host
+    let finalIsHost = isHost || wasHost;
+
+    // If room has no active host, this player becomes host
     if (!room.hostSocketId || !room.players.has(room.hostSocketId)) {
       finalIsHost = true;
+    }
+
+    // If this reconnecting player was the host, restore their host status
+    if (finalIsHost) {
       room.hostSocketId = socketId;
     }
 
@@ -79,7 +104,7 @@ export function createRoomManager() {
 
     names.set(socketId, name);
 
-    return true;
+    return { success: true, isReconnecting, wasHost };
   }
 
   function removePlayerBySocket(socketId) {
@@ -97,6 +122,40 @@ export function createRoomManager() {
       return null;
     }
 
+    // Get player data before removing
+    const player = room.players.get(socketId);
+    const playerName = player?.name || names.get(socketId);
+
+    // Save disconnected player data for potential reconnection
+    if (playerName && player) {
+      if (!disconnectedPlayers.has(roomCode)) {
+        disconnectedPlayers.set(roomCode, new Map());
+      }
+      const roomDisconnected = disconnectedPlayers.get(roomCode);
+      roomDisconnected.set(playerName.toLowerCase(), {
+        name: playerName,
+        wasHost: player.isHost,
+        disconnectedAt: Date.now(),
+        originalSocketId: socketId
+      });
+      logInfo(`Saved disconnected player ${playerName} in room ${roomCode} for reconnection`);
+
+      // Schedule cleanup of disconnected player data
+      setTimeout(() => {
+        const roomDisc = disconnectedPlayers.get(roomCode);
+        if (roomDisc) {
+          const data = roomDisc.get(playerName.toLowerCase());
+          if (data && data.originalSocketId === socketId) {
+            roomDisc.delete(playerName.toLowerCase());
+            logInfo(`Cleared reconnection data for ${playerName} in room ${roomCode}`);
+            if (roomDisc.size === 0) {
+              disconnectedPlayers.delete(roomCode);
+            }
+          }
+        }
+      }, PLAYER_RECONNECT_WINDOW_MS);
+    }
+
     room.players.delete(socketId);
     room.updatedAt = Date.now();
     playerIndex.delete(socketId);
@@ -109,28 +168,25 @@ export function createRoomManager() {
       const timer = setTimeout(() => {
         if (rooms.has(roomCode)) {
           deleteRoom(roomCode);
+          disconnectedPlayers.delete(roomCode); // Clean up disconnected players too
           logInfo(`Room ${roomCode} destroyed (empty after grace period).`);
         }
         destructionTimers.delete(roomCode);
       }, GRACE_PERIOD_MS);
-      
+
       destructionTimers.set(roomCode, timer);
       logInfo(`Room ${roomCode} empty, scheduled destruction in ${GRACE_PERIOD_MS}ms`);
-      
+
       // Return false so we don't emit room:closed yet
       roomDestroyed = false;
     } else if (room.hostSocketId === socketId) {
-      // Host left: promote a new host
-      const [newHost] = room.players.values();
-      if (newHost) {
-        newHost.isHost = true;
-        room.hostSocketId = newHost.socketId;
-        room.updatedAt = Date.now();
-      }
-      // If no new host found (should be covered by size===0 check), logic flows through
+      // Host left: DON'T promote a new host immediately - wait for reconnection
+      // Only promote if there are other players and host doesn't reconnect
+      logInfo(`Host ${playerName} disconnected from room ${roomCode}, waiting for reconnection`);
+      // We'll handle host promotion in addPlayerToRoom if someone else joins
     }
 
-    return { roomCode, roomDestroyed };
+    return { roomCode, roomDestroyed, playerName, wasHost: player?.isHost };
   }
 
   function getRoomCodeForSocket(socketId) {
@@ -178,6 +234,16 @@ export function createRoomManager() {
     };
   }
 
+  function getDisconnectedPlayer(roomCode, playerName) {
+    const roomDisconnected = disconnectedPlayers.get(roomCode);
+    if (!roomDisconnected || !playerName) return null;
+    return roomDisconnected.get(playerName.toLowerCase()) || null;
+  }
+
+  function isPlayerReconnecting(roomCode, playerName) {
+    return !!getDisconnectedPlayer(roomCode, playerName);
+  }
+
   return {
     createRoom,
     getRoom,
@@ -187,6 +253,8 @@ export function createRoomManager() {
     getRoomCodeForSocket,
     serializeRoom,
     setPlayerName,
-    getPlayerName
+    getPlayerName,
+    getDisconnectedPlayer,
+    isPlayerReconnecting
   };
 }

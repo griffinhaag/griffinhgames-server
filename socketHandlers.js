@@ -34,13 +34,13 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         gameType: gameType || "buzzin" // Default to buzzin
       });
 
-      const added = roomManager.addPlayerToRoom(room.code, {
+      const addResult = roomManager.addPlayerToRoom(room.code, {
         socketId: socket.id,
         name: playerName,
         isHost: true
       });
 
-      if (!added) {
+      if (!addResult.success) {
         socket.emit("room:error", "Failed to add host to room.");
         return;
       }
@@ -57,7 +57,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     });
 
     // Player joins an existing room by code
-    socket.on("player:joinRoom", ({ roomCode, name }) => {
+    socket.on("player:joinRoom", ({ roomCode, name, isHost: claimsHost }) => {
       const code = typeof roomCode === "string"
         ? roomCode.trim().toUpperCase()
         : "";
@@ -82,30 +82,35 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (finalName.length > 20) {
         finalName = finalName.substring(0, 20);
       }
-      
+
       // Store name immediately
       roomManager.setPlayerName(socket.id, finalName);
 
-      // Prevent host from joining their own room as a player
-      if (room.hostSocketId === socket.id && room.players.has(socket.id)) {
-        // Host is already in the room, just send current state
+      // Check if this socket is already in the room
+      if (room.players.has(socket.id)) {
+        // Already in the room, just send current state
         socket.join(code);
         const roomState = roomManager.serializeRoom(code);
         socket.emit("room:state", roomState);
-        logInfo(`Host ${socket.id} reconnected to room ${code}`);
+        logInfo(`Player ${socket.id} reconnected to room ${code}`);
         return;
       }
-      
-      // Check if this player should be host (if room has no active host)
-      const shouldBeHost = !room.hostSocketId || !room.players.has(room.hostSocketId);
 
-      const joined = roomManager.addPlayerToRoom(code, {
+      // Check if room has an active host (host socket exists AND is in players)
+      const hasActiveHost = room.hostSocketId && room.players.has(room.hostSocketId);
+
+      // Determine if this player should be host:
+      // 1. If room has no active host, first joiner becomes host
+      // 2. If player claims to be host (from setup redirect) and no active host, they become host
+      const shouldBeHost = !hasActiveHost || (claimsHost && !hasActiveHost);
+
+      const joinResult = roomManager.addPlayerToRoom(code, {
         socketId: socket.id,
         name: finalName,
         isHost: shouldBeHost
       });
 
-      if (!joined) {
+      if (!joinResult.success) {
         socket.emit("room:error", "Unable to join room.");
         return;
       }
@@ -114,19 +119,22 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       const roomState = roomManager.serializeRoom(code);
       io.to(code).emit("room:state", roomState);
-      
-      // If game is in progress, send current game state to the new player
+
+      // If game is in progress, send current game state to the player
       if (roomState.phase === "in-progress") {
-        // Trigger player:joined event so game can broadcast state
+        // Trigger player:joined event so game can restore state
         gameEngine.handleGameEvent({
           roomCode: code,
           eventName: "player:joined",
-          payload: {},
+          payload: { isReconnecting: joinResult.isReconnecting },
           socketId: socket.id
         });
       }
 
-      logInfo(`Socket ${socket.id} joined room ${code}${shouldBeHost ? ' as host' : ''}`);
+      const statusMsg = joinResult.isReconnecting
+        ? ` (reconnected${joinResult.wasHost ? ', restored as host' : ''})`
+        : (shouldBeHost ? ' as host' : '');
+      logInfo(`Socket ${socket.id} joined room ${code}${statusMsg}`);
     });
 
     // Generic "get current room state"
@@ -284,6 +292,22 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       gameEngine.handleGameEvent({
         roomCode: code,
         eventName: "host:skipRound",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+
+    // Host shuffle remaining questions
+    socket.on("host:shuffleQuestions", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+
+      const room = roomManager.getRoom(code);
+      if (!room || room.hostSocketId !== socket.id) return;
+
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:shuffleQuestions",
         payload: {},
         socketId: socket.id
       });
