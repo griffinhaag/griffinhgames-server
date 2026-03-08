@@ -138,6 +138,7 @@ export default {
     let timerRemaining = 0
     let activeTimerDuration = 30; // Timer duration for the current question (may differ for OFF THE DOME)
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
+    let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -350,6 +351,11 @@ export default {
       const currentQ = questions[currentQuestionIndex];
       const correctAnswer = currentQ?.answer?.toLowerCase().trim();
 
+      // Only use fuzzy matching for OFF THE DOME (free-text) questions;
+      // multiple choice answers must match exactly since options are concrete.
+      const isOTD = currentQuestionIndex >= 0 &&
+        (questions.length - currentQuestionIndex) <= 3;
+
       // Find first correct answer by timestamp
       let firstCorrectId = null;
       let firstCorrectTime = Infinity;
@@ -358,7 +364,9 @@ export default {
       // First pass: determine correctness and find first correct
       playerAnswers.forEach((data, socketId) => {
         const playerAnswer = data.answer?.toLowerCase().trim();
-        const isCorrect = fuzzyMatch(playerAnswer || "", correctAnswer || "");
+        const isCorrect = isOTD
+          ? fuzzyMatch(playerAnswer || "", correctAnswer || "")
+          : (playerAnswer === correctAnswer);
         data.isCorrect = isCorrect;
 
         if (isCorrect && data.timestamp) {
@@ -382,12 +390,12 @@ export default {
         let eventType = null;
 
         if (data.isCorrect && !skipPoints) {
-          if (socketId === firstCorrectId) {
-            points = 150; // First correct bonus
+          if (socketId === firstCorrectId && firstBonusEnabled) {
+            points = 150; // First correct bonus (+50)
             eventType = "first_correct";
           } else {
             points = 100; // Standard correct
-            eventType = "correct";
+            eventType = socketId === firstCorrectId ? "first_correct" : "correct";
           }
           const oldScore = scores.get(socketId) || 0;
           updateScoreByName(socketId, oldScore + points);
@@ -492,10 +500,12 @@ export default {
             
             // Store settings for restart (including timer duration)
             timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
+            firstBonusEnabled = payload?.bonusFirstCorrect !== false;
             gameSettings = {
               categories: selectedCategories,
               questionCount: payload?.questionCount || 10,
-              timerDuration: timerDuration
+              timerDuration: timerDuration,
+              bonusFirstCorrect: firstBonusEnabled
             };
             
             let filteredQuestions = allQuestions.filter(q =>
@@ -572,6 +582,12 @@ export default {
               gameSettings.timerDuration = payload.timerDuration;
             } else {
               timerDuration = gameSettings.timerDuration || 30;
+            }
+            if (payload.bonusFirstCorrect !== undefined) {
+              firstBonusEnabled = payload.bonusFirstCorrect !== false;
+              gameSettings.bonusFirstCorrect = firstBonusEnabled;
+            } else {
+              firstBonusEnabled = gameSettings.bonusFirstCorrect !== false;
             }
             activeTimerDuration = timerDuration;
 
