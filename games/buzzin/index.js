@@ -430,20 +430,20 @@ export default {
               selectedCategories.includes(q.category)
             );
             
-            // Get question count (5-50, default 10)
-            const requestedCount = Math.min(
-              Math.max(5, gameSettings.questionCount),
-              50
-            );
-            
-            // Validate we have enough questions
-            if (filteredQuestions.length < requestedCount) {
+            // Ensure at least 5 questions are available
+            if (filteredQuestions.length < 5) {
               io.to(socketId).emit("game:event", {
                 type: "error",
-                message: `Only ${filteredQuestions.length} questions available for selected categories. Please select more categories or reduce question count.`
+                message: `Not enough questions in selected categories (found ${filteredQuestions.length}). Please select more categories.`
               });
               return;
             }
+
+            // Cap at actual available count (no arbitrary limit)
+            const requestedCount = Math.min(
+              Math.max(5, gameSettings.questionCount),
+              filteredQuestions.length
+            );
             
             // Shuffle and select questions
             questions = filteredQuestions
