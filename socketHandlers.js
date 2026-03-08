@@ -1,6 +1,18 @@
 import { logInfo, logWarn } from "./utils/logger.js";
 
 export default function registerSocketHandlers(io, roomManager, gameEngine) {
+  // Helper: returns true if socketId is the host (handles stale hostSocketId after reconnect)
+  function checkIsHost(socket, room) {
+    if (!room) return false;
+    if (room.hostSocketId === socket.id) return true;
+    const player = room.players.get(socket.id);
+    if (player?.isHost) {
+      room.hostSocketId = socket.id; // Fix stale reference after reconnect
+      return true;
+    }
+    return false;
+  }
+
   io.on("connection", (socket) => {
     logInfo(`Socket connected: ${socket.id}`);
 
@@ -161,7 +173,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       // Validate host
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) {
+      if (!checkIsHost(socket, room)) {
         socket.emit("room:error", "Only the host can start the game.");
         return;
       }
@@ -181,7 +193,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!code) return;
       
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
       
       gameEngine.handleGameEvent({
         roomCode: code,
@@ -210,7 +222,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!code) return;
       
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
       
       gameEngine.handleGameEvent({
         roomCode: code,
@@ -239,7 +251,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!code) return;
       
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
       
       gameEngine.handleGameEvent({
         roomCode: code,
@@ -250,28 +262,52 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     });
     
     // Host restart game
-    socket.on("host:restartGame", ({ roomCode }) => {
+    socket.on("host:restartGame", ({ roomCode, ...restPayload }) => {
       const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
       if (!code) return;
       
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
       
       gameEngine.handleGameEvent({
         roomCode: code,
         eventName: "host:restartGame",
-        payload: {},
+        payload: restPayload,
         socketId: socket.id
       });
     });
     
+    // Host kick player
+    socket.on("host:kickPlayer", ({ roomCode, socketId: targetSocketId }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      const room = roomManager.getRoom(code);
+      if (!checkIsHost(socket, room)) return;
+      if (!targetSocketId || targetSocketId === socket.id) return; // can't kick self
+
+      // Notify the kicked player
+      const targetSocket = io.sockets.sockets.get(targetSocketId);
+      if (targetSocket) {
+        targetSocket.emit("player:kicked");
+        targetSocket.leave(code);
+      }
+
+      // Remove from room
+      roomManager.removePlayerBySocket(targetSocketId);
+
+      // Broadcast updated room state
+      const roomState = roomManager.serializeRoom(code);
+      io.to(code).emit("room:state", roomState);
+      logInfo(`Host kicked player ${targetSocketId} from room ${code}`);
+    });
+
     // Host end game
     socket.on("host:endGame", ({ roomCode }) => {
       const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
       if (!code) return;
 
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
 
       gameEngine.handleGameEvent({
         roomCode: code,
@@ -287,7 +323,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!code) return;
 
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
 
       gameEngine.handleGameEvent({
         roomCode: code,
@@ -303,11 +339,39 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!code) return;
 
       const room = roomManager.getRoom(code);
-      if (!room || room.hostSocketId !== socket.id) return;
+      if (!checkIsHost(socket, room)) return;
 
       gameEngine.handleGameEvent({
         roomCode: code,
         eventName: "host:shuffleQuestions",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+
+    // Host pause game
+    socket.on("host:pauseGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      const room = roomManager.getRoom(code);
+      if (!checkIsHost(socket, room)) return;
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:pauseGame",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+
+    // Host resume game
+    socket.on("host:resumeGame", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      const room = roomManager.getRoom(code);
+      if (!checkIsHost(socket, room)) return;
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:resumeGame",
         payload: {},
         socketId: socket.id
       });

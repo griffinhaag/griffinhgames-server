@@ -30,7 +30,9 @@ const httpServer = createServer(app);
 const io = new SocketIOServer(httpServer, {
   cors: {
     origin: "*"
-  }
+  },
+  pingTimeout: 120000,   // 2 minutes before disconnect
+  pingInterval: 30000    // ping every 30 seconds
 });
 
 // Socket.IO error handler
