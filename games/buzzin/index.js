@@ -140,6 +140,7 @@ export default {
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
     let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
+    let offTheDomeCount = 3; // Number of final "OFF THE DOME" free-text questions
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -149,37 +150,45 @@ export default {
       }
     });
 
-    // Listen for new players joining and initialize/restore their scores
-    const checkAndAddPlayer = (socketId, isReconnecting = false) => {
+    // Listen for new players joining and initialize/restore their scores.
+    // Always checks scoresByName first so reconnects with any socketId are safe.
+    const checkAndAddPlayer = (socketId) => {
       const player = room.players.get(socketId);
       if (!player) return;
 
       // Don't track scores for spectating host
       if (!hostAsPlayer && player.isHost) return;
 
+      // Already tracked under this socketId — nothing to do
+      if (scores.has(socketId)) return;
+
       const playerName = player.name;
       const nameLower = playerName?.toLowerCase();
 
-      if (isReconnecting && nameLower && scoresByName.has(nameLower)) {
-        // Restore score for reconnecting player
+      // Restore from name-based backup if available (covers reconnects with new socketId)
+      if (nameLower && scoresByName.has(nameLower)) {
         const savedScore = scoresByName.get(nameLower);
         scores.set(socketId, savedScore);
-        logInfo(`Restored score ${savedScore} for reconnecting player ${playerName}`);
-      } else if (!scores.has(socketId)) {
-        // New player, initialize score
-        scores.set(socketId, 0);
-        if (nameLower) {
-          scoresByName.set(nameLower, 0);
-        }
+        logInfo(`Restored score ${savedScore} for player ${playerName} (socketId: ${socketId})`);
+        return;
+      }
+
+      // Truly new player — initialize at 0
+      scores.set(socketId, 0);
+      if (nameLower) {
+        scoresByName.set(nameLower, 0);
       }
     };
 
-    // Helper to update scoresByName when scores change
-    const updateScoreByName = (socketId, score) => {
+    // Helper to update both scores maps atomically so they never diverge.
+    // Falls back to roomManager names for players who disconnected mid-round.
+    const updateScoreByName = (socketId, score, knownName = null) => {
       scores.set(socketId, score);
-      const player = room.players.get(socketId);
-      if (player?.name) {
-        scoresByName.set(player.name.toLowerCase(), score);
+      const name = knownName
+        || room.players.get(socketId)?.name
+        || roomManager.getPlayerName(socketId);
+      if (name) {
+        scoresByName.set(name.toLowerCase(), score);
       }
     };
 
@@ -207,7 +216,7 @@ export default {
 
       // Determine if this is an "OFF THE DOME" question (last 3 questions are typing-based)
       const isOffTheDome = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= 3;
+        (questions.length - currentQuestionIndex) <= offTheDomeCount;
 
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
@@ -230,11 +239,12 @@ export default {
 
       // Check if this is the first OFF THE DOME question (show announcement)
       const isFirstOffTheDome = isOffTheDome &&
-        currentQuestionIndex === questions.length - 3;
+        currentQuestionIndex === questions.length - offTheDomeCount;
 
       const state = {
         phase,
         hostAsPlayer,
+        offTheDomeCount,
         currentQuestion: currentQ ? {
           ...currentQ,
           // Only include choices if NOT an OFF THE DOME question
@@ -286,11 +296,10 @@ export default {
       phase = "waiting";
       timerRemaining = timerDuration;
 
-      // Initialize scores for any new players (skip spectating host)
+      // Initialize scores for any mid-game joiners using checkAndAddPlayer so
+      // reconnects are restored from scoresByName rather than zeroed.
       room.players.forEach((p) => {
-        if (p.socketId && !scores.has(p.socketId) && (hostAsPlayer || !p.isHost)) {
-          scores.set(p.socketId, 0);
-        }
+        if (p.socketId) checkAndAddPlayer(p.socketId);
       });
 
       broadcastState();
@@ -304,7 +313,7 @@ export default {
 
       // OFF THE DOME questions get at least 60 seconds regardless of slider
       const isOTD = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= 3;
+        (questions.length - currentQuestionIndex) <= offTheDomeCount;
       const effectiveTimer = isOTD ? Math.max(60, timerDuration) : timerDuration;
 
       startQuestionTimer(effectiveTimer);
@@ -355,6 +364,8 @@ export default {
     }
 
     function endAnsweringPhase(skipPoints = false) {
+      // Guard against double-fire from simultaneous timer expiry + checkAllAnswered
+      if (phase !== "question" && phase !== "paused") return;
       phase = "result";
 
       // Calculate scores based on answers
@@ -364,7 +375,7 @@ export default {
       // Only use fuzzy matching for OFF THE DOME (free-text) questions;
       // multiple choice answers must match exactly since options are concrete.
       const isOTD = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= 3;
+        (questions.length - currentQuestionIndex) <= offTheDomeCount;
 
       // Find first correct answer by timestamp
       let firstCorrectId = null;
@@ -394,7 +405,11 @@ export default {
       const results = [];
       playerAnswers.forEach((data, socketId) => {
         const roomPlayer = room.players.get(socketId);
-        const playerName = roomPlayer?.name || roomManager.getPlayerName(socketId) || `Player-${socketId.slice(0, 4)}`;
+        // data.playerName is set at buzz/submit time and survives if the player disconnects
+        const playerName = data.playerName
+          || roomPlayer?.name
+          || roomManager.getPlayerName(socketId)
+          || `Player-${socketId.slice(0, 4)}`;
 
         let points = 0;
         let eventType = null;
@@ -407,8 +422,10 @@ export default {
             points = 100; // Standard correct
             eventType = socketId === firstCorrectId ? "first_correct" : "correct";
           }
-          const oldScore = scores.get(socketId) || 0;
-          updateScoreByName(socketId, oldScore + points);
+          // Fall back to scoresByName if player disconnected (scores map entry deleted on disconnect)
+          const nameLower = playerName.toLowerCase();
+          const oldScore = scores.get(socketId) ?? scoresByName.get(nameLower) ?? 0;
+          updateScoreByName(socketId, oldScore + points, playerName);
         }
         // Wrong or no answer = 0 points (no penalty)
 
@@ -443,6 +460,11 @@ export default {
     }
 
     function startCountdown() {
+      // Clear any existing countdown interval (guard against double-start on rapid restart)
+      if (countdownInterval) {
+        clearInterval(countdownInterval);
+        countdownInterval = null;
+      }
       countdownSeconds = 10;
       phase = "countdown";
       broadcastState();
@@ -521,11 +543,13 @@ export default {
             // Store settings for restart (including timer duration)
             timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
             firstBonusEnabled = payload?.bonusFirstCorrect !== false;
+            // offTheDomeCount is clamped after questions are selected (see below)
             gameSettings = {
               categories: selectedCategories,
               questionCount: payload?.questionCount || 10,
               timerDuration: timerDuration,
-              bonusFirstCorrect: firstBonusEnabled
+              bonusFirstCorrect: firstBonusEnabled,
+              offTheDomeCount: payload?.offTheDomeCount ?? 3
             };
             
             let filteredQuestions = allQuestions.filter(q =>
@@ -557,6 +581,9 @@ export default {
             
             // Shuffle and select questions (Fisher-Yates for unbiased randomness)
             questions = shuffle(filteredQuestions).slice(0, requestedCount);
+
+            // Clamp offTheDomeCount to actual question count
+            offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount, questions.length));
 
             if (questions.length === 0) {
               // Fallback to all questions if filtered result is empty
@@ -612,6 +639,9 @@ export default {
             } else {
               firstBonusEnabled = gameSettings.bonusFirstCorrect !== false;
             }
+            if (payload.offTheDomeCount !== undefined) {
+              gameSettings.offTheDomeCount = payload.offTheDomeCount;
+            }
             activeTimerDuration = timerDuration;
 
             // Reset all scores — skip host if spectating
@@ -638,7 +668,10 @@ export default {
 
             questions = shuffle(filteredQuestionsRestart)
               .slice(0, Math.min(gameSettings.questionCount, filteredQuestionsRestart.length));
-            
+
+            // Clamp offTheDomeCount to actual question count
+            offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount ?? 3, questions.length));
+
             // Start countdown again
             startCountdown();
             break;
@@ -748,8 +781,9 @@ export default {
               return; // Already buzzed, ignore
             }
 
-            // Record buzz timestamp (answer will come later)
+            // Record buzz timestamp — store name now so it survives if player disconnects before round ends
             playerAnswers.set(socketId, {
+              playerName: room.players.get(socketId)?.name || roomManager.getPlayerName(socketId) || null,
               answer: undefined,
               timestamp: null,
               buzzedAt: Date.now(),
@@ -788,8 +822,9 @@ export default {
             const existingData = playerAnswers.get(socketId);
 
             if (!existingData) {
-              // Player hasn't buzzed yet - auto-buzz and submit in one action
+              // Player hasn't buzzed yet - auto-buzz and submit in one action, store name now
               playerAnswers.set(socketId, {
+                playerName: room.players.get(socketId)?.name || roomManager.getPlayerName(socketId) || null,
                 answer: payload?.answer || "",
                 timestamp: Date.now(),
                 buzzedAt: Date.now(),
@@ -817,20 +852,23 @@ export default {
              if (!isHostSocket(socketId)) return;
              // payload: { playerId, delta }
              if (payload.playerId && typeof payload.delta === 'number') {
-                 const current = scores.get(payload.playerId) || 0;
-                 scores.set(payload.playerId, current + payload.delta);
+                 const targetPlayer = room.players.get(payload.playerId);
+                 const current = scores.get(payload.playerId)
+                   ?? (targetPlayer?.name ? scoresByName.get(targetPlayer.name.toLowerCase()) : undefined)
+                   ?? 0;
+                 updateScoreByName(payload.playerId, current + payload.delta);
                  broadcastState();
              }
              break;
              
           case "player:joined":
-            // When a player joins an in-progress game, initialize or restore their score
-            const isReconnecting = payload?.isReconnecting || false;
-            checkAndAddPlayer(socketId, isReconnecting);
+            // checkAndAddPlayer already ran at the top of handleEvent.
+            // Calling it again is safe — it's a no-op if the score is already set.
+            checkAndAddPlayer(socketId);
             // Broadcast state so the new player gets it
             broadcastState();
 
-            if (isReconnecting) {
+            if (payload?.isReconnecting) {
               const player = room.players.get(socketId);
               io.to(room.code).emit("game:event", {
                 type: "player_reconnected",
@@ -840,24 +878,31 @@ export default {
             }
             break;
 
-          case "player:disconnected":
-            // Handle player disconnection mid-game
-            // Note: Score is preserved in scoresByName for reconnection
-            // The score by socketId is removed, but scoresByName keeps it
+          case "player:disconnected": {
+            // Handle player disconnection mid-game.
+            // IMPORTANT: room.players no longer contains this socket (removed before this event fires).
+            // The socketHandlers passes playerName in the payload as a fallback.
             const disconnectedPlayer = room.players.get(socketId);
-            if (disconnectedPlayer?.name) {
+            const disconnectedName = disconnectedPlayer?.name || payload?.playerName;
+            if (disconnectedName) {
               const currentScore = scores.get(socketId) || 0;
-              scoresByName.set(disconnectedPlayer.name.toLowerCase(), currentScore);
-              logInfo(`Saved score ${currentScore} for disconnected player ${disconnectedPlayer.name}`);
+              scoresByName.set(disconnectedName.toLowerCase(), currentScore);
+              logInfo(`Saved score ${currentScore} for disconnected player ${disconnectedName}`);
             }
 
-            playerAnswers.delete(socketId);
+            // Only remove from playerAnswers if they haven't answered yet.
+            // If they already submitted an answer, keep it so endAnsweringPhase
+            // can still award their points when the round ends.
+            const existingAnswer = playerAnswers.get(socketId);
+            if (!existingAnswer || existingAnswer.answer === undefined) {
+              playerAnswers.delete(socketId);
+            }
             scores.delete(socketId);
 
             // Notify others of disconnection
             io.to(room.code).emit("game:event", {
               type: "player_disconnected",
-              playerName: disconnectedPlayer?.name || "Player"
+              playerName: disconnectedName || "Player"
             });
 
             // Check if all remaining players have answered
@@ -866,6 +911,7 @@ export default {
             }
             broadcastState();
             break;
+          }
         }
       },
 
@@ -888,9 +934,9 @@ export default {
 
         // Determine if OFF THE DOME
         const isOffTheDome = currentQuestionIndex >= 0 &&
-          (questions.length - currentQuestionIndex) <= 3;
+          (questions.length - currentQuestionIndex) <= offTheDomeCount;
         const isFirstOffTheDome = isOffTheDome &&
-          currentQuestionIndex === questions.length - 3;
+          currentQuestionIndex === questions.length - offTheDomeCount;
 
         const currentQ = currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
           ? questions[currentQuestionIndex]
@@ -899,6 +945,7 @@ export default {
         return {
           phase,
           hostAsPlayer,
+          offTheDomeCount,
           countdownSeconds: phase === "countdown" ? countdownSeconds : null,
           currentQuestionIndex,
           totalQuestions: questions.length,

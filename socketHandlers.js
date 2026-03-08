@@ -395,10 +395,14 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
     // Handle disconnects
     socket.on("disconnect", () => {
-      // Get room info before removing player
+      // Get room info BEFORE removing player so we can pass the name to the game engine
       const roomCode = roomManager.getRoomCodeForSocket(socket.id);
       const room = roomCode ? roomManager.getRoom(roomCode) : null;
       const gameInProgress = room?.phase === "in-progress";
+
+      // Capture player name before removal — room.players will no longer have this socket after removePlayerBySocket
+      const playerBeforeRemoval = room?.players?.get(socket.id);
+      const playerNameBeforeRemoval = playerBeforeRemoval?.name;
 
       const result = roomManager.removePlayerBySocket(socket.id);
 
@@ -409,12 +413,13 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
           io.to(code).emit("room:closed");
           logInfo(`Room ${code} destroyed (last player left).`);
         } else {
-          // Notify game engine about player disconnect if game is in progress
+          // Notify game engine about player disconnect if game is in progress.
+          // Pass playerName so the game can save the score even though room.players no longer has this socket.
           if (gameInProgress) {
             gameEngine.handleGameEvent({
               roomCode: code,
               eventName: "player:disconnected",
-              payload: { socketId: socket.id },
+              payload: { socketId: socket.id, playerName: playerNameBeforeRemoval },
               socketId: socket.id
             });
           }
