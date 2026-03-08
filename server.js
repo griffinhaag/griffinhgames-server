@@ -2,12 +2,18 @@ import express from "express";
 import cors from "cors";
 import { createServer } from "http";
 import { Server as SocketIOServer } from "socket.io";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 import { createRoomManager } from "./core/RoomManager.js";
 import { createGameEngine } from "./core/GameEngine.js";
 import registerSocketHandlers from "./socketHandlers.js";
 import { logInfo, logError } from "./utils/logger.js";
 import gameRegistry from "./games/index.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Global error handlers - must be set before any async operations
 process.on("unhandledRejection", (reason, promise) => {
@@ -52,6 +58,43 @@ try {
   // Simple health route
   app.get("/", (req, res) => {
     res.json({ status: "ok", service: "griffinhgames-server" });
+  });
+
+  // BuzzIn: return actual question counts per category (reads live from files)
+  app.get("/buzzin/category-counts", (req, res) => {
+    const categoriesDir = path.join(__dirname, "games/buzzin/categories");
+    const categoryNames = {
+      "general-knowledge": "General Knowledge",
+      "science": "Science",
+      "movies-tv": "Movies & TV",
+      "music": "Music",
+      "sports": "Sports",
+      "history": "History",
+      "geography": "Geography",
+      "pop-culture": "Pop Culture",
+      "games": "Games",
+      "random": "Random"
+    };
+    const counts = {};
+    try {
+      const files = fs.readdirSync(categoriesDir);
+      for (const file of files) {
+        if (file.endsWith(".json")) {
+          const key = file.replace(".json", "");
+          const name = categoryNames[key] || key;
+          try {
+            const questions = JSON.parse(fs.readFileSync(path.join(categoriesDir, file), "utf-8"));
+            counts[name] = questions.length;
+          } catch (e) {
+            counts[name] = 0;
+          }
+        }
+      }
+    } catch (e) {
+      logError(`Failed to read category counts: ${e.message}`);
+      return res.status(500).json({ error: "Failed to read categories" });
+    }
+    res.json(counts);
   });
 
   // Games list endpoint for frontend discovery
