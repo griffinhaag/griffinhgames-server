@@ -59,6 +59,58 @@ function loadAllQuestions() {
 const allQuestions = loadAllQuestions();
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
 
+// Unbiased Fisher-Yates shuffle — returns a new shuffled array
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Fuzzy answer matching (case-insensitive, word-order independent, plural/typo tolerant)
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, (_, i) =>
+    Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0))
+  );
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] :
+        1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+function fuzzyMatch(userAnswer, correctAnswer) {
+  if (!userAnswer || !correctAnswer) return false;
+  const norm = (s) => s.toLowerCase().trim()
+    .replace(/[^a-z0-9\s]/g, "")
+    .replace(/\s+/g, " ");
+  const a = norm(userAnswer);
+  const b = norm(correctAnswer);
+  if (a === b) return true;
+  // Word-order independent
+  const sortW = (s) => s.split(" ").filter(w => w).sort().join(" ");
+  if (sortW(a) === sortW(b)) return true;
+  // Remove filler words
+  const noFill = (s) => s.split(" ")
+    .filter(w => !["the", "a", "an", "of", "in", "at", "to", "and"].includes(w))
+    .join(" ");
+  const ac = noFill(a), bc = noFill(b);
+  if (ac === bc || sortW(ac) === sortW(bc)) return true;
+  // Simple stemming: remove trailing s/es
+  const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
+  if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
+  // Levenshtein for short strings
+  const maxLen = Math.max(a.length, b.length);
+  if (maxLen > 0 && maxLen <= 8) return levenshtein(a, b) <= 1;
+  if (maxLen > 8 && maxLen <= 16) return levenshtein(a, b) <= 2;
+  return false;
+}
+
 export default {
   id: "buzzin",
   name: "LOCK IN Trivia",
@@ -84,6 +136,8 @@ export default {
     let questionTimer = null;
     let questionStartTime = null;
     let timerRemaining = 0
+    let activeTimerDuration = 30; // Timer duration for the current question (may differ for OFF THE DOME)
+    let timerRemainingAtPause = 0; // Timer remaining when game was paused
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -126,6 +180,17 @@ export default {
 
     // Import logger for reconnection logging
     const logInfo = (msg) => console.log(`[BuzzIn] ${msg}`);
+
+    // Helper: check if socketId is the current host (handles reconnect where hostSocketId may be stale)
+    function isHostSocket(socketId) {
+      if (socketId === room.hostSocketId) return true;
+      const player = room.players.get(socketId);
+      if (player?.isHost) {
+        room.hostSocketId = socketId; // Fix stale reference after reconnect
+        return true;
+      }
+      return false;
+    }
 
     // --- Helper Functions ---
 
@@ -171,7 +236,7 @@ export default {
         countdownSeconds: phase === "countdown" ? countdownSeconds : null,
         // Timer state
         timerRemaining,
-        timerDuration,
+        timerDuration: activeTimerDuration,
         // OFF THE DOME state
         isOffTheDome,
         isFirstOffTheDome,
@@ -228,8 +293,12 @@ export default {
       phase = "question";
       playerAnswers.clear(); // Reset answers for new question
 
-      // Start the question timer
-      startQuestionTimer();
+      // OFF THE DOME questions get at least 60 seconds regardless of slider
+      const isOTD = currentQuestionIndex >= 0 &&
+        (questions.length - currentQuestionIndex) <= 3;
+      const effectiveTimer = isOTD ? Math.max(60, timerDuration) : timerDuration;
+
+      startQuestionTimer(effectiveTimer);
 
       io.to(room.code).emit("game:event", { type: "question_shown" });
       broadcastState();
@@ -237,12 +306,15 @@ export default {
 
     // --- Timer Functions ---
 
-    function startQuestionTimer() {
-      questionStartTime = Date.now();
-      timerRemaining = timerDuration;
+    function startQuestionTimer(customDuration, startingRemaining) {
+      activeTimerDuration = customDuration !== undefined ? customDuration : timerDuration;
+      const startRemaining = startingRemaining !== undefined ? startingRemaining : activeTimerDuration;
+      // Set questionStartTime so elapsed time = (activeTimerDuration - startRemaining)
+      questionStartTime = Date.now() - (activeTimerDuration - startRemaining) * 1000;
+      timerRemaining = startRemaining;
 
       questionTimer = setInterval(() => {
-        timerRemaining = Math.max(0, timerDuration - Math.floor((Date.now() - questionStartTime) / 1000));
+        timerRemaining = Math.max(0, activeTimerDuration - Math.floor((Date.now() - questionStartTime) / 1000));
         broadcastState();
 
         if (timerRemaining <= 0) {
@@ -271,7 +343,7 @@ export default {
       }
     }
 
-    function endAnsweringPhase() {
+    function endAnsweringPhase(skipPoints = false) {
       phase = "result";
 
       // Calculate scores based on answers
@@ -286,7 +358,7 @@ export default {
       // First pass: determine correctness and find first correct
       playerAnswers.forEach((data, socketId) => {
         const playerAnswer = data.answer?.toLowerCase().trim();
-        const isCorrect = playerAnswer === correctAnswer;
+        const isCorrect = fuzzyMatch(playerAnswer || "", correctAnswer || "");
         data.isCorrect = isCorrect;
 
         if (isCorrect && data.timestamp) {
@@ -309,7 +381,7 @@ export default {
         let points = 0;
         let eventType = null;
 
-        if (data.isCorrect) {
+        if (data.isCorrect && !skipPoints) {
           if (socketId === firstCorrectId) {
             points = 150; // First correct bonus
             eventType = "first_correct";
@@ -396,7 +468,7 @@ export default {
 
         switch (eventName) {
           case "host:startGame":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (phase !== "lobby") return; // Can only start from lobby
             
             // Validate minimum players (host counts as a player)
@@ -426,10 +498,18 @@ export default {
               timerDuration: timerDuration
             };
             
-            let filteredQuestions = allQuestions.filter(q => 
+            let filteredQuestions = allQuestions.filter(q =>
               selectedCategories.includes(q.category)
             );
-            
+
+            // Filter out questions seen in previous games this session
+            const seenQs = payload?.seenQuestions || [];
+            if (seenQs.length > 0) {
+              const filtered = filteredQuestions.filter(q => !seenQs.includes(q.question));
+              // Only use filter if enough questions remain (at least 5)
+              if (filtered.length >= 5) filteredQuestions = filtered;
+            }
+
             // Ensure at least 5 questions are available
             if (filteredQuestions.length < 5) {
               io.to(socketId).emit("game:event", {
@@ -445,16 +525,12 @@ export default {
               filteredQuestions.length
             );
             
-            // Shuffle and select questions
-            questions = filteredQuestions
-              .sort(() => 0.5 - Math.random())
-              .slice(0, requestedCount);
-            
+            // Shuffle and select questions (Fisher-Yates for unbiased randomness)
+            questions = shuffle(filteredQuestions).slice(0, requestedCount);
+
             if (questions.length === 0) {
               // Fallback to all questions if filtered result is empty
-              questions = allQuestions
-                .sort(() => 0.5 - Math.random())
-                .slice(0, Math.min(10, allQuestions.length));
+              questions = shuffle(allQuestions).slice(0, Math.min(10, allQuestions.length));
             }
             
             // Initialize all player scores (including host)
@@ -469,7 +545,7 @@ export default {
             break;
             
           case "host:restartGame":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (!gameSettings) {
               io.to(socketId).emit("game:event", {
                 type: "error",
@@ -488,9 +564,17 @@ export default {
               countdownInterval = null;
             }
 
-            // Restore timer duration from settings
-            timerDuration = gameSettings.timerDuration || 30;
-            
+            // Update settings if new ones provided by play-again modal
+            if (payload.categories?.length > 0) gameSettings.categories = payload.categories;
+            if (payload.questionCount) gameSettings.questionCount = payload.questionCount;
+            if (payload.timerDuration) {
+              timerDuration = payload.timerDuration;
+              gameSettings.timerDuration = payload.timerDuration;
+            } else {
+              timerDuration = gameSettings.timerDuration || 30;
+            }
+            activeTimerDuration = timerDuration;
+
             // Reset all scores
             room.players.forEach((p) => {
               if (p.socketId) {
@@ -499,12 +583,18 @@ export default {
             });
             
             // Re-randomize questions with same settings
-            let filteredQuestionsRestart = allQuestions.filter(q => 
+            let filteredQuestionsRestart = allQuestions.filter(q =>
               gameSettings.categories.includes(q.category)
             );
-            
-            questions = filteredQuestionsRestart
-              .sort(() => 0.5 - Math.random())
+
+            // Filter out seen questions
+            const seenQsRestart = payload?.seenQuestions || [];
+            if (seenQsRestart.length > 0) {
+              const f = filteredQuestionsRestart.filter(q => !seenQsRestart.includes(q.question));
+              if (f.length >= 5) filteredQuestionsRestart = f;
+            }
+
+            questions = shuffle(filteredQuestionsRestart)
               .slice(0, Math.min(gameSettings.questionCount, filteredQuestionsRestart.length));
             
             // Start countdown again
@@ -512,33 +602,33 @@ export default {
             break;
             
           case "host:endGame":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             endGame("ended_by_host");
             break;
 
           case "host:showQuestion":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (phase === "waiting") {
               showQuestion();
             }
             break;
 
           case "host:nextQuestion":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (phase === "result") {
               nextQuestion();
             }
             break;
 
           case "host:skipRound":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (phase !== "question" && phase !== "result") return;
 
             stopQuestionTimer();
 
             if (phase === "question") {
-              // Force end the answering phase with current answers
-              endAnsweringPhase();
+              // Skip without awarding points
+              endAnsweringPhase(true);
             }
 
             // Emit skip event
@@ -548,7 +638,7 @@ export default {
             break;
 
           case "host:shuffleQuestions":
-            if (room.hostSocketId !== socketId) return;
+            if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown") return;
 
             // Shuffle remaining questions (keep current question, shuffle the rest)
@@ -572,6 +662,27 @@ export default {
                 message: "Remaining questions have been shuffled!"
               });
             }
+            break;
+
+          case "host:pauseGame":
+            if (!isHostSocket(socketId)) return;
+            if (phase !== "question") return;
+            // Save remaining time and stop timer
+            timerRemainingAtPause = timerRemaining;
+            stopQuestionTimer();
+            phase = "paused";
+            io.to(room.code).emit("game:event", { type: "game_paused" });
+            broadcastState();
+            break;
+
+          case "host:resumeGame":
+            if (!isHostSocket(socketId)) return;
+            if (phase !== "paused") return;
+            phase = "question";
+            // Resume timer from where it was paused
+            startQuestionTimer(activeTimerDuration, timerRemainingAtPause);
+            io.to(room.code).emit("game:event", { type: "game_resumed" });
+            broadcastState();
             break;
 
           case "player:buzz":
@@ -651,7 +762,7 @@ export default {
             break;
 
           case "host:overrideScore":
-             if (room.hostSocketId !== socketId) return;
+             if (!isHostSocket(socketId)) return;
              // payload: { playerId, delta }
              if (payload.playerId && typeof payload.delta === 'number') {
                  const current = scores.get(payload.playerId) || 0;
@@ -742,7 +853,7 @@ export default {
             choices: isOffTheDome ? null : (currentQ.choices || null)
           } : null,
           timerRemaining,
-          timerDuration,
+          timerDuration: activeTimerDuration,
           isOffTheDome,
           isFirstOffTheDome,
           answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
@@ -767,6 +878,8 @@ export default {
         scores.clear();
         playerAnswers.clear();
         gameSettings = null;
+        activeTimerDuration = 30;
+        timerRemainingAtPause = 0;
       }
     };
   }
