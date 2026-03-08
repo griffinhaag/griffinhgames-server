@@ -139,6 +139,7 @@ export default {
     let activeTimerDuration = 30; // Timer duration for the current question (may differ for OFF THE DOME)
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
+    let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -152,6 +153,9 @@ export default {
     const checkAndAddPlayer = (socketId, isReconnecting = false) => {
       const player = room.players.get(socketId);
       if (!player) return;
+
+      // Don't track scores for spectating host
+      if (!hostAsPlayer && player.isHost) return;
 
       const playerName = player.name;
       const nameLower = playerName?.toLowerCase();
@@ -208,18 +212,21 @@ export default {
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
 
+      // When host is spectating, exclude them from participating player lists
+      const participatingPlayers = hostAsPlayer
+        ? roomPlayers.filter(p => p.socketId)
+        : roomPlayers.filter(p => p.socketId && !p.isHost);
+
       // Build player buzz/answer status (show who buzzed, but hide answers)
-      const playerBuzzStatus = roomPlayers
-        .filter(p => p.socketId)
-        .map(p => {
-          const answerData = playerAnswers.get(p.socketId);
-          return {
-            socketId: p.socketId,
-            name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
-            hasBuzzed: !!answerData,
-            hasAnswered: !!(answerData?.answer !== undefined)
-          };
-        });
+      const playerBuzzStatus = participatingPlayers.map(p => {
+        const answerData = playerAnswers.get(p.socketId);
+        return {
+          socketId: p.socketId,
+          name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
+          hasBuzzed: !!answerData,
+          hasAnswered: !!(answerData?.answer !== undefined)
+        };
+      });
 
       // Check if this is the first OFF THE DOME question (show announcement)
       const isFirstOffTheDome = isOffTheDome &&
@@ -227,6 +234,7 @@ export default {
 
       const state = {
         phase,
+        hostAsPlayer,
         currentQuestion: currentQ ? {
           ...currentQ,
           // Only include choices if NOT an OFF THE DOME question
@@ -243,9 +251,9 @@ export default {
         isFirstOffTheDome,
         // Answer tracking
         answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
-        totalPlayers: roomPlayers.filter(p => p.socketId).length,
+        totalPlayers: participatingPlayers.length,
         playerBuzzStatus,
-        // Scores
+        // Scores — exclude spectating host
         scores: Array.from(scores.entries()).map(([id, score]) => {
           const roomPlayer = roomPlayers.find(p => p.socketId === id);
           const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
@@ -278,9 +286,9 @@ export default {
       phase = "waiting";
       timerRemaining = timerDuration;
 
-      // Initialize scores for any new players
+      // Initialize scores for any new players (skip spectating host)
       room.players.forEach((p) => {
-        if (p.socketId && !scores.has(p.socketId)) {
+        if (p.socketId && !scores.has(p.socketId) && (hostAsPlayer || !p.isHost)) {
           scores.set(p.socketId, 0);
         }
       });
@@ -334,8 +342,10 @@ export default {
     }
 
     function checkAllAnswered() {
-      // Check if all active players have submitted answers
-      const activePlayers = Array.from(room.players.values()).filter(p => p.socketId);
+      // Check if all participating players have submitted answers (exclude spectating host)
+      const activePlayers = Array.from(room.players.values()).filter(p =>
+        p.socketId && (hostAsPlayer || !p.isHost)
+      );
       const answeredPlayers = Array.from(playerAnswers.values()).filter(a => a.answer !== undefined);
 
       if (answeredPlayers.length >= activePlayers.length && activePlayers.length > 0) {
@@ -478,14 +488,24 @@ export default {
           case "host:startGame":
             if (!isHostSocket(socketId)) return;
             if (phase !== "lobby") return; // Can only start from lobby
-            
-            // Validate minimum players (host counts as a player)
-            if (room.players.size < 2) {
-              io.to(socketId).emit("game:event", {
-                type: "error",
-                message: "Need at least 2 players to start"
-              });
-              return;
+
+            // Read hostAsPlayer setting (default true = host participates)
+            hostAsPlayer = payload?.hostAsPlayer !== false;
+
+            {
+              // Validate minimum players
+              // If host is spectating, need at least 2 real players; otherwise host + 1 suffices
+              const nonHostCount = Array.from(room.players.values()).filter(p => !p.isHost).length;
+              const minNeeded = hostAsPlayer ? 1 : 2;
+              if (nonHostCount < minNeeded) {
+                io.to(socketId).emit("game:event", {
+                  type: "error",
+                  message: hostAsPlayer
+                    ? "Need at least 2 players to start"
+                    : "Need at least 2 players (besides the host) to start in spectate mode"
+                });
+                return;
+              }
             }
             
             // Filter questions by selected categories
@@ -543,13 +563,16 @@ export default {
               questions = shuffle(allQuestions).slice(0, Math.min(10, allQuestions.length));
             }
             
-            // Initialize all player scores (including host)
+            // Initialize scores — skip host if spectating
+            scores.clear();
+            scoresByName.clear();
             room.players.forEach((p) => {
-              if (p.socketId) {
+              if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
+                if (p.name) scoresByName.set(p.name.toLowerCase(), 0);
               }
             });
-            
+
             // Start countdown
             startCountdown();
             break;
@@ -591,10 +614,13 @@ export default {
             }
             activeTimerDuration = timerDuration;
 
-            // Reset all scores
+            // Reset all scores — skip host if spectating
+            scores.clear();
+            scoresByName.clear();
             room.players.forEach((p) => {
-              if (p.socketId) {
+              if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
+                if (p.name) scoresByName.set(p.name.toLowerCase(), 0);
               }
             });
             
@@ -712,6 +738,11 @@ export default {
               return; // Player not in room
             }
 
+            // Block spectating host from buzzing
+            if (!hostAsPlayer && isHostSocket(socketId)) {
+              return;
+            }
+
             // Check if player already buzzed
             if (playerAnswers.has(socketId)) {
               return; // Already buzzed, ignore
@@ -746,6 +777,11 @@ export default {
 
             // Check if player exists in room
             if (!room.players.has(socketId)) {
+              return;
+            }
+
+            // Block spectating host from submitting answers
+            if (!hostAsPlayer && isHostSocket(socketId)) {
               return;
             }
 
@@ -835,19 +871,20 @@ export default {
 
       getState() {
         const roomPlayers = Array.from(room.players.values());
+        const participatingPlayers = hostAsPlayer
+          ? roomPlayers.filter(p => p.socketId)
+          : roomPlayers.filter(p => p.socketId && !p.isHost);
 
         // Build player buzz/answer status
-        const playerBuzzStatus = roomPlayers
-          .filter(p => p.socketId)
-          .map(p => {
-            const answerData = playerAnswers.get(p.socketId);
-            return {
-              socketId: p.socketId,
-              name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
-              hasBuzzed: !!answerData,
-              hasAnswered: !!(answerData?.answer !== undefined)
-            };
-          });
+        const playerBuzzStatus = participatingPlayers.map(p => {
+          const answerData = playerAnswers.get(p.socketId);
+          return {
+            socketId: p.socketId,
+            name: p.name || roomManager.getPlayerName(p.socketId) || `Player-${p.socketId.slice(0, 4)}`,
+            hasBuzzed: !!answerData,
+            hasAnswered: !!(answerData?.answer !== undefined)
+          };
+        });
 
         // Determine if OFF THE DOME
         const isOffTheDome = currentQuestionIndex >= 0 &&
@@ -861,6 +898,7 @@ export default {
 
         return {
           phase,
+          hostAsPlayer,
           countdownSeconds: phase === "countdown" ? countdownSeconds : null,
           currentQuestionIndex,
           totalQuestions: questions.length,
@@ -873,7 +911,7 @@ export default {
           isOffTheDome,
           isFirstOffTheDome,
           answeredCount: Array.from(playerAnswers.values()).filter(a => a.answer !== undefined).length,
-          totalPlayers: roomPlayers.filter(p => p.socketId).length,
+          totalPlayers: participatingPlayers.length,
           playerBuzzStatus,
           scores: Array.from(scores.entries()).map(([id, score]) => {
             const roomPlayer = roomPlayers.find(p => p.socketId === id);
