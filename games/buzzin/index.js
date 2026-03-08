@@ -657,25 +657,25 @@ export default {
             if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown") return;
 
-            // Shuffle remaining questions (keep current question, shuffle the rest)
+            // Shuffle current question + all remaining into a new order
             if (currentQuestionIndex < questions.length - 1) {
-              const remainingQuestions = questions.slice(currentQuestionIndex + 1);
+              // Include current question in the pool so it may change
+              const shufflePool = shuffle(questions.slice(currentQuestionIndex));
 
-              // Fisher-Yates shuffle for remaining questions
-              for (let i = remainingQuestions.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [remainingQuestions[i], remainingQuestions[j]] = [remainingQuestions[j], remainingQuestions[i]];
-              }
-
-              // Reconstruct questions array
               questions = [
-                ...questions.slice(0, currentQuestionIndex + 1),
-                ...remainingQuestions
+                ...questions.slice(0, currentQuestionIndex),
+                ...shufflePool
               ];
+
+              // Stop the timer and reset to "waiting" so the host clicks Show Question fresh
+              stopQuestionTimer();
+              playerAnswers.clear();
+              currentQuestionIndex--; // nextQuestion() will increment back
+              nextQuestion();         // phase = "waiting", timer reset on Show Question
 
               io.to(room.code).emit("game:event", {
                 type: "questions_shuffled",
-                message: "Remaining questions have been shuffled!"
+                message: "Questions reshuffled!"
               });
             }
             break;
