@@ -60,41 +60,20 @@ try {
     res.json({ status: "ok", service: "griffinhgames-server" });
   });
 
-  // BuzzIn: return actual question counts per category (reads live from files)
+  // BuzzIn: return deduplicated question counts per category.
+  // Uses the game module's pre-computed categoryCounts so the client slider always
+  // reflects the true available pool (identical to what buildQuestionPool draws from).
   app.get("/buzzin/category-counts", (req, res) => {
-    const categoriesDir = path.join(__dirname, "games/buzzin/categories");
-    const categoryNames = {
-      "general-knowledge": "General Knowledge",
-      "science": "Science",
-      "movies-tv": "Movies & TV",
-      "music": "Music",
-      "sports": "Sports",
-      "history": "History",
-      "geography": "Geography",
-      "pop-culture": "Pop Culture",
-      "games": "Games",
-      "random": "Random"
-    };
-    const counts = {};
-    try {
-      const files = fs.readdirSync(categoriesDir);
-      for (const file of files) {
-        if (file.endsWith(".json")) {
-          const key = file.replace(".json", "");
-          const name = categoryNames[key] || key;
-          try {
-            const questions = JSON.parse(fs.readFileSync(path.join(categoriesDir, file), "utf-8"));
-            counts[name] = questions.length;
-          } catch (e) {
-            counts[name] = 0;
-          }
-        }
-      }
-    } catch (e) {
-      logError(`Failed to read category counts: ${e.message}`);
-      return res.status(500).json({ error: "Failed to read categories" });
+    const buzzin = gameRegistry.buzzin;
+    if (buzzin?.categoryCounts) {
+      return res.json({
+        ...buzzin.categoryCounts,
+        _maxPerGame: buzzin.maxQuestionsPerGame ?? 100
+      });
     }
-    res.json(counts);
+    // Fallback — should never reach here in normal operation
+    logError("buzzin.categoryCounts not available");
+    return res.status(500).json({ error: "Category counts unavailable" });
   });
 
   // Games list endpoint for frontend discovery

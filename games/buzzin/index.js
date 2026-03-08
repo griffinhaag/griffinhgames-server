@@ -53,11 +53,28 @@ function loadAllQuestions() {
     console.error("Error reading categories directory:", dirError.message);
   }
 
-  return questions;
+  // Deduplicate by question text — prevents repeats if a question appears in multiple category files
+  const deduped = [];
+  const seenTexts = new Set();
+  for (const q of questions) {
+    if (!seenTexts.has(q.question)) {
+      seenTexts.add(q.question);
+      deduped.push(q);
+    }
+  }
+  return deduped;
 }
 
 const allQuestions = loadAllQuestions();
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
+
+// Pre-compute per-category counts from the deduplicated allQuestions array.
+// This is what the /buzzin/category-counts endpoint should expose so the
+// client slider always reflects the real available pool (post-dedup).
+const categoryCounts = {};
+for (const q of allQuestions) {
+  categoryCounts[q.category] = (categoryCounts[q.category] || 0) + 1;
+}
 
 // Unbiased Fisher-Yates shuffle — returns a new shuffled array
 function shuffle(arr) {
@@ -160,6 +177,9 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   return dist <= allowed || (maxLenClean > 4 && levenshtein(ac, bc) <= allowedClean);
 }
 
+// Hard cap on questions per game — enforced on both server and client.
+const MAX_QUESTIONS_PER_GAME = 100;
+
 export default {
   id: "buzzin",
   name: "LOCK IN Trivia",
@@ -167,6 +187,10 @@ export default {
   minPlayers: 2,
   maxPlayers: 16,
   icon: "💡🦦",
+  // Deduplicated per-category counts — used by the /buzzin/category-counts endpoint
+  // so the client slider always reflects the true available pool.
+  categoryCounts,
+  maxQuestionsPerGame: MAX_QUESTIONS_PER_GAME,
 
   create({ io, room, roomManager }) {
     // Game State
@@ -191,6 +215,14 @@ export default {
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
     let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
     let offTheDomeCount = 3; // Number of final "OFF THE DOME" free-text questions
+
+    // --- Session-level seen question tracking ---
+    // Persists across game restarts within the same room so Play Again never repeats questions.
+    // Populated in nextQuestion() as each question is presented, and merged with the client's
+    // sessionStorage backup at game start/restart (resilience against server restarts).
+    let seenQuestionTexts = new Set();
+    // Categories currently selected for this game — used to build the replacement pool for shuffles.
+    let currentCategories = [];
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -343,6 +375,10 @@ export default {
         endGame();
         return;
       }
+
+      // Mark this question as seen (server-side — survives game restarts within this room session)
+      const nextQ = questions[currentQuestionIndex];
+      if (nextQ?.question) seenQuestionTexts.add(nextQ.question);
 
       // First show "waiting" phase - host must click "Show Question"
       phase = "waiting";
@@ -555,6 +591,19 @@ export default {
       });
     }
 
+    // --- Question Pool Builder ---
+    // Returns a pool for the given categories, always preferring questions that have never been
+    // seen in this room session. If fewer fresh questions exist than `needed`, it supplements
+    // with seen questions (shuffled for fairness) so the game can still run rather than crashing.
+    function buildQuestionPool(categories, needed) {
+      const categoryFiltered = allQuestions.filter(q => categories.includes(q.category));
+      const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(q.question));
+      if (fresh.length >= needed) return fresh;
+      // Not enough fresh questions — top up with seen ones (least painful repeat possible)
+      const seen = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
+      return [...fresh, ...seen.slice(0, needed - fresh.length)];
+    }
+
     return {
       // --- Socket Event Handler ---
       handleEvent({ eventName, payload, socketId }) {
@@ -607,44 +656,41 @@ export default {
               offTheDomeCount: payload?.offTheDomeCount ?? 3
             };
             
-            let filteredQuestions = allQuestions.filter(q =>
-              selectedCategories.includes(q.category)
-            );
+            // Store selected categories so mid-game shuffle can pull from the same pool
+            currentCategories = selectedCategories;
 
-            // Filter out questions seen in previous games this session
+            // Merge client's sessionStorage backup into server-side tracker.
+            // This handles the edge case where the server restarted and lost its state.
             const seenQs = payload?.seenQuestions || [];
-            if (seenQs.length > 0) {
-              const filtered = filteredQuestions.filter(q => !seenQs.includes(q.question));
-              // Only use filter if enough questions remain (at least 5)
-              if (filtered.length >= 5) filteredQuestions = filtered;
-            }
+            seenQs.forEach(q => seenQuestionTexts.add(q));
 
-            // Ensure at least 5 questions are available
-            if (filteredQuestions.length < 5) {
+            // Count total available questions for the chosen categories (including already-seen)
+            const categoryFiltered = allQuestions.filter(q => selectedCategories.includes(q.category));
+
+            // Ensure at least 5 questions exist across the selected categories
+            if (categoryFiltered.length < 5) {
               io.to(socketId).emit("game:event", {
                 type: "error",
-                message: `Not enough questions in selected categories (found ${filteredQuestions.length}). Please select more categories.`
+                message: `Not enough questions in selected categories (found ${categoryFiltered.length}). Please select more categories.`
               });
               return;
             }
 
-            // Cap at actual available count (no arbitrary limit)
+            // Cap requested count: minimum 5, maximum MAX_QUESTIONS_PER_GAME, and never
+            // more than total questions available in the selected categories.
             const requestedCount = Math.min(
               Math.max(5, gameSettings.questionCount),
-              filteredQuestions.length
+              MAX_QUESTIONS_PER_GAME,
+              categoryFiltered.length
             );
-            
-            // Shuffle and select questions (Fisher-Yates for unbiased randomness)
-            questions = shuffle(filteredQuestions).slice(0, requestedCount);
+
+            // Build pool preferring unseen questions; supplements with seen ones only if the
+            // fresh supply is exhausted (so the game always runs, with minimum possible repeats).
+            questions = shuffle(buildQuestionPool(selectedCategories, requestedCount)).slice(0, requestedCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount, questions.length));
 
-            if (questions.length === 0) {
-              // Fallback to all questions if filtered result is empty
-              questions = shuffle(allQuestions).slice(0, Math.min(10, allQuestions.length));
-            }
-            
             // Initialize scores — skip host if spectating
             scores.clear();
             scoresByName.clear();
@@ -711,20 +757,22 @@ export default {
               }
             });
             
-            // Re-randomize questions with same settings
-            let filteredQuestionsRestart = allQuestions.filter(q =>
-              gameSettings.categories.includes(q.category)
-            );
+            // Update category pool for mid-game shuffle
+            currentCategories = gameSettings.categories;
 
-            // Filter out seen questions
+            // Merge client's sessionStorage backup (resilience against server restarts)
             const seenQsRestart = payload?.seenQuestions || [];
-            if (seenQsRestart.length > 0) {
-              const f = filteredQuestionsRestart.filter(q => !seenQsRestart.includes(q.question));
-              if (f.length >= 5) filteredQuestionsRestart = f;
-            }
+            seenQsRestart.forEach(q => seenQuestionTexts.add(q));
 
-            questions = shuffle(filteredQuestionsRestart)
-              .slice(0, Math.min(gameSettings.questionCount, filteredQuestionsRestart.length));
+            // At this point seenQuestionTexts already contains every question asked in previous
+            // games this session (added by nextQuestion()). Build a fresh pool accordingly.
+            const restartCategoryFiltered = allQuestions.filter(q => gameSettings.categories.includes(q.category));
+            const restartCount = Math.min(
+              Math.max(5, gameSettings.questionCount),
+              MAX_QUESTIONS_PER_GAME,
+              restartCategoryFiltered.length
+            );
+            questions = shuffle(buildQuestionPool(gameSettings.categories, restartCount)).slice(0, restartCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount ?? 3, questions.length));
@@ -801,31 +849,47 @@ export default {
                 stopQuestionTimer();
                 playerAnswers.clear();
 
-                if (notYetAsked.length === 0) {
-                  // Last question — no alternatives, just reset to waiting for re-show.
-                  phase = "waiting";
-                  io.to(room.code).emit("game:event", {
-                    type: "questions_shuffled",
-                    message: "Questions reshuffled!"
-                  });
-                  broadcastState();
-                } else {
-                  // Shuffle current + remaining, guaranteeing a different question first.
+                // Try to replace the current question with a brand-new one from the full pool.
+                // Replacement pool = questions in the selected categories that:
+                //   1. Have never been seen in this room session (seenQuestionTexts), AND
+                //   2. Are not already queued in the current game (to avoid queue duplicates).
+                const gameQSet = new Set(questions.map(q => q.question));
+                const replacementPool = allQuestions.filter(q =>
+                  currentCategories.includes(q.category) &&
+                  !seenQuestionTexts.has(q.question) &&
+                  !gameQSet.has(q.question)
+                );
+
+                if (replacementPool.length > 0) {
+                  // Pick a random fresh replacement.
+                  // Remove currentQ from seenQuestionTexts — it was never answered, so it
+                  // should stay available for future games (not burned as "used").
+                  const replacementQ = replacementPool[Math.floor(Math.random() * replacementPool.length)];
+                  seenQuestionTexts.delete(currentQ.question);
+                  questions = [...alreadyAsked, replacementQ, ...notYetAsked];
+                  currentQuestionIndex--; // nextQuestion() increments back, marks replacementQ seen
+                  nextQuestion();
+                } else if (notYetAsked.length > 0) {
+                  // Fresh pool exhausted — fall back to reshuffling the existing remaining
+                  // questions, still guaranteeing a different question comes next.
                   const combinedPool = shuffle([currentQ, ...notYetAsked]);
                   if (combinedPool[0].question === currentQ.question) {
                     const swapIdx = Math.floor(Math.random() * (combinedPool.length - 1)) + 1;
                     [combinedPool[0], combinedPool[swapIdx]] = [combinedPool[swapIdx], combinedPool[0]];
                   }
-
                   questions = [...alreadyAsked, ...combinedPool];
-                  currentQuestionIndex--; // nextQuestion() will increment back
-                  nextQuestion();         // phase = "waiting", timer reset on Show Question
-
-                  io.to(room.code).emit("game:event", {
-                    type: "questions_shuffled",
-                    message: "Questions reshuffled!"
-                  });
+                  currentQuestionIndex--;
+                  nextQuestion();
+                } else {
+                  // Last question AND no fresh questions available — stay on it.
+                  phase = "waiting";
+                  broadcastState();
                 }
+
+                io.to(room.code).emit("game:event", {
+                  type: "questions_shuffled",
+                  message: "Questions reshuffled!"
+                });
               }
             }
             break;
@@ -1085,6 +1149,8 @@ export default {
         scores.clear();
         playerAnswers.clear();
         disconnectedTracker.clear();
+        seenQuestionTexts.clear();
+        currentCategories = [];
         gameSettings = null;
         activeTimerDuration = 30;
         timerRemainingAtPause = 0;

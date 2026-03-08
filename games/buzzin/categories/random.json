@@ -1,27 +1,692 @@
 [
-  { "question": "How many hearts does an octopus have?", "answer": "3", "choices": ["1", "2", "3", "4"] },
-  { "question": "What is the collective noun for a group of crows?", "answer": "A murder", "choices": ["A flock", "A murder", "A gaggle", "A herd"] },
-  { "question": "What is the fear of spiders called?", "answer": "Arachnophobia", "choices": ["Claustrophobia", "Arachnophobia", "Acrophobia", "Agoraphobia"] },
-  { "question": "How many teeth does an adult human have?", "answer": "32", "choices": ["28", "30", "32", "36"] },
-  { "question": "What animal is known for its ability to change color?", "answer": "Chameleon", "choices": ["Octopus", "Chameleon", "Frog", "Snake"] },
-  { "question": "What is the only fruit that has seeds on the outside?", "answer": "Strawberry", "choices": ["Raspberry", "Strawberry", "Blueberry", "Blackberry"] },
-  { "question": "How many legs does a spider have?", "answer": "8", "choices": ["6", "8", "10", "12"] },
-  { "question": "What is a group of lions called?", "answer": "A pride", "choices": ["A pack", "A pride", "A herd", "A flock"] },
-  { "question": "What is the fastest land animal?", "answer": "Cheetah", "choices": ["Lion", "Cheetah", "Gazelle", "Horse"] },
-  { "question": "How many colors are in a rainbow?", "answer": "7", "choices": ["5", "6", "7", "8"] },
-  { "question": "What is the tallest animal in the world?", "answer": "Giraffe", "choices": ["Elephant", "Giraffe", "Camel", "Ostrich"] },
-  { "question": "What animal produces honey?", "answer": "Bee", "choices": ["Wasp", "Bee", "Butterfly", "Ant"] },
-  { "question": "How many noses does a slug have?", "answer": "4", "choices": ["1", "2", "4", "6"] },
-  { "question": "What is a baby kangaroo called?", "answer": "Joey", "choices": ["Cub", "Joey", "Kit", "Pup"] },
-  { "question": "How long can a snail sleep for?", "answer": "3 years", "choices": ["3 months", "1 year", "3 years", "5 years"] },
-  { "question": "What is the only mammal that can fly?", "answer": "Bat", "choices": ["Flying squirrel", "Bat", "Sugar glider", "Flying fish"] },
-  { "question": "What do you call a group of flamingos?", "answer": "A flamboyance", "choices": ["A flock", "A flamboyance", "A colony", "A stand"] },
-  { "question": "Which animal has the longest lifespan?", "answer": "Tortoise", "choices": ["Elephant", "Whale", "Tortoise", "Parrot"] },
-  { "question": "How many times does a hummingbird's heart beat per minute?", "answer": "Over 1,000", "choices": ["100", "500", "Over 1,000", "250"] },
-  { "question": "What is a group of owls called?", "answer": "A parliament", "choices": ["A flock", "A parliament", "A murder", "A hoot"] },
-  { "question": "What animal's fingerprints are nearly identical to humans?", "answer": "Koala", "choices": ["Chimpanzee", "Koala", "Gorilla", "Orangutan"] },
-  { "question": "How many stomachs does a cow have?", "answer": "4", "choices": ["1", "2", "3", "4"] },
-  { "question": "What is the smallest bone in the human body?", "answer": "Stapes", "choices": ["Femur", "Stapes", "Phalanx", "Patella"] },
-  { "question": "What percentage of the human body is water?", "answer": "60%", "choices": ["40%", "50%", "60%", "70%"] },
-  { "question": "What is the fear of heights called?", "answer": "Acrophobia", "choices": ["Claustrophobia", "Agoraphobia", "Acrophobia", "Hydrophobia"] }
+  {
+    "question": "What is the collective noun for a group of crows?",
+    "answer": "A murder",
+    "choices": [
+      "A flock",
+      "A murder",
+      "A gaggle",
+      "A herd"
+    ]
+  },
+  {
+    "question": "What is the fear of spiders called?",
+    "answer": "Arachnophobia",
+    "choices": [
+      "Claustrophobia",
+      "Arachnophobia",
+      "Acrophobia",
+      "Agoraphobia"
+    ]
+  },
+  {
+    "question": "How many teeth does an adult human have?",
+    "answer": "32",
+    "choices": [
+      "28",
+      "30",
+      "32",
+      "36"
+    ]
+  },
+  {
+    "question": "What animal is known for its ability to change color?",
+    "answer": "Chameleon",
+    "choices": [
+      "Octopus",
+      "Chameleon",
+      "Frog",
+      "Snake"
+    ]
+  },
+  {
+    "question": "What is the only fruit that has seeds on the outside?",
+    "answer": "Strawberry",
+    "choices": [
+      "Raspberry",
+      "Strawberry",
+      "Blueberry",
+      "Blackberry"
+    ]
+  },
+  {
+    "question": "How many legs does a spider have?",
+    "answer": "8",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "question": "What is a group of lions called?",
+    "answer": "A pride",
+    "choices": [
+      "A pack",
+      "A pride",
+      "A herd",
+      "A flock"
+    ]
+  },
+  {
+    "question": "What is the tallest animal in the world?",
+    "answer": "Giraffe",
+    "choices": [
+      "Elephant",
+      "Giraffe",
+      "Camel",
+      "Ostrich"
+    ]
+  },
+  {
+    "question": "What animal produces honey?",
+    "answer": "Bee",
+    "choices": [
+      "Wasp",
+      "Bee",
+      "Butterfly",
+      "Ant"
+    ]
+  },
+  {
+    "question": "How many noses does a slug have?",
+    "answer": "4",
+    "choices": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "question": "What is a baby kangaroo called?",
+    "answer": "Joey",
+    "choices": [
+      "Cub",
+      "Joey",
+      "Kit",
+      "Pup"
+    ]
+  },
+  {
+    "question": "How long can a snail sleep for?",
+    "answer": "3 years",
+    "choices": [
+      "3 months",
+      "1 year",
+      "3 years",
+      "5 years"
+    ]
+  },
+  {
+    "question": "What is the only mammal that can fly?",
+    "answer": "Bat",
+    "choices": [
+      "Flying squirrel",
+      "Bat",
+      "Sugar glider",
+      "Flying fish"
+    ]
+  },
+  {
+    "question": "What do you call a group of flamingos?",
+    "answer": "A flamboyance",
+    "choices": [
+      "A flock",
+      "A flamboyance",
+      "A colony",
+      "A stand"
+    ]
+  },
+  {
+    "question": "Which animal has the longest lifespan?",
+    "answer": "Tortoise",
+    "choices": [
+      "Elephant",
+      "Whale",
+      "Tortoise",
+      "Parrot"
+    ]
+  },
+  {
+    "question": "How many times does a hummingbird's heart beat per minute?",
+    "answer": "Over 1,000",
+    "choices": [
+      "100",
+      "500",
+      "Over 1,000",
+      "250"
+    ]
+  },
+  {
+    "question": "What is a group of owls called?",
+    "answer": "A parliament",
+    "choices": [
+      "A flock",
+      "A parliament",
+      "A murder",
+      "A hoot"
+    ]
+  },
+  {
+    "question": "What animal's fingerprints are nearly identical to humans?",
+    "answer": "Koala",
+    "choices": [
+      "Chimpanzee",
+      "Koala",
+      "Gorilla",
+      "Orangutan"
+    ]
+  },
+  {
+    "question": "How many stomachs does a cow have?",
+    "answer": "4",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "question": "What percentage of the human body is water?",
+    "answer": "60%",
+    "choices": [
+      "40%",
+      "50%",
+      "60%",
+      "70%"
+    ]
+  },
+  {
+    "question": "What is the fear of heights called?",
+    "answer": "Acrophobia",
+    "choices": [
+      "Claustrophobia",
+      "Agoraphobia",
+      "Acrophobia",
+      "Hydrophobia"
+    ]
+  },
+  {
+    "question": "Which animal is physically unable to jump?",
+    "answer": "Elephant",
+    "choices": [
+      "Elephant",
+      "Hippopotamus",
+      "Rhino",
+      "Giraffe"
+    ]
+  },
+  {
+    "question": "What is the plastic tip at the end of a shoelace called?",
+    "answer": "Aglet",
+    "choices": [
+      "Eyelet",
+      "Aglet",
+      "Ferrule",
+      "Stub"
+    ]
+  },
+  {
+    "question": "Which letter does not appear in any of the 50 U.S. state names?",
+    "answer": "Q",
+    "choices": [
+      "X",
+      "Z",
+      "Q",
+      "W"
+    ]
+  },
+  {
+    "question": "What is a group of pugs called?",
+    "answer": "A grumble",
+    "choices": [
+      "A grumble",
+      "A pack",
+      "A snort",
+      "A pod"
+    ]
+  },
+  {
+    "question": "Which fruit is actually a berry botanically speaking?",
+    "answer": "Banana",
+    "choices": [
+      "Strawberry",
+      "Raspberry",
+      "Banana",
+      "Blackberry"
+    ]
+  },
+  {
+    "question": "What is the only continent where spiders are NOT found?",
+    "answer": "Antarctica",
+    "choices": [
+      "Asia",
+      "Australia",
+      "Antarctica",
+      "South America"
+    ]
+  },
+  {
+    "question": "How many muscles does a cat have in each ear?",
+    "answer": "32",
+    "choices": [
+      "6",
+      "12",
+      "32",
+      "50"
+    ]
+  },
+  {
+    "question": "What is the most common blood type in humans?",
+    "answer": "O Positive",
+    "choices": [
+      "A Positive",
+      "B Negative",
+      "O Positive",
+      "AB Positive"
+    ]
+  },
+  {
+    "question": "Which sea creature can regrow its entire body from just one arm?",
+    "answer": "Sea Star",
+    "choices": [
+      "Octopus",
+      "Sea Star",
+      "Crab",
+      "Lobster"
+    ]
+  },
+  {
+    "question": "What is the official national animal of Scotland?",
+    "answer": "Unicorn",
+    "choices": [
+      "Highland Cow",
+      "Unicorn",
+      "Golden Eagle",
+      "Stag"
+    ]
+  },
+  {
+    "question": "What was the first fruit eaten on the Moon?",
+    "answer": "Peach",
+    "choices": [
+      "Apple",
+      "Banana",
+      "Peach",
+      "Orange"
+    ]
+  },
+  {
+    "question": "Which bird is the only one that can fly backward?",
+    "answer": "Hummingbird",
+    "choices": [
+      "Swallow",
+      "Hummingbird",
+      "Kingfisher",
+      "Woodpecker"
+    ]
+  },
+  {
+    "question": "What is the strongest muscle in the human body relative to its size?",
+    "answer": "Masseter (Jaw)",
+    "choices": [
+      "Gluteus Maximus",
+      "Masseter (Jaw)",
+      "Tongue",
+      "Heart"
+    ]
+  },
+  {
+    "question": "How many dots are on a single die?",
+    "answer": "21",
+    "choices": [
+      "18",
+      "21",
+      "24",
+      "26"
+    ]
+  },
+  {
+    "question": "What is a group of hedgehogs called?",
+    "answer": "A prickle",
+    "choices": [
+      "A prickle",
+      "A bunch",
+      "A quill",
+      "A colony"
+    ]
+  },
+  {
+    "question": "Which planet in our solar system rotates on its side?",
+    "answer": "Uranus",
+    "choices": [
+      "Neptune",
+      "Venus",
+      "Uranus",
+      "Saturn"
+    ]
+  },
+  {
+    "question": "What is the collective name for a group of ferrets?",
+    "answer": "A business",
+    "choices": [
+      "A mischief",
+      "A business",
+      "A huddle",
+      "A drift"
+    ]
+  },
+  {
+    "question": "Which mammal has the most powerful bite in the world?",
+    "answer": "Hippopotamus",
+    "choices": [
+      "Grizzly Bear",
+      "Hippopotamus",
+      "Hyena",
+      "Gorilla"
+    ]
+  },
+  {
+    "question": "What is the only letter not found on the Periodic Table of Elements?",
+    "answer": "J",
+    "choices": [
+      "Q",
+      "J",
+      "X",
+      "V"
+    ]
+  },
+  {
+    "question": "Which animal has the largest eyes of any living creature?",
+    "answer": "Colossal Squid",
+    "choices": [
+      "Blue Whale",
+      "Elephant",
+      "Colossal Squid",
+      "Owl"
+    ]
+  },
+  {
+    "question": "What do you call the dot above a lowercase 'i' or 'j'?",
+    "answer": "Tittle",
+    "choices": [
+      "Tittle",
+      "Pip",
+      "Spec",
+      "Jot"
+    ]
+  },
+  {
+    "question": "How many hearts does an earthworm have?",
+    "answer": "5",
+    "choices": [
+      "1",
+      "3",
+      "5",
+      "0"
+    ]
+  },
+  {
+    "question": "What is the most translated book in the world?",
+    "answer": "The Bible",
+    "choices": [
+      "The Bible",
+      "The Little Prince",
+      "Pinocchio",
+      "Don Quixote"
+    ]
+  },
+  {
+    "question": "Which animal sleeps for roughly 22 hours a day?",
+    "answer": "Koala",
+    "choices": [
+      "Sloth",
+      "Koala",
+      "Python",
+      "Lion"
+    ]
+  },
+  {
+    "question": "What is a group of unicorns called?",
+    "answer": "A blessing",
+    "choices": [
+      "A sparkle",
+      "A blessing",
+      "A myth",
+      "A herd"
+    ]
+  },
+  {
+    "question": "In a deck of cards, which king is the only one without a mustache?",
+    "answer": "King of Hearts",
+    "choices": [
+      "King of Spades",
+      "King of Diamonds",
+      "King of Clubs",
+      "King of Hearts"
+    ]
+  },
+  {
+    "question": "What is the only food that never expires or spoils?",
+    "answer": "Honey",
+    "choices": [
+      "Honey",
+      "White Rice",
+      "Salt",
+      "Dry Beans"
+    ]
+  },
+  {
+    "question": "What is the world's largest lizard?",
+    "answer": "Komodo Dragon",
+    "choices": [
+      "Gila Monster",
+      "Komodo Dragon",
+      "Iguana",
+      "Monitor Lizard"
+    ]
+  },
+  {
+    "question": "How many time zones are there in the world?",
+    "answer": "24",
+    "choices": [
+      "12",
+      "24",
+      "36",
+      "48"
+    ]
+  },
+  {
+    "question": "Which animal can hold its breath for up to 6 minutes underwater and even run along the bottom?",
+    "answer": "Hippopotamus",
+    "choices": [
+      "Crocodile",
+      "Hippopotamus",
+      "Otter",
+      "Polar Bear"
+    ]
+  },
+  {
+    "question": "What is a group of jellyfish called?",
+    "answer": "A smack",
+    "choices": [
+      "A swarm",
+      "A smack",
+      "A drift",
+      "A bloom"
+    ]
+  },
+  {
+    "question": "How many ribs are in the human body?",
+    "answer": "24",
+    "choices": [
+      "12",
+      "20",
+      "24",
+      "28"
+    ]
+  },
+  {
+    "question": "Which country has the most natural lakes in the world?",
+    "answer": "Canada",
+    "choices": [
+      "Russia",
+      "USA",
+      "Canada",
+      "Brazil"
+    ]
+  },
+  {
+    "question": "What is the most frequently used vowel in the English language?",
+    "answer": "E",
+    "choices": [
+      "A",
+      "E",
+      "I",
+      "O"
+    ]
+  },
+  {
+    "question": "What is the official currency of Switzerland?",
+    "answer": "Swiss Franc",
+    "choices": [
+      "Euro",
+      "Swiss Franc",
+      "Krona",
+      "Mark"
+    ]
+  },
+  {
+    "question": "How many bones are in a shark's body?",
+    "answer": "0",
+    "choices": [
+      "0",
+      "50",
+      "150",
+      "200"
+    ]
+  },
+  {
+    "question": "What is the collective noun for a group of kittens?",
+    "answer": "A kindle",
+    "choices": [
+      "A litter",
+      "A kindle",
+      "A pounce",
+      "A clowder"
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star'?",
+    "answer": "Venus",
+    "choices": [
+      "Mars",
+      "Mercury",
+      "Venus",
+      "Jupiter"
+    ]
+  },
+  {
+    "question": "What is the common name for the 'Nitrous Oxide' gas?",
+    "answer": "Laughing Gas",
+    "choices": [
+      "Laughing Gas",
+      "Tear Gas",
+      "Mustard Gas",
+      "Helium"
+    ]
+  },
+  {
+    "question": "How many strings does a standard cello have?",
+    "answer": "4",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "question": "What is a group of crows called?",
+    "answer": "A murder",
+    "choices": [
+      "A flock",
+      "A murder",
+      "A gaggle",
+      "A herd"
+    ]
+  },
+  {
+    "question": "Which bird has eyes that are larger than its brain?",
+    "answer": "Ostrich",
+    "choices": [
+      "Eagle",
+      "Owl",
+      "Ostrich",
+      "Albatross"
+    ]
+  },
+  {
+    "question": "What is the main ingredient in a falafel?",
+    "answer": "Chickpeas",
+    "choices": [
+      "Lentils",
+      "Chickpeas",
+      "Fava beans",
+      "Soybeans"
+    ]
+  },
+  {
+    "question": "How many valves does a human heart have?",
+    "answer": "4",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "question": "Which tree produces acorns?",
+    "answer": "Oak",
+    "choices": [
+      "Maple",
+      "Oak",
+      "Pine",
+      "Birch"
+    ]
+  },
+  {
+    "question": "What is a group of rhinos called?",
+    "answer": "A crash",
+    "choices": [
+      "A crash",
+      "A stampede",
+      "A herd",
+      "A pack"
+    ]
+  },
+  {
+    "question": "What is the only bird that can swim but not fly?",
+    "answer": "Penguin",
+    "choices": [
+      "Ostrich",
+      "Penguin",
+      "Emu",
+      "Kiwi"
+    ]
+  },
+  {
+    "question": "How many continents are there in the world?",
+    "answer": "7",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
 ]
