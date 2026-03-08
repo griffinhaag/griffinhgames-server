@@ -13,7 +13,7 @@ export function createRoomManager() {
   // Map<roomCode, Map<playerName, DisconnectedPlayer>>
   const disconnectedPlayers = new Map();
   const GRACE_PERIOD_MS = 60000; // 60 seconds to rejoin (increased for reconnection)
-  const PLAYER_RECONNECT_WINDOW_MS = 300000; // 5 minutes to reconnect as same player
+  const PLAYER_RECONNECT_WINDOW_MS = 600000; // 10 minutes to reconnect as same player
 
   function createRoom({ hostSocketId, gameType = null }) {
     let code;

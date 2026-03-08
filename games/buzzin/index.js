@@ -84,6 +84,28 @@ function levenshtein(a, b) {
   return dp[m][n];
 }
 
+// Map number words to digits so "six" matches "6" but "five" never matches "6"
+const NUMBER_WORDS = {
+  "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4",
+  "five": "5", "six": "6", "seven": "7", "eight": "8", "nine": "9",
+  "ten": "10", "eleven": "11", "twelve": "12", "thirteen": "13",
+  "fourteen": "14", "fifteen": "15", "sixteen": "16", "seventeen": "17",
+  "eighteen": "18", "nineteen": "19", "twenty": "20", "thirty": "30",
+  "forty": "40", "fifty": "50", "sixty": "60", "seventy": "70",
+  "eighty": "80", "ninety": "90", "hundred": "100", "thousand": "1000"
+};
+
+function normalizeNumbers(s) {
+  let result = s;
+  for (const [word, digit] of Object.entries(NUMBER_WORDS)) {
+    result = result.replace(new RegExp(`\\b${word}\\b`, "g"), digit);
+  }
+  return result;
+}
+
+// Returns true if the string (after spaces removed) is purely numeric
+const isPureNumber = (s) => /^\d+$/.test(s.replace(/\s+/g, ""));
+
 function fuzzyMatch(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false;
   const norm = (s) => s.toLowerCase().trim()
@@ -91,24 +113,51 @@ function fuzzyMatch(userAnswer, correctAnswer) {
     .replace(/\s+/g, " ");
   const a = norm(userAnswer);
   const b = norm(correctAnswer);
+
   if (a === b) return true;
+
+  // Normalize number words to digits for both strings
+  const aN = normalizeNumbers(a);
+  const bN = normalizeNumbers(b);
+
+  // If either side is a pure number after normalization, require exact digit match.
+  // This prevents "five" matching "6" and allows "six" matching "6".
+  if (isPureNumber(aN) || isPureNumber(bN)) {
+    return aN.replace(/\s+/g, "") === bN.replace(/\s+/g, "");
+  }
+
+  if (aN === bN) return true;
+
   // Word-order independent
   const sortW = (s) => s.split(" ").filter(w => w).sort().join(" ");
-  if (sortW(a) === sortW(b)) return true;
+  if (sortW(a) === sortW(b) || sortW(aN) === sortW(bN)) return true;
+
   // Remove filler words
   const noFill = (s) => s.split(" ")
     .filter(w => !["the", "a", "an", "of", "in", "at", "to", "and"].includes(w))
     .join(" ");
   const ac = noFill(a), bc = noFill(b);
   if (ac === bc || sortW(ac) === sortW(bc)) return true;
-  // Simple stemming: remove trailing s/es
+
+  // Simple stemming: remove trailing s/es/ies
   const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
   if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
-  // Levenshtein for short strings
+
+  // Levenshtein with smart length-proportional thresholds.
+  // Very short strings (≤ 4): no fuzzy (too many false positives with short words).
+  // Medium (5–7): allow 1 edit.
+  // Longer (8–10): allow 2 edits.
+  // Long (≥ 11): allow ceil(length / 3) edits (~33% tolerance — handles "Ratouilite" vs "Ratatouille").
   const maxLen = Math.max(a.length, b.length);
-  if (maxLen > 0 && maxLen <= 8) return levenshtein(a, b) <= 1;
-  if (maxLen > 8 && maxLen <= 16) return levenshtein(a, b) <= 2;
-  return false;
+  if (maxLen <= 4) return false;
+  if (maxLen <= 7) return levenshtein(a, b) <= 1;
+  if (maxLen <= 10) return levenshtein(a, b) <= 2;
+  const dist = levenshtein(a, b);
+  const allowed = Math.ceil(maxLen / 3);
+  // Also try with filler words removed in case the extra words inflate the distance
+  const maxLenClean = Math.max(ac.length, bc.length);
+  const allowedClean = Math.ceil(maxLenClean / 3);
+  return dist <= allowed || (maxLenClean > 4 && levenshtein(ac, bc) <= allowedClean);
 }
 
 export default {
@@ -132,6 +181,7 @@ export default {
 
     // New state for "everyone answers" mechanic
     let playerAnswers = new Map(); // socketId -> { answer, timestamp, buzzedAt, isCorrect }
+    let disconnectedTracker = new Map(); // nameLower -> { name, disconnectedAt } — for host display
     let timerDuration = 30; // 5-120 seconds, host configurable
     let questionTimer = null;
     let questionStartTime = null;
@@ -272,7 +322,9 @@ export default {
             name: name,
             score: score
           };
-        })
+        }),
+        // Players currently disconnected (for host between-question display)
+        disconnectedPlayers: Array.from(disconnectedTracker.values())
       };
 
       io.to(room.code).emit("game:state", state);
@@ -491,6 +543,9 @@ export default {
         countdownInterval = null;
       }
 
+      // Clear disconnect display — game is over, no longer relevant
+      disconnectedTracker.clear();
+
       phase = "end";
       broadcastState();
 
@@ -593,6 +648,7 @@ export default {
             // Initialize scores — skip host if spectating
             scores.clear();
             scoresByName.clear();
+            disconnectedTracker.clear();
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -647,6 +703,7 @@ export default {
             // Reset all scores — skip host if spectating
             scores.clear();
             scoresByName.clear();
+            disconnectedTracker.clear();
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -697,12 +754,12 @@ export default {
 
           case "host:skipRound":
             if (!isHostSocket(socketId)) return;
-            if (phase !== "question" && phase !== "result") return;
+            if (phase !== "question" && phase !== "result" && phase !== "paused") return;
 
             stopQuestionTimer();
 
-            if (phase === "question") {
-              // Skip without awarding points
+            if (phase === "question" || phase === "paused") {
+              // Skip without awarding points (also handles skipping a paused round)
               endAnsweringPhase(true);
             }
 
@@ -716,26 +773,60 @@ export default {
             if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown") return;
 
-            // Shuffle current question + all remaining into a new order
-            if (currentQuestionIndex < questions.length - 1) {
-              // Include current question in the pool so it may change
-              const shufflePool = shuffle(questions.slice(currentQuestionIndex));
+            {
+              const alreadyAsked = questions.slice(0, currentQuestionIndex);
+              const currentQ = questions[currentQuestionIndex];
+              const notYetAsked = questions.slice(currentQuestionIndex + 1);
 
-              questions = [
-                ...questions.slice(0, currentQuestionIndex),
-                ...shufflePool
-              ];
+              if (phase === "result") {
+                // Current question is already done — only shuffle UPCOMING questions.
+                // Never put the finished question back into the pool.
+                if (notYetAsked.length === 0) {
+                  // Nothing left to reorder; still emit the event so the client toasts.
+                  io.to(room.code).emit("game:event", {
+                    type: "questions_shuffled",
+                    message: "Questions reshuffled!"
+                  });
+                  break;
+                }
+                questions = [...alreadyAsked, currentQ, ...shuffle(notYetAsked)];
+                io.to(room.code).emit("game:event", {
+                  type: "questions_shuffled",
+                  message: "Questions reshuffled!"
+                });
+                broadcastState();
+              } else {
+                // In waiting / question / paused phase — current question has NOT been
+                // answered yet, so include it in the shuffle pool and swap to a new one.
+                stopQuestionTimer();
+                playerAnswers.clear();
 
-              // Stop the timer and reset to "waiting" so the host clicks Show Question fresh
-              stopQuestionTimer();
-              playerAnswers.clear();
-              currentQuestionIndex--; // nextQuestion() will increment back
-              nextQuestion();         // phase = "waiting", timer reset on Show Question
+                if (notYetAsked.length === 0) {
+                  // Last question — no alternatives, just reset to waiting for re-show.
+                  phase = "waiting";
+                  io.to(room.code).emit("game:event", {
+                    type: "questions_shuffled",
+                    message: "Questions reshuffled!"
+                  });
+                  broadcastState();
+                } else {
+                  // Shuffle current + remaining, guaranteeing a different question first.
+                  const combinedPool = shuffle([currentQ, ...notYetAsked]);
+                  if (combinedPool[0].question === currentQ.question) {
+                    const swapIdx = Math.floor(Math.random() * (combinedPool.length - 1)) + 1;
+                    [combinedPool[0], combinedPool[swapIdx]] = [combinedPool[swapIdx], combinedPool[0]];
+                  }
 
-              io.to(room.code).emit("game:event", {
-                type: "questions_shuffled",
-                message: "Questions reshuffled!"
-              });
+                  questions = [...alreadyAsked, ...combinedPool];
+                  currentQuestionIndex--; // nextQuestion() will increment back
+                  nextQuestion();         // phase = "waiting", timer reset on Show Question
+
+                  io.to(room.code).emit("game:event", {
+                    type: "questions_shuffled",
+                    message: "Questions reshuffled!"
+                  });
+                }
+              }
             }
             break;
 
@@ -865,6 +956,15 @@ export default {
             // checkAndAddPlayer already ran at the top of handleEvent.
             // Calling it again is safe — it's a no-op if the score is already set.
             checkAndAddPlayer(socketId);
+
+            // Remove from disconnected tracker now that they've rejoined
+            {
+              const rejoiningPlayer = room.players.get(socketId);
+              if (rejoiningPlayer?.name) {
+                disconnectedTracker.delete(rejoiningPlayer.name.toLowerCase());
+              }
+            }
+
             // Broadcast state so the new player gets it
             broadcastState();
 
@@ -888,6 +988,11 @@ export default {
               const currentScore = scores.get(socketId) || 0;
               scoresByName.set(disconnectedName.toLowerCase(), currentScore);
               logInfo(`Saved score ${currentScore} for disconnected player ${disconnectedName}`);
+              // Track for host display
+              disconnectedTracker.set(disconnectedName.toLowerCase(), {
+                name: disconnectedName,
+                disconnectedAt: Date.now()
+              });
             }
 
             // Only remove from playerAnswers if they haven't answered yet.
@@ -964,7 +1069,8 @@ export default {
             const roomPlayer = roomPlayers.find(p => p.socketId === id);
             const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
             return { socketId: id, name, score };
-          })
+          }),
+          disconnectedPlayers: Array.from(disconnectedTracker.values())
         };
       },
 
@@ -978,6 +1084,7 @@ export default {
         questions = [];
         scores.clear();
         playerAnswers.clear();
+        disconnectedTracker.clear();
         gameSettings = null;
         activeTimerDuration = 30;
         timerRemainingAtPause = 0;
