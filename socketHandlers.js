@@ -377,6 +377,9 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       });
     });
 
+    // Client keepalive — just keeps the socket connection alive; no-op on server
+    socket.on("heartbeat", () => { /* no-op */ });
+
     // Generic route for future in-game events:
     // e.g. "game:event" with { roomCode, eventName, payload }
     socket.on("game:event", ({ roomCode, eventName, payload }) => {
