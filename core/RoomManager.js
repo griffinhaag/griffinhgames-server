@@ -65,6 +65,8 @@ export function createRoomManager() {
       if (disconnectedData) {
         isReconnecting = true;
         wasHost = disconnectedData.wasHost;
+        // Restore original name (preserves original casing regardless of how they typed it)
+        name = disconnectedData.name;
         // Clear the disconnected player data
         roomDisconnected.delete(name.toLowerCase());
         if (roomDisconnected.size === 0) {

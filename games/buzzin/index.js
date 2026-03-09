@@ -112,11 +112,37 @@ const NUMBER_WORDS = {
   "eighty": "80", "ninety": "90", "hundred": "100", "thousand": "1000"
 };
 
+// Currency and symbol aliases for fuzzy matching
+const SYMBOL_ALIASES = {
+  "£": "pound sterling",
+  "$": "dollar",
+  "€": "euro",
+  "¥": "yen",
+  "₹": "rupee",
+  "%": "percent",
+  "&": "and",
+};
+
+function normalizeSymbols(s) {
+  let result = s;
+  for (const [sym, word] of Object.entries(SYMBOL_ALIASES)) {
+    result = result.split(sym).join(` ${word} `);
+  }
+  return result.trim().replace(/\s+/g, " ");
+}
+
 function normalizeNumbers(s) {
   let result = s;
   for (const [word, digit] of Object.entries(NUMBER_WORDS)) {
     result = result.replace(new RegExp(`\\b${word}\\b`, "g"), digit);
   }
+  // Combine compound numbers: e.g. "20 6" → "26", "30 5" → "35"
+  // Covers cases where number words are used for compound values ("twenty six" → "20 6" → "26")
+  result = result.replace(/\b([2-9]0) ([1-9])\b/g, (_, tens, ones) => String(+tens + +ones));
+  // Hundreds: "100 20 6" → "126", "100 20" → "120", "100 6" → "106"
+  result = result.replace(/\b(1[0-9]{2}) ([2-9]0) ([1-9])\b/g, (_, h, t, o) => String(+h + +t + +o));
+  result = result.replace(/\b(1[0-9]{2}) ([2-9]0)\b/g, (_, h, t) => String(+h + +t));
+  result = result.replace(/\b(1[0-9]{2}) ([1-9])\b/g, (_, h, o) => String(+h + +o));
   return result;
 }
 
@@ -125,7 +151,9 @@ const isPureNumber = (s) => /^\d+$/.test(s.replace(/\s+/g, ""));
 
 function fuzzyMatch(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false;
-  const norm = (s) => s.toLowerCase().trim()
+
+  // Expand currency/special symbols before stripping non-alphanumeric chars
+  const norm = (s) => normalizeSymbols(s).toLowerCase().trim()
     .replace(/[^a-z0-9\s]/g, "")
     .replace(/\s+/g, " ");
   const a = norm(userAnswer);
@@ -138,7 +166,7 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   const bN = normalizeNumbers(b);
 
   // If either side is a pure number after normalization, require exact digit match.
-  // This prevents "five" matching "6" and allows "six" matching "6".
+  // This prevents "five" matching "6" and allows "twenty six" matching "26".
   if (isPureNumber(aN) || isPureNumber(bN)) {
     return aN.replace(/\s+/g, "") === bN.replace(/\s+/g, "");
   }
@@ -160,21 +188,19 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
   if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
 
-  // Levenshtein with smart length-proportional thresholds.
-  // Very short strings (≤ 4): no fuzzy (too many false positives with short words).
-  // Medium (5–7): allow 1 edit.
-  // Longer (8–10): allow 2 edits.
-  // Long (≥ 11): allow ceil(length / 3) edits (~33% tolerance — handles "Ratouilite" vs "Ratatouille").
+  // Levenshtein with tightened thresholds to prevent false positives (e.g. Acrophobia ≠ Agoraphobia).
+  // Very short strings (≤ 4): no fuzzy.
+  // 5–6: allow 1 edit.
+  // 7–9: allow 2 edits.
+  // 10+: allow at most 2 edits (genuine 1-2 character typos only).
   const maxLen = Math.max(a.length, b.length);
   if (maxLen <= 4) return false;
-  if (maxLen <= 7) return levenshtein(a, b) <= 1;
-  if (maxLen <= 10) return levenshtein(a, b) <= 2;
+  if (maxLen <= 6) return levenshtein(a, b) <= 1;
+  if (maxLen <= 9) return levenshtein(a, b) <= 2;
   const dist = levenshtein(a, b);
-  const allowed = Math.ceil(maxLen / 3);
-  // Also try with filler words removed in case the extra words inflate the distance
   const maxLenClean = Math.max(ac.length, bc.length);
-  const allowedClean = Math.ceil(maxLenClean / 3);
-  return dist <= allowed || (maxLenClean > 4 && levenshtein(ac, bc) <= allowedClean);
+  // Cap at 2 edits for long strings to avoid matching different-but-similar words
+  return dist <= 2 || (maxLenClean > 4 && levenshtein(ac, bc) <= 2);
 }
 
 // Hard cap on questions per game — enforced on both server and client.
