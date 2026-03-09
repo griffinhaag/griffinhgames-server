@@ -322,9 +322,14 @@ export default {
         };
       });
 
-      // Check if this is the first OFF THE DOME question in the game (show announcement)
-      const isFirstOffTheDome = isOffTheDome &&
-        questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question));
+      // Show OTD announcement:
+      // - At end mode: announce once at the transition (first OTD question)
+      // - Distributed mode: announce for every OTD question so players aren't caught off guard
+      const isFirstOffTheDome = isOffTheDome && (
+        otdAtEnd
+          ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question))
+          : true
+      );
 
       const state = {
         phase,
@@ -1145,8 +1150,11 @@ export default {
 
         // Determine if OFF THE DOME
         const isOffTheDome = currentQ != null && otdQuestionTexts.has(currentQ.question);
-        const isFirstOffTheDome = isOffTheDome &&
-          questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question));
+        const isFirstOffTheDome = isOffTheDome && (
+          otdAtEnd
+            ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question))
+            : true
+        );
 
         return {
           phase,
