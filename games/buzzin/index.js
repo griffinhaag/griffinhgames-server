@@ -214,7 +214,11 @@ export default {
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
     let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
-    let offTheDomeCount = 3; // Number of final "OFF THE DOME" free-text questions
+    let offTheDomeCount = 3; // Number of "OFF THE DOME" free-text questions
+    let otdAtEnd = false;   // false = distribute OTD randomly (default), true = place at end
+    // Tracks which question texts are "OFF THE DOME" for the current game (by question text).
+    // Using a Set keyed by text means it survives reshuffles and question replacements correctly.
+    let otdQuestionTexts = new Set();
 
     // --- Session-level seen question tracking ---
     // Persists across game restarts within the same room so Play Again never repeats questions.
@@ -296,9 +300,8 @@ export default {
           ? questions[currentQuestionIndex]
           : null;
 
-      // Determine if this is an "OFF THE DOME" question (last 3 questions are typing-based)
-      const isOffTheDome = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= offTheDomeCount;
+      // Determine if this is an "OFF THE DOME" question (free-text typing)
+      const isOffTheDome = currentQ != null && otdQuestionTexts.has(currentQ.question);
 
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
@@ -319,9 +322,9 @@ export default {
         };
       });
 
-      // Check if this is the first OFF THE DOME question (show announcement)
+      // Check if this is the first OFF THE DOME question in the game (show announcement)
       const isFirstOffTheDome = isOffTheDome &&
-        currentQuestionIndex === questions.length - offTheDomeCount;
+        questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question));
 
       const state = {
         phase,
@@ -400,8 +403,8 @@ export default {
       playerAnswers.clear(); // Reset answers for new question
 
       // OFF THE DOME questions get at least 60 seconds regardless of slider
-      const isOTD = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= offTheDomeCount;
+      const curQ = questions[currentQuestionIndex];
+      const isOTD = curQ != null && otdQuestionTexts.has(curQ.question);
       const effectiveTimer = isOTD ? Math.max(60, timerDuration) : timerDuration;
 
       startQuestionTimer(effectiveTimer);
@@ -462,8 +465,7 @@ export default {
 
       // Only use fuzzy matching for OFF THE DOME (free-text) questions;
       // multiple choice answers must match exactly since options are concrete.
-      const isOTD = currentQuestionIndex >= 0 &&
-        (questions.length - currentQuestionIndex) <= offTheDomeCount;
+      const isOTD = currentQ != null && otdQuestionTexts.has(currentQ.question);
 
       // Find first correct answer by timestamp
       let firstCorrectId = null;
@@ -647,13 +649,15 @@ export default {
             // Store settings for restart (including timer duration)
             timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
             firstBonusEnabled = payload?.bonusFirstCorrect !== false;
+            otdAtEnd = payload?.otdAtEnd === true;
             // offTheDomeCount is clamped after questions are selected (see below)
             gameSettings = {
               categories: selectedCategories,
               questionCount: payload?.questionCount || 10,
               timerDuration: timerDuration,
               bonusFirstCorrect: firstBonusEnabled,
-              offTheDomeCount: payload?.offTheDomeCount ?? 3
+              offTheDomeCount: payload?.offTheDomeCount ?? 3,
+              otdAtEnd: otdAtEnd
             };
             
             // Store selected categories so mid-game shuffle can pull from the same pool
@@ -690,6 +694,18 @@ export default {
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount, questions.length));
+
+            // Mark which questions are "OFF THE DOME" (free-text) for this game.
+            // otdAtEnd = true → last offTheDomeCount questions; false → randomly distributed.
+            otdQuestionTexts.clear();
+            if (offTheDomeCount > 0) {
+              if (otdAtEnd) {
+                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(q.question));
+              } else {
+                const otdIndices = shuffle([...Array(questions.length).keys()]).slice(0, offTheDomeCount);
+                otdIndices.forEach(i => otdQuestionTexts.add(questions[i].question));
+              }
+            }
 
             // Initialize scores — skip host if spectating
             scores.clear();
@@ -744,6 +760,12 @@ export default {
             if (payload.offTheDomeCount !== undefined) {
               gameSettings.offTheDomeCount = payload.offTheDomeCount;
             }
+            if (payload.otdAtEnd !== undefined) {
+              otdAtEnd = payload.otdAtEnd === true;
+              gameSettings.otdAtEnd = otdAtEnd;
+            } else {
+              otdAtEnd = gameSettings.otdAtEnd === true;
+            }
             activeTimerDuration = timerDuration;
 
             // Reset all scores — skip host if spectating
@@ -776,6 +798,17 @@ export default {
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount ?? 3, questions.length));
+
+            // Mark OTD questions for this game
+            otdQuestionTexts.clear();
+            if (offTheDomeCount > 0) {
+              if (otdAtEnd) {
+                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(q.question));
+              } else {
+                const otdIndices = shuffle([...Array(questions.length).keys()]).slice(0, offTheDomeCount);
+                otdIndices.forEach(i => otdQuestionTexts.add(questions[i].question));
+              }
+            }
 
             // Start countdown again
             startCountdown();
@@ -866,6 +899,11 @@ export default {
                   // should stay available for future games (not burned as "used").
                   const replacementQ = replacementPool[Math.floor(Math.random() * replacementPool.length)];
                   seenQuestionTexts.delete(currentQ.question);
+                  // Transfer OTD designation: if the skipped question was OTD, the replacement is too.
+                  if (otdQuestionTexts.has(currentQ.question)) {
+                    otdQuestionTexts.delete(currentQ.question);
+                    otdQuestionTexts.add(replacementQ.question);
+                  }
                   questions = [...alreadyAsked, replacementQ, ...notYetAsked];
                   currentQuestionIndex--; // nextQuestion() increments back, marks replacementQ seen
                   nextQuestion();
@@ -1101,15 +1139,14 @@ export default {
           };
         });
 
-        // Determine if OFF THE DOME
-        const isOffTheDome = currentQuestionIndex >= 0 &&
-          (questions.length - currentQuestionIndex) <= offTheDomeCount;
-        const isFirstOffTheDome = isOffTheDome &&
-          currentQuestionIndex === questions.length - offTheDomeCount;
-
         const currentQ = currentQuestionIndex >= 0 && currentQuestionIndex < questions.length
           ? questions[currentQuestionIndex]
           : null;
+
+        // Determine if OFF THE DOME
+        const isOffTheDome = currentQ != null && otdQuestionTexts.has(currentQ.question);
+        const isFirstOffTheDome = isOffTheDome &&
+          questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question));
 
         return {
           phase,
@@ -1150,6 +1187,7 @@ export default {
         playerAnswers.clear();
         disconnectedTracker.clear();
         seenQuestionTexts.clear();
+        otdQuestionTexts.clear();
         currentCategories = [];
         gameSettings = null;
         activeTimerDuration = 30;
