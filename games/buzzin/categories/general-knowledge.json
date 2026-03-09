@@ -1,27 +1,652 @@
 [
-  { "question": "What is the capital of France?", "answer": "Paris", "choices": ["London", "Paris", "Berlin", "Madrid"] },
-  { "question": "Which planet is known as the Red Planet?", "answer": "Mars", "choices": ["Venus", "Mars", "Jupiter", "Saturn"] },
-  { "question": "What is the largest ocean on Earth?", "answer": "Pacific Ocean", "choices": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"] },
-  { "question": "How many sides does a hexagon have?", "answer": "6", "choices": ["5", "6", "7", "8"] },
-  { "question": "What is the largest mammal on Earth?", "answer": "Blue Whale", "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"] },
-  { "question": "How many continents are there?", "answer": "7", "choices": ["5", "6", "7", "8"] },
-  { "question": "What is the main ingredient in traditional hummus?", "answer": "Chickpeas", "choices": ["Lentils", "Chickpeas", "Black beans", "Kidney beans"] },
-  { "question": "Which vitamin is primarily obtained from sunlight?", "answer": "Vitamin D", "choices": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"] },
-  { "question": "What is the currency of Japan?", "answer": "Yen", "choices": ["Won", "Yuan", "Yen", "Ringgit"] },
-  { "question": "How many stripes are on the American flag?", "answer": "13", "choices": ["10", "11", "12", "13"] },
-  { "question": "What is the boiling point of water in Celsius?", "answer": "100", "choices": ["90", "100", "110", "120"] },
-  { "question": "What is the largest organ in the human body?", "answer": "Skin", "choices": ["Liver", "Heart", "Skin", "Lungs"] },
-  { "question": "Which animal is known as man's best friend?", "answer": "Dog", "choices": ["Cat", "Dog", "Horse", "Parrot"] },
-  { "question": "How many letters are in the English alphabet?", "answer": "26", "choices": ["24", "25", "26", "27"] },
-  { "question": "What color are emeralds?", "answer": "Green", "choices": ["Blue", "Red", "Green", "Purple"] },
-  { "question": "What is the freezing point of water in Fahrenheit?", "answer": "32", "choices": ["0", "32", "40", "212"] },
-  { "question": "How many hours are in a day?", "answer": "24", "choices": ["12", "20", "24", "48"] },
-  { "question": "What is the tallest mountain in the world?", "answer": "Mount Everest", "choices": ["K2", "Mount Everest", "Mount Kilimanjaro", "Denali"] },
-  { "question": "Which organ pumps blood through the body?", "answer": "Heart", "choices": ["Brain", "Liver", "Heart", "Kidneys"] },
-  { "question": "What is the capital of Australia?", "answer": "Canberra", "choices": ["Sydney", "Melbourne", "Canberra", "Perth"] },
-  { "question": "How many days are in a leap year?", "answer": "366", "choices": ["364", "365", "366", "367"] },
-  { "question": "What is the largest bird in the world?", "answer": "Ostrich", "choices": ["Ostrich", "Emu", "Albatross", "Condor"] },
-  { "question": "What is the national sport of Canada?", "answer": "Lacrosse", "choices": ["Hockey", "Lacrosse", "Basketball", "Baseball"] },
-  { "question": "How many minutes are in an hour?", "answer": "60", "choices": ["30", "45", "60", "100"] },
-  { "question": "What shape is a stop sign?", "answer": "Octagon", "choices": ["Circle", "Square", "Hexagon", "Octagon"] }
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "choices": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Madrid"
+    ]
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "choices": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ]
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answer": "Pacific Ocean",
+    "choices": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ]
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "answer": "6",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "answer": "Blue Whale",
+    "choices": [
+      "Elephant",
+      "Blue Whale",
+      "Giraffe",
+      "Hippopotamus"
+    ]
+  },
+  {
+    "question": "How many continents are there?",
+    "answer": "7",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "question": "What is the main ingredient in traditional hummus?",
+    "answer": "Chickpeas",
+    "choices": [
+      "Lentils",
+      "Chickpeas",
+      "Black beans",
+      "Kidney beans"
+    ]
+  },
+  {
+    "question": "Which vitamin is primarily obtained from sunlight?",
+    "answer": "Vitamin D",
+    "choices": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ]
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answer": "Yen",
+    "choices": [
+      "Won",
+      "Yuan",
+      "Yen",
+      "Ringgit"
+    ]
+  },
+  {
+    "question": "How many stripes are on the American flag?",
+    "answer": "13",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ]
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "100",
+    "choices": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ]
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "choices": [
+      "Liver",
+      "Heart",
+      "Skin",
+      "Lungs"
+    ]
+  },
+  {
+    "question": "Which animal is known as man's best friend?",
+    "answer": "Dog",
+    "choices": [
+      "Cat",
+      "Dog",
+      "Horse",
+      "Parrot"
+    ]
+  },
+  {
+    "question": "How many letters are in the English alphabet?",
+    "answer": "26",
+    "choices": [
+      "24",
+      "25",
+      "26",
+      "27"
+    ]
+  },
+  {
+    "question": "What color are emeralds?",
+    "answer": "Green",
+    "choices": [
+      "Blue",
+      "Red",
+      "Green",
+      "Purple"
+    ]
+  },
+  {
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "answer": "32",
+    "choices": [
+      "0",
+      "32",
+      "40",
+      "212"
+    ]
+  },
+  {
+    "question": "How many hours are in a day?",
+    "answer": "24",
+    "choices": [
+      "12",
+      "20",
+      "24",
+      "48"
+    ]
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "answer": "Mount Everest",
+    "choices": [
+      "K2",
+      "Mount Everest",
+      "Mount Kilimanjaro",
+      "Denali"
+    ]
+  },
+  {
+    "question": "Which organ pumps blood through the body?",
+    "answer": "Heart",
+    "choices": [
+      "Brain",
+      "Liver",
+      "Heart",
+      "Kidneys"
+    ]
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "answer": "Canberra",
+    "choices": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ]
+  },
+  {
+    "question": "How many days are in a leap year?",
+    "answer": "366",
+    "choices": [
+      "364",
+      "365",
+      "366",
+      "367"
+    ]
+  },
+  {
+    "question": "What is the largest bird in the world?",
+    "answer": "Ostrich",
+    "choices": [
+      "Ostrich",
+      "Emu",
+      "Albatross",
+      "Condor"
+    ]
+  },
+  {
+    "question": "What is the national sport of Canada?",
+    "answer": "Lacrosse",
+    "choices": [
+      "Hockey",
+      "Lacrosse",
+      "Basketball",
+      "Baseball"
+    ]
+  },
+  {
+    "question": "How many minutes are in an hour?",
+    "answer": "60",
+    "choices": [
+      "30",
+      "45",
+      "60",
+      "100"
+    ]
+  },
+  {
+    "question": "What shape is a stop sign?",
+    "answer": "Octagon",
+    "choices": [
+      "Circle",
+      "Square",
+      "Hexagon",
+      "Octagon"
+    ]
+  },
+  {
+    "question": "What is the only fruit that has its seeds on the outside?",
+    "answer": "Strawberry",
+    "choices": [
+      "Blueberry",
+      "Strawberry",
+      "Raspberry",
+      "Kiwi"
+    ]
+  },
+  {
+    "question": "Which planet is the hottest in our solar system?",
+    "answer": "Venus",
+    "choices": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ]
+  },
+  {
+    "question": "How many hearts does an octopus have?",
+    "answer": "3",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "question": "Which artist painted the 'Mona Lisa'?",
+    "answer": "Leonardo da Vinci",
+    "choices": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ]
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+    "answer": "Carbon Dioxide",
+    "choices": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ]
+  },
+  {
+    "question": "In which country would you find the Great Pyramid of Giza?",
+    "answer": "Egypt",
+    "choices": [
+      "Mexico",
+      "Egypt",
+      "Peru",
+      "Greece"
+    ]
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "answer": "Mercury",
+    "choices": [
+      "Gold",
+      "Silver",
+      "Mercury",
+      "Copper"
+    ]
+  },
+  {
+    "question": "What is the main ingredient of guacamole?",
+    "answer": "Avocado",
+    "choices": [
+      "Tomato",
+      "Avocado",
+      "Onion",
+      "Pepper"
+    ]
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "answer": "France",
+    "choices": [
+      "England",
+      "France",
+      "Germany",
+      "Italy"
+    ]
+  },
+  {
+    "question": "How many keys are on a standard piano?",
+    "answer": "88",
+    "choices": [
+      "76",
+      "88",
+      "92",
+      "100"
+    ]
+  },
+  {
+    "question": "What is the fastest land animal?",
+    "answer": "Cheetah",
+    "choices": [
+      "Lion",
+      "Gazelle",
+      "Cheetah",
+      "Horse"
+    ]
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "answer": "Oxygen",
+    "choices": [
+      "Osmium",
+      "Oxygen",
+      "Gold",
+      "Iron"
+    ]
+  },
+  {
+    "question": "How many colors are in a rainbow?",
+    "answer": "7",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "question": "Which bird is the only one that can fly backwards?",
+    "answer": "Hummingbird",
+    "choices": [
+      "Sparrow",
+      "Hummingbird",
+      "Swallow",
+      "Eagle"
+    ]
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "answer": "Antarctica",
+    "choices": [
+      "Sahara",
+      "Gobi",
+      "Antarctica",
+      "Arabian"
+    ]
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare",
+    "choices": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Mark Twain",
+      "Jane Austen"
+    ]
+  },
+  {
+    "question": "What is the primary ingredient in glass?",
+    "answer": "Sand",
+    "choices": [
+      "Clay",
+      "Sand",
+      "Soda ash",
+      "Limestone"
+    ]
+  },
+  {
+    "question": "What is the most widely spoken language in the world by native speakers?",
+    "answer": "Mandarin Chinese",
+    "choices": [
+      "English",
+      "Spanish",
+      "Mandarin Chinese",
+      "Hindi"
+    ]
+  },
+  {
+    "question": "What do you call a group of lions?",
+    "answer": "Pride",
+    "choices": [
+      "Pack",
+      "Herd",
+      "Pride",
+      "Flock"
+    ]
+  },
+  {
+    "question": "In what year did the Titanic sink?",
+    "answer": "1912",
+    "choices": [
+      "1905",
+      "1912",
+      "1918",
+      "1923"
+    ]
+  },
+  {
+    "question": "Which continent is known as the 'Dark Continent'?",
+    "answer": "Africa",
+    "choices": [
+      "Asia",
+      "South America",
+      "Africa",
+      "Antarctica"
+    ]
+  },
+  {
+    "question": "What is the smallest bone in the human body?",
+    "answer": "Stapes",
+    "choices": [
+      "Stapes",
+      "Phalanges",
+      "Patella",
+      "Fibula"
+    ]
+  },
+  {
+    "question": "How many strings does a standard violin have?",
+    "answer": "4",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "question": "Which country is the largest by land area?",
+    "answer": "Russia",
+    "choices": [
+      "Canada",
+      "USA",
+      "Russia",
+      "China"
+    ]
+  },
+  {
+    "question": "What is the name of the ship that brought the Pilgrims to America in 1620?",
+    "answer": "Mayflower",
+    "choices": [
+      "Santa Maria",
+      "Beagle",
+      "Mayflower",
+      "Endeavour"
+    ]
+  },
+  {
+    "question": "Which gas makes up the majority of Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "choices": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Argon"
+    ]
+  },
+  {
+    "question": "What is the main ingredient in chocolate?",
+    "answer": "Cocoa beans",
+    "choices": [
+      "Sugar",
+      "Milk",
+      "Cocoa beans",
+      "Vanilla"
+    ]
+  },
+  {
+    "question": "How many players are on a standard soccer team on the field?",
+    "answer": "11",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "answer": "Pound Sterling",
+    "choices": [
+      "Euro",
+      "Dollar",
+      "Pound Sterling",
+      "Franc"
+    ]
+  },
+  {
+    "question": "Which organ in the human body is responsible for filtering blood?",
+    "answer": "Kidneys",
+    "choices": [
+      "Heart",
+      "Lungs",
+      "Kidneys",
+      "Liver"
+    ]
+  },
+  {
+    "question": "What color is a polar bear's skin?",
+    "answer": "Black",
+    "choices": [
+      "White",
+      "Pink",
+      "Black",
+      "Grey"
+    ]
+  },
+  {
+    "question": "What is the square root of 144?",
+    "answer": "12",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ]
+  },
+  {
+    "question": "Which ocean lies between Africa and Australia?",
+    "answer": "Indian Ocean",
+    "choices": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ]
+  },
+  {
+    "question": "What is the national animal of Scotland?",
+    "answer": "Unicorn",
+    "choices": [
+      "Loch Ness Monster",
+      "Unicorn",
+      "Stag",
+      "Golden Eagle"
+    ]
+  },
+  {
+    "question": "How many years are in a millennium?",
+    "answer": "1000",
+    "choices": [
+      "100",
+      "500",
+      "1000",
+      "2000"
+    ]
+  },
+  {
+    "question": "Which chess piece can only move diagonally?",
+    "answer": "Bishop",
+    "choices": [
+      "Rook",
+      "Knight",
+      "Bishop",
+      "King"
+    ]
+  },
+  {
+    "question": "Who was the first person to walk on the moon?",
+    "answer": "Neil Armstrong",
+    "choices": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "John Glenn"
+    ]
+  },
+  {
+    "question": "What is the name of the process by which liquid water becomes gas?",
+    "answer": "Evaporation",
+    "choices": [
+      "Condensation",
+      "Sublimation",
+      "Evaporation",
+      "Freezing"
+    ]
+  },
+  {
+    "question": "Which country is home to the Kangaroo?",
+    "answer": "Australia",
+    "choices": [
+      "New Zealand",
+      "South Africa",
+      "Australia",
+      "Brazil"
+    ]
+  },
+  {
+    "question": "What is the softest mineral in the world?",
+    "answer": "Talc",
+    "choices": [
+      "Gypsum",
+      "Talc",
+      "Calcite",
+      "Fluorite"
+    ]
+  }
 ]

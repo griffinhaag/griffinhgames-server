@@ -53,11 +53,28 @@ function loadAllQuestions() {
     console.error("Error reading categories directory:", dirError.message);
   }
 
-  return questions;
+  // Deduplicate by question text — prevents repeats if a question appears in multiple category files
+  const deduped = [];
+  const seenTexts = new Set();
+  for (const q of questions) {
+    if (!seenTexts.has(q.question)) {
+      seenTexts.add(q.question);
+      deduped.push(q);
+    }
+  }
+  return deduped;
 }
 
 const allQuestions = loadAllQuestions();
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
+
+// Pre-compute per-category counts from the deduplicated allQuestions array.
+// This is what the /buzzin/category-counts endpoint should expose so the
+// client slider always reflects the real available pool (post-dedup).
+const categoryCounts = {};
+for (const q of allQuestions) {
+  categoryCounts[q.category] = (categoryCounts[q.category] || 0) + 1;
+}
 
 // Unbiased Fisher-Yates shuffle — returns a new shuffled array
 function shuffle(arr) {
@@ -84,6 +101,28 @@ function levenshtein(a, b) {
   return dp[m][n];
 }
 
+// Map number words to digits so "six" matches "6" but "five" never matches "6"
+const NUMBER_WORDS = {
+  "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4",
+  "five": "5", "six": "6", "seven": "7", "eight": "8", "nine": "9",
+  "ten": "10", "eleven": "11", "twelve": "12", "thirteen": "13",
+  "fourteen": "14", "fifteen": "15", "sixteen": "16", "seventeen": "17",
+  "eighteen": "18", "nineteen": "19", "twenty": "20", "thirty": "30",
+  "forty": "40", "fifty": "50", "sixty": "60", "seventy": "70",
+  "eighty": "80", "ninety": "90", "hundred": "100", "thousand": "1000"
+};
+
+function normalizeNumbers(s) {
+  let result = s;
+  for (const [word, digit] of Object.entries(NUMBER_WORDS)) {
+    result = result.replace(new RegExp(`\\b${word}\\b`, "g"), digit);
+  }
+  return result;
+}
+
+// Returns true if the string (after spaces removed) is purely numeric
+const isPureNumber = (s) => /^\d+$/.test(s.replace(/\s+/g, ""));
+
 function fuzzyMatch(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false;
   const norm = (s) => s.toLowerCase().trim()
@@ -91,25 +130,55 @@ function fuzzyMatch(userAnswer, correctAnswer) {
     .replace(/\s+/g, " ");
   const a = norm(userAnswer);
   const b = norm(correctAnswer);
+
   if (a === b) return true;
+
+  // Normalize number words to digits for both strings
+  const aN = normalizeNumbers(a);
+  const bN = normalizeNumbers(b);
+
+  // If either side is a pure number after normalization, require exact digit match.
+  // This prevents "five" matching "6" and allows "six" matching "6".
+  if (isPureNumber(aN) || isPureNumber(bN)) {
+    return aN.replace(/\s+/g, "") === bN.replace(/\s+/g, "");
+  }
+
+  if (aN === bN) return true;
+
   // Word-order independent
   const sortW = (s) => s.split(" ").filter(w => w).sort().join(" ");
-  if (sortW(a) === sortW(b)) return true;
+  if (sortW(a) === sortW(b) || sortW(aN) === sortW(bN)) return true;
+
   // Remove filler words
   const noFill = (s) => s.split(" ")
     .filter(w => !["the", "a", "an", "of", "in", "at", "to", "and"].includes(w))
     .join(" ");
   const ac = noFill(a), bc = noFill(b);
   if (ac === bc || sortW(ac) === sortW(bc)) return true;
-  // Simple stemming: remove trailing s/es
+
+  // Simple stemming: remove trailing s/es/ies
   const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
   if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
-  // Levenshtein for short strings
+
+  // Levenshtein with smart length-proportional thresholds.
+  // Very short strings (≤ 4): no fuzzy (too many false positives with short words).
+  // Medium (5–7): allow 1 edit.
+  // Longer (8–10): allow 2 edits.
+  // Long (≥ 11): allow ceil(length / 3) edits (~33% tolerance — handles "Ratouilite" vs "Ratatouille").
   const maxLen = Math.max(a.length, b.length);
-  if (maxLen > 0 && maxLen <= 8) return levenshtein(a, b) <= 1;
-  if (maxLen > 8 && maxLen <= 16) return levenshtein(a, b) <= 2;
-  return false;
+  if (maxLen <= 4) return false;
+  if (maxLen <= 7) return levenshtein(a, b) <= 1;
+  if (maxLen <= 10) return levenshtein(a, b) <= 2;
+  const dist = levenshtein(a, b);
+  const allowed = Math.ceil(maxLen / 3);
+  // Also try with filler words removed in case the extra words inflate the distance
+  const maxLenClean = Math.max(ac.length, bc.length);
+  const allowedClean = Math.ceil(maxLenClean / 3);
+  return dist <= allowed || (maxLenClean > 4 && levenshtein(ac, bc) <= allowedClean);
 }
+
+// Hard cap on questions per game — enforced on both server and client.
+const MAX_QUESTIONS_PER_GAME = 100;
 
 export default {
   id: "buzzin",
@@ -118,6 +187,10 @@ export default {
   minPlayers: 2,
   maxPlayers: 16,
   icon: "💡🦦",
+  // Deduplicated per-category counts — used by the /buzzin/category-counts endpoint
+  // so the client slider always reflects the true available pool.
+  categoryCounts,
+  maxQuestionsPerGame: MAX_QUESTIONS_PER_GAME,
 
   create({ io, room, roomManager }) {
     // Game State
@@ -132,6 +205,7 @@ export default {
 
     // New state for "everyone answers" mechanic
     let playerAnswers = new Map(); // socketId -> { answer, timestamp, buzzedAt, isCorrect }
+    let disconnectedTracker = new Map(); // nameLower -> { name, disconnectedAt } — for host display
     let timerDuration = 30; // 5-120 seconds, host configurable
     let questionTimer = null;
     let questionStartTime = null;
@@ -141,6 +215,14 @@ export default {
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
     let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
     let offTheDomeCount = 3; // Number of final "OFF THE DOME" free-text questions
+
+    // --- Session-level seen question tracking ---
+    // Persists across game restarts within the same room so Play Again never repeats questions.
+    // Populated in nextQuestion() as each question is presented, and merged with the client's
+    // sessionStorage backup at game start/restart (resilience against server restarts).
+    let seenQuestionTexts = new Set();
+    // Categories currently selected for this game — used to build the replacement pool for shuffles.
+    let currentCategories = [];
 
     // Initialize scores for existing players
     room.players.forEach((p) => {
@@ -272,7 +354,9 @@ export default {
             name: name,
             score: score
           };
-        })
+        }),
+        // Players currently disconnected (for host between-question display)
+        disconnectedPlayers: Array.from(disconnectedTracker.values())
       };
 
       io.to(room.code).emit("game:state", state);
@@ -291,6 +375,10 @@ export default {
         endGame();
         return;
       }
+
+      // Mark this question as seen (server-side — survives game restarts within this room session)
+      const nextQ = questions[currentQuestionIndex];
+      if (nextQ?.question) seenQuestionTexts.add(nextQ.question);
 
       // First show "waiting" phase - host must click "Show Question"
       phase = "waiting";
@@ -491,6 +579,9 @@ export default {
         countdownInterval = null;
       }
 
+      // Clear disconnect display — game is over, no longer relevant
+      disconnectedTracker.clear();
+
       phase = "end";
       broadcastState();
 
@@ -498,6 +589,19 @@ export default {
         type: "game_ended",
         reason: reason
       });
+    }
+
+    // --- Question Pool Builder ---
+    // Returns a pool for the given categories, always preferring questions that have never been
+    // seen in this room session. If fewer fresh questions exist than `needed`, it supplements
+    // with seen questions (shuffled for fairness) so the game can still run rather than crashing.
+    function buildQuestionPool(categories, needed) {
+      const categoryFiltered = allQuestions.filter(q => categories.includes(q.category));
+      const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(q.question));
+      if (fresh.length >= needed) return fresh;
+      // Not enough fresh questions — top up with seen ones (least painful repeat possible)
+      const seen = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
+      return [...fresh, ...seen.slice(0, needed - fresh.length)];
     }
 
     return {
@@ -552,47 +656,45 @@ export default {
               offTheDomeCount: payload?.offTheDomeCount ?? 3
             };
             
-            let filteredQuestions = allQuestions.filter(q =>
-              selectedCategories.includes(q.category)
-            );
+            // Store selected categories so mid-game shuffle can pull from the same pool
+            currentCategories = selectedCategories;
 
-            // Filter out questions seen in previous games this session
+            // Merge client's sessionStorage backup into server-side tracker.
+            // This handles the edge case where the server restarted and lost its state.
             const seenQs = payload?.seenQuestions || [];
-            if (seenQs.length > 0) {
-              const filtered = filteredQuestions.filter(q => !seenQs.includes(q.question));
-              // Only use filter if enough questions remain (at least 5)
-              if (filtered.length >= 5) filteredQuestions = filtered;
-            }
+            seenQs.forEach(q => seenQuestionTexts.add(q));
 
-            // Ensure at least 5 questions are available
-            if (filteredQuestions.length < 5) {
+            // Count total available questions for the chosen categories (including already-seen)
+            const categoryFiltered = allQuestions.filter(q => selectedCategories.includes(q.category));
+
+            // Ensure at least 5 questions exist across the selected categories
+            if (categoryFiltered.length < 5) {
               io.to(socketId).emit("game:event", {
                 type: "error",
-                message: `Not enough questions in selected categories (found ${filteredQuestions.length}). Please select more categories.`
+                message: `Not enough questions in selected categories (found ${categoryFiltered.length}). Please select more categories.`
               });
               return;
             }
 
-            // Cap at actual available count (no arbitrary limit)
+            // Cap requested count: minimum 5, maximum MAX_QUESTIONS_PER_GAME, and never
+            // more than total questions available in the selected categories.
             const requestedCount = Math.min(
               Math.max(5, gameSettings.questionCount),
-              filteredQuestions.length
+              MAX_QUESTIONS_PER_GAME,
+              categoryFiltered.length
             );
-            
-            // Shuffle and select questions (Fisher-Yates for unbiased randomness)
-            questions = shuffle(filteredQuestions).slice(0, requestedCount);
+
+            // Build pool preferring unseen questions; supplements with seen ones only if the
+            // fresh supply is exhausted (so the game always runs, with minimum possible repeats).
+            questions = shuffle(buildQuestionPool(selectedCategories, requestedCount)).slice(0, requestedCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount, questions.length));
 
-            if (questions.length === 0) {
-              // Fallback to all questions if filtered result is empty
-              questions = shuffle(allQuestions).slice(0, Math.min(10, allQuestions.length));
-            }
-            
             // Initialize scores — skip host if spectating
             scores.clear();
             scoresByName.clear();
+            disconnectedTracker.clear();
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -647,6 +749,7 @@ export default {
             // Reset all scores — skip host if spectating
             scores.clear();
             scoresByName.clear();
+            disconnectedTracker.clear();
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -654,20 +757,22 @@ export default {
               }
             });
             
-            // Re-randomize questions with same settings
-            let filteredQuestionsRestart = allQuestions.filter(q =>
-              gameSettings.categories.includes(q.category)
-            );
+            // Update category pool for mid-game shuffle
+            currentCategories = gameSettings.categories;
 
-            // Filter out seen questions
+            // Merge client's sessionStorage backup (resilience against server restarts)
             const seenQsRestart = payload?.seenQuestions || [];
-            if (seenQsRestart.length > 0) {
-              const f = filteredQuestionsRestart.filter(q => !seenQsRestart.includes(q.question));
-              if (f.length >= 5) filteredQuestionsRestart = f;
-            }
+            seenQsRestart.forEach(q => seenQuestionTexts.add(q));
 
-            questions = shuffle(filteredQuestionsRestart)
-              .slice(0, Math.min(gameSettings.questionCount, filteredQuestionsRestart.length));
+            // At this point seenQuestionTexts already contains every question asked in previous
+            // games this session (added by nextQuestion()). Build a fresh pool accordingly.
+            const restartCategoryFiltered = allQuestions.filter(q => gameSettings.categories.includes(q.category));
+            const restartCount = Math.min(
+              Math.max(5, gameSettings.questionCount),
+              MAX_QUESTIONS_PER_GAME,
+              restartCategoryFiltered.length
+            );
+            questions = shuffle(buildQuestionPool(gameSettings.categories, restartCount)).slice(0, restartCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount ?? 3, questions.length));
@@ -697,12 +802,12 @@ export default {
 
           case "host:skipRound":
             if (!isHostSocket(socketId)) return;
-            if (phase !== "question" && phase !== "result") return;
+            if (phase !== "question" && phase !== "result" && phase !== "paused") return;
 
             stopQuestionTimer();
 
-            if (phase === "question") {
-              // Skip without awarding points
+            if (phase === "question" || phase === "paused") {
+              // Skip without awarding points (also handles skipping a paused round)
               endAnsweringPhase(true);
             }
 
@@ -716,26 +821,76 @@ export default {
             if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown") return;
 
-            // Shuffle current question + all remaining into a new order
-            if (currentQuestionIndex < questions.length - 1) {
-              // Include current question in the pool so it may change
-              const shufflePool = shuffle(questions.slice(currentQuestionIndex));
+            {
+              const alreadyAsked = questions.slice(0, currentQuestionIndex);
+              const currentQ = questions[currentQuestionIndex];
+              const notYetAsked = questions.slice(currentQuestionIndex + 1);
 
-              questions = [
-                ...questions.slice(0, currentQuestionIndex),
-                ...shufflePool
-              ];
+              if (phase === "result") {
+                // Current question is already done — only shuffle UPCOMING questions.
+                // Never put the finished question back into the pool.
+                if (notYetAsked.length === 0) {
+                  // Nothing left to reorder; still emit the event so the client toasts.
+                  io.to(room.code).emit("game:event", {
+                    type: "questions_shuffled",
+                    message: "Questions reshuffled!"
+                  });
+                  break;
+                }
+                questions = [...alreadyAsked, currentQ, ...shuffle(notYetAsked)];
+                io.to(room.code).emit("game:event", {
+                  type: "questions_shuffled",
+                  message: "Questions reshuffled!"
+                });
+                broadcastState();
+              } else {
+                // In waiting / question / paused phase — current question has NOT been
+                // answered yet, so include it in the shuffle pool and swap to a new one.
+                stopQuestionTimer();
+                playerAnswers.clear();
 
-              // Stop the timer and reset to "waiting" so the host clicks Show Question fresh
-              stopQuestionTimer();
-              playerAnswers.clear();
-              currentQuestionIndex--; // nextQuestion() will increment back
-              nextQuestion();         // phase = "waiting", timer reset on Show Question
+                // Try to replace the current question with a brand-new one from the full pool.
+                // Replacement pool = questions in the selected categories that:
+                //   1. Have never been seen in this room session (seenQuestionTexts), AND
+                //   2. Are not already queued in the current game (to avoid queue duplicates).
+                const gameQSet = new Set(questions.map(q => q.question));
+                const replacementPool = allQuestions.filter(q =>
+                  currentCategories.includes(q.category) &&
+                  !seenQuestionTexts.has(q.question) &&
+                  !gameQSet.has(q.question)
+                );
 
-              io.to(room.code).emit("game:event", {
-                type: "questions_shuffled",
-                message: "Questions reshuffled!"
-              });
+                if (replacementPool.length > 0) {
+                  // Pick a random fresh replacement.
+                  // Remove currentQ from seenQuestionTexts — it was never answered, so it
+                  // should stay available for future games (not burned as "used").
+                  const replacementQ = replacementPool[Math.floor(Math.random() * replacementPool.length)];
+                  seenQuestionTexts.delete(currentQ.question);
+                  questions = [...alreadyAsked, replacementQ, ...notYetAsked];
+                  currentQuestionIndex--; // nextQuestion() increments back, marks replacementQ seen
+                  nextQuestion();
+                } else if (notYetAsked.length > 0) {
+                  // Fresh pool exhausted — fall back to reshuffling the existing remaining
+                  // questions, still guaranteeing a different question comes next.
+                  const combinedPool = shuffle([currentQ, ...notYetAsked]);
+                  if (combinedPool[0].question === currentQ.question) {
+                    const swapIdx = Math.floor(Math.random() * (combinedPool.length - 1)) + 1;
+                    [combinedPool[0], combinedPool[swapIdx]] = [combinedPool[swapIdx], combinedPool[0]];
+                  }
+                  questions = [...alreadyAsked, ...combinedPool];
+                  currentQuestionIndex--;
+                  nextQuestion();
+                } else {
+                  // Last question AND no fresh questions available — stay on it.
+                  phase = "waiting";
+                  broadcastState();
+                }
+
+                io.to(room.code).emit("game:event", {
+                  type: "questions_shuffled",
+                  message: "Questions reshuffled!"
+                });
+              }
             }
             break;
 
@@ -865,6 +1020,15 @@ export default {
             // checkAndAddPlayer already ran at the top of handleEvent.
             // Calling it again is safe — it's a no-op if the score is already set.
             checkAndAddPlayer(socketId);
+
+            // Remove from disconnected tracker now that they've rejoined
+            {
+              const rejoiningPlayer = room.players.get(socketId);
+              if (rejoiningPlayer?.name) {
+                disconnectedTracker.delete(rejoiningPlayer.name.toLowerCase());
+              }
+            }
+
             // Broadcast state so the new player gets it
             broadcastState();
 
@@ -888,6 +1052,11 @@ export default {
               const currentScore = scores.get(socketId) || 0;
               scoresByName.set(disconnectedName.toLowerCase(), currentScore);
               logInfo(`Saved score ${currentScore} for disconnected player ${disconnectedName}`);
+              // Track for host display
+              disconnectedTracker.set(disconnectedName.toLowerCase(), {
+                name: disconnectedName,
+                disconnectedAt: Date.now()
+              });
             }
 
             // Only remove from playerAnswers if they haven't answered yet.
@@ -964,7 +1133,8 @@ export default {
             const roomPlayer = roomPlayers.find(p => p.socketId === id);
             const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
             return { socketId: id, name, score };
-          })
+          }),
+          disconnectedPlayers: Array.from(disconnectedTracker.values())
         };
       },
 
@@ -978,6 +1148,9 @@ export default {
         questions = [];
         scores.clear();
         playerAnswers.clear();
+        disconnectedTracker.clear();
+        seenQuestionTexts.clear();
+        currentCategories = [];
         gameSettings = null;
         activeTimerDuration = 30;
         timerRemainingAtPause = 0;
