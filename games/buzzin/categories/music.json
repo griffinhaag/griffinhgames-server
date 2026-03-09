@@ -1,7 +1,7 @@
 [
   { "question": "Who is known as the King of Pop?", "answer": "Michael Jackson", "choices": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"] },
   { "question": "Which band wrote the hit song 'Bohemian Rhapsody'?", "answer": "Queen", "choices": ["The Beatles", "Queen", "Led Zeppelin", "Pink Floyd"] },
-  { "question": "Who released the album '1989'?", "answer": "Taylor Swift", "choices": ["Beyonce", "Taylor Swift", "Ariana Grande", "Adele"] },
+  { "question": "Which singer is known as the 'Queen of Soul'?", "answer": "Aretha Franklin", "choices": ["Whitney Houston", "Aretha Franklin", "Tina Turner", "Nina Simone"] },
   { "question": "What instrument does Billie Eilish's brother Finneas primarily play?", "answer": "Piano", "choices": ["Guitar", "Piano", "Drums", "Bass"] },
   { "question": "Which artist is famous for 'Bad Guy'?", "answer": "Billie Eilish", "choices": ["Dua Lipa", "Billie Eilish", "Olivia Rodrigo", "Doja Cat"] },
   { "question": "What year did The Beatles break up?", "answer": "1970", "choices": ["1968", "1970", "1972", "1974"] },
@@ -10,7 +10,7 @@
   { "question": "What is the best-selling album of all time?", "answer": "Thriller", "choices": ["Back in Black", "Thriller", "The Dark Side of the Moon", "Rumours"] },
   { "question": "Which band sang 'Stairway to Heaven'?", "answer": "Led Zeppelin", "choices": ["Led Zeppelin", "Pink Floyd", "The Rolling Stones", "The Who"] },
   { "question": "Who is the lead singer of Maroon 5?", "answer": "Adam Levine", "choices": ["Blake Shelton", "Adam Levine", "John Legend", "Bruno Mars"] },
-  { "question": "What genre is Taylor Swift's album 'Reputation'?", "answer": "Pop", "choices": ["Country", "Pop", "Rock", "R&B"] },
+  { "question": "Which band released the critically acclaimed 1977 album 'Rumours'?", "answer": "Fleetwood Mac", "choices": ["The Eagles", "Fleetwood Mac", "The Doobie Brothers", "Steely Dan"] },
   { "question": "Which artist released 'Hotline Bling'?", "answer": "Drake", "choices": ["The Weeknd", "Drake", "Post Malone", "Travis Scott"] },
   { "question": "What is the name of BTS's fan base?", "answer": "ARMY", "choices": ["Blinks", "ARMY", "Once", "Stay"] },
   { "question": "Who sang 'Uptown Funk' with Bruno Mars?", "answer": "Mark Ronson", "choices": ["Mark Ronson", "Pharrell Williams", "CeeLo Green", "Justin Timberlake"] },

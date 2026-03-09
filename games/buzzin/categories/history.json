@@ -36,7 +36,7 @@
   { "question": "Who was the successor to Charlemagne?", "answer": "Louis the Pious", "choices": ["Charles Martel", "Louis the Pious", "Hugh Capet", "Otto I"] },
   { "question": "What year did Clovis become king of the Franks?", "answer": "AD 481", "choices": ["AD 451", "AD 476", "AD 481", "AD 496"] },
   { "question": "What year was the Council of Nicaea held?", "answer": "AD 325", "choices": ["AD 313", "AD 325", "AD 381", "AD 451"] },
-  { "question": "In this image, who is depicted slapping the heretic Arius at the Council of Nicaea?", "answer": "St. Nicholas of Myra", "choices": ["St. Nicholas of Myra", "St. Athanasius", "Constantine", "Eusebius of Caesarea"] },
+  { "question": "Which ancient civilization built Machu Picchu?", "answer": "The Inca", "choices": ["The Maya", "The Aztec", "The Inca", "The Olmec"] },
   { "question": "Who was the first Christian Roman emperor?", "answer": "Constantine", "choices": ["Diocletian", "Constantine", "Theodosius I", "Justinian"] },
   { "question": "This Roman emperor is famous for loving his cabbage garden.", "answer": "Diocletian", "choices": ["Augustus", "Diocletian", "Nero", "Trajan"] },
   { "question": "The Western Roman Empire fell in this year.", "answer": "AD 476", "choices": ["AD 410", "AD 451", "AD 476", "AD 527"] },
