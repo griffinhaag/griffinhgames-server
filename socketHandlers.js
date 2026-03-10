@@ -13,6 +13,24 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     return false;
   }
 
+  function promoteNewHostIfNeeded(roomCode, wasHost) {
+    if (!wasHost) return;
+    const room = roomManager.getRoom(roomCode);
+    if (!room || room.players.size === 0) return;
+    // Find the first non-host player (longest connected = lowest insertion order in Map)
+    const newHostPlayer = [...room.players.values()].find(p => !p.isHost);
+    if (!newHostPlayer) return;
+    // Clear isHost on all current players, then set on new host
+    room.players.forEach(p => { p.isHost = false; });
+    newHostPlayer.isHost = true;
+    room.hostSocketId = newHostPlayer.socketId;
+    io.to(newHostPlayer.socketId).emit("host:transferred", {
+      roomCode,
+      message: "Host has left. You are now the host."
+    });
+    logInfo(`Host transferred to ${newHostPlayer.name} in room ${roomCode}`);
+  }
+
   io.on("connection", (socket) => {
     logInfo(`Socket connected: ${socket.id}`);
 
@@ -380,6 +398,37 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     // Client keepalive — just keeps the socket connection alive; no-op on server
     socket.on("heartbeat", () => { /* no-op */ });
 
+    // Player voluntarily quits mid-game (score preserved, can rejoin)
+    socket.on("player:quit", ({ roomCode: quitRoomCode } = {}) => {
+      const code = quitRoomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+
+      const room = roomManager.getRoom(code);
+      const gameInProgress = room?.phase === "in-progress";
+      const playerBeforeRemoval = room?.players?.get(socket.id);
+      const playerNameBeforeRemoval = playerBeforeRemoval?.name;
+
+      const result = roomManager.removePlayerBySocket(socket.id);
+      socket.leave(code);
+
+      if (result && result.roomCode) {
+        if (gameInProgress) {
+          gameEngine.handleGameEvent({
+            roomCode: code,
+            eventName: "player:disconnected",
+            payload: { socketId: socket.id, playerName: playerNameBeforeRemoval },
+            socketId: socket.id
+          });
+        }
+        // Promote a new host if the quitting player was host
+        promoteNewHostIfNeeded(code, result.wasHost);
+
+        const roomState = roomManager.serializeRoom(code);
+        if (roomState) io.to(code).emit("room:state", roomState);
+        logInfo(`Player ${playerNameBeforeRemoval} quit room ${code}`);
+      }
+    });
+
     // Generic route for future in-game events:
     // e.g. "game:event" with { roomCode, eventName, payload }
     socket.on("game:event", ({ roomCode, eventName, payload }) => {
@@ -426,6 +475,8 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
               socketId: socket.id
             });
           }
+
+          promoteNewHostIfNeeded(code, result.wasHost);
 
           const roomState = roomManager.serializeRoom(code);
           io.to(code).emit("room:state", roomState);

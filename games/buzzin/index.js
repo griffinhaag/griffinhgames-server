@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -112,6 +113,38 @@ const NUMBER_WORDS = {
   "eighty": "80", "ninety": "90", "hundred": "100", "thousand": "1000"
 };
 
+// Common abbreviation/acronym expansions for trivia answer matching.
+// Only applied when the ENTIRE normalized answer equals a key — no partial-word expansion
+// to avoid false positives (e.g., "aids" inside "hearing aids" must not expand mid-phrase).
+const ABBREVIATIONS = {
+  "usa": "united states america",
+  "uk": "united kingdom",
+  "wwi": "world war 1",
+  "wwii": "world war 2",
+  "jfk": "john kennedy",
+  "nyc": "new york city",
+  "ussr": "soviet union",
+  "dna": "deoxyribonucleic acid",
+  "nasa": "national aeronautics space administration",
+  "ufo": "unidentified flying object",
+  "nba": "national basketball association",
+  "nfl": "national football league",
+  "mlb": "major league baseball",
+  "nhl": "national hockey league",
+  "eu": "european union",
+  "fifa": "federation internationale football association",
+  "cia": "central intelligence agency",
+  "fbi": "federal bureau investigation",
+  "nsa": "national security agency",
+  "gps": "global positioning system",
+  "aids": "acquired immune deficiency syndrome",
+  "hiv": "human immunodeficiency virus",
+};
+
+function expandAbbreviations(s) {
+  return ABBREVIATIONS[s] || s;
+}
+
 // Currency and symbol aliases for fuzzy matching
 const SYMBOL_ALIASES = {
   "£": "pound sterling",
@@ -148,6 +181,36 @@ function normalizeNumbers(s) {
 
 // Returns true if the string (after spaces removed) is purely numeric
 const isPureNumber = (s) => /^\d+$/.test(s.replace(/\s+/g, ""));
+
+// Gemini AI client for intelligent OTD answer grading
+const geminiClient = process.env.GEMINI_API_KEY
+  ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
+  : null;
+const geminiModel = geminiClient
+  ? geminiClient.getGenerativeModel({ model: "gemini-1.5-flash" })
+  : null;
+
+async function gradeAnswerWithGemini(userAnswer, correctAnswer) {
+  if (!geminiModel || !userAnswer || !correctAnswer) return false;
+  try {
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error("timeout")), 3000)
+    );
+    const gradePromise = geminiModel.generateContent(
+      `Trivia answer grading. Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
+      `Accept if: exact or near-exact match, common abbreviation (e.g. DNA for deoxyribonucleic acid), ` +
+      `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
+      `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"). ` +
+      `Reject if: referring to a clearly different thing, too vague, or only loosely related. ` +
+      `Reply with only "yes" or "no".`
+    );
+    const result = await Promise.race([gradePromise, timeoutPromise]);
+    const text = result.response.text().toLowerCase().trim();
+    return text.startsWith("yes");
+  } catch (e) {
+    return false; // fall back silently — fuzzy match result stands
+  }
+}
 
 function fuzzyMatch(userAnswer, correctAnswer) {
   if (!userAnswer || !correctAnswer) return false;
@@ -187,6 +250,28 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   // Simple stemming: remove trailing s/es/ies
   const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
   if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
+
+  // Abbreviation/acronym expansion: if either whole answer is a known abbreviation, expand and compare.
+  const aE = expandAbbreviations(a);
+  const bE = expandAbbreviations(b);
+  if (aE !== a || bE !== b) {
+    const noFillLocal = (s) => s.split(" ")
+      .filter(w => !["the", "a", "an", "of", "in", "at", "to", "and"].includes(w))
+      .join(" ");
+    if (aE === b || a === bE || aE === bE) return true;
+    if (noFillLocal(aE) === noFillLocal(b) || noFillLocal(a) === noFillLocal(bE)) return true;
+  }
+
+  // Partial answer acceptance: user typed a single significant word that appears in a multi-word
+  // correct answer (e.g. "Pacific" for "Pacific Ocean", "Jordan" for "Michael Jordan").
+  // Requires ≥5 chars to avoid short generic words matching.
+  const aWords = a.split(" ").filter(w => w);
+  const bWords = b.split(" ").filter(w => w);
+  if (bWords.length >= 2 && aWords.length === 1 && a.length >= 5) {
+    for (const bw of bWords) {
+      if (bw.length >= 5 && (a === bw || levenshtein(a, bw) <= 1)) return true;
+    }
+  }
 
   // Levenshtein with tightened thresholds to prevent false positives (e.g. Acrophobia ≠ Agoraphobia).
   // Very short strings (≤ 4): no fuzzy.
@@ -453,14 +538,14 @@ export default {
       questionStartTime = Date.now() - (activeTimerDuration - startRemaining) * 1000;
       timerRemaining = startRemaining;
 
-      questionTimer = setInterval(() => {
+      questionTimer = setInterval(async () => {
         timerRemaining = Math.max(0, activeTimerDuration - Math.floor((Date.now() - questionStartTime) / 1000));
         broadcastState();
 
         if (timerRemaining <= 0) {
           clearInterval(questionTimer);
           questionTimer = null;
-          endAnsweringPhase();
+          await endAnsweringPhase();
         }
       }, 1000);
     }
@@ -485,7 +570,7 @@ export default {
       }
     }
 
-    function endAnsweringPhase(skipPoints = false) {
+    async function endAnsweringPhase(skipPoints = false) {
       // Guard against double-fire from simultaneous timer expiry + checkAllAnswered
       if (phase !== "question" && phase !== "paused") return;
       phase = "result";
@@ -494,24 +579,44 @@ export default {
       const currentQ = questions[currentQuestionIndex];
       const correctAnswer = currentQ?.answer?.toLowerCase().trim();
 
-      // Only use fuzzy matching for OFF THE DOME (free-text) questions;
+      // Only use fuzzy/AI matching for OFF THE DOME (free-text) questions;
       // multiple choice answers must match exactly since options are concrete.
       const isOTD = currentQ != null && otdQuestionTexts.has(currentQ.question);
+
+      if (isOTD) {
+        // OTD grading: fast fuzzy match first, then Gemini AI for anything not caught by fuzzy.
+        // Both run before scoring so we can correctly identify the first correct answer.
+        const aiTasks = [];
+        playerAnswers.forEach((data) => {
+          const playerAnswer = data.answer?.toLowerCase().trim() || "";
+          if (!playerAnswer) {
+            data.isCorrect = false;
+          } else if (fuzzyMatch(playerAnswer, correctAnswer || "")) {
+            data.isCorrect = true;
+          } else {
+            // Not caught by fuzzy — ask Gemini
+            aiTasks.push(
+              gradeAnswerWithGemini(data.answer, currentQ.answer)
+                .then(result => { data.isCorrect = result; })
+            );
+          }
+        });
+        if (aiTasks.length > 0) await Promise.allSettled(aiTasks);
+      } else {
+        // Multiple choice: exact string match
+        playerAnswers.forEach((data) => {
+          const playerAnswer = data.answer?.toLowerCase().trim();
+          data.isCorrect = (playerAnswer === correctAnswer);
+        });
+      }
 
       // Find first correct answer by timestamp
       let firstCorrectId = null;
       let firstCorrectTime = Infinity;
       let firstBuzzTime = Infinity;
 
-      // First pass: determine correctness and find first correct
       playerAnswers.forEach((data, socketId) => {
-        const playerAnswer = data.answer?.toLowerCase().trim();
-        const isCorrect = isOTD
-          ? fuzzyMatch(playerAnswer || "", correctAnswer || "")
-          : (playerAnswer === correctAnswer);
-        data.isCorrect = isCorrect;
-
-        if (isCorrect && data.timestamp) {
+        if (data.isCorrect && data.timestamp) {
           // Use timestamp as primary, buzzedAt as tiebreaker
           if (data.timestamp < firstCorrectTime ||
               (data.timestamp === firstCorrectTime && data.buzzedAt < firstBuzzTime)) {
