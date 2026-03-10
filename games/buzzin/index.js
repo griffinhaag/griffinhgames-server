@@ -187,7 +187,7 @@ const geminiClient = process.env.GEMINI_API_KEY
   ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
   : null;
 const geminiModel = geminiClient
-  ? geminiClient.getGenerativeModel({ model: "gemini-1.5-flash" })
+  ? geminiClient.getGenerativeModel({ model: "gemini-2.0-flash" })
   : null;
 
 async function gradeAnswerWithGemini(userAnswer, correctAnswer) {
@@ -208,7 +208,8 @@ async function gradeAnswerWithGemini(userAnswer, correctAnswer) {
     const text = result.response.text().toLowerCase().trim();
     return text.startsWith("yes");
   } catch (e) {
-    return false; // fall back silently — fuzzy match result stands
+    console.error(`[BuzzIn] Gemini grading error: ${e?.message || e}`);
+    return false; // fall back to fuzzy match result
   }
 }
 
