@@ -187,14 +187,19 @@ const geminiClient = process.env.GEMINI_API_KEY
   ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
   : null;
 const geminiModel = geminiClient
-  ? geminiClient.getGenerativeModel({ model: "gemini-2.0-flash" })
+  ? geminiClient.getGenerativeModel({ model: "gemini-1.5-flash" })
   : null;
+if (geminiClient) {
+  console.log("[BuzzIn] Gemini client initialized (gemini-1.5-flash)");
+} else {
+  console.warn("[BuzzIn] GEMINI_API_KEY not set — AI grading disabled");
+}
 
 async function gradeAnswerWithGemini(userAnswer, correctAnswer) {
   if (!geminiModel || !userAnswer || !correctAnswer) return false;
   try {
     const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("timeout")), 3000)
+      setTimeout(() => reject(new Error("timeout")), 6000)
     );
     const gradePromise = geminiModel.generateContent(
       `Trivia answer grading. Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
