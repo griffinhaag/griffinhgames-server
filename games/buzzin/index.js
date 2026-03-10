@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import Groq from "groq-sdk";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -182,39 +182,44 @@ function normalizeNumbers(s) {
 // Returns true if the string (after spaces removed) is purely numeric
 const isPureNumber = (s) => /^\d+$/.test(s.replace(/\s+/g, ""));
 
-// Gemini AI client for intelligent OTD answer grading
-const geminiClient = process.env.GEMINI_API_KEY
-  ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
+// Groq AI client for intelligent OTD answer grading
+const groqClient = process.env.GROQ_API_KEY
+  ? new Groq({ apiKey: process.env.GROQ_API_KEY })
   : null;
-const geminiModel = geminiClient
-  ? geminiClient.getGenerativeModel({ model: "gemini-1.5-flash" })
-  : null;
-if (geminiClient) {
-  console.log("[BuzzIn] Gemini client initialized (gemini-1.5-flash)");
+if (groqClient) {
+  console.log("[BuzzIn] Groq client initialized (llama-3.1-8b-instant)");
 } else {
-  console.warn("[BuzzIn] GEMINI_API_KEY not set — AI grading disabled");
+  console.warn("[BuzzIn] GROQ_API_KEY not set — AI grading disabled");
 }
 
-async function gradeAnswerWithGemini(userAnswer, correctAnswer) {
-  if (!geminiModel || !userAnswer || !correctAnswer) return false;
+async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
+  if (!groqClient || !userAnswer || !correctAnswer) return false;
   try {
     const timeoutPromise = new Promise((_, reject) =>
       setTimeout(() => reject(new Error("timeout")), 6000)
     );
-    const gradePromise = geminiModel.generateContent(
-      `Trivia answer grading. Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
-      `Accept if: exact or near-exact match, common abbreviation (e.g. DNA for deoxyribonucleic acid), ` +
-      `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
-      `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"). ` +
-      `Reject if: referring to a clearly different thing, too vague, or only loosely related. ` +
-      `Reply with only "yes" or "no".`
-    );
+    const gradePromise = groqClient.chat.completions.create({
+      model: "llama-3.1-8b-instant",
+      messages: [{
+        role: "user",
+        content:
+          `Trivia answer grading. Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
+          `Accept if: exact or near-exact match, common abbreviation (e.g. DNA for deoxyribonucleic acid), ` +
+          `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
+          `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"), ` +
+          `or the answer contains the correct answer as part of a larger valid response (e.g. "November 9, 1989" for "1989"). ` +
+          `Reject if: referring to a clearly different thing, too vague, or only loosely related. ` +
+          `Reply with only "yes" or "no".`
+      }],
+      max_tokens: 5,
+      temperature: 0,
+    });
     const result = await Promise.race([gradePromise, timeoutPromise]);
-    const text = result.response.text().toLowerCase().trim();
+    const text = result.choices[0]?.message?.content?.toLowerCase().trim() ?? "";
     return text.startsWith("yes");
   } catch (e) {
-    console.error(`[BuzzIn] Gemini grading error: ${e?.message || e}`);
-    return false; // fall back to fuzzy match result
+    console.error(`[BuzzIn] Groq grading error: ${e?.message || e}`);
+    return false;
   }
 }
 
@@ -602,7 +607,7 @@ export default {
           } else {
             // Not caught by fuzzy — ask Gemini
             aiTasks.push(
-              gradeAnswerWithGemini(data.answer, currentQ.answer)
+              gradeAnswerWithGroq(data.answer, currentQ.answer)
                 .then(result => { data.isCorrect = result; })
             );
           }
