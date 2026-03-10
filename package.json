@@ -5,15 +5,15 @@
     "main": "server.js",
     "type": "module",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "cors": "^2.8.5",
-      "express": "^4.18.2",
-      "socket.io": "^4.7.5"
+        "@google/generative-ai": "^0.24.1",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "socket.io": "^4.7.5"
     },
     "engines": {
-      "node": ">=18.0.0"
+        "node": ">=18.0.0"
     }
-  }
-  
+}
