@@ -84,9 +84,11 @@ export function createRoomManager() {
       finalIsHost = true;
     }
 
-    // If this reconnecting player was the host, restore their host status
+    // If this player is (or becomes) host, update hostSocketId and ensure no other player
+    // has isHost=true (handles original host rejoining after interim promotion).
     if (finalIsHost) {
       room.hostSocketId = socketId;
+      room.players.forEach(p => { p.isHost = false; });
     }
 
     const player = {

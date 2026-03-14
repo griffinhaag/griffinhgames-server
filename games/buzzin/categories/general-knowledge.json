@@ -1,15 +1,5 @@
 [
   {
-    "question": "What is the capital of France?",
-    "answer": "Paris",
-    "choices": [
-      "London",
-      "Paris",
-      "Berlin",
-      "Madrid"
-    ]
-  },
-  {
     "question": "Which planet is known as the Red Planet?",
     "answer": "Mars",
     "choices": [
@@ -140,16 +130,6 @@
     ]
   },
   {
-    "question": "What color are emeralds?",
-    "answer": "Green",
-    "choices": [
-      "Blue",
-      "Red",
-      "Green",
-      "Purple"
-    ]
-  },
-  {
     "question": "What is the freezing point of water in Fahrenheit?",
     "answer": "32",
     "choices": [
@@ -157,16 +137,6 @@
       "32",
       "40",
       "212"
-    ]
-  },
-  {
-    "question": "How many hours are in a day?",
-    "answer": "24",
-    "choices": [
-      "12",
-      "20",
-      "24",
-      "48"
     ]
   },
   {
@@ -227,16 +197,6 @@
       "Lacrosse",
       "Basketball",
       "Baseball"
-    ]
-  },
-  {
-    "question": "How many minutes are in an hour?",
-    "answer": "60",
-    "choices": [
-      "30",
-      "45",
-      "60",
-      "100"
     ]
   },
   {
