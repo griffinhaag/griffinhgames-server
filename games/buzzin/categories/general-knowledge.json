@@ -7,7 +7,8 @@
       "Mars",
       "Jupiter",
       "Saturn"
-    ]
+    ],
+    "explanation": "Mars appears red because its surface is covered in iron oxide (rust), giving it a distinctive reddish hue visible even from Earth."
   },
   {
     "question": "What is the largest ocean on Earth?",
@@ -17,7 +18,8 @@
       "Indian Ocean",
       "Pacific Ocean",
       "Arctic Ocean"
-    ]
+    ],
+    "explanation": "The Pacific Ocean covers more than 165 million square kilometers, making it larger than all of Earth's landmasses combined and nearly twice the size of the Atlantic."
   },
   {
     "question": "How many sides does a hexagon have?",
@@ -27,7 +29,8 @@
       "6",
       "7",
       "8"
-    ]
+    ],
+    "explanation": "The prefix 'hex-' comes from Greek meaning six, so a hexagon is a polygon with exactly six sides and six angles."
   },
   {
     "question": "What is the largest mammal on Earth?",
@@ -37,7 +40,8 @@
       "Blue Whale",
       "Giraffe",
       "Hippopotamus"
-    ]
+    ],
+    "explanation": "The blue whale can reach lengths of up to 30 meters (100 feet) and weigh as much as 200 tons, making it the largest animal ever known to have existed on Earth."
   },
   {
     "question": "How many continents are there?",
@@ -47,7 +51,8 @@
       "6",
       "7",
       "8"
-    ]
+    ],
+    "explanation": "The seven continents are Africa, Antarctica, Asia, Australia, Europe, North America, and South America, though some geographic models combine certain continents differently."
   },
   {
     "question": "What is the main ingredient in traditional hummus?",
@@ -57,7 +62,8 @@
       "Chickpeas",
       "Black beans",
       "Kidney beans"
-    ]
+    ],
+    "explanation": "Traditional hummus is made primarily from blended chickpeas (also called garbanzo beans), combined with tahini, lemon juice, and garlic — the word 'hummus' itself means chickpeas in Arabic."
   },
   {
     "question": "Which vitamin is primarily obtained from sunlight?",
@@ -67,7 +73,8 @@
       "Vitamin B",
       "Vitamin C",
       "Vitamin D"
-    ]
+    ],
+    "explanation": "When ultraviolet B (UVB) rays from sunlight hit the skin, they trigger the body to synthesize Vitamin D, which is essential for calcium absorption and bone health."
   },
   {
     "question": "What is the currency of Japan?",
@@ -77,7 +84,8 @@
       "Yuan",
       "Yen",
       "Ringgit"
-    ]
+    ],
+    "explanation": "The Japanese yen (¥) has been Japan's official currency since 1871, while the Won is used in Korea and the Yuan in China."
   },
   {
     "question": "How many stripes are on the American flag?",
@@ -87,7 +95,8 @@
       "11",
       "12",
       "13"
-    ]
+    ],
+    "explanation": "The 13 stripes on the U.S. flag represent the original 13 colonies that declared independence from Britain in 1776 and became the first states of the union."
   },
   {
     "question": "What is the boiling point of water in Celsius?",
@@ -97,7 +106,8 @@
       "100",
       "110",
       "120"
-    ]
+    ],
+    "explanation": "Water boils at 100 degrees Celsius (212°F) at standard atmospheric pressure (sea level); this fixed point was used to define the Celsius temperature scale."
   },
   {
     "question": "What is the largest organ in the human body?",
@@ -107,7 +117,8 @@
       "Heart",
       "Skin",
       "Lungs"
-    ]
+    ],
+    "explanation": "The skin is the body's largest organ, covering an average surface area of about 2 square meters and accounting for roughly 15% of total body weight in adults."
   },
   {
     "question": "Which animal is known as man's best friend?",
@@ -117,7 +128,8 @@
       "Dog",
       "Horse",
       "Parrot"
-    ]
+    ],
+    "explanation": "Dogs earned the title 'man's best friend' through thousands of years of domestication and selective breeding alongside humans, making them uniquely attuned to human emotions and social cues."
   },
   {
     "question": "How many letters are in the English alphabet?",
@@ -127,7 +139,8 @@
       "25",
       "26",
       "27"
-    ]
+    ],
+    "explanation": "The modern English alphabet has 26 letters, derived from the Latin alphabet; it reached its current form after letters like 'j' and 'u' were distinguished from 'i' and 'v' in the 16th century."
   },
   {
     "question": "What is the freezing point of water in Fahrenheit?",
@@ -137,7 +150,8 @@
       "32",
       "40",
       "212"
-    ]
+    ],
+    "explanation": "Water freezes at 32°F (0°C); Daniel Fahrenheit set this point on his scale using a reference mixture of ice, water, and salt, placing the freezing point of pure water at 32 degrees."
   },
   {
     "question": "What is the tallest mountain in the world?",
@@ -147,7 +161,8 @@
       "Mount Everest",
       "Mount Kilimanjaro",
       "Denali"
-    ]
+    ],
+    "explanation": "Mount Everest stands at 8,849 meters (29,032 feet) above sea level, making it the highest point on Earth as measured from sea level, located in the Himalayas on the Nepal-Tibet border."
   },
   {
     "question": "Which organ pumps blood through the body?",
@@ -157,7 +172,8 @@
       "Liver",
       "Heart",
       "Kidneys"
-    ]
+    ],
+    "explanation": "The heart is a muscular pump that contracts roughly 100,000 times per day, circulating blood through the body's vessels to deliver oxygen and nutrients to every cell."
   },
   {
     "question": "What is the capital of Australia?",
@@ -167,7 +183,8 @@
       "Melbourne",
       "Canberra",
       "Perth"
-    ]
+    ],
+    "explanation": "Canberra became Australia's capital in 1913 as a compromise between the rival cities of Sydney and Melbourne; it was purpose-built to serve as the seat of government."
   },
   {
     "question": "How many days are in a leap year?",
@@ -177,7 +194,8 @@
       "365",
       "366",
       "367"
-    ]
+    ],
+    "explanation": "A leap year has 366 days because an extra day (February 29) is added every four years to keep our calendar aligned with Earth's actual 365.25-day orbit around the Sun."
   },
   {
     "question": "What is the largest bird in the world?",
@@ -187,7 +205,8 @@
       "Emu",
       "Albatross",
       "Condor"
-    ]
+    ],
+    "explanation": "The ostrich is the world's largest and heaviest bird, standing up to 2.7 meters (9 feet) tall and weighing up to 156 kg (344 lbs), though it cannot fly."
   },
   {
     "question": "What is the national sport of Canada?",
@@ -197,7 +216,8 @@
       "Lacrosse",
       "Basketball",
       "Baseball"
-    ]
+    ],
+    "explanation": "Lacrosse was declared Canada's national summer sport in 1859 and is one of the oldest team sports in North America, originally played by Indigenous peoples; ice hockey is the national winter sport."
   },
   {
     "question": "What shape is a stop sign?",
@@ -207,7 +227,8 @@
       "Square",
       "Hexagon",
       "Octagon"
-    ]
+    ],
+    "explanation": "Stop signs are octagons (8-sided shapes) by international convention, and the unique shape was chosen so drivers can recognize them from a distance or when covered by snow, even without seeing the word 'STOP.'"
   },
   {
     "question": "What is the only fruit that has its seeds on the outside?",
@@ -217,7 +238,8 @@
       "Strawberry",
       "Raspberry",
       "Kiwi"
-    ]
+    ],
+    "explanation": "What appear to be seeds on the outside of a strawberry are actually individual fruits called achenes, each containing a tiny true seed — making the strawberry unique among common fruits."
   },
   {
     "question": "Which planet is the hottest in our solar system?",
@@ -227,7 +249,8 @@
       "Venus",
       "Mars",
       "Jupiter"
-    ]
+    ],
+    "explanation": "Although Mercury is closest to the Sun, Venus is hotter because its thick atmosphere of carbon dioxide creates an extreme greenhouse effect, trapping heat and reaching surface temperatures of about 465°C (869°F)."
   },
   {
     "question": "How many hearts does an octopus have?",
@@ -237,7 +260,8 @@
       "2",
       "3",
       "4"
-    ]
+    ],
+    "explanation": "An octopus has three hearts: two branchial hearts pump blood through each of the two gills, while a third systemic heart circulates oxygenated blood to the rest of the body."
   },
   {
     "question": "Which artist painted the 'Mona Lisa'?",
@@ -247,7 +271,8 @@
       "Pablo Picasso",
       "Leonardo da Vinci",
       "Claude Monet"
-    ]
+    ],
+    "explanation": "Leonardo da Vinci painted the Mona Lisa between approximately 1503 and 1519; it is believed to depict Lisa Gherardini and is now housed in the Louvre Museum in Paris."
   },
   {
     "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
@@ -257,7 +282,8 @@
       "Nitrogen",
       "Carbon Dioxide",
       "Hydrogen"
-    ]
+    ],
+    "explanation": "During photosynthesis, plants absorb carbon dioxide (CO₂) from the air and combine it with water and sunlight energy to produce glucose and oxygen, which is released as a byproduct."
   },
   {
     "question": "In which country would you find the Great Pyramid of Giza?",
@@ -267,7 +293,8 @@
       "Egypt",
       "Peru",
       "Greece"
-    ]
+    ],
+    "explanation": "The Great Pyramid of Giza is located on the Giza Plateau near Cairo, Egypt, and was built around 2560 BCE as a tomb for Pharaoh Khufu; it is the only surviving Wonder of the Ancient World."
   },
   {
     "question": "Which metal is liquid at room temperature?",
@@ -277,7 +304,8 @@
       "Silver",
       "Mercury",
       "Copper"
-    ]
+    ],
+    "explanation": "Mercury has an exceptionally low melting point of -39°C (-38°F), so it exists as a liquid at normal room temperatures; it is the only metal (and one of only two elements) that is liquid at standard conditions."
   },
   {
     "question": "What is the main ingredient of guacamole?",
@@ -287,7 +315,8 @@
       "Avocado",
       "Onion",
       "Pepper"
-    ]
+    ],
+    "explanation": "Guacamole is a Mexican dip made primarily from mashed avocados; the word comes from the Nahuatl 'ahuacamolli,' meaning avocado sauce."
   },
   {
     "question": "Which country gifted the Statue of Liberty to the United States?",
@@ -297,7 +326,8 @@
       "France",
       "Germany",
       "Italy"
-    ]
+    ],
+    "explanation": "France gifted the Statue of Liberty to the United States in 1886 as a symbol of friendship and shared democratic values; it was designed by French sculptor Frédéric Auguste Bartholdi."
   },
   {
     "question": "How many keys are on a standard piano?",
@@ -307,7 +337,8 @@
       "88",
       "92",
       "100"
-    ]
+    ],
+    "explanation": "A standard modern piano has 88 keys — 52 white and 36 black — spanning seven octaves plus a few extra notes, a range established in the late 19th century."
   },
   {
     "question": "What is the fastest land animal?",
@@ -317,7 +348,8 @@
       "Gazelle",
       "Cheetah",
       "Horse"
-    ]
+    ],
+    "explanation": "The cheetah can reach speeds of up to 112 km/h (70 mph) in short bursts, making it the fastest land animal; its lightweight frame, flexible spine, and enlarged heart are all adaptations for speed."
   },
   {
     "question": "Which element has the chemical symbol 'O'?",
@@ -327,7 +359,8 @@
       "Oxygen",
       "Gold",
       "Iron"
-    ]
+    ],
+    "explanation": "The symbol 'O' stands for Oxygen, element number 8 on the periodic table; it makes up about 21% of Earth's atmosphere and is essential for the respiration of most living organisms."
   },
   {
     "question": "How many colors are in a rainbow?",
@@ -337,7 +370,8 @@
       "6",
       "7",
       "8"
-    ]
+    ],
+    "explanation": "A rainbow displays seven colors — red, orange, yellow, green, blue, indigo, and violet — produced when sunlight is refracted and dispersed by water droplets in the atmosphere."
   },
   {
     "question": "Which bird is the only one that can fly backwards?",
@@ -347,7 +381,8 @@
       "Hummingbird",
       "Swallow",
       "Eagle"
-    ]
+    ],
+    "explanation": "Hummingbirds can fly in all directions, including backwards, because their unique ball-and-socket shoulder joints allow their wings to rotate 180 degrees, generating lift on both the forward and backward strokes."
   },
   {
     "question": "What is the largest desert in the world?",
@@ -357,7 +392,8 @@
       "Gobi",
       "Antarctica",
       "Arabian"
-    ]
+    ],
+    "explanation": "A desert is defined by low precipitation, not heat; Antarctica receives less than 200mm of precipitation per year, making it the world's largest desert at about 14.2 million square kilometers — far larger than the Sahara."
   },
   {
     "question": "Who wrote 'Romeo and Juliet'?",
@@ -367,7 +403,8 @@
       "William Shakespeare",
       "Mark Twain",
       "Jane Austen"
-    ]
+    ],
+    "explanation": "William Shakespeare wrote Romeo and Juliet around 1594–1596; it is one of his most famous tragedies, drawing on earlier Italian stories about ill-fated young lovers."
   },
   {
     "question": "What is the primary ingredient in glass?",
@@ -377,7 +414,8 @@
       "Sand",
       "Soda ash",
       "Limestone"
-    ]
+    ],
+    "explanation": "Glass is made primarily from silica sand (silicon dioxide), which is melted at very high temperatures along with soda ash and limestone to produce the transparent material we use every day."
   },
   {
     "question": "What is the most widely spoken language in the world by native speakers?",
@@ -387,7 +425,8 @@
       "Spanish",
       "Mandarin Chinese",
       "Hindi"
-    ]
+    ],
+    "explanation": "Mandarin Chinese has the most native speakers of any language, with over 900 million people speaking it as a first language, largely due to China's enormous population."
   },
   {
     "question": "What do you call a group of lions?",
@@ -397,7 +436,8 @@
       "Herd",
       "Pride",
       "Flock"
-    ]
+    ],
+    "explanation": "A group of lions is called a pride, typically consisting of related females, their cubs, and a small number of adult males who defend the group's territory."
   },
   {
     "question": "In what year did the Titanic sink?",
@@ -407,7 +447,8 @@
       "1912",
       "1918",
       "1923"
-    ]
+    ],
+    "explanation": "The RMS Titanic struck an iceberg and sank on April 15, 1912, during its maiden voyage from Southampton to New York City, resulting in the deaths of more than 1,500 people."
   },
   {
     "question": "Which continent is known as the 'Dark Continent'?",
@@ -417,7 +458,8 @@
       "South America",
       "Africa",
       "Antarctica"
-    ]
+    ],
+    "explanation": "Africa was historically called the 'Dark Continent' by 19th-century Europeans because much of its interior was largely unexplored and unknown to them at the time."
   },
   {
     "question": "What is the smallest bone in the human body?",
@@ -427,7 +469,8 @@
       "Phalanges",
       "Patella",
       "Fibula"
-    ]
+    ],
+    "explanation": "The stapes (stirrup) is located in the middle ear and measures only about 3mm in length; it is one of three tiny bones (ossicles) that transmit sound vibrations from the eardrum to the inner ear."
   },
   {
     "question": "How many strings does a standard violin have?",
@@ -437,7 +480,8 @@
       "5",
       "6",
       "3"
-    ]
+    ],
+    "explanation": "A standard violin has four strings tuned to G, D, A, and E (from lowest to highest pitch), a tuning that has been standard since the instrument's development in 16th-century Italy."
   },
   {
     "question": "Which country is the largest by land area?",
@@ -447,7 +491,8 @@
       "USA",
       "Russia",
       "China"
-    ]
+    ],
+    "explanation": "Russia covers approximately 17.1 million square kilometers, making it the largest country in the world by land area — it spans eleven time zones and covers about 11% of Earth's total land surface."
   },
   {
     "question": "What is the name of the ship that brought the Pilgrims to America in 1620?",
@@ -457,7 +502,8 @@
       "Beagle",
       "Mayflower",
       "Endeavour"
-    ]
+    ],
+    "explanation": "The Mayflower carried 102 passengers from England to Plymouth, Massachusetts in 1620; the Pilgrims aboard signed the Mayflower Compact, an early example of self-governance in the New World."
   },
   {
     "question": "Which gas makes up the majority of Earth's atmosphere?",
@@ -467,7 +513,8 @@
       "Carbon Dioxide",
       "Nitrogen",
       "Argon"
-    ]
+    ],
+    "explanation": "Nitrogen makes up approximately 78% of Earth's atmosphere, with oxygen comprising about 21%; despite being so abundant, nitrogen in its gaseous form (N₂) is largely inert and not directly usable by most organisms."
   },
   {
     "question": "What is the main ingredient in chocolate?",
@@ -477,7 +524,8 @@
       "Milk",
       "Cocoa beans",
       "Vanilla"
-    ]
+    ],
+    "explanation": "Chocolate is made from cocoa beans, which are fermented, dried, roasted, and processed into cocoa mass; all other ingredients like sugar and milk are added later during manufacturing."
   },
   {
     "question": "How many players are on a standard soccer team on the field?",
@@ -487,7 +535,8 @@
       "10",
       "11",
       "12"
-    ]
+    ],
+    "explanation": "Each soccer team fields 11 players at a time, including one goalkeeper and ten outfield players; this has been the standard since the Football Association established the rules in 1863."
   },
   {
     "question": "What is the currency of the United Kingdom?",
@@ -497,7 +546,8 @@
       "Dollar",
       "Pound Sterling",
       "Franc"
-    ]
+    ],
+    "explanation": "The pound sterling (£) is the UK's official currency and is one of the oldest currencies still in use, dating back over 1,200 years; the UK did not adopt the euro when it was introduced."
   },
   {
     "question": "Which organ in the human body is responsible for filtering blood?",
@@ -507,7 +557,8 @@
       "Lungs",
       "Kidneys",
       "Liver"
-    ]
+    ],
+    "explanation": "The kidneys filter about 200 liters of blood per day, removing waste products and excess substances to produce urine; they also regulate blood pressure and electrolyte balance."
   },
   {
     "question": "What color is a polar bear's skin?",
@@ -517,7 +568,8 @@
       "Pink",
       "Black",
       "Grey"
-    ]
+    ],
+    "explanation": "Polar bears have black skin, which helps absorb heat from the sun for warmth; their fur appears white but is actually transparent and hollow, scattering light to look white against the Arctic snow."
   },
   {
     "question": "What is the square root of 144?",
@@ -527,7 +579,8 @@
       "11",
       "12",
       "14"
-    ]
+    ],
+    "explanation": "The square root of 144 is 12 because 12 × 12 = 144; 144 is a perfect square, meaning it has a whole number as its square root."
   },
   {
     "question": "Which ocean lies between Africa and Australia?",
@@ -537,7 +590,8 @@
       "Pacific Ocean",
       "Indian Ocean",
       "Arctic Ocean"
-    ]
+    ],
+    "explanation": "The Indian Ocean is the third-largest ocean and lies between Africa to the west and Australia to the east, bordered by Asia to the north and the Southern Ocean to the south."
   },
   {
     "question": "What is the national animal of Scotland?",
@@ -547,7 +601,8 @@
       "Unicorn",
       "Stag",
       "Golden Eagle"
-    ]
+    ],
+    "explanation": "The unicorn has been Scotland's national animal since the 12th century, symbolizing purity, power, and independence in Celtic mythology; it appears on the Royal Coat of Arms of Scotland."
   },
   {
     "question": "How many years are in a millennium?",
@@ -557,7 +612,8 @@
       "500",
       "1000",
       "2000"
-    ]
+    ],
+    "explanation": "A millennium equals 1,000 years, from the Latin 'mille' (thousand) and 'annus' (year); a century is 100 years and a decade is 10 years."
   },
   {
     "question": "Which chess piece can only move diagonally?",
@@ -567,7 +623,8 @@
       "Knight",
       "Bishop",
       "King"
-    ]
+    ],
+    "explanation": "The bishop moves any number of squares diagonally and always stays on the same color square it started on; each player has two bishops, one on white squares and one on black squares."
   },
   {
     "question": "Who was the first person to walk on the moon?",
@@ -577,7 +634,8 @@
       "Neil Armstrong",
       "Yuri Gagarin",
       "John Glenn"
-    ]
+    ],
+    "explanation": "Neil Armstrong became the first human to walk on the Moon on July 20, 1969, during NASA's Apollo 11 mission, famously declaring 'That's one small step for man, one giant leap for mankind.'"
   },
   {
     "question": "What is the name of the process by which liquid water becomes gas?",
@@ -587,7 +645,8 @@
       "Sublimation",
       "Evaporation",
       "Freezing"
-    ]
+    ],
+    "explanation": "Evaporation is the process by which liquid water molecules at the surface gain enough energy to escape into the air as water vapor; it is a key part of the Earth's water cycle."
   },
   {
     "question": "Which country is home to the Kangaroo?",
@@ -597,7 +656,8 @@
       "South Africa",
       "Australia",
       "Brazil"
-    ]
+    ],
+    "explanation": "Kangaroos are native to Australia and are found nowhere else in the wild; they are marsupials, meaning they carry and nurse their young (joeys) in a pouch."
   },
   {
     "question": "What is the softest mineral in the world?",
@@ -607,6 +667,7 @@
       "Talc",
       "Calcite",
       "Fluorite"
-    ]
+    ],
+    "explanation": "Talc scores 1 on the Mohs hardness scale — the lowest possible rating — meaning it can be scratched by a fingernail; it is the main ingredient in talcum powder."
   }
 ]
