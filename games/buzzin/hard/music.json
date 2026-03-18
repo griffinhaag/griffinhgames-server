@@ -1,0 +1,22 @@
+[
+  { "question": "Which composer wrote 'The Four Seasons'?", "answer": "Vivaldi", "choices": ["Bach", "Vivaldi", "Handel", "Haydn"] },
+  { "question": "What year did The Beatles release 'Abbey Road'?", "answer": "1969", "choices": ["1966", "1967", "1969", "1970"] },
+  { "question": "Which musician is known as 'The Godfather of Soul'?", "answer": "James Brown", "choices": ["Ray Charles", "Marvin Gaye", "James Brown", "Otis Redding"] },
+  { "question": "Who wrote the opera 'La Traviata'?", "answer": "Verdi", "choices": ["Puccini", "Mozart", "Verdi", "Wagner"] },
+  { "question": "What is the time signature of a waltz?", "answer": "3/4", "choices": ["2/4", "3/4", "4/4", "6/8"] },
+  { "question": "Which band released the album 'Nevermind' in 1991?", "answer": "Nirvana", "choices": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"] },
+  { "question": "Who composed 'Rhapsody in Blue'?", "answer": "George Gershwin", "choices": ["Duke Ellington", "Cole Porter", "George Gershwin", "Irving Berlin"] },
+  { "question": "What is the lowest-pitched instrument in a standard orchestra string section?", "answer": "Double bass", "choices": ["Cello", "Viola", "Double bass", "Contrabassoon"] },
+  { "question": "Which rapper released the album 'The Marshall Mathers LP'?", "answer": "Eminem", "choices": ["Jay-Z", "Nas", "Eminem", "Dr. Dre"] },
+  { "question": "What year did David Bowie release 'Ziggy Stardust'?", "answer": "1972", "choices": ["1970", "1972", "1974", "1976"] },
+  { "question": "Which instrument did Jimi Hendrix primarily play?", "answer": "Guitar", "choices": ["Bass guitar", "Guitar", "Drums", "Piano"] },
+  { "question": "What is the name of the scale that uses all twelve pitches of the chromatic scale equally?", "answer": "Twelve-tone technique", "choices": ["Pentatonic scale", "Blues scale", "Twelve-tone technique", "Modal scale"] },
+  { "question": "Which country does the musical genre 'Cumbia' originate from?", "answer": "Colombia", "choices": ["Mexico", "Colombia", "Cuba", "Venezuela"] },
+  { "question": "Who was the lead vocalist of Led Zeppelin?", "answer": "Robert Plant", "choices": ["Roger Daltrey", "Robert Plant", "Steve Tyler", "Ian Gillan"] },
+  { "question": "What famous music venue is located on the Isle of Wight?", "answer": "Newport Festival Grounds", "choices": ["Newport Festival Grounds", "Glastonbury", "Knebworth", "Finsbury Park"] },
+  { "question": "Which musician composed the soundtrack for 'Schindler's List'?", "answer": "John Williams", "choices": ["Hans Zimmer", "Ennio Morricone", "John Williams", "Bernard Herrmann"] },
+  { "question": "Which jazz musician was known as 'Bird'?", "answer": "Charlie Parker", "choices": ["Miles Davis", "John Coltrane", "Charlie Parker", "Dizzy Gillespie"] },
+  { "question": "What does 'forte' mean in music?", "answer": "Loud", "choices": ["Soft", "Loud", "Fast", "Slow"] },
+  { "question": "Which band's debut album was 'Please Please Me'?", "answer": "The Beatles", "choices": ["The Rolling Stones", "The Who", "The Beatles", "The Kinks"] },
+  { "question": "Who wrote the musical 'Hamilton'?", "answer": "Lin-Manuel Miranda", "choices": ["Andrew Lloyd Webber", "Stephen Sondheim", "Lin-Manuel Miranda", "Jonathan Larson"] }
+]

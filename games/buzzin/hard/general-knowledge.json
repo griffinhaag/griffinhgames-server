@@ -1,0 +1,22 @@
+[
+  { "question": "What is the only country in the world that is both a city and a country?", "answer": "Vatican City", "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"] },
+  { "question": "Which gas makes up the majority of Earth's atmosphere?", "answer": "Nitrogen", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"] },
+  { "question": "What is the longest river in the world?", "answer": "Nile", "choices": ["Amazon", "Nile", "Yangtze", "Mississippi"] },
+  { "question": "Which element has the chemical symbol 'Au'?", "answer": "Gold", "choices": ["Silver", "Gold", "Aluminum", "Argon"] },
+  { "question": "What is the hardest natural substance on Earth?", "answer": "Diamond", "choices": ["Quartz", "Corundum", "Diamond", "Graphite"] },
+  { "question": "The study of flags is known as what?", "answer": "Vexillology", "choices": ["Heraldry", "Vexillology", "Numismatics", "Sigillography"] },
+  { "question": "Which country has the most natural lakes?", "answer": "Canada", "choices": ["Russia", "Canada", "USA", "Finland"] },
+  { "question": "What is the name of the longest bone in the human body?", "answer": "Femur", "choices": ["Tibia", "Femur", "Humerus", "Fibula"] },
+  { "question": "How many sides does a nonagon have?", "answer": "9", "choices": ["7", "8", "9", "10"] },
+  { "question": "What is the chemical formula for table salt?", "answer": "NaCl", "choices": ["KCl", "NaCl", "MgCl2", "CaCl2"] },
+  { "question": "Which planet has the most moons?", "answer": "Saturn", "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"] },
+  { "question": "The philosopher René Descartes is famous for the phrase 'I think, therefore I am' — in which language did he originally write it?", "answer": "Latin", "choices": ["French", "Latin", "Dutch", "German"] },
+  { "question": "What is the name of the theorem that states a² + b² = c² for right triangles?", "answer": "Pythagorean theorem", "choices": ["Pythagorean theorem", "Fermat's last theorem", "Euclid's theorem", "Euler's theorem"] },
+  { "question": "Which country produces the most coffee in the world?", "answer": "Brazil", "choices": ["Colombia", "Brazil", "Vietnam", "Ethiopia"] },
+  { "question": "What is the speed of light in a vacuum, approximately?", "answer": "300,000 km/s", "choices": ["150,000 km/s", "300,000 km/s", "600,000 km/s", "3,000 km/s"] },
+  { "question": "How many bones are in the adult human body?", "answer": "206", "choices": ["180", "206", "218", "244"] },
+  { "question": "What is the capital of Iceland?", "answer": "Reykjavik", "choices": ["Reykjavik", "Akureyri", "Selfoss", "Keflavik"] },
+  { "question": "Which instrument measures atmospheric pressure?", "answer": "Barometer", "choices": ["Thermometer", "Hygrometer", "Barometer", "Altimeter"] },
+  { "question": "What is the collective noun for a group of flamingos?", "answer": "Flamboyance", "choices": ["Flock", "Colony", "Flamboyance", "Murder"] },
+  { "question": "Which two-letter country code does Germany use on the internet?", "answer": ".de", "choices": [".ge", ".de", ".gr", ".gm"] }
+]

@@ -1,0 +1,22 @@
+[
+  { "question": "What is the capital of Kazakhstan?", "answer": "Astana", "choices": ["Almaty", "Astana", "Tashkent", "Bishkek"] },
+  { "question": "Which country has the most time zones?", "answer": "France", "choices": ["Russia", "USA", "France", "China"] },
+  { "question": "What is the smallest country in Asia by area?", "answer": "Maldives", "choices": ["Singapore", "Bahrain", "Maldives", "Brunei"] },
+  { "question": "Which African country has the most pyramids?", "answer": "Sudan", "choices": ["Egypt", "Sudan", "Libya", "Ethiopia"] },
+  { "question": "What is the deepest lake in the world?", "answer": "Lake Baikal", "choices": ["Lake Tanganyika", "Lake Baikal", "Caspian Sea", "Lake Superior"] },
+  { "question": "Which country is home to the Angel Falls, the world's highest waterfall?", "answer": "Venezuela", "choices": ["Brazil", "Colombia", "Venezuela", "Ecuador"] },
+  { "question": "What is the official language of Brazil?", "answer": "Portuguese", "choices": ["Spanish", "Portuguese", "French", "English"] },
+  { "question": "Which mountain range separates Europe from Asia?", "answer": "Ural Mountains", "choices": ["Caucasus Mountains", "Ural Mountains", "Carpathian Mountains", "Alps"] },
+  { "question": "What is the capital of Myanmar?", "answer": "Naypyidaw", "choices": ["Yangon", "Mandalay", "Naypyidaw", "Bago"] },
+  { "question": "Which country is entirely surrounded by South Africa?", "answer": "Lesotho", "choices": ["Swaziland", "Lesotho", "Botswana", "Zimbabwe"] },
+  { "question": "What is the longest mountain range in the world?", "answer": "Andes", "choices": ["Himalayas", "Andes", "Rocky Mountains", "Alps"] },
+  { "question": "Which country has the largest coastline in the world?", "answer": "Canada", "choices": ["Norway", "Indonesia", "Canada", "Russia"] },
+  { "question": "What is the capital of Burkina Faso?", "answer": "Ouagadougou", "choices": ["Bamako", "Niamey", "Ouagadougou", "Lome"] },
+  { "question": "Which sea lies between Italy and the Balkans?", "answer": "Adriatic Sea", "choices": ["Tyrrhenian Sea", "Ionian Sea", "Adriatic Sea", "Aegean Sea"] },
+  { "question": "What is the name of the large plateau in Africa known as the 'Roof of Africa'?", "answer": "Ethiopian Highlands", "choices": ["Drakensberg", "Ethiopian Highlands", "Rwenzori", "Atlas Mountains"] },
+  { "question": "Which river flows through Baghdad?", "answer": "Tigris", "choices": ["Euphrates", "Tigris", "Nile", "Jordan"] },
+  { "question": "What is the capital of Kyrgyzstan?", "answer": "Bishkek", "choices": ["Almaty", "Dushanbe", "Bishkek", "Ashgabat"] },
+  { "question": "What is the name of the narrow strip of land connecting North and South America?", "answer": "Isthmus of Panama", "choices": ["Strait of Magellan", "Isthmus of Panama", "Yucatan Peninsula", "Darién Gap"] },
+  { "question": "Which ocean is the smallest and shallowest?", "answer": "Arctic Ocean", "choices": ["Indian Ocean", "Southern Ocean", "Arctic Ocean", "Atlantic Ocean"] },
+  { "question": "What is the currency of Switzerland?", "answer": "Swiss Franc", "choices": ["Euro", "Swiss Franc", "Krone", "Florin"] }
+]

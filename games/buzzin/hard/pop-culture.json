@@ -1,0 +1,22 @@
+[
+  { "question": "What year did Instagram launch?", "answer": "2010", "choices": ["2008", "2009", "2010", "2011"] },
+  { "question": "Which social media platform is known as 'the front page of the internet'?", "answer": "Reddit", "choices": ["Twitter", "Digg", "Reddit", "Facebook"] },
+  { "question": "What is the best-selling video game of all time?", "answer": "Minecraft", "choices": ["Tetris", "Grand Theft Auto V", "Minecraft", "Wii Sports"] },
+  { "question": "What is the name of Kim Kardashian and Kanye West's first child?", "answer": "North", "choices": ["Saint", "North", "Chicago", "Psalm"] },
+  { "question": "Which company owns Instagram and Facebook?", "answer": "Meta", "choices": ["Alphabet", "Meta", "ByteDance", "Twitter/X"] },
+  { "question": "What year did TikTok launch internationally?", "answer": "2018", "choices": ["2016", "2017", "2018", "2019"] },
+  { "question": "Which singer held the record for most-streamed Spotify artist multiple years in a row before being surpassed?", "answer": "Drake", "choices": ["Ed Sheeran", "Taylor Swift", "Drake", "The Weeknd"] },
+  { "question": "What is the real name of rapper Cardi B?", "answer": "Belcalis Almánzar", "choices": ["Belcalis Almánzar", "Camille Pérez", "Robyn Fenty", "Onika Maraj"] },
+  { "question": "Which streaming service had the most subscribers as of 2023?", "answer": "Netflix", "choices": ["Disney+", "Hulu", "Netflix", "Amazon Prime Video"] },
+  { "question": "What does 'GOAT' stand for in sports and pop culture?", "answer": "Greatest Of All Time", "choices": ["Greatest Of All Time", "Gold-level Outstanding Athletic Trophy", "Globally Outstanding All-time Team", "Greatest Overall Athletic Title"] },
+  { "question": "Which artist holds the record for most Grammy wins?", "answer": "Beyoncé", "choices": ["Taylor Swift", "Adele", "Beyoncé", "Jay-Z"] },
+  { "question": "What is the name of the fictional universe in the Marvel Cinematic Universe?", "answer": "Marvel Cinematic Universe", "choices": ["Marvel Multiverse", "Earth-616", "Marvel Cinematic Universe", "Avengers Initiative"] },
+  { "question": "What color is the Snapchat logo?", "answer": "Yellow", "choices": ["Red", "Blue", "Yellow", "Green"] },
+  { "question": "Which fashion brand is known for its interlocking 'CC' logo?", "answer": "Chanel", "choices": ["Gucci", "Louis Vuitton", "Chanel", "Versace"] },
+  { "question": "What year did the first iPhone launch?", "answer": "2007", "choices": ["2005", "2006", "2007", "2008"] },
+  { "question": "Which celebrity couple is known as 'Brangelina'?", "answer": "Brad Pitt and Angelina Jolie", "choices": ["Ben Affleck and Jennifer Aniston", "Brad Pitt and Angelina Jolie", "Ben Stiller and Jennifer Aniston", "Blake Lively and Ryan Reynolds"] },
+  { "question": "What is the name of Elon Musk's space company?", "answer": "SpaceX", "choices": ["Blue Origin", "SpaceX", "Virgin Galactic", "Rocket Lab"] },
+  { "question": "Which video-sharing platform was purchased by Google in 2006?", "answer": "YouTube", "choices": ["Vimeo", "YouTube", "Dailymotion", "Metacafe"] },
+  { "question": "What does 'NFT' stand for?", "answer": "Non-Fungible Token", "choices": ["New Financial Transfer", "Non-Fungible Token", "Network File Transfer", "National Finance Token"] },
+  { "question": "Which K-pop group's song 'Dynamite' was the first Korean song to debut at number one on the Billboard Hot 100?", "answer": "BTS", "choices": ["BLACKPINK", "EXO", "BTS", "TWICE"] }
+]
