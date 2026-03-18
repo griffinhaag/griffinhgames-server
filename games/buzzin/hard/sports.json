@@ -1,0 +1,22 @@
+[
+  { "question": "In what year were the first modern Olympic Games held?", "answer": "1896", "choices": ["1896", "1900", "1904", "1908"] },
+  { "question": "Which country has won the most FIFA World Cups?", "answer": "Brazil", "choices": ["Germany", "Italy", "Brazil", "Argentina"] },
+  { "question": "What is the maximum score in a single frame of bowling?", "answer": "30", "choices": ["20", "25", "30", "10"] },
+  { "question": "In tennis, what is the term for winning a game without the opponent scoring a point?", "answer": "Bagel", "choices": ["Ace", "Bagel", "Breadstick", "Double bagel"] },
+  { "question": "Which swimmer has won the most Olympic gold medals?", "answer": "Michael Phelps", "choices": ["Ian Thorpe", "Mark Spitz", "Michael Phelps", "Ryan Lochte"] },
+  { "question": "What is the name of the trophy awarded to the winner of the NHL playoffs?", "answer": "Stanley Cup", "choices": ["Presidents' Trophy", "Stanley Cup", "Prince of Wales Trophy", "Conn Smythe Trophy"] },
+  { "question": "In cricket, what is a duck?", "answer": "A score of zero", "choices": ["A wide ball", "A score of zero", "A six off a no-ball", "A century on debut"] },
+  { "question": "Which country invented the sport of rugby union?", "answer": "England", "choices": ["England", "Ireland", "Scotland", "New Zealand"] },
+  { "question": "How many players are on a basketball court per team during a game?", "answer": "5", "choices": ["4", "5", "6", "7"] },
+  { "question": "What year did Muhammad Ali defeat Sonny Liston to win his first world heavyweight title?", "answer": "1964", "choices": ["1962", "1964", "1966", "1968"] },
+  { "question": "In baseball, how many outs are needed to end a half-inning?", "answer": "3", "choices": ["2", "3", "4", "5"] },
+  { "question": "Which country won the inaugural Rugby World Cup in 1987?", "answer": "New Zealand", "choices": ["Australia", "France", "New Zealand", "South Africa"] },
+  { "question": "What is the distance of a marathon in miles?", "answer": "26.2", "choices": ["24", "25", "26.2", "27"] },
+  { "question": "In golf, what term is used for two strokes under par on a hole?", "answer": "Eagle", "choices": ["Birdie", "Eagle", "Albatross", "Bogey"] },
+  { "question": "Which Formula 1 driver has the most World Championship titles?", "answer": "Lewis Hamilton", "choices": ["Michael Schumacher", "Lewis Hamilton", "Ayrton Senna", "Sebastian Vettel"] },
+  { "question": "What sport is played at Wimbledon?", "answer": "Tennis", "choices": ["Cricket", "Tennis", "Polo", "Croquet"] },
+  { "question": "How long is an Olympic swimming pool in meters?", "answer": "50", "choices": ["25", "40", "50", "100"] },
+  { "question": "In soccer/football, what does VAR stand for?", "answer": "Video Assistant Referee", "choices": ["Video Analysis Review", "Virtual Assistant Referee", "Video Assistant Referee", "Verified Action Review"] },
+  { "question": "Which NBA team has won the most championships?", "answer": "Boston Celtics", "choices": ["Los Angeles Lakers", "Chicago Bulls", "Boston Celtics", "Golden State Warriors"] },
+  { "question": "Which country has won the most Cricket World Cup titles?", "answer": "Australia", "choices": ["West Indies", "India", "Australia", "England"] }
+]

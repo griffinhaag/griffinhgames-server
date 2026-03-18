@@ -1,0 +1,22 @@
+[
+  { "question": "Who directed the 1968 film '2001: A Space Odyssey'?", "answer": "Stanley Kubrick", "choices": ["Steven Spielberg", "Stanley Kubrick", "Ridley Scott", "George Lucas"] },
+  { "question": "Which film won the first ever Academy Award for Best Picture?", "answer": "Wings", "choices": ["Sunrise", "Wings", "The Broadway Melody", "All Quiet on the Western Front"] },
+  { "question": "In which film did Marlon Brando play Vito Corleone?", "answer": "The Godfather", "choices": ["The Godfather", "Apocalypse Now", "Last Tango in Paris", "A Streetcar Named Desire"] },
+  { "question": "What is the name of the fictional African country in Black Panther?", "answer": "Wakanda", "choices": ["Zamunda", "Wakanda", "Genovia", "Latveria"] },
+  { "question": "Which actress plays Clarice Starling in The Silence of the Lambs?", "answer": "Jodie Foster", "choices": ["Meryl Streep", "Jodie Foster", "Sigourney Weaver", "Susan Sarandon"] },
+  { "question": "Who wrote the novel that the film 'No Country for Old Men' is based on?", "answer": "Cormac McCarthy", "choices": ["Don DeLillo", "Cormac McCarthy", "Elmore Leonard", "James Ellroy"] },
+  { "question": "What year was the first Star Wars film released?", "answer": "1977", "choices": ["1975", "1977", "1979", "1980"] },
+  { "question": "Which country produced the film 'Parasite', winner of the 2020 Best Picture Oscar?", "answer": "South Korea", "choices": ["Japan", "China", "South Korea", "Taiwan"] },
+  { "question": "Who plays Tony Soprano in 'The Sopranos'?", "answer": "James Gandolfini", "choices": ["Steve Buscemi", "James Gandolfini", "Michael Imperioli", "Vincent Pastore"] },
+  { "question": "In 'Blade Runner', what are the human-like robots called?", "answer": "Replicants", "choices": ["Androids", "Synths", "Replicants", "Cylons"] },
+  { "question": "Which director made 'Schindler's List', 'Jurassic Park', and 'Saving Private Ryan'?", "answer": "Steven Spielberg", "choices": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg", "James Cameron"] },
+  { "question": "What is the highest-grossing film of all time (not adjusted for inflation)?", "answer": "Avatar", "choices": ["Avengers: Endgame", "Avatar", "Titanic", "Star Wars: The Force Awakens"] },
+  { "question": "In 'Breaking Bad', what is Walter White's teacher alias?", "answer": "Heisenberg", "choices": ["Heisenberg", "Schrodinger", "Einstein", "Oppenheimer"] },
+  { "question": "Which film features the line 'You can't handle the truth!'?", "answer": "A Few Good Men", "choices": ["The Verdict", "A Few Good Men", "Primal Fear", "Philadelphia"] },
+  { "question": "Who plays Hannibal Lecter in 'The Silence of the Lambs'?", "answer": "Anthony Hopkins", "choices": ["Brian Cox", "Anthony Hopkins", "Gary Oldman", "Kevin Spacey"] },
+  { "question": "Which TV show features the fictional paper company Dunder Mifflin?", "answer": "The Office", "choices": ["Parks and Recreation", "The Office", "Arrested Development", "30 Rock"] },
+  { "question": "Who directed 'Pulp Fiction'?", "answer": "Quentin Tarantino", "choices": ["David Fincher", "Joel Coen", "Quentin Tarantino", "Paul Thomas Anderson"] },
+  { "question": "What is the name of the bar in 'Cheers'?", "answer": "Cheers", "choices": ["The Bull & Finch", "Cheers", "The Regal Beagle", "McLaren's"] },
+  { "question": "In which year was the first episode of 'Game of Thrones' broadcast?", "answer": "2011", "choices": ["2009", "2010", "2011", "2012"] },
+  { "question": "Which actress played Katniss Everdeen in The Hunger Games?", "answer": "Jennifer Lawrence", "choices": ["Emma Stone", "Jennifer Lawrence", "Shailene Woodley", "Kristen Stewart"] }
+]

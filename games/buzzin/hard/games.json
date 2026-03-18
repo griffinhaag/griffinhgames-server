@@ -1,0 +1,22 @@
+[
+  { "question": "In chess, which piece can only move diagonally?", "answer": "Bishop", "choices": ["Knight", "Bishop", "Rook", "Pawn"] },
+  { "question": "What is the maximum number of moves in a chess game before a draw is forced?", "answer": "5,899", "choices": ["200", "500", "1,000", "5,899"] },
+  { "question": "In poker, which hand beats a flush?", "answer": "Full house", "choices": ["Two pair", "Three of a kind", "Straight", "Full house"] },
+  { "question": "What was the best-selling console of the seventh generation of gaming?", "answer": "Nintendo Wii", "choices": ["Xbox 360", "PlayStation 3", "Nintendo Wii", "Nintendo DS"] },
+  { "question": "In Dungeons & Dragons, what type of die is used for most saving throws?", "answer": "d20", "choices": ["d6", "d10", "d12", "d20"] },
+  { "question": "In the video game 'The Legend of Zelda', what is the name of the villain?", "answer": "Ganon / Ganondorf", "choices": ["Vaati", "Majora", "Ganon / Ganondorf", "Zant"] },
+  { "question": "In Scrabble, what is the highest-scoring letter tile?", "answer": "Q or Z (10 points each)", "choices": ["X (8 points)", "J (8 points)", "Q or Z (10 points each)", "K (5 points)"] },
+  { "question": "Which classic board game involves buying and selling properties with names from Atlantic City?", "answer": "Monopoly", "choices": ["Risk", "Monopoly", "Clue", "Life"] },
+  { "question": "What is the name of the main protagonist in 'Red Dead Redemption 2'?", "answer": "Arthur Morgan", "choices": ["John Marston", "Arthur Morgan", "Dutch van der Linde", "Bill Williamson"] },
+  { "question": "In 'The Witcher 3', what is the name of Geralt's main love interest?", "answer": "Yennefer", "choices": ["Triss", "Yennefer", "Ciri", "Philippa"] },
+  { "question": "What was the original name of the game 'Fortnite' before its battle royale mode?", "answer": "Fortnite: Save the World", "choices": ["Fortnite: Survival Mode", "Fortnite: Builder", "Fortnite: Save the World", "Fortnite: Base Defense"] },
+  { "question": "In which game do you 'drop in' to a shrinking zone and collect weapons?", "answer": "Battle Royale games (e.g. Fortnite, PUBG)", "choices": ["Call of Duty Warzone", "Battle Royale games (e.g. Fortnite, PUBG)", "Counter-Strike", "Apex Legends"] },
+  { "question": "What is the highest possible score in a single game of Pac-Man?", "answer": "3,333,360", "choices": ["999,999", "1,000,000", "3,333,360", "9,999,999"] },
+  { "question": "Which video game franchise features the character 'Master Chief'?", "answer": "Halo", "choices": ["Gears of War", "Destiny", "Halo", "Titanfall"] },
+  { "question": "In the card game Bridge, how many cards does each player receive?", "answer": "13", "choices": ["10", "11", "13", "15"] },
+  { "question": "What is the term for rolling all ten pins on the first ball in bowling?", "answer": "Strike", "choices": ["Spare", "Strike", "Turkey", "Perfect"] },
+  { "question": "Which studio developed 'Dark Souls'?", "answer": "FromSoftware", "choices": ["Bandai Namco", "FromSoftware", "Square Enix", "Capcom"] },
+  { "question": "In Minecraft, what is the name of the final boss?", "answer": "The Ender Dragon", "choices": ["The Wither", "The Ender Dragon", "Herobrine", "The Elder Guardian"] },
+  { "question": "Which video game company created Mario, Zelda, and Pokémon?", "answer": "Nintendo", "choices": ["Sega", "Capcom", "Nintendo", "Bandai Namco"] },
+  { "question": "In Go, what is the name for stones that cannot avoid capture?", "answer": "Dead stones", "choices": ["Captured stones", "Dead stones", "Ko stones", "Atari stones"] }
+]

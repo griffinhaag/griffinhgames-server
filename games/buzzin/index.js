@@ -22,7 +22,8 @@ function loadAllQuestions() {
     "geography": "Geography",
     "pop-culture": "Pop Culture",
     "games": "Games",
-    "random": "Random"
+    "random": "Random",
+    "flags": "Flags"
   };
 
   try {
@@ -68,6 +69,58 @@ function loadAllQuestions() {
 
 const allQuestions = loadAllQuestions();
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
+
+// Load questions from the hard/ directory (one file per category, harder questions)
+function loadHardQuestions() {
+  const hardDir = path.join(__dirname, "hard");
+  const questions = [];
+  const categoryNames = {
+    "general-knowledge": "General Knowledge",
+    "science": "Science",
+    "movies-tv": "Movies & TV",
+    "music": "Music",
+    "sports": "Sports",
+    "history": "History",
+    "geography": "Geography",
+    "pop-culture": "Pop Culture",
+    "games": "Games",
+    "random": "Random",
+    "flags": "Flags"
+  };
+  try {
+    const files = fs.readdirSync(hardDir);
+    for (const file of files) {
+      if (file.endsWith(".json")) {
+        const filePath = path.join(hardDir, file);
+        const categoryKey = file.replace(".json", "");
+        const categoryName = categoryNames[categoryKey] || categoryKey;
+        try {
+          const fileContents = fs.readFileSync(filePath, "utf-8");
+          const categoryQuestions = JSON.parse(fileContents);
+          for (const q of categoryQuestions) {
+            questions.push({ ...q, category: categoryName });
+          }
+        } catch (parseError) {
+          console.error(`Error loading hard/${file}:`, parseError.message);
+        }
+      }
+    }
+  } catch (dirError) {
+    // hard/ dir may not exist — silently skip
+  }
+  const deduped = [];
+  const seenTexts = new Set();
+  for (const q of questions) {
+    if (!seenTexts.has(q.question)) {
+      seenTexts.add(q.question);
+      deduped.push(q);
+    }
+  }
+  return deduped;
+}
+
+const hardQuestions = loadHardQuestions();
+console.log(`[BuzzIn] Loaded ${hardQuestions.length} hard questions from hard/ directory`);
 
 // Pre-compute per-category counts from the deduplicated allQuestions array.
 // This is what the /buzzin/category-counts endpoint should expose so the
@@ -324,6 +377,7 @@ export default {
     let countdownInterval = null; // Countdown timer
     let countdownSeconds = 0;
     let gameSettings = null; // Store categories and question count
+    let currentHardMode = false; // Whether hard mode is active for the current game
 
     // New state for "everyone answers" mechanic
     let playerAnswers = new Map(); // socketId -> { answer, timestamp, buzzedAt, isCorrect }
@@ -686,10 +740,32 @@ export default {
         }
       });
 
+      // Generate a brief explanation using Groq (best-effort, non-blocking)
+      let explanation = null;
+      if (groqClient && currentQ?.question && currentQ?.answer) {
+        try {
+          explanation = await Promise.race([
+            groqClient.chat.completions.create({
+              model: "llama-3.1-8b-instant",
+              messages: [{
+                role: "user",
+                content: `In 1-2 sentences, briefly explain why "${currentQ.answer}" is the correct answer to this trivia question: "${currentQ.question}". Be concise and educational.`
+              }],
+              max_tokens: 80,
+              temperature: 0.3,
+            }).then(r => r.choices[0]?.message?.content?.trim() || null),
+            new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 4000))
+          ]);
+        } catch (e) {
+          // Non-critical — skip explanation silently
+        }
+      }
+
       // Emit round results with all answers revealed
       io.to(room.code).emit("game:event", {
         type: "round_results",
         correctAnswer: currentQ?.answer,
+        explanation,
         results: results.sort((a, b) => (b.isFirstCorrect ? 1 : 0) - (a.isFirstCorrect ? 1 : 0))
       });
 
@@ -744,13 +820,22 @@ export default {
     // Returns a pool for the given categories, always preferring questions that have never been
     // seen in this room session. If fewer fresh questions exist than `needed`, it supplements
     // with seen questions (shuffled for fairness) so the game can still run rather than crashing.
-    function buildQuestionPool(categories, needed) {
-      const categoryFiltered = allQuestions.filter(q => categories.includes(q.category));
+    function buildQuestionPool(categories, needed, useHardMode = false) {
+      // In hard mode, prefer questions from the hard/ directory; fall back to normal pool if needed
+      const primaryPool = useHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
+      const categoryFiltered = primaryPool.filter(q => categories.includes(q.category));
       const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(q.question));
       if (fresh.length >= needed) return fresh;
-      // Not enough fresh questions — top up with seen ones (least painful repeat possible)
       const seen = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
-      return [...fresh, ...seen.slice(0, needed - fresh.length)];
+      const combined = [...fresh, ...seen.slice(0, needed - fresh.length)];
+      // If hard mode doesn't have enough questions, supplement with normal pool
+      if (useHardMode && combined.length < needed) {
+        const normalFiltered = allQuestions.filter(q =>
+          categories.includes(q.category) && !seenQuestionTexts.has(q.question)
+        );
+        return [...combined, ...shuffle(normalFiltered).slice(0, needed - combined.length)];
+      }
+      return combined;
     }
 
     return {
@@ -797,6 +882,7 @@ export default {
             timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
             firstBonusEnabled = payload?.bonusFirstCorrect !== false;
             otdAtEnd = payload?.otdAtEnd === true;
+            currentHardMode = payload?.hardMode === true;
             // offTheDomeCount is clamped after questions are selected (see below)
             gameSettings = {
               categories: selectedCategories,
@@ -804,7 +890,8 @@ export default {
               timerDuration: timerDuration,
               bonusFirstCorrect: firstBonusEnabled,
               offTheDomeCount: payload?.offTheDomeCount ?? 3,
-              otdAtEnd: otdAtEnd
+              otdAtEnd: otdAtEnd,
+              hardMode: currentHardMode
             };
             
             // Store selected categories so mid-game shuffle can pull from the same pool
@@ -837,7 +924,7 @@ export default {
 
             // Build pool preferring unseen questions; supplements with seen ones only if the
             // fresh supply is exhausted (so the game always runs, with minimum possible repeats).
-            questions = shuffle(buildQuestionPool(selectedCategories, requestedCount)).slice(0, requestedCount);
+            questions = shuffle(buildQuestionPool(selectedCategories, requestedCount, currentHardMode)).slice(0, requestedCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount, questions.length));
@@ -913,6 +1000,12 @@ export default {
             } else {
               otdAtEnd = gameSettings.otdAtEnd === true;
             }
+            if (payload.hardMode !== undefined) {
+              currentHardMode = payload.hardMode === true;
+              gameSettings.hardMode = currentHardMode;
+            } else {
+              currentHardMode = gameSettings.hardMode === true;
+            }
             activeTimerDuration = timerDuration;
 
             // Reset all scores — skip host if spectating
@@ -941,7 +1034,7 @@ export default {
               MAX_QUESTIONS_PER_GAME,
               restartCategoryFiltered.length
             );
-            questions = shuffle(buildQuestionPool(gameSettings.categories, restartCount)).slice(0, restartCount);
+            questions = shuffle(buildQuestionPool(gameSettings.categories, restartCount, currentHardMode)).slice(0, restartCount);
 
             // Clamp offTheDomeCount to actual question count
             offTheDomeCount = Math.max(0, Math.min(gameSettings.offTheDomeCount ?? 3, questions.length));
@@ -1034,7 +1127,8 @@ export default {
                 //   1. Have never been seen in this room session (seenQuestionTexts), AND
                 //   2. Are not already queued in the current game (to avoid queue duplicates).
                 const gameQSet = new Set(questions.map(q => q.question));
-                const replacementPool = allQuestions.filter(q =>
+                const sourcePool = currentHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
+                const replacementPool = sourcePool.filter(q =>
                   currentCategories.includes(q.category) &&
                   !seenQuestionTexts.has(q.question) &&
                   !gameQSet.has(q.question)

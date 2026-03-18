@@ -1,0 +1,22 @@
+[
+  { "question": "What is the fear of long words called?", "answer": "Hippopotomonstrosesquippedaliophobia", "choices": ["Logophobia", "Lexiphobia", "Hippopotomonstrosesquippedaliophobia", "Verbophobia"] },
+  { "question": "How many valence electrons does carbon have?", "answer": "4", "choices": ["2", "4", "6", "8"] },
+  { "question": "What is the term for a group of crows?", "answer": "Murder", "choices": ["Flock", "Parliament", "Murder", "Colony"] },
+  { "question": "Which philosopher wrote 'Critique of Pure Reason'?", "answer": "Immanuel Kant", "choices": ["David Hume", "Immanuel Kant", "René Descartes", "John Locke"] },
+  { "question": "What is the numerical value of the mathematical constant 'e' to two decimal places?", "answer": "2.72", "choices": ["2.14", "2.72", "3.14", "1.62"] },
+  { "question": "What is the name of the logical paradox where 'This statement is false' refers to itself?", "answer": "Liar's Paradox", "choices": ["Russell's Paradox", "Liar's Paradox", "Zeno's Paradox", "Barber's Paradox"] },
+  { "question": "Which ancient Greek philosopher is known for the Socratic method?", "answer": "Socrates", "choices": ["Plato", "Aristotle", "Socrates", "Epicurus"] },
+  { "question": "What is the Fibonacci sequence?", "answer": "Each number is the sum of the two preceding ones", "choices": ["Each number is double the previous", "Each number is the sum of the two preceding ones", "Each number is squared", "Each number adds a fixed constant"] },
+  { "question": "What is the phobia of being stared at called?", "answer": "Scopophobia", "choices": ["Agoraphobia", "Scopophobia", "Eremophobia", "Xenophobia"] },
+  { "question": "What type of logical fallacy involves attacking a person rather than their argument?", "answer": "Ad hominem", "choices": ["Straw man", "Ad hominem", "False dichotomy", "Slippery slope"] },
+  { "question": "What is the term for the inability to recognize faces?", "answer": "Prosopagnosia", "choices": ["Agnosia", "Prosopagnosia", "Aphasia", "Achromatopsia"] },
+  { "question": "What is the largest prime number that is less than 100?", "answer": "97", "choices": ["89", "91", "97", "99"] },
+  { "question": "What is the study of the origin and history of words called?", "answer": "Etymology", "choices": ["Lexicology", "Philology", "Etymology", "Semantics"] },
+  { "question": "In which organ of the body would you find the hippocampus?", "answer": "Brain", "choices": ["Heart", "Liver", "Brain", "Kidney"] },
+  { "question": "What is the term for the tendency to search for information that confirms existing beliefs?", "answer": "Confirmation bias", "choices": ["Anchoring bias", "Availability heuristic", "Confirmation bias", "Dunning-Kruger effect"] },
+  { "question": "What is the only mammal capable of true flight?", "answer": "Bat", "choices": ["Flying squirrel", "Bat", "Sugar glider", "Colugos (flying lemur)"] },
+  { "question": "What does 'Occam's Razor' suggest?", "answer": "The simplest explanation is usually correct", "choices": ["Never cut corners in logic", "The simplest explanation is usually correct", "Evidence must be sharp and precise", "Always consider the worst case"] },
+  { "question": "What is the collective noun for a group of owls?", "answer": "Parliament", "choices": ["Murder", "Parliament", "Gaggle", "Colony"] },
+  { "question": "What is the chemical element with the highest melting point?", "answer": "Tungsten", "choices": ["Iron", "Titanium", "Tungsten", "Osmium"] },
+  { "question": "Who developed the first successful vaccine for smallpox?", "answer": "Edward Jenner", "choices": ["Louis Pasteur", "Robert Koch", "Edward Jenner", "Jonas Salk"] }
+]

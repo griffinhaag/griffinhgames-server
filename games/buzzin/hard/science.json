@@ -1,0 +1,22 @@
+[
+  { "question": "What is the powerhouse of the cell?", "answer": "Mitochondria", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"] },
+  { "question": "What particle carries a negative charge in an atom?", "answer": "Electron", "choices": ["Proton", "Neutron", "Electron", "Quark"] },
+  { "question": "What is the chemical symbol for potassium?", "answer": "K", "choices": ["P", "Po", "K", "Pt"] },
+  { "question": "What is the process by which plants make food from sunlight?", "answer": "Photosynthesis", "choices": ["Respiration", "Photosynthesis", "Transpiration", "Osmosis"] },
+  { "question": "What force keeps planets in orbit around the Sun?", "answer": "Gravity", "choices": ["Magnetism", "Gravity", "Centrifugal force", "Electromagnetic force"] },
+  { "question": "What is the SI unit of electric current?", "answer": "Ampere", "choices": ["Volt", "Watt", "Ampere", "Ohm"] },
+  { "question": "Which gas is released during photosynthesis?", "answer": "Oxygen", "choices": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"] },
+  { "question": "What is the pH of pure water?", "answer": "7", "choices": ["0", "7", "10", "14"] },
+  { "question": "The theory of relativity was developed by which scientist?", "answer": "Albert Einstein", "choices": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Max Planck"] },
+  { "question": "What is the name of the process where a solid becomes a gas without passing through the liquid phase?", "answer": "Sublimation", "choices": ["Condensation", "Evaporation", "Sublimation", "Deposition"] },
+  { "question": "What is the most abundant element in the universe?", "answer": "Hydrogen", "choices": ["Helium", "Hydrogen", "Carbon", "Oxygen"] },
+  { "question": "Which branch of science studies heredity and genetic variation?", "answer": "Genetics", "choices": ["Ecology", "Genetics", "Cytology", "Taxonomy"] },
+  { "question": "What type of bond involves the sharing of electrons between atoms?", "answer": "Covalent bond", "choices": ["Ionic bond", "Metallic bond", "Covalent bond", "Hydrogen bond"] },
+  { "question": "What is the name of the scale used to measure the acidity or alkalinity of a solution?", "answer": "pH scale", "choices": ["Kelvin scale", "Richter scale", "pH scale", "Mohs scale"] },
+  { "question": "Which organelle contains the genetic material in eukaryotic cells?", "answer": "Nucleus", "choices": ["Mitochondria", "Nucleus", "Chloroplast", "Vacuole"] },
+  { "question": "What is the speed at which an object must travel to escape Earth's gravitational field?", "answer": "Escape velocity", "choices": ["Terminal velocity", "Orbital velocity", "Escape velocity", "Cosmic velocity"] },
+  { "question": "What is the name of the quantum effect where particles can pass through barriers?", "answer": "Quantum tunneling", "choices": ["Quantum tunneling", "Wave-particle duality", "Superposition", "Entanglement"] },
+  { "question": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?", "answer": "Boyle's Law", "choices": ["Charles's Law", "Gay-Lussac's Law", "Boyle's Law", "Avogadro's Law"] },
+  { "question": "What is the half-life of Carbon-14, used in radiocarbon dating?", "answer": "5,730 years", "choices": ["1,000 years", "5,730 years", "10,000 years", "50,000 years"] },
+  { "question": "What term describes the bending of light as it passes from one medium to another?", "answer": "Refraction", "choices": ["Reflection", "Refraction", "Diffraction", "Dispersion"] }
+]
