@@ -740,22 +740,28 @@ export default {
         }
       });
 
-      // Generate a brief explanation using Groq (best-effort, non-blocking)
-      let explanation = null;
-      if (groqClient && currentQ?.question && currentQ?.answer) {
+      // Use pre-written explanation if available; otherwise generate via Groq
+      let explanation = currentQ?.explanation || null;
+      if (!explanation && groqClient && currentQ?.question && currentQ?.answer) {
         try {
-          explanation = await Promise.race([
+          // Strip any imageDisplay emoji from the question text before sending to Groq
+          const questionText = currentQ.question.replace(/^\p{Emoji_Presentation}\s*/u, '').trim();
+          const groqResult = await Promise.race([
             groqClient.chat.completions.create({
               model: "llama-3.1-8b-instant",
               messages: [{
                 role: "user",
-                content: `In 1-2 sentences, briefly explain why "${currentQ.answer}" is the correct answer to this trivia question: "${currentQ.question}". Be concise and educational.`
+                content: `In 1-2 sentences, briefly explain why "${currentQ.answer}" is the correct answer to this trivia question: "${questionText}". Be concise and educational. Do not include emoji in your response.`
               }],
-              max_tokens: 80,
+              max_tokens: 100,
               temperature: 0.3,
             }).then(r => r.choices[0]?.message?.content?.trim() || null),
-            new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 4000))
+            new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 5000))
           ]);
+          // Sanity check — reject if Groq returned only emoji or very short garbage
+          if (groqResult && groqResult.replace(/\p{Emoji_Presentation}/gu, '').trim().length > 10) {
+            explanation = groqResult;
+          }
         } catch (e) {
           // Non-critical — skip explanation silently
         }

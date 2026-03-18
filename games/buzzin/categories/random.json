@@ -7,7 +7,8 @@
       "A murder",
       "A gaggle",
       "A herd"
-    ]
+    ],
+    "explanation": "A group of crows is called a murder, a term dating back to the 15th century; the eerie name likely stems from crows' historical association with death and battlefields, where they were commonly seen."
   },
   {
     "question": "What is the fear of spiders called?",
@@ -17,7 +18,8 @@
       "Arachnophobia",
       "Acrophobia",
       "Agoraphobia"
-    ]
+    ],
+    "explanation": "Arachnophobia comes from the Greek 'arachne' (spider) and 'phobos' (fear); it is one of the most common specific phobias, affecting roughly 3–15% of the population worldwide."
   },
   {
     "question": "How many teeth does an adult human have?",
@@ -27,7 +29,8 @@
       "30",
       "32",
       "36"
-    ]
+    ],
+    "explanation": "Adult humans have 32 permanent teeth, including 4 wisdom teeth (third molars); many people have their wisdom teeth removed, leaving 28 functional teeth, but the full adult count is 32."
   },
   {
     "question": "What animal is known for its ability to change color?",
@@ -37,7 +40,8 @@
       "Chameleon",
       "Frog",
       "Snake"
-    ]
+    ],
+    "explanation": "Chameleons change color by adjusting specialized cells called chromatophores and iridophores in their skin; the color change is primarily used for communication and temperature regulation, not just camouflage."
   },
   {
     "question": "What is the only fruit that has seeds on the outside?",
@@ -47,7 +51,8 @@
       "Strawberry",
       "Blueberry",
       "Blackberry"
-    ]
+    ],
+    "explanation": "What appear to be seeds on a strawberry's surface are actually individual fruits called achenes, each containing a tiny true seed; technically the red flesh is an enlarged receptacle, not the fruit itself."
   },
   {
     "question": "How many legs does a spider have?",
@@ -57,7 +62,8 @@
       "8",
       "10",
       "12"
-    ]
+    ],
+    "explanation": "Spiders are arachnids and have 8 legs, which distinguishes them from insects (which have 6 legs); their 8 legs are used for locomotion, web-building, and sensing vibrations."
   },
   {
     "question": "What is a group of lions called?",
@@ -67,7 +73,8 @@
       "A pride",
       "A herd",
       "A flock"
-    ]
+    ],
+    "explanation": "A group of lions is called a pride, typically consisting of related females, their cubs, and a coalition of males; females cooperate to raise cubs and hunt, making lions uniquely social among big cats."
   },
   {
     "question": "What is the tallest animal in the world?",
@@ -77,7 +84,8 @@
       "Giraffe",
       "Camel",
       "Ostrich"
-    ]
+    ],
+    "explanation": "Giraffes are the tallest living animals on Earth, reaching heights of up to 6 meters (nearly 20 feet); their long necks allow them to feed on leaves high in trees that other animals cannot reach."
   },
   {
     "question": "What animal produces honey?",
@@ -87,7 +95,8 @@
       "Bee",
       "Butterfly",
       "Ant"
-    ]
+    ],
+    "explanation": "Honey bees produce honey by collecting nectar from flowers, then converting it through enzymatic activity and evaporation in the hive; they store it as a concentrated energy source for the colony."
   },
   {
     "question": "How many noses does a slug have?",
@@ -97,7 +106,8 @@
       "2",
       "4",
       "6"
-    ]
+    ],
+    "explanation": "Slugs have four tentacles on their head — the upper two are used for sight and the lower two are chemosensory, functioning like noses to detect smell and taste in their environment."
   },
   {
     "question": "What is a baby kangaroo called?",
@@ -107,7 +117,8 @@
       "Joey",
       "Kit",
       "Pup"
-    ]
+    ],
+    "explanation": "A baby kangaroo is called a joey; newborn joeys are extremely undeveloped (about the size of a grape) and crawl into their mother's pouch immediately after birth, where they continue developing for months."
   },
   {
     "question": "How long can a snail sleep for?",
@@ -117,7 +128,8 @@
       "1 year",
       "3 years",
       "5 years"
-    ]
+    ],
+    "explanation": "Snails can enter a state of extended dormancy (estivation or hibernation) for up to 3 years in harsh conditions, sealing themselves inside their shells to conserve moisture until conditions improve."
   },
   {
     "question": "What is the only mammal that can fly?",
@@ -127,7 +139,8 @@
       "Bat",
       "Sugar glider",
       "Flying fish"
-    ]
+    ],
+    "explanation": "Bats are the only mammals capable of true sustained flight; flying squirrels and sugar gliders can only glide, while bats have wings formed by a membrane stretched between elongated fingers."
   },
   {
     "question": "What do you call a group of flamingos?",
@@ -137,7 +150,8 @@
       "A flamboyance",
       "A colony",
       "A stand"
-    ]
+    ],
+    "explanation": "A group of flamingos is called a flamboyance, a fitting name for their vivid pink coloration; flamingos get their pink color from carotenoid pigments in the algae and crustaceans they eat."
   },
   {
     "question": "Which animal has the longest lifespan?",
@@ -147,7 +161,8 @@
       "Whale",
       "Tortoise",
       "Parrot"
-    ]
+    ],
+    "explanation": "Tortoises are among the longest-lived animals on Earth, with some individuals confirmed to have lived well over 150 years; their slow metabolism and robust biology contribute to their exceptional longevity."
   },
   {
     "question": "How many times does a hummingbird's heart beat per minute?",
@@ -157,7 +172,8 @@
       "500",
       "Over 1,000",
       "250"
-    ]
+    ],
+    "explanation": "A hummingbird's heart can beat over 1,000 times per minute during flight to support the enormous energy demands of hovering; by comparison, a human heart beats about 60–100 times per minute at rest."
   },
   {
     "question": "What is a group of owls called?",
@@ -167,7 +183,8 @@
       "A parliament",
       "A murder",
       "A hoot"
-    ]
+    ],
+    "explanation": "A group of owls is called a parliament, a term derived from their long-standing association with wisdom in folklore — just as a parliament is a gathering of wise decision-makers."
   },
   {
     "question": "What animal's fingerprints are nearly identical to humans?",
@@ -177,7 +194,8 @@
       "Koala",
       "Gorilla",
       "Orangutan"
-    ]
+    ],
+    "explanation": "Koalas have fingerprints that are virtually indistinguishable from human fingerprints under a microscope — a remarkable case of convergent evolution between two very distantly related species."
   },
   {
     "question": "How many stomachs does a cow have?",
@@ -187,7 +205,8 @@
       "2",
       "3",
       "4"
-    ]
+    ],
+    "explanation": "Cows have one stomach with four compartments — the rumen, reticulum, omasum, and abomasum — which allow them to ferment and break down tough plant material through a process called rumination (chewing cud)."
   },
   {
     "question": "What percentage of the human body is water?",
@@ -197,7 +216,8 @@
       "50%",
       "60%",
       "70%"
-    ]
+    ],
+    "explanation": "The average adult human body is approximately 60% water by weight; water is essential for nearly every bodily function, including regulating temperature, transporting nutrients, and enabling chemical reactions."
   },
   {
     "question": "What is the fear of heights called?",
@@ -207,7 +227,8 @@
       "Agoraphobia",
       "Acrophobia",
       "Hydrophobia"
-    ]
+    ],
+    "explanation": "Acrophobia comes from the Greek 'akron' (summit or peak) and 'phobos' (fear); it is one of the most common phobias, and is distinct from the normal discomfort most people feel at great heights."
   },
   {
     "question": "Which animal is physically unable to jump?",
@@ -217,7 +238,8 @@
       "Hippopotamus",
       "Rhino",
       "Giraffe"
-    ]
+    ],
+    "explanation": "Elephants are the only mammals that cannot jump, largely because of their enormous weight (up to 6,000 kg) and the structure of their leg bones, which are not built to withstand the impact of landing from a jump."
   },
   {
     "question": "What is the plastic tip at the end of a shoelace called?",
@@ -227,7 +249,8 @@
       "Aglet",
       "Ferrule",
       "Stub"
-    ]
+    ],
+    "explanation": "The small plastic or metal tip at the end of a shoelace is called an aglet; it prevents the lace from fraying and makes it easier to thread through eyelets, from the Old French 'aguillette' meaning small needle."
   },
   {
     "question": "Which letter does not appear in any of the 50 U.S. state names?",
@@ -237,7 +260,8 @@
       "Z",
       "Q",
       "W"
-    ]
+    ],
+    "explanation": "The letter Q is the only letter that does not appear in any of the 50 U.S. state names; while letters like Z (Arizona), X (New Mexico, Texas), and W (Washington, Iowa, etc.) all appear in at least one state name, Q does not."
   },
   {
     "question": "What is a group of pugs called?",
@@ -247,7 +271,8 @@
       "A pack",
       "A snort",
       "A pod"
-    ]
+    ],
+    "explanation": "A group of pugs is called a grumble, a playful collective noun that references the snuffling, snorting sounds pugs characteristically make due to their flat, brachycephalic (short-nosed) facial structure."
   },
   {
     "question": "Which fruit is actually a berry botanically speaking?",
@@ -257,7 +282,8 @@
       "Raspberry",
       "Banana",
       "Blackberry"
-    ]
+    ],
+    "explanation": "Botanically, a berry is a fleshy fruit developed from a single flower with one ovary; bananas qualify as berries, while strawberries, raspberries, and blackberries are not true berries by this strict botanical definition."
   },
   {
     "question": "What is the only continent where spiders are NOT found?",
@@ -267,7 +293,8 @@
       "Australia",
       "Antarctica",
       "South America"
-    ]
+    ],
+    "explanation": "Antarctica is the only continent with no native spider population; its extreme cold, lack of vegetation, and absence of insect prey make it an inhospitable environment for spiders."
   },
   {
     "question": "How many muscles does a cat have in each ear?",
@@ -277,7 +304,8 @@
       "12",
       "32",
       "50"
-    ]
+    ],
+    "explanation": "Cats have 32 muscles in each ear, allowing them to rotate their ears up to 180 degrees independently to pinpoint the exact location of sounds — a critical adaptation for hunting prey."
   },
   {
     "question": "What is the most common blood type in humans?",
@@ -287,7 +315,8 @@
       "B Negative",
       "O Positive",
       "AB Positive"
-    ]
+    ],
+    "explanation": "O Positive (O+) is the most common blood type worldwide, found in about 38% of the population; O Negative is often called the 'universal donor' type because it can be given to patients of any blood type in emergencies."
   },
   {
     "question": "Which sea creature can regrow its entire body from just one arm?",
@@ -297,7 +326,8 @@
       "Sea Star",
       "Crab",
       "Lobster"
-    ]
+    ],
+    "explanation": "Some species of sea stars (starfish) can regenerate their entire body from a single arm, as long as the arm retains a portion of the central disc; this remarkable regenerative ability is possible because their vital organs extend into their arms."
   },
   {
     "question": "What is the official national animal of Scotland?",
@@ -307,7 +337,8 @@
       "Unicorn",
       "Golden Eagle",
       "Stag"
-    ]
+    ],
+    "explanation": "The unicorn has been Scotland's national animal since the 12th century, symbolizing purity, power, and untameable independence in Celtic mythology; it appears chained on the Royal Coat of Arms, representing its power under control."
   },
   {
     "question": "What was the first fruit eaten on the Moon?",
@@ -317,7 +348,8 @@
       "Banana",
       "Peach",
       "Orange"
-    ]
+    ],
+    "explanation": "The first fruit eaten on the Moon was a peach, consumed by astronaut Buzz Aldrin during the Apollo 11 mission in 1969 from the meal packages NASA provided the crew."
   },
   {
     "question": "Which bird is the only one that can fly backward?",
@@ -327,7 +359,8 @@
       "Hummingbird",
       "Kingfisher",
       "Woodpecker"
-    ]
+    ],
+    "explanation": "Hummingbirds can fly in all directions — including backwards — because their unique shoulder joints allow their wings to rotate in a full figure-eight motion, generating lift on both the forward and backward stroke."
   },
   {
     "question": "What is the strongest muscle in the human body relative to its size?",
@@ -337,7 +370,8 @@
       "Masseter (Jaw)",
       "Tongue",
       "Heart"
-    ]
+    ],
+    "explanation": "The masseter muscle in the jaw is the strongest muscle relative to its size in the human body, capable of exerting a biting force of up to 200 pounds (91 kg) — essential for chewing tough foods."
   },
   {
     "question": "How many dots are on a single die?",
@@ -347,7 +381,8 @@
       "21",
       "24",
       "26"
-    ]
+    ],
+    "explanation": "A standard six-sided die has 1+2+3+4+5+6 = 21 dots (pips) in total; opposite faces always add up to 7 (1 opposite 6, 2 opposite 5, 3 opposite 4)."
   },
   {
     "question": "What is a group of hedgehogs called?",
@@ -357,7 +392,8 @@
       "A bunch",
       "A quill",
       "A colony"
-    ]
+    ],
+    "explanation": "A group of hedgehogs is called a prickle, a fitting collective noun referencing their coat of sharp spines (quills); however, hedgehogs are largely solitary animals and rarely gather in groups."
   },
   {
     "question": "Which planet in our solar system rotates on its side?",
@@ -367,7 +403,8 @@
       "Venus",
       "Uranus",
       "Saturn"
-    ]
+    ],
+    "explanation": "Uranus has an axial tilt of about 98 degrees, meaning it essentially rotates on its side; this extreme tilt is thought to have been caused by a collision with an Earth-sized object early in the solar system's history."
   },
   {
     "question": "What is the collective name for a group of ferrets?",
@@ -377,7 +414,8 @@
       "A business",
       "A huddle",
       "A drift"
-    ]
+    ],
+    "explanation": "A group of ferrets is called a business, reflecting their active, busy, and inquisitive nature; ferrets are social animals that love to play and explore together."
   },
   {
     "question": "Which mammal has the most powerful bite in the world?",
@@ -387,7 +425,8 @@
       "Hippopotamus",
       "Hyena",
       "Gorilla"
-    ]
+    ],
+    "explanation": "The hippopotamus has the most powerful bite of any mammal, with a bite force of up to 1,800 pounds per square inch (psi); their massive canine teeth can grow up to 50 cm (20 inches) long."
   },
   {
     "question": "What is the only letter not found on the Periodic Table of Elements?",
@@ -397,7 +436,8 @@
       "J",
       "X",
       "V"
-    ]
+    ],
+    "explanation": "The letter J is the only letter that does not appear in any element name or symbol on the periodic table; all other letters appear in at least one element's name or chemical symbol."
   },
   {
     "question": "Which animal has the largest eyes of any living creature?",
@@ -407,7 +447,8 @@
       "Elephant",
       "Colossal Squid",
       "Owl"
-    ]
+    ],
+    "explanation": "The colossal squid has the largest eyes of any living animal, measuring up to 27 cm (about 11 inches) in diameter; these enormous eyes help them detect the faint bioluminescence of predators in the deep ocean."
   },
   {
     "question": "What do you call the dot above a lowercase 'i' or 'j'?",
@@ -417,7 +458,8 @@
       "Pip",
       "Spec",
       "Jot"
-    ]
+    ],
+    "explanation": "The small dot above a lowercase 'i' or 'j' is called a tittle, from the Latin 'titulus' meaning a stroke or sign; the phrase 'not one jot or tittle' in the Bible refers to the smallest details of the written law."
   },
   {
     "question": "How many hearts does an earthworm have?",
@@ -427,7 +469,8 @@
       "3",
       "5",
       "0"
-    ]
+    ],
+    "explanation": "Earthworms have 5 pairs of aortic arches (sometimes called 'hearts') that pump blood through their closed circulatory system; these are not true hearts but function similarly by squeezing blood along the vessels."
   },
   {
     "question": "What is the most translated book in the world?",
@@ -437,7 +480,8 @@
       "The Little Prince",
       "Pinocchio",
       "Don Quixote"
-    ]
+    ],
+    "explanation": "The Bible is the most translated book in history, with the full text translated into over 700 languages and portions available in over 3,000 languages; its widespread translation was driven by centuries of missionary work."
   },
   {
     "question": "Which animal sleeps for roughly 22 hours a day?",
@@ -447,7 +491,8 @@
       "Koala",
       "Python",
       "Lion"
-    ]
+    ],
+    "explanation": "Koalas sleep up to 22 hours a day because their eucalyptus leaf diet is extremely low in nutrition and high in toxic compounds; sleeping conserves energy while their specialized digestive system detoxifies the leaves."
   },
   {
     "question": "What is a group of unicorns called?",
@@ -457,7 +502,8 @@
       "A blessing",
       "A myth",
       "A herd"
-    ]
+    ],
+    "explanation": "In folklore and heraldry, a group of unicorns is called a blessing, reflecting the mythological association of unicorns with purity, grace, and good fortune across many cultures."
   },
   {
     "question": "In a deck of cards, which king is the only one without a mustache?",
@@ -467,7 +513,8 @@
       "King of Diamonds",
       "King of Clubs",
       "King of Hearts"
-    ]
+    ],
+    "explanation": "The King of Hearts is the only king in a standard deck without a visible mustache, and he is also famously depicted without a visible sword arm — earning him the nickname 'the Suicide King' due to the sword appearing to enter his head."
   },
   {
     "question": "What is the only food that never expires or spoils?",
@@ -477,7 +524,8 @@
       "White Rice",
       "Salt",
       "Dry Beans"
-    ]
+    ],
+    "explanation": "Honey never spoils due to its extremely low moisture content, acidic pH, and natural hydrogen peroxide content, which prevent microbial growth; archaeologists have found edible honey in Egyptian tombs over 3,000 years old."
   },
   {
     "question": "What is the world's largest lizard?",
@@ -487,7 +535,8 @@
       "Komodo Dragon",
       "Iguana",
       "Monitor Lizard"
-    ]
+    ],
+    "explanation": "The Komodo dragon is the world's largest living lizard, reaching up to 3 meters (10 feet) in length and 70 kg (154 lbs); it is native to a few Indonesian islands and is a powerful apex predator."
   },
   {
     "question": "How many time zones are there in the world?",
@@ -497,7 +546,8 @@
       "24",
       "36",
       "48"
-    ]
+    ],
+    "explanation": "There are 24 standard time zones, one for each hour of the day, based on 15-degree longitudinal divisions of Earth; however, some countries use offset half-hour or quarter-hour zones, making the actual number of zones used worldwide slightly higher."
   },
   {
     "question": "Which animal can hold its breath for up to 6 minutes underwater and even run along the bottom?",
@@ -507,7 +557,8 @@
       "Hippopotamus",
       "Otter",
       "Polar Bear"
-    ]
+    ],
+    "explanation": "Hippos can hold their breath for up to 6 minutes and are capable of walking or running along the bottom of rivers and lakes; they are semi-aquatic and spend most of the day submerged to stay cool."
   },
   {
     "question": "What is a group of jellyfish called?",
@@ -517,7 +568,8 @@
       "A smack",
       "A drift",
       "A bloom"
-    ]
+    ],
+    "explanation": "A group of jellyfish is called a smack (also sometimes a bloom or swarm); jellyfish aggregations can number in the millions and are becoming more common as ocean temperatures rise."
   },
   {
     "question": "How many ribs are in the human body?",
@@ -527,7 +579,8 @@
       "20",
       "24",
       "28"
-    ]
+    ],
+    "explanation": "The human rib cage consists of 24 ribs arranged in 12 pairs; they form a protective cage around the heart, lungs, and other thoracic organs, and assist in breathing by expanding and contracting the chest."
   },
   {
     "question": "Which country has the most natural lakes in the world?",
@@ -537,7 +590,8 @@
       "USA",
       "Canada",
       "Brazil"
-    ]
+    ],
+    "explanation": "Canada has more lakes than any other country, containing about 60% of the world's freshwater lakes — over 31,000 lakes larger than 3 square kilometers, partly due to the glacial activity that carved the landscape during the last Ice Age."
   },
   {
     "question": "What is the most frequently used vowel in the English language?",
@@ -547,7 +601,8 @@
       "E",
       "I",
       "O"
-    ]
+    ],
+    "explanation": "The letter E is the most frequently used letter overall in English (not just among vowels), appearing in about 13% of all text; this is why E-tiles score only 1 point in Scrabble and are the most abundant tiles in the game."
   },
   {
     "question": "What is the official currency of Switzerland?",
@@ -557,7 +612,8 @@
       "Swiss Franc",
       "Krona",
       "Mark"
-    ]
+    ],
+    "explanation": "Switzerland uses the Swiss Franc (CHF) rather than the Euro, despite being surrounded by Eurozone countries; Switzerland is not a member of the European Union and chose to keep its own currency."
   },
   {
     "question": "How many bones are in a shark's body?",
@@ -567,7 +623,8 @@
       "50",
       "150",
       "200"
-    ]
+    ],
+    "explanation": "Sharks have no bones at all — their skeletons are made entirely of cartilage, a flexible connective tissue that is lighter and more flexible than bone, which helps sharks stay buoyant and maneuver efficiently."
   },
   {
     "question": "Which planet is known as the 'Morning Star'?",
@@ -577,7 +634,8 @@
       "Mercury",
       "Venus",
       "Jupiter"
-    ]
+    ],
+    "explanation": "Venus is called the 'Morning Star' (and 'Evening Star') because it is often the brightest object in the sky just before sunrise or after sunset; it is so bright because it is close to Earth and covered in highly reflective clouds."
   },
   {
     "question": "What is the common name for the 'Nitrous Oxide' gas?",
@@ -587,7 +645,8 @@
       "Tear Gas",
       "Mustard Gas",
       "Helium"
-    ]
+    ],
+    "explanation": "Nitrous oxide (N₂O) is nicknamed 'laughing gas' because inhaling it causes euphoria and fits of laughter; it is used as an anesthetic in dentistry and medicine and as a propellant in whipped cream canisters."
   },
   {
     "question": "How many strings does a standard cello have?",
@@ -597,7 +656,8 @@
       "5",
       "6",
       "3"
-    ]
+    ],
+    "explanation": "A standard cello has 4 strings tuned to C, G, D, and A (from lowest to highest pitch); the cello belongs to the violin family and is played with a bow or by plucking."
   },
   {
     "question": "What is a group of crows called?",
@@ -607,7 +667,8 @@
       "A murder",
       "A gaggle",
       "A herd"
-    ]
+    ],
+    "explanation": "A group of crows is called a murder, a term rooted in centuries-old folklore associating crows with death and omens; crows are also highly intelligent birds known for problem-solving and even using tools."
   },
   {
     "question": "Which bird has eyes that are larger than its brain?",
@@ -617,7 +678,8 @@
       "Owl",
       "Ostrich",
       "Albatross"
-    ]
+    ],
+    "explanation": "The ostrich has eyes that are about 5 cm (2 inches) in diameter — larger than its brain — making them the biggest eyes of any land animal; this gives ostriches excellent vision to spot predators from a great distance."
   },
   {
     "question": "What is the main ingredient in a falafel?",
@@ -627,7 +689,8 @@
       "Chickpeas",
       "Fava beans",
       "Soybeans"
-    ]
+    ],
+    "explanation": "Falafel is traditionally made from ground chickpeas (or fava beans in some regions), mixed with herbs and spices, then deep-fried into crispy balls or patties; it is a staple of Middle Eastern cuisine."
   },
   {
     "question": "How many valves does a human heart have?",
@@ -637,7 +700,8 @@
       "3",
       "4",
       "6"
-    ]
+    ],
+    "explanation": "The human heart has 4 valves — the mitral, tricuspid, aortic, and pulmonary valves — which open and close to ensure blood flows in the correct direction through the heart's four chambers."
   },
   {
     "question": "Which tree produces acorns?",
@@ -647,7 +711,8 @@
       "Oak",
       "Pine",
       "Birch"
-    ]
+    ],
+    "explanation": "Acorns are the nuts of oak trees (genus Quercus); they are an important food source for many animals and take one to two years to mature, depending on the species of oak."
   },
   {
     "question": "What is a group of rhinos called?",
@@ -657,7 +722,8 @@
       "A stampede",
       "A herd",
       "A pack"
-    ]
+    ],
+    "explanation": "A group of rhinos is called a crash, a vivid collective noun that reflects their massive, powerful build and the destructive force they can exert when they charge or move through vegetation."
   },
   {
     "question": "What is the only bird that can swim but not fly?",
@@ -667,7 +733,8 @@
       "Penguin",
       "Emu",
       "Kiwi"
-    ]
+    ],
+    "explanation": "Penguins are flightless birds that are superbly adapted for swimming — their wings evolved into flippers, allowing them to 'fly' underwater at speeds up to 25 mph while hunting fish and squid."
   },
   {
     "question": "How many continents are there in the world?",
@@ -677,6 +744,7 @@
       "6",
       "7",
       "8"
-    ]
+    ],
+    "explanation": "The seven continents are Africa, Antarctica, Asia, Australia (Oceania), Europe, North America, and South America; some geographic models used in parts of Europe and Latin America combine Europe and Asia into Eurasia, or the Americas into one continent."
   }
 ]
