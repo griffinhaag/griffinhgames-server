@@ -29,7 +29,6 @@
   { "question": "What year was the Battle of Tours?", "answer": "732 AD", "choices": ["711 AD", "732 AD", "751 AD", "800 AD"] },
   { "question": "What year did the Romans leave Britain?", "answer": "410 AD", "choices": ["395 AD", "410 AD", "476 AD", "500 AD"] },
   { "question": "What year was the Battle of Hastings?", "answer": "1066", "choices": ["1016", "1066", "1099", "1215"] },
-  { "question": "Who was the retard who gooned to Dave blunts?", "answer": "Jakob Shipstad", "choices": ["Jakob Shipstad", "Augustus Gloop", "Emma Quam", "Alexa Sorley"] },
   { "question": "What year did the Crusaders sack Constantinople?", "answer": "1204", "choices": ["1095", "1187", "1204", "1453"] },
   { "question": "What year did Dave blunts drop his first song?", "answer": "2018", "choices": ["2016", "2017", "2018", "2020"] },
   { "question": "What year was Charlemagne crowned western emperor by the papacy?", "answer": "AD 800", "choices": ["AD 732", "AD 768", "AD 800", "AD 843"] },
