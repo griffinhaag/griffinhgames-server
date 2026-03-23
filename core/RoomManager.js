@@ -45,7 +45,7 @@ export function createRoomManager() {
     rooms.delete(code);
   }
 
-  function addPlayerToRoom(roomCode, { socketId, name, isHost = false }) {
+  function addPlayerToRoom(roomCode, { socketId, name, isHost = false, liveSocketIds = null }) {
     // Cancel destruction if scheduled
     if (destructionTimers.has(roomCode)) {
       clearTimeout(destructionTimers.get(roomCode));
@@ -59,8 +59,44 @@ export function createRoomManager() {
     // Check if this is a reconnecting player
     let isReconnecting = false;
     let wasHost = false;
+    // Track whether we deferred host restoration (old socket still live — disconnect pending)
+    let deferredHostRestore = false;
+
+    // First: check for a player already in the room with the same name.
+    // This handles browser hard-refresh where the old socket is still alive server-side
+    // because the disconnect event hasn't fired yet (common on mobile / flaky connections).
+    // SECURITY: only replace if the old socket is confirmed disconnected. If liveSocketIds
+    // is provided and the old socket is still in it, skip immediate replacement and let the
+    // disconnect handler reconcile host status when the old socket closes.
+    const nameLower = (name || '').toLowerCase();
+    for (const [existingSocketId, existingPlayer] of room.players) {
+      if (existingPlayer.name?.toLowerCase() === nameLower && existingSocketId !== socketId) {
+        if (liveSocketIds && liveSocketIds.has(existingSocketId)) {
+          // Old socket is still alive — this is a stale-socket refresh race or a name conflict.
+          // Do NOT evict the existing player. Instead, flag so that when the old socket
+          // disconnects we can find this socket and restore host status if applicable.
+          if (existingPlayer.isHost) {
+            deferredHostRestore = true;
+          }
+          logInfo(`Name conflict for ${name} in room ${roomCode}: existing socket ${existingSocketId} is still live, deferring host restore=${deferredHostRestore}`);
+          break;
+        }
+        // Old socket is confirmed gone — safe to replace immediately.
+        wasHost = existingPlayer.isHost;
+        isReconnecting = true;
+        name = existingPlayer.name; // preserve original casing
+        // Remove stale socket from all tracking structures so it can no longer affect room state.
+        room.players.delete(existingSocketId);
+        playerIndex.delete(existingSocketId);
+        names.delete(existingSocketId);
+        logInfo(`Replaced stale socket for ${name} in room ${roomCode} (stale: ${existingSocketId}, new: ${socketId})`);
+        break;
+      }
+    }
+
+    // Second: check the disconnected players map (for sockets that properly disconnected).
     const roomDisconnected = disconnectedPlayers.get(roomCode);
-    if (roomDisconnected && name) {
+    if (!isReconnecting && roomDisconnected && name) {
       const disconnectedData = roomDisconnected.get(name.toLowerCase());
       if (disconnectedData) {
         isReconnecting = true;
@@ -108,7 +144,7 @@ export function createRoomManager() {
 
     names.set(socketId, name);
 
-    return { success: true, isReconnecting, wasHost };
+    return { success: true, isReconnecting, wasHost, deferredHostRestore };
   }
 
   function removePlayerBySocket(socketId) {

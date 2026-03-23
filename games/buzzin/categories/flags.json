@@ -1,53 +1,2266 @@
 [
-  { "question": "What is the name of the flag of the UK?", "answer": "The Union Jack", "choices": ["The Union Jack", "The Royal Standard", "St George's Cross", "The Red Ensign"], "explanation": "The Union Jack combines three crosses: the red Cross of St George (England), the white diagonal Cross of St Andrew (Scotland), and the red diagonal Cross of St Patrick (Ireland), all overlaid on a blue background." },
-  { "question": "Which country does this flag belong to? 🇺🇸", "answer": "USA", "imageDisplay": "🇺🇸", "choices": ["USA", "Australia", "Liberia", "New Zealand"], "explanation": "The US flag features 13 red and white stripes representing the original colonies, and 50 white stars on a blue canton representing the current 50 states. No other country uses this distinctive stars-and-stripes design." },
-  { "question": "Which country does this flag belong to? 🇫🇷", "answer": "France", "imageDisplay": "🇫🇷", "choices": ["France", "Italy", "Luxembourg", "Netherlands"], "explanation": "France's tricolor flag has three equal vertical bands of blue, white, and red, adopted during the French Revolution. The vertical orientation sets it apart from the Netherlands (horizontal bands) and Luxembourg (similar but lighter blue and wider proportions)." },
-  { "question": "Which country does this flag belong to? 🇩🇪", "answer": "Germany", "imageDisplay": "🇩🇪", "choices": ["Germany", "Belgium", "Austria", "Hungary"], "explanation": "Germany's flag features three equal horizontal bands of black, red, and gold (from top to bottom). The gold band at the bottom distinguishes it from Belgium's vertical tricolor (black, yellow, red) and Austria's red-white-red horizontal stripes." },
-  { "question": "Which country does this flag belong to? 🇯🇵", "answer": "Japan", "imageDisplay": "🇯🇵", "choices": ["Japan", "South Korea", "Bangladesh", "Palau"], "explanation": "Japan's flag, known as the Nisshōki or Hinomaru (Circle of the Sun), features a simple red disc centered on a white background. It is one of the world's most recognizable flags, symbolizing the sun and Japan's identity as the 'Land of the Rising Sun.'" },
-  { "question": "Which country does this flag belong to? 🇨🇳", "answer": "China", "imageDisplay": "🇨🇳", "choices": ["China", "Vietnam", "North Korea", "Cuba"], "explanation": "China's flag is red with a large yellow star and four smaller yellow stars in the upper-left corner. The large star represents the Communist Party, while the four smaller stars represent the four social classes united under party leadership." },
-  { "question": "Which country does this flag belong to? 🇮🇹", "answer": "Italy", "imageDisplay": "🇮🇹", "choices": ["Italy", "France", "Ireland", "Mexico"], "explanation": "Italy's flag has three equal vertical bands of green, white, and red. It is visually similar to Ireland's flag (green, white, orange) and Mexico's flag (which also has green, white, red but includes a coat of arms in the center)." },
-  { "question": "Which country does this flag belong to? 🇷🇺", "answer": "Russia", "imageDisplay": "🇷🇺", "choices": ["Russia", "Serbia", "Slovakia", "Slovenia"], "explanation": "Russia's flag features three equal horizontal bands of white, blue, and red from top to bottom. Several Slavic countries use similar pan-Slavic colors, but Russia's specific arrangement of white-blue-red (top to bottom) is distinctive." },
-  { "question": "Which country does this flag belong to? 🇧🇷", "answer": "Brazil", "imageDisplay": "🇧🇷", "choices": ["Brazil", "Argentina", "Bolivia", "Venezuela"], "explanation": "Brazil's flag features a green field with a large yellow diamond at its center, inside which is a blue globe with stars and a white banner reading 'Ordem e Progresso' (Order and Progress). The green and yellow are unique to Brazil among South American nations." },
-  { "question": "Which country does this flag belong to? 🇨🇦", "answer": "Canada", "imageDisplay": "🇨🇦", "choices": ["Canada", "Denmark", "Switzerland", "Peru"], "explanation": "Canada's flag, adopted in 1965, features a red maple leaf centered on a white square flanked by two red vertical bands. The maple leaf is Canada's most iconic national symbol, and the bold, simple design makes it instantly recognizable worldwide." },
-  { "question": "Which country does this flag belong to? 🇦🇺", "answer": "Australia", "imageDisplay": "🇦🇺", "choices": ["Australia", "New Zealand", "Fiji", "Tuvalu"], "explanation": "Australia's flag features the Union Jack in the upper-left, the seven-pointed Commonwealth Star below it, and the Southern Cross constellation on the right, all on a blue background. It differs from New Zealand's flag primarily in having the larger Commonwealth Star and slightly different Southern Cross stars." },
-  { "question": "Which country does this flag belong to? 🇮🇳", "answer": "India", "imageDisplay": "🇮🇳", "choices": ["India", "Niger", "Ireland", "Ivory Coast"], "explanation": "India's flag has three equal horizontal bands of saffron (orange), white, and green, with a navy blue Ashoka Chakra (a 24-spoke wheel) in the center of the white band. The chakra represents the eternal wheel of law and distinguishes it from Ireland's similar tricolor." },
-  { "question": "Which country does this flag belong to? 🇲🇽", "answer": "Mexico", "imageDisplay": "🇲🇽", "choices": ["Mexico", "Italy", "Bolivia", "Hungary"], "explanation": "Mexico's flag has three vertical bands of green, white, and red with the national coat of arms—an eagle perched on a cactus devouring a snake—in the center white band. The coat of arms is what distinguishes it from the otherwise similar Italian flag." },
-  { "question": "Which country does this flag belong to? 🇪🇸", "answer": "Spain", "imageDisplay": "🇪🇸", "choices": ["Spain", "Andorra", "Colombia", "Venezuela"], "explanation": "Spain's flag features two horizontal red bands at top and bottom with a wider yellow band in the middle, and the Spanish coat of arms slightly left of center. The red-yellow-red pattern with wider yellow stripe and the coat of arms make it distinctive." },
-  { "question": "Which country does this flag belong to? 🇵🇹", "answer": "Portugal", "imageDisplay": "🇵🇹", "choices": ["Portugal", "Brazil", "Spain", "Mozambique"], "explanation": "Portugal's flag has a green vertical band on the left taking up about two-fifths of the flag, a red band on the right, and the national coat of arms (an armillary sphere over a shield) centered on the boundary between the two colors." },
-  { "question": "Which country does this flag belong to? 🇳🇱", "answer": "Netherlands", "imageDisplay": "🇳🇱", "choices": ["Netherlands", "France", "Luxembourg", "Croatia"], "explanation": "The Netherlands' flag features three equal horizontal bands of red (top), white (middle), and blue (bottom). It is one of the oldest tricolor flags still in use and is similar to Luxembourg's flag, but Luxembourg's blue is lighter and the proportions differ." },
-  { "question": "Which country does this flag belong to? 🇧🇪", "answer": "Belgium", "imageDisplay": "🇧🇪", "choices": ["Belgium", "Germany", "Chad", "Cameroon"], "explanation": "Belgium's flag has three equal vertical bands of black, yellow, and red. The vertical orientation and the specific black-yellow-red color order distinguish it from Germany's horizontal black-red-gold flag and Chad's nearly identical blue-yellow-red vertical tricolor." },
-  { "question": "Which country does this flag belong to? 🇨🇭", "answer": "Switzerland", "imageDisplay": "🇨🇭", "choices": ["Switzerland", "Denmark", "Georgia", "Malta"], "explanation": "Switzerland's flag is one of only two square national flags in the world (the other being Vatican City), featuring a white cross on a red background. The equal-armed white cross has been a Swiss symbol since the 13th century." },
-  { "question": "Which country does this flag belong to? 🇸🇪", "answer": "Sweden", "imageDisplay": "🇸🇪", "choices": ["Sweden", "Finland", "Iceland", "Greece"], "explanation": "Sweden's flag features a golden-yellow Nordic cross (a cross offset toward the hoist side) on a blue background. The Nordic cross design is shared by all Scandinavian countries, but Sweden's distinctive blue and yellow combination sets it apart." },
-  { "question": "Which country does this flag belong to? 🇳🇴", "answer": "Norway", "imageDisplay": "🇳🇴", "choices": ["Norway", "Denmark", "Sweden", "Iceland"], "explanation": "Norway's flag features a red background with a blue cross outlined in white. The Nordic cross is offset toward the hoist, and the red-white-blue color scheme distinguishes it from Denmark's simple red flag with a white cross." },
-  { "question": "Which country does this flag belong to? 🇩🇰", "answer": "Denmark", "imageDisplay": "🇩🇰", "choices": ["Denmark", "Norway", "Switzerland", "Georgia"], "explanation": "Denmark's flag, the Dannebrog, is the oldest national flag still in use, featuring a white Nordic cross on a red background. It is notably simpler than Norway's flag (which adds blue to the cross) and Switzerland's (which has a centered, equal-armed cross)." },
-  { "question": "Which country does this flag belong to? 🇫🇮", "answer": "Finland", "imageDisplay": "🇫🇮", "choices": ["Finland", "Sweden", "Estonia", "Greece"], "explanation": "Finland's flag features a blue Nordic cross on a white background, with the cross offset toward the hoist. The blue represents Finland's thousands of lakes and the sky, while white represents the snow-covered landscape." },
-  { "question": "Which country does this flag belong to? 🇵🇱", "answer": "Poland", "imageDisplay": "🇵🇱", "choices": ["Poland", "Indonesia", "Monaco", "Austria"], "explanation": "Poland's flag has two equal horizontal bands of white on top and red on the bottom. It is easily confused with Indonesia's and Monaco's flags, which both have red on top and white on the bottom—Poland's is the only one with white on top." },
-  { "question": "Which country does this flag belong to? 🇬🇷", "answer": "Greece", "imageDisplay": "🇬🇷", "choices": ["Greece", "Sweden", "Finland", "Uruguay"], "explanation": "Greece's flag features nine alternating horizontal blue and white stripes, representing the nine syllables of the Greek phrase for 'Freedom or Death,' with a white cross on a blue canton in the upper-left corner." },
-  { "question": "Which country does this flag belong to? 🇹🇷", "answer": "Turkey", "imageDisplay": "🇹🇷", "choices": ["Turkey", "Pakistan", "Tunisia", "Algeria"], "explanation": "Turkey's flag features a white crescent moon and a white five-pointed star on a red background. This iconic design dates back to the Ottoman Empire and the crescent-and-star combination is one of the most recognized symbols in the Muslim world." },
-  { "question": "Which country does this flag belong to? 🇮🇱", "answer": "Israel", "imageDisplay": "🇮🇱", "choices": ["Israel", "Greece", "Uruguay", "Finland"], "explanation": "Israel's flag features two horizontal blue stripes on a white background with a blue Star of David (Magen David) in the center. The design is inspired by the Jewish prayer shawl (tallit), and the Star of David is one of the most recognized symbols of Jewish identity." },
-  { "question": "Which country does this flag belong to? 🇸🇦", "answer": "Saudi Arabia", "imageDisplay": "🇸🇦", "hard": true, "choices": ["Saudi Arabia", "Pakistan", "Afghanistan", "Iran"], "explanation": "Saudi Arabia's flag is entirely green with a white Arabic inscription of the Shahada ('There is no god but God; Muhammad is the Messenger of God') above a white horizontal sword. The green color and sword are unique to Saudi Arabia; no other national flag includes the Shahada." },
-  { "question": "Which country does this flag belong to? 🇰🇷", "answer": "South Korea", "imageDisplay": "🇰🇷", "hard": true, "choices": ["South Korea", "Japan", "China", "North Korea"], "explanation": "South Korea's flag (Taegukgi) has a white background with a red and blue yin-yang symbol (Taeguk) in the center, surrounded by four black trigrams from the I Ching in each corner. The trigrams represent heaven, earth, water, and fire, making this flag instantly distinguishable." },
-  { "question": "Which country does this flag belong to? 🇿🇦", "answer": "South Africa", "imageDisplay": "🇿🇦", "hard": true, "choices": ["South Africa", "Kenya", "Zimbabwe", "Tanzania"], "explanation": "South Africa's flag is distinctive for its bold Y-shape (pall) of green edged in gold, pointing from the hoist toward the fly, on a background of red, blue, white, and black. Adopted in 1994 at the end of apartheid, it is one of the most colorful and unique national flags in the world." },
-  { "question": "Which country does this flag belong to? 🇳🇬", "answer": "Nigeria", "imageDisplay": "🇳🇬", "hard": true, "choices": ["Nigeria", "Ireland", "Saudi Arabia", "Ivory Coast"], "explanation": "Nigeria's flag features two vertical green bands flanking a central white band, representing the country's lush vegetation and the peace sought between Nigeria's many ethnic groups. The simple, bold design with no additional emblems makes it clean but easy to confuse with similar tricolors." },
-  { "question": "Which country does this flag belong to? 🇪🇬", "answer": "Egypt", "imageDisplay": "🇪🇬", "hard": true, "choices": ["Egypt", "Iraq", "Syria", "Yemen"], "explanation": "Egypt's flag has three equal horizontal bands of red, white, and black (the pan-Arab colors) with the golden Eagle of Saladin centered in the white band. The eagle clutching a shield distinguishes it from Syria's and Iraq's similar flags, which feature different central emblems." },
-  { "question": "Which country does this flag belong to? 🇦🇷", "answer": "Argentina", "imageDisplay": "🇦🇷", "hard": true, "choices": ["Argentina", "Uruguay", "El Salvador", "Nicaragua"], "explanation": "Argentina's flag has three equal horizontal bands of light blue, white, and light blue, with the golden Sun of May centered in the white band. The Sun of May (a face within a sun) is the key distinguishing feature that sets it apart from Uruguay's similar flag, which has fewer stripes and a different sun design." },
-  { "question": "Which country does this flag belong to? 🇨🇴", "answer": "Colombia", "imageDisplay": "🇨🇴", "hard": true, "choices": ["Colombia", "Venezuela", "Ecuador", "Spain"], "explanation": "Colombia's flag has three horizontal bands: a wide yellow band at top (taking half the flag), a blue band in the middle, and a red band at the bottom. The oversized yellow band representing Colombia's gold wealth is the key feature that distinguishes it from Venezuela and Ecuador, which use the same yellow-blue-red colors in equal-width bands." },
-  { "question": "Which country does this flag belong to? 🇺🇦", "answer": "Ukraine", "imageDisplay": "🇺🇦", "hard": true, "choices": ["Ukraine", "Sweden", "Kazakhstan", "Palau"], "explanation": "Ukraine's flag is split horizontally into two equal bands: blue on top and yellow on the bottom. The blue represents the sky and the yellow represents Ukraine's wheat fields. Despite its simplicity, the bold blue-over-yellow bicolor is highly distinctive and has become a global symbol of Ukrainian resilience." },
-  { "question": "Which country does this flag belong to? 🇮🇪", "answer": "Ireland", "imageDisplay": "🇮🇪", "hard": true, "choices": ["Ireland", "Italy", "Ivory Coast", "Niger"], "explanation": "Ireland's flag has three equal vertical bands of green, white, and orange from left to right. The green represents the Gaelic Irish tradition, orange represents the Protestant minority, and white symbolizes peace between them. Note the color order is reversed compared to Ivory Coast (orange, white, green) and Italy (green, white, red)." },
-  { "question": "Which country does this flag belong to? 🇸🇬", "answer": "Singapore", "imageDisplay": "🇸🇬", "hard": true, "choices": ["Singapore", "Turkey", "Tunisia", "Pakistan"], "explanation": "Singapore's flag has two equal horizontal bands of red on top and white on the bottom, with a white crescent moon and five white stars arranged in a circle on the red band. The crescent symbolizes a young nation and the five stars represent democracy, peace, progress, justice, and equality." },
-  { "question": "Which country does this flag belong to? 🇹🇭", "answer": "Thailand", "imageDisplay": "🇹🇭", "hard": true, "choices": ["Thailand", "Laos", "Cambodia", "Costa Rica"], "explanation": "Thailand's flag features five horizontal bands of red, white, blue (double-width), white, and red from top to bottom. The blue center band is wider than the others, and the red-white-blue-white-red arrangement (sometimes called the 'Trairanga' or Tricolor) is unique to Thailand." },
-  { "question": "Which country does this flag belong to? 🇳🇿", "answer": "New Zealand", "imageDisplay": "🇳🇿", "hard": true, "choices": ["New Zealand", "Australia", "Fiji", "Tuvalu"], "explanation": "New Zealand's flag, like Australia's, has the Union Jack in the upper-left and the Southern Cross on the right against a blue background. The key difference is that New Zealand's Southern Cross has four red stars outlined in white, while Australia's stars are white and it includes the larger Commonwealth Star." },
-  { "question": "Which country does this flag belong to? 🇵🇭", "answer": "Philippines", "imageDisplay": "🇵🇭", "hard": true, "choices": ["Philippines", "Cuba", "Puerto Rico", "Chile"], "explanation": "The Philippines' flag has a horizontal bicolor of blue on top and red on the bottom, with a white equilateral triangle at the hoist containing a golden sun and three gold stars. Uniquely, when displayed with the red band on top, it signals the country is at war." },
-  { "question": "Which country does this flag belong to? 🇻🇳", "answer": "Vietnam", "imageDisplay": "🇻🇳", "hard": true, "choices": ["Vietnam", "China", "Morocco", "Burkina Faso"], "explanation": "Vietnam's flag features a large yellow five-pointed star centered on a solid red background. The red represents revolution and the blood shed for independence, while the yellow star represents the five main classes of Vietnamese society (workers, peasants, soldiers, intellectuals, and youth)." },
-  { "question": "Which country does this flag belong to? 🇰🇪", "answer": "Kenya", "imageDisplay": "🇰🇪", "hard": true, "choices": ["Kenya", "South Africa", "Palestine", "Sudan"], "explanation": "Kenya's flag features three equal horizontal bands of black (top), red (middle), and green (bottom), separated by thin white stripes, with a large Maasai warrior's shield and two crossed spears in the center. The shield and spears are the most distinctive identifying feature of this flag." },
-  { "question": "Which country does this flag belong to? 🇬🇭", "answer": "Ghana", "imageDisplay": "🇬🇭", "hard": true, "choices": ["Ghana", "Senegal", "Guinea", "Mali"], "explanation": "Ghana's flag has three equal horizontal bands of red (top), gold (middle), and green (bottom) with a black five-pointed star in the center of the gold band. Ghana was the first sub-Saharan African country to gain independence from colonialism in 1957, and the black star represents African freedom." },
-  { "question": "Which country does this flag belong to? 🇵🇰", "answer": "Pakistan", "imageDisplay": "🇵🇰", "hard": true, "choices": ["Pakistan", "Saudi Arabia", "Turkey", "Algeria"], "explanation": "Pakistan's flag features a large white crescent moon and five-pointed star on a dark green background, with a vertical white stripe on the hoist side. The green represents the Muslim majority, the white stripe represents religious minorities, and the crescent and star are symbols of Islam." },
-  { "question": "Which country does this flag belong to? 🇮🇩", "answer": "Indonesia", "imageDisplay": "🇮🇩", "hard": true, "choices": ["Indonesia", "Monaco", "Poland", "Singapore"], "explanation": "Indonesia's flag ('Sang Saka Merah-Putih') has two equal horizontal bands of red on top and white on the bottom. It is nearly identical to Monaco's flag and the reverse of Poland's (white over red); Indonesia's flag has slightly different proportions from Monaco's." },
-  { "question": "Which country does this flag belong to? 🇦🇪", "answer": "UAE", "imageDisplay": "🇦🇪", "hard": true, "choices": ["UAE", "Jordan", "Kuwait", "Bahrain"], "explanation": "The UAE's flag features three equal horizontal bands of green (top), white (middle), and black (bottom) with a vertical red stripe at the hoist. The pan-Arab colors (red, green, white, black) are used, but the vertical red band on the left side is the key distinguishing feature from similar Arab flags." },
-  { "question": "Which country does this flag belong to? 🇷🇴", "answer": "Romania", "imageDisplay": "🇷🇴", "hard": true, "choices": ["Romania", "Chad", "Moldova", "Andorra"], "explanation": "Romania's flag has three equal vertical bands of blue (hoist), yellow (center), and red (fly). It is famously almost identical to Chad's flag, differing only in the shade of blue (Romania's is slightly lighter). Moldova's similar flag adds a coat of arms to the center." },
-  { "question": "Which country does this flag belong to? 🇭🇺", "answer": "Hungary", "imageDisplay": "🇭🇺", "hard": true, "choices": ["Hungary", "Bulgaria", "Italy", "Tajikistan"], "explanation": "Hungary's flag has three equal horizontal bands of red (top), white (middle), and green (bottom). The horizontal red-white-green arrangement distinguishes it from Italy's vertical green-white-red tricolor, and from Bulgaria's horizontal white-green-red flag." },
-  { "question": "Which country does this flag belong to? 🇨🇿", "answer": "Czech Republic", "imageDisplay": "🇨🇿", "hard": true, "choices": ["Czech Republic", "Slovakia", "Philippines", "Slovenia"], "explanation": "The Czech Republic's flag features two equal horizontal bands of white (top) and red (bottom) with a blue triangle pointing inward from the hoist side. The distinctive blue triangle was added to differentiate it from Poland's flag when Czechoslovakia was created; Slovakia kept the white-blue-red horizontal stripes when the countries separated." },
-  { "question": "Which country does this flag belong to? 🇵🇪", "answer": "Peru", "imageDisplay": "🇵🇪", "hard": true, "choices": ["Peru", "Canada", "Denmark", "Greenland"], "explanation": "Peru's flag has three equal vertical bands of red, white, and red. The basic red-white-red vertical tricolor is the state flag; the national flag adds Peru's coat of arms in the center. The vertical red-white-red arrangement is unique among South American nations." },
-  { "question": "Which country does this flag belong to? 🇨🇱", "answer": "Chile", "imageDisplay": "🇨🇱", "hard": true, "choices": ["Chile", "Cuba", "Philippines", "Puerto Rico"], "explanation": "Chile's flag has two horizontal bands—red on the bottom and white on top—with a blue square canton in the upper-left corner containing a single white five-pointed star. The lone white star on blue in the canton, combined with the red-white division, makes Chile's flag distinctive from the similar-looking flags of Cuba and Puerto Rico." },
-  { "question": "Which country does this flag belong to? 🇲🇦", "answer": "Morocco", "imageDisplay": "🇲🇦", "hard": true, "choices": ["Morocco", "Libya", "Tunisia", "Algeria"], "explanation": "Morocco's flag is solid red with a green interlaced pentagram (a five-pointed star formed by a single continuous line) in the center. The red background is a traditional color of the Moroccan royal family, and the green star (Seal of Solomon) represents the five pillars of Islam." }
+  {
+    "question": "What is the name of the flag of the UK?",
+    "answer": "The Union Jack",
+    "choices": [
+      "The Union Jack",
+      "The Royal Standard",
+      "St George's Cross",
+      "The Red Ensign"
+    ],
+    "explanation": "The Union Jack combines three crosses: the red Cross of St George (England), the white diagonal Cross of St Andrew (Scotland), and the red diagonal Cross of St Patrick (Ireland), all overlaid on a blue background."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfa\ud83c\uddf8",
+    "answer": "USA",
+    "imageDisplay": "\ud83c\uddfa\ud83c\uddf8",
+    "choices": [
+      "USA",
+      "Australia",
+      "Liberia",
+      "New Zealand"
+    ],
+    "explanation": "The US flag features 13 red and white stripes representing the original colonies, and 50 white stars on a blue canton representing the current 50 states. No other country uses this distinctive stars-and-stripes design."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddeb\ud83c\uddf7",
+    "answer": "France",
+    "imageDisplay": "\ud83c\uddeb\ud83c\uddf7",
+    "choices": [
+      "France",
+      "Italy",
+      "Luxembourg",
+      "Netherlands"
+    ],
+    "explanation": "France's tricolor flag has three equal vertical bands of blue, white, and red, adopted during the French Revolution. The vertical orientation sets it apart from the Netherlands (horizontal bands) and Luxembourg (similar but lighter blue and wider proportions)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde9\ud83c\uddea",
+    "answer": "Germany",
+    "imageDisplay": "\ud83c\udde9\ud83c\uddea",
+    "choices": [
+      "Germany",
+      "Belgium",
+      "Austria",
+      "Hungary"
+    ],
+    "explanation": "Germany's flag features three equal horizontal bands of black, red, and gold (from top to bottom). The gold band at the bottom distinguishes it from Belgium's vertical tricolor (black, yellow, red) and Austria's red-white-red horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddef\ud83c\uddf5",
+    "answer": "Japan",
+    "imageDisplay": "\ud83c\uddef\ud83c\uddf5",
+    "choices": [
+      "Japan",
+      "South Korea",
+      "Bangladesh",
+      "Palau"
+    ],
+    "explanation": "Japan's flag, known as the Nissh\u014dki or Hinomaru (Circle of the Sun), features a simple red disc centered on a white background. It is one of the world's most recognizable flags, symbolizing the sun and Japan's identity as the 'Land of the Rising Sun.'"
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddf3",
+    "answer": "China",
+    "imageDisplay": "\ud83c\udde8\ud83c\uddf3",
+    "choices": [
+      "China",
+      "Vietnam",
+      "North Korea",
+      "Cuba"
+    ],
+    "explanation": "China's flag is red with a large yellow star and four smaller yellow stars in the upper-left corner. The large star represents the Communist Party, while the four smaller stars represent the four social classes united under party leadership."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf9",
+    "answer": "Italy",
+    "imageDisplay": "\ud83c\uddee\ud83c\uddf9",
+    "choices": [
+      "Italy",
+      "France",
+      "Ireland",
+      "Mexico"
+    ],
+    "explanation": "Italy's flag has three equal vertical bands of green, white, and red. It is visually similar to Ireland's flag (green, white, orange) and Mexico's flag (which also has green, white, red but includes a coat of arms in the center)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf7\ud83c\uddfa",
+    "answer": "Russia",
+    "imageDisplay": "\ud83c\uddf7\ud83c\uddfa",
+    "choices": [
+      "Russia",
+      "Serbia",
+      "Slovakia",
+      "Slovenia"
+    ],
+    "explanation": "Russia's flag features three equal horizontal bands of white, blue, and red from top to bottom. Several Slavic countries use similar pan-Slavic colors, but Russia's specific arrangement of white-blue-red (top to bottom) is distinctive."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddf7",
+    "answer": "Brazil",
+    "imageDisplay": "\ud83c\udde7\ud83c\uddf7",
+    "choices": [
+      "Brazil",
+      "Argentina",
+      "Bolivia",
+      "Venezuela"
+    ],
+    "explanation": "Brazil's flag features a green field with a large yellow diamond at its center, inside which is a blue globe with stars and a white banner reading 'Ordem e Progresso' (Order and Progress). The green and yellow are unique to Brazil among South American nations."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\udde6",
+    "answer": "Canada",
+    "imageDisplay": "\ud83c\udde8\ud83c\udde6",
+    "choices": [
+      "Canada",
+      "Denmark",
+      "Switzerland",
+      "Peru"
+    ],
+    "explanation": "Canada's flag, adopted in 1965, features a red maple leaf centered on a white square flanked by two red vertical bands. The maple leaf is Canada's most iconic national symbol, and the bold, simple design makes it instantly recognizable worldwide."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddfa",
+    "answer": "Australia",
+    "imageDisplay": "\ud83c\udde6\ud83c\uddfa",
+    "choices": [
+      "Australia",
+      "New Zealand",
+      "Fiji",
+      "Tuvalu"
+    ],
+    "explanation": "Australia's flag features the Union Jack in the upper-left, the seven-pointed Commonwealth Star below it, and the Southern Cross constellation on the right, all on a blue background. It differs from New Zealand's flag primarily in having the larger Commonwealth Star and slightly different Southern Cross stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf3",
+    "answer": "India",
+    "imageDisplay": "\ud83c\uddee\ud83c\uddf3",
+    "choices": [
+      "India",
+      "Niger",
+      "Ireland",
+      "Ivory Coast"
+    ],
+    "explanation": "India's flag has three equal horizontal bands of saffron (orange), white, and green, with a navy blue Ashoka Chakra (a 24-spoke wheel) in the center of the white band. The chakra represents the eternal wheel of law and distinguishes it from Ireland's similar tricolor."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddfd",
+    "answer": "Mexico",
+    "imageDisplay": "\ud83c\uddf2\ud83c\uddfd",
+    "choices": [
+      "Mexico",
+      "Italy",
+      "Bolivia",
+      "Hungary"
+    ],
+    "explanation": "Mexico's flag has three vertical bands of green, white, and red with the national coat of arms\u2014an eagle perched on a cactus devouring a snake\u2014in the center white band. The coat of arms is what distinguishes it from the otherwise similar Italian flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\uddf8",
+    "answer": "Spain",
+    "imageDisplay": "\ud83c\uddea\ud83c\uddf8",
+    "choices": [
+      "Spain",
+      "Andorra",
+      "Colombia",
+      "Venezuela"
+    ],
+    "explanation": "Spain's flag features two horizontal red bands at top and bottom with a wider yellow band in the middle, and the Spanish coat of arms slightly left of center. The red-yellow-red pattern with wider yellow stripe and the coat of arms make it distinctive."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddf9",
+    "answer": "Portugal",
+    "imageDisplay": "\ud83c\uddf5\ud83c\uddf9",
+    "choices": [
+      "Portugal",
+      "Brazil",
+      "Spain",
+      "Mozambique"
+    ],
+    "explanation": "Portugal's flag has a green vertical band on the left taking up about two-fifths of the flag, a red band on the right, and the national coat of arms (an armillary sphere over a shield) centered on the boundary between the two colors."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddf1",
+    "answer": "Netherlands",
+    "imageDisplay": "\ud83c\uddf3\ud83c\uddf1",
+    "choices": [
+      "Netherlands",
+      "France",
+      "Luxembourg",
+      "Croatia"
+    ],
+    "explanation": "The Netherlands' flag features three equal horizontal bands of red (top), white (middle), and blue (bottom). It is one of the oldest tricolor flags still in use and is similar to Luxembourg's flag, but Luxembourg's blue is lighter and the proportions differ."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddea",
+    "answer": "Belgium",
+    "imageDisplay": "\ud83c\udde7\ud83c\uddea",
+    "choices": [
+      "Belgium",
+      "Germany",
+      "Chad",
+      "Cameroon"
+    ],
+    "explanation": "Belgium's flag has three equal vertical bands of black, yellow, and red. The vertical orientation and the specific black-yellow-red color order distinguish it from Germany's horizontal black-red-gold flag and Chad's nearly identical blue-yellow-red vertical tricolor."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\udded",
+    "answer": "Switzerland",
+    "imageDisplay": "\ud83c\udde8\ud83c\udded",
+    "choices": [
+      "Switzerland",
+      "Denmark",
+      "Georgia",
+      "Malta"
+    ],
+    "explanation": "Switzerland's flag is one of only two square national flags in the world (the other being Vatican City), featuring a white cross on a red background. The equal-armed white cross has been a Swiss symbol since the 13th century."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddea",
+    "answer": "Sweden",
+    "imageDisplay": "\ud83c\uddf8\ud83c\uddea",
+    "choices": [
+      "Sweden",
+      "Finland",
+      "Iceland",
+      "Greece"
+    ],
+    "explanation": "Sweden's flag features a golden-yellow Nordic cross (a cross offset toward the hoist side) on a blue background. The Nordic cross design is shared by all Scandinavian countries, but Sweden's distinctive blue and yellow combination sets it apart."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddf4",
+    "answer": "Norway",
+    "imageDisplay": "\ud83c\uddf3\ud83c\uddf4",
+    "choices": [
+      "Norway",
+      "Denmark",
+      "Sweden",
+      "Iceland"
+    ],
+    "explanation": "Norway's flag features a red background with a blue cross outlined in white. The Nordic cross is offset toward the hoist, and the red-white-blue color scheme distinguishes it from Denmark's simple red flag with a white cross."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde9\ud83c\uddf0",
+    "answer": "Denmark",
+    "imageDisplay": "\ud83c\udde9\ud83c\uddf0",
+    "choices": [
+      "Denmark",
+      "Norway",
+      "Switzerland",
+      "Georgia"
+    ],
+    "explanation": "Denmark's flag, the Dannebrog, is the oldest national flag still in use, featuring a white Nordic cross on a red background. It is notably simpler than Norway's flag (which adds blue to the cross) and Switzerland's (which has a centered, equal-armed cross)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddeb\ud83c\uddee",
+    "answer": "Finland",
+    "imageDisplay": "\ud83c\uddeb\ud83c\uddee",
+    "choices": [
+      "Finland",
+      "Sweden",
+      "Estonia",
+      "Greece"
+    ],
+    "explanation": "Finland's flag features a blue Nordic cross on a white background, with the cross offset toward the hoist. The blue represents Finland's thousands of lakes and the sky, while white represents the snow-covered landscape."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddf1",
+    "answer": "Poland",
+    "imageDisplay": "\ud83c\uddf5\ud83c\uddf1",
+    "choices": [
+      "Poland",
+      "Indonesia",
+      "Monaco",
+      "Austria"
+    ],
+    "explanation": "Poland's flag has two equal horizontal bands of white on top and red on the bottom. It is easily confused with Indonesia's and Monaco's flags, which both have red on top and white on the bottom\u2014Poland's is the only one with white on top."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddf7",
+    "answer": "Greece",
+    "imageDisplay": "\ud83c\uddec\ud83c\uddf7",
+    "choices": [
+      "Greece",
+      "Sweden",
+      "Finland",
+      "Uruguay"
+    ],
+    "explanation": "Greece's flag features nine alternating horizontal blue and white stripes, representing the nine syllables of the Greek phrase for 'Freedom or Death,' with a white cross on a blue canton in the upper-left corner."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddf7",
+    "answer": "Turkey",
+    "imageDisplay": "\ud83c\uddf9\ud83c\uddf7",
+    "choices": [
+      "Turkey",
+      "Pakistan",
+      "Tunisia",
+      "Algeria"
+    ],
+    "explanation": "Turkey's flag features a white crescent moon and a white five-pointed star on a red background. This iconic design dates back to the Ottoman Empire and the crescent-and-star combination is one of the most recognized symbols in the Muslim world."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf1",
+    "answer": "Israel",
+    "imageDisplay": "\ud83c\uddee\ud83c\uddf1",
+    "choices": [
+      "Israel",
+      "Greece",
+      "Uruguay",
+      "Finland"
+    ],
+    "explanation": "Israel's flag features two horizontal blue stripes on a white background with a blue Star of David (Magen David) in the center. The design is inspired by the Jewish prayer shawl (tallit), and the Star of David is one of the most recognized symbols of Jewish identity."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\udde6",
+    "answer": "Saudi Arabia",
+    "imageDisplay": "\ud83c\uddf8\ud83c\udde6",
+    "hard": true,
+    "choices": [
+      "Saudi Arabia",
+      "Pakistan",
+      "Afghanistan",
+      "Iran"
+    ],
+    "explanation": "Saudi Arabia's flag is entirely green with a white Arabic inscription of the Shahada ('There is no god but God; Muhammad is the Messenger of God') above a white horizontal sword. The green color and sword are unique to Saudi Arabia; no other national flag includes the Shahada."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddf7",
+    "answer": "South Korea",
+    "imageDisplay": "\ud83c\uddf0\ud83c\uddf7",
+    "hard": true,
+    "choices": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "explanation": "South Korea's flag (Taegukgi) has a white background with a red and blue yin-yang symbol (Taeguk) in the center, surrounded by four black trigrams from the I Ching in each corner. The trigrams represent heaven, earth, water, and fire, making this flag instantly distinguishable."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddff\ud83c\udde6",
+    "answer": "South Africa",
+    "imageDisplay": "\ud83c\uddff\ud83c\udde6",
+    "hard": true,
+    "choices": [
+      "South Africa",
+      "Kenya",
+      "Zimbabwe",
+      "Tanzania"
+    ],
+    "explanation": "South Africa's flag is distinctive for its bold Y-shape (pall) of green edged in gold, pointing from the hoist toward the fly, on a background of red, blue, white, and black. Adopted in 1994 at the end of apartheid, it is one of the most colorful and unique national flags in the world."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddec",
+    "answer": "Nigeria",
+    "imageDisplay": "\ud83c\uddf3\ud83c\uddec",
+    "hard": true,
+    "choices": [
+      "Nigeria",
+      "Ireland",
+      "Saudi Arabia",
+      "Ivory Coast"
+    ],
+    "explanation": "Nigeria's flag features two vertical green bands flanking a central white band, representing the country's lush vegetation and the peace sought between Nigeria's many ethnic groups. The simple, bold design with no additional emblems makes it clean but easy to confuse with similar tricolors."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\uddec",
+    "answer": "Egypt",
+    "imageDisplay": "\ud83c\uddea\ud83c\uddec",
+    "hard": true,
+    "choices": [
+      "Egypt",
+      "Iraq",
+      "Syria",
+      "Yemen"
+    ],
+    "explanation": "Egypt's flag has three equal horizontal bands of red, white, and black (the pan-Arab colors) with the golden Eagle of Saladin centered in the white band. The eagle clutching a shield distinguishes it from Syria's and Iraq's similar flags, which feature different central emblems."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddf7",
+    "answer": "Argentina",
+    "imageDisplay": "\ud83c\udde6\ud83c\uddf7",
+    "hard": true,
+    "choices": [
+      "Argentina",
+      "Uruguay",
+      "El Salvador",
+      "Nicaragua"
+    ],
+    "explanation": "Argentina's flag has three equal horizontal bands of light blue, white, and light blue, with the golden Sun of May centered in the white band. The Sun of May (a face within a sun) is the key distinguishing feature that sets it apart from Uruguay's similar flag, which has fewer stripes and a different sun design."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddf4",
+    "answer": "Colombia",
+    "imageDisplay": "\ud83c\udde8\ud83c\uddf4",
+    "hard": true,
+    "choices": [
+      "Colombia",
+      "Venezuela",
+      "Ecuador",
+      "Spain"
+    ],
+    "explanation": "Colombia's flag has three horizontal bands: a wide yellow band at top (taking half the flag), a blue band in the middle, and a red band at the bottom. The oversized yellow band representing Colombia's gold wealth is the key feature that distinguishes it from Venezuela and Ecuador, which use the same yellow-blue-red colors in equal-width bands."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfa\ud83c\udde6",
+    "answer": "Ukraine",
+    "imageDisplay": "\ud83c\uddfa\ud83c\udde6",
+    "hard": true,
+    "choices": [
+      "Ukraine",
+      "Sweden",
+      "Kazakhstan",
+      "Palau"
+    ],
+    "explanation": "Ukraine's flag is split horizontally into two equal bands: blue on top and yellow on the bottom. The blue represents the sky and the yellow represents Ukraine's wheat fields. Despite its simplicity, the bold blue-over-yellow bicolor is highly distinctive and has become a global symbol of Ukrainian resilience."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddea",
+    "answer": "Ireland",
+    "imageDisplay": "\ud83c\uddee\ud83c\uddea",
+    "hard": true,
+    "choices": [
+      "Ireland",
+      "Italy",
+      "Ivory Coast",
+      "Niger"
+    ],
+    "explanation": "Ireland's flag has three equal vertical bands of green, white, and orange from left to right. The green represents the Gaelic Irish tradition, orange represents the Protestant minority, and white symbolizes peace between them. Note the color order is reversed compared to Ivory Coast (orange, white, green) and Italy (green, white, red)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddec",
+    "answer": "Singapore",
+    "imageDisplay": "\ud83c\uddf8\ud83c\uddec",
+    "hard": true,
+    "choices": [
+      "Singapore",
+      "Turkey",
+      "Tunisia",
+      "Pakistan"
+    ],
+    "explanation": "Singapore's flag has two equal horizontal bands of red on top and white on the bottom, with a white crescent moon and five white stars arranged in a circle on the red band. The crescent symbolizes a young nation and the five stars represent democracy, peace, progress, justice, and equality."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\udded",
+    "answer": "Thailand",
+    "imageDisplay": "\ud83c\uddf9\ud83c\udded",
+    "hard": true,
+    "choices": [
+      "Thailand",
+      "Laos",
+      "Cambodia",
+      "Costa Rica"
+    ],
+    "explanation": "Thailand's flag features five horizontal bands of red, white, blue (double-width), white, and red from top to bottom. The blue center band is wider than the others, and the red-white-blue-white-red arrangement (sometimes called the 'Trairanga' or Tricolor) is unique to Thailand."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddff",
+    "answer": "New Zealand",
+    "imageDisplay": "\ud83c\uddf3\ud83c\uddff",
+    "hard": true,
+    "choices": [
+      "New Zealand",
+      "Australia",
+      "Fiji",
+      "Tuvalu"
+    ],
+    "explanation": "New Zealand's flag, like Australia's, has the Union Jack in the upper-left and the Southern Cross on the right against a blue background. The key difference is that New Zealand's Southern Cross has four red stars outlined in white, while Australia's stars are white and it includes the larger Commonwealth Star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\udded",
+    "answer": "Philippines",
+    "imageDisplay": "\ud83c\uddf5\ud83c\udded",
+    "hard": true,
+    "choices": [
+      "Philippines",
+      "Cuba",
+      "Puerto Rico",
+      "Chile"
+    ],
+    "explanation": "The Philippines' flag has a horizontal bicolor of blue on top and red on the bottom, with a white equilateral triangle at the hoist containing a golden sun and three gold stars. Uniquely, when displayed with the red band on top, it signals the country is at war."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfb\ud83c\uddf3",
+    "answer": "Vietnam",
+    "imageDisplay": "\ud83c\uddfb\ud83c\uddf3",
+    "hard": true,
+    "choices": [
+      "Vietnam",
+      "China",
+      "Morocco",
+      "Burkina Faso"
+    ],
+    "explanation": "Vietnam's flag features a large yellow five-pointed star centered on a solid red background. The red represents revolution and the blood shed for independence, while the yellow star represents the five main classes of Vietnamese society (workers, peasants, soldiers, intellectuals, and youth)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddea",
+    "answer": "Kenya",
+    "imageDisplay": "\ud83c\uddf0\ud83c\uddea",
+    "hard": true,
+    "choices": [
+      "Kenya",
+      "South Africa",
+      "Palestine",
+      "Sudan"
+    ],
+    "explanation": "Kenya's flag features three equal horizontal bands of black (top), red (middle), and green (bottom), separated by thin white stripes, with a large Maasai warrior's shield and two crossed spears in the center. The shield and spears are the most distinctive identifying feature of this flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\udded",
+    "answer": "Ghana",
+    "imageDisplay": "\ud83c\uddec\ud83c\udded",
+    "hard": true,
+    "choices": [
+      "Ghana",
+      "Senegal",
+      "Guinea",
+      "Mali"
+    ],
+    "explanation": "Ghana's flag has three equal horizontal bands of red (top), gold (middle), and green (bottom) with a black five-pointed star in the center of the gold band. Ghana was the first sub-Saharan African country to gain independence from colonialism in 1957, and the black star represents African freedom."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddf0",
+    "answer": "Pakistan",
+    "imageDisplay": "\ud83c\uddf5\ud83c\uddf0",
+    "hard": true,
+    "choices": [
+      "Pakistan",
+      "Saudi Arabia",
+      "Turkey",
+      "Algeria"
+    ],
+    "explanation": "Pakistan's flag features a large white crescent moon and five-pointed star on a dark green background, with a vertical white stripe on the hoist side. The green represents the Muslim majority, the white stripe represents religious minorities, and the crescent and star are symbols of Islam."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\udde9",
+    "answer": "Indonesia",
+    "imageDisplay": "\ud83c\uddee\ud83c\udde9",
+    "hard": true,
+    "choices": [
+      "Indonesia",
+      "Monaco",
+      "Poland",
+      "Singapore"
+    ],
+    "explanation": "Indonesia's flag ('Sang Saka Merah-Putih') has two equal horizontal bands of red on top and white on the bottom. It is nearly identical to Monaco's flag and the reverse of Poland's (white over red); Indonesia's flag has slightly different proportions from Monaco's."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddea",
+    "answer": "UAE",
+    "imageDisplay": "\ud83c\udde6\ud83c\uddea",
+    "hard": true,
+    "choices": [
+      "UAE",
+      "Jordan",
+      "Kuwait",
+      "Bahrain"
+    ],
+    "explanation": "The UAE's flag features three equal horizontal bands of green (top), white (middle), and black (bottom) with a vertical red stripe at the hoist. The pan-Arab colors (red, green, white, black) are used, but the vertical red band on the left side is the key distinguishing feature from similar Arab flags."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf7\ud83c\uddf4",
+    "answer": "Romania",
+    "imageDisplay": "\ud83c\uddf7\ud83c\uddf4",
+    "hard": true,
+    "choices": [
+      "Romania",
+      "Chad",
+      "Moldova",
+      "Andorra"
+    ],
+    "explanation": "Romania's flag has three equal vertical bands of blue (hoist), yellow (center), and red (fly). It is famously almost identical to Chad's flag, differing only in the shade of blue (Romania's is slightly lighter). Moldova's similar flag adds a coat of arms to the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udded\ud83c\uddfa",
+    "answer": "Hungary",
+    "imageDisplay": "\ud83c\udded\ud83c\uddfa",
+    "hard": true,
+    "choices": [
+      "Hungary",
+      "Bulgaria",
+      "Italy",
+      "Tajikistan"
+    ],
+    "explanation": "Hungary's flag has three equal horizontal bands of red (top), white (middle), and green (bottom). The horizontal red-white-green arrangement distinguishes it from Italy's vertical green-white-red tricolor, and from Bulgaria's horizontal white-green-red flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddff",
+    "answer": "Czech Republic",
+    "imageDisplay": "\ud83c\udde8\ud83c\uddff",
+    "hard": true,
+    "choices": [
+      "Czech Republic",
+      "Slovakia",
+      "Philippines",
+      "Slovenia"
+    ],
+    "explanation": "The Czech Republic's flag features two equal horizontal bands of white (top) and red (bottom) with a blue triangle pointing inward from the hoist side. The distinctive blue triangle was added to differentiate it from Poland's flag when Czechoslovakia was created; Slovakia kept the white-blue-red horizontal stripes when the countries separated."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddea",
+    "answer": "Peru",
+    "imageDisplay": "\ud83c\uddf5\ud83c\uddea",
+    "hard": true,
+    "choices": [
+      "Peru",
+      "Canada",
+      "Denmark",
+      "Greenland"
+    ],
+    "explanation": "Peru's flag has three equal vertical bands of red, white, and red. The basic red-white-red vertical tricolor is the state flag; the national flag adds Peru's coat of arms in the center. The vertical red-white-red arrangement is unique among South American nations."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddf1",
+    "answer": "Chile",
+    "imageDisplay": "\ud83c\udde8\ud83c\uddf1",
+    "hard": true,
+    "choices": [
+      "Chile",
+      "Cuba",
+      "Philippines",
+      "Puerto Rico"
+    ],
+    "explanation": "Chile's flag has two horizontal bands\u2014red on the bottom and white on top\u2014with a blue square canton in the upper-left corner containing a single white five-pointed star. The lone white star on blue in the canton, combined with the red-white division, makes Chile's flag distinctive from the similar-looking flags of Cuba and Puerto Rico."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\udde6",
+    "answer": "Morocco",
+    "imageDisplay": "\ud83c\uddf2\ud83c\udde6",
+    "hard": true,
+    "choices": [
+      "Morocco",
+      "Libya",
+      "Tunisia",
+      "Algeria"
+    ],
+    "explanation": "Morocco's flag is solid red with a green interlaced pentagram (a five-pointed star formed by a single continuous line) in the center. The red background is a traditional color of the Moroccan royal family, and the green star (Seal of Solomon) represents the five pillars of Islam."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddf1",
+    "answer": "Albania",
+    "choices": [
+      "North Macedonia",
+      "Albania",
+      "Serbia",
+      "Montenegro"
+    ],
+    "explanation": "Albania's flag features a black double-headed eagle on a red background."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\udde9",
+    "answer": "Andorra",
+    "choices": [
+      "Monaco",
+      "Liechtenstein",
+      "Andorra",
+      "Luxembourg"
+    ],
+    "explanation": "Andorra's flag has vertical blue, yellow, and red stripes with a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddf9",
+    "answer": "Austria",
+    "choices": [
+      "Croatia",
+      "Denmark",
+      "Austria",
+      "Latvia"
+    ],
+    "explanation": "Austria's flag is one of the world's oldest, featuring red-white-red horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddfe",
+    "answer": "Belarus",
+    "choices": [
+      "Ukraine",
+      "Russia",
+      "Latvia",
+      "Belarus"
+    ],
+    "explanation": "Belarus has a red and green flag with a decorative white stripe on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\udde6",
+    "answer": "Bosnia and Herzegovina",
+    "choices": [
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Montenegro",
+      "Croatia"
+    ],
+    "explanation": "Bosnia and Herzegovina's flag has a yellow triangle on blue with white stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddec",
+    "answer": "Bulgaria",
+    "choices": [
+      "Slovenia",
+      "Serbia",
+      "Bulgaria",
+      "Slovakia"
+    ],
+    "explanation": "Bulgaria's flag has white, green, and red horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udded\ud83c\uddf7",
+    "answer": "Croatia",
+    "choices": [
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Croatia"
+    ],
+    "explanation": "Croatia's flag has red, white, and blue stripes with its historic coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddfe",
+    "answer": "Cyprus",
+    "choices": [
+      "Greece",
+      "Iceland",
+      "Cyprus",
+      "Malta"
+    ],
+    "explanation": "Cyprus has a unique flag showing an orange map of the island above olive branches."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\uddea",
+    "answer": "Estonia",
+    "choices": [
+      "Finland",
+      "Latvia",
+      "Estonia",
+      "Lithuania"
+    ],
+    "explanation": "Estonia's flag has blue, black, and white horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddfb",
+    "answer": "Latvia",
+    "choices": [
+      "Lithuania",
+      "Belarus",
+      "Latvia",
+      "Estonia"
+    ],
+    "explanation": "Latvia's flag is one of the oldest: dark red with a thin white horizontal stripe."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddee",
+    "answer": "Liechtenstein",
+    "choices": [
+      "Liechtenstein",
+      "Andorra",
+      "Luxembourg",
+      "Monaco"
+    ],
+    "explanation": "Liechtenstein's flag is blue over red with a golden crown."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddf9",
+    "answer": "Lithuania",
+    "choices": [
+      "Lithuania",
+      "Estonia",
+      "Belarus",
+      "Latvia"
+    ],
+    "explanation": "Lithuania's flag has yellow, green, and red horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddfa",
+    "answer": "Luxembourg",
+    "choices": [
+      "Netherlands",
+      "Luxembourg",
+      "Belgium",
+      "France"
+    ],
+    "explanation": "Luxembourg's flag looks almost identical to the Netherlands flag but uses lighter blue."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf9",
+    "answer": "Malta",
+    "choices": [
+      "Greece",
+      "Vatican City",
+      "Malta",
+      "Cyprus"
+    ],
+    "explanation": "Malta's flag is white and red with the George Cross in the upper left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\udde9",
+    "answer": "Moldova",
+    "choices": [
+      "Moldova",
+      "Bulgaria",
+      "Romania",
+      "Ukraine"
+    ],
+    "explanation": "Moldova's flag resembles Romania's but includes a coat of arms in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\udde8",
+    "answer": "Monaco",
+    "choices": [
+      "Denmark",
+      "Monaco",
+      "Indonesia",
+      "Poland"
+    ],
+    "explanation": "Monaco's flag is red on top and white on bottom \u2014 identical in design to Indonesia's."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddea",
+    "answer": "Montenegro",
+    "choices": [
+      "North Macedonia",
+      "Montenegro",
+      "Bosnia",
+      "Serbia"
+    ],
+    "explanation": "Montenegro's flag is red with a golden border and eagle coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf0",
+    "answer": "North Macedonia",
+    "choices": [
+      "Greece",
+      "Serbia",
+      "North Macedonia",
+      "Bulgaria"
+    ],
+    "explanation": "North Macedonia's flag features a golden sun with eight rays on a red background."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf2",
+    "answer": "San Marino",
+    "choices": [
+      "Monaco",
+      "Andorra",
+      "San Marino",
+      "Vatican City"
+    ],
+    "explanation": "San Marino's flag is blue and white with a coat of arms featuring three towers."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf7\ud83c\uddf8",
+    "answer": "Serbia",
+    "choices": [
+      "Montenegro",
+      "Croatia",
+      "Bulgaria",
+      "Serbia"
+    ],
+    "explanation": "Serbia's flag is red, blue, and white with a coat of arms bearing a double-headed eagle."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf0",
+    "answer": "Slovakia",
+    "choices": [
+      "Slovenia",
+      "Croatia",
+      "Czech Republic",
+      "Slovakia"
+    ],
+    "explanation": "Slovakia's flag has white, blue, and red horizontal stripes with a double cross emblem."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddee",
+    "answer": "Slovenia",
+    "choices": [
+      "Serbia",
+      "Slovenia",
+      "Slovakia",
+      "Croatia"
+    ],
+    "explanation": "Slovenia's flag has white, blue, and red stripes with Mount Triglav in the coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfb\ud83c\udde6",
+    "answer": "Vatican City",
+    "choices": [
+      "San Marino",
+      "Vatican City",
+      "Monaco",
+      "Malta"
+    ],
+    "explanation": "Vatican City's flag is yellow and white with crossed keys and the papal tiara."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf8",
+    "answer": "Iceland",
+    "choices": [
+      "Faroe Islands",
+      "Finland",
+      "Iceland",
+      "Norway"
+    ],
+    "explanation": "Iceland's flag has a red cross outlined in white on a blue background."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddff",
+    "answer": "Belize",
+    "choices": [
+      "Honduras",
+      "Belize",
+      "Guatemala",
+      "Costa Rica"
+    ],
+    "explanation": "Belize is the only country in the Americas whose flag features two humans \u2014 woodcutters."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddf4",
+    "answer": "Bolivia",
+    "choices": [
+      "Bolivia",
+      "Peru",
+      "Colombia",
+      "Ecuador"
+    ],
+    "explanation": "Bolivia's flag has horizontal red, yellow, and green stripes and a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddf7",
+    "answer": "Costa Rica",
+    "choices": [
+      "Nicaragua",
+      "El Salvador",
+      "Honduras",
+      "Costa Rica"
+    ],
+    "explanation": "Costa Rica's flag has blue, white, and red stripes with a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddfa",
+    "answer": "Cuba",
+    "choices": [
+      "Dominican Republic",
+      "Cuba",
+      "Puerto Rico",
+      "Haiti"
+    ],
+    "explanation": "Cuba's flag has five blue and white stripes with a red triangle and white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde9\ud83c\uddf4",
+    "answer": "Dominican Republic",
+    "choices": [
+      "Jamaica",
+      "Dominican Republic",
+      "Haiti",
+      "Cuba"
+    ],
+    "explanation": "The Dominican Republic's flag features a white cross with blue and red quarters and a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\udde8",
+    "answer": "Ecuador",
+    "choices": [
+      "Colombia",
+      "Ecuador",
+      "Peru",
+      "Bolivia"
+    ],
+    "explanation": "Ecuador's flag has yellow, blue, and red stripes with a coat of arms featuring the Chimborazo volcano."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddfb",
+    "answer": "El Salvador",
+    "choices": [
+      "Guatemala",
+      "El Salvador",
+      "Honduras",
+      "Nicaragua"
+    ],
+    "explanation": "El Salvador's flag has blue and white stripes with a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddf9",
+    "answer": "Guatemala",
+    "choices": [
+      "Belize",
+      "Honduras",
+      "Guatemala",
+      "El Salvador"
+    ],
+    "explanation": "Guatemala's flag has two blue stripes flanking a white stripe with a Quetzal bird emblem."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udded\ud83c\uddf9",
+    "answer": "Haiti",
+    "choices": [
+      "Jamaica",
+      "Haiti",
+      "Dominican Republic",
+      "Cuba"
+    ],
+    "explanation": "Haiti's flag is blue and red with a palm tree coat of arms in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udded\ud83c\uddf3",
+    "answer": "Honduras",
+    "choices": [
+      "Honduras",
+      "Guatemala",
+      "El Salvador",
+      "Nicaragua"
+    ],
+    "explanation": "Honduras's flag has two blue stripes, a white stripe, and five blue stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddef\ud83c\uddf2",
+    "answer": "Jamaica",
+    "choices": [
+      "Jamaica",
+      "Trinidad and Tobago",
+      "Bahamas",
+      "Barbados"
+    ],
+    "explanation": "Jamaica's flag features a gold diagonal cross (saltire) dividing green and black triangles."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddee",
+    "answer": "Nicaragua",
+    "choices": [
+      "Guatemala",
+      "Nicaragua",
+      "Honduras",
+      "El Salvador"
+    ],
+    "explanation": "Nicaragua's flag has blue and white stripes with a volcanic triangle coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\udde6",
+    "answer": "Panama",
+    "choices": [
+      "Costa Rica",
+      "Colombia",
+      "Panama",
+      "Venezuela"
+    ],
+    "explanation": "Panama's flag has four quarters: red, white, blue, and white, with a star in each white quarter."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddfe",
+    "answer": "Paraguay",
+    "choices": [
+      "Bolivia",
+      "Paraguay",
+      "Argentina",
+      "Uruguay"
+    ],
+    "explanation": "Paraguay is one of few countries with a different coat of arms on each side of the flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfa\ud83c\uddfe",
+    "answer": "Uruguay",
+    "choices": [
+      "Chile",
+      "Argentina",
+      "Uruguay",
+      "Paraguay"
+    ],
+    "explanation": "Uruguay's flag has horizontal stripes and a Sun of May in the upper left corner."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfb\ud83c\uddea",
+    "answer": "Venezuela",
+    "choices": [
+      "Guyana",
+      "Venezuela",
+      "Ecuador",
+      "Colombia"
+    ],
+    "explanation": "Venezuela's flag has yellow, blue, and red stripes with eight white stars forming an arc."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\udde7",
+    "answer": "Barbados",
+    "choices": [
+      "Barbados",
+      "Jamaica",
+      "Trinidad and Tobago",
+      "Bahamas"
+    ],
+    "explanation": "Barbados's flag has blue and gold stripes with a broken trident representing independence."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddf8",
+    "answer": "Bahamas",
+    "choices": [
+      "Cuba",
+      "Barbados",
+      "Jamaica",
+      "Bahamas"
+    ],
+    "explanation": "The Bahamas flag has blue and gold stripes with a black triangle on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddfe",
+    "answer": "Guyana",
+    "choices": [
+      "Guyana",
+      "Venezuela",
+      "Trinidad and Tobago",
+      "Suriname"
+    ],
+    "explanation": "Guyana's flag is green with a golden arrow and features red and white triangles."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf7",
+    "answer": "Suriname",
+    "choices": [
+      "Suriname",
+      "Guyana",
+      "French Guiana",
+      "Venezuela"
+    ],
+    "explanation": "Suriname's flag has green, white, and red horizontal stripes with a large yellow star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddf9",
+    "answer": "Trinidad and Tobago",
+    "choices": [
+      "Barbados",
+      "Jamaica",
+      "Trinidad and Tobago",
+      "Bahamas"
+    ],
+    "explanation": "Trinidad and Tobago's flag is red with a black stripe outlined in white running diagonally."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde9\ud83c\uddff",
+    "answer": "Algeria",
+    "choices": [
+      "Tunisia",
+      "Morocco",
+      "Libya",
+      "Algeria"
+    ],
+    "explanation": "Algeria's flag has green and white halves with a red crescent and star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddf4",
+    "answer": "Angola",
+    "choices": [
+      "Zambia",
+      "Congo",
+      "Mozambique",
+      "Angola"
+    ],
+    "explanation": "Angola's flag has red and black halves with a yellow machete, gear, and star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddef",
+    "answer": "Benin",
+    "choices": [
+      "Togo",
+      "Benin",
+      "Ghana",
+      "Senegal"
+    ],
+    "explanation": "Benin's flag has a green stripe on the left and yellow over red on the right."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddfc",
+    "answer": "Botswana",
+    "choices": [
+      "Zimbabwe",
+      "Botswana",
+      "Zambia",
+      "Namibia"
+    ],
+    "explanation": "Botswana's flag is light blue with a black stripe bordered by white \u2014 inspired by the zebra."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddeb",
+    "answer": "Burkina Faso",
+    "choices": [
+      "Niger",
+      "Mali",
+      "Burkina Faso",
+      "Senegal"
+    ],
+    "explanation": "Burkina Faso's flag has red and green halves with a yellow star in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddee",
+    "answer": "Burundi",
+    "choices": [
+      "Tanzania",
+      "Uganda",
+      "Rwanda",
+      "Burundi"
+    ],
+    "explanation": "Burundi's flag has white diagonal stripes dividing red and green, with a circle of stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddf2",
+    "answer": "Cameroon",
+    "choices": [
+      "Senegal",
+      "C\u00f4te d'Ivoire",
+      "Cameroon",
+      "Guinea"
+    ],
+    "explanation": "Cameroon's flag has green, red, and yellow vertical stripes with a yellow star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddfb",
+    "answer": "Cape Verde",
+    "choices": [
+      "Comoros",
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "Cape Verde",
+      "Mauritius"
+    ],
+    "explanation": "Cape Verde's flag has blue stripes with a circle of ten yellow stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddeb",
+    "answer": "Central African Republic",
+    "choices": [
+      "Congo",
+      "Central African Republic",
+      "Chad",
+      "Cameroon"
+    ],
+    "explanation": "Central African Republic's flag has four horizontal stripes crossed by a red vertical stripe with a yellow star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\udde9",
+    "answer": "Chad",
+    "choices": [
+      "Chad",
+      "Cameroon",
+      "Congo",
+      "Romania"
+    ],
+    "explanation": "Chad's flag is almost identical to Romania's: blue, yellow, and red vertical stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddf2",
+    "answer": "Comoros",
+    "choices": [
+      "Cape Verde",
+      "Maldives",
+      "Mauritius",
+      "Comoros"
+    ],
+    "explanation": "Comoros's flag has four stripes representing its four islands, plus a crescent and four stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\uddec",
+    "answer": "Republic of the Congo",
+    "choices": [
+      "Cameroon",
+      "DR Congo",
+      "Gabon",
+      "Republic of the Congo"
+    ],
+    "explanation": "The Republic of Congo's flag has green, yellow, and red diagonal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde8\ud83c\udde9",
+    "answer": "DR Congo",
+    "choices": [
+      "Angola",
+      "Republic of Congo",
+      "Zambia",
+      "DR Congo"
+    ],
+    "explanation": "DR Congo's flag is sky blue with a yellow star and a red diagonal stripe bordered by yellow."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde9\ud83c\uddef",
+    "answer": "Djibouti",
+    "choices": [
+      "Eritrea",
+      "Ethiopia",
+      "Djibouti",
+      "Somalia"
+    ],
+    "explanation": "Djibouti's flag has blue and green triangles, a white triangle with a red star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddf6",
+    "answer": "Equatorial Guinea",
+    "choices": [
+      "Equatorial Guinea",
+      "Cameroon",
+      "Gabon",
+      "Congo"
+    ],
+    "explanation": "Equatorial Guinea's flag has green, white, and red stripes with a blue triangle and coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\uddf7",
+    "answer": "Eritrea",
+    "choices": [
+      "Eritrea",
+      "Somalia",
+      "Ethiopia",
+      "Djibouti"
+    ],
+    "explanation": "Eritrea's flag has green, red, and blue triangles with an olive branch emblem."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddea\ud83c\uddf9",
+    "answer": "Ethiopia",
+    "choices": [
+      "Ethiopia",
+      "Uganda",
+      "Eritrea",
+      "Kenya"
+    ],
+    "explanation": "Ethiopia's flag has green, yellow, and red stripes with a blue circle and golden star \u2014 the oldest independent African nation."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\udde6",
+    "answer": "Gabon",
+    "choices": [
+      "Congo",
+      "Gabon",
+      "Cameroon",
+      "Equatorial Guinea"
+    ],
+    "explanation": "Gabon's flag has green, yellow, and blue horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddf2",
+    "answer": "Gambia",
+    "choices": [
+      "Senegal",
+      "Guinea-Bissau",
+      "Sierra Leone",
+      "Gambia"
+    ],
+    "explanation": "Gambia's flag has red, blue, and green stripes separated by thin white lines."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddf3",
+    "answer": "Guinea",
+    "choices": [
+      "Senegal",
+      "Mali",
+      "Guinea",
+      "Guinea-Bissau"
+    ],
+    "explanation": "Guinea's flag has vertical red, yellow, and green stripes \u2014 a reversed version of Mali's."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddfc",
+    "answer": "Guinea-Bissau",
+    "choices": [
+      "Senegal",
+      "Gambia",
+      "Guinea",
+      "Guinea-Bissau"
+    ],
+    "explanation": "Guinea-Bissau's flag has a black star, and red and yellow horizontal stripes on green."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddf7",
+    "answer": "Liberia",
+    "choices": [
+      "Liberia",
+      "Ghana",
+      "Nigeria",
+      "Sierra Leone"
+    ],
+    "explanation": "Liberia's flag resembles the US flag: eleven red-white stripes and one white star on blue."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddfe",
+    "answer": "Libya",
+    "choices": [
+      "Libya",
+      "Sudan",
+      "Tunisia",
+      "Egypt"
+    ],
+    "explanation": "Libya's flag is plain green, white, and black horizontal stripes with a red crescent and star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddec",
+    "answer": "Madagascar",
+    "choices": [
+      "Comoros",
+      "Mozambique",
+      "Madagascar",
+      "Mauritius"
+    ],
+    "explanation": "Madagascar's flag has a white vertical stripe with red and green horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddfc",
+    "answer": "Malawi",
+    "choices": [
+      "Mozambique",
+      "Zambia",
+      "Malawi",
+      "Zimbabwe"
+    ],
+    "explanation": "Malawi's flag has black, red, and green stripes with a rising sun in the top stripe."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf1",
+    "answer": "Mali",
+    "choices": [
+      "Burkina Faso",
+      "Senegal",
+      "Guinea",
+      "Mali"
+    ],
+    "explanation": "Mali's flag has green, yellow, and red vertical stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf7",
+    "answer": "Mauritania",
+    "choices": [
+      "Algeria",
+      "Niger",
+      "Mauritania",
+      "Mali"
+    ],
+    "explanation": "Mauritania's flag is green with a gold crescent and star, and gold stripes at top and bottom."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddfa",
+    "answer": "Mauritius",
+    "choices": [
+      "Madagascar",
+      "Maldives",
+      "Mauritius",
+      "Comoros"
+    ],
+    "explanation": "Mauritius's flag has four horizontal stripes: red, blue, yellow, and green."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddff",
+    "answer": "Mozambique",
+    "choices": [
+      "Zimbabwe",
+      "Mozambique",
+      "Malawi",
+      "Tanzania"
+    ],
+    "explanation": "Mozambique uniquely features an AK-47 on its flag, representing defense."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\udde6",
+    "answer": "Namibia",
+    "choices": [
+      "Zambia",
+      "Botswana",
+      "Namibia",
+      "Zimbabwe"
+    ],
+    "explanation": "Namibia's flag has diagonal blue, white, and green stripes with a gold sun."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddea",
+    "answer": "Niger",
+    "choices": [
+      "Chad",
+      "Burkina Faso",
+      "Mali",
+      "Niger"
+    ],
+    "explanation": "Niger's flag has orange, white, and green horizontal stripes with an orange circle."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf7\ud83c\uddfc",
+    "answer": "Rwanda",
+    "choices": [
+      "Tanzania",
+      "Uganda",
+      "Rwanda",
+      "Burundi"
+    ],
+    "explanation": "Rwanda's flag has blue, yellow, and green stripes with a golden sun in the upper right."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf9",
+    "answer": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "choices": [
+      "Cape Verde",
+      "Comoros",
+      "Maldives",
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+    ],
+    "explanation": "S\u00e3o Tom\u00e9 and Pr\u00edncipe's flag has three horizontal stripes with two black stars and a red triangle."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf3",
+    "answer": "Senegal",
+    "choices": [
+      "Mali",
+      "Guinea",
+      "Senegal",
+      "Gambia"
+    ],
+    "explanation": "Senegal's flag has green, yellow, and red stripes with a green star in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf1",
+    "answer": "Sierra Leone",
+    "choices": [
+      "Sierra Leone",
+      "Guinea",
+      "Liberia",
+      "Gambia"
+    ],
+    "explanation": "Sierra Leone's flag has green, white, and blue horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddf4",
+    "answer": "Somalia",
+    "choices": [
+      "Djibouti",
+      "Eritrea",
+      "Somalia",
+      "Ethiopia"
+    ],
+    "explanation": "Somalia's flag is light blue with a five-pointed white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\udde9",
+    "answer": "Sudan",
+    "choices": [
+      "Chad",
+      "Egypt",
+      "Ethiopia",
+      "Sudan"
+    ],
+    "explanation": "Sudan's flag has red, white, and black stripes with a green triangle on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddff",
+    "answer": "Eswatini",
+    "choices": [
+      "Eswatini",
+      "Botswana",
+      "Zimbabwe",
+      "Lesotho"
+    ],
+    "explanation": "Eswatini (formerly Swaziland) features a Swazi shield and spears on a blue and yellow flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddff",
+    "answer": "Tanzania",
+    "choices": [
+      "Tanzania",
+      "Mozambique",
+      "Uganda",
+      "Kenya"
+    ],
+    "explanation": "Tanzania's flag has a black diagonal stripe bordered by yellow on a green and blue flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddec",
+    "answer": "Togo",
+    "choices": [
+      "Togo",
+      "Benin",
+      "Ghana",
+      "Burkina Faso"
+    ],
+    "explanation": "Togo's flag has alternating green and yellow stripes with a red square and white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddf3",
+    "answer": "Tunisia",
+    "choices": [
+      "Algeria",
+      "Libya",
+      "Tunisia",
+      "Morocco"
+    ],
+    "explanation": "Tunisia's flag is red with a white circle containing a red crescent and star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfa\ud83c\uddec",
+    "answer": "Uganda",
+    "choices": [
+      "Rwanda",
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+    ],
+    "explanation": "Uganda's flag has black, yellow, and red stripes with a grey crowned crane in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddff\ud83c\uddf2",
+    "answer": "Zambia",
+    "choices": [
+      "Mozambique",
+      "Malawi",
+      "Zimbabwe",
+      "Zambia"
+    ],
+    "explanation": "Zambia's flag is green with orange, black, and red stripes on the right and a flying eagle."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddff\ud83c\uddfc",
+    "answer": "Zimbabwe",
+    "choices": [
+      "Zimbabwe",
+      "Zambia",
+      "Mozambique",
+      "Malawi"
+    ],
+    "explanation": "Zimbabwe's flag has seven horizontal stripes and features a Zimbabwe Bird and red star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\uddf8",
+    "answer": "Lesotho",
+    "choices": [
+      "Lesotho",
+      "Zimbabwe",
+      "Eswatini",
+      "Botswana"
+    ],
+    "explanation": "Lesotho's flag is blue, white, and green with a black Basotho hat in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddeb",
+    "answer": "Afghanistan",
+    "choices": [
+      "Pakistan",
+      "Iran",
+      "Afghanistan",
+      "Tajikistan"
+    ],
+    "explanation": "Afghanistan's flag has black, red, and green stripes with a mosque emblem in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddf2",
+    "answer": "Armenia",
+    "choices": [
+      "Azerbaijan",
+      "Armenia",
+      "Turkey",
+      "Georgia"
+    ],
+    "explanation": "Armenia's flag has red, blue, and orange horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde6\ud83c\uddff",
+    "answer": "Azerbaijan",
+    "choices": [
+      "Turkey",
+      "Iran",
+      "Azerbaijan",
+      "Armenia"
+    ],
+    "explanation": "Azerbaijan's flag has light blue, red, and green stripes with a white crescent and star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\udded",
+    "answer": "Bahrain",
+    "choices": [
+      "Bahrain",
+      "UAE",
+      "Kuwait",
+      "Qatar"
+    ],
+    "explanation": "Bahrain's flag is red and white, divided by a serrated line \u2014 the only non-rectangular national flag in Asia."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\udde9",
+    "answer": "Bangladesh",
+    "choices": [
+      "Nepal",
+      "Myanmar",
+      "Bangladesh",
+      "Sri Lanka"
+    ],
+    "explanation": "Bangladesh's flag is green with a red disc slightly off-center (compensating for perspective)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddf9",
+    "answer": "Bhutan",
+    "choices": [
+      "Tibet",
+      "Myanmar",
+      "Nepal",
+      "Bhutan"
+    ],
+    "explanation": "Bhutan's flag has orange and red halves with a white dragon (Druk) in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\udde7\ud83c\uddf3",
+    "answer": "Brunei",
+    "choices": [
+      "Brunei",
+      "Philippines",
+      "Malaysia",
+      "Indonesia"
+    ],
+    "explanation": "Brunei's flag is yellow with diagonal black and white stripes and a coat of arms."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\udded",
+    "answer": "Cambodia",
+    "choices": [
+      "Myanmar",
+      "Laos",
+      "Cambodia",
+      "Thailand"
+    ],
+    "explanation": "Cambodia's flag features Angkor Wat temple \u2014 one of the few national flags with a building."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddec\ud83c\uddea",
+    "answer": "Georgia",
+    "choices": [
+      "Azerbaijan",
+      "Georgia",
+      "Turkey",
+      "Armenia"
+    ],
+    "explanation": "Georgia's flag is white with a large red cross and four smaller red crosses in each quadrant."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf7",
+    "answer": "Iran",
+    "choices": [
+      "Iraq",
+      "Afghanistan",
+      "Iran",
+      "Pakistan"
+    ],
+    "explanation": "Iran's flag has green, white, and red stripes with the Allah emblem and Takbir inscription."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddee\ud83c\uddf6",
+    "answer": "Iraq",
+    "choices": [
+      "Syria",
+      "Jordan",
+      "Iran",
+      "Iraq"
+    ],
+    "explanation": "Iraq's flag has red, white, and black stripes with the Takbir ('God is Great') in Arabic."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddef\ud83c\uddf4",
+    "answer": "Jordan",
+    "choices": [
+      "Syria",
+      "Jordan",
+      "Iraq",
+      "Palestine"
+    ],
+    "explanation": "Jordan's flag has black, white, and green stripes with a red triangle and white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddff",
+    "answer": "Kazakhstan",
+    "choices": [
+      "Kyrgyzstan",
+      "Uzbekistan",
+      "Kazakhstan",
+      "Turkmenistan"
+    ],
+    "explanation": "Kazakhstan's flag is light blue with a yellow sun, eagle, and national pattern on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddfc",
+    "answer": "Kuwait",
+    "choices": [
+      "Kuwait",
+      "Qatar",
+      "UAE",
+      "Bahrain"
+    ],
+    "explanation": "Kuwait's flag has green, white, and red stripes with a black trapezoid on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddec",
+    "answer": "Kyrgyzstan",
+    "choices": [
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Uzbekistan",
+      "Kazakhstan"
+    ],
+    "explanation": "Kyrgyzstan's flag is red with a yellow sun containing a traditional tunduk (yurt top)."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\udde6",
+    "answer": "Laos",
+    "choices": [
+      "Cambodia",
+      "Myanmar",
+      "Laos",
+      "Vietnam"
+    ],
+    "explanation": "Laos's flag has red and blue stripes with a white circle in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf1\ud83c\udde7",
+    "answer": "Lebanon",
+    "choices": [
+      "Syria",
+      "Lebanon",
+      "Israel",
+      "Jordan"
+    ],
+    "explanation": "Lebanon's flag has red and white stripes with a green cedar tree in the center."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddfe",
+    "answer": "Malaysia",
+    "choices": [
+      "Malaysia",
+      "Indonesia",
+      "Brunei",
+      "Philippines"
+    ],
+    "explanation": "Malaysia's flag resembles the US flag with 14 red-white stripes and a crescent and star on blue."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddfb",
+    "answer": "Maldives",
+    "choices": [
+      "Maldives",
+      "Comoros",
+      "Mauritius",
+      "Sri Lanka"
+    ],
+    "explanation": "The Maldives flag is red with a green rectangle and white crescent."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf3",
+    "answer": "Mongolia",
+    "choices": [
+      "Kazakhstan",
+      "Uzbekistan",
+      "Kyrgyzstan",
+      "Mongolia"
+    ],
+    "explanation": "Mongolia's flag has blue and red stripes with the golden Soyombo symbol on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\uddf2",
+    "answer": "Myanmar",
+    "choices": [
+      "Thailand",
+      "Myanmar",
+      "Laos",
+      "Cambodia"
+    ],
+    "explanation": "Myanmar's flag has yellow, green, and red stripes with a large white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddf5",
+    "answer": "Nepal",
+    "choices": [
+      "Bhutan",
+      "India",
+      "Nepal",
+      "Tibet"
+    ],
+    "explanation": "Nepal is the only country with a non-rectangular flag \u2014 two stacked triangular pennants."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf4\ud83c\uddf2",
+    "answer": "Oman",
+    "choices": [
+      "Bahrain",
+      "Oman",
+      "UAE",
+      "Yemen"
+    ],
+    "explanation": "Oman's flag has white, red, and green horizontal stripes with the national emblem on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddf8",
+    "answer": "Palestine",
+    "choices": [
+      "Palestine",
+      "Jordan",
+      "Lebanon",
+      "Syria"
+    ],
+    "explanation": "Palestine's flag has black, white, and green stripes with a red triangle on the left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf6\ud83c\udde6",
+    "answer": "Qatar",
+    "choices": [
+      "Kuwait",
+      "Bahrain",
+      "UAE",
+      "Qatar"
+    ],
+    "explanation": "Qatar's flag is maroon and white, divided by a serrated line \u2014 the widest national flag."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\uddfe",
+    "answer": "Syria",
+    "choices": [
+      "Lebanon",
+      "Iraq",
+      "Jordan",
+      "Syria"
+    ],
+    "explanation": "Syria's flag has red, white, and black stripes with two green stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddef",
+    "answer": "Tajikistan",
+    "choices": [
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Afghanistan",
+      "Uzbekistan"
+    ],
+    "explanation": "Tajikistan's flag has red, white, and green stripes with a crown and seven stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddf2",
+    "answer": "Turkmenistan",
+    "choices": [
+      "Kyrgyzstan",
+      "Kazakhstan",
+      "Uzbekistan",
+      "Turkmenistan"
+    ],
+    "explanation": "Turkmenistan's flag is green with a red stripe featuring five carpet g\u00fcl patterns."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfa\ud83c\uddff",
+    "answer": "Uzbekistan",
+    "choices": [
+      "Uzbekistan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Kazakhstan"
+    ],
+    "explanation": "Uzbekistan's flag has blue, white, and green stripes with a crescent and twelve stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfe\ud83c\uddea",
+    "answer": "Yemen",
+    "choices": [
+      "Oman",
+      "Yemen",
+      "Jordan",
+      "Saudi Arabia"
+    ],
+    "explanation": "Yemen's flag has red, white, and black horizontal stripes."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddeb\ud83c\uddef",
+    "answer": "Fiji",
+    "choices": [
+      "Solomon Islands",
+      "Fiji",
+      "Papua New Guinea",
+      "Vanuatu"
+    ],
+    "explanation": "Fiji's flag is light blue with the Union Jack and a Fijian shield."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf0\ud83c\uddee",
+    "answer": "Kiribati",
+    "choices": [
+      "Samoa",
+      "Tonga",
+      "Fiji",
+      "Kiribati"
+    ],
+    "explanation": "Kiribati's flag has a golden sun rising over the ocean with a frigate bird above."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf2\ud83c\udded",
+    "answer": "Marshall Islands",
+    "choices": [
+      "Micronesia",
+      "Palau",
+      "Kiribati",
+      "Marshall Islands"
+    ],
+    "explanation": "Marshall Islands' flag has a blue background with two diagonal stripes and a white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddeb\ud83c\uddf2",
+    "answer": "Micronesia",
+    "choices": [
+      "Marshall Islands",
+      "Kiribati",
+      "Palau",
+      "Micronesia"
+    ],
+    "explanation": "Micronesia's flag is blue with four white stars representing the four island states."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf3\ud83c\uddf7",
+    "answer": "Nauru",
+    "choices": [
+      "Tuvalu",
+      "Nauru",
+      "Kiribati",
+      "Marshall Islands"
+    ],
+    "explanation": "Nauru's flag has a blue background, a yellow stripe, and a white star."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddfc",
+    "answer": "Palau",
+    "choices": [
+      "Palau",
+      "Nauru",
+      "Marshall Islands",
+      "Micronesia"
+    ],
+    "explanation": "Palau's flag is blue with a yellow disc, representing the full moon."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf5\ud83c\uddec",
+    "answer": "Papua New Guinea",
+    "choices": [
+      "Solomon Islands",
+      "Papua New Guinea",
+      "Vanuatu",
+      "Fiji"
+    ],
+    "explanation": "Papua New Guinea's flag is divided diagonally into red and black, with stars and a Bird of Paradise."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfc\ud83c\uddf8",
+    "answer": "Samoa",
+    "choices": [
+      "Fiji",
+      "Tonga",
+      "Samoa",
+      "Vanuatu"
+    ],
+    "explanation": "Samoa's flag is red with a blue rectangle and five white stars of the Southern Cross."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf8\ud83c\udde7",
+    "answer": "Solomon Islands",
+    "choices": [
+      "Solomon Islands",
+      "Vanuatu",
+      "Fiji",
+      "Papua New Guinea"
+    ],
+    "explanation": "Solomon Islands' flag has blue and green triangles separated by a yellow diagonal stripe with stars."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddf4",
+    "answer": "Tonga",
+    "choices": [
+      "Samoa",
+      "Tonga",
+      "Fiji",
+      "Vanuatu"
+    ],
+    "explanation": "Tonga's flag is red with a white square bearing a red cross in the upper left."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddf9\ud83c\uddfb",
+    "answer": "Tuvalu",
+    "choices": [
+      "Samoa",
+      "Nauru",
+      "Kiribati",
+      "Tuvalu"
+    ],
+    "explanation": "Tuvalu's flag is blue with the Union Jack and nine yellow stars for its nine atolls."
+  },
+  {
+    "question": "Which country does this flag belong to? \ud83c\uddfb\ud83c\uddfa",
+    "answer": "Vanuatu",
+    "choices": [
+      "Solomon Islands",
+      "Fiji",
+      "Papua New Guinea",
+      "Vanuatu"
+    ],
+    "explanation": "Vanuatu's flag has red and green with a black triangle and yellow tusk symbol."
+  },
+  {
+    "question": "Which country has the only non-rectangular national flag?",
+    "answer": "Nepal",
+    "choices": [
+      "Nepal",
+      "Bhutan",
+      "Switzerland",
+      "Vatican City"
+    ],
+    "explanation": "Nepal's flag consists of two stacked triangular pennants, making it the only non-rectangular national flag."
+  },
+  {
+    "question": "Which country's flag features an AK-47 rifle?",
+    "answer": "Mozambique",
+    "choices": [
+      "Angola",
+      "Mozambique",
+      "Zimbabwe",
+      "Libya"
+    ],
+    "explanation": "Mozambique's flag uniquely features an AK-47 with a bayonet, representing defense and vigilance."
+  },
+  {
+    "question": "Which country's flag features a dragon?",
+    "answer": "Bhutan",
+    "choices": [
+      "China",
+      "Bhutan",
+      "Wales",
+      "Kyrgyzstan"
+    ],
+    "explanation": "Bhutan's flag features the Druk (Thunder Dragon), giving the country its nickname 'Land of the Thunder Dragon'."
+  },
+  {
+    "question": "Which country's flag is entirely green with no other colors or symbols?",
+    "answer": "Libya (historical)",
+    "choices": [
+      "Saudi Arabia",
+      "Libya (historical)",
+      "Pakistan",
+      "Algeria"
+    ],
+    "explanation": "From 1977 to 2011, Libya's flag was a plain green rectangle \u2014 the simplest national flag ever used."
+  },
+  {
+    "question": "Which country's flag features a cedar tree?",
+    "answer": "Lebanon",
+    "choices": [
+      "Jordan",
+      "Lebanon",
+      "Syria",
+      "Palestine"
+    ],
+    "explanation": "Lebanon's cedar tree symbolizes immortality, peace, and holiness."
+  },
+  {
+    "question": "What do the colors red, white, and blue represent in many national flags?",
+    "answer": "Freedom, purity, and valor",
+    "choices": [
+      "Wealth, peace, and justice",
+      "Freedom, purity, and valor",
+      "Land, sea, and sky",
+      "Blood, snow, and water"
+    ],
+    "explanation": "In many flags, red symbolizes valor/sacrifice, white represents purity/peace, and blue stands for freedom/justice."
+  },
+  {
+    "question": "Which country's flag features a map of the island on it?",
+    "answer": "Cyprus",
+    "choices": [
+      "Malta",
+      "Cyprus",
+      "Iceland",
+      "Sri Lanka"
+    ],
+    "explanation": "Cyprus's flag shows an orange/copper-colored map of the island above olive branches."
+  },
+  {
+    "question": "Which flag has the most colors?",
+    "answer": "Belize",
+    "choices": [
+      "South Africa",
+      "Belize",
+      "Seychelles",
+      "Rwanda"
+    ],
+    "explanation": "Belize's flag has the most colors of any national flag, featuring 12 colors including detailed human figures."
+  },
+  {
+    "question": "What color is the star on Somalia's flag?",
+    "answer": "White",
+    "choices": [
+      "Yellow",
+      "White",
+      "Red",
+      "Gold"
+    ],
+    "explanation": "Somalia's flag is light blue with a single white five-pointed star representing unity."
+  },
+  {
+    "question": "How many points does the star on the US flag have?",
+    "answer": "5",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "explanation": "Each of the 50 stars on the US flag has five points."
+  },
+  {
+    "question": "Which country has a flag with a trident?",
+    "answer": "Barbados",
+    "choices": [
+      "Trinidad and Tobago",
+      "Barbados",
+      "Fiji",
+      "Bahamas"
+    ],
+    "explanation": "Barbados's flag features a broken trident, symbolizing its break from colonial status."
+  },
+  {
+    "question": "What is the most common color on national flags?",
+    "answer": "Red",
+    "choices": [
+      "Blue",
+      "Red",
+      "Green",
+      "White"
+    ],
+    "explanation": "Red appears on more national flags than any other color."
+  },
+  {
+    "question": "How many stripes are on the US flag?",
+    "answer": "13",
+    "choices": [
+      "12",
+      "13",
+      "14",
+      "50"
+    ],
+    "explanation": "The US flag has 13 stripes representing the original 13 colonies."
+  },
+  {
+    "question": "Which Scandinavian country does NOT have a cross design on its flag?",
+    "answer": "None \u2014 all Scandinavian flags have crosses",
+    "choices": [
+      "Norway",
+      "Finland",
+      "Sweden",
+      "None \u2014 all Scandinavian flags have crosses"
+    ],
+    "explanation": "All five Nordic countries (Denmark, Sweden, Norway, Finland, Iceland) feature the Nordic cross on their flags."
+  },
+  {
+    "question": "How many stars are on the Chinese flag?",
+    "answer": "5",
+    "choices": [
+      "1",
+      "4",
+      "5",
+      "8"
+    ],
+    "explanation": "China's flag has five yellow stars: one large star and four smaller ones representing unity."
+  },
+  {
+    "question": "Which country has a flag with 50 stars?",
+    "answer": "United States",
+    "choices": [
+      "United States",
+      "Australia",
+      "Brazil",
+      "Micronesia"
+    ],
+    "explanation": "The US flag has 50 stars, one for each state."
+  }
 ]
