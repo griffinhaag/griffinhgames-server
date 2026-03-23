@@ -15,20 +15,71 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
   function promoteNewHostIfNeeded(roomCode, wasHost) {
     if (!wasHost) return;
+    // Delay host promotion by 4 seconds so the original host can reconnect
+    // (e.g. mobile browser refresh) before we transfer host to someone else.
+    // If they reconnect within this window, addPlayerToRoom restores their host
+    // status and the hasActiveHost check below aborts the promotion.
+    setTimeout(() => {
+      const room = roomManager.getRoom(roomCode);
+      if (!room || room.players.size === 0) return;
+
+      // Check whether the original host already came back
+      const hasActiveHost = room.hostSocketId && room.players.has(room.hostSocketId);
+      if (hasActiveHost) {
+        logInfo(`Host already reconnected to room ${roomCode}, skipping promotion`);
+        return;
+      }
+
+      // Find the first non-host player (longest connected = lowest insertion order in Map)
+      const newHostPlayer = [...room.players.values()].find(p => !p.isHost);
+      if (!newHostPlayer) return;
+
+      // Clear isHost on all current players, then set on new host
+      room.players.forEach(p => { p.isHost = false; });
+      newHostPlayer.isHost = true;
+      room.hostSocketId = newHostPlayer.socketId;
+
+      io.to(newHostPlayer.socketId).emit("host:transferred", {
+        roomCode,
+        message: "Host has left. You are now the host."
+      });
+
+      // Broadcast updated room state so all clients sync their isHost flag
+      const roomState = roomManager.serializeRoom(roomCode);
+      if (roomState) io.to(roomCode).emit("room:state", roomState);
+
+      logInfo(`Host transferred to ${newHostPlayer.name} in room ${roomCode} (after reconnect grace period)`);
+    }, 4000);
+  }
+
+  // When a host's old socket disconnects AFTER the host already rejoined under a new socket
+  // (stale-socket refresh race: new socket arrived before old one fired disconnect),
+  // find the already-rejoined socket by name and immediately restore host status to it.
+  function restoreDeferredHost(roomCode, disconnectedPlayerName) {
     const room = roomManager.getRoom(roomCode);
-    if (!room || room.players.size === 0) return;
-    // Find the first non-host player (longest connected = lowest insertion order in Map)
-    const newHostPlayer = [...room.players.values()].find(p => !p.isHost);
-    if (!newHostPlayer) return;
-    // Clear isHost on all current players, then set on new host
+    if (!room || !disconnectedPlayerName) return false;
+
+    const nameLower = disconnectedPlayerName.toLowerCase();
+    const alreadyRejoined = [...room.players.values()].find(
+      p => p.name?.toLowerCase() === nameLower
+    );
+
+    if (!alreadyRejoined) return false;
+    if (alreadyRejoined.isHost) return true; // already has host, nothing to do
+
+    logInfo(`Deferred host restore: granting host to ${alreadyRejoined.name} (${alreadyRejoined.socketId}) in room ${roomCode}`);
     room.players.forEach(p => { p.isHost = false; });
-    newHostPlayer.isHost = true;
-    room.hostSocketId = newHostPlayer.socketId;
-    io.to(newHostPlayer.socketId).emit("host:transferred", {
+    alreadyRejoined.isHost = true;
+    room.hostSocketId = alreadyRejoined.socketId;
+
+    io.to(alreadyRejoined.socketId).emit("host:restored", {
       roomCode,
-      message: "Host has left. You are now the host."
+      message: "You have been restored as host."
     });
-    logInfo(`Host transferred to ${newHostPlayer.name} in room ${roomCode}`);
+
+    const roomState = roomManager.serializeRoom(roomCode);
+    if (roomState) io.to(roomCode).emit("room:state", roomState);
+    return true;
   }
 
   io.on("connection", (socket) => {
@@ -126,6 +177,24 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         return;
       }
 
+      // If a live socket with the same name already exists, evict it immediately.
+      // This is the browser-refresh race condition: the new socket arrives before
+      // the old one fires its disconnect event, creating a brief duplicate entry.
+      // Calling removePlayerBySocket first writes the player to disconnectedPlayers
+      // (preserving wasHost), so addPlayerToRoom below will find it and restore status.
+      for (const [existingSocketId, existingPlayer] of room.players) {
+        if (
+          existingPlayer.name?.toLowerCase() === finalName.toLowerCase() &&
+          existingSocketId !== socket.id &&
+          io.sockets.sockets.has(existingSocketId)
+        ) {
+          logInfo(`Evicting stale socket ${existingSocketId} for ${finalName} in room ${code} (browser refresh)`);
+          roomManager.removePlayerBySocket(existingSocketId);
+          io.sockets.sockets.get(existingSocketId)?.disconnect(true);
+          break;
+        }
+      }
+
       // Check if room has an active host (host socket exists AND is in players)
       const hasActiveHost = room.hostSocketId && room.players.has(room.hostSocketId);
 
@@ -134,10 +203,14 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // 2. If player claims to be host (from setup redirect) and no active host, they become host
       const shouldBeHost = !hasActiveHost || (claimsHost && !hasActiveHost);
 
+      // Pass live socket IDs so addPlayerToRoom can distinguish a genuine stale socket
+      // (confirmed disconnected) from a name conflict / impersonation attempt.
+      const liveSocketIds = new Set(io.sockets.sockets.keys());
       const joinResult = roomManager.addPlayerToRoom(code, {
         socketId: socket.id,
         name: finalName,
-        isHost: shouldBeHost
+        isHost: shouldBeHost,
+        liveSocketIds
       });
 
       if (!joinResult.success) {
@@ -158,6 +231,16 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
           eventName: "player:joined",
           payload: { isReconnecting: joinResult.isReconnecting },
           socketId: socket.id
+        });
+      }
+
+      // If this reconnecting player reclaimed host, notify them explicitly.
+      // The room:state already reflects the change, but the explicit event
+      // ensures a reliable UI update even if room:state arrives first.
+      if (joinResult.isReconnecting && joinResult.wasHost) {
+        socket.emit("host:restored", {
+          roomCode: code,
+          message: "You have been restored as host."
         });
       }
 
@@ -476,7 +559,16 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
             });
           }
 
-          promoteNewHostIfNeeded(code, result.wasHost);
+          // If the disconnecting socket was the host AND the same player already rejoined
+          // under a new socket (stale-socket refresh race), restore host status immediately
+          // instead of waiting for the 4-second promotion timer.
+          if (result.wasHost) {
+            const restored = restoreDeferredHost(code, playerNameBeforeRemoval);
+            if (!restored) {
+              // No matching rejoined socket found — fall back to delayed promotion.
+              promoteNewHostIfNeeded(code, true);
+            }
+          }
 
           const roomState = roomManager.serializeRoom(code);
           io.to(code).emit("room:state", roomState);

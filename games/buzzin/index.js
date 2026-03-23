@@ -261,7 +261,10 @@ async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
           `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
           `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"), ` +
           `or the answer contains the correct answer as part of a larger valid response (e.g. "November 9, 1989" for "1989"). ` +
-          `Reject if: referring to a clearly different thing, too vague, or only loosely related. ` +
+          `STRICTLY REJECT if: the player described what kind of thing the answer is rather than naming the specific ` +
+          `answer (e.g. "coffee shop" or "cafe" for "Central Perk" must be REJECTED — generic category descriptions ` +
+          `are never acceptable), referring to a clearly different thing, too vague, only loosely related, or a ` +
+          `paraphrase that does not name the correct answer. The player must name the specific answer, not describe it. ` +
           `Reply with only "yes" or "no".`
       }],
       max_tokens: 5,
@@ -329,12 +332,25 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   // Partial answer acceptance: user typed a single significant word that appears in a multi-word
   // correct answer (e.g. "Pacific" for "Pacific Ocean", "Jordan" for "Michael Jordan").
   // Requires ≥5 chars to avoid short generic words matching.
+  const fillerSet = new Set(["the", "a", "an", "of", "in", "at", "to", "and", "or", "is", "it", "be"]);
   const aWords = a.split(" ").filter(w => w);
   const bWords = b.split(" ").filter(w => w);
   if (bWords.length >= 2 && aWords.length === 1 && a.length >= 5) {
     for (const bw of bWords) {
       if (bw.length >= 5 && (a === bw || levenshtein(a, bw) <= 1)) return true;
     }
+  }
+
+  // Exact single-word match against answer words for abbreviations/short tokens:
+  // "D" for "Vitamin D", "B12" for "Vitamin B12", "HIV" for "Human Immunodeficiency Virus", etc.
+  // Allow 1-2 char tokens unconditionally (handles single-letter vitamins like "A", "B", "C", "D")
+  // even if the letter happens to be in the filler set (e.g. "a" for "Vitamin A").
+  if (bWords.length >= 2 && aWords.length === 1 && (!fillerSet.has(a) || a.length <= 2)) {
+    if (bWords.some(w => w === a)) return true;
+    // Also try after number normalization
+    const bWordsN = bN.split(" ").filter(w => w);
+    const aN_single = aN.trim();
+    if (bWordsN.some(w => w === aN_single)) return true;
   }
 
   // Levenshtein with tightened thresholds to prevent false positives (e.g. Acrophobia ≠ Agoraphobia).
@@ -383,6 +399,7 @@ export default {
     let playerAnswers = new Map(); // socketId -> { answer, timestamp, buzzedAt, isCorrect }
     let disconnectedTracker = new Map(); // nameLower -> { name, disconnectedAt } — for host display
     let timerDuration = 30; // 5-120 seconds, host configurable
+    let otdTimerDuration = 60; // 10-180 seconds, separate timer for OFF THE DOME questions
     let questionTimer = null;
     let questionStartTime = null;
     let timerRemaining = 0
@@ -583,10 +600,10 @@ export default {
       phase = "question";
       playerAnswers.clear(); // Reset answers for new question
 
-      // OFF THE DOME questions get at least 60 seconds regardless of slider
+      // OFF THE DOME questions use their own configurable timer (default 60s)
       const curQ = questions[currentQuestionIndex];
       const isOTD = curQ != null && otdQuestionTexts.has(curQ.question);
-      const effectiveTimer = isOTD ? Math.max(60, timerDuration) : timerDuration;
+      const effectiveTimer = isOTD ? otdTimerDuration : timerDuration;
 
       startQuestionTimer(effectiveTimer);
 
@@ -886,6 +903,7 @@ export default {
             
             // Store settings for restart (including timer duration)
             timerDuration = Math.max(5, Math.min(120, payload?.timerDuration || 30));
+            otdTimerDuration = Math.max(10, Math.min(180, payload?.otdTimerDuration || 60));
             firstBonusEnabled = payload?.bonusFirstCorrect !== false;
             otdAtEnd = payload?.otdAtEnd === true;
             currentHardMode = payload?.hardMode === true;
@@ -894,6 +912,7 @@ export default {
               categories: selectedCategories,
               questionCount: payload?.questionCount || 10,
               timerDuration: timerDuration,
+              otdTimerDuration: otdTimerDuration,
               bonusFirstCorrect: firstBonusEnabled,
               offTheDomeCount: payload?.offTheDomeCount ?? 3,
               otdAtEnd: otdAtEnd,
@@ -986,10 +1005,16 @@ export default {
             if (payload.categories?.length > 0) gameSettings.categories = payload.categories;
             if (payload.questionCount) gameSettings.questionCount = payload.questionCount;
             if (payload.timerDuration) {
-              timerDuration = payload.timerDuration;
-              gameSettings.timerDuration = payload.timerDuration;
+              timerDuration = Math.max(5, Math.min(120, payload.timerDuration));
+              gameSettings.timerDuration = timerDuration;
             } else {
               timerDuration = gameSettings.timerDuration || 30;
+            }
+            if (payload.otdTimerDuration !== undefined) {
+              otdTimerDuration = Math.max(10, Math.min(180, payload.otdTimerDuration));
+              gameSettings.otdTimerDuration = otdTimerDuration;
+            } else {
+              otdTimerDuration = gameSettings.otdTimerDuration || 60;
             }
             if (payload.bonusFirstCorrect !== undefined) {
               firstBonusEnabled = payload.bonusFirstCorrect !== false;
@@ -1442,6 +1467,7 @@ export default {
         gameSettings = null;
         activeTimerDuration = 30;
         timerRemainingAtPause = 0;
+        otdTimerDuration = 60;
       }
     };
   }
