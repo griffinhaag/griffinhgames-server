@@ -103,7 +103,7 @@
     "answer": "Magic: The Gathering",
     "choices": [
       "Magic: The Gathering",
-      "Pokémon",
+      "Pok\u00e9mon",
       "Yu-Gi-Oh!",
       "Hearthstone"
     ],
@@ -286,7 +286,7 @@
     "explanation": "Mahjong is a tile-based game originating in China during the Qing dynasty."
   },
   {
-    "question": "In Pokémon, what type is effective against both Fire and Water types?",
+    "question": "In Pok\u00e9mon, what type is effective against both Fire and Water types?",
     "answer": "Rock",
     "choices": [
       "Rock",
@@ -294,7 +294,7 @@
       "Steel",
       "Electric"
     ],
-    "explanation": "Rock-type moves are super-effective against Fire and Water type Pokémon, among others."
+    "explanation": "Rock-type moves are super-effective against Fire and Water type Pok\u00e9mon, among others."
   },
   {
     "question": "What is the name of the open-world RPG by Bethesda set in a post-apocalyptic world?",
@@ -360,7 +360,7 @@
       "Dragon Turtle",
       "Ancient Red Dragon"
     ],
-    "explanation": "In Dungeons & Dragons lore, Tiamat is the five-headed queen of evil dragons and among the setting’s most feared dragon beings."
+    "explanation": "In Dungeons & Dragons lore, Tiamat is the five-headed queen of evil dragons and among the setting\u2019s most feared dragon beings."
   },
   {
     "question": "Which game series has players crafting, fighting, and surviving on procedurally generated worlds?",
@@ -668,7 +668,7 @@
       "Settlers of Catan",
       "Pandemic"
     ],
-    "explanation": "Carcassonne (Klaus-Jürgen Wrede, 2000) is a tile-placement game where players develop a medieval landscape."
+    "explanation": "Carcassonne (Klaus-J\u00fcrgen Wrede, 2000) is a tile-placement game where players develop a medieval landscape."
   },
   {
     "question": "What hand-held electronic game involved dodging missiles in a tank landscape?",
@@ -932,7 +932,7 @@
       "Pictionary",
       "Password"
     ],
-    "explanation": "Codenames (Vlaada Chvátil, 2015) has spymasters give single-word clues linking multiple words on a grid."
+    "explanation": "Codenames (Vlaada Chv\u00e1til, 2015) has spymasters give single-word clues linking multiple words on a grid."
   },
   {
     "question": "What classic children's game involves one person counting while others hide?",
@@ -1277,9 +1277,9 @@
   },
   {
     "question": "In chess, what does 'stalemate' mean?",
-    "answer": "The current player has no legal move but is not in check — draw",
+    "answer": "The current player has no legal move but is not in check \u2014 draw",
     "choices": [
-      "The current player has no legal move but is not in check — draw",
+      "The current player has no legal move but is not in check \u2014 draw",
       "Checkmate",
       "A pawn promotion",
       "Three-fold repetition"
@@ -1354,9 +1354,9 @@
   },
   {
     "question": "In Monopoly, what is the name of the railroad that lies between Boardwalk and Park Place?",
-    "answer": "None — no railroad is there",
+    "answer": "None \u2014 no railroad is there",
     "choices": [
-      "None — no railroad is there",
+      "None \u2014 no railroad is there",
       "B&O Railroad",
       "Short Line Railroad",
       "Reading Railroad"
@@ -1375,15 +1375,15 @@
     "explanation": "Bubble Shooter is a classic mobile/browser game where players match and pop same-colored bubble groups."
   },
   {
-    "question": "Which collectible card game features 'Pokémon' that trainers collect and battle?",
-    "answer": "Pokémon Trading Card Game",
+    "question": "Which collectible card game features 'Pok\u00e9mon' that trainers collect and battle?",
+    "answer": "Pok\u00e9mon Trading Card Game",
     "choices": [
-      "Pokémon Trading Card Game",
+      "Pok\u00e9mon Trading Card Game",
       "Yu-Gi-Oh!",
       "Digimon Card Game",
       "Magic: The Gathering"
     ],
-    "explanation": "The Pokémon TCG (1996, Wizards of the Coast/Game Freak) mirrors the video game, having players battle with Pokémon cards."
+    "explanation": "The Pok\u00e9mon TCG (1996, Wizards of the Coast/Game Freak) mirrors the video game, having players battle with Pok\u00e9mon cards."
   },
   {
     "question": "In chess, which piece moves in an 'L' shape?",
@@ -1409,14 +1409,14 @@
   },
   {
     "question": "Which video game has players catching virtual creatures and battling them?",
-    "answer": "Pokémon",
+    "answer": "Pok\u00e9mon",
     "choices": [
-      "Pokémon",
+      "Pok\u00e9mon",
       "Digimon World",
       "Monster Hunter",
       "Dragon Quest Monsters"
     ],
-    "explanation": "Pokémon (Nintendo/Game Freak, 1996) challenges players to catch and train Pokémon to battle others."
+    "explanation": "Pok\u00e9mon (Nintendo/Game Freak, 1996) challenges players to catch and train Pok\u00e9mon to battle others."
   },
   {
     "question": "What is the main game mode in PlayerUnknown's Battlegrounds?",
@@ -1438,7 +1438,7 @@
       "Cranium",
       "Sorry!"
     ],
-    "explanation": "Elefun is a children’s game built around a plastic elephant trunk that blows out pieces for players to catch."
+    "explanation": "Elefun is a children\u2019s game built around a plastic elephant trunk that blows out pieces for players to catch."
   },
   {
     "question": "In poker, what is the worst possible hand?",
@@ -1526,7 +1526,7 @@
       "Agility Check",
       "Adventure Category"
     ],
-    "explanation": "AC (Armor Class) determines how hard a character is to hit in combat — a higher AC is better."
+    "explanation": "AC (Armor Class) determines how hard a character is to hit in combat \u2014 a higher AC is better."
   },
   {
     "question": "Which multiplayer game involves teams of players communicating only through colors and icons?",
@@ -1592,7 +1592,7 @@
       "8",
       "5"
     ],
-    "explanation": "On a standard die, opposite faces always sum to 7: 1–6, 2–5, 3–4."
+    "explanation": "On a standard die, opposite faces always sum to 7: 1\u20136, 2\u20135, 3\u20134."
   },
   {
     "question": "Which popular word game requires players to make words from randomly drawn letter tiles?",
@@ -2120,7 +2120,7 @@
       "A Joker is played",
       "A player challenges another"
     ],
-    "explanation": "In War, when both players turn over cards of equal rank, a 'war' occurs — each player places three face-down cards and one face-up."
+    "explanation": "In War, when both players turn over cards of equal rank, a 'war' occurs \u2014 each player places three face-down cards and one face-up."
   },
   {
     "question": "Which handheld game system introduced the concept of StreetPass?",
@@ -2208,7 +2208,7 @@
       "Stone",
       "Clay"
     ],
-    "explanation": "In Agricola, feeding your family is the core challenge — players must produce enough food to survive each harvest."
+    "explanation": "In Agricola, feeding your family is the core challenge \u2014 players must produce enough food to survive each harvest."
   },
   {
     "question": "What video game genre features players managing resources to develop a civilization?",
@@ -2241,7 +2241,7 @@
       "12 points",
       "15 points"
     ],
-    "explanation": "The letters Q and Z are each worth 10 points in Scrabble — the highest base value tiles."
+    "explanation": "The letters Q and Z are each worth 10 points in Scrabble \u2014 the highest base value tiles."
   },
   {
     "question": "Which game requires players to balance blocks of various shapes without tipping the structure?",
@@ -2255,7 +2255,7 @@
     "explanation": "Jenga (Leslie Scott, 1983) has players pulling and stacking wooden blocks without causing the tower to fall."
   },
   {
-    "question": "In what year was Pokémon Go released?",
+    "question": "In what year was Pok\u00e9mon Go released?",
     "answer": "2016",
     "choices": [
       "2016",
@@ -2263,7 +2263,7 @@
       "2017",
       "2015"
     ],
-    "explanation": "Pokémon Go (Niantic, 2016) was released in July 2016, becoming a global phenomenon with AR gameplay."
+    "explanation": "Pok\u00e9mon Go (Niantic, 2016) was released in July 2016, becoming a global phenomenon with AR gameplay."
   },
   {
     "question": "What is the name of the game where players move a piece around a circular track collecting cards?",
@@ -2285,7 +2285,7 @@
       "Sega",
       "Sony"
     ],
-    "explanation": "Nintendo created the Nintendo Entertainment System, the company’s hugely successful 8-bit home console."
+    "explanation": "Nintendo created the Nintendo Entertainment System, the company\u2019s hugely successful 8-bit home console."
   },
   {
     "question": "What is the term for when a video game has no save feature and death starts you over?",
@@ -2439,7 +2439,7 @@
       "100",
       "48"
     ],
-    "explanation": "A standard chess board has 8×8 = 64 squares, alternating between light and dark colors."
+    "explanation": "A standard chess board has 8\u00d78 = 64 squares, alternating between light and dark colors."
   },
   {
     "question": "What is the highest possible score in a single game of bowling?",
@@ -2586,14 +2586,14 @@
   },
   {
     "question": "Which game franchise features characters like Pikachu and Charizard?",
-    "answer": "Pokémon",
+    "answer": "Pok\u00e9mon",
     "choices": [
       "Digimon",
       "Yokai Watch",
-      "Pokémon",
+      "Pok\u00e9mon",
       "Dragon Quest"
     ],
-    "explanation": "Pikachu and Charizard are iconic Pokémon from Nintendo/Game Freak's Pokémon franchise, which started in 1996 with Pokémon Red and Blue."
+    "explanation": "Pikachu and Charizard are iconic Pok\u00e9mon from Nintendo/Game Freak's Pok\u00e9mon franchise, which started in 1996 with Pok\u00e9mon Red and Blue."
   },
   {
     "question": "In Minecraft, what do you need to create a crafting table?",
@@ -2604,7 +2604,7 @@
       "4 wooden planks",
       "Any 4 pieces of wood"
     ],
-    "explanation": "A crafting table in Minecraft requires 4 wooden planks arranged in a 2×2 pattern. It expands crafting to a 3×3 grid."
+    "explanation": "A crafting table in Minecraft requires 4 wooden planks arranged in a 2\u00d72 pattern. It expands crafting to a 3\u00d73 grid."
   },
   {
     "question": "Which chess piece can only move diagonally?",
@@ -2802,7 +2802,7 @@
       "Network Peripheral Connection",
       "Natural Programming Code"
     ],
-    "explanation": "NPC stands for Non-Player Character — any game character not controlled by a human player. NPCs are typically controlled by the game's AI."
+    "explanation": "NPC stands for Non-Player Character \u2014 any game character not controlled by a human player. NPCs are typically controlled by the game's AI."
   },
   {
     "question": "In which game do players 'Among Us' play?",
@@ -2893,7 +2893,7 @@
     "explanation": "Go Fish is a simple card game where players ask opponents for specific cards. If the opponent doesn't have them, they say 'Go Fish' and the asking player draws from the deck."
   },
   {
-    "question": "In the Pokémon games, how many original (Generation 1) Pokémon are there?",
+    "question": "In the Pok\u00e9mon games, how many original (Generation 1) Pok\u00e9mon are there?",
     "answer": "151",
     "choices": [
       "149",
@@ -2901,7 +2901,7 @@
       "151",
       "152"
     ],
-    "explanation": "There are 151 original Pokémon in Generation 1. The first 150 are catchable in the main games, while Mew (151) was a hidden bonus Pokémon."
+    "explanation": "There are 151 original Pok\u00e9mon in Generation 1. The first 150 are catchable in the main games, while Mew (151) was a hidden bonus Pok\u00e9mon."
   },
   {
     "question": "Which game involves a yellow character eating dots while avoiding ghosts?",
@@ -2959,7 +2959,7 @@
     "explanation": "The Legend of Zelda (1986) was one of the first console games to feature a battery-backed save system, allowing players to save their progress."
   },
   {
-    "question": "Game check: In chess, which piece moves in an 'L' shape?",
+    "question": "In chess, which piece moves in an 'L' shape?",
     "answer": "Knight",
     "choices": [
       "Bishop",
@@ -3121,7 +3121,7 @@
       "The Witcher",
       "Dragon Age"
     ],
-    "explanation": "The Elder Scrolls: Skyrim is set in The Elder Scrolls universe. All games in the series — Morrowind, Oblivion, Skyrim — share the same lore and world of Tamriel."
+    "explanation": "The Elder Scrolls: Skyrim is set in The Elder Scrolls universe. All games in the series \u2014 Morrowind, Oblivion, Skyrim \u2014 share the same lore and world of Tamriel."
   },
   {
     "question": "How many players are needed for a game of chess?",
@@ -3330,7 +3330,7 @@
       "Obsidian",
       "Netherite"
     ],
-    "explanation": "In Minecraft, a Nether Portal is made from at least 10 blocks of obsidian arranged in a 4×5 frame (corners optional). Obsidian is formed when water hits a lava source block."
+    "explanation": "In Minecraft, a Nether Portal is made from at least 10 blocks of obsidian arranged in a 4\u00d75 frame (corners optional). Obsidian is formed when water hits a lava source block."
   },
   {
     "question": "Which card game uses a point value of 'Ace high' or 'Ace low'?",
@@ -3509,7 +3509,7 @@
     "explanation": "The Sims is a life simulation game by Maxis/EA where players create and control simulated people (Sims), building homes and managing their lives."
   },
   {
-    "question": "Game check: In the card game Hearts, what is the goal?",
+    "question": "In the card game Hearts, what is the goal?",
     "answer": "Avoid taking hearts and the Queen of Spades",
     "choices": [
       "Collect the most hearts",
@@ -3619,7 +3619,7 @@
     "explanation": "Gordon Freeman is the protagonist of the Half-Life series by Valve. A theoretical physicist at Black Mesa Research Facility, he becomes a key figure in resisting an alien invasion."
   },
   {
-    "question": "In Pokémon, what type is Charizard (first form)?",
+    "question": "In Pok\u00e9mon, what type is Charizard (first form)?",
     "answer": "Fire/Flying",
     "choices": [
       "Fire/Dragon",
@@ -3627,7 +3627,7 @@
       "Fire only",
       "Dragon/Fire"
     ],
-    "explanation": "Charizard is a Fire/Flying type Pokémon, despite looking like a dragon. Its Mega Evolution X form becomes Fire/Dragon type."
+    "explanation": "Charizard is a Fire/Flying type Pok\u00e9mon, despite looking like a dragon. Its Mega Evolution X form becomes Fire/Dragon type."
   },
   {
     "question": "Which game requires the player to 'keep a poker face'?",
@@ -3773,7 +3773,7 @@
     "explanation": "In Crazy Eights, an eight can be played on any card and allows the player to name a new suit that the next player must follow. It is similar to the Wild card in Uno."
   },
   {
-    "question": "Which game series features the protagonist protagonist Link exploring a large world?",
+    "question": "Which game series features the protagonist Link exploring a large world?",
     "answer": "The Legend of Zelda",
     "choices": [
       "The Legend of Zelda",
@@ -4309,18 +4309,18 @@
       "King",
       "Pawn"
     ],
-    "explanation": "The king in chess cannot be captured — the game ends when it is checkmated (in a position where capture would be unavoidable). Instead, the king must avoid check at all times."
+    "explanation": "The king in chess cannot be captured \u2014 the game ends when it is checkmated (in a position where capture would be unavoidable). Instead, the king must avoid check at all times."
   },
   {
-    "question": "Which mobile game became famous for Pokémon catching in real life?",
-    "answer": "Pokémon GO",
+    "question": "Which mobile game became famous for Pok\u00e9mon catching in real life?",
+    "answer": "Pok\u00e9mon GO",
     "choices": [
       "Ingress",
-      "Pokémon GO",
+      "Pok\u00e9mon GO",
       "Harry Potter: Wizards Unite",
       "Jurassic World Alive"
     ],
-    "explanation": "Pokémon GO by Niantic was released in 2016 and became a worldwide phenomenon. It uses augmented reality (AR) to overlay Pokémon on the real world via smartphone cameras."
+    "explanation": "Pok\u00e9mon GO by Niantic was released in 2016 and became a worldwide phenomenon. It uses augmented reality (AR) to overlay Pok\u00e9mon on the real world via smartphone cameras."
   },
   {
     "question": "What is the name of the sword in The Legend of Zelda?",
@@ -4378,15 +4378,15 @@
     "explanation": "Keeping a 'poker face' means maintaining a neutral expression to prevent opponents from reading your cards. The expression originated in the game of poker."
   },
   {
-    "question": "Which game series features 'Pichu' as a baby Pokémon?",
-    "answer": "Pokémon",
+    "question": "Which game series features 'Pichu' as a baby Pok\u00e9mon?",
+    "answer": "Pok\u00e9mon",
     "choices": [
       "Digimon",
-      "Pokémon",
+      "Pok\u00e9mon",
       "Yokai Watch",
       "Monster Rancher"
     ],
-    "explanation": "Pichu is a baby Pokémon in the Pokémon series. It is the pre-evolution of Pikachu, which in turn evolves into Raichu. Pichu was introduced in Pokémon Gold and Silver (Generation 2)."
+    "explanation": "Pichu is a baby Pok\u00e9mon in the Pok\u00e9mon series. It is the pre-evolution of Pikachu, which in turn evolves into Raichu. Pichu was introduced in Pok\u00e9mon Gold and Silver (Generation 2)."
   },
   {
     "question": "In Minecraft, what is the final boss?",
@@ -4441,7 +4441,7 @@
       "19x19",
       "21x21"
     ],
-    "explanation": "A standard Go board is 19×19, creating 361 intersections where stones can be placed. Smaller 9×9 and 13×13 boards are used for beginners and shorter games."
+    "explanation": "A standard Go board is 19\u00d719, creating 361 intersections where stones can be placed. Smaller 9\u00d79 and 13\u00d713 boards are used for beginners and shorter games."
   },
   {
     "question": "What popular game requires players to herd animals and manage a farm?",
@@ -4529,7 +4529,7 @@
       "A death cinematic sequence",
       "Dying causes the game to restart"
     ],
-    "explanation": "Permadeath means that when a player character dies, they cannot be revived — the playthrough ends. Many roguelikes and survival games feature this mechanic."
+    "explanation": "Permadeath means that when a player character dies, they cannot be revived \u2014 the playthrough ends. Many roguelikes and survival games feature this mechanic."
   },
   {
     "question": "Which game features a character who can morph between three animal forms?",
@@ -4551,7 +4551,7 @@
       "Opens a window to another dimension",
       "Fires gravity-defying projectiles"
     ],
-    "explanation": "The Aperture Science Handheld Portal Device (portal gun) in Portal creates two linked portals — one orange and one blue. Objects and the player can travel through either portal and exit from the other."
+    "explanation": "The Aperture Science Handheld Portal Device (portal gun) in Portal creates two linked portals \u2014 one orange and one blue. Objects and the player can travel through either portal and exit from the other."
   },
   {
     "question": "Which board game involves buying and selling properties in London?",
@@ -4573,7 +4573,7 @@
       "Windshear",
       "Dragonbane"
     ],
-    "explanation": "Mehrunes' Razor is a legendary Daedric artifact dagger in Skyrim and other Elder Scrolls games. The Master Sword equivalent in Skyrim would be 'Dragonbane' — designed to fight dragons."
+    "explanation": "Mehrunes' Razor is a legendary Daedric artifact dagger in Skyrim and other Elder Scrolls games. The Master Sword equivalent in Skyrim would be 'Dragonbane' \u2014 designed to fight dragons."
   },
   {
     "question": "In the game Stardew Valley, what is Pelican Town's community center?",
@@ -4620,7 +4620,7 @@
     "explanation": "Bust-a-Move (Puzzle Bobble) by Taito is a puzzle game where players shoot colored bubbles at a ceiling of bubbles, clearing groups of three or more same-colored bubbles."
   },
   {
-    "question": "What is the name of Pokémon's main professor in the original games?",
+    "question": "What is the name of Pok\u00e9mon's main professor in the original games?",
     "answer": "Professor Oak",
     "choices": [
       "Professor Elm",
@@ -4628,7 +4628,7 @@
       "Professor Oak",
       "Professor Rowan"
     ],
-    "explanation": "Professor Samuel Oak is the Pokémon researcher in Pallet Town in the original Generation 1 games. He gives the player their starter Pokémon and is the grandfather of the rival Blue."
+    "explanation": "Professor Samuel Oak is the Pok\u00e9mon researcher in Pallet Town in the original Generation 1 games. He gives the player their starter Pok\u00e9mon and is the grandfather of the rival Blue."
   },
   {
     "question": "Which game popularized the first-person shooter genre?",
@@ -4661,7 +4661,7 @@
       "Blockus",
       "Blokus"
     ],
-    "explanation": "The Tower of Hanoi is a mathematical puzzle where discs of decreasing size are stacked. In Jenga, players remove blocks from a tower — opposite of stacking."
+    "explanation": "The Tower of Hanoi is a mathematical puzzle where discs of decreasing size are stacked. In Jenga, players remove blocks from a tower \u2014 opposite of stacking."
   },
   {
     "question": "What is the name of the character who builds traps in Fortnite?",
@@ -4749,7 +4749,7 @@
       "Chun-Li",
       "Guile"
     ],
-    "explanation": "Ryu (and Ken) from Street Fighter can throw a Hadouken — a projectile attack executed by doing a quarter-circle motion and pressing punch. Ryu's Hadouken has become iconic in gaming."
+    "explanation": "Ryu (and Ken) from Street Fighter can throw a Hadouken \u2014 a projectile attack executed by doing a quarter-circle motion and pressing punch. Ryu's Hadouken has become iconic in gaming."
   },
   {
     "question": "What is the name of the game where players build cities?",
@@ -5035,7 +5035,7 @@
       "Checkpoint Rewind",
       "Practice Room"
     ],
-    "explanation": "Celeste features an Assist Mode that allows players to slow game speed, gain infinite dashes, skip chapters, or enable invincibility — making the game more accessible without removing the full experience."
+    "explanation": "Celeste features an Assist Mode that allows players to slow game speed, gain infinite dashes, skip chapters, or enable invincibility \u2014 making the game more accessible without removing the full experience."
   },
   {
     "question": "Which game series features the protagonist 'Nier' and robots?",
@@ -5060,7 +5060,7 @@
     "explanation": "Purple Pikmin in the Pikmin series are the strongest and heaviest Pikmin. They carry 10 times the weight of other Pikmin and deliver 10 times the attack power."
   },
   {
-    "question": "In Pokémon, which type is strong against Water?",
+    "question": "In Pok\u00e9mon, which type is strong against Water?",
     "answer": "Electric",
     "choices": [
       "Fire",
@@ -5068,7 +5068,7 @@
       "Ground",
       "Grass"
     ],
-    "explanation": "Electric-type moves are super effective against Water-type Pokémon. Grass is also super effective against Water. Ground-type Pokémon are immune to Electric moves."
+    "explanation": "Electric-type moves are super effective against Water-type Pok\u00e9mon. Grass is also super effective against Water. Ground-type Pok\u00e9mon are immune to Electric moves."
   },
   {
     "question": "Which game features the character 'Shovel Knight'?",
@@ -5222,7 +5222,7 @@
       "The Division",
       "Warframe"
     ],
-    "explanation": "Borderlands (2009) by Gearbox Software popularized the looter-shooter genre — combining first-person shooter gameplay with role-playing loot systems to generate randomized weapons."
+    "explanation": "Borderlands (2009) by Gearbox Software popularized the looter-shooter genre \u2014 combining first-person shooter gameplay with role-playing loot systems to generate randomized weapons."
   },
   {
     "question": "What is the name of the rabbit character in Donnie Darko?",

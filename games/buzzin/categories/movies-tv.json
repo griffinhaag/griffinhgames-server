@@ -2574,7 +2574,7 @@
     "explanation": "Moonlight won the Academy Award for Best Picture 2017."
   },
   {
-    "question": "Movie trivia: In what year was Se7en originally released?",
+    "question": "In what year was Se7en originally released?",
     "answer": "1995",
     "choices": [
       "1995",
@@ -2585,7 +2585,7 @@
     "explanation": "Se7en was originally released in 1995."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Wednesday?",
+    "question": "Which network or streaming service originally aired Wednesday?",
     "answer": "Netflix",
     "choices": [
       "ABC",
@@ -2596,7 +2596,7 @@
     "explanation": "Wednesday originally aired on Netflix."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Parks and Recreation?",
+    "question": "Which network or streaming service originally aired Parks and Recreation?",
     "answer": "NBC",
     "choices": [
       "ABC",
@@ -2607,7 +2607,7 @@
     "explanation": "Parks and Recreation originally aired on NBC."
   },
   {
-    "question": "Movie trivia: In what year was The Dark Knight originally released?",
+    "question": "In what year was The Dark Knight originally released?",
     "answer": "2008",
     "choices": [
       "2008",
@@ -2618,7 +2618,7 @@
     "explanation": "The Dark Knight was originally released in 2008."
   },
   {
-    "question": "Movie trivia: Who directed Spirited Away?",
+    "question": "Who directed Spirited Away?",
     "answer": "Hayao Miyazaki",
     "choices": [
       "Hayao Miyazaki",
@@ -2629,7 +2629,7 @@
     "explanation": "Spirited Away was directed by Hayao Miyazaki."
   },
   {
-    "question": "Movie trivia: In what year was Raiders of the Lost Ark originally released?",
+    "question": "In what year was Raiders of the Lost Ark originally released?",
     "answer": "1981",
     "choices": [
       "1988",
@@ -2640,7 +2640,7 @@
     "explanation": "Raiders of the Lost Ark was originally released in 1981."
   },
   {
-    "question": "Movie trivia: Which TV show features Jeff Probst?",
+    "question": "Which TV show features Jeff Probst?",
     "answer": "Survivor",
     "choices": [
       "24",
@@ -2651,7 +2651,7 @@
     "explanation": "Jeff Probst is a central character or element in Survivor."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Big Bang Theory?",
+    "question": "Which network or streaming service originally aired The Big Bang Theory?",
     "answer": "CBS",
     "choices": [
       "AMC",
@@ -2662,7 +2662,7 @@
     "explanation": "The Big Bang Theory originally aired on CBS."
   },
   {
-    "question": "Movie trivia: In what year was Finding Nemo originally released?",
+    "question": "In what year was Finding Nemo originally released?",
     "answer": "2003",
     "choices": [
       "1972",
@@ -2673,7 +2673,7 @@
     "explanation": "Finding Nemo was originally released in 2003."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with replicants?",
+    "question": "Which film is most closely associated with replicants?",
     "answer": "Blade Runner",
     "choices": [
       "Top Gun",
@@ -2684,7 +2684,7 @@
     "explanation": "replicants is strongly associated with Blade Runner."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Wakanda?",
+    "question": "Which film is most closely associated with Wakanda?",
     "answer": "Black Panther",
     "choices": [
       "Black Panther",
@@ -2695,7 +2695,7 @@
     "explanation": "Wakanda is strongly associated with Black Panther."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with the Kim family?",
+    "question": "Which film is most closely associated with the Kim family?",
     "answer": "Parasite",
     "choices": [
       "Interstellar",
@@ -2706,7 +2706,7 @@
     "explanation": "the Kim family is strongly associated with Parasite."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Maximus?",
+    "question": "Which film is most closely associated with Maximus?",
     "answer": "Gladiator",
     "choices": [
       "The Lord of the Rings: The Fellowship of the Ring",
@@ -2717,7 +2717,7 @@
     "explanation": "Maximus is strongly associated with Gladiator."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with John McClane?",
+    "question": "Which film is most closely associated with John McClane?",
     "answer": "Die Hard",
     "choices": [
       "La La Land",
@@ -2728,7 +2728,7 @@
     "explanation": "John McClane is strongly associated with Die Hard."
   },
   {
-    "question": "Movie trivia: Which TV show features Boston bar?",
+    "question": "Which TV show features Boston bar?",
     "answer": "Cheers",
     "choices": [
       "Wednesday",
@@ -2739,7 +2739,7 @@
     "explanation": "Boston bar is a central character or element in Cheers."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with RMS Titanic?",
+    "question": "Which film is most closely associated with RMS Titanic?",
     "answer": "Titanic",
     "choices": [
       "Pulp Fiction",
@@ -2750,7 +2750,7 @@
     "explanation": "RMS Titanic is strongly associated with Titanic."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Sherlock?",
+    "question": "Which network or streaming service originally aired Sherlock?",
     "answer": "BBC",
     "choices": [
       "ABC",
@@ -2761,7 +2761,7 @@
     "explanation": "Sherlock originally aired on BBC."
   },
   {
-    "question": "Movie trivia: In what year was The Silence of the Lambs originally released?",
+    "question": "In what year was The Silence of the Lambs originally released?",
     "answer": "1991",
     "choices": [
       "1990",
@@ -2772,7 +2772,7 @@
     "explanation": "The Silence of the Lambs was originally released in 1991."
   },
   {
-    "question": "Movie trivia: Which TV show features Hawkins?",
+    "question": "Which TV show features Hawkins?",
     "answer": "Stranger Things",
     "choices": [
       "Lost",
@@ -2783,7 +2783,7 @@
     "explanation": "Hawkins is a central character or element in Stranger Things."
   },
   {
-    "question": "Movie trivia: In what year was The Departed originally released?",
+    "question": "In what year was The Departed originally released?",
     "answer": "2006",
     "choices": [
       "1990",
@@ -2794,7 +2794,7 @@
     "explanation": "The Departed was originally released in 2006."
   },
   {
-    "question": "Movie trivia: Which TV show features singing competition?",
+    "question": "Which TV show features singing competition?",
     "answer": "American Idol",
     "choices": [
       "Better Call Saul",
@@ -2805,7 +2805,7 @@
     "explanation": "singing competition is a central character or element in American Idol."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Modern Family?",
+    "question": "Which network or streaming service originally aired Modern Family?",
     "answer": "ABC",
     "choices": [
       "HBO",
@@ -2816,7 +2816,7 @@
     "explanation": "Modern Family originally aired on ABC."
   },
   {
-    "question": "Movie trivia: Which TV show features Carmy Berzatto?",
+    "question": "Which TV show features Carmy Berzatto?",
     "answer": "The Bear",
     "choices": [
       "Bridgerton",
@@ -2827,7 +2827,7 @@
     "explanation": "Carmy Berzatto is a central character or element in The Bear."
   },
   {
-    "question": "Movie trivia: In what year was Gladiator originally released?",
+    "question": "In what year was Gladiator originally released?",
     "answer": "2000",
     "choices": [
       "2000",
@@ -2838,7 +2838,7 @@
     "explanation": "Gladiator was originally released in 2000."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired American Idol?",
+    "question": "Which network or streaming service originally aired American Idol?",
     "answer": "Fox",
     "choices": [
       "NBC",
@@ -2849,7 +2849,7 @@
     "explanation": "American Idol originally aired on Fox."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Wire?",
+    "question": "Which network or streaming service originally aired The Wire?",
     "answer": "HBO",
     "choices": [
       "HBO",
@@ -2860,7 +2860,7 @@
     "explanation": "The Wire originally aired on HBO."
   },
   {
-    "question": "Movie trivia: Which film won the Academy Award for Best Picture 1994?",
+    "question": "Which film won the Academy Award for Best Picture 1994?",
     "answer": "Schindler's List",
     "choices": [
       "Schindler's List",
@@ -2871,7 +2871,7 @@
     "explanation": "Schindler's List won the Academy Award for Best Picture 1994."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Andrew Neiman?",
+    "question": "Which film is most closely associated with Andrew Neiman?",
     "answer": "Whiplash",
     "choices": [
       "Whiplash",
@@ -2882,7 +2882,7 @@
     "explanation": "Andrew Neiman is strongly associated with Whiplash."
   },
   {
-    "question": "Movie trivia: Which TV show features the TARDIS?",
+    "question": "Which TV show features the TARDIS?",
     "answer": "Doctor Who",
     "choices": [
       "Doctor Who",
@@ -2893,7 +2893,7 @@
     "explanation": "the TARDIS is a central character or element in Doctor Who."
   },
   {
-    "question": "Movie trivia: Which TV show features Grogu?",
+    "question": "Which TV show features Grogu?",
     "answer": "The Mandalorian",
     "choices": [
       "24",
@@ -2904,7 +2904,7 @@
     "explanation": "Grogu is a central character or element in The Mandalorian."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Simba?",
+    "question": "Which film is most closely associated with Simba?",
     "answer": "The Lion King",
     "choices": [
       "Raiders of the Lost Ark",
@@ -2915,7 +2915,7 @@
     "explanation": "Simba is strongly associated with The Lion King."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Mandalorian?",
+    "question": "Which network or streaming service originally aired The Mandalorian?",
     "answer": "Disney+",
     "choices": [
       "Disney+",
@@ -2926,7 +2926,7 @@
     "explanation": "The Mandalorian originally aired on Disney+."
   },
   {
-    "question": "Movie trivia: Who directed Gladiator?",
+    "question": "Who directed Gladiator?",
     "answer": "Ridley Scott",
     "choices": [
       "Francis Ford Coppola",
@@ -2937,7 +2937,7 @@
     "explanation": "Gladiator was directed by Ridley Scott."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Rick Blaine?",
+    "question": "Which film is most closely associated with Rick Blaine?",
     "answer": "Casablanca",
     "choices": [
       "Spirited Away",
@@ -2948,7 +2948,7 @@
     "explanation": "Rick Blaine is strongly associated with Casablanca."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Facebook?",
+    "question": "Which film is most closely associated with Facebook?",
     "answer": "The Social Network",
     "choices": [
       "Die Hard",
@@ -2959,7 +2959,7 @@
     "explanation": "Facebook is strongly associated with The Social Network."
   },
   {
-    "question": "Movie trivia: Who directed La La Land?",
+    "question": "Who directed La La Land?",
     "answer": "Damien Chazelle",
     "choices": [
       "David Fincher",
@@ -2970,7 +2970,7 @@
     "explanation": "La La Land was directed by Damien Chazelle."
   },
   {
-    "question": "Movie trivia: Who directed Goodfellas?",
+    "question": "Who directed Goodfellas?",
     "answer": "Martin Scorsese",
     "choices": [
       "Christopher Nolan",
@@ -2981,7 +2981,7 @@
     "explanation": "Goodfellas was directed by Martin Scorsese."
   },
   {
-    "question": "Movie trivia: Who directed My Neighbor Totoro?",
+    "question": "Who directed My Neighbor Totoro?",
     "answer": "Hayao Miyazaki",
     "choices": [
       "Hayao Miyazaki",
@@ -2992,7 +2992,7 @@
     "explanation": "My Neighbor Totoro was directed by Hayao Miyazaki."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Tyler Durden?",
+    "question": "Which film is most closely associated with Tyler Durden?",
     "answer": "Fight Club",
     "choices": [
       "The Lord of the Rings: The Fellowship of the Ring",
@@ -3003,7 +3003,7 @@
     "explanation": "Tyler Durden is strongly associated with Fight Club."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The X-Files?",
+    "question": "Which network or streaming service originally aired The X-Files?",
     "answer": "Fox",
     "choices": [
       "HBO",
@@ -3014,7 +3014,7 @@
     "explanation": "The X-Files originally aired on Fox."
   },
   {
-    "question": "Movie trivia: Who directed The Return of the King?",
+    "question": "Who directed The Return of the King?",
     "answer": "Peter Jackson",
     "choices": [
       "Quentin Tarantino",
@@ -3025,7 +3025,7 @@
     "explanation": "The Return of the King was directed by Peter Jackson."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Elsa and Anna?",
+    "question": "Which film is most closely associated with Elsa and Anna?",
     "answer": "Frozen",
     "choices": [
       "Star Wars",
@@ -3036,7 +3036,7 @@
     "explanation": "Elsa and Anna is strongly associated with Frozen."
   },
   {
-    "question": "Movie trivia: Which TV show features Nevermore Academy?",
+    "question": "Which TV show features Nevermore Academy?",
     "answer": "Wednesday",
     "choices": [
       "Dexter",
@@ -3047,7 +3047,7 @@
     "explanation": "Nevermore Academy is a central character or element in Wednesday."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Clarice Starling?",
+    "question": "Which film is most closely associated with Clarice Starling?",
     "answer": "The Silence of the Lambs",
     "choices": [
       "Fight Club",
@@ -3058,7 +3058,7 @@
     "explanation": "Clarice Starling is strongly associated with The Silence of the Lambs."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Boston mob?",
+    "question": "Which film is most closely associated with Boston mob?",
     "answer": "The Departed",
     "choices": [
       "Black Panther",
@@ -3069,7 +3069,7 @@
     "explanation": "Boston mob is strongly associated with The Departed."
   },
   {
-    "question": "Movie trivia: Who directed Harry Potter and the Sorcerer's Stone?",
+    "question": "Who directed Harry Potter and the Sorcerer's Stone?",
     "answer": "Chris Columbus",
     "choices": [
       "David Fincher",
@@ -3080,7 +3080,7 @@
     "explanation": "Harry Potter and the Sorcerer's Stone was directed by Chris Columbus."
   },
   {
-    "question": "Movie trivia: Who directed The Shawshank Redemption?",
+    "question": "Who directed The Shawshank Redemption?",
     "answer": "Frank Darabont",
     "choices": [
       "Christopher Nolan",
@@ -3091,7 +3091,7 @@
     "explanation": "The Shawshank Redemption was directed by Frank Darabont."
   },
   {
-    "question": "Movie trivia: Who directed Whiplash?",
+    "question": "Who directed Whiplash?",
     "answer": "Damien Chazelle",
     "choices": [
       "Damien Chazelle",
@@ -3102,7 +3102,7 @@
     "explanation": "Whiplash was directed by Damien Chazelle."
   },
   {
-    "question": "Movie trivia: In what year was The Matrix originally released?",
+    "question": "In what year was The Matrix originally released?",
     "answer": "1999",
     "choices": [
       "1994",
@@ -3113,7 +3113,7 @@
     "explanation": "The Matrix was originally released in 1999."
   },
   {
-    "question": "Movie trivia: In what year was Harry Potter and the Sorcerer's Stone originally released?",
+    "question": "In what year was Harry Potter and the Sorcerer's Stone originally released?",
     "answer": "2001",
     "choices": [
       "2001",
@@ -3124,7 +3124,7 @@
     "explanation": "Harry Potter and the Sorcerer's Stone was originally released in 2001."
   },
   {
-    "question": "Movie trivia: Who directed Pulp Fiction?",
+    "question": "Who directed Pulp Fiction?",
     "answer": "Quentin Tarantino",
     "choices": [
       "James Cameron",
@@ -3135,7 +3135,7 @@
     "explanation": "Pulp Fiction was directed by Quentin Tarantino."
   },
   {
-    "question": "Movie trivia: In what year was La La Land originally released?",
+    "question": "In what year was La La Land originally released?",
     "answer": "2016",
     "choices": [
       "2016",
@@ -3146,7 +3146,7 @@
     "explanation": "La La Land was originally released in 2016."
   },
   {
-    "question": "Movie trivia: In what year was Whiplash originally released?",
+    "question": "In what year was Whiplash originally released?",
     "answer": "2014",
     "choices": [
       "1939",
@@ -3157,7 +3157,7 @@
     "explanation": "Whiplash was originally released in 2014."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Mad Men?",
+    "question": "Which network or streaming service originally aired Mad Men?",
     "answer": "AMC",
     "choices": [
       "AMC",
@@ -3168,7 +3168,7 @@
     "explanation": "Mad Men originally aired on AMC."
   },
   {
-    "question": "Movie trivia: In what year was Vertigo originally released?",
+    "question": "In what year was Vertigo originally released?",
     "answer": "1958",
     "choices": [
       "1939",
@@ -3179,7 +3179,7 @@
     "explanation": "Vertigo was originally released in 1958."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Seinfeld?",
+    "question": "Which network or streaming service originally aired Seinfeld?",
     "answer": "NBC",
     "choices": [
       "NBC",
@@ -3190,7 +3190,7 @@
     "explanation": "Seinfeld originally aired on NBC."
   },
   {
-    "question": "Movie trivia: Which TV show features Gregory House?",
+    "question": "Which TV show features Gregory House?",
     "answer": "House",
     "choices": [
       "The Amazing Race",
@@ -3201,7 +3201,7 @@
     "explanation": "Gregory House is a central character or element in House."
   },
   {
-    "question": "Movie trivia: Who directed Inception?",
+    "question": "Who directed Inception?",
     "answer": "Christopher Nolan",
     "choices": [
       "Christopher Nolan",
@@ -3212,7 +3212,7 @@
     "explanation": "Inception was directed by Christopher Nolan."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired House?",
+    "question": "Which network or streaming service originally aired House?",
     "answer": "Fox",
     "choices": [
       "HBO",
@@ -3223,7 +3223,7 @@
     "explanation": "House originally aired on Fox."
   },
   {
-    "question": "Movie trivia: Who directed The Godfather?",
+    "question": "Who directed The Godfather?",
     "answer": "Francis Ford Coppola",
     "choices": [
       "Alfred Hitchcock",
@@ -3234,7 +3234,7 @@
     "explanation": "The Godfather was directed by Francis Ford Coppola."
   },
   {
-    "question": "Movie trivia: In what year was The Wizard of Oz originally released?",
+    "question": "In what year was The Wizard of Oz originally released?",
     "answer": "1939",
     "choices": [
       "1988",
@@ -3245,7 +3245,7 @@
     "explanation": "The Wizard of Oz was originally released in 1939."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Henry Hill?",
+    "question": "Which film is most closely associated with Henry Hill?",
     "answer": "Goodfellas",
     "choices": [
       "Goodfellas",
@@ -3256,7 +3256,7 @@
     "explanation": "Henry Hill is strongly associated with Goodfellas."
   },
   {
-    "question": "Movie trivia: Which TV show features Joel and Ellie?",
+    "question": "Which TV show features Joel and Ellie?",
     "answer": "The Last of Us",
     "choices": [
       "The Last of Us",
@@ -3267,7 +3267,7 @@
     "explanation": "Joel and Ellie is a central character or element in The Last of Us."
   },
   {
-    "question": "Movie trivia: Who directed The Departed?",
+    "question": "Who directed The Departed?",
     "answer": "Martin Scorsese",
     "choices": [
       "Christopher Nolan",
@@ -3278,7 +3278,7 @@
     "explanation": "The Departed was directed by Martin Scorsese."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Twin Peaks?",
+    "question": "Which network or streaming service originally aired Twin Peaks?",
     "answer": "ABC",
     "choices": [
       "BBC",
@@ -3289,7 +3289,7 @@
     "explanation": "Twin Peaks originally aired on ABC."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Frodo Baggins?",
+    "question": "Which film is most closely associated with Frodo Baggins?",
     "answer": "The Lord of the Rings: The Fellowship of the Ring",
     "choices": [
       "Goodfellas",
@@ -3300,7 +3300,7 @@
     "explanation": "Frodo Baggins is strongly associated with The Lord of the Rings: The Fellowship of the Ring."
   },
   {
-    "question": "Movie trivia: In what year was Fight Club originally released?",
+    "question": "In what year was Fight Club originally released?",
     "answer": "1999",
     "choices": [
       "1999",
@@ -3311,7 +3311,7 @@
     "explanation": "Fight Club was originally released in 1999."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Better Call Saul?",
+    "question": "Which network or streaming service originally aired Better Call Saul?",
     "answer": "AMC",
     "choices": [
       "Netflix",
@@ -3322,7 +3322,7 @@
     "explanation": "Better Call Saul originally aired on AMC."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The West Wing?",
+    "question": "Which network or streaming service originally aired The West Wing?",
     "answer": "NBC",
     "choices": [
       "HBO",
@@ -3333,7 +3333,7 @@
     "explanation": "The West Wing originally aired on NBC."
   },
   {
-    "question": "Movie trivia: Which TV show features Walter White?",
+    "question": "Which TV show features Walter White?",
     "answer": "Breaking Bad",
     "choices": [
       "Breaking Bad",
@@ -3344,7 +3344,7 @@
     "explanation": "Walter White is a central character or element in Breaking Bad."
   },
   {
-    "question": "Movie trivia: Who directed Mad Max: Fury Road?",
+    "question": "Who directed Mad Max: Fury Road?",
     "answer": "George Miller",
     "choices": [
       "Ridley Scott",
@@ -3355,7 +3355,7 @@
     "explanation": "Mad Max: Fury Road was directed by George Miller."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Norman Bates?",
+    "question": "Which film is most closely associated with Norman Bates?",
     "answer": "Psycho",
     "choices": [
       "Fight Club",
@@ -3366,7 +3366,7 @@
     "explanation": "Norman Bates is strongly associated with Psycho."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with dreams?",
+    "question": "Which film is most closely associated with dreams?",
     "answer": "Inception",
     "choices": [
       "E.T. the Extra-Terrestrial",
@@ -3377,7 +3377,7 @@
     "explanation": "dreams is strongly associated with Inception."
   },
   {
-    "question": "Movie trivia: Who directed Vertigo?",
+    "question": "Who directed Vertigo?",
     "answer": "Alfred Hitchcock",
     "choices": [
       "Alfred Hitchcock",
@@ -3388,7 +3388,7 @@
     "explanation": "Vertigo was directed by Alfred Hitchcock."
   },
   {
-    "question": "Movie trivia: Who directed Toy Story?",
+    "question": "Who directed Toy Story?",
     "answer": "John Lasseter",
     "choices": [
       "Christopher Nolan",
@@ -3399,7 +3399,7 @@
     "explanation": "Toy Story was directed by John Lasseter."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Stranger Things?",
+    "question": "Which network or streaming service originally aired Stranger Things?",
     "answer": "Netflix",
     "choices": [
       "HBO",
@@ -3410,7 +3410,7 @@
     "explanation": "Stranger Things originally aired on Netflix."
   },
   {
-    "question": "Movie trivia: In what year was Psycho originally released?",
+    "question": "In what year was Psycho originally released?",
     "answer": "1960",
     "choices": [
       "1960",
@@ -3421,7 +3421,7 @@
     "explanation": "Psycho was originally released in 1960."
   },
   {
-    "question": "Movie trivia: Which TV show features the Roy family?",
+    "question": "Which TV show features the Roy family?",
     "answer": "Succession",
     "choices": [
       "Succession",
@@ -3432,7 +3432,7 @@
     "explanation": "the Roy family is a central character or element in Succession."
   },
   {
-    "question": "Movie trivia: Who directed Raiders of the Lost Ark?",
+    "question": "Who directed Raiders of the Lost Ark?",
     "answer": "Steven Spielberg",
     "choices": [
       "the Wachowskis",
@@ -3443,7 +3443,7 @@
     "explanation": "Raiders of the Lost Ark was directed by Steven Spielberg."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Mia and Sebastian?",
+    "question": "Which film is most closely associated with Mia and Sebastian?",
     "answer": "La La Land",
     "choices": [
       "E.T. the Extra-Terrestrial",
@@ -3454,7 +3454,7 @@
     "explanation": "Mia and Sebastian is strongly associated with La La Land."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Amazing Race?",
+    "question": "Which network or streaming service originally aired The Amazing Race?",
     "answer": "CBS",
     "choices": [
       "CBS",
@@ -3465,7 +3465,7 @@
     "explanation": "The Amazing Race originally aired on CBS."
   },
   {
-    "question": "Movie trivia: Who directed Alien?",
+    "question": "Who directed Alien?",
     "answer": "Ridley Scott",
     "choices": [
       "Christopher Nolan",
@@ -3476,7 +3476,7 @@
     "explanation": "Alien was directed by Ridley Scott."
   },
   {
-    "question": "Movie trivia: Who directed Rocky?",
+    "question": "Who directed Rocky?",
     "answer": "John G. Avildsen",
     "choices": [
       "John G. Avildsen",
@@ -3487,7 +3487,7 @@
     "explanation": "Rocky was directed by John G. Avildsen."
   },
   {
-    "question": "Movie trivia: In what year was Pulp Fiction originally released?",
+    "question": "In what year was Pulp Fiction originally released?",
     "answer": "1994",
     "choices": [
       "1994",
@@ -3498,7 +3498,7 @@
     "explanation": "Pulp Fiction was originally released in 1994."
   },
   {
-    "question": "Movie trivia: Which TV show features Dexter Morgan?",
+    "question": "Which TV show features Dexter Morgan?",
     "answer": "Dexter",
     "choices": [
       "The Mandalorian",
@@ -3509,7 +3509,7 @@
     "explanation": "Dexter Morgan is a central character or element in Dexter."
   },
   {
-    "question": "Movie trivia: Who directed The Dark Knight?",
+    "question": "Who directed The Dark Knight?",
     "answer": "Christopher Nolan",
     "choices": [
       "John McTiernan",
@@ -3520,7 +3520,7 @@
     "explanation": "The Dark Knight was directed by Christopher Nolan."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with xenomorph?",
+    "question": "Which film is most closely associated with xenomorph?",
     "answer": "Alien",
     "choices": [
       "Avatar",
@@ -3531,7 +3531,7 @@
     "explanation": "xenomorph is strongly associated with Alien."
   },
   {
-    "question": "Movie trivia: Which TV show features Leslie Knope?",
+    "question": "Which TV show features Leslie Knope?",
     "answer": "Parks and Recreation",
     "choices": [
       "Parks and Recreation",
@@ -3542,7 +3542,7 @@
     "explanation": "Leslie Knope is a central character or element in Parks and Recreation."
   },
   {
-    "question": "Movie trivia: Who directed The Silence of the Lambs?",
+    "question": "Who directed The Silence of the Lambs?",
     "answer": "Jonathan Demme",
     "choices": [
       "Christopher Nolan",
@@ -3553,7 +3553,7 @@
     "explanation": "The Silence of the Lambs was directed by Jonathan Demme."
   },
   {
-    "question": "Movie trivia: Who directed Se7en?",
+    "question": "Who directed Se7en?",
     "answer": "David Fincher",
     "choices": [
       "Christopher Nolan",
@@ -3564,7 +3564,7 @@
     "explanation": "Se7en was directed by David Fincher."
   },
   {
-    "question": "Movie trivia: Who directed Top Gun?",
+    "question": "Who directed Top Gun?",
     "answer": "Tony Scott",
     "choices": [
       "Damien Chazelle",
@@ -3575,7 +3575,7 @@
     "explanation": "Top Gun was directed by Tony Scott."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with dinosaurs?",
+    "question": "Which film is most closely associated with dinosaurs?",
     "answer": "Jurassic Park",
     "choices": [
       "The Avengers",
@@ -3586,7 +3586,7 @@
     "explanation": "dinosaurs is strongly associated with Jurassic Park."
   },
   {
-    "question": "Movie trivia: Which TV show features Don Draper?",
+    "question": "Which TV show features Don Draper?",
     "answer": "Mad Men",
     "choices": [
       "The Amazing Race",
@@ -3597,7 +3597,7 @@
     "explanation": "Don Draper is a central character or element in Mad Men."
   },
   {
-    "question": "Movie trivia: In what year was Black Panther originally released?",
+    "question": "In what year was Black Panther originally released?",
     "answer": "2018",
     "choices": [
       "2003",
@@ -3608,7 +3608,7 @@
     "explanation": "Black Panther was originally released in 2018."
   },
   {
-    "question": "Movie trivia: Who directed Gone with the Wind?",
+    "question": "Who directed Gone with the Wind?",
     "answer": "Victor Fleming",
     "choices": [
       "Christopher Nolan",
@@ -3619,7 +3619,7 @@
     "explanation": "Gone with the Wind was directed by Victor Fleming."
   },
   {
-    "question": "Movie trivia: In what year was My Neighbor Totoro originally released?",
+    "question": "In what year was My Neighbor Totoro originally released?",
     "answer": "1988",
     "choices": [
       "1942",
@@ -3630,7 +3630,7 @@
     "explanation": "My Neighbor Totoro was originally released in 1988."
   },
   {
-    "question": "Movie trivia: Which TV show features travel competition?",
+    "question": "Which TV show features travel competition?",
     "answer": "The Amazing Race",
     "choices": [
       "The West Wing",
@@ -3641,7 +3641,7 @@
     "explanation": "travel competition is a central character or element in The Amazing Race."
   },
   {
-    "question": "Movie trivia: In what year was Goodfellas originally released?",
+    "question": "In what year was Goodfellas originally released?",
     "answer": "1990",
     "choices": [
       "1990",
@@ -3652,7 +3652,7 @@
     "explanation": "Goodfellas was originally released in 1990."
   },
   {
-    "question": "Movie trivia: In what year was Avatar originally released?",
+    "question": "In what year was Avatar originally released?",
     "answer": "2009",
     "choices": [
       "2009",
@@ -3663,7 +3663,7 @@
     "explanation": "Avatar was originally released in 2009."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Bear?",
+    "question": "Which network or streaming service originally aired The Bear?",
     "answer": "FX",
     "choices": [
       "HBO",
@@ -3674,7 +3674,7 @@
     "explanation": "The Bear originally aired on FX."
   },
   {
-    "question": "Movie trivia: Which TV show features Baltimore?",
+    "question": "Which TV show features Baltimore?",
     "answer": "The Wire",
     "choices": [
       "Grey's Anatomy",
@@ -3685,7 +3685,7 @@
     "explanation": "Baltimore is a central character or element in The Wire."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Marty McFly?",
+    "question": "Which film is most closely associated with Marty McFly?",
     "answer": "Back to the Future",
     "choices": [
       "Casablanca",
@@ -3696,7 +3696,7 @@
     "explanation": "Marty McFly is strongly associated with Back to the Future."
   },
   {
-    "question": "Movie trivia: Who directed Back to the Future?",
+    "question": "Who directed Back to the Future?",
     "answer": "Robert Zemeckis",
     "choices": [
       "Ridley Scott",
@@ -3707,7 +3707,7 @@
     "explanation": "Back to the Future was directed by Robert Zemeckis."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Marvel team-up?",
+    "question": "Which film is most closely associated with Marvel team-up?",
     "answer": "The Avengers",
     "choices": [
       "Back to the Future",
@@ -3718,7 +3718,7 @@
     "explanation": "Marvel team-up is strongly associated with The Avengers."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Sopranos?",
+    "question": "Which network or streaming service originally aired The Sopranos?",
     "answer": "HBO",
     "choices": [
       "Fox",
@@ -3729,7 +3729,7 @@
     "explanation": "The Sopranos originally aired on HBO."
   },
   {
-    "question": "Movie trivia: In what year was Spirited Away originally released?",
+    "question": "In what year was Spirited Away originally released?",
     "answer": "2001",
     "choices": [
       "2001",
@@ -3740,7 +3740,7 @@
     "explanation": "Spirited Away was originally released in 2001."
   },
   {
-    "question": "Movie trivia: Which TV show features 221B Baker Street?",
+    "question": "Which TV show features 221B Baker Street?",
     "answer": "Sherlock",
     "choices": [
       "Survivor",
@@ -3751,7 +3751,7 @@
     "explanation": "221B Baker Street is a central character or element in Sherlock."
   },
   {
-    "question": "Movie trivia: Which TV show features Tony Soprano?",
+    "question": "Which TV show features Tony Soprano?",
     "answer": "The Sopranos",
     "choices": [
       "The Sopranos",
@@ -3762,7 +3762,7 @@
     "explanation": "Tony Soprano is a central character or element in The Sopranos."
   },
   {
-    "question": "Movie trivia: Who directed The Lord of the Rings: The Fellowship of the Ring?",
+    "question": "Who directed The Lord of the Rings: The Fellowship of the Ring?",
     "answer": "Peter Jackson",
     "choices": [
       "Frank Darabont",
@@ -3773,7 +3773,7 @@
     "explanation": "The Lord of the Rings: The Fellowship of the Ring was directed by Peter Jackson."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Indiana Jones?",
+    "question": "Which film is most closely associated with Indiana Jones?",
     "answer": "Raiders of the Lost Ark",
     "choices": [
       "The Godfather",
@@ -3784,7 +3784,7 @@
     "explanation": "Indiana Jones is strongly associated with Raiders of the Lost Ark."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Walking Dead?",
+    "question": "Which network or streaming service originally aired The Walking Dead?",
     "answer": "AMC",
     "choices": [
       "HBO",
@@ -3795,7 +3795,7 @@
     "explanation": "The Walking Dead originally aired on AMC."
   },
   {
-    "question": "Movie trivia: In what year was The Shawshank Redemption originally released?",
+    "question": "In what year was The Shawshank Redemption originally released?",
     "answer": "1994",
     "choices": [
       "2013",
@@ -3806,7 +3806,7 @@
     "explanation": "The Shawshank Redemption was originally released in 1994."
   },
   {
-    "question": "Movie trivia: Who directed Forrest Gump?",
+    "question": "Who directed Forrest Gump?",
     "answer": "Robert Zemeckis",
     "choices": [
       "Steven Spielberg",
@@ -3817,7 +3817,7 @@
     "explanation": "Forrest Gump was directed by Robert Zemeckis."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Cooper?",
+    "question": "Which film is most closely associated with Cooper?",
     "answer": "Interstellar",
     "choices": [
       "Interstellar",
@@ -3828,7 +3828,7 @@
     "explanation": "Cooper is strongly associated with Interstellar."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Maverick?",
+    "question": "Which film is most closely associated with Maverick?",
     "answer": "Top Gun",
     "choices": [
       "Top Gun",
@@ -3839,7 +3839,7 @@
     "explanation": "Maverick is strongly associated with Top Gun."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Philadelphia boxer?",
+    "question": "Which film is most closely associated with Philadelphia boxer?",
     "answer": "Rocky",
     "choices": [
       "Gladiator",
@@ -3850,7 +3850,7 @@
     "explanation": "Philadelphia boxer is strongly associated with Rocky."
   },
   {
-    "question": "Movie trivia: Which TV show features Dunder Mifflin?",
+    "question": "Which TV show features Dunder Mifflin?",
     "answer": "The Office",
     "choices": [
       "Twin Peaks",
@@ -3861,7 +3861,7 @@
     "explanation": "Dunder Mifflin is a central character or element in The Office."
   },
   {
-    "question": "Movie trivia: Who directed Star Wars?",
+    "question": "Who directed Star Wars?",
     "answer": "George Lucas",
     "choices": [
       "Joss Whedon",
@@ -3872,7 +3872,7 @@
     "explanation": "Star Wars was directed by George Lucas."
   },
   {
-    "question": "Movie trivia: In what year was E.T. the Extra-Terrestrial originally released?",
+    "question": "In what year was E.T. the Extra-Terrestrial originally released?",
     "answer": "1982",
     "choices": [
       "2008",
@@ -3883,7 +3883,7 @@
     "explanation": "E.T. the Extra-Terrestrial was originally released in 1982."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Marlin and Dory?",
+    "question": "Which film is most closely associated with Marlin and Dory?",
     "answer": "Finding Nemo",
     "choices": [
       "Inception",
@@ -3894,7 +3894,7 @@
     "explanation": "Marlin and Dory is strongly associated with Finding Nemo."
   },
   {
-    "question": "Movie trivia: Who directed The Wizard of Oz?",
+    "question": "Who directed The Wizard of Oz?",
     "answer": "Victor Fleming",
     "choices": [
       "Victor Fleming",
@@ -3905,7 +3905,7 @@
     "explanation": "The Wizard of Oz was directed by Victor Fleming."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Game of Thrones?",
+    "question": "Which network or streaming service originally aired Game of Thrones?",
     "answer": "HBO",
     "choices": [
       "NBC",
@@ -3916,7 +3916,7 @@
     "explanation": "Game of Thrones originally aired on HBO."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Simpsons?",
+    "question": "Which network or streaming service originally aired The Simpsons?",
     "answer": "Fox",
     "choices": [
       "Netflix",
@@ -3927,7 +3927,7 @@
     "explanation": "The Simpsons originally aired on Fox."
   },
   {
-    "question": "Movie trivia: Which TV show features Targaryens?",
+    "question": "Which TV show features Targaryens?",
     "answer": "House of the Dragon",
     "choices": [
       "Grey's Anatomy",
@@ -3938,7 +3938,7 @@
     "explanation": "Targaryens is a central character or element in House of the Dragon."
   },
   {
-    "question": "Movie trivia: Who directed Black Panther?",
+    "question": "Who directed Black Panther?",
     "answer": "Ryan Coogler",
     "choices": [
       "Hayao Miyazaki",
@@ -3949,7 +3949,7 @@
     "explanation": "Black Panther was directed by Ryan Coogler."
   },
   {
-    "question": "Movie trivia: Who directed Avatar?",
+    "question": "Who directed Avatar?",
     "answer": "James Cameron",
     "choices": [
       "James Cameron",
@@ -3960,7 +3960,7 @@
     "explanation": "Avatar was directed by James Cameron."
   },
   {
-    "question": "Movie trivia: Who directed The Avengers?",
+    "question": "Who directed The Avengers?",
     "answer": "Joss Whedon",
     "choices": [
       "Tony Scott",
@@ -3971,7 +3971,7 @@
     "explanation": "The Avengers was directed by Joss Whedon."
   },
   {
-    "question": "Movie trivia: Which TV show features Jimmy McGill?",
+    "question": "Which TV show features Jimmy McGill?",
     "answer": "Better Call Saul",
     "choices": [
       "Better Call Saul",
@@ -3982,7 +3982,7 @@
     "explanation": "Jimmy McGill is a central character or element in Better Call Saul."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Corleone family?",
+    "question": "Which film is most closely associated with Corleone family?",
     "answer": "The Godfather",
     "choices": [
       "The Godfather",
@@ -3993,7 +3993,7 @@
     "explanation": "Corleone family is strongly associated with The Godfather."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired The Last of Us?",
+    "question": "Which network or streaming service originally aired The Last of Us?",
     "answer": "HBO",
     "choices": [
       "HBO",
@@ -4004,7 +4004,7 @@
     "explanation": "The Last of Us originally aired on HBO."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Breaking Bad?",
+    "question": "Which network or streaming service originally aired Breaking Bad?",
     "answer": "AMC",
     "choices": [
       "HBO",
@@ -4015,7 +4015,7 @@
     "explanation": "Breaking Bad originally aired on AMC."
   },
   {
-    "question": "Movie trivia: How many Academy Awards did Ben-Hur win?",
+    "question": "How many Academy Awards did Ben-Hur win?",
     "answer": "11",
     "choices": [
       "10",
@@ -4026,7 +4026,7 @@
     "explanation": "Ben-Hur won 11 Academy Awards."
   },
   {
-    "question": "Movie trivia: In what year was Casablanca originally released?",
+    "question": "In what year was Casablanca originally released?",
     "answer": "1942",
     "choices": [
       "1999",
@@ -4037,7 +4037,7 @@
     "explanation": "Casablanca was originally released in 1942."
   },
   {
-    "question": "Movie trivia: In what year was Alien originally released?",
+    "question": "In what year was Alien originally released?",
     "answer": "1979",
     "choices": [
       "1999",
@@ -4048,7 +4048,7 @@
     "explanation": "Alien was originally released in 1979."
   },
   {
-    "question": "Movie trivia: In what year was Die Hard originally released?",
+    "question": "In what year was Die Hard originally released?",
     "answer": "1988",
     "choices": [
       "1972",
@@ -4059,7 +4059,7 @@
     "explanation": "Die Hard was originally released in 1988."
   },
   {
-    "question": "Movie trivia: Which TV show features Westeros?",
+    "question": "Which TV show features Westeros?",
     "answer": "Game of Thrones",
     "choices": [
       "Game of Thrones",
@@ -4070,7 +4070,7 @@
     "explanation": "Westeros is a central character or element in Game of Thrones."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Lost?",
+    "question": "Which network or streaming service originally aired Lost?",
     "answer": "ABC",
     "choices": [
       "NBC",
@@ -4081,7 +4081,7 @@
     "explanation": "Lost originally aired on ABC."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Neo?",
+    "question": "Which film is most closely associated with Neo?",
     "answer": "The Matrix",
     "choices": [
       "Se7en",
@@ -4092,7 +4092,7 @@
     "explanation": "Neo is strongly associated with The Matrix."
   },
   {
-    "question": "Movie trivia: In what year was Jaws originally released?",
+    "question": "In what year was Jaws originally released?",
     "answer": "1975",
     "choices": [
       "1982",
@@ -4103,7 +4103,7 @@
     "explanation": "Jaws was originally released in 1975."
   },
   {
-    "question": "Movie trivia: Which TV show features Fox Mulder?",
+    "question": "Which TV show features Fox Mulder?",
     "answer": "The X-Files",
     "choices": [
       "The X-Files",
@@ -4114,7 +4114,7 @@
     "explanation": "Fox Mulder is a central character or element in The X-Files."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Furiosa?",
+    "question": "Which film is most closely associated with Furiosa?",
     "answer": "Mad Max: Fury Road",
     "choices": [
       "My Neighbor Totoro",
@@ -4125,7 +4125,7 @@
     "explanation": "Furiosa is strongly associated with Mad Max: Fury Road."
   },
   {
-    "question": "Movie trivia: Who directed Parasite?",
+    "question": "Who directed Parasite?",
     "answer": "Bong Joon-ho",
     "choices": [
       "Peter Jackson",
@@ -4136,7 +4136,7 @@
     "explanation": "Parasite was directed by Bong Joon-ho."
   },
   {
-    "question": "Movie trivia: Who directed Psycho?",
+    "question": "Who directed Psycho?",
     "answer": "Alfred Hitchcock",
     "choices": [
       "Alfred Hitchcock",
@@ -4147,7 +4147,7 @@
     "explanation": "Psycho was directed by Alfred Hitchcock."
   },
   {
-    "question": "Movie trivia: In what year was Home Alone originally released?",
+    "question": "In what year was Home Alone originally released?",
     "answer": "1990",
     "choices": [
       "1985",
@@ -4158,7 +4158,7 @@
     "explanation": "Home Alone was originally released in 1990."
   },
   {
-    "question": "Movie trivia: In what year was Parasite originally released?",
+    "question": "In what year was Parasite originally released?",
     "answer": "2019",
     "choices": [
       "2010",
@@ -4169,7 +4169,7 @@
     "explanation": "Parasite was originally released in 2019."
   },
   {
-    "question": "Movie trivia: In what year was Rocky originally released?",
+    "question": "In what year was Rocky originally released?",
     "answer": "1976",
     "choices": [
       "1960",
@@ -4180,7 +4180,7 @@
     "explanation": "Rocky was originally released in 1976."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired House of the Dragon?",
+    "question": "Which network or streaming service originally aired House of the Dragon?",
     "answer": "HBO",
     "choices": [
       "Netflix",
@@ -4191,7 +4191,7 @@
     "explanation": "House of the Dragon originally aired on HBO."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired ER?",
+    "question": "Which network or streaming service originally aired ER?",
     "answer": "NBC",
     "choices": [
       "HBO",
@@ -4202,7 +4202,7 @@
     "explanation": "ER originally aired on NBC."
   },
   {
-    "question": "Movie trivia: Who directed Frozen?",
+    "question": "Who directed Frozen?",
     "answer": "Chris Buck and Jennifer Lee",
     "choices": [
       "Alfred Hitchcock",
@@ -4213,7 +4213,7 @@
     "explanation": "Frozen was directed by Chris Buck and Jennifer Lee."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Kevin McCallister?",
+    "question": "Which film is most closely associated with Kevin McCallister?",
     "answer": "Home Alone",
     "choices": [
       "Psycho",
@@ -4224,7 +4224,7 @@
     "explanation": "Kevin McCallister is strongly associated with Home Alone."
   },
   {
-    "question": "Movie trivia: In what year was The Lion King originally released?",
+    "question": "In what year was The Lion King originally released?",
     "answer": "1994",
     "choices": [
       "1981",
@@ -4235,7 +4235,7 @@
     "explanation": "The Lion King was originally released in 1994."
   },
   {
-    "question": "Movie trivia: Which TV show features Jed Bartlet?",
+    "question": "Which TV show features Jed Bartlet?",
     "answer": "The West Wing",
     "choices": [
       "Sherlock",
@@ -4246,7 +4246,7 @@
     "explanation": "Jed Bartlet is a central character or element in The West Wing."
   },
   {
-    "question": "Movie trivia: Who directed Shrek?",
+    "question": "Who directed Shrek?",
     "answer": "Andrew Adamson and Vicky Jenson",
     "choices": [
       "Andrew Adamson and Vicky Jenson",
@@ -4257,7 +4257,7 @@
     "explanation": "Shrek was directed by Andrew Adamson and Vicky Jenson."
   },
   {
-    "question": "Movie trivia: In what year was The Lord of the Rings: The Fellowship of the Ring originally released?",
+    "question": "In what year was The Lord of the Rings: The Fellowship of the Ring originally released?",
     "answer": "2001",
     "choices": [
       "1979",
@@ -4268,7 +4268,7 @@
     "explanation": "The Lord of the Rings: The Fellowship of the Ring was originally released in 2001."
   },
   {
-    "question": "Movie trivia: Who directed Interstellar?",
+    "question": "Who directed Interstellar?",
     "answer": "Christopher Nolan",
     "choices": [
       "Christopher Nolan",
@@ -4279,7 +4279,7 @@
     "explanation": "Interstellar was directed by Christopher Nolan."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Pandora?",
+    "question": "Which film is most closely associated with Pandora?",
     "answer": "Avatar",
     "choices": [
       "Vertigo",
@@ -4290,7 +4290,7 @@
     "explanation": "Pandora is strongly associated with Avatar."
   },
   {
-    "question": "Movie trivia: Which TV show features Sheldon Cooper?",
+    "question": "Which TV show features Sheldon Cooper?",
     "answer": "The Big Bang Theory",
     "choices": [
       "The Big Bang Theory",
@@ -4301,7 +4301,7 @@
     "explanation": "Sheldon Cooper is a central character or element in The Big Bang Theory."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Friends?",
+    "question": "Which network or streaming service originally aired Friends?",
     "answer": "NBC",
     "choices": [
       "CBS",
@@ -4312,7 +4312,7 @@
     "explanation": "Friends originally aired on NBC."
   },
   {
-    "question": "Movie trivia: In what year was The Avengers originally released?",
+    "question": "In what year was The Avengers originally released?",
     "answer": "2012",
     "choices": [
       "2012",
@@ -4323,7 +4323,7 @@
     "explanation": "The Avengers was originally released in 2012."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Harry Potter?",
+    "question": "Which film is most closely associated with Harry Potter?",
     "answer": "Harry Potter and the Sorcerer's Stone",
     "choices": [
       "Shrek",
@@ -4334,7 +4334,7 @@
     "explanation": "Harry Potter is strongly associated with Harry Potter and the Sorcerer's Stone."
   },
   {
-    "question": "Movie trivia: Who directed Blade Runner?",
+    "question": "Who directed Blade Runner?",
     "answer": "Ridley Scott",
     "choices": [
       "Ridley Scott",
@@ -4345,7 +4345,7 @@
     "explanation": "Blade Runner was directed by Ridley Scott."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Scarlett O'Hara?",
+    "question": "Which film is most closely associated with Scarlett O'Hara?",
     "answer": "Gone with the Wind",
     "choices": [
       "Gone with the Wind",
@@ -4356,7 +4356,7 @@
     "explanation": "Scarlett O'Hara is strongly associated with Gone with the Wind."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Aragorn?",
+    "question": "Which film is most closely associated with Aragorn?",
     "answer": "The Return of the King",
     "choices": [
       "The Matrix",
@@ -4367,7 +4367,7 @@
     "explanation": "Aragorn is strongly associated with The Return of the King."
   },
   {
-    "question": "Movie trivia: Which TV show features Jack Bauer?",
+    "question": "Which TV show features Jack Bauer?",
     "answer": "24",
     "choices": [
       "Game of Thrones",
@@ -4378,7 +4378,7 @@
     "explanation": "Jack Bauer is a central character or element in 24."
   },
   {
-    "question": "Movie trivia: Who directed The Lion King?",
+    "question": "Who directed The Lion King?",
     "answer": "Roger Allers and Rob Minkoff",
     "choices": [
       "Roger Allers and Rob Minkoff",
@@ -4389,7 +4389,7 @@
     "explanation": "The Lion King was directed by Roger Allers and Rob Minkoff."
   },
   {
-    "question": "Movie trivia: In what year was Titanic originally released?",
+    "question": "In what year was Titanic originally released?",
     "answer": "1997",
     "choices": [
       "1997",
@@ -4400,7 +4400,7 @@
     "explanation": "Titanic was originally released in 1997."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Vincent Vega?",
+    "question": "Which film is most closely associated with Vincent Vega?",
     "answer": "Pulp Fiction",
     "choices": [
       "Pulp Fiction",
@@ -4411,7 +4411,7 @@
     "explanation": "Vincent Vega is strongly associated with Pulp Fiction."
   },
   {
-    "question": "Movie trivia: Who directed Jaws?",
+    "question": "Who directed Jaws?",
     "answer": "Steven Spielberg",
     "choices": [
       "Steven Spielberg",
@@ -4422,7 +4422,7 @@
     "explanation": "Jaws was directed by Steven Spielberg."
   },
   {
-    "question": "Movie trivia: In what year was Gone with the Wind originally released?",
+    "question": "In what year was Gone with the Wind originally released?",
     "answer": "1939",
     "choices": [
       "1993",
@@ -4433,7 +4433,7 @@
     "explanation": "Gone with the Wind was originally released in 1939."
   },
   {
-    "question": "Movie trivia: In what year was Jurassic Park originally released?",
+    "question": "In what year was Jurassic Park originally released?",
     "answer": "1993",
     "choices": [
       "1991",
@@ -4444,7 +4444,7 @@
     "explanation": "Jurassic Park was originally released in 1993."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Totoro?",
+    "question": "Which film is most closely associated with Totoro?",
     "answer": "My Neighbor Totoro",
     "choices": [
       "Psycho",
@@ -4455,7 +4455,7 @@
     "explanation": "Totoro is strongly associated with My Neighbor Totoro."
   },
   {
-    "question": "Movie trivia: Who directed Casablanca?",
+    "question": "Who directed Casablanca?",
     "answer": "Michael Curtiz",
     "choices": [
       "Peter Jackson",
@@ -4466,7 +4466,7 @@
     "explanation": "Casablanca was directed by Michael Curtiz."
   },
   {
-    "question": "Movie trivia: In what year was Toy Story originally released?",
+    "question": "In what year was Toy Story originally released?",
     "answer": "1995",
     "choices": [
       "1994",
@@ -4477,7 +4477,7 @@
     "explanation": "Toy Story was originally released in 1995."
   },
   {
-    "question": "Movie trivia: Who directed Finding Nemo?",
+    "question": "Who directed Finding Nemo?",
     "answer": "Andrew Stanton",
     "choices": [
       "Quentin Tarantino",
@@ -4488,7 +4488,7 @@
     "explanation": "Finding Nemo was directed by Andrew Stanton."
   },
   {
-    "question": "Movie trivia: Which TV show features Meredith Grey?",
+    "question": "Which TV show features Meredith Grey?",
     "answer": "Grey's Anatomy",
     "choices": [
       "Seinfeld",
@@ -4499,7 +4499,7 @@
     "explanation": "Meredith Grey is a central character or element in Grey's Anatomy."
   },
   {
-    "question": "Movie trivia: Which film won the Academy Award for Best Picture 2017?",
+    "question": "Which film won the Academy Award for Best Picture 2017?",
     "answer": "Moonlight",
     "choices": [
       "Ben-Hur",
@@ -4510,7 +4510,7 @@
     "explanation": "Moonlight won the Academy Award for Best Picture 2017."
   },
   {
-    "question": "Movie trivia: Which TV show features Springfield?",
+    "question": "Which TV show features Springfield?",
     "answer": "The Simpsons",
     "choices": [
       "Better Call Saul",
@@ -4521,7 +4521,7 @@
     "explanation": "Springfield is a central character or element in The Simpsons."
   },
   {
-    "question": "Movie trivia: How many Academy Awards did The Lord of the Rings: The Return of the King win?",
+    "question": "How many Academy Awards did The Lord of the Rings: The Return of the King win?",
     "answer": "11",
     "choices": [
       "9",
@@ -4532,7 +4532,7 @@
     "explanation": "The Lord of the Rings: The Return of the King won 11 Academy Awards."
   },
   {
-    "question": "Movie trivia: Which TV show features Jerry Seinfeld?",
+    "question": "Which TV show features Jerry Seinfeld?",
     "answer": "Seinfeld",
     "choices": [
       "Succession",
@@ -4543,7 +4543,7 @@
     "explanation": "Jerry Seinfeld is a central character or element in Seinfeld."
   },
   {
-    "question": "Movie trivia: How many Academy Awards did Titanic win?",
+    "question": "How many Academy Awards did Titanic win?",
     "answer": "11",
     "choices": [
       "12",
@@ -4554,7 +4554,7 @@
     "explanation": "Titanic won 11 Academy Awards."
   },
   {
-    "question": "Movie trivia: Who directed E.T. the Extra-Terrestrial?",
+    "question": "Who directed E.T. the Extra-Terrestrial?",
     "answer": "Steven Spielberg",
     "choices": [
       "Martin Scorsese",
@@ -4565,7 +4565,7 @@
     "explanation": "E.T. the Extra-Terrestrial was directed by Steven Spielberg."
   },
   {
-    "question": "Movie trivia: In what year was Top Gun originally released?",
+    "question": "In what year was Top Gun originally released?",
     "answer": "1986",
     "choices": [
       "1986",
@@ -4576,7 +4576,7 @@
     "explanation": "Top Gun was originally released in 1986."
   },
   {
-    "question": "Movie trivia: Which TV show features zombies?",
+    "question": "Which TV show features zombies?",
     "answer": "The Walking Dead",
     "choices": [
       "The Walking Dead",
@@ -4587,7 +4587,7 @@
     "explanation": "zombies is a central character or element in The Walking Dead."
   },
   {
-    "question": "Movie trivia: Who directed The Matrix?",
+    "question": "Who directed The Matrix?",
     "answer": "the Wachowskis",
     "choices": [
       "Peter Jackson",
@@ -4598,7 +4598,7 @@
     "explanation": "The Matrix was directed by the Wachowskis."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Woody and Buzz?",
+    "question": "Which film is most closely associated with Woody and Buzz?",
     "answer": "Toy Story",
     "choices": [
       "Toy Story",
@@ -4609,7 +4609,7 @@
     "explanation": "Woody and Buzz is strongly associated with Toy Story."
   },
   {
-    "question": "Movie trivia: In what year was The Social Network originally released?",
+    "question": "In what year was The Social Network originally released?",
     "answer": "2010",
     "choices": [
       "1990",
@@ -4620,7 +4620,7 @@
     "explanation": "The Social Network was originally released in 2010."
   },
   {
-    "question": "Movie trivia: In what year was Shrek originally released?",
+    "question": "In what year was Shrek originally released?",
     "answer": "2001",
     "choices": [
       "2018",
@@ -4631,7 +4631,7 @@
     "explanation": "Shrek was originally released in 2001."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Forrest Gump?",
+    "question": "Which film is most closely associated with Forrest Gump?",
     "answer": "Forrest Gump",
     "choices": [
       "Whiplash",
@@ -4642,7 +4642,7 @@
     "explanation": "Forrest Gump is strongly associated with Forrest Gump."
   },
   {
-    "question": "Movie trivia: Which TV show features Laura Palmer?",
+    "question": "Which TV show features Laura Palmer?",
     "answer": "Twin Peaks",
     "choices": [
       "Stranger Things",
@@ -4653,7 +4653,7 @@
     "explanation": "Laura Palmer is a central character or element in Twin Peaks."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Scottie Ferguson?",
+    "question": "Which film is most closely associated with Scottie Ferguson?",
     "answer": "Vertigo",
     "choices": [
       "Toy Story",
@@ -4664,7 +4664,7 @@
     "explanation": "Scottie Ferguson is strongly associated with Vertigo."
   },
   {
-    "question": "Movie trivia: In what year was Mad Max: Fury Road originally released?",
+    "question": "In what year was Mad Max: Fury Road originally released?",
     "answer": "2015",
     "choices": [
       "2015",
@@ -4675,7 +4675,7 @@
     "explanation": "Mad Max: Fury Road was originally released in 2015."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Cheers?",
+    "question": "Which network or streaming service originally aired Cheers?",
     "answer": "NBC",
     "choices": [
       "NBC",
@@ -4686,7 +4686,7 @@
     "explanation": "Cheers originally aired on NBC."
   },
   {
-    "question": "Movie trivia: Who directed The Social Network?",
+    "question": "Who directed The Social Network?",
     "answer": "David Fincher",
     "choices": [
       "Alfred Hitchcock",
@@ -4697,7 +4697,7 @@
     "explanation": "The Social Network was directed by David Fincher."
   },
   {
-    "question": "Movie trivia: Who directed Titanic?",
+    "question": "Who directed Titanic?",
     "answer": "James Cameron",
     "choices": [
       "Alfred Hitchcock",
@@ -4708,7 +4708,7 @@
     "explanation": "Titanic was directed by James Cameron."
   },
   {
-    "question": "Movie trivia: Who directed Die Hard?",
+    "question": "Who directed Die Hard?",
     "answer": "John McTiernan",
     "choices": [
       "Alfred Hitchcock",
@@ -4719,7 +4719,7 @@
     "explanation": "Die Hard was directed by John McTiernan."
   },
   {
-    "question": "Movie trivia: Which TV show features Queen Elizabeth II?",
+    "question": "Which TV show features Queen Elizabeth II?",
     "answer": "The Crown",
     "choices": [
       "The Crown",
@@ -4730,7 +4730,7 @@
     "explanation": "Queen Elizabeth II is a central character or element in The Crown."
   },
   {
-    "question": "Movie trivia: Which TV show features Rachel Green?",
+    "question": "Which TV show features Rachel Green?",
     "answer": "Friends",
     "choices": [
       "24",
@@ -4741,7 +4741,7 @@
     "explanation": "Rachel Green is a central character or element in Friends."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Chihiro?",
+    "question": "Which film is most closely associated with Chihiro?",
     "answer": "Spirited Away",
     "choices": [
       "Spirited Away",
@@ -4752,7 +4752,7 @@
     "explanation": "Chihiro is strongly associated with Spirited Away."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with serial killer?",
+    "question": "Which film is most closely associated with serial killer?",
     "answer": "Se7en",
     "choices": [
       "Se7en",
@@ -4763,7 +4763,7 @@
     "explanation": "serial killer is strongly associated with Se7en."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with an ogre?",
+    "question": "Which film is most closely associated with an ogre?",
     "answer": "Shrek",
     "choices": [
       "Rocky",
@@ -4961,7 +4961,7 @@
     "explanation": "E.T. the Extra-Terrestrial was directed by Steven Spielberg."
   },
   {
-    "question": "Movie trivia: Which film won the Academy Award for Best Picture 2020?",
+    "question": "Which film won the Academy Award for Best Picture 2020?",
     "answer": "Parasite",
     "choices": [
       "The Lord of the Rings: The Return of the King",
@@ -5302,7 +5302,7 @@
     "explanation": "Meredith Grey is a central character or element in Grey's Anatomy."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Grey's Anatomy?",
+    "question": "Which network or streaming service originally aired Grey's Anatomy?",
     "answer": "ABC",
     "choices": [
       "Netflix",
@@ -5566,7 +5566,7 @@
     "explanation": "RMS Titanic is strongly associated with Titanic."
   },
   {
-    "question": "Movie trivia: In what year was Blade Runner originally released?",
+    "question": "In what year was Blade Runner originally released?",
     "answer": "1982",
     "choices": [
       "1942",
@@ -5588,7 +5588,7 @@
     "explanation": "Avatar was originally released in 2009."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Dexter?",
+    "question": "Which network or streaming service originally aired Dexter?",
     "answer": "Showtime",
     "choices": [
       "FX",
@@ -5654,7 +5654,7 @@
     "explanation": "E.T. the Extra-Terrestrial was originally released in 1982."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Succession?",
+    "question": "Which network or streaming service originally aired Succession?",
     "answer": "HBO",
     "choices": [
       "HBO",
@@ -5753,7 +5753,7 @@
     "explanation": "John McClane is strongly associated with Die Hard."
   },
   {
-    "question": "Movie trivia: Which TV show features the island?",
+    "question": "Which TV show features the island?",
     "answer": "Lost",
     "choices": [
       "Lost",
@@ -6435,7 +6435,7 @@
     "explanation": "Blade Runner was directed by Ridley Scott."
   },
   {
-    "question": "Movie trivia: Who directed Fight Club?",
+    "question": "Who directed Fight Club?",
     "answer": "David Fincher",
     "choices": [
       "Andrew Adamson and Vicky Jenson",
@@ -6622,7 +6622,7 @@
     "explanation": "Pulp Fiction was directed by Quentin Tarantino."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Survivor?",
+    "question": "Which network or streaming service originally aired Survivor?",
     "answer": "CBS",
     "choices": [
       "CBS",
@@ -6765,7 +6765,7 @@
     "explanation": "ER originally aired on NBC."
   },
   {
-    "question": "Movie trivia: In what year was The Return of the King originally released?",
+    "question": "In what year was The Return of the King originally released?",
     "answer": "2003",
     "choices": [
       "2010",
@@ -6853,7 +6853,7 @@
     "explanation": "RMS Titanic is strongly associated with Titanic."
   },
   {
-    "question": "Movie trivia: Which film won the Academy Award for Best Picture 2023?",
+    "question": "Which film won the Academy Award for Best Picture 2023?",
     "answer": "Everything Everywhere All at Once",
     "choices": [
       "Everything Everywhere All at Once",
@@ -7062,7 +7062,7 @@
     "explanation": "Moonlight won the Academy Award for Best Picture 2017."
   },
   {
-    "question": "Movie trivia: In what year was Forrest Gump originally released?",
+    "question": "In what year was Forrest Gump originally released?",
     "answer": "1994",
     "choices": [
       "1994",
@@ -7392,7 +7392,7 @@
     "explanation": "Frozen was directed by Chris Buck and Jennifer Lee."
   },
   {
-    "question": "Movie trivia: Which film won the Academy Award for Best Picture 1973?",
+    "question": "Which film won the Academy Award for Best Picture 1973?",
     "answer": "The Godfather",
     "choices": [
       "Titanic",
@@ -7469,7 +7469,7 @@
     "explanation": "Vincent Vega is strongly associated with Pulp Fiction."
   },
   {
-    "question": "Movie trivia: Which network or streaming service originally aired Doctor Who?",
+    "question": "Which network or streaming service originally aired Doctor Who?",
     "answer": "BBC",
     "choices": [
       "NBC",
@@ -7590,7 +7590,7 @@
     "explanation": "Parks and Recreation originally aired on NBC."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Elliott?",
+    "question": "Which film is most closely associated with Elliott?",
     "answer": "E.T. the Extra-Terrestrial",
     "choices": [
       "Avatar",
@@ -8074,7 +8074,7 @@
     "explanation": "Lost originally aired on ABC."
   },
   {
-    "question": "Movie trivia: Who directed Jurassic Park?",
+    "question": "Who directed Jurassic Park?",
     "answer": "Steven Spielberg",
     "choices": [
       "Steven Spielberg",
@@ -8151,7 +8151,7 @@
     "explanation": "Frodo Baggins is strongly associated with The Lord of the Rings: The Fellowship of the Ring."
   },
   {
-    "question": "Movie trivia: In what year was Back to the Future originally released?",
+    "question": "In what year was Back to the Future originally released?",
     "answer": "1985",
     "choices": [
       "1982",
@@ -8217,7 +8217,7 @@
     "explanation": "221B Baker Street is a central character or element in Sherlock."
   },
   {
-    "question": "Movie trivia: Which film is most closely associated with Andy Dufresne?",
+    "question": "Which film is most closely associated with Andy Dufresne?",
     "answer": "The Shawshank Redemption",
     "choices": [
       "Alien",
@@ -8492,7 +8492,7 @@
     "explanation": "Maximus is strongly associated with Gladiator."
   },
   {
-    "question": "Movie trivia: In what year was The Godfather originally released?",
+    "question": "In what year was The Godfather originally released?",
     "answer": "1972",
     "choices": [
       "2003",
@@ -9680,7 +9680,7 @@
     "explanation": "American Idol originally aired on Fox."
   },
   {
-    "question": "Movie trivia: In what year was Inception originally released?",
+    "question": "In what year was Inception originally released?",
     "answer": "2010",
     "choices": [
       "1976",
@@ -9856,7 +9856,7 @@
     "explanation": "Cooper is strongly associated with Interstellar."
   },
   {
-    "question": "Movie trivia: In what year was Frozen originally released?",
+    "question": "In what year was Frozen originally released?",
     "answer": "2013",
     "choices": [
       "2013",
@@ -10813,7 +10813,7 @@
     "explanation": "The Wire originally aired on HBO."
   },
   {
-    "question": "Movie trivia: In what year was Star Wars originally released?",
+    "question": "In what year was Star Wars originally released?",
     "answer": "1977",
     "choices": [
       "1939",

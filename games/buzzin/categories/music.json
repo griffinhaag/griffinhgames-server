@@ -26,7 +26,7 @@
     "answer": "Madonna",
     "choices": [
       "Madonna",
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Lady Gaga",
       "Whitney Houston"
     ],
@@ -34,14 +34,14 @@
   },
   {
     "question": "Which singer released the album 'Lemonade' in 2016?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Rihanna",
       "Adele",
       "Taylor Swift"
     ],
-    "explanation": "Beyoncé released the visual album 'Lemonade' in 2016, exploring themes of infidelity and empowerment."
+    "explanation": "Beyonc\u00e9 released the visual album 'Lemonade' in 2016, exploring themes of infidelity and empowerment."
   },
   {
     "question": "What instrument does a pianist play?",
@@ -283,7 +283,7 @@
       "Cardi B",
       "Doja Cat"
     ],
-    "explanation": "Megan Thee Stallion's 'Savage' (featuring Beyoncé) was a massive hit from her 2020 debut album 'Good News.'"
+    "explanation": "Megan Thee Stallion's 'Savage' (featuring Beyonc\u00e9) was a massive hit from her 2020 debut album 'Good News.'"
   },
   {
     "question": "What is the name of the highest pitched of the four main voice types?",
@@ -319,15 +319,15 @@
     "explanation": "Ska originated in Jamaica in the late 1950s and is considered the predecessor of reggae music."
   },
   {
-    "question": "Who wrote the classical piece 'Für Elise'?",
+    "question": "Who wrote the classical piece 'F\u00fcr Elise'?",
     "answer": "Ludwig van Beethoven",
     "choices": [
       "Ludwig van Beethoven",
       "Wolfgang Amadeus Mozart",
-      "Frédéric Chopin",
+      "Fr\u00e9d\u00e9ric Chopin",
       "Franz Schubert"
     ],
-    "explanation": "'Für Elise' (1810) is a famous piano composition by Ludwig van Beethoven."
+    "explanation": "'F\u00fcr Elise' (1810) is a famous piano composition by Ludwig van Beethoven."
   },
   {
     "question": "Which singer is nicknamed 'The Boss'?",
@@ -661,14 +661,14 @@
   },
   {
     "question": "Who performed the halftime show at Super Bowl XLVII?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Bruno Mars",
       "Lady Gaga",
       "Katy Perry"
     ],
-    "explanation": "Beyoncé performed the halftime show at Super Bowl XLVII in February 2013 in New Orleans."
+    "explanation": "Beyonc\u00e9 performed the halftime show at Super Bowl XLVII in February 2013 in New Orleans."
   },
   {
     "question": "Which hip-hop artist created the alter ego Slim Shady?",
@@ -712,7 +712,7 @@
       "Romantic period",
       "Renaissance period"
     ],
-    "explanation": "Wolfgang Amadeus Mozart (1756–1791) was a central figure of the Classical period in Western music."
+    "explanation": "Wolfgang Amadeus Mozart (1756\u20131791) was a central figure of the Classical period in Western music."
   },
   {
     "question": "Which pop duo is known for 'I Got You Babe' and 'The Beat Goes On'?",
@@ -727,14 +727,14 @@
   },
   {
     "question": "Which Spanish classical guitarist composed 'Recuerdos de la Alhambra'?",
-    "answer": "Francisco Tárrega",
+    "answer": "Francisco T\u00e1rrega",
     "choices": [
-      "Francisco Tárrega",
-      "Andrés Segovia",
-      "Agustín Barrios",
+      "Francisco T\u00e1rrega",
+      "Andr\u00e9s Segovia",
+      "Agust\u00edn Barrios",
       "Fernando Sor"
     ],
-    "explanation": "'Recuerdos de la Alhambra' (1896) by Francisco Tárrega is famous for its tremolo picking technique."
+    "explanation": "'Recuerdos de la Alhambra' (1896) by Francisco T\u00e1rrega is famous for its tremolo picking technique."
   },
   {
     "question": "What does BPM stand for in music?",
@@ -749,14 +749,14 @@
   },
   {
     "question": "Which female singer is known as 'Queen Bey'?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Cardi B",
       "Nicki Minaj",
       "Rihanna"
     ],
-    "explanation": "Beyoncé Giselle Knowles-Carter is widely called 'Queen Bey' by her fans, known as the Beyhive."
+    "explanation": "Beyonc\u00e9 Giselle Knowles-Carter is widely called 'Queen Bey' by her fans, known as the Beyhive."
   },
   {
     "question": "Who wrote the opera 'The Magic Flute'?",
@@ -837,14 +837,14 @@
   },
   {
     "question": "What is the signature instrument of a mariachi band?",
-    "answer": "Guitarrón",
+    "answer": "Guitarr\u00f3n",
     "choices": [
-      "Guitarrón",
+      "Guitarr\u00f3n",
       "Guitar",
       "Vihuela",
       "Trumpet"
     ],
-    "explanation": "The guitarrón (large acoustic bass guitar) provides the bass foundation of traditional mariachi music."
+    "explanation": "The guitarr\u00f3n (large acoustic bass guitar) provides the bass foundation of traditional mariachi music."
   },
   {
     "question": "Which rapper is known for 'HUMBLE.' and 'DNA.'?",
@@ -965,7 +965,7 @@
       "Harpsichord",
       "Accordion"
     ],
-    "explanation": "A standard piano has 88 keys — 52 white and 36 black — spanning over 7 octaves."
+    "explanation": "A standard piano has 88 keys \u2014 52 white and 36 black \u2014 spanning over 7 octaves."
   },
   {
     "question": "Who is considered the 'Father of Rock and Roll'?",
@@ -1112,14 +1112,14 @@
   },
   {
     "question": "Which singer performed at Coachella in 2018 with a historic headline set?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Taylor Swift",
       "Lady Gaga",
       "Cardi B"
     ],
-    "explanation": "Beyoncé's 2018 Coachella performance ('Beychella') was a historic HBCU-themed set, later turned into the Netflix film 'Homecoming.'"
+    "explanation": "Beyonc\u00e9's 2018 Coachella performance ('Beychella') was a historic HBCU-themed set, later turned into the Netflix film 'Homecoming.'"
   },
   {
     "question": "What is the name of the annual music festival held in Glastonbury, England?",
@@ -1156,14 +1156,14 @@
   },
   {
     "question": "Which R&B singer released 'Crazy in Love' with Jay-Z in 2003?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Alicia Keys",
       "Mary J. Blige",
       "Destiny's Child"
     ],
-    "explanation": "'Crazy in Love' was Beyoncé's debut solo single, marking the launch of her iconic solo career."
+    "explanation": "'Crazy in Love' was Beyonc\u00e9's debut solo single, marking the launch of her iconic solo career."
   },
   {
     "question": "Who was the lead guitarist of The Rolling Stones?",
@@ -1221,7 +1221,7 @@
     "explanation": "Alice Cooper (Vincent Damon Furnier) pioneered shock rock with theatrical horror-themed stage performances."
   },
   {
-    "question": "What is the name of the famous violin composition by Niccolò Paganini known for its difficulty?",
+    "question": "What is the name of the famous violin composition by Niccol\u00f2 Paganini known for its difficulty?",
     "answer": "Caprice No. 24",
     "choices": [
       "Caprice No. 24",
@@ -1295,14 +1295,14 @@
       "Rockstar",
       "Congratulations"
     ],
-    "explanation": "Post Malone and Swae Lee released the hit song \"Sunflower,\" which shares its title with Van Gogh’s famous Sunflowers paintings."
+    "explanation": "Post Malone and Swae Lee released the hit song \"Sunflower,\" which shares its title with Van Gogh\u2019s famous Sunflowers paintings."
   },
   {
     "question": "Who sang 'Waterloo' and won the Eurovision Song Contest in 1974?",
     "answer": "ABBA",
     "choices": [
       "ABBA",
-      "Céline Dion",
+      "C\u00e9line Dion",
       "Lulu",
       "Brotherhood of Man"
     ],
@@ -1359,7 +1359,7 @@
       "Ludwig van Beethoven",
       "Franz Schubert",
       "Robert Schumann",
-      "Frédéric Chopin"
+      "Fr\u00e9d\u00e9ric Chopin"
     ],
     "explanation": "Beethoven composed Piano Sonata No. 14, nicknamed 'Moonlight Sonata,' in 1801."
   },
@@ -1464,14 +1464,14 @@
   },
   {
     "question": "Which hip-hop duo created 'Outkast'?",
-    "answer": "André 3000 and Big Boi",
+    "answer": "Andr\u00e9 3000 and Big Boi",
     "choices": [
-      "André 3000 and Big Boi",
+      "Andr\u00e9 3000 and Big Boi",
       "Jay-Z and Kanye",
       "Nas and AZ",
       "Eminem and Royce da 5'9\""
     ],
-    "explanation": "OutKast is an Atlanta hip-hop duo formed by André 3000 (André Benjamin) and Big Boi (Antwan Patton) in 1992."
+    "explanation": "OutKast is an Atlanta hip-hop duo formed by Andr\u00e9 3000 (Andr\u00e9 Benjamin) and Big Boi (Antwan Patton) in 1992."
   },
   {
     "question": "What year did Michael Jackson release 'Thriller'?",
@@ -1600,7 +1600,7 @@
     "choices": [
       "Mariah Carey",
       "Whitney Houston",
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Madonna"
     ],
     "explanation": "Mariah Carey has 19 Billboard Hot 100 #1 singles, the most for any solo artist."
@@ -1636,7 +1636,7 @@
       "BONEY M",
       "Village People"
     ],
-    "explanation": "ABBA, the Swedish pop group (Agnetha, Björn, Benny, Anni-Frid), dominated global pop music in the 1970s."
+    "explanation": "ABBA, the Swedish pop group (Agnetha, Bj\u00f6rn, Benny, Anni-Frid), dominated global pop music in the 1970s."
   },
   {
     "question": "What is the largest music market in the world?",
@@ -1724,7 +1724,7 @@
       "Blind Faith",
       "Derek and the Dominos"
     ],
-    "explanation": "Cream (1966–1968) was a British rock supergroup featuring three of the most skilled musicians of the era."
+    "explanation": "Cream (1966\u20131968) was a British rock supergroup featuring three of the most skilled musicians of the era."
   },
   {
     "question": "What format revolutionized music sales in the 1980s?",
@@ -1735,7 +1735,7 @@
       "8-track",
       "Vinyl record"
     ],
-    "explanation": "The compact disc (CD) was introduced in 1982 and became the dominant music format throughout the 1980s–2000s."
+    "explanation": "The compact disc (CD) was introduced in 1982 and became the dominant music format throughout the 1980s\u20132000s."
   },
   {
     "question": "Which singer released the country crossover hit 'Before He Cheats'?",
@@ -1794,14 +1794,14 @@
   },
   {
     "question": "Who sang 'Halo' in 2008?",
-    "answer": "Beyoncé",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Alicia Keys",
       "Rihanna",
       "Mary J. Blige"
     ],
-    "explanation": "'Halo' is a powerful ballad released on Beyoncé's third studio album, 'I Am... Sasha Fierce' (2008)."
+    "explanation": "'Halo' is a powerful ballad released on Beyonc\u00e9's third studio album, 'I Am... Sasha Fierce' (2008)."
   },
   {
     "question": "Which musical genre combines hip-hop and singing?",
@@ -1867,7 +1867,7 @@
       "Amplitude",
       "Wavelength"
     ],
-    "explanation": "Frequency, measured in Hertz (Hz), determines the pitch of a sound — higher Hz = higher pitch."
+    "explanation": "Frequency, measured in Hertz (Hz), determines the pitch of a sound \u2014 higher Hz = higher pitch."
   },
   {
     "question": "Which iconic music festival was held in 1969 in upstate New York?",
@@ -2090,15 +2090,15 @@
     "explanation": "Frank Sinatra earned the nickname 'The Voice' and later 'Ol' Blue Eyes' during his legendary career."
   },
   {
-    "question": "What is the name of Beyoncé's surprise 2013 self-titled album?",
-    "answer": "Beyoncé",
+    "question": "What is the name of Beyonc\u00e9's surprise 2013 self-titled album?",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Beyoncé",
+      "Beyonc\u00e9",
       "LEMONADE",
       "4",
       "Dangerously in Love"
     ],
-    "explanation": "Beyoncé released her surprise self-titled visual album in December 2013 with no prior announcement."
+    "explanation": "Beyonc\u00e9 released her surprise self-titled visual album in December 2013 with no prior announcement."
   },
   {
     "question": "Which Australian artist released 'Heat Waves' in 2020?",
@@ -2168,14 +2168,14 @@
   },
   {
     "question": "What is the BPM range for 'Andante' tempo in classical music?",
-    "answer": "76–108 BPM",
+    "answer": "76\u2013108 BPM",
     "choices": [
-      "76–108 BPM",
-      "50–60 BPM",
-      "120–140 BPM",
-      "60–76 BPM"
+      "76\u2013108 BPM",
+      "50\u201360 BPM",
+      "120\u2013140 BPM",
+      "60\u201376 BPM"
     ],
-    "explanation": "Andante is a moderately slow tempo marking (Italian for 'at a walking pace'), typically 76–108 BPM."
+    "explanation": "Andante is a moderately slow tempo marking (Italian for 'at a walking pace'), typically 76\u2013108 BPM."
   },
   {
     "question": "What pop sensation released 'Baby' in 2010?",
@@ -2197,7 +2197,7 @@
       "Folk",
       "Americana"
     ],
-    "explanation": "Hank Williams and Patsy Cline are iconic figures of classic country music from the 1940s–1960s."
+    "explanation": "Hank Williams and Patsy Cline are iconic figures of classic country music from the 1940s\u20131960s."
   },
   {
     "question": "What is the name of the official US music chart based on radio airplay and streaming?",
@@ -2219,7 +2219,7 @@
       "The Kinks",
       "The Who"
     ],
-    "explanation": "'Come Together' and 'Let It Be' were both released by The Beatles in 1969–1970, among their final songs."
+    "explanation": "'Come Together' and 'Let It Be' were both released by The Beatles in 1969\u20131970, among their final songs."
   },
   {
     "question": "What is the name of the famous Vienna-based orchestra that performs the New Year's Day concert?",
@@ -2303,7 +2303,7 @@
     "answer": "Taylor Swift",
     "choices": [
       "Taylor Swift",
-      "Beyoncé",
+      "Beyonc\u00e9",
       "Adele",
       "Katy Perry"
     ],
@@ -2332,7 +2332,7 @@
     "explanation": "'Diamonds from Sierra Leone' is from Kanye's 'Late Registration' (2005) and 'New Slaves' from 'Yeezus' (2013)."
   },
   {
-    "question": "What musical term means 'at the beginning' — repeat from the start?",
+    "question": "What musical term means 'at the beginning' \u2014 repeat from the start?",
     "answer": "Da capo (D.C.)",
     "choices": [
       "Da capo (D.C.)",
@@ -3047,7 +3047,7 @@
     "explanation": "Sgt. Pepper's Lonely Hearts Club Band was originally released in 1967."
   },
   {
-    "question": "Music check: Which album is by The Beatles?",
+    "question": "Which album is by The Beatles?",
     "answer": "Sgt. Pepper's Lonely Hearts Club Band",
     "choices": [
       "Good Kid, M.A.A.D City",
@@ -3113,7 +3113,7 @@
     "explanation": "Fearless was originally released in 2008."
   },
   {
-    "question": "Music check: Which album is by Taylor Swift?",
+    "question": "Which album is by Taylor Swift?",
     "answer": "Fearless",
     "choices": [
       "Doggystyle",
@@ -3377,7 +3377,7 @@
     "explanation": "Renaissance was originally released in 2022."
   },
   {
-    "question": "Music check: Which album is by Beyonce?",
+    "question": "Which album is by Beyonce?",
     "answer": "Renaissance",
     "choices": [
       "Like a Virgin",

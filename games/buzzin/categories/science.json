@@ -1,6 +1,6 @@
 [
   {
-    "question": "Science check: What is the chemical symbol for Hydrogen?",
+    "question": "What is the chemical symbol for Hydrogen?",
     "answer": "H",
     "choices": [
       "Hg",
@@ -11,7 +11,7 @@
     "explanation": "H is the chemical symbol for hydrogen, the lightest element in the periodic table."
   },
   {
-    "question": "Science check: Which element has the chemical symbol H?",
+    "question": "Which element has the chemical symbol H?",
     "answer": "Hydrogen",
     "choices": [
       "Hydrogen",
@@ -22,7 +22,7 @@
     "explanation": "The symbol H stands for Hydrogen."
   },
   {
-    "question": "Science check: What is the chemical symbol for Helium?",
+    "question": "What is the chemical symbol for Helium?",
     "answer": "He",
     "choices": [
       "Li",
@@ -33,7 +33,7 @@
     "explanation": "He is the symbol for helium, a noble gas used in balloons and cryogenics."
   },
   {
-    "question": "Science check: Which element has the chemical symbol He?",
+    "question": "Which element has the chemical symbol He?",
     "answer": "Helium",
     "choices": [
       "Krypton",
@@ -44,7 +44,7 @@
     "explanation": "The symbol He stands for Helium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Lithium?",
+    "question": "What is the chemical symbol for Lithium?",
     "answer": "Li",
     "choices": [
       "Lt",
@@ -55,7 +55,7 @@
     "explanation": "Li is the symbol for lithium, a soft alkali metal used in batteries."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Li?",
+    "question": "Which element has the chemical symbol Li?",
     "answer": "Lithium",
     "choices": [
       "Gold",
@@ -66,7 +66,7 @@
     "explanation": "The symbol Li stands for Lithium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Carbon?",
+    "question": "What is the chemical symbol for Carbon?",
     "answer": "C",
     "choices": [
       "Ca",
@@ -77,7 +77,7 @@
     "explanation": "C is the symbol for carbon, the basis of organic chemistry."
   },
   {
-    "question": "Science check: Which element has the chemical symbol C?",
+    "question": "Which element has the chemical symbol C?",
     "answer": "Carbon",
     "choices": [
       "Chlorine",
@@ -88,7 +88,7 @@
     "explanation": "The symbol C stands for Carbon."
   },
   {
-    "question": "Science check: What is the chemical symbol for Nitrogen?",
+    "question": "What is the chemical symbol for Nitrogen?",
     "answer": "N",
     "choices": [
       "N",
@@ -99,7 +99,7 @@
     "explanation": "N is the symbol for nitrogen, which makes up most of Earth's atmosphere."
   },
   {
-    "question": "Science check: Which element has the chemical symbol N?",
+    "question": "Which element has the chemical symbol N?",
     "answer": "Nitrogen",
     "choices": [
       "Sulfur",
@@ -110,7 +110,7 @@
     "explanation": "The symbol N stands for Nitrogen."
   },
   {
-    "question": "Science check: What is the chemical symbol for Oxygen?",
+    "question": "What is the chemical symbol for Oxygen?",
     "answer": "O",
     "choices": [
       "Og",
@@ -121,7 +121,7 @@
     "explanation": "O is the chemical symbol for oxygen."
   },
   {
-    "question": "Science check: Which element has the chemical symbol O?",
+    "question": "Which element has the chemical symbol O?",
     "answer": "Oxygen",
     "choices": [
       "Neon",
@@ -132,7 +132,7 @@
     "explanation": "The symbol O stands for Oxygen."
   },
   {
-    "question": "Science check: What is the chemical symbol for Sodium?",
+    "question": "What is the chemical symbol for Sodium?",
     "answer": "Na",
     "choices": [
       "Sd",
@@ -143,7 +143,7 @@
     "explanation": "Na comes from natrium, the Latin-derived name for sodium."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Na?",
+    "question": "Which element has the chemical symbol Na?",
     "answer": "Sodium",
     "choices": [
       "Krypton",
@@ -154,7 +154,7 @@
     "explanation": "The symbol Na stands for Sodium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Magnesium?",
+    "question": "What is the chemical symbol for Magnesium?",
     "answer": "Mg",
     "choices": [
       "Mg",
@@ -165,7 +165,7 @@
     "explanation": "Mg is the symbol for magnesium."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Mg?",
+    "question": "Which element has the chemical symbol Mg?",
     "answer": "Magnesium",
     "choices": [
       "Copper",
@@ -176,7 +176,7 @@
     "explanation": "The symbol Mg stands for Magnesium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Aluminum?",
+    "question": "What is the chemical symbol for Aluminum?",
     "answer": "Al",
     "choices": [
       "Au",
@@ -187,7 +187,7 @@
     "explanation": "Al is the symbol for aluminum."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Al?",
+    "question": "Which element has the chemical symbol Al?",
     "answer": "Aluminum",
     "choices": [
       "Krypton",
@@ -198,7 +198,7 @@
     "explanation": "The symbol Al stands for Aluminum."
   },
   {
-    "question": "Science check: What is the chemical symbol for Silicon?",
+    "question": "What is the chemical symbol for Silicon?",
     "answer": "Si",
     "choices": [
       "Sc",
@@ -209,7 +209,7 @@
     "explanation": "Si is the symbol for silicon, widely used in semiconductors."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Si?",
+    "question": "Which element has the chemical symbol Si?",
     "answer": "Silicon",
     "choices": [
       "Iron",
@@ -220,7 +220,7 @@
     "explanation": "The symbol Si stands for Silicon."
   },
   {
-    "question": "Science check: What is the chemical symbol for Phosphorus?",
+    "question": "What is the chemical symbol for Phosphorus?",
     "answer": "P",
     "choices": [
       "P",
@@ -231,7 +231,7 @@
     "explanation": "P is the symbol for phosphorus."
   },
   {
-    "question": "Science check: Which element has the chemical symbol P?",
+    "question": "Which element has the chemical symbol P?",
     "answer": "Phosphorus",
     "choices": [
       "Copper",
@@ -242,7 +242,7 @@
     "explanation": "The symbol P stands for Phosphorus."
   },
   {
-    "question": "Science check: What is the chemical symbol for Sulfur?",
+    "question": "What is the chemical symbol for Sulfur?",
     "answer": "S",
     "choices": [
       "S",
@@ -253,7 +253,7 @@
     "explanation": "S is the symbol for sulfur."
   },
   {
-    "question": "Science check: Which element has the chemical symbol S?",
+    "question": "Which element has the chemical symbol S?",
     "answer": "Sulfur",
     "choices": [
       "Gold",
@@ -264,7 +264,7 @@
     "explanation": "The symbol S stands for Sulfur."
   },
   {
-    "question": "Science check: What is the chemical symbol for Chlorine?",
+    "question": "What is the chemical symbol for Chlorine?",
     "answer": "Cl",
     "choices": [
       "Ch",
@@ -275,7 +275,7 @@
     "explanation": "Cl is the symbol for chlorine."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Cl?",
+    "question": "Which element has the chemical symbol Cl?",
     "answer": "Chlorine",
     "choices": [
       "Cobalt",
@@ -286,7 +286,7 @@
     "explanation": "The symbol Cl stands for Chlorine."
   },
   {
-    "question": "Science check: What is the chemical symbol for Potassium?",
+    "question": "What is the chemical symbol for Potassium?",
     "answer": "K",
     "choices": [
       "Pt",
@@ -297,7 +297,7 @@
     "explanation": "K comes from kalium, the Latin-derived name for potassium."
   },
   {
-    "question": "Science check: Which element has the chemical symbol K?",
+    "question": "Which element has the chemical symbol K?",
     "answer": "Potassium",
     "choices": [
       "Potassium",
@@ -308,7 +308,7 @@
     "explanation": "The symbol K stands for Potassium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Calcium?",
+    "question": "What is the chemical symbol for Calcium?",
     "answer": "Ca",
     "choices": [
       "Cm",
@@ -319,7 +319,7 @@
     "explanation": "Ca is the symbol for calcium."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Ca?",
+    "question": "Which element has the chemical symbol Ca?",
     "answer": "Calcium",
     "choices": [
       "Hydrogen",
@@ -330,7 +330,7 @@
     "explanation": "The symbol Ca stands for Calcium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Iron?",
+    "question": "What is the chemical symbol for Iron?",
     "answer": "Fe",
     "choices": [
       "In",
@@ -341,7 +341,7 @@
     "explanation": "Fe comes from ferrum, the Latin-derived name for iron."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Fe?",
+    "question": "Which element has the chemical symbol Fe?",
     "answer": "Iron",
     "choices": [
       "Helium",
@@ -352,7 +352,7 @@
     "explanation": "The symbol Fe stands for Iron."
   },
   {
-    "question": "Science check: What is the chemical symbol for Copper?",
+    "question": "What is the chemical symbol for Copper?",
     "answer": "Cu",
     "choices": [
       "Cp",
@@ -363,7 +363,7 @@
     "explanation": "Cu comes from cuprum, the Latin-derived name for copper."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Cu?",
+    "question": "Which element has the chemical symbol Cu?",
     "answer": "Copper",
     "choices": [
       "Copper",
@@ -374,7 +374,7 @@
     "explanation": "The symbol Cu stands for Copper."
   },
   {
-    "question": "Science check: What is the chemical symbol for Silver?",
+    "question": "What is the chemical symbol for Silver?",
     "answer": "Ag",
     "choices": [
       "Si",
@@ -385,7 +385,7 @@
     "explanation": "Ag comes from argentum, the Latin-derived name for silver."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Ag?",
+    "question": "Which element has the chemical symbol Ag?",
     "answer": "Silver",
     "choices": [
       "Silver",
@@ -396,7 +396,7 @@
     "explanation": "The symbol Ag stands for Silver."
   },
   {
-    "question": "Science check: What is the chemical symbol for Gold?",
+    "question": "What is the chemical symbol for Gold?",
     "answer": "Au",
     "choices": [
       "Au",
@@ -407,7 +407,7 @@
     "explanation": "Au comes from aurum, the Latin-derived name for gold."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Au?",
+    "question": "Which element has the chemical symbol Au?",
     "answer": "Gold",
     "choices": [
       "Gold",
@@ -418,7 +418,7 @@
     "explanation": "The symbol Au stands for Gold."
   },
   {
-    "question": "Science check: What is the chemical symbol for Mercury?",
+    "question": "What is the chemical symbol for Mercury?",
     "answer": "Hg",
     "choices": [
       "Hy",
@@ -429,7 +429,7 @@
     "explanation": "Hg comes from hydrargyrum, the old Latinized name for mercury."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Hg?",
+    "question": "Which element has the chemical symbol Hg?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -440,7 +440,7 @@
     "explanation": "The symbol Hg stands for Mercury."
   },
   {
-    "question": "Science check: What is the chemical symbol for Lead?",
+    "question": "What is the chemical symbol for Lead?",
     "answer": "Pb",
     "choices": [
       "Ld",
@@ -451,7 +451,7 @@
     "explanation": "Pb comes from plumbum, the Latin-derived name for lead."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Pb?",
+    "question": "Which element has the chemical symbol Pb?",
     "answer": "Lead",
     "choices": [
       "Lead",
@@ -462,7 +462,7 @@
     "explanation": "The symbol Pb stands for Lead."
   },
   {
-    "question": "Science check: What is the chemical symbol for Tin?",
+    "question": "What is the chemical symbol for Tin?",
     "answer": "Sn",
     "choices": [
       "Sn",
@@ -473,7 +473,7 @@
     "explanation": "Sn comes from stannum, the Latin-derived name for tin."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Sn?",
+    "question": "Which element has the chemical symbol Sn?",
     "answer": "Tin",
     "choices": [
       "Lead",
@@ -484,7 +484,7 @@
     "explanation": "The symbol Sn stands for Tin."
   },
   {
-    "question": "Science check: What is the chemical symbol for Zinc?",
+    "question": "What is the chemical symbol for Zinc?",
     "answer": "Zn",
     "choices": [
       "Zc",
@@ -495,7 +495,7 @@
     "explanation": "Zn is the symbol for zinc."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Zn?",
+    "question": "Which element has the chemical symbol Zn?",
     "answer": "Zinc",
     "choices": [
       "Sodium",
@@ -506,7 +506,7 @@
     "explanation": "The symbol Zn stands for Zinc."
   },
   {
-    "question": "Science check: What is the chemical symbol for Nickel?",
+    "question": "What is the chemical symbol for Nickel?",
     "answer": "Ni",
     "choices": [
       "Ne",
@@ -517,7 +517,7 @@
     "explanation": "Ni is the symbol for nickel."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Ni?",
+    "question": "Which element has the chemical symbol Ni?",
     "answer": "Nickel",
     "choices": [
       "Nickel",
@@ -528,7 +528,7 @@
     "explanation": "The symbol Ni stands for Nickel."
   },
   {
-    "question": "Science check: What is the chemical symbol for Cobalt?",
+    "question": "What is the chemical symbol for Cobalt?",
     "answer": "Co",
     "choices": [
       "Cb",
@@ -539,7 +539,7 @@
     "explanation": "Co is the symbol for cobalt."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Co?",
+    "question": "Which element has the chemical symbol Co?",
     "answer": "Cobalt",
     "choices": [
       "Calcium",
@@ -550,7 +550,7 @@
     "explanation": "The symbol Co stands for Cobalt."
   },
   {
-    "question": "Science check: What is the chemical symbol for Uranium?",
+    "question": "What is the chemical symbol for Uranium?",
     "answer": "U",
     "choices": [
       "Un",
@@ -561,7 +561,7 @@
     "explanation": "U is the symbol for uranium."
   },
   {
-    "question": "Science check: Which element has the chemical symbol U?",
+    "question": "Which element has the chemical symbol U?",
     "answer": "Uranium",
     "choices": [
       "Carbon",
@@ -572,7 +572,7 @@
     "explanation": "The symbol U stands for Uranium."
   },
   {
-    "question": "Science check: What is the chemical symbol for Neon?",
+    "question": "What is the chemical symbol for Neon?",
     "answer": "Ne",
     "choices": [
       "No",
@@ -583,7 +583,7 @@
     "explanation": "Ne is the symbol for neon."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Ne?",
+    "question": "Which element has the chemical symbol Ne?",
     "answer": "Neon",
     "choices": [
       "Iron",
@@ -594,7 +594,7 @@
     "explanation": "The symbol Ne stands for Neon."
   },
   {
-    "question": "Science check: What is the chemical symbol for Argon?",
+    "question": "What is the chemical symbol for Argon?",
     "answer": "Ar",
     "choices": [
       "Ag",
@@ -605,7 +605,7 @@
     "explanation": "Ar is the symbol for argon."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Ar?",
+    "question": "Which element has the chemical symbol Ar?",
     "answer": "Argon",
     "choices": [
       "Argon",
@@ -616,7 +616,7 @@
     "explanation": "The symbol Ar stands for Argon."
   },
   {
-    "question": "Science check: What is the chemical symbol for Krypton?",
+    "question": "What is the chemical symbol for Krypton?",
     "answer": "Kr",
     "choices": [
       "Ky",
@@ -627,7 +627,7 @@
     "explanation": "Kr is the symbol for krypton."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Kr?",
+    "question": "Which element has the chemical symbol Kr?",
     "answer": "Krypton",
     "choices": [
       "Krypton",
@@ -638,7 +638,7 @@
     "explanation": "The symbol Kr stands for Krypton."
   },
   {
-    "question": "Science check: What is the chemical symbol for Xenon?",
+    "question": "What is the chemical symbol for Xenon?",
     "answer": "Xe",
     "choices": [
       "Zn",
@@ -649,7 +649,7 @@
     "explanation": "Xe is the symbol for xenon."
   },
   {
-    "question": "Science check: Which element has the chemical symbol Xe?",
+    "question": "Which element has the chemical symbol Xe?",
     "answer": "Xenon",
     "choices": [
       "Oxygen",
@@ -660,7 +660,7 @@
     "explanation": "The symbol Xe stands for Xenon."
   },
   {
-    "question": "Science check: Which planet is the closest planet to the Sun?",
+    "question": "Which planet is the closest planet to the Sun?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -671,7 +671,7 @@
     "explanation": "Mercury is the closest planet to the Sun."
   },
   {
-    "question": "Science check: About how long is one year on Mercury?",
+    "question": "About how long is one year on Mercury?",
     "answer": "88 Earth days",
     "choices": [
       "88 Earth days",
@@ -682,7 +682,7 @@
     "explanation": "One orbit of the Sun on Mercury takes 88 Earth days."
   },
   {
-    "question": "Science check: Which planet is the hottest planet in the Solar System?",
+    "question": "Which planet is the hottest planet in the Solar System?",
     "answer": "Venus",
     "choices": [
       "Saturn",
@@ -693,7 +693,7 @@
     "explanation": "Venus is the hottest planet in the Solar System."
   },
   {
-    "question": "Science check: About how long is one year on Venus?",
+    "question": "About how long is one year on Venus?",
     "answer": "243 Earth days",
     "choices": [
       "88 Earth days",
@@ -704,7 +704,7 @@
     "explanation": "One orbit of the Sun on Venus takes 243 Earth days."
   },
   {
-    "question": "Science check: Which planet is the only known planet with life?",
+    "question": "Which planet is the only known planet with life?",
     "answer": "Earth",
     "choices": [
       "Mercury",
@@ -715,7 +715,7 @@
     "explanation": "Earth is the only known planet with life."
   },
   {
-    "question": "Science check: About how long is one year on Earth?",
+    "question": "About how long is one year on Earth?",
     "answer": "365 days",
     "choices": [
       "687 Earth days",
@@ -726,7 +726,7 @@
     "explanation": "One orbit of the Sun on Earth takes 365 days."
   },
   {
-    "question": "Science check: Which planet is the planet known for Olympus Mons?",
+    "question": "Which planet is the planet known for Olympus Mons?",
     "answer": "Mars",
     "choices": [
       "Earth",
@@ -737,7 +737,7 @@
     "explanation": "Mars is the planet known for Olympus Mons."
   },
   {
-    "question": "Science check: About how long is one year on Mars?",
+    "question": "About how long is one year on Mars?",
     "answer": "687 Earth days",
     "choices": [
       "about 84 Earth years",
@@ -748,7 +748,7 @@
     "explanation": "One orbit of the Sun on Mars takes 687 Earth days."
   },
   {
-    "question": "Science check: Which planet is the largest planet in the Solar System?",
+    "question": "Which planet is the largest planet in the Solar System?",
     "answer": "Jupiter",
     "choices": [
       "Jupiter",
@@ -759,7 +759,7 @@
     "explanation": "Jupiter is the largest planet in the Solar System."
   },
   {
-    "question": "Science check: About how long is one year on Jupiter?",
+    "question": "About how long is one year on Jupiter?",
     "answer": "about 12 Earth years",
     "choices": [
       "687 Earth days",
@@ -770,7 +770,7 @@
     "explanation": "One orbit of the Sun on Jupiter takes about 12 Earth years."
   },
   {
-    "question": "Science check: Which planet is the planet famous for its prominent rings?",
+    "question": "Which planet is the planet famous for its prominent rings?",
     "answer": "Saturn",
     "choices": [
       "Saturn",
@@ -781,7 +781,7 @@
     "explanation": "Saturn is the planet famous for its prominent rings."
   },
   {
-    "question": "Science check: About how long is one year on Saturn?",
+    "question": "About how long is one year on Saturn?",
     "answer": "about 29 Earth years",
     "choices": [
       "about 12 Earth years",
@@ -792,7 +792,7 @@
     "explanation": "One orbit of the Sun on Saturn takes about 29 Earth years."
   },
   {
-    "question": "Science check: Which planet is the planet that rotates on its side?",
+    "question": "Which planet is the planet that rotates on its side?",
     "answer": "Uranus",
     "choices": [
       "Earth",
@@ -803,7 +803,7 @@
     "explanation": "Uranus is the planet that rotates on its side."
   },
   {
-    "question": "Science check: About how long is one year on Uranus?",
+    "question": "About how long is one year on Uranus?",
     "answer": "about 84 Earth years",
     "choices": [
       "about 84 Earth years",
@@ -814,7 +814,7 @@
     "explanation": "One orbit of the Sun on Uranus takes about 84 Earth years."
   },
   {
-    "question": "Science check: Which planet is the most distant major planet from the Sun?",
+    "question": "Which planet is the most distant major planet from the Sun?",
     "answer": "Neptune",
     "choices": [
       "Neptune",
@@ -825,7 +825,7 @@
     "explanation": "Neptune is the most distant major planet from the Sun."
   },
   {
-    "question": "Science check: About how long is one year on Neptune?",
+    "question": "About how long is one year on Neptune?",
     "answer": "about 165 Earth years",
     "choices": [
       "about 165 Earth years",
@@ -836,7 +836,7 @@
     "explanation": "One orbit of the Sun on Neptune takes about 165 Earth years."
   },
   {
-    "question": "Science check: Moon is a moon of which planet?",
+    "question": "Moon is a moon of which planet?",
     "answer": "Earth",
     "choices": [
       "Saturn",
@@ -847,7 +847,7 @@
     "explanation": "Moon is a natural satellite of Earth."
   },
   {
-    "question": "Science check: Phobos is a moon of which planet?",
+    "question": "Phobos is a moon of which planet?",
     "answer": "Mars",
     "choices": [
       "Saturn",
@@ -858,7 +858,7 @@
     "explanation": "Phobos is a natural satellite of Mars."
   },
   {
-    "question": "Science check: Deimos is a moon of which planet?",
+    "question": "Deimos is a moon of which planet?",
     "answer": "Mars",
     "choices": [
       "Uranus",
@@ -869,7 +869,7 @@
     "explanation": "Deimos is a natural satellite of Mars."
   },
   {
-    "question": "Science check: Europa is a moon of which planet?",
+    "question": "Europa is a moon of which planet?",
     "answer": "Jupiter",
     "choices": [
       "Neptune",
@@ -880,7 +880,7 @@
     "explanation": "Europa is a natural satellite of Jupiter."
   },
   {
-    "question": "Science check: Ganymede is a moon of which planet?",
+    "question": "Ganymede is a moon of which planet?",
     "answer": "Jupiter",
     "choices": [
       "Uranus",
@@ -891,7 +891,7 @@
     "explanation": "Ganymede is a natural satellite of Jupiter."
   },
   {
-    "question": "Science check: Io is a moon of which planet?",
+    "question": "Io is a moon of which planet?",
     "answer": "Jupiter",
     "choices": [
       "Uranus",
@@ -902,7 +902,7 @@
     "explanation": "Io is a natural satellite of Jupiter."
   },
   {
-    "question": "Science check: Titan is a moon of which planet?",
+    "question": "Titan is a moon of which planet?",
     "answer": "Saturn",
     "choices": [
       "Saturn",
@@ -913,7 +913,7 @@
     "explanation": "Titan is a natural satellite of Saturn."
   },
   {
-    "question": "Science check: Triton is a moon of which planet?",
+    "question": "Triton is a moon of which planet?",
     "answer": "Neptune",
     "choices": [
       "Mars",
@@ -924,7 +924,7 @@
     "explanation": "Triton is a natural satellite of Neptune."
   },
   {
-    "question": "Science check: Titania is a moon of which planet?",
+    "question": "Titania is a moon of which planet?",
     "answer": "Uranus",
     "choices": [
       "Earth",
@@ -935,7 +935,7 @@
     "explanation": "Titania is a natural satellite of Uranus."
   },
   {
-    "question": "Science check: Which organ pumps blood through the body?",
+    "question": "Which organ pumps blood through the body?",
     "answer": "heart",
     "choices": [
       "stomach",
@@ -946,7 +946,7 @@
     "explanation": "The heart pumps blood through the body."
   },
   {
-    "question": "Science check: What is the main function of the heart?",
+    "question": "What is the main function of the heart?",
     "answer": "pumps blood through the body",
     "choices": [
       "controls the nervous system",
@@ -957,7 +957,7 @@
     "explanation": "The heart primarily pumps blood through the body."
   },
   {
-    "question": "Science check: Which organ exchange oxygen and carbon dioxide?",
+    "question": "Which organ exchange oxygen and carbon dioxide?",
     "answer": "lungs",
     "choices": [
       "spleen",
@@ -968,7 +968,7 @@
     "explanation": "The lungs exchange oxygen and carbon dioxide."
   },
   {
-    "question": "Science check: What is the main function of the lungs?",
+    "question": "What is the main function of the lungs?",
     "answer": "exchange oxygen and carbon dioxide",
     "choices": [
       "filter waste from the blood",
@@ -979,7 +979,7 @@
     "explanation": "The lungs primarily exchange oxygen and carbon dioxide."
   },
   {
-    "question": "Science check: Which organ detoxifies chemicals and produces bile?",
+    "question": "Which organ detoxifies chemicals and produces bile?",
     "answer": "liver",
     "choices": [
       "small intestine",
@@ -990,7 +990,7 @@
     "explanation": "The liver detoxifies chemicals and produces bile."
   },
   {
-    "question": "Science check: What is the main function of the liver?",
+    "question": "What is the main function of the liver?",
     "answer": "detoxifies chemicals and produces bile",
     "choices": [
       "filter waste from the blood",
@@ -1001,7 +1001,7 @@
     "explanation": "The liver primarily detoxifies chemicals and produces bile."
   },
   {
-    "question": "Science check: Which organ filter waste from the blood?",
+    "question": "Which organ filter waste from the blood?",
     "answer": "kidneys",
     "choices": [
       "stomach",
@@ -1012,7 +1012,7 @@
     "explanation": "The kidneys filter waste from the blood."
   },
   {
-    "question": "Science check: What is the main function of the kidneys?",
+    "question": "What is the main function of the kidneys?",
     "answer": "filter waste from the blood",
     "choices": [
       "filter waste from the blood",
@@ -1023,7 +1023,7 @@
     "explanation": "The kidneys primarily filter waste from the blood."
   },
   {
-    "question": "Science check: Which organ begins digestion with acid and enzymes?",
+    "question": "Which organ begins digestion with acid and enzymes?",
     "answer": "stomach",
     "choices": [
       "pancreas",
@@ -1034,7 +1034,7 @@
     "explanation": "The stomach begins digestion with acid and enzymes."
   },
   {
-    "question": "Science check: What is the main function of the stomach?",
+    "question": "What is the main function of the stomach?",
     "answer": "begins digestion with acid and enzymes",
     "choices": [
       "detoxifies chemicals and produces bile",
@@ -1045,7 +1045,7 @@
     "explanation": "The stomach primarily begins digestion with acid and enzymes."
   },
   {
-    "question": "Science check: Which organ absorbs most nutrients from food?",
+    "question": "Which organ absorbs most nutrients from food?",
     "answer": "small intestine",
     "choices": [
       "heart",
@@ -1056,7 +1056,7 @@
     "explanation": "The small intestine absorbs most nutrients from food."
   },
   {
-    "question": "Science check: What is the main function of the small intestine?",
+    "question": "What is the main function of the small intestine?",
     "answer": "absorbs most nutrients from food",
     "choices": [
       "absorbs most nutrients from food",
@@ -1067,7 +1067,7 @@
     "explanation": "The small intestine primarily absorbs most nutrients from food."
   },
   {
-    "question": "Science check: Which organ controls the nervous system?",
+    "question": "Which organ controls the nervous system?",
     "answer": "brain",
     "choices": [
       "liver",
@@ -1078,7 +1078,7 @@
     "explanation": "The brain controls the nervous system."
   },
   {
-    "question": "Science check: What is the main function of the brain?",
+    "question": "What is the main function of the brain?",
     "answer": "controls the nervous system",
     "choices": [
       "helps filter blood and support immunity",
@@ -1089,7 +1089,7 @@
     "explanation": "The brain primarily controls the nervous system."
   },
   {
-    "question": "Science check: Which organ is the body's largest organ?",
+    "question": "Which organ is the body's largest organ?",
     "answer": "skin",
     "choices": [
       "small intestine",
@@ -1100,7 +1100,7 @@
     "explanation": "The skin is the body's largest organ."
   },
   {
-    "question": "Science check: What is the main function of the skin?",
+    "question": "What is the main function of the skin?",
     "answer": "is the body's largest organ",
     "choices": [
       "helps filter blood and support immunity",
@@ -1111,7 +1111,7 @@
     "explanation": "The skin primarily is the body's largest organ."
   },
   {
-    "question": "Science check: Which organ produces insulin?",
+    "question": "Which organ produces insulin?",
     "answer": "pancreas",
     "choices": [
       "pancreas",
@@ -1122,7 +1122,7 @@
     "explanation": "The pancreas produces insulin."
   },
   {
-    "question": "Science check: What is the main function of the pancreas?",
+    "question": "What is the main function of the pancreas?",
     "answer": "produces insulin",
     "choices": [
       "begins digestion with acid and enzymes",
@@ -1133,7 +1133,7 @@
     "explanation": "The pancreas primarily produces insulin."
   },
   {
-    "question": "Science check: Which organ helps filter blood and support immunity?",
+    "question": "Which organ helps filter blood and support immunity?",
     "answer": "spleen",
     "choices": [
       "spleen",
@@ -1144,7 +1144,7 @@
     "explanation": "The spleen helps filter blood and support immunity."
   },
   {
-    "question": "Science check: What is the main function of the spleen?",
+    "question": "What is the main function of the spleen?",
     "answer": "helps filter blood and support immunity",
     "choices": [
       "helps filter blood and support immunity",
@@ -1155,7 +1155,7 @@
     "explanation": "The spleen primarily helps filter blood and support immunity."
   },
   {
-    "question": "Science check: Which body system includes bones?",
+    "question": "Which body system includes bones?",
     "answer": "skeletal",
     "choices": [
       "digestive",
@@ -1166,7 +1166,7 @@
     "explanation": "The skeletal system includes bones."
   },
   {
-    "question": "Science check: Which body system includes muscles?",
+    "question": "Which body system includes muscles?",
     "answer": "muscular",
     "choices": [
       "immune",
@@ -1177,7 +1177,7 @@
     "explanation": "The muscular system includes muscles."
   },
   {
-    "question": "Science check: Which body system includes blood vessels and the heart?",
+    "question": "Which body system includes blood vessels and the heart?",
     "answer": "circulatory",
     "choices": [
       "nervous",
@@ -1188,7 +1188,7 @@
     "explanation": "The circulatory system includes blood vessels and the heart."
   },
   {
-    "question": "Science check: Which body system includes lungs and airways?",
+    "question": "Which body system includes lungs and airways?",
     "answer": "respiratory",
     "choices": [
       "respiratory",
@@ -1199,7 +1199,7 @@
     "explanation": "The respiratory system includes lungs and airways."
   },
   {
-    "question": "Science check: Which body system includes stomach and intestines?",
+    "question": "Which body system includes stomach and intestines?",
     "answer": "digestive",
     "choices": [
       "nervous",
@@ -1210,7 +1210,7 @@
     "explanation": "The digestive system includes stomach and intestines."
   },
   {
-    "question": "Science check: Which body system includes brain, spinal cord, and nerves?",
+    "question": "Which body system includes brain, spinal cord, and nerves?",
     "answer": "nervous",
     "choices": [
       "respiratory",
@@ -1221,7 +1221,7 @@
     "explanation": "The nervous system includes brain, spinal cord, and nerves."
   },
   {
-    "question": "Science check: Which body system includes hormone-secreting glands?",
+    "question": "Which body system includes hormone-secreting glands?",
     "answer": "endocrine",
     "choices": [
       "muscular",
@@ -1232,7 +1232,7 @@
     "explanation": "The endocrine system includes hormone-secreting glands."
   },
   {
-    "question": "Science check: Which body system includes defends the body against pathogens?",
+    "question": "Which body system includes defends the body against pathogens?",
     "answer": "immune",
     "choices": [
       "skeletal",
@@ -1243,7 +1243,7 @@
     "explanation": "The immune system includes defends the body against pathogens."
   },
   {
-    "question": "Science check: What SI unit is used to measure force?",
+    "question": "What SI unit is used to measure force?",
     "answer": "newton",
     "choices": [
       "newton",
@@ -1254,7 +1254,7 @@
     "explanation": "The SI unit of force is the newton."
   },
   {
-    "question": "Science check: What SI unit is used to measure energy?",
+    "question": "What SI unit is used to measure energy?",
     "answer": "joule",
     "choices": [
       "joule",
@@ -1265,7 +1265,7 @@
     "explanation": "The SI unit of energy is the joule."
   },
   {
-    "question": "Science check: What SI unit is used to measure power?",
+    "question": "What SI unit is used to measure power?",
     "answer": "watt",
     "choices": [
       "watt",
@@ -1276,7 +1276,7 @@
     "explanation": "The SI unit of power is the watt."
   },
   {
-    "question": "Science check: What SI unit is used to measure electric current?",
+    "question": "What SI unit is used to measure electric current?",
     "answer": "ampere",
     "choices": [
       "joule",
@@ -1287,7 +1287,7 @@
     "explanation": "The SI unit of electric current is the ampere."
   },
   {
-    "question": "Science check: What SI unit is used to measure temperature?",
+    "question": "What SI unit is used to measure temperature?",
     "answer": "kelvin",
     "choices": [
       "joule",
@@ -1298,7 +1298,7 @@
     "explanation": "The SI unit of temperature is the kelvin."
   },
   {
-    "question": "Science check: What SI unit is used to measure frequency?",
+    "question": "What SI unit is used to measure frequency?",
     "answer": "hertz",
     "choices": [
       "hertz",
@@ -1309,7 +1309,7 @@
     "explanation": "The SI unit of frequency is the hertz."
   },
   {
-    "question": "Science check: What SI unit is used to measure pressure?",
+    "question": "What SI unit is used to measure pressure?",
     "answer": "pascal",
     "choices": [
       "pascal",
@@ -1320,7 +1320,7 @@
     "explanation": "The SI unit of pressure is the pascal."
   },
   {
-    "question": "Science check: What SI unit is used to measure electrical resistance?",
+    "question": "What SI unit is used to measure electrical resistance?",
     "answer": "ohm",
     "choices": [
       "ampere",
@@ -1331,7 +1331,7 @@
     "explanation": "The SI unit of electrical resistance is the ohm."
   },
   {
-    "question": "Science check: Which scientific law states that an object in motion stays in motion unless acted on by a net external force?",
+    "question": "Which scientific law states that an object in motion stays in motion unless acted on by a net external force?",
     "answer": "Newton's first law",
     "choices": [
       "Newton's third law",
@@ -1342,7 +1342,7 @@
     "explanation": "Newton's first law states that an object in motion stays in motion unless acted on by a net external force."
   },
   {
-    "question": "Science check: Which scientific law states that force equals mass times acceleration?",
+    "question": "Which scientific law states that force equals mass times acceleration?",
     "answer": "Newton's second law",
     "choices": [
       "Archimedes' principle",
@@ -1353,7 +1353,7 @@
     "explanation": "Newton's second law states that force equals mass times acceleration."
   },
   {
-    "question": "Science check: Which scientific law states that for every action there is an equal and opposite reaction?",
+    "question": "Which scientific law states that for every action there is an equal and opposite reaction?",
     "answer": "Newton's third law",
     "choices": [
       "law of conservation of energy",
@@ -1364,7 +1364,7 @@
     "explanation": "Newton's third law states that for every action there is an equal and opposite reaction."
   },
   {
-    "question": "Science check: Which scientific law states that voltage equals current times resistance?",
+    "question": "Which scientific law states that voltage equals current times resistance?",
     "answer": "Ohm's law",
     "choices": [
       "law of conservation of energy",
@@ -1375,7 +1375,7 @@
     "explanation": "Ohm's law states that voltage equals current times resistance."
   },
   {
-    "question": "Science check: Which scientific law states that a buoyant force equals the weight of displaced fluid?",
+    "question": "Which scientific law states that a buoyant force equals the weight of displaced fluid?",
     "answer": "Archimedes' principle",
     "choices": [
       "Ohm's law",
@@ -1386,7 +1386,7 @@
     "explanation": "Archimedes' principle states that a buoyant force equals the weight of displaced fluid."
   },
   {
-    "question": "Science check: Which scientific law states that energy cannot be created or destroyed in an isolated system?",
+    "question": "Which scientific law states that energy cannot be created or destroyed in an isolated system?",
     "answer": "law of conservation of energy",
     "choices": [
       "Newton's second law",
@@ -1397,7 +1397,7 @@
     "explanation": "law of conservation of energy states that energy cannot be created or destroyed in an isolated system."
   },
   {
-    "question": "Science check: Which rock type is formed from cooled magma or lava?",
+    "question": "Which rock type is formed from cooled magma or lava?",
     "answer": "igneous",
     "choices": [
       "sedimentary",
@@ -1408,7 +1408,7 @@
     "explanation": "Igneous rock is formed from cooled magma or lava."
   },
   {
-    "question": "Science check: Which rock type is formed from compacted sediments?",
+    "question": "Which rock type is formed from compacted sediments?",
     "answer": "sedimentary",
     "choices": [
       "sedimentary",
@@ -1419,7 +1419,7 @@
     "explanation": "Sedimentary rock is formed from compacted sediments."
   },
   {
-    "question": "Science check: Which rock type is formed by heat and pressure changing existing rock?",
+    "question": "Which rock type is formed by heat and pressure changing existing rock?",
     "answer": "metamorphic",
     "choices": [
       "mineral",
@@ -1430,7 +1430,7 @@
     "explanation": "Metamorphic rock is formed by heat and pressure changing existing rock."
   },
   {
-    "question": "Science check: Which layer of Earth is the outermost solid layer of Earth?",
+    "question": "Which layer of Earth is the outermost solid layer of Earth?",
     "answer": "crust",
     "choices": [
       "outer core",
@@ -1441,7 +1441,7 @@
     "explanation": "The crust is the outermost solid layer of Earth."
   },
   {
-    "question": "Science check: Which layer of Earth is the thick layer beneath the crust?",
+    "question": "Which layer of Earth is the thick layer beneath the crust?",
     "answer": "mantle",
     "choices": [
       "crust",
@@ -1452,7 +1452,7 @@
     "explanation": "The mantle is the thick layer beneath the crust."
   },
   {
-    "question": "Science check: Which layer of Earth is the liquid metal layer surrounding the inner core?",
+    "question": "Which layer of Earth is the liquid metal layer surrounding the inner core?",
     "answer": "outer core",
     "choices": [
       "crust",
@@ -1463,7 +1463,7 @@
     "explanation": "The outer core is the liquid metal layer surrounding the inner core."
   },
   {
-    "question": "Science check: Which layer of Earth is the solid central part of Earth?",
+    "question": "Which layer of Earth is the solid central part of Earth?",
     "answer": "inner core",
     "choices": [
       "inner core",
@@ -1474,7 +1474,7 @@
     "explanation": "The inner core is the solid central part of Earth."
   },
   {
-    "question": "Science check: What type of cloud is best described as puffy fair-weather clouds?",
+    "question": "What type of cloud is best described as puffy fair-weather clouds?",
     "answer": "cumulus",
     "choices": [
       "stratus",
@@ -1485,7 +1485,7 @@
     "explanation": "Cumulus clouds are puffy fair-weather clouds."
   },
   {
-    "question": "Science check: What type of cloud is best described as thin wispy high-altitude clouds?",
+    "question": "What type of cloud is best described as thin wispy high-altitude clouds?",
     "answer": "cirrus",
     "choices": [
       "stratus",
@@ -1496,7 +1496,7 @@
     "explanation": "Cirrus clouds are thin wispy high-altitude clouds."
   },
   {
-    "question": "Science check: What type of cloud is best described as flat layered clouds?",
+    "question": "What type of cloud is best described as flat layered clouds?",
     "answer": "stratus",
     "choices": [
       "stratus",
@@ -1507,7 +1507,7 @@
     "explanation": "Stratus clouds are flat layered clouds."
   },
   {
-    "question": "Science check: What type of cloud is best described as towering thunderstorm clouds?",
+    "question": "What type of cloud is best described as towering thunderstorm clouds?",
     "answer": "cumulonimbus",
     "choices": [
       "cumulus",
@@ -1518,7 +1518,7 @@
     "explanation": "Cumulonimbus clouds are towering thunderstorm clouds."
   },
   {
-    "question": "Science check: What does CPU stand for in computing?",
+    "question": "What does CPU stand for in computing?",
     "answer": "central processing unit",
     "choices": [
       "graphics processing unit",
@@ -1529,7 +1529,7 @@
     "explanation": "CPU stands for central processing unit."
   },
   {
-    "question": "Science check: What does RAM stand for in computing?",
+    "question": "What does RAM stand for in computing?",
     "answer": "random access memory",
     "choices": [
       "solid-state drive",
@@ -1540,7 +1540,7 @@
     "explanation": "RAM stands for random access memory."
   },
   {
-    "question": "Science check: What does GPU stand for in computing?",
+    "question": "What does GPU stand for in computing?",
     "answer": "graphics processing unit",
     "choices": [
       "hypertext markup language",
@@ -1551,7 +1551,7 @@
     "explanation": "GPU stands for graphics processing unit."
   },
   {
-    "question": "Science check: What does SSD stand for in computing?",
+    "question": "What does SSD stand for in computing?",
     "answer": "solid-state drive",
     "choices": [
       "hypertext transfer protocol",
@@ -1562,7 +1562,7 @@
     "explanation": "SSD stands for solid-state drive."
   },
   {
-    "question": "Science check: What does HTTP stand for in computing?",
+    "question": "What does HTTP stand for in computing?",
     "answer": "hypertext transfer protocol",
     "choices": [
       "graphics processing unit",
@@ -1573,7 +1573,7 @@
     "explanation": "HTTP stands for hypertext transfer protocol."
   },
   {
-    "question": "Science check: What does URL stand for in computing?",
+    "question": "What does URL stand for in computing?",
     "answer": "uniform resource locator",
     "choices": [
       "central processing unit",
@@ -1584,7 +1584,7 @@
     "explanation": "URL stands for uniform resource locator."
   },
   {
-    "question": "Science check: What does HTML stand for in computing?",
+    "question": "What does HTML stand for in computing?",
     "answer": "hypertext markup language",
     "choices": [
       "random access memory",
@@ -1595,7 +1595,7 @@
     "explanation": "HTML stands for hypertext markup language."
   },
   {
-    "question": "Science check: What does USB stand for in computing?",
+    "question": "What does USB stand for in computing?",
     "answer": "universal serial bus",
     "choices": [
       "central processing unit",
@@ -1606,7 +1606,7 @@
     "explanation": "USB stands for universal serial bus."
   },
   {
-    "question": "Science check: Which cell structure primarily produce most of a cell's ATP?",
+    "question": "Which cell structure primarily produce most of a cell's ATP?",
     "answer": "mitochondria",
     "choices": [
       "chloroplasts",
@@ -1617,7 +1617,7 @@
     "explanation": "Mitochondria primarily produce most of a cell's ATP."
   },
   {
-    "question": "Science check: Which cell structure primarily contains most of the cell's DNA?",
+    "question": "Which cell structure primarily contains most of the cell's DNA?",
     "answer": "nucleus",
     "choices": [
       "nucleus",
@@ -1628,7 +1628,7 @@
     "explanation": "Nucleus primarily contains most of the cell's DNA."
   },
   {
-    "question": "Science check: Which cell structure primarily build proteins?",
+    "question": "Which cell structure primarily build proteins?",
     "answer": "ribosomes",
     "choices": [
       "ribosomes",
@@ -1639,7 +1639,7 @@
     "explanation": "Ribosomes primarily build proteins."
   },
   {
-    "question": "Science check: Which cell structure primarily controls what enters and leaves the cell?",
+    "question": "Which cell structure primarily controls what enters and leaves the cell?",
     "answer": "cell membrane",
     "choices": [
       "cell membrane",
@@ -1650,7 +1650,7 @@
     "explanation": "Cell membrane primarily controls what enters and leaves the cell."
   },
   {
-    "question": "Science check: Which cell structure primarily carry out photosynthesis in plants?",
+    "question": "Which cell structure primarily carry out photosynthesis in plants?",
     "answer": "chloroplasts",
     "choices": [
       "ribosomes",
@@ -1661,7 +1661,7 @@
     "explanation": "Chloroplasts primarily carry out photosynthesis in plants."
   },
   {
-    "question": "Science check: Which cell structure primarily stores materials, especially in plant cells?",
+    "question": "Which cell structure primarily stores materials, especially in plant cells?",
     "answer": "vacuole",
     "choices": [
       "vacuole",
@@ -1672,7 +1672,7 @@
     "explanation": "Vacuole primarily stores materials, especially in plant cells."
   },
   {
-    "question": "Science check: What molecule carries genetic information in most living organisms?",
+    "question": "What molecule carries genetic information in most living organisms?",
     "answer": "DNA",
     "choices": [
       "Glucose",
@@ -1683,7 +1683,7 @@
     "explanation": "DNA stores hereditary information in almost all living organisms."
   },
   {
-    "question": "Science check: What process do plants use to convert light energy into chemical energy?",
+    "question": "What process do plants use to convert light energy into chemical energy?",
     "answer": "Photosynthesis",
     "choices": [
       "Transpiration",
@@ -1694,7 +1694,7 @@
     "explanation": "Photosynthesis uses light, water, and carbon dioxide to produce sugars."
   },
   {
-    "question": "Science check: What gas do plants absorb from the atmosphere for photosynthesis?",
+    "question": "What gas do plants absorb from the atmosphere for photosynthesis?",
     "answer": "Carbon dioxide",
     "choices": [
       "Nitrogen",
@@ -1705,7 +1705,7 @@
     "explanation": "Plants use carbon dioxide during photosynthesis."
   },
   {
-    "question": "Science check: What blood cells help fight infection?",
+    "question": "What blood cells help fight infection?",
     "answer": "White blood cells",
     "choices": [
       "Plasma cells",
@@ -1716,7 +1716,7 @@
     "explanation": "White blood cells are part of the immune system and help defend against infection."
   },
   {
-    "question": "Science check: H is the chemical symbol for which element?",
+    "question": "H is the chemical symbol for which element?",
     "answer": "Hydrogen",
     "choices": [
       "Potassium",
@@ -1727,7 +1727,7 @@
     "explanation": "H stands for Hydrogen."
   },
   {
-    "question": "Science check: He is the chemical symbol for which element?",
+    "question": "He is the chemical symbol for which element?",
     "answer": "Helium",
     "choices": [
       "Tin",
@@ -1738,7 +1738,7 @@
     "explanation": "He stands for Helium."
   },
   {
-    "question": "Science check: Li is the chemical symbol for which element?",
+    "question": "Li is the chemical symbol for which element?",
     "answer": "Lithium",
     "choices": [
       "Argon",
@@ -1749,7 +1749,7 @@
     "explanation": "Li stands for Lithium."
   },
   {
-    "question": "Science check: C is the chemical symbol for which element?",
+    "question": "C is the chemical symbol for which element?",
     "answer": "Carbon",
     "choices": [
       "Lithium",
@@ -1760,7 +1760,7 @@
     "explanation": "C stands for Carbon."
   },
   {
-    "question": "Science check: N is the chemical symbol for which element?",
+    "question": "N is the chemical symbol for which element?",
     "answer": "Nitrogen",
     "choices": [
       "Nitrogen",
@@ -1771,7 +1771,7 @@
     "explanation": "N stands for Nitrogen."
   },
   {
-    "question": "Science check: O is the chemical symbol for which element?",
+    "question": "O is the chemical symbol for which element?",
     "answer": "Oxygen",
     "choices": [
       "Tin",
@@ -1782,7 +1782,7 @@
     "explanation": "O stands for Oxygen."
   },
   {
-    "question": "Science check: Na is the chemical symbol for which element?",
+    "question": "Na is the chemical symbol for which element?",
     "answer": "Sodium",
     "choices": [
       "Sodium",
@@ -1793,7 +1793,7 @@
     "explanation": "Na stands for Sodium."
   },
   {
-    "question": "Science check: Mg is the chemical symbol for which element?",
+    "question": "Mg is the chemical symbol for which element?",
     "answer": "Magnesium",
     "choices": [
       "Gold",
@@ -1804,7 +1804,7 @@
     "explanation": "Mg stands for Magnesium."
   },
   {
-    "question": "Science check: Al is the chemical symbol for which element?",
+    "question": "Al is the chemical symbol for which element?",
     "answer": "Aluminum",
     "choices": [
       "Gold",
@@ -1815,7 +1815,7 @@
     "explanation": "Al stands for Aluminum."
   },
   {
-    "question": "Science check: Si is the chemical symbol for which element?",
+    "question": "Si is the chemical symbol for which element?",
     "answer": "Silicon",
     "choices": [
       "Aluminum",
@@ -1826,7 +1826,7 @@
     "explanation": "Si stands for Silicon."
   },
   {
-    "question": "Science check: P is the chemical symbol for which element?",
+    "question": "P is the chemical symbol for which element?",
     "answer": "Phosphorus",
     "choices": [
       "Nitrogen",
@@ -1837,7 +1837,7 @@
     "explanation": "P stands for Phosphorus."
   },
   {
-    "question": "Science check: S is the chemical symbol for which element?",
+    "question": "S is the chemical symbol for which element?",
     "answer": "Sulfur",
     "choices": [
       "Sulfur",
@@ -1848,7 +1848,7 @@
     "explanation": "S stands for Sulfur."
   },
   {
-    "question": "Science check: Cl is the chemical symbol for which element?",
+    "question": "Cl is the chemical symbol for which element?",
     "answer": "Chlorine",
     "choices": [
       "Helium",
@@ -1859,7 +1859,7 @@
     "explanation": "Cl stands for Chlorine."
   },
   {
-    "question": "Science check: K is the chemical symbol for which element?",
+    "question": "K is the chemical symbol for which element?",
     "answer": "Potassium",
     "choices": [
       "Potassium",
@@ -1870,7 +1870,7 @@
     "explanation": "K stands for Potassium."
   },
   {
-    "question": "Science check: Ca is the chemical symbol for which element?",
+    "question": "Ca is the chemical symbol for which element?",
     "answer": "Calcium",
     "choices": [
       "Silver",
@@ -1881,7 +1881,7 @@
     "explanation": "Ca stands for Calcium."
   },
   {
-    "question": "Science check: Fe is the chemical symbol for which element?",
+    "question": "Fe is the chemical symbol for which element?",
     "answer": "Iron",
     "choices": [
       "Lithium",
@@ -1892,7 +1892,7 @@
     "explanation": "Fe stands for Iron."
   },
   {
-    "question": "Science check: Cu is the chemical symbol for which element?",
+    "question": "Cu is the chemical symbol for which element?",
     "answer": "Copper",
     "choices": [
       "Helium",
@@ -1903,7 +1903,7 @@
     "explanation": "Cu stands for Copper."
   },
   {
-    "question": "Science check: Ag is the chemical symbol for which element?",
+    "question": "Ag is the chemical symbol for which element?",
     "answer": "Silver",
     "choices": [
       "Chlorine",
@@ -1914,7 +1914,7 @@
     "explanation": "Ag stands for Silver."
   },
   {
-    "question": "Science check: Au is the chemical symbol for which element?",
+    "question": "Au is the chemical symbol for which element?",
     "answer": "Gold",
     "choices": [
       "Argon",
@@ -1925,7 +1925,7 @@
     "explanation": "Au stands for Gold."
   },
   {
-    "question": "Science check: Hg is the chemical symbol for which element?",
+    "question": "Hg is the chemical symbol for which element?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -1936,7 +1936,7 @@
     "explanation": "Hg stands for Mercury."
   },
   {
-    "question": "Science check: Pb is the chemical symbol for which element?",
+    "question": "Pb is the chemical symbol for which element?",
     "answer": "Lead",
     "choices": [
       "Carbon",
@@ -1947,7 +1947,7 @@
     "explanation": "Pb stands for Lead."
   },
   {
-    "question": "Science check: Sn is the chemical symbol for which element?",
+    "question": "Sn is the chemical symbol for which element?",
     "answer": "Tin",
     "choices": [
       "Argon",
@@ -1958,7 +1958,7 @@
     "explanation": "Sn stands for Tin."
   },
   {
-    "question": "Science check: Zn is the chemical symbol for which element?",
+    "question": "Zn is the chemical symbol for which element?",
     "answer": "Zinc",
     "choices": [
       "Phosphorus",
@@ -1969,7 +1969,7 @@
     "explanation": "Zn stands for Zinc."
   },
   {
-    "question": "Science check: Ni is the chemical symbol for which element?",
+    "question": "Ni is the chemical symbol for which element?",
     "answer": "Nickel",
     "choices": [
       "Lithium",
@@ -1980,7 +1980,7 @@
     "explanation": "Ni stands for Nickel."
   },
   {
-    "question": "Science check: Co is the chemical symbol for which element?",
+    "question": "Co is the chemical symbol for which element?",
     "answer": "Cobalt",
     "choices": [
       "Cobalt",
@@ -1991,7 +1991,7 @@
     "explanation": "Co stands for Cobalt."
   },
   {
-    "question": "Science check: U is the chemical symbol for which element?",
+    "question": "U is the chemical symbol for which element?",
     "answer": "Uranium",
     "choices": [
       "Copper",
@@ -2002,7 +2002,7 @@
     "explanation": "U stands for Uranium."
   },
   {
-    "question": "Science check: Ne is the chemical symbol for which element?",
+    "question": "Ne is the chemical symbol for which element?",
     "answer": "Neon",
     "choices": [
       "Nickel",
@@ -2013,7 +2013,7 @@
     "explanation": "Ne stands for Neon."
   },
   {
-    "question": "Science check: Ar is the chemical symbol for which element?",
+    "question": "Ar is the chemical symbol for which element?",
     "answer": "Argon",
     "choices": [
       "Argon",
@@ -2024,7 +2024,7 @@
     "explanation": "Ar stands for Argon."
   },
   {
-    "question": "Science check: Kr is the chemical symbol for which element?",
+    "question": "Kr is the chemical symbol for which element?",
     "answer": "Krypton",
     "choices": [
       "Neon",
@@ -2035,7 +2035,7 @@
     "explanation": "Kr stands for Krypton."
   },
   {
-    "question": "Science check: Xe is the chemical symbol for which element?",
+    "question": "Xe is the chemical symbol for which element?",
     "answer": "Xenon",
     "choices": [
       "Gold",
@@ -2046,7 +2046,7 @@
     "explanation": "Xe stands for Xenon."
   },
   {
-    "question": "Science check: Which planet has an orbital period of 88 Earth days?",
+    "question": "Which planet has an orbital period of 88 Earth days?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -2057,7 +2057,7 @@
     "explanation": "Mercury takes 88 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of 243 Earth days?",
+    "question": "Which planet has an orbital period of 243 Earth days?",
     "answer": "Venus",
     "choices": [
       "Neptune",
@@ -2068,7 +2068,7 @@
     "explanation": "Venus takes 243 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of 365 days?",
+    "question": "Which planet has an orbital period of 365 days?",
     "answer": "Earth",
     "choices": [
       "Venus",
@@ -2079,7 +2079,7 @@
     "explanation": "Earth takes 365 days to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of 687 Earth days?",
+    "question": "Which planet has an orbital period of 687 Earth days?",
     "answer": "Mars",
     "choices": [
       "Jupiter",
@@ -2090,7 +2090,7 @@
     "explanation": "Mars takes 687 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of about 12 Earth years?",
+    "question": "Which planet has an orbital period of about 12 Earth years?",
     "answer": "Jupiter",
     "choices": [
       "Uranus",
@@ -2101,7 +2101,7 @@
     "explanation": "Jupiter takes about 12 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of about 29 Earth years?",
+    "question": "Which planet has an orbital period of about 29 Earth years?",
     "answer": "Saturn",
     "choices": [
       "Saturn",
@@ -2112,7 +2112,7 @@
     "explanation": "Saturn takes about 29 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of about 84 Earth years?",
+    "question": "Which planet has an orbital period of about 84 Earth years?",
     "answer": "Uranus",
     "choices": [
       "Uranus",
@@ -2123,7 +2123,7 @@
     "explanation": "Uranus takes about 84 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Which planet has an orbital period of about 165 Earth years?",
+    "question": "Which planet has an orbital period of about 165 Earth years?",
     "answer": "Neptune",
     "choices": [
       "Uranus",
@@ -2134,7 +2134,7 @@
     "explanation": "Neptune takes about 165 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: If a person has problems with the organ that pumps blood through the body, which organ is it?",
+    "question": "If a person has problems with the organ that pumps blood through the body, which organ is it?",
     "answer": "heart",
     "choices": [
       "brain",
@@ -2145,7 +2145,7 @@
     "explanation": "The heart pumps blood through the body."
   },
   {
-    "question": "Science check: If a person has problems with the organ that exchange oxygen and carbon dioxide, which organ is it?",
+    "question": "If a person has problems with the organ that exchange oxygen and carbon dioxide, which organ is it?",
     "answer": "lungs",
     "choices": [
       "liver",
@@ -2156,7 +2156,7 @@
     "explanation": "The lungs exchange oxygen and carbon dioxide."
   },
   {
-    "question": "Science check: If a person has problems with the organ that detoxifies chemicals and produces bile, which organ is it?",
+    "question": "If a person has problems with the organ that detoxifies chemicals and produces bile, which organ is it?",
     "answer": "liver",
     "choices": [
       "liver",
@@ -2167,7 +2167,7 @@
     "explanation": "The liver detoxifies chemicals and produces bile."
   },
   {
-    "question": "Science check: If a person has problems with the organ that filter waste from the blood, which organ is it?",
+    "question": "If a person has problems with the organ that filter waste from the blood, which organ is it?",
     "answer": "kidneys",
     "choices": [
       "heart",
@@ -2178,7 +2178,7 @@
     "explanation": "The kidneys filter waste from the blood."
   },
   {
-    "question": "Science check: If a person has problems with the organ that begins digestion with acid and enzymes, which organ is it?",
+    "question": "If a person has problems with the organ that begins digestion with acid and enzymes, which organ is it?",
     "answer": "stomach",
     "choices": [
       "spleen",
@@ -2189,7 +2189,7 @@
     "explanation": "The stomach begins digestion with acid and enzymes."
   },
   {
-    "question": "Science check: If a person has problems with the organ that absorbs most nutrients from food, which organ is it?",
+    "question": "If a person has problems with the organ that absorbs most nutrients from food, which organ is it?",
     "answer": "small intestine",
     "choices": [
       "small intestine",
@@ -2200,7 +2200,7 @@
     "explanation": "The small intestine absorbs most nutrients from food."
   },
   {
-    "question": "Science check: If a person has problems with the organ that controls the nervous system, which organ is it?",
+    "question": "If a person has problems with the organ that controls the nervous system, which organ is it?",
     "answer": "brain",
     "choices": [
       "brain",
@@ -2211,7 +2211,7 @@
     "explanation": "The brain controls the nervous system."
   },
   {
-    "question": "Science check: If a person has problems with the organ that is the body's largest organ, which organ is it?",
+    "question": "If a person has problems with the organ that is the body's largest organ, which organ is it?",
     "answer": "skin",
     "choices": [
       "spleen",
@@ -2222,7 +2222,7 @@
     "explanation": "The skin is the body's largest organ."
   },
   {
-    "question": "Science check: If a person has problems with the organ that produces insulin, which organ is it?",
+    "question": "If a person has problems with the organ that produces insulin, which organ is it?",
     "answer": "pancreas",
     "choices": [
       "small intestine",
@@ -2233,7 +2233,7 @@
     "explanation": "The pancreas produces insulin."
   },
   {
-    "question": "Science check: If a person has problems with the organ that helps filter blood and support immunity, which organ is it?",
+    "question": "If a person has problems with the organ that helps filter blood and support immunity, which organ is it?",
     "answer": "spleen",
     "choices": [
       "brain",
@@ -2244,7 +2244,7 @@
     "explanation": "The spleen helps filter blood and support immunity."
   },
   {
-    "question": "Science check: Newton is the SI unit of what quantity?",
+    "question": "Newton is the SI unit of what quantity?",
     "answer": "force",
     "choices": [
       "force",
@@ -2255,7 +2255,7 @@
     "explanation": "Newton measures force."
   },
   {
-    "question": "Science check: Joule is the SI unit of what quantity?",
+    "question": "Joule is the SI unit of what quantity?",
     "answer": "energy",
     "choices": [
       "electrical resistance",
@@ -2266,7 +2266,7 @@
     "explanation": "Joule measures energy."
   },
   {
-    "question": "Science check: Watt is the SI unit of what quantity?",
+    "question": "Watt is the SI unit of what quantity?",
     "answer": "power",
     "choices": [
       "electrical resistance",
@@ -2277,7 +2277,7 @@
     "explanation": "Watt measures power."
   },
   {
-    "question": "Science check: Ampere is the SI unit of what quantity?",
+    "question": "Ampere is the SI unit of what quantity?",
     "answer": "electric current",
     "choices": [
       "electric current",
@@ -2288,7 +2288,7 @@
     "explanation": "Ampere measures electric current."
   },
   {
-    "question": "Science check: Kelvin is the SI unit of what quantity?",
+    "question": "Kelvin is the SI unit of what quantity?",
     "answer": "temperature",
     "choices": [
       "temperature",
@@ -2299,7 +2299,7 @@
     "explanation": "Kelvin measures temperature."
   },
   {
-    "question": "Science check: Hertz is the SI unit of what quantity?",
+    "question": "Hertz is the SI unit of what quantity?",
     "answer": "frequency",
     "choices": [
       "frequency",
@@ -2310,7 +2310,7 @@
     "explanation": "Hertz measures frequency."
   },
   {
-    "question": "Science check: Pascal is the SI unit of what quantity?",
+    "question": "Pascal is the SI unit of what quantity?",
     "answer": "pressure",
     "choices": [
       "energy",
@@ -2321,7 +2321,7 @@
     "explanation": "Pascal measures pressure."
   },
   {
-    "question": "Science check: Ohm is the SI unit of what quantity?",
+    "question": "Ohm is the SI unit of what quantity?",
     "answer": "electrical resistance",
     "choices": [
       "pressure",
@@ -7876,7 +7876,7 @@
     "explanation": "Ohm measures electrical resistance."
   },
   {
-    "question": "Science check: Round 3: H is the chemical symbol for which element?",
+    "question": "Round 3: H is the chemical symbol for which element?",
     "answer": "Hydrogen",
     "choices": [
       "Potassium",
@@ -7887,7 +7887,7 @@
     "explanation": "H stands for Hydrogen."
   },
   {
-    "question": "Science check: Round 3: He is the chemical symbol for which element?",
+    "question": "Round 3: He is the chemical symbol for which element?",
     "answer": "Helium",
     "choices": [
       "Tin",
@@ -7898,7 +7898,7 @@
     "explanation": "He stands for Helium."
   },
   {
-    "question": "Science check: Round 3: Li is the chemical symbol for which element?",
+    "question": "Round 3: Li is the chemical symbol for which element?",
     "answer": "Lithium",
     "choices": [
       "Argon",
@@ -7909,7 +7909,7 @@
     "explanation": "Li stands for Lithium."
   },
   {
-    "question": "Science check: Round 3: C is the chemical symbol for which element?",
+    "question": "Round 3: C is the chemical symbol for which element?",
     "answer": "Carbon",
     "choices": [
       "Lithium",
@@ -7920,7 +7920,7 @@
     "explanation": "C stands for Carbon."
   },
   {
-    "question": "Science check: Round 3: N is the chemical symbol for which element?",
+    "question": "Round 3: N is the chemical symbol for which element?",
     "answer": "Nitrogen",
     "choices": [
       "Nitrogen",
@@ -7931,7 +7931,7 @@
     "explanation": "N stands for Nitrogen."
   },
   {
-    "question": "Science check: Round 3: O is the chemical symbol for which element?",
+    "question": "Round 3: O is the chemical symbol for which element?",
     "answer": "Oxygen",
     "choices": [
       "Tin",
@@ -7942,7 +7942,7 @@
     "explanation": "O stands for Oxygen."
   },
   {
-    "question": "Science check: Round 3: Na is the chemical symbol for which element?",
+    "question": "Round 3: Na is the chemical symbol for which element?",
     "answer": "Sodium",
     "choices": [
       "Sodium",
@@ -7953,7 +7953,7 @@
     "explanation": "Na stands for Sodium."
   },
   {
-    "question": "Science check: Round 3: Mg is the chemical symbol for which element?",
+    "question": "Round 3: Mg is the chemical symbol for which element?",
     "answer": "Magnesium",
     "choices": [
       "Gold",
@@ -7964,7 +7964,7 @@
     "explanation": "Mg stands for Magnesium."
   },
   {
-    "question": "Science check: Round 3: Al is the chemical symbol for which element?",
+    "question": "Round 3: Al is the chemical symbol for which element?",
     "answer": "Aluminum",
     "choices": [
       "Gold",
@@ -7975,7 +7975,7 @@
     "explanation": "Al stands for Aluminum."
   },
   {
-    "question": "Science check: Round 3: Si is the chemical symbol for which element?",
+    "question": "Round 3: Si is the chemical symbol for which element?",
     "answer": "Silicon",
     "choices": [
       "Aluminum",
@@ -7986,7 +7986,7 @@
     "explanation": "Si stands for Silicon."
   },
   {
-    "question": "Science check: Round 3: P is the chemical symbol for which element?",
+    "question": "Round 3: P is the chemical symbol for which element?",
     "answer": "Phosphorus",
     "choices": [
       "Nitrogen",
@@ -7997,7 +7997,7 @@
     "explanation": "P stands for Phosphorus."
   },
   {
-    "question": "Science check: Round 3: S is the chemical symbol for which element?",
+    "question": "Round 3: S is the chemical symbol for which element?",
     "answer": "Sulfur",
     "choices": [
       "Sulfur",
@@ -8008,7 +8008,7 @@
     "explanation": "S stands for Sulfur."
   },
   {
-    "question": "Science check: Round 3: Cl is the chemical symbol for which element?",
+    "question": "Round 3: Cl is the chemical symbol for which element?",
     "answer": "Chlorine",
     "choices": [
       "Helium",
@@ -8019,7 +8019,7 @@
     "explanation": "Cl stands for Chlorine."
   },
   {
-    "question": "Science check: Round 3: K is the chemical symbol for which element?",
+    "question": "Round 3: K is the chemical symbol for which element?",
     "answer": "Potassium",
     "choices": [
       "Potassium",
@@ -8030,7 +8030,7 @@
     "explanation": "K stands for Potassium."
   },
   {
-    "question": "Science check: Round 3: Ca is the chemical symbol for which element?",
+    "question": "Round 3: Ca is the chemical symbol for which element?",
     "answer": "Calcium",
     "choices": [
       "Silver",
@@ -8041,7 +8041,7 @@
     "explanation": "Ca stands for Calcium."
   },
   {
-    "question": "Science check: Round 3: Fe is the chemical symbol for which element?",
+    "question": "Round 3: Fe is the chemical symbol for which element?",
     "answer": "Iron",
     "choices": [
       "Lithium",
@@ -8052,7 +8052,7 @@
     "explanation": "Fe stands for Iron."
   },
   {
-    "question": "Science check: Round 3: Cu is the chemical symbol for which element?",
+    "question": "Round 3: Cu is the chemical symbol for which element?",
     "answer": "Copper",
     "choices": [
       "Helium",
@@ -8063,7 +8063,7 @@
     "explanation": "Cu stands for Copper."
   },
   {
-    "question": "Science check: Round 3: Ag is the chemical symbol for which element?",
+    "question": "Round 3: Ag is the chemical symbol for which element?",
     "answer": "Silver",
     "choices": [
       "Chlorine",
@@ -8074,7 +8074,7 @@
     "explanation": "Ag stands for Silver."
   },
   {
-    "question": "Science check: Round 3: Au is the chemical symbol for which element?",
+    "question": "Round 3: Au is the chemical symbol for which element?",
     "answer": "Gold",
     "choices": [
       "Argon",
@@ -8085,7 +8085,7 @@
     "explanation": "Au stands for Gold."
   },
   {
-    "question": "Science check: Round 3: Hg is the chemical symbol for which element?",
+    "question": "Round 3: Hg is the chemical symbol for which element?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -8096,7 +8096,7 @@
     "explanation": "Hg stands for Mercury."
   },
   {
-    "question": "Science check: Round 3: Pb is the chemical symbol for which element?",
+    "question": "Round 3: Pb is the chemical symbol for which element?",
     "answer": "Lead",
     "choices": [
       "Carbon",
@@ -8107,7 +8107,7 @@
     "explanation": "Pb stands for Lead."
   },
   {
-    "question": "Science check: Round 3: Sn is the chemical symbol for which element?",
+    "question": "Round 3: Sn is the chemical symbol for which element?",
     "answer": "Tin",
     "choices": [
       "Argon",
@@ -8118,7 +8118,7 @@
     "explanation": "Sn stands for Tin."
   },
   {
-    "question": "Science check: Round 3: Zn is the chemical symbol for which element?",
+    "question": "Round 3: Zn is the chemical symbol for which element?",
     "answer": "Zinc",
     "choices": [
       "Phosphorus",
@@ -8129,7 +8129,7 @@
     "explanation": "Zn stands for Zinc."
   },
   {
-    "question": "Science check: Round 3: Ni is the chemical symbol for which element?",
+    "question": "Round 3: Ni is the chemical symbol for which element?",
     "answer": "Nickel",
     "choices": [
       "Lithium",
@@ -8140,7 +8140,7 @@
     "explanation": "Ni stands for Nickel."
   },
   {
-    "question": "Science check: Round 3: Co is the chemical symbol for which element?",
+    "question": "Round 3: Co is the chemical symbol for which element?",
     "answer": "Cobalt",
     "choices": [
       "Cobalt",
@@ -8151,7 +8151,7 @@
     "explanation": "Co stands for Cobalt."
   },
   {
-    "question": "Science check: Round 3: U is the chemical symbol for which element?",
+    "question": "Round 3: U is the chemical symbol for which element?",
     "answer": "Uranium",
     "choices": [
       "Copper",
@@ -8162,7 +8162,7 @@
     "explanation": "U stands for Uranium."
   },
   {
-    "question": "Science check: Round 3: Ne is the chemical symbol for which element?",
+    "question": "Round 3: Ne is the chemical symbol for which element?",
     "answer": "Neon",
     "choices": [
       "Nickel",
@@ -8173,7 +8173,7 @@
     "explanation": "Ne stands for Neon."
   },
   {
-    "question": "Science check: Round 3: Ar is the chemical symbol for which element?",
+    "question": "Round 3: Ar is the chemical symbol for which element?",
     "answer": "Argon",
     "choices": [
       "Argon",
@@ -8184,7 +8184,7 @@
     "explanation": "Ar stands for Argon."
   },
   {
-    "question": "Science check: Round 3: Kr is the chemical symbol for which element?",
+    "question": "Round 3: Kr is the chemical symbol for which element?",
     "answer": "Krypton",
     "choices": [
       "Neon",
@@ -8195,7 +8195,7 @@
     "explanation": "Kr stands for Krypton."
   },
   {
-    "question": "Science check: Round 3: Xe is the chemical symbol for which element?",
+    "question": "Round 3: Xe is the chemical symbol for which element?",
     "answer": "Xenon",
     "choices": [
       "Gold",
@@ -8206,7 +8206,7 @@
     "explanation": "Xe stands for Xenon."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of 88 Earth days?",
+    "question": "Round 3: Which planet has an orbital period of 88 Earth days?",
     "answer": "Mercury",
     "choices": [
       "Mercury",
@@ -8217,7 +8217,7 @@
     "explanation": "Mercury takes 88 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of 243 Earth days?",
+    "question": "Round 3: Which planet has an orbital period of 243 Earth days?",
     "answer": "Venus",
     "choices": [
       "Neptune",
@@ -8228,7 +8228,7 @@
     "explanation": "Venus takes 243 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of 365 days?",
+    "question": "Round 3: Which planet has an orbital period of 365 days?",
     "answer": "Earth",
     "choices": [
       "Venus",
@@ -8239,7 +8239,7 @@
     "explanation": "Earth takes 365 days to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of 687 Earth days?",
+    "question": "Round 3: Which planet has an orbital period of 687 Earth days?",
     "answer": "Mars",
     "choices": [
       "Jupiter",
@@ -8250,7 +8250,7 @@
     "explanation": "Mars takes 687 Earth days to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of about 12 Earth years?",
+    "question": "Round 3: Which planet has an orbital period of about 12 Earth years?",
     "answer": "Jupiter",
     "choices": [
       "Uranus",
@@ -8261,7 +8261,7 @@
     "explanation": "Jupiter takes about 12 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of about 29 Earth years?",
+    "question": "Round 3: Which planet has an orbital period of about 29 Earth years?",
     "answer": "Saturn",
     "choices": [
       "Saturn",
@@ -8272,7 +8272,7 @@
     "explanation": "Saturn takes about 29 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of about 84 Earth years?",
+    "question": "Round 3: Which planet has an orbital period of about 84 Earth years?",
     "answer": "Uranus",
     "choices": [
       "Uranus",
@@ -8283,7 +8283,7 @@
     "explanation": "Uranus takes about 84 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: Which planet has an orbital period of about 165 Earth years?",
+    "question": "Round 3: Which planet has an orbital period of about 165 Earth years?",
     "answer": "Neptune",
     "choices": [
       "Uranus",
@@ -8294,7 +8294,7 @@
     "explanation": "Neptune takes about 165 Earth years to orbit the Sun."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that pumps blood through the body, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that pumps blood through the body, which organ is it?",
     "answer": "heart",
     "choices": [
       "brain",
@@ -8305,7 +8305,7 @@
     "explanation": "The heart pumps blood through the body."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that exchange oxygen and carbon dioxide, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that exchange oxygen and carbon dioxide, which organ is it?",
     "answer": "lungs",
     "choices": [
       "liver",
@@ -8316,7 +8316,7 @@
     "explanation": "The lungs exchange oxygen and carbon dioxide."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that detoxifies chemicals and produces bile, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that detoxifies chemicals and produces bile, which organ is it?",
     "answer": "liver",
     "choices": [
       "liver",
@@ -8327,7 +8327,7 @@
     "explanation": "The liver detoxifies chemicals and produces bile."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that filter waste from the blood, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that filter waste from the blood, which organ is it?",
     "answer": "kidneys",
     "choices": [
       "heart",
@@ -8338,7 +8338,7 @@
     "explanation": "The kidneys filter waste from the blood."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that begins digestion with acid and enzymes, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that begins digestion with acid and enzymes, which organ is it?",
     "answer": "stomach",
     "choices": [
       "spleen",
@@ -8349,7 +8349,7 @@
     "explanation": "The stomach begins digestion with acid and enzymes."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that absorbs most nutrients from food, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that absorbs most nutrients from food, which organ is it?",
     "answer": "small intestine",
     "choices": [
       "small intestine",
@@ -8360,7 +8360,7 @@
     "explanation": "The small intestine absorbs most nutrients from food."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that controls the nervous system, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that controls the nervous system, which organ is it?",
     "answer": "brain",
     "choices": [
       "brain",
@@ -8371,7 +8371,7 @@
     "explanation": "The brain controls the nervous system."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that is the body's largest organ, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that is the body's largest organ, which organ is it?",
     "answer": "skin",
     "choices": [
       "spleen",
@@ -8382,7 +8382,7 @@
     "explanation": "The skin is the body's largest organ."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that produces insulin, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that produces insulin, which organ is it?",
     "answer": "pancreas",
     "choices": [
       "small intestine",
@@ -8393,7 +8393,7 @@
     "explanation": "The pancreas produces insulin."
   },
   {
-    "question": "Science check: Round 3: If a person has problems with the organ that helps filter blood and support immunity, which organ is it?",
+    "question": "Round 3: If a person has problems with the organ that helps filter blood and support immunity, which organ is it?",
     "answer": "spleen",
     "choices": [
       "brain",
@@ -8404,7 +8404,7 @@
     "explanation": "The spleen helps filter blood and support immunity."
   },
   {
-    "question": "Science check: Round 3: Newton is the SI unit of what quantity?",
+    "question": "Round 3: Newton is the SI unit of what quantity?",
     "answer": "force",
     "choices": [
       "force",
@@ -8415,7 +8415,7 @@
     "explanation": "Newton measures force."
   },
   {
-    "question": "Science check: Round 3: Joule is the SI unit of what quantity?",
+    "question": "Round 3: Joule is the SI unit of what quantity?",
     "answer": "energy",
     "choices": [
       "electrical resistance",
@@ -8426,7 +8426,7 @@
     "explanation": "Joule measures energy."
   },
   {
-    "question": "Science check: Round 3: Watt is the SI unit of what quantity?",
+    "question": "Round 3: Watt is the SI unit of what quantity?",
     "answer": "power",
     "choices": [
       "electrical resistance",
@@ -8437,7 +8437,7 @@
     "explanation": "Watt measures power."
   },
   {
-    "question": "Science check: Round 3: Ampere is the SI unit of what quantity?",
+    "question": "Round 3: Ampere is the SI unit of what quantity?",
     "answer": "electric current",
     "choices": [
       "electric current",
@@ -8448,7 +8448,7 @@
     "explanation": "Ampere measures electric current."
   },
   {
-    "question": "Science check: Round 3: Kelvin is the SI unit of what quantity?",
+    "question": "Round 3: Kelvin is the SI unit of what quantity?",
     "answer": "temperature",
     "choices": [
       "temperature",
@@ -8459,7 +8459,7 @@
     "explanation": "Kelvin measures temperature."
   },
   {
-    "question": "Science check: Round 3: Hertz is the SI unit of what quantity?",
+    "question": "Round 3: Hertz is the SI unit of what quantity?",
     "answer": "frequency",
     "choices": [
       "frequency",
@@ -8470,7 +8470,7 @@
     "explanation": "Hertz measures frequency."
   },
   {
-    "question": "Science check: Round 3: Pascal is the SI unit of what quantity?",
+    "question": "Round 3: Pascal is the SI unit of what quantity?",
     "answer": "pressure",
     "choices": [
       "energy",
@@ -8481,7 +8481,7 @@
     "explanation": "Pascal measures pressure."
   },
   {
-    "question": "Science check: Round 3: Ohm is the SI unit of what quantity?",
+    "question": "Round 3: Ohm is the SI unit of what quantity?",
     "answer": "electrical resistance",
     "choices": [
       "pressure",
