@@ -104,7 +104,11 @@ export function createRoomManager() {
       const disconnectedData = roomDisconnected.get(name.toLowerCase());
       if (disconnectedData) {
         isReconnecting = true;
-        genuineReconnect = true;
+        // Only treat as a genuine reconnect if the player was gone for more than 5 seconds.
+        // A setup→game page redirect disconnects and rejoins in <2s, so it gets
+        // genuineReconnect=false and will not trigger the host:restored toast.
+        // A real reconnect (WiFi drop, closed tab, etc.) always takes longer than 5s.
+        genuineReconnect = (Date.now() - disconnectedData.disconnectedAt) > 5000;
         wasHost = disconnectedData.wasHost;
         // Restore original name (preserves original casing regardless of how they typed it)
         name = disconnectedData.name;
