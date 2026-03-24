@@ -3561,7 +3561,7 @@
       "Virginia",
       "Kentucky"
     ],
-    "explanation": "Texas has the most counties of any U.S. state, with 254 in total. It adds context beyond the answer itself."
+    "explanation": "Texas has the most counties of any U.S. state, with 254 in total."
   },
   {
     "question": "What is the name of the body of water between Australia and Antarctica?",
@@ -9842,7 +9842,7 @@
       "Apennines",
       "Pyrenees"
     ],
-    "explanation": "The Pyrenees form a natural border between Spain and France. It adds context beyond the answer itself."
+    "explanation": "The Pyrenees form a natural border between Spain and France."
   },
   {
     "question": "Which mountain range runs down the spine of Italy?",
@@ -10568,7 +10568,7 @@
       "Serbia",
       "Slovenia"
     ],
-    "explanation": "Croatia adopted the euro in 2023, replacing the kuna as its currency. It adds context beyond the answer itself."
+    "explanation": "Croatia adopted the euro in 2023, replacing the kuna as its currency."
   },
   {
     "question": "Which country uses the leu as its currency?",

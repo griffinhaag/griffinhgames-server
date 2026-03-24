@@ -1361,7 +1361,36 @@ export default {
              }
              break;
              
+          case "player:kicked": {
+            // Remove kicked player from all active tracking, but keep scoresByName intact
+            // so their score is restored if they rejoin.
+            const kickedSocketId = payload?.socketId || socketId;
+            const kickedName = payload?.playerName;
+
+            scores.delete(kickedSocketId);
+            playerAnswers.delete(kickedSocketId);
+            if (kickedName) {
+              disconnectedTracker.delete(kickedName.toLowerCase());
+            }
+
+            // Check if remaining players have all answered
+            if (phase === "question") checkAllAnswered();
+            broadcastState();
+            break;
+          }
+
           case "player:joined":
+            // Purge any stale score entries for socketIds no longer in the room.
+            // This handles device switches where the old socket hasn't yet disconnected
+            // but has already been evicted from room.players. Without this, broadcastState
+            // would fall back to the "Player-XXXX" placeholder for the stale socketId.
+            for (const [sid] of [...scores]) {
+              if (!room.players.has(sid)) {
+                scores.delete(sid);
+                playerAnswers.delete(sid);
+              }
+            }
+
             // checkAndAddPlayer already ran at the top of handleEvent.
             // Calling it again is safe — it's a no-op if the score is already set.
             checkAndAddPlayer(socketId);

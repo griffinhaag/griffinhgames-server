@@ -503,7 +503,7 @@
       "Mary Shelley",
       "Herman Melville"
     ],
-    "explanation": "F. Scott Fitzgerald wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "F. Scott Fitzgerald published The Great Gatsby in 1925. Initially a commercial disappointment, it was later recognised as the defining novel of the Jazz Age and the American Dream."
   },
   {
     "question": "Who wrote To Kill a Mockingbird?",
@@ -514,7 +514,7 @@
       "William Shakespeare",
       "Miguel de Cervantes"
     ],
-    "explanation": "Harper Lee wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Harper Lee published To Kill a Mockingbird in 1960. It won the Pulitzer Prize in 1961 and spent over 80 weeks on the bestseller list; Lee published only one other novel in her lifetime."
   },
   {
     "question": "Who wrote Don Quixote?",
@@ -525,7 +525,7 @@
       "William Shakespeare",
       "Miguel de Cervantes"
     ],
-    "explanation": "Miguel de Cervantes wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Miguel de Cervantes published Don Quixote in two parts (1605 and 1615). It is widely considered the first modern novel and the most influential work in the Spanish language."
   },
   {
     "question": "Who wrote Ulysses?",
@@ -536,7 +536,7 @@
       "Mary Shelley",
       "Harper Lee"
     ],
-    "explanation": "James Joyce wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "James Joyce published Ulysses in 1922, mapping a single day in Dublin across 18 episodes modelled on Homer's Odyssey. It is consistently ranked as one of the greatest novels in English."
   },
   {
     "question": "Who wrote Frankenstein?",
@@ -547,7 +547,7 @@
       "Homer",
       "Mary Shelley"
     ],
-    "explanation": "Mary Shelley wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Mary Shelley published Frankenstein in 1818 when she was just 20. Written as part of a ghost story challenge with Percy Shelley and Lord Byron, it is considered the first science fiction novel."
   },
   {
     "question": "Who painted Mona Lisa?",
@@ -1779,7 +1779,7 @@
       "Mars",
       "Neptune"
     ],
-    "explanation": "Phobos is one of Mars's tiny moons and may be a captured asteroid. It adds context beyond the answer itself."
+    "explanation": "Phobos is one of Mars's tiny moons and may be a captured asteroid."
   },
   {
     "question": "Deimos is a moon of which planet?",
@@ -3407,7 +3407,7 @@
       "Isabel Allende",
       "Jorge Luis Borges"
     ],
-    "explanation": "Gabriel García Márquez wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Gabriel García Márquez published One Hundred Years of Solitude in 1967. The novel defined magical realism and has sold over 50 million copies. He won the Nobel Prize in Literature in 1982."
   },
   {
     "question": "Who wrote the novel \"The Divine Comedy\"?",
@@ -3418,7 +3418,7 @@
       "Giovanni Boccaccio",
       "Francesco Petrarch"
     ],
-    "explanation": "Dante Alighieri wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Dante Alighieri completed The Divine Comedy around 1320. Its vivid vision of Hell, Purgatory, and Paradise shaped Western Christian art and literature for centuries."
   },
   {
     "question": "Who wrote the novel \"The Trial\"?",
@@ -3440,7 +3440,7 @@
       "André Gide",
       "Marcel Proust"
     ],
-    "explanation": "Albert Camus wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Albert Camus published The Stranger in 1942 alongside his essay The Myth of Sisyphus. Together they became the foundational texts of literary absurdism."
   },
   {
     "question": "Who wrote the novel \"Beloved\"?",
@@ -3451,7 +3451,7 @@
       "Maya Angelou",
       "Zora Neale Hurston"
     ],
-    "explanation": "Toni Morrison wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Toni Morrison published Beloved in 1987, based on the true story of an enslaved woman. It won the Pulitzer Prize in 1988 and contributed to her Nobel Prize in Literature in 1993."
   },
   {
     "question": "Who wrote the novel \"Invisible Man\"?",
@@ -3462,7 +3462,7 @@
       "James Baldwin",
       "Langston Hughes"
     ],
-    "explanation": "Ralph Ellison wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Ralph Ellison published Invisible Man in 1952. The novel won the National Book Award and follows an unnamed Black narrator navigating racism in 1930s America."
   },
   {
     "question": "Who wrote the novel \"The Sound and the Fury\"?",
@@ -3473,7 +3473,7 @@
       "Ernest Hemingway",
       "F. Scott Fitzgerald"
     ],
-    "explanation": "William Faulkner wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "William Faulkner published The Sound and the Fury in 1929. Its stream-of-consciousness narrative split across four unreliable narrators was groundbreaking. He won the Nobel Prize in Literature in 1949."
   },
   {
     "question": "Who wrote the novel \"The Sun Also Rises\"?",
@@ -3495,7 +3495,7 @@
       "E. M. Forster",
       "George Eliot"
     ],
-    "explanation": "Virginia Woolf wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Virginia Woolf published Mrs Dalloway in 1925 and To the Lighthouse in 1927. Her stream-of-consciousness technique revolutionised the English novel."
   },
   {
     "question": "Who wrote the novel \"The Name of the Rose\"?",
@@ -3506,7 +3506,7 @@
       "Primo Levi",
       "Alberto Moravia"
     ],
-    "explanation": "Umberto Eco wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Umberto Eco published The Name of the Rose in 1980, a medieval whodunit set in a monastery library. It spent 40 weeks on the New York Times bestseller list and sold over 10 million copies."
   },
   {
     "question": "Who wrote the novel \"The Master and Margarita\"?",
@@ -3517,7 +3517,7 @@
       "Nikolai Gogol",
       "Boris Pasternak"
     ],
-    "explanation": "Mikhail Bulgakov wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Mikhail Bulgakov wrote The Master and Margarita in secret between 1930 and 1940. It was unpublishable under Stalin and only appeared in censored form in 1966–67, nearly 30 years after his death."
   },
   {
     "question": "Who wrote the novel \"Things Fall Apart\"?",
@@ -3528,7 +3528,7 @@
       "Wole Soyinka",
       "Nadine Gordimer"
     ],
-    "explanation": "Chinua Achebe wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Chinua Achebe published Things Fall Apart in 1958. It is the most widely read book in modern African literature, with over 20 million copies sold in 57 languages."
   },
   {
     "question": "Who wrote the novel \"The Handmaid's Tale\"?",
@@ -3539,7 +3539,7 @@
       "Margaret Laurence",
       "Carol Shields"
     ],
-    "explanation": "Margaret Atwood wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Margaret Atwood published The Handmaid's Tale in 1985. Set in a theocratic America where women are subjugated, it won the inaugural Arthur C. Clarke Award and was adapted into a major TV series in 2017."
   },
   {
     "question": "Who wrote the novel \"The Alchemist\"?",
@@ -3550,7 +3550,7 @@
       "José Saramago",
       "Carlos Fuentes"
     ],
-    "explanation": "Paulo Coelho wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Paulo Coelho published The Alchemist in 1988. Originally printed in only 900 copies, it became one of the best-selling books in history with over 65 million copies sold."
   },
   {
     "question": "Who wrote the novel \"The Old Man and the Sea\"?",
@@ -3572,7 +3572,7 @@
       "John Milton",
       "Edmund Spenser"
     ],
-    "explanation": "Geoffrey Chaucer wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Geoffrey Chaucer wrote The Canterbury Tales in the 1390s. The collection of stories told by pilgrims on a journey to Canterbury helped establish Middle English as a literary language."
   },
   {
     "question": "Who wrote the novel \"Paradise Lost\"?",
@@ -3583,7 +3583,7 @@
       "William Blake",
       "John Donne"
     ],
-    "explanation": "John Milton wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "John Milton published Paradise Lost in 1667. The epic poem retelling the Fall of Man in blank verse is considered the greatest work in English after Shakespeare."
   },
   {
     "question": "Who wrote the novel \"Jane Eyre\"?",
@@ -3594,7 +3594,7 @@
       "Anne Brontë",
       "George Eliot"
     ],
-    "explanation": "Charlotte Brontë wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Charlotte Brontë published Jane Eyre in 1847 under the pseudonym Currer Bell. The novel was an immediate bestseller and is seen as a precursor to the feminist novel."
   },
   {
     "question": "Who wrote the novel \"Wuthering Heights\"?",
@@ -3605,7 +3605,7 @@
       "Jane Austen",
       "George Eliot"
     ],
-    "explanation": "Emily Brontë wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Emily Brontë published Wuthering Heights in 1847, her only novel. Its dark romanticism and unconventional structure made it controversial on release but a classic today."
   },
   {
     "question": "Who wrote the novel \"Middlemarch\"?",
@@ -3616,7 +3616,7 @@
       "Charlotte Brontë",
       "Virginia Woolf"
     ],
-    "explanation": "George Eliot wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "George Eliot was the pen name of Mary Ann Evans, who published Middlemarch in 1871–72. Virginia Woolf called it 'one of the few English novels written for grown-up people.'"
   },
   {
     "question": "Who wrote the novel \"The Metamorphosis\"?",
@@ -3638,7 +3638,7 @@
       "Samuel Taylor Coleridge",
       "Percy Bysshe Shelley"
     ],
-    "explanation": "Lord Byron wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Lord Byron wrote Don Juan as an epic satirical poem from 1819 to 1824, leaving it unfinished at his death. Byron himself became the model for the 'Byronic hero' — brooding, rebellious, magnetic."
   },
   {
     "question": "Who wrote the novel \"Leaves of Grass\"?",
@@ -3649,7 +3649,7 @@
       "Ezra Pound",
       "T. S. Eliot"
     ],
-    "explanation": "Walt Whitman wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Walt Whitman self-published Leaves of Grass in 1855, revising it through nine editions until his death in 1892. Its free verse and celebration of the body shocked Victorian readers but defined American poetry."
   },
   {
     "question": "Who wrote the novel \"The Waste Land\"?",
@@ -3660,7 +3660,7 @@
       "W. B. Yeats",
       "Wallace Stevens"
     ],
-    "explanation": "T. S. Eliot wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "T. S. Eliot published The Waste Land in 1922. The fragmented modernist poem, spanning 434 lines, is considered one of the most important poems of the 20th century."
   },
   {
     "question": "Who wrote the novel \"A Tale of Two Cities\"?",
@@ -3671,7 +3671,7 @@
       "Anthony Trollope",
       "Wilkie Collins"
     ],
-    "explanation": "Charles Dickens wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Charles Dickens serialised many of his novels in magazines, making them accessible to working-class readers. A Tale of Two Cities is the best-selling novel of all time with over 200 million copies."
   },
   {
     "question": "Who wrote the novel \"War and Peace\"?",
@@ -3726,7 +3726,7 @@
       "E. M. Forster",
       "Rudyard Kipling"
     ],
-    "explanation": "Joseph Conrad wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Joseph Conrad published Heart of Darkness in 1899. The novella's exploration of colonialism in the Congo inspired Francis Ford Coppola's Apocalypse Now (1979)."
   },
   {
     "question": "Who wrote the novel \"A Passage to India\"?",
@@ -3737,7 +3737,7 @@
       "Graham Greene",
       "D. H. Lawrence"
     ],
-    "explanation": "E. M. Forster wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "E. M. Forster published A Passage to India in 1924. The novel examined British colonialism in India and was adapted into an Academy Award-nominated film by David Lean in 1984."
   },
   {
     "question": "Who wrote the novel \"A Clockwork Orange\"?",
@@ -3748,7 +3748,7 @@
       "Aldous Huxley",
       "Graham Greene"
     ],
-    "explanation": "Anthony Burgess wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Anthony Burgess published A Clockwork Orange in 1962. The dystopian novel introduced a fictional slang called Nadsat and was adapted by Stanley Kubrick in his controversial 1971 film."
   },
   {
     "question": "Who wrote the novel \"Brave New World\"?",
@@ -3759,7 +3759,7 @@
       "Ayn Rand",
       "H. G. Wells"
     ],
-    "explanation": "Aldous Huxley wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Aldous Huxley published Brave New World in 1932, imagining a society controlled through pleasure and conditioning — a stark contrast to Orwell's fear-based dystopia."
   },
   {
     "question": "Who wrote the novel \"The Grapes of Wrath\"?",
@@ -3792,7 +3792,7 @@
       "Edgar Rice Burroughs",
       "Mark Twain"
     ],
-    "explanation": "Jack London wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Jack London published The Call of the Wild in 1903. The adventure novel, set during the Klondike Gold Rush, sold out on its first day and made London one of America's highest-paid writers."
   },
   {
     "question": "Who wrote the novel \"The Road\"?",
@@ -3803,7 +3803,7 @@
       "Toni Morrison",
       "Philip Roth"
     ],
-    "explanation": "Cormac McCarthy wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Cormac McCarthy published The Road in 2006. The post-apocalyptic novel won the Pulitzer Prize in 2007 and was selected for Oprah's Book Club, dramatically boosting its readership."
   },
   {
     "question": "Who wrote the novel \"The Bell Jar\"?",
@@ -3814,7 +3814,7 @@
       "Joan Didion",
       "Maya Angelou"
     ],
-    "explanation": "Sylvia Plath wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Sylvia Plath published The Bell Jar in 1963 under the pseudonym Victoria Lucas, one month before her death. The semi-autobiographical novel drew on her own experiences with mental illness."
   },
   {
     "question": "Who wrote the novel \"The Left Hand of Darkness\"?",
@@ -3825,7 +3825,7 @@
       "Margaret Atwood",
       "Joanna Russ"
     ],
-    "explanation": "Ursula K. Le Guin wrote the work, which became influential for its themes, style, and long-term cultural impact."
+    "explanation": "Ursula K. Le Guin published The Left Hand of Darkness in 1969. Its exploration of a genderless society won both the Hugo and Nebula Awards, making Le Guin a pioneer of feminist science fiction."
   },
   {
     "question": "Which artist painted \"The Night Watch\"?",
