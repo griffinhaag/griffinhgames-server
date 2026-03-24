@@ -848,22 +848,52 @@ export default {
     // Returns a pool for the given categories, always preferring questions that have never been
     // seen in this room session. If fewer fresh questions exist than `needed`, it supplements
     // with seen questions (shuffled for fairness) so the game can still run rather than crashing.
+    //
+    // Equal distribution: samples roughly the same number of questions from each selected
+    // category so no category dominates just because it has more questions in its file.
     function buildQuestionPool(categories, needed, useHardMode = false) {
+      // Sample ceil(target / numCategories) questions from each category, then let the
+      // caller's shuffle randomise the combined list. This guarantees equal representation
+      // regardless of how many questions each category file contains.
+      function buildEqualPool(questions, target) {
+        const byCategory = {};
+        for (const q of questions) {
+          if (!byCategory[q.category]) byCategory[q.category] = [];
+          byCategory[q.category].push(q);
+        }
+        const cats = Object.keys(byCategory);
+        if (cats.length === 0) return [];
+        // Shuffle within each category so the per-category selection is random
+        for (const cat of cats) byCategory[cat] = shuffle(byCategory[cat]);
+        const perCat = Math.ceil(target / cats.length);
+        const result = [];
+        const leftover = [];
+        for (const cat of cats) {
+          result.push(...byCategory[cat].slice(0, perCat));
+          leftover.push(...byCategory[cat].slice(perCat));
+        }
+        // If some categories had fewer questions than perCat, fill from others' leftovers
+        if (result.length < target) {
+          result.push(...shuffle(leftover).slice(0, target - result.length));
+        }
+        return result;
+      }
+
       // In hard mode, prefer questions from the hard/ directory; fall back to normal pool if needed
       const primaryPool = useHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
       const categoryFiltered = primaryPool.filter(q => categories.includes(q.category));
       const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(q.question));
-      if (fresh.length >= needed) return fresh;
-      const seen = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
-      const combined = [...fresh, ...seen.slice(0, needed - fresh.length)];
+      if (fresh.length >= needed) return buildEqualPool(fresh, needed);
+      const seenQs = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
+      const combined = [...fresh, ...seenQs.slice(0, needed - fresh.length)];
       // If hard mode doesn't have enough questions, supplement with normal pool
       if (useHardMode && combined.length < needed) {
-        const normalFiltered = allQuestions.filter(q =>
+        const normalFresh = allQuestions.filter(q =>
           categories.includes(q.category) && !seenQuestionTexts.has(q.question)
         );
-        return [...combined, ...shuffle(normalFiltered).slice(0, needed - combined.length)];
+        return buildEqualPool([...combined, ...normalFresh], needed);
       }
-      return combined;
+      return buildEqualPool(combined, combined.length);
     }
 
     return {

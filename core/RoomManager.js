@@ -61,6 +61,10 @@ export function createRoomManager() {
     let wasHost = false;
     // Track whether we deferred host restoration (old socket still live — disconnect pending)
     let deferredHostRestore = false;
+    // True only when the player was in the disconnectedPlayers map (real disconnect + rejoin).
+    // False when they merely replaced a stale socket (e.g. setup→game page redirect).
+    // Only genuine reconnects should trigger the host:restored toast on the client.
+    let genuineReconnect = false;
 
     // First: check for a player already in the room with the same name.
     // This handles browser hard-refresh where the old socket is still alive server-side
@@ -100,6 +104,11 @@ export function createRoomManager() {
       const disconnectedData = roomDisconnected.get(name.toLowerCase());
       if (disconnectedData) {
         isReconnecting = true;
+        // Only treat as a genuine reconnect if the player was gone for more than 5 seconds.
+        // A setup→game page redirect disconnects and rejoins in <2s, so it gets
+        // genuineReconnect=false and will not trigger the host:restored toast.
+        // A real reconnect (WiFi drop, closed tab, etc.) always takes longer than 5s.
+        genuineReconnect = (Date.now() - disconnectedData.disconnectedAt) > 5000;
         wasHost = disconnectedData.wasHost;
         // Restore original name (preserves original casing regardless of how they typed it)
         name = disconnectedData.name;
@@ -144,7 +153,7 @@ export function createRoomManager() {
 
     names.set(socketId, name);
 
-    return { success: true, isReconnecting, wasHost, deferredHostRestore };
+    return { success: true, isReconnecting, wasHost, deferredHostRestore, genuineReconnect };
   }
 
   function removePlayerBySocket(socketId) {

@@ -15,7 +15,7 @@
     "answer": "Madonna",
     "choices": [
       "Madonna",
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Lady Gaga",
       "Whitney Houston"
     ],
@@ -23,14 +23,14 @@
   },
   {
     "question": "Which singer released the album 'Lemonade' in 2016?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Adele",
       "Taylor Swift"
     ],
-    "explanation": "Beyonc\u00e9 released the visual album 'Lemonade' in 2016, exploring themes of infidelity and empowerment."
+    "explanation": "Beyoncé released the visual album 'Lemonade' in 2016, exploring themes of infidelity and empowerment."
   },
   {
     "question": "What instrument does a pianist play?",
@@ -217,7 +217,7 @@
       "Cardi B",
       "Doja Cat"
     ],
-    "explanation": "Megan Thee Stallion's 'Savage' (featuring Beyonc\u00e9) was a massive hit from her 2020 debut album 'Good News.'"
+    "explanation": "Megan Thee Stallion's 'Savage' (featuring Beyoncé) was a massive hit from her 2020 debut album 'Good News.'"
   },
   {
     "question": "What is the name of the highest pitched of the four main voice types?",
@@ -371,7 +371,7 @@
       "Dance Jockey",
       "Dynamic Jockey"
     ],
-    "explanation": "DJ stands for Disc Jockey, a person who selects and plays recorded music for an audience."
+    "explanation": "DJ is short for disc jockey, the person who selects and mixes recorded music for clubs, radio, or live events."
   },
   {
     "question": "Which female country singer is known for 'Jolene' and 'I Will Always Love You'?",
@@ -551,14 +551,14 @@
   },
   {
     "question": "Who performed the halftime show at Super Bowl XLVII?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Bruno Mars",
       "Lady Gaga",
       "Katy Perry"
     ],
-    "explanation": "Beyonc\u00e9 performed the halftime show at Super Bowl XLVII in February 2013 in New Orleans."
+    "explanation": "Beyoncé performed the halftime show at Super Bowl XLVII in February 2013 in New Orleans."
   },
   {
     "question": "Which hip-hop artist created the alter ego Slim Shady?",
@@ -602,7 +602,7 @@
       "Romantic period",
       "Renaissance period"
     ],
-    "explanation": "Wolfgang Amadeus Mozart (1756\u20131791) was a central figure of the Classical period in Western music."
+    "explanation": "Wolfgang Amadeus Mozart (1756–1791) was a central figure of the Classical period in Western music."
   },
   {
     "question": "Which pop duo is known for 'I Got You Babe' and 'The Beat Goes On'?",
@@ -617,25 +617,25 @@
   },
   {
     "question": "Which Spanish classical guitarist composed 'Recuerdos de la Alhambra'?",
-    "answer": "Francisco T\u00e1rrega",
+    "answer": "Francisco Tárrega",
     "choices": [
-      "Francisco T\u00e1rrega",
-      "Andr\u00e9s Segovia",
-      "Agust\u00edn Barrios",
+      "Francisco Tárrega",
+      "Andrés Segovia",
+      "Agustín Barrios",
       "Fernando Sor"
     ],
-    "explanation": "'Recuerdos de la Alhambra' (1896) by Francisco T\u00e1rrega is famous for its tremolo picking technique."
+    "explanation": "'Recuerdos de la Alhambra' (1896) by Francisco Tárrega is famous for its tremolo picking technique."
   },
   {
     "question": "Which female singer is known as 'Queen Bey'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Cardi B",
       "Nicki Minaj",
       "Rihanna"
     ],
-    "explanation": "Beyonc\u00e9 Giselle Knowles-Carter is widely called 'Queen Bey' by her fans, known as the Beyhive."
+    "explanation": "Beyoncé Giselle Knowles-Carter is widely called 'Queen Bey' by her fans, known as the Beyhive."
   },
   {
     "question": "Who wrote the opera 'The Magic Flute'?",
@@ -683,14 +683,14 @@
   },
   {
     "question": "What is the signature instrument of a mariachi band?",
-    "answer": "Guitarr\u00f3n",
+    "answer": "Guitarrón",
     "choices": [
-      "Guitarr\u00f3n",
+      "Guitarrón",
       "Guitar",
       "Vihuela",
       "Trumpet"
     ],
-    "explanation": "The guitarr\u00f3n (large acoustic bass guitar) provides the bass foundation of traditional mariachi music."
+    "explanation": "The guitarrón (large acoustic bass guitar) provides the bass foundation of traditional mariachi music."
   },
   {
     "question": "Which rapper is known for 'HUMBLE.' and 'DNA.'?",
@@ -903,14 +903,14 @@
   },
   {
     "question": "Which singer performed at Coachella in 2018 with a historic headline set?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Taylor Swift",
       "Lady Gaga",
       "Cardi B"
     ],
-    "explanation": "Beyonc\u00e9's 2018 Coachella performance ('Beychella') was a historic HBCU-themed set, later turned into the Netflix film 'Homecoming.'"
+    "explanation": "Beyoncé's 2018 Coachella performance ('Beychella') was a historic HBCU-themed set, later turned into the Netflix film 'Homecoming.'"
   },
   {
     "question": "What is the name of the annual music festival held in Glastonbury, England?",
@@ -936,14 +936,14 @@
   },
   {
     "question": "Which R&B singer released 'Crazy in Love' with Jay-Z in 2003?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Alicia Keys",
       "Mary J. Blige",
       "Destiny's Child"
     ],
-    "explanation": "'Crazy in Love' was Beyonc\u00e9's debut solo single, marking the launch of her iconic solo career."
+    "explanation": "'Crazy in Love' was Beyoncé's debut solo single, marking the launch of her iconic solo career."
   },
   {
     "question": "Who was the lead guitarist of The Rolling Stones?",
@@ -987,7 +987,7 @@
       "George Harrison",
       "Bob Dylan"
     ],
-    "explanation": "'Yesterday' was written by Paul McCartney and recorded by The Beatles in 1965; it remains one of the most covered songs ever."
+    "explanation": "Paul McCartney / The Beatles wrote the work, which became influential for its themes, style, and long-term cultural impact."
   },
   {
     "question": "Which music artist is known for using elaborate theatrical costumes and face paint in performances?",
@@ -1001,7 +1001,7 @@
     "explanation": "Alice Cooper (Vincent Damon Furnier) pioneered shock rock with theatrical horror-themed stage performances."
   },
   {
-    "question": "What is the name of the famous violin composition by Niccol\u00f2 Paganini known for its difficulty?",
+    "question": "What is the name of the famous violin composition by Niccolò Paganini known for its difficulty?",
     "answer": "Caprice No. 24",
     "choices": [
       "Caprice No. 24",
@@ -1075,7 +1075,7 @@
       "Rockstar",
       "Congratulations"
     ],
-    "explanation": "Post Malone and Swae Lee released the hit song \"Sunflower,\" which shares its title with Van Gogh\u2019s famous Sunflowers paintings."
+    "explanation": "Post Malone and Swae Lee released the hit song \"Sunflower,\" which shares its title with Van Gogh’s famous Sunflowers paintings."
   },
   {
     "question": "Which rapper is known for the phrase 'Bling bling'?",
@@ -1211,14 +1211,14 @@
   },
   {
     "question": "Which hip-hop duo created 'Outkast'?",
-    "answer": "Andr\u00e9 3000 and Big Boi",
+    "answer": "André 3000 and Big Boi",
     "choices": [
-      "Andr\u00e9 3000 and Big Boi",
+      "André 3000 and Big Boi",
       "Jay-Z and Kanye",
       "Nas and AZ",
       "Eminem and Royce da 5'9\""
     ],
-    "explanation": "OutKast is an Atlanta hip-hop duo formed by Andr\u00e9 3000 (Andr\u00e9 Benjamin) and Big Boi (Antwan Patton) in 1992."
+    "explanation": "OutKast is an Atlanta hip-hop duo formed by André 3000 (André Benjamin) and Big Boi (Antwan Patton) in 1992."
   },
   {
     "question": "What year did Michael Jackson release 'Thriller'?",
@@ -1306,7 +1306,7 @@
       "Cyndi Lauper",
       "Kim Carnes"
     ],
-    "explanation": "'Total Eclipse of the Heart' was written by Jim Steinman and performed by Welsh singer Bonnie Tyler."
+    "explanation": "Bonnie Tyler wrote the work, which became influential for its themes, style, and long-term cultural impact."
   },
   {
     "question": "Which Korean pop phenomenon has members RM, Jin, Suga, J-Hope, Jimin, V, and Jungkook?",
@@ -1361,7 +1361,7 @@
       "BONEY M",
       "Village People"
     ],
-    "explanation": "ABBA, the Swedish pop group (Agnetha, Bj\u00f6rn, Benny, Anni-Frid), dominated global pop music in the 1970s."
+    "explanation": "ABBA, the Swedish pop group (Agnetha, Björn, Benny, Anni-Frid), dominated global pop music in the 1970s."
   },
   {
     "question": "Who wrote 'Rocket Man' performed by Elton John?",
@@ -1438,7 +1438,7 @@
       "Blind Faith",
       "Derek and the Dominos"
     ],
-    "explanation": "Cream (1966\u20131968) was a British rock supergroup featuring three of the most skilled musicians of the era."
+    "explanation": "Cream (1966–1968) was a British rock supergroup featuring three of the most skilled musicians of the era."
   },
   {
     "question": "What format revolutionized music sales in the 1980s?",
@@ -1449,7 +1449,7 @@
       "8-track",
       "Vinyl record"
     ],
-    "explanation": "The compact disc (CD) was introduced in 1982 and became the dominant music format throughout the 1980s\u20132000s."
+    "explanation": "The compact disc (CD) was introduced in 1982 and became the dominant music format throughout the 1980s–2000s."
   },
   {
     "question": "Which singer released the country crossover hit 'Before He Cheats'?",
@@ -1497,14 +1497,14 @@
   },
   {
     "question": "Who sang 'Halo' in 2008?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Alicia Keys",
       "Rihanna",
       "Mary J. Blige"
     ],
-    "explanation": "'Halo' is a powerful ballad released on Beyonc\u00e9's third studio album, 'I Am... Sasha Fierce' (2008)."
+    "explanation": "'Halo' is a powerful ballad released on Beyoncé's third studio album, 'I Am... Sasha Fierce' (2008)."
   },
   {
     "question": "Which artist released 'One Dance' featuring Wizkid and Kyla?",
@@ -1559,7 +1559,7 @@
       "Amplitude",
       "Wavelength"
     ],
-    "explanation": "Frequency, measured in Hertz (Hz), determines the pitch of a sound \u2014 higher Hz = higher pitch."
+    "explanation": "Frequency, measured in Hertz (Hz), determines the pitch of a sound — higher Hz = higher pitch."
   },
   {
     "question": "Which iconic music festival was held in 1969 in upstate New York?",
@@ -1771,15 +1771,15 @@
     "explanation": "Frank Sinatra earned the nickname 'The Voice' and later 'Ol' Blue Eyes' during his legendary career."
   },
   {
-    "question": "What is the name of Beyonc\u00e9's surprise 2013 self-titled album?",
-    "answer": "Beyonc\u00e9",
+    "question": "What is the name of Beyoncé's surprise 2013 self-titled album?",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "LEMONADE",
       "4",
       "Dangerously in Love"
     ],
-    "explanation": "Beyonc\u00e9 released her surprise self-titled visual album in December 2013 with no prior announcement."
+    "explanation": "Beyoncé released her surprise self-titled visual album in December 2013 with no prior announcement."
   },
   {
     "question": "Which Australian artist released 'Heat Waves' in 2020?",
@@ -1849,14 +1849,14 @@
   },
   {
     "question": "What is the BPM range for 'Andante' tempo in classical music?",
-    "answer": "76\u2013108 BPM",
+    "answer": "76–108 BPM",
     "choices": [
-      "76\u2013108 BPM",
-      "50\u201360 BPM",
-      "120\u2013140 BPM",
-      "60\u201376 BPM"
+      "76–108 BPM",
+      "50–60 BPM",
+      "120–140 BPM",
+      "60–76 BPM"
     ],
-    "explanation": "Andante is a moderately slow tempo marking (Italian for 'at a walking pace'), typically 76\u2013108 BPM."
+    "explanation": "Andante is a moderately slow tempo marking (Italian for 'at a walking pace'), typically 76–108 BPM."
   },
   {
     "question": "What pop sensation released 'Baby' in 2010?",
@@ -1878,7 +1878,7 @@
       "Folk",
       "Americana"
     ],
-    "explanation": "Hank Williams and Patsy Cline are iconic figures of classic country music from the 1940s\u20131960s."
+    "explanation": "Hank Williams and Patsy Cline are iconic figures of classic country music from the 1940s–1960s."
   },
   {
     "question": "What is the name of the official US music chart based on radio airplay and streaming?",
@@ -1900,7 +1900,7 @@
       "The Kinks",
       "The Who"
     ],
-    "explanation": "'Come Together' and 'Let It Be' were both released by The Beatles in 1969\u20131970, among their final songs."
+    "explanation": "'Come Together' and 'Let It Be' were both released by The Beatles in 1969–1970, among their final songs."
   },
   {
     "question": "What is the name of the famous Vienna-based orchestra that performs the New Year's Day concert?",
@@ -1984,7 +1984,7 @@
     "answer": "Taylor Swift",
     "choices": [
       "Taylor Swift",
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Adele",
       "Katy Perry"
     ],
@@ -2013,7 +2013,7 @@
     "explanation": "'Diamonds from Sierra Leone' is from Kanye's 'Late Registration' (2005) and 'New Slaves' from 'Yeezus' (2013)."
   },
   {
-    "question": "What musical term means 'at the beginning' \u2014 repeat from the start?",
+    "question": "What musical term means 'at the beginning' — repeat from the start?",
     "answer": "Da capo (D.C.)",
     "choices": [
       "Da capo (D.C.)",
@@ -2135,14 +2135,14 @@
   },
   {
     "question": "Which female artist released the album 'Lemonade' in 2016?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Adele",
       "Taylor Swift"
     ],
-    "explanation": "Beyonc\u00e9 released the visual album Lemonade in 2016, receiving critical acclaim and addressing themes of infidelity and race."
+    "explanation": "Beyoncé released the visual album Lemonade in 2016, receiving critical acclaim and addressing themes of infidelity and race."
   },
   {
     "question": "What is the best-selling single of all time?",
@@ -2178,7 +2178,7 @@
     "explanation": "Oasis was a Britpop band formed in Manchester in 1991, fronted by brothers Liam and Noel Gallagher."
   },
   {
-    "question": "Which singing group consists of Beyonc\u00e9, Kelly Rowland, and Michelle Williams?",
+    "question": "Which singing group consists of Beyoncé, Kelly Rowland, and Michelle Williams?",
     "answer": "Destiny's Child",
     "choices": [
       "Destiny's Child",
@@ -2186,7 +2186,7 @@
       "En Vogue",
       "Spice Girls"
     ],
-    "explanation": "Destiny's Child is the R&B group featuring Beyonc\u00e9, Kelly Rowland, and Michelle Williams, one of the best-selling girl groups ever."
+    "explanation": "Destiny's Child is the R&B group featuring Beyoncé, Kelly Rowland, and Michelle Williams, one of the best-selling girl groups ever."
   },
   {
     "question": "What is the name of Taylor Swift's debut album?",
@@ -2329,7 +2329,7 @@
       "Celine Dion",
       "Mariah Carey"
     ],
-    "explanation": "Whitney Houston's version of 'I Will Always Love You' (originally by Dolly Parton) was recorded for The Bodyguard (1992) and became the best-selling single by a woman ever."
+    "explanation": "Whitney Houston's version of 'I Will Always Love You' (originally by Dolly Parton) was recorded for The Bodyguard (1992) and became the best-selling single."
   },
   {
     "question": "What band featured John, Paul, George, and Ringo?",
@@ -2340,7 +2340,7 @@
       "The Who",
       "The Kinks"
     ],
-    "explanation": "The Beatles \u2014 John Lennon, Paul McCartney, George Harrison, and Ringo Starr \u2014 are the most commercially successful band in history."
+    "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — are the most commercially successful band in history."
   },
   {
     "question": "Which genre of music originated in Jamaica and features artists like Bob Marley?",
@@ -2549,18 +2549,18 @@
       "Bass per measure",
       "Bars per minute"
     ],
-    "explanation": "BPM stands for beats per minute, measuring the tempo of a piece of music."
+    "explanation": "BPM is short for beats per minute, the standard way musicians measure tempo in a song or performance."
   },
   {
     "question": "Which female artist is known for 'Crazy in Love' and 'Single Ladies'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Alicia Keys",
       "Mary J. Blige"
     ],
-    "explanation": "'Crazy in Love' (2003) and 'Single Ladies' (2008) are among Beyonc\u00e9's most iconic hit songs."
+    "explanation": "'Crazy in Love' (2003) and 'Single Ladies' (2008) are among Beyoncé's most iconic hit songs."
   },
   {
     "question": "What record label did Jay-Z found in 1996?",
@@ -2718,14 +2718,14 @@
   },
   {
     "question": "Which solo artist has the most Grammy Awards ever?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Jay-Z",
       "Taylor Swift",
       "Adele"
     ],
-    "explanation": "Beyonc\u00e9 holds the record for the most Grammy wins by any artist, surpassing 30 wins as of 2023."
+    "explanation": "Beyoncé holds the record for the most Grammy wins by any artist, surpassing 30 wins as of 2023."
   },
   {
     "question": "What does the term 'a cappella' mean in music?",
@@ -2769,7 +2769,7 @@
       "Snoop Dogg",
       "Jay-Z"
     ],
-    "explanation": "Tupac Shakur and The Notorious B.I.G. had a high-profile East Coast\u2013West Coast hip-hop rivalry in the mid-1990s; both were murdered in 1996\u20131997."
+    "explanation": "Tupac Shakur and The Notorious B.I.G. had a high-profile East Coast–West Coast hip-hop rivalry in the mid-1990s; both were murdered in 1996–1997."
   },
   {
     "question": "What is the name of the famous music festival held annually in Glastonbury, England?",
@@ -2916,14 +2916,14 @@
   },
   {
     "question": "What pop star is known as 'Sasha Fierce'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Nicki Minaj",
       "Lady Gaga"
     ],
-    "explanation": "Beyonc\u00e9 used 'Sasha Fierce' as an alter ego for her more aggressive, confident stage performances."
+    "explanation": "Beyoncé used 'Sasha Fierce' as an alter ego for her more aggressive, confident stage performances."
   },
   {
     "question": "Which Beatles song features a string quartet and was one of their most innovative recordings?",
@@ -2954,7 +2954,7 @@
       "Lady Gaga",
       "Katy Perry",
       "Nicki Minaj",
-      "Bj\u00f6rk"
+      "Björk"
     ],
     "explanation": "Lady Gaga famously wore a dress made of raw meat to the 2010 MTV Video Music Awards, making a statement about individualism."
   },
@@ -3059,14 +3059,14 @@
   },
   {
     "question": "What is the name of Jay-Z's wife who is also a superstar in her own right?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Alicia Keys",
       "Nicki Minaj"
     ],
-    "explanation": "Jay-Z (Shawn Carter) married Beyonc\u00e9 Knowles in 2008."
+    "explanation": "Beyoncé is one of pop music's biggest stars and a global best-selling artist in her own right."
   },
   {
     "question": "Which British band released 'Creep' as their debut single?",
@@ -3165,7 +3165,7 @@
       "Lil Jon & the East Side Boyz",
       "UGK"
     ],
-    "explanation": "'Hey Ya!' (2003) was released by the Atlanta duo OutKast (Andr\u00e9 3000 and Big Boi) from their double album Speakerboxxx/The Love Below."
+    "explanation": "'Hey Ya!' (2003) was released by the Atlanta duo OutKast (André 3000 and Big Boi) from their double album Speakerboxxx/The Love Below."
   },
   {
     "question": "Which musician pioneered 'psychedelic soul' and is known for 'Purple Rain'?",
@@ -3245,15 +3245,15 @@
     "explanation": "'Stairway to Heaven' (1971) by Led Zeppelin is one of the most celebrated rock songs ever written."
   },
   {
-    "question": "What is the name of Beyonc\u00e9's 2022 dance album?",
+    "question": "What is the name of Beyoncé's 2022 dance album?",
     "answer": "Renaissance",
     "choices": [
       "Renaissance",
       "Lemonade",
-      "Beyonc\u00e9",
+      "Beyoncé",
       "4"
     ],
-    "explanation": "Renaissance (2022) is Beyonc\u00e9's seventh studio album, a house and dance-influenced work celebrating Black LGBTQ+ culture."
+    "explanation": "Renaissance (2022) is Beyoncé's seventh studio album, a house and dance-influenced work celebrating Black LGBTQ+ culture."
   },
   {
     "question": "Which country singer had a hit with 'Before He Cheats'?",
@@ -3323,14 +3323,14 @@
   },
   {
     "question": "Which artist performed a halftime show while pregnant with twins at the 2017 Super Bowl?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Lady Gaga",
       "Madonna",
       "Katy Perry"
     ],
-    "explanation": "Beyonc\u00e9 performed at the 2017 Grammys while visibly pregnant with twins, not the Super Bowl \u2014 Lady Gaga headlined Super Bowl LI."
+    "explanation": "Beyoncé performed at the 2017 Grammys while visibly pregnant with twins, not the Super Bowl — Lady Gaga headlined Super Bowl LI."
   },
   {
     "question": "What hip-hop classic by Tupac features samples of 'How Do U Want It'?",
@@ -3356,14 +3356,14 @@
   },
   {
     "question": "What is the name of the traditional Irish genre that features fiddles and acoustic guitars?",
-    "answer": "Traditional Irish folk music (c\u00e9il\u00ed music)",
+    "answer": "Traditional Irish folk music (céilí music)",
     "choices": [
-      "Traditional Irish folk music (c\u00e9il\u00ed music)",
+      "Traditional Irish folk music (céilí music)",
       "Bluegrass",
       "Jig Rock",
       "Gaelic Soul"
     ],
-    "explanation": "Traditional Irish music (trad) features fiddles, uilleann pipes, tin whistles, and guitars, often played at c\u00e9il\u00ed dances."
+    "explanation": "Traditional Irish music (trad) features fiddles, uilleann pipes, tin whistles, and guitars, often played at céilí dances."
   },
   {
     "question": "Who sang 'Killing Me Softly With His Song'?",
@@ -3649,7 +3649,7 @@
       "The Chain",
       "Gold Dust Woman"
     ],
-    "explanation": "'Go Your Own Way' (1977) was written by Lindsey Buckingham about his breakup with Stevie Nicks."
+    "explanation": "Go Your Own Way wrote the work, which became influential for its themes, style, and long-term cultural impact."
   },
   {
     "question": "Who sang 'Beat It' and 'Billie Jean' on the Thriller album?",
@@ -3675,14 +3675,14 @@
   },
   {
     "question": "Who sang 'Halo' and 'Run the World (Girls)'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Alicia Keys",
       "Rihanna",
       "Mariah Carey"
     ],
-    "explanation": "'Halo' (2008) and 'Run the World (Girls)' (2011) are Beyonc\u00e9 songs from her albums I Am... Sasha Fierce and 4, respectively."
+    "explanation": "'Halo' (2008) and 'Run the World (Girls)' (2011) are Beyoncé songs from her albums I Am... Sasha Fierce and 4, respectively."
   },
   {
     "question": "Which artist released the viral 2021 hit 'drivers license'?",
@@ -3712,7 +3712,7 @@
     "choices": [
       "Led Zeppelin (John Bonham)",
       "The Who (Keith Moon)",
-      "Mot\u00f6rhead (Philthy Animal Taylor)",
+      "Motörhead (Philthy Animal Taylor)",
       "AC/DC (Phil Rudd)"
     ],
     "explanation": "John Bonham of Led Zeppelin died in 1980; Keith Moon of The Who (also called 'The Loon' or 'Moon the Loon') died in 1978."
@@ -3730,14 +3730,14 @@
   },
   {
     "question": "Which singer performed at both the 2016 and 2023 Super Bowl halftime shows?",
-    "answer": "Beyonc\u00e9 (2016) and Rihanna (2023)",
+    "answer": "Beyoncé (2016) and Rihanna (2023)",
     "choices": [
-      "Beyonc\u00e9 (2016) and Rihanna (2023)",
+      "Beyoncé (2016) and Rihanna (2023)",
       "Lady Gaga",
       "Coldplay",
       "Bruno Mars"
     ],
-    "explanation": "Beyonc\u00e9 headlined Super Bowl 50 in 2016, and Rihanna made a comeback at Super Bowl LVII in 2023."
+    "explanation": "Beyoncé headlined Super Bowl 50 in 2016, and Rihanna made a comeback at Super Bowl LVII in 2023."
   },
   {
     "question": "What is the term for the main recurring musical theme in a film score?",
@@ -3814,7 +3814,7 @@
       "Carrie Underwood",
       "Miranda Lambert"
     ],
-    "explanation": "Taylor Swift has won multiple Grammy Song of the Year awards, though 'We Are Never Ever Getting Back Together' did not win Song of the Year \u2014 'Mean' was her Grammy winner."
+    "explanation": "Taylor Swift has won multiple Grammy Song of the Year awards, though 'We Are Never Ever Getting Back Together' did not win Song of the Year — 'Mean' was her."
   },
   {
     "question": "Which R&B singer is known as the 'Songbird Supreme' for her vocal range?",
@@ -3822,7 +3822,7 @@
     "choices": [
       "Mariah Carey",
       "Whitney Houston",
-      "C\u00e9line Dion",
+      "Céline Dion",
       "Ariana Grande"
     ],
     "explanation": "Mariah Carey is called the 'Songbird Supreme' by Guinness World Records for her five-octave vocal range."
@@ -3858,7 +3858,7 @@
       "Daft Punk",
       "Kraftwerk"
     ],
-    "explanation": "The 'drop' \u2014 the point in an EDM track where tension releases into a heavy beat \u2014 was popularized by producers like Skrillex and Deadmau5 in the late 2000s."
+    "explanation": "The 'drop' — the point in an EDM track where tension releases into a heavy beat — was popularized by producers like Skrillex and Deadmau5 in the late 2000s."
   },
   {
     "question": "What artist is known as 'The Purple One'?",
@@ -3898,11 +3898,11 @@
     "answer": "Sharp (#)",
     "choices": [
       "Sharp (#)",
-      "Flat (\u266d)",
-      "Natural (\u266e)",
+      "Flat (♭)",
+      "Natural (♮)",
       "Double sharp"
     ],
-    "explanation": "A sharp (\u266f) in music notation raises a note by a semitone (half step)."
+    "explanation": "A sharp (♯) in music notation raises a note by a semitone (half step)."
   },
   {
     "question": "Who released the seminal soul album 'Songs in the Key of Life'?",
@@ -3993,15 +3993,15 @@
     "explanation": "The Wall (1979) by Pink Floyd is a rock opera about a musician named Pink who builds a metaphorical wall around himself."
   },
   {
-    "question": "Which artist is known for the 'Lil' prefix and the album 'Drip Season'?",
+    "question": "Which Atlanta rapper released the debut studio album 'Drip or Drown 2' in 2019?",
     "answer": "Gunna",
     "choices": [
       "Gunna",
       "Lil Baby",
-      "Future",
-      "Young Thug"
+      "Young Thug",
+      "Future"
     ],
-    "explanation": "Gunna is an Atlanta-based rapper known for his melodic trap style and albums like Drip Season."
+    "explanation": "Gunna (Sergio Giavanni Kitchens) released 'Drip or Drown 2' in 2019, his major-label debut, which peaked at #4 on the Billboard 200 and featured the hit."
   },
   {
     "question": "What is the name of the Australian rock band known for 'Down Under'?",
@@ -4056,7 +4056,7 @@
       "Starboy",
       "Can't Feel My Face"
     ],
-    "explanation": "'Blinding Lights' (2019\u20132020) by The Weeknd broke numerous chart records including most weeks in the Top 10 of the Billboard Hot 100."
+    "explanation": "'Blinding Lights' (2019–2020) by The Weeknd broke numerous chart records including most weeks in the Top 10 of the Billboard Hot 100."
   },
   {
     "question": "What rock group performed 'More Than a Feeling' in 1976?",
@@ -4126,21 +4126,21 @@
   },
   {
     "question": "What R&B singer released the album 'Lemonade'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "SZA",
       "Solange"
     ],
-    "explanation": "Lemonade (2016) is Beyonc\u00e9's visual album addressing themes of infidelity, race, and empowerment."
+    "explanation": "Lemonade (2016) is Beyoncé's visual album addressing themes of infidelity, race, and empowerment."
   },
   {
     "question": "Which band released the album 'Appetite for Destruction' in 1987?",
     "answer": "Guns N' Roses",
     "choices": [
       "Guns N' Roses",
-      "M\u00f6tley Cr\u00fce",
+      "Mötley Crüe",
       "Poison",
       "Def Leppard"
     ],
@@ -4163,7 +4163,7 @@
     "choices": [
       "Britney Spears",
       "Pink",
-      "Sin\u00e9ad O'Connor",
+      "Sinéad O'Connor",
       "Miley Cyrus"
     ],
     "explanation": "Britney Spears shaved her head at a hair salon in Tarzana, California, in February 2007 during a public breakdown."
@@ -4177,7 +4177,7 @@
       "Both Sides Now",
       "A Case of You"
     ],
-    "explanation": "Joni Mitchell wrote 'Woodstock' (1970) about the 1969 festival even though she didn't attend it; the song was most famously covered by Crosby, Stills, Nash & Young."
+    "explanation": "Joni Mitchell wrote 'Woodstock' (1970) about the 1969 festival even though she didn't attend it; the song was most famously covered by Crosby, Stills, Nash."
   },
   {
     "question": "Who released the iconic 1979 disco album 'Off the Wall'?",
@@ -4196,8 +4196,8 @@
     "choices": [
       "Bossa nova",
       "Samba",
-      "Forr\u00f3",
-      "Bai\u00e3o"
+      "Forró",
+      "Baião"
     ],
     "explanation": "Bossa nova emerged in Brazil in the late 1950s, blending samba rhythms with jazz harmonies; 'The Girl from Ipanema' is its most famous song."
   },
@@ -4214,14 +4214,14 @@
   },
   {
     "question": "What band performed at Super Bowl XLVII halftime show in 2013?",
-    "answer": "Beyonc\u00e9 (with Destiny's Child reunion)",
+    "answer": "Beyoncé (with Destiny's Child reunion)",
     "choices": [
-      "Beyonc\u00e9 (with Destiny's Child reunion)",
+      "Beyoncé (with Destiny's Child reunion)",
       "Bruno Mars",
       "Katy Perry",
       "Madonna"
     ],
-    "explanation": "Beyonc\u00e9 headlined the Super Bowl XLVII halftime show in 2013, reuniting with Destiny's Child members Kelly Rowland and Michelle Williams."
+    "explanation": "Beyoncé headlined the Super Bowl XLVII halftime show in 2013, reuniting with Destiny's Child members Kelly Rowland and Michelle Williams."
   },
   {
     "question": "Who released the 2010 album 'My Beautiful Dark Twisted Fantasy'?",
@@ -4301,7 +4301,7 @@
     "explanation": "Dave Grohl, formerly the drummer for Nirvana, founded Foo Fighters in 1994 and serves as the lead vocalist and guitarist."
   },
   {
-    "question": "What is the name of the song Ed Sheeran wrote for Beyonc\u00e9?",
+    "question": "What is the name of the song Ed Sheeran wrote for Beyoncé?",
     "answer": "Perfect Duet",
     "choices": [
       "Perfect Duet",
@@ -4309,7 +4309,7 @@
       "Photograph",
       "Don't"
     ],
-    "explanation": "Ed Sheeran released 'Perfect Duet' with Beyonc\u00e9 in 2017, a version of his song 'Perfect' from the Divide album."
+    "explanation": "Ed Sheeran released 'Perfect Duet' with Beyoncé in 2017, a version of his song 'Perfect' from the Divide album."
   },
   {
     "question": "Which rock musician was nicknamed 'Slowhand'?",
@@ -4562,7 +4562,7 @@
       "Contemporary R&B",
       "Adult contemporary"
     ],
-    "explanation": "Teen pop (or bubblegum pop) of the late 1990s\u2013early 2000s was characterized by upbeat, radio-friendly songs by young artists like Britney Spears, *NSYNC, and BSB."
+    "explanation": "Teen pop (or bubblegum pop) of the late 1990s–early 2000s was characterized by upbeat, radio-friendly songs by young artists like Britney Spears, *NSYNC."
   },
   {
     "question": "Which singer is known for the hit 'Rolling in the Deep' and her powerful mezzo-soprano voice?",
@@ -4907,14 +4907,14 @@
   },
   {
     "question": "Which pop star is known as 'Queen B' or 'Bey'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Britney Spears",
       "Mariah Carey",
       "Janet Jackson"
     ],
-    "explanation": "Beyonc\u00e9 Knowles-Carter is widely known by the nicknames 'Queen Bey' and 'Bey', reflecting her status as a pop icon."
+    "explanation": "Beyoncé Knowles-Carter is widely known by the nicknames 'Queen Bey' and 'Bey', reflecting her status as a pop icon."
   },
   {
     "question": "What band was Kurt Cobain the lead singer of?",
@@ -5094,14 +5094,14 @@
   },
   {
     "question": "Which pop star is known for elaborate tours and the alter ego 'Sasha Fierce'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Lady Gaga",
       "Rihanna",
       "Nicki Minaj"
     ],
-    "explanation": "Beyonc\u00e9 introduced her alter ego 'Sasha Fierce' with her 2008 double album 'I Am... Sasha Fierce'."
+    "explanation": "Beyoncé introduced her alter ego 'Sasha Fierce' with her 2008 double album 'I Am... Sasha Fierce'."
   },
   {
     "question": "Which artist released 'Born This Way' in 2011?",
@@ -5138,14 +5138,14 @@
   },
   {
     "question": "Which singer is known for 'Halo' and 'Crazy in Love'?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Alicia Keys",
       "Rihanna",
       "Mariah Carey"
     ],
-    "explanation": "'Halo' (2008) and 'Crazy in Love' (2003) are among Beyonc\u00e9's most acclaimed solo songs."
+    "explanation": "'Halo' (2008) and 'Crazy in Love' (2003) are among Beyoncé's most acclaimed solo songs."
   },
   {
     "question": "What American city is famous as the birthplace of jazz?",
@@ -5369,25 +5369,25 @@
   },
   {
     "question": "Which pop star released the album 'Lemonade' in 2016?",
-    "answer": "Beyonc\u00e9",
+    "answer": "Beyoncé",
     "choices": [
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Rihanna",
       "Adele",
       "Taylor Swift"
     ],
-    "explanation": "Beyonc\u00e9's visual album 'Lemonade' was released in 2016, exploring themes of infidelity, black womanhood, and Southern culture."
+    "explanation": "Beyoncé's visual album 'Lemonade' was released in 2016, exploring themes of infidelity, black womanhood, and Southern culture."
   },
   {
     "question": "Which classical composer is known as the 'Poet of the Piano'?",
-    "answer": "Fr\u00e9d\u00e9ric Chopin",
+    "answer": "Frédéric Chopin",
     "choices": [
-      "Fr\u00e9d\u00e9ric Chopin",
+      "Frédéric Chopin",
       "Franz Liszt",
       "Robert Schumann",
       "Sergei Rachmaninoff"
     ],
-    "explanation": "Fr\u00e9d\u00e9ric Chopin earned the nickname 'Poet of the Piano' for his expressive, romantic piano compositions."
+    "explanation": "Frédéric Chopin earned the nickname 'Poet of the Piano' for his expressive, romantic piano compositions."
   },
   {
     "question": "Who sang 'Lose Yourself' for the film 8 Mile?",
@@ -5416,7 +5416,7 @@
     "answer": "Taylor Swift",
     "choices": [
       "Taylor Swift",
-      "Beyonc\u00e9",
+      "Beyoncé",
       "Billie Eilish",
       "Olivia Rodrigo"
     ],
@@ -5541,7 +5541,7 @@
       "Mobb Deep",
       "Gang Starr"
     ],
-    "explanation": "OutKast, formed in Atlanta in 1992, consists of Andr\u00e9 3000 (Andr\u00e9 Benjamin) and Big Boi (Antwan Patton)."
+    "explanation": "OutKast, formed in Atlanta in 1992, consists of André 3000 (André Benjamin) and Big Boi (Antwan Patton)."
   },
   {
     "question": "What instrument is Yo-Yo Ma most associated with?",
@@ -5640,7 +5640,7 @@
       "Harry Styles",
       "Niall Horan"
     ],
-    "explanation": "Ed Sheeran's 'Shape of You' from his 2017 album '\u00f7' became one of the best-selling singles of all time."
+    "explanation": "Ed Sheeran's 'Shape of You' from his 2017 album '÷' became one of the best-selling singles of all time."
   },
   {
     "question": "Which Motown singer is known as 'The Temptation'?",
@@ -5680,11 +5680,11 @@
     "answer": "Astrud Gilberto (performed it)",
     "choices": [
       "Astrud Gilberto (performed it)",
-      "S\u00e9rgio Mendes",
+      "Sérgio Mendes",
       "Elis Regina",
       "Caetano Veloso"
     ],
-    "explanation": "'The Girl from Ipanema' was composed by Ant\u00f4nio Carlos Jobim and sung by Astrud Gilberto in 1962, becoming a bossa nova standard."
+    "explanation": "'The Girl from Ipanema' was composed by Antônio Carlos Jobim and sung by Astrud Gilberto in 1962, becoming a bossa nova standard."
   },
   {
     "question": "Which rap group released 'Straight Outta Compton'?",

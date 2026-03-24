@@ -92,7 +92,7 @@
     "answer": "Magic: The Gathering",
     "choices": [
       "Magic: The Gathering",
-      "Pok\u00e9mon",
+      "Pokémon",
       "Yu-Gi-Oh!",
       "Hearthstone"
     ],
@@ -206,7 +206,7 @@
       "15",
       "8"
     ],
-    "explanation": "In Scrabble, each player has 7 tiles at a time, so the longest word in a single turn uses all 7 for a 'bingo.'"
+    "explanation": "In Scrabble, each player has 7 tiles at a time, so the longest word in a single turn uses all 7 for a 'bingo.'."
   },
   {
     "question": "Which game has players bidding on tricks using trump cards?",
@@ -220,7 +220,7 @@
     "explanation": "Spades is a trick-taking card game where players bid on how many tricks they expect to win."
   },
   {
-    "question": "In Pok\u00e9mon, what type is effective against both Fire and Water types?",
+    "question": "In Pokémon, what type is effective against both Fire and Water types?",
     "answer": "Rock",
     "choices": [
       "Rock",
@@ -228,7 +228,7 @@
       "Steel",
       "Electric"
     ],
-    "explanation": "Rock-type moves are super-effective against Fire and Water type Pok\u00e9mon, among others."
+    "explanation": "Rock-type moves are super-effective against Fire and Water type Pokémon, among others."
   },
   {
     "question": "What is the name of the open-world RPG by Bethesda set in a post-apocalyptic world?",
@@ -294,7 +294,7 @@
       "Dragon Turtle",
       "Ancient Red Dragon"
     ],
-    "explanation": "In Dungeons & Dragons lore, Tiamat is the five-headed queen of evil dragons and among the setting\u2019s most feared dragon beings."
+    "explanation": "In Dungeons & Dragons lore, Tiamat is the five-headed queen of evil dragons and among the setting’s most feared dragon beings."
   },
   {
     "question": "Which game series has players crafting, fighting, and surviving on procedurally generated worlds?",
@@ -514,7 +514,7 @@
       "Dragon Quest",
       "EarthBound"
     ],
-    "explanation": "In the original Legend of Zelda (1986), an old man says 'It's dangerous to go alone! Take this.' and gives Link a sword."
+    "explanation": "In the original Legend of Zelda (1986), an old man says 'It's dangerous to go alone!"
   },
   {
     "question": "What game requires players to keep a straight face while others try to make them laugh?",
@@ -569,7 +569,7 @@
       "Settlers of Catan",
       "Pandemic"
     ],
-    "explanation": "Carcassonne (Klaus-J\u00fcrgen Wrede, 2000) is a tile-placement game where players develop a medieval landscape."
+    "explanation": "Carcassonne (Klaus-Jürgen Wrede, 2000) is a tile-placement game where players develop a medieval landscape."
   },
   {
     "question": "What hand-held electronic game involved dodging missiles in a tank landscape?",
@@ -822,7 +822,7 @@
       "Pictionary",
       "Password"
     ],
-    "explanation": "Codenames (Vlaada Chv\u00e1til, 2015) has spymasters give single-word clues linking multiple words on a grid."
+    "explanation": "Codenames (Vlaada Chvátil, 2015) has spymasters give single-word clues linking multiple words on a grid."
   },
   {
     "question": "What classic children's game involves one person counting while others hide?",
@@ -910,7 +910,7 @@
       "Memory",
       "War"
     ],
-    "explanation": "Go Fish has players asking opponents for specific ranks; players without those cards say 'Go fish!'"
+    "explanation": "Go Fish has players asking opponents for specific ranks; players without those cards say 'Go fish!'."
   },
   {
     "question": "What is the name of the main antagonist in the Super Mario franchise?",
@@ -987,7 +987,7 @@
       "Musical Chairs",
       "Pass the Parcel"
     ],
-    "explanation": "Hot Potato has players rapidly passing an object, and whoever holds it when the music stops is 'out.'"
+    "explanation": "Hot Potato has players rapidly passing an object, and whoever holds it when the music stops is 'out.'."
   },
   {
     "question": "What Nintendo racing franchise uses anti-gravity hover vehicles?",
@@ -1156,9 +1156,9 @@
   },
   {
     "question": "In chess, what does 'stalemate' mean?",
-    "answer": "The current player has no legal move but is not in check \u2014 draw",
+    "answer": "The current player has no legal move but is not in check — draw",
     "choices": [
-      "The current player has no legal move but is not in check \u2014 draw",
+      "The current player has no legal move but is not in check — draw",
       "Checkmate",
       "A pawn promotion",
       "Three-fold repetition"
@@ -1233,9 +1233,9 @@
   },
   {
     "question": "In Monopoly, what is the name of the railroad that lies between Boardwalk and Park Place?",
-    "answer": "None \u2014 no railroad is there",
+    "answer": "None — no railroad is there",
     "choices": [
-      "None \u2014 no railroad is there",
+      "None — no railroad is there",
       "B&O Railroad",
       "Short Line Railroad",
       "Reading Railroad"
@@ -1254,15 +1254,15 @@
     "explanation": "Bubble Shooter is a classic mobile/browser game where players match and pop same-colored bubble groups."
   },
   {
-    "question": "Which collectible card game features 'Pok\u00e9mon' that trainers collect and battle?",
-    "answer": "Pok\u00e9mon Trading Card Game",
+    "question": "Which collectible card game features 'Pokémon' that trainers collect and battle?",
+    "answer": "Pokémon Trading Card Game",
     "choices": [
-      "Pok\u00e9mon Trading Card Game",
+      "Pokémon Trading Card Game",
       "Yu-Gi-Oh!",
       "Digimon Card Game",
       "Magic: The Gathering"
     ],
-    "explanation": "The Pok\u00e9mon TCG (1996, Wizards of the Coast/Game Freak) mirrors the video game, having players battle with Pok\u00e9mon cards."
+    "explanation": "The Pokémon TCG (1996, Wizards of the Coast/Game Freak) mirrors the video game, having players battle with Pokémon cards."
   },
   {
     "question": "In chess, which piece moves in an 'L' shape?",
@@ -1277,14 +1277,14 @@
   },
   {
     "question": "Which video game has players catching virtual creatures and battling them?",
-    "answer": "Pok\u00e9mon",
+    "answer": "Pokémon",
     "choices": [
-      "Pok\u00e9mon",
+      "Pokémon",
       "Digimon World",
       "Monster Hunter",
       "Dragon Quest Monsters"
     ],
-    "explanation": "Pok\u00e9mon (Nintendo/Game Freak, 1996) challenges players to catch and train Pok\u00e9mon to battle others."
+    "explanation": "Pokémon (Nintendo/Game Freak, 1996) challenges players to catch and train Pokémon to battle others."
   },
   {
     "question": "What is the main game mode in PlayerUnknown's Battlegrounds?",
@@ -1306,7 +1306,7 @@
       "Cranium",
       "Sorry!"
     ],
-    "explanation": "Elefun is a children\u2019s game built around a plastic elephant trunk that blows out pieces for players to catch."
+    "explanation": "Elefun is a children’s game built around a plastic elephant trunk that blows out pieces for players to catch."
   },
   {
     "question": "In poker, what is the worst possible hand?",
@@ -1394,7 +1394,7 @@
       "Agility Check",
       "Adventure Category"
     ],
-    "explanation": "AC (Armor Class) determines how hard a character is to hit in combat \u2014 a higher AC is better."
+    "explanation": "AC (Armor Class) determines how hard a character is to hit in combat — a higher AC is better."
   },
   {
     "question": "Which multiplayer game involves teams of players communicating only through colors and icons?",
@@ -1856,7 +1856,7 @@
       "Tarzan",
       "Adventure"
     ],
-    "explanation": "Pitfall! (Activision, 1982) for the Atari 2600 features Harry exploring a jungle, dodging hazards."
+    "explanation": "Pitfall. (Activision, 1982) for the Atari 2600 features Harry exploring a jungle, dodging hazards."
   },
   {
     "question": "What card game is played by matching pairs of cards in a memory game?",
@@ -1944,7 +1944,7 @@
       "A Joker is played",
       "A player challenges another"
     ],
-    "explanation": "In War, when both players turn over cards of equal rank, a 'war' occurs \u2014 each player places three face-down cards and one face-up."
+    "explanation": "In War, when both players turn over cards of equal rank, a 'war' occurs — each player places three face-down cards and one face-up."
   },
   {
     "question": "Which handheld game system introduced the concept of StreetPass?",
@@ -2032,7 +2032,7 @@
       "Stone",
       "Clay"
     ],
-    "explanation": "In Agricola, feeding your family is the core challenge \u2014 players must produce enough food to survive each harvest."
+    "explanation": "In Agricola, feeding your family is the core challenge — players must produce enough food to survive each harvest."
   },
   {
     "question": "What video game genre features players managing resources to develop a civilization?",
@@ -2065,7 +2065,7 @@
       "12 points",
       "15 points"
     ],
-    "explanation": "The letters Q and Z are each worth 10 points in Scrabble \u2014 the highest base value tiles."
+    "explanation": "The letters Q and Z are each worth 10 points in Scrabble — the highest base value tiles."
   },
   {
     "question": "Which game requires players to balance blocks of various shapes without tipping the structure?",
@@ -2079,7 +2079,7 @@
     "explanation": "Jenga (Leslie Scott, 1983) has players pulling and stacking wooden blocks without causing the tower to fall."
   },
   {
-    "question": "In what year was Pok\u00e9mon Go released?",
+    "question": "In what year was Pokémon Go released?",
     "answer": "2016",
     "choices": [
       "2016",
@@ -2087,7 +2087,7 @@
       "2017",
       "2015"
     ],
-    "explanation": "Pok\u00e9mon Go (Niantic, 2016) was released in July 2016, becoming a global phenomenon with AR gameplay."
+    "explanation": "Pokémon Go (Niantic, 2016) was released in July 2016, becoming a global phenomenon with AR gameplay."
   },
   {
     "question": "What is the name of the game where players move a piece around a circular track collecting cards?",
@@ -2109,7 +2109,7 @@
       "Sega",
       "Sony"
     ],
-    "explanation": "Nintendo created the Nintendo Entertainment System, the company\u2019s hugely successful 8-bit home console."
+    "explanation": "Nintendo created the Nintendo Entertainment System, the company’s hugely successful 8-bit home console."
   },
   {
     "question": "What is the term for when a video game has no save feature and death starts you over?",
@@ -2241,7 +2241,7 @@
       "1985",
       "1986"
     ],
-    "explanation": "Super Mario Bros. was released by Nintendo in 1985 for the NES (Nintendo Entertainment System). It became one of the best-selling video games of all time."
+    "explanation": "Super Mario Bros. was released by Nintendo in 1985 for the NES (Nintendo Entertainment System)."
   },
   {
     "question": "Which game features the character Master Chief?",
@@ -2252,7 +2252,7 @@
       "Halo",
       "Destiny"
     ],
-    "explanation": "Master Chief (John-117) is the protagonist of the Halo series by Bungie/343 Industries. He is a Spartan supersoldier fighting against alien forces called the Covenant."
+    "explanation": "Master Chief (John-117) is the protagonist of the Halo series by Bungie/343 Industries."
   },
   {
     "question": "In chess, how many squares does the board have?",
@@ -2263,7 +2263,7 @@
       "100",
       "48"
     ],
-    "explanation": "A standard chess board has 8\u00d78 = 64 squares, alternating between light and dark colors."
+    "explanation": "A standard chess board has 8×8 = 64 squares, alternating between light and dark colors."
   },
   {
     "question": "What is the highest possible score in a single game of bowling?",
@@ -2296,7 +2296,7 @@
       "Epona",
       "Arion"
     ],
-    "explanation": "Epona is Link's horse in several Zelda games, most notably Ocarina of Time. The horse is named after a Gallo-Roman goddess of horses."
+    "explanation": "Epona is Link's horse in several Zelda games, most notably Ocarina of Time."
   },
   {
     "question": "How many players are on a standard soccer (football) team?",
@@ -2307,7 +2307,7 @@
       "11",
       "12"
     ],
-    "explanation": "Each soccer team fields 11 players: 1 goalkeeper and 10 outfield players. The standard formation can vary but the total is always 11."
+    "explanation": "Each soccer team fields 11 players: 1 goalkeeper and 10 outfield players."
   },
   {
     "question": "Which game uses the term 'casting the bones'?",
@@ -2318,7 +2318,7 @@
       "Dice games",
       "Dominoes"
     ],
-    "explanation": "'Casting the bones' is an old expression for rolling dice, which were historically made from animal bones. It is used in various dice-based games."
+    "explanation": "'Casting the bones' is an old expression for rolling dice, which were historically made from animal bones."
   },
   {
     "question": "What is the best hand in poker?",
@@ -2340,7 +2340,7 @@
       "Marvin Gardens",
       "Pacific Avenue"
     ],
-    "explanation": "Boardwalk (dark blue) is the most expensive property in Monopoly, costing $400. Park Place is the second most expensive at $350."
+    "explanation": "Boardwalk (dark blue) is the most expensive property in Monopoly, costing $400."
   },
   {
     "question": "Which game requires players to 'check' or 'raise'?",
@@ -2373,7 +2373,7 @@
       "Mario",
       "Wario"
     ],
-    "explanation": "Mario, Nintendo's iconic plumber character, is known for this catchphrase. Mario is the mascot of Nintendo and appears in many game franchises."
+    "explanation": "Mario, Nintendo's iconic plumber character, is known for this catchphrase."
   },
   {
     "question": "In the game of Go, what is the goal?",
@@ -2384,7 +2384,7 @@
       "Surround more territory than your opponent",
       "Be first to get five in a row"
     ],
-    "explanation": "Go is an abstract strategy game where players try to surround more territory than their opponent by placing black or white stones on the intersections of a grid."
+    "explanation": "Go is an abstract strategy game where players try to surround more territory than their opponent by placing black or white stones on the intersections of a."
   },
   {
     "question": "What does 'FPS' stand for in gaming?",
@@ -2399,14 +2399,14 @@
   },
   {
     "question": "Which game franchise features characters like Pikachu and Charizard?",
-    "answer": "Pok\u00e9mon",
+    "answer": "Pokémon",
     "choices": [
       "Digimon",
       "Yokai Watch",
-      "Pok\u00e9mon",
+      "Pokémon",
       "Dragon Quest"
     ],
-    "explanation": "Pikachu and Charizard are iconic Pok\u00e9mon from Nintendo/Game Freak's Pok\u00e9mon franchise, which started in 1996 with Pok\u00e9mon Red and Blue."
+    "explanation": "Pikachu and Charizard are iconic Pokémon from Nintendo/Game Freak's Pokémon franchise, which started in 1996 with Pokémon Red and Blue."
   },
   {
     "question": "In Minecraft, what do you need to create a crafting table?",
@@ -2417,7 +2417,7 @@
       "4 wooden planks",
       "Any 4 pieces of wood"
     ],
-    "explanation": "A crafting table in Minecraft requires 4 wooden planks arranged in a 2\u00d72 pattern. It expands crafting to a 3\u00d73 grid."
+    "explanation": "A crafting table in Minecraft requires 4 wooden planks arranged in a 2×2 pattern."
   },
   {
     "question": "Which chess piece can only move diagonally?",
@@ -2472,7 +2472,7 @@
       "Breakout",
       "Snake"
     ],
-    "explanation": "Tetris was created by Soviet software engineer Alexey Pajitnov in 1984. It became one of the most popular and recognizable video games in history."
+    "explanation": "Tetris was created by Soviet software engineer Alexey Pajitnov in 1984."
   },
   {
     "question": "In Dungeons & Dragons, what does a natural 20 on a d20 mean?",
@@ -2516,7 +2516,7 @@
       "Uncharted",
       "The Last of Us"
     ],
-    "explanation": "Nathan Drake is the protagonist of the Uncharted series by Naughty Dog. He is a fortune hunter/treasure hunter who goes on globetrotting adventures."
+    "explanation": "Nathan Drake is the protagonist of the Uncharted series by Naughty Dog."
   },
   {
     "question": "How many points is the bullseye worth in standard darts?",
@@ -2538,7 +2538,7 @@
       "Nintendo Wii",
       "GameCube"
     ],
-    "explanation": "The Nintendo Wii introduced the Wii Remote (Wiimote) with motion-sensing controls in 2006. It revolutionized how players interacted with games."
+    "explanation": "The Nintendo Wii introduced the Wii Remote (Wiimote) with motion-sensing controls in 2006."
   },
   {
     "question": "What is the objective in the game Candy Crush?",
@@ -2571,7 +2571,7 @@
       "Bandai Namco",
       "FromSoftware"
     ],
-    "explanation": "Dark Souls was developed by FromSoftware, a Japanese video game developer. The series is known for its challenging gameplay and intricate lore."
+    "explanation": "Dark Souls was developed by FromSoftware, a Japanese video game developer."
   },
   {
     "question": "How many dots are on a standard six-sided die?",
@@ -2615,7 +2615,7 @@
       "Network Peripheral Connection",
       "Natural Programming Code"
     ],
-    "explanation": "NPC stands for Non-Player Character \u2014 any game character not controlled by a human player. NPCs are typically controlled by the game's AI."
+    "explanation": "NPC stands for Non-Player Character — any game character not controlled by a human player."
   },
   {
     "question": "In which game do players 'Among Us' play?",
@@ -2648,7 +2648,7 @@
       "God of War",
       "Bayonetta"
     ],
-    "explanation": "Kratos is the protagonist of the God of War series by Santa Monica Studio. Atreus (Loki) is his son, introduced in the 2018 reboot."
+    "explanation": "Kratos is the protagonist of the God of War series by Santa Monica Studio."
   },
   {
     "question": "What color are the 'Community Chest' cards in Monopoly?",
@@ -2659,7 +2659,7 @@
       "Yellow",
       "Red"
     ],
-    "explanation": "Community Chest cards in Monopoly are orange. There are 16 Community Chest cards in the standard game. Chance cards are orange/red."
+    "explanation": "Community Chest cards in Monopoly are orange. There are 16 Community Chest cards in the standard game."
   },
   {
     "question": "In the game Clue (Cluedo), how many murder weapons are there in the original version?",
@@ -2681,7 +2681,7 @@
       "Final Fantasy VII",
       "Dragon Quest"
     ],
-    "explanation": "Midgar is the dystopian city in Final Fantasy VII (1997), developed by Square (now Square Enix). It serves as the setting for much of the game's first act."
+    "explanation": "Midgar is the dystopian city in Final Fantasy VII (1997), developed by Square (now Square Enix)."
   },
   {
     "question": "What is the max level cap in the original World of Warcraft?",
@@ -2692,7 +2692,7 @@
       "60",
       "70"
     ],
-    "explanation": "The original World of Warcraft had a level cap of 60. Subsequent expansions raised the cap: The Burning Crusade raised it to 70, Wrath of the Lich King to 80, etc."
+    "explanation": "The original World of Warcraft had a level cap of 60. Subsequent expansions raised the cap: The Burning Crusade raised it to 70, Wrath of the Lich King to 80."
   },
   {
     "question": "Which card game uses the phrase 'Go Fish'?",
@@ -2703,10 +2703,10 @@
       "Go Fish",
       "Old Maid"
     ],
-    "explanation": "Go Fish is a simple card game where players ask opponents for specific cards. If the opponent doesn't have them, they say 'Go Fish' and the asking player draws from the deck."
+    "explanation": "Go Fish is a simple card game where players ask opponents for specific cards."
   },
   {
-    "question": "In the Pok\u00e9mon games, how many original (Generation 1) Pok\u00e9mon are there?",
+    "question": "In the Pokémon games, how many original (Generation 1) Pokémon are there?",
     "answer": "151",
     "choices": [
       "149",
@@ -2714,7 +2714,7 @@
       "151",
       "152"
     ],
-    "explanation": "There are 151 original Pok\u00e9mon in Generation 1. The first 150 are catchable in the main games, while Mew (151) was a hidden bonus Pok\u00e9mon."
+    "explanation": "There are 151 original Pokémon in Generation 1. The first 150 are catchable in the main games, while Mew (151) was a hidden bonus Pokémon."
   },
   {
     "question": "Which game involves a yellow character eating dots while avoiding ghosts?",
@@ -2758,7 +2758,7 @@
       "54",
       "56"
     ],
-    "explanation": "A standard deck has 52 cards: 4 suits (hearts, diamonds, clubs, spades) each with 13 cards (Ace through King). Jokers are extra and not counted in the 52."
+    "explanation": "A standard deck has 52 cards: 4 suits (hearts, diamonds, clubs, spades) each with 13 cards (Ace through King)."
   },
   {
     "question": "What game was the first to introduce the concept of a 'save state'?",
@@ -2780,7 +2780,7 @@
       "Sony",
       "Microsoft"
     ],
-    "explanation": "Sony Interactive Entertainment created the PlayStation. The original PlayStation was released in 1994 in Japan and 1995 in North America, launching a successful gaming hardware line."
+    "explanation": "Sony Interactive Entertainment created the PlayStation. The original PlayStation was released in 1994 in Japan and 1995 in North America, launching a."
   },
   {
     "question": "What is the name of the main character in the Halo series?",
@@ -2791,7 +2791,7 @@
       "Master Chief",
       "Arbiter"
     ],
-    "explanation": "Master Chief (John-117) is the primary protagonist of the Halo franchise. He is a SPARTAN-II super-soldier who fights against the Covenant and the Flood."
+    "explanation": "Master Chief (John-117) is the primary protagonist of the Halo franchise."
   },
   {
     "question": "In the board game Battleship, how many spaces does an aircraft carrier occupy?",
@@ -2802,7 +2802,7 @@
       "5",
       "6"
     ],
-    "explanation": "In standard Battleship, the aircraft carrier occupies 5 spaces on the grid. The other ships are the battleship (4), cruiser (3), submarine (3), and destroyer (2)."
+    "explanation": "In standard Battleship, the aircraft carrier occupies 5 spaces on the grid."
   },
   {
     "question": "Which mobile game featured a character collecting rings while avoiding enemies?",
@@ -2813,7 +2813,7 @@
       "Crash Bandicoot",
       "Rayman"
     ],
-    "explanation": "Sonic the Hedgehog by Sega features the speedy blue hedgehog collecting gold rings while avoiding enemies and obstacles. The franchise expanded to mobile platforms."
+    "explanation": "Sonic the Hedgehog by Sega features the speedy blue hedgehog collecting gold rings while avoiding enemies and obstacles."
   },
   {
     "question": "What is the name of Mario's mushroom-headed companion?",
@@ -2824,7 +2824,7 @@
       "Toad",
       "Birdo"
     ],
-    "explanation": "Toad is a loyal companion to Mario and Princess Peach. Toads are a species in the Mushroom Kingdom with mushroom-shaped heads, and Toad himself appears in many games."
+    "explanation": "Toad is a loyal companion to Mario and Princess Peach. Toads are a species in the Mushroom Kingdom with mushroom-shaped heads, and Toad himself appears in many."
   },
   {
     "question": "Which game introduced the 'Battle Royale' concept to mainstream gaming?",
@@ -2835,7 +2835,7 @@
       "Apex Legends",
       "H1Z1"
     ],
-    "explanation": "PUBG (PlayerUnknown's Battlegrounds) was released in 2017 and popularized the battle royale genre. It was based on the mod 'Battle Royale' by Brendan 'PlayerUnknown' Greene."
+    "explanation": "PUBG (PlayerUnknown's Battlegrounds) was released in 2017 and popularized the battle royale genre."
   },
   {
     "question": "In what game do players build and maintain a virtual farm?",
@@ -2846,7 +2846,7 @@
       "Harvest Moon",
       "Animal Crossing"
     ],
-    "explanation": "Stardew Valley is an indie farming simulation game developed by Eric Barone (ConcernedApe). Players inherit a farm and build it up while engaging with the local community."
+    "explanation": "Stardew Valley is an indie farming simulation game developed by Eric Barone (ConcernedApe)."
   },
   {
     "question": "Which chess piece is the most valuable (in points)?",
@@ -2857,7 +2857,7 @@
       "Knight",
       "Queen"
     ],
-    "explanation": "The queen is the most powerful and valuable piece in chess, typically valued at 9 points. It can move any number of squares in any direction."
+    "explanation": "The queen is the most powerful and valuable piece in chess, typically valued at 9 points."
   },
   {
     "question": "What does 'RPG' stand for in gaming?",
@@ -2868,7 +2868,7 @@
       "Role-Playing Game",
       "Racing Power Game"
     ],
-    "explanation": "RPG stands for Role-Playing Game, a genre where players assume the roles of characters in a fictional world. Examples include Final Fantasy, Dragon Quest, and The Elder Scrolls."
+    "explanation": "RPG means Role-Playing Game, where the player controls a character through a story-driven adventure."
   },
   {
     "question": "In the game Uno, what must a player say when they have one card left?",
@@ -2890,7 +2890,7 @@
       "Prince of Persia",
       "Indiana Jones"
     ],
-    "explanation": "Lara Croft is the protagonist of the Tomb Raider series by Core Design/Crystal Dynamics. She is an archaeologist and adventurer who explores ancient ruins."
+    "explanation": "Lara Croft is the protagonist of the Tomb Raider series by Core Design/Crystal Dynamics."
   },
   {
     "question": "What is the standard chess board configuration called at the start?",
@@ -2901,7 +2901,7 @@
       "Initial setup",
       "Base formation"
     ],
-    "explanation": "The standard chess setup is called the 'starting position' or 'initial position.' White pawns are on the second rank, pieces on the first rank, with the queen on her own color."
+    "explanation": "The standard chess setup is called the 'starting position' or 'initial position.' White pawns are on the second rank."
   },
   {
     "question": "In Fortnite, what is the 'Storm'?",
@@ -2912,7 +2912,7 @@
       "A deadly shrinking zone that forces players together",
       "A type of building material"
     ],
-    "explanation": "In Fortnite, the Storm is a deadly blue circle that shrinks over time, dealing damage to players outside it and forcing all remaining players into an ever-smaller area."
+    "explanation": "In Fortnite, the Storm is a deadly blue circle that shrinks over time, dealing damage to players outside it."
   },
   {
     "question": "Which game features 'The Elder Scrolls' lore?",
@@ -2923,7 +2923,7 @@
       "The Witcher",
       "Dragon Age"
     ],
-    "explanation": "The Elder Scrolls: Skyrim is set in The Elder Scrolls universe. All games in the series \u2014 Morrowind, Oblivion, Skyrim \u2014 share the same lore and world of Tamriel."
+    "explanation": "The Elder Scrolls: Skyrim is set in The Elder Scrolls universe. All games in the series — Morrowind, Oblivion, Skyrim — share the same lore and world of."
   },
   {
     "question": "How many players are needed for a game of chess?",
@@ -2934,7 +2934,7 @@
       "4",
       "Any number"
     ],
-    "explanation": "Chess is a two-player game. One player controls the white pieces, the other controls the black pieces. The game ends when one player's king is checkmated."
+    "explanation": "Chess is a two-player game. One player controls the white pieces, the other controls the black pieces."
   },
   {
     "question": "What is the main antagonist in the Mario franchise?",
@@ -2956,7 +2956,7 @@
       "Call of Juarez",
       "Outlaws of the Old West"
     ],
-    "explanation": "Arthur Morgan is the protagonist of Red Dead Redemption 2 (2018) by Rockstar Games. He is an outlaw in the late 1800s American frontier."
+    "explanation": "Arthur Morgan is the protagonist of Red Dead Redemption 2 (2018) by Rockstar Games."
   },
   {
     "question": "In the card game War, what is the goal?",
@@ -2967,7 +2967,7 @@
       "Have exactly 26 cards at the end",
       "Get the most face cards"
     ],
-    "explanation": "In the card game War, players flip cards simultaneously. The higher card wins both. The goal is to collect all 52 cards or have the most when time is called."
+    "explanation": "In the card game War, players flip cards simultaneously. The higher card wins both."
   },
   {
     "question": "Which game is set on the planet Pandora and features 'Vault Hunters'?",
@@ -2978,7 +2978,7 @@
       "Borderlands",
       "The Division"
     ],
-    "explanation": "Borderlands by Gearbox Software is set on the planet Pandora. Players are Vault Hunters seeking alien vaults. It is known for its cel-shaded art style and loot system."
+    "explanation": "Borderlands by Gearbox Software is set on the planet Pandora. Players are Vault Hunters seeking alien vaults."
   },
   {
     "question": "How many dominoes are in a standard double-six domino set?",
@@ -3000,7 +3000,7 @@
       "The Witcher",
       "Dragon Age"
     ],
-    "explanation": "Geralt of Rivia is the protagonist of The Witcher series, developed by CD Projekt Red. He is a monster hunter for hire in a dark fantasy world based on Polish literature."
+    "explanation": "Geralt of Rivia is the protagonist of The Witcher series, developed by CD Projekt Red."
   },
   {
     "question": "What is the objective in the game Candy Land?",
@@ -3022,7 +3022,7 @@
       "Rockstar Games",
       "EA Games"
     ],
-    "explanation": "Rockstar Games (published by Take-Two Interactive) developed the Grand Theft Auto series. GTA V (2013) is one of the best-selling video games of all time."
+    "explanation": "Rockstar Games (published by Take-Two Interactive) developed the Grand Theft Auto series."
   },
   {
     "question": "In Dungeons & Dragons, what does a Dungeon Master (DM) do?",
@@ -3044,7 +3044,7 @@
       "Princess Peach",
       "Princess Rosalina"
     ],
-    "explanation": "Princess Peach (Toadstool) is the ruler of the Mushroom Kingdom and Mario's frequent love interest. She is often kidnapped by Bowser, prompting Mario to rescue her."
+    "explanation": "Princess Peach (Toadstool) is the ruler of the Mushroom Kingdom and Mario's frequent love interest."
   },
   {
     "question": "In the board game Clue, how many rooms are there?",
@@ -3066,7 +3066,7 @@
       "The Last of Us",
       "State of Decay"
     ],
-    "explanation": "The Last of Us (2013) by Naughty Dog features Joel, a smuggler who escorts teenager Ellie across post-apocalyptic America. Ellie is immune to the Cordyceps fungal infection."
+    "explanation": "The Last of Us (2013) by Naughty Dog features Joel, a smuggler who escorts teenager Ellie across post-apocalyptic America."
   },
   {
     "question": "What is the name of the pub game that involves throwing small discs at a board?",
@@ -3077,7 +3077,7 @@
       "Darts",
       "Cornhole"
     ],
-    "explanation": "Darts is a pub game where players throw small pointed darts at a circular dartboard, aiming for specific scoring segments. Standard games include 501 and Cricket."
+    "explanation": "Darts is a pub game where players throw small pointed darts at a circular dartboard, aiming for specific scoring segments."
   },
   {
     "question": "Which video game franchise features the Horde and the Alliance?",
@@ -3099,7 +3099,7 @@
       "The level advances",
       "You gain a new ability"
     ],
-    "explanation": "In the classic Snake game, eating food causes the snake to grow longer. The challenge increases as the snake becomes longer and harder to maneuver without hitting itself."
+    "explanation": "In the classic Snake game, eating food causes the snake to grow longer."
   },
   {
     "question": "Which game requires players to spell words on a crossword-style grid?",
@@ -3110,7 +3110,7 @@
       "Bananagrams",
       "Words with Friends"
     ],
-    "explanation": "Scrabble is a word game where players score points by placing letter tiles on a grid to form words. Letters have different point values based on their frequency in English."
+    "explanation": "Scrabble is a word game where players score points by placing letter tiles on a grid to form words."
   },
   {
     "question": "What is the name of the fictional country in the game Assassin's Creed: Black Flag?",
@@ -3121,7 +3121,7 @@
       "The game is set in the Caribbean",
       "Havana"
     ],
-    "explanation": "Assassin's Creed: Black Flag (2013) is set primarily in the Caribbean during the Golden Age of Piracy. Key locations include Nassau, Havana, and Kingston."
+    "explanation": "Assassin's Creed: Black Flag (2013) is set primarily in the Caribbean during the Golden Age of Piracy."
   },
   {
     "question": "In Minecraft, what material is needed to make a Nether Portal?",
@@ -3132,7 +3132,7 @@
       "Obsidian",
       "Netherite"
     ],
-    "explanation": "In Minecraft, a Nether Portal is made from at least 10 blocks of obsidian arranged in a 4\u00d75 frame (corners optional). Obsidian is formed when water hits a lava source block."
+    "explanation": "In Minecraft, a Nether Portal is made from at least 10 blocks of obsidian arranged in a 4×5 frame (corners optional)."
   },
   {
     "question": "Which card game uses a point value of 'Ace high' or 'Ace low'?",
@@ -3143,7 +3143,7 @@
       "Poker",
       "Old Maid"
     ],
-    "explanation": "In poker, the Ace can be played as either high (above King) or low (below 2) depending on context, especially in straights. Most card games use Ace high."
+    "explanation": "In poker, the Ace can be played as either high (above King) or low (below 2) depending on context, especially in straights."
   },
   {
     "question": "What game involves trying to remove pieces from a wooden tower without toppling it?",
@@ -3165,7 +3165,7 @@
       "Mario",
       "Yoshi"
     ],
-    "explanation": "The Mushroom Kingdom is the primary setting for many Mario games. It is ruled by Princess Peach and inhabited by Toads, Goombas, Koopas, and many other creatures."
+    "explanation": "The Mushroom Kingdom is the primary setting for many Mario games. It is ruled by Princess Peach and inhabited by Toads, Goombas, Koopas, and many other."
   },
   {
     "question": "What is the highest-valued letter tile in Scrabble?",
@@ -3176,7 +3176,7 @@
       "J (8 points)",
       "K (5 points)"
     ],
-    "explanation": "In Scrabble, the letters Q and Z are both worth 10 points, the highest value. X and J are worth 8 points each. Common letters like E are worth only 1 point."
+    "explanation": "In Scrabble, the letters Q and Z are both worth 10 points, the highest value."
   },
   {
     "question": "In what game does the protagonist use a gravity gun?",
@@ -3187,7 +3187,7 @@
       "Bioshock",
       "Dishonored"
     ],
-    "explanation": "The Gravity Gun (Zero-Point Energy Field Manipulator) is a key weapon in Half-Life 2 (2004) by Valve. It can pick up, hold, and throw objects."
+    "explanation": "The Gravity Gun (Zero-Point Energy Field Manipulator) is a key weapon in Half-Life 2 (2004) by Valve."
   },
   {
     "question": "How many pins are in a standard bowling setup?",
@@ -3198,7 +3198,7 @@
       "10",
       "12"
     ],
-    "explanation": "Standard ten-pin bowling uses 10 pins arranged in a triangular pattern at the end of the lane. Other variants like candlepin, duckpin, and five-pin use different numbers."
+    "explanation": "Standard ten-pin bowling uses 10 pins arranged in a triangular pattern at the end of the lane."
   },
   {
     "question": "Which video game features a character named 'Kratos' who fights Greek gods?",
@@ -3209,7 +3209,7 @@
       "Titan Quest",
       "Assassin's Creed"
     ],
-    "explanation": "Kratos is the protagonist of the God of War series. In the original trilogy, he battles Greek gods after being betrayed by Ares. Later games move to Norse mythology."
+    "explanation": "Kratos is the protagonist of the God of War series. In the original trilogy, he battles Greek gods after being betrayed by Ares."
   },
   {
     "question": "What is the goal in the mobile game Flappy Bird?",
@@ -3220,7 +3220,7 @@
       "Guide a bird through as many pipes as possible",
       "Fly the bird home to its nest"
     ],
-    "explanation": "Flappy Bird (2013) by Dong Nguyen requires tapping the screen to keep a bird airborne between pairs of pipes. The game ends when the bird hits a pipe or the ground."
+    "explanation": "Flappy Bird (2013) by Dong Nguyen requires tapping the screen to keep a bird airborne between pairs of pipes."
   },
   {
     "question": "In chess, what happens during 'castling'?",
@@ -3231,7 +3231,7 @@
       "The king moves two squares and the rook jumps over it",
       "The king and queen switch places"
     ],
-    "explanation": "Castling is a special chess move where the king moves two squares toward a rook, and the rook moves to the square the king crossed. It can only be done if neither piece has moved."
+    "explanation": "Castling is a special chess move where the king moves two squares toward a rook, and the rook moves to the square the king crossed."
   },
   {
     "question": "Which video game series features the detective duo 'Phoenix Wright'?",
@@ -3253,7 +3253,7 @@
       "2-10",
       "2-14"
     ],
-    "explanation": "A standard poker game can accommodate 2-10 players at one table, depending on the variant. Texas Hold'em typically allows up to 9-10 players at a full table."
+    "explanation": "A standard poker game can accommodate 2-10 players at one table, depending on the variant."
   },
   {
     "question": "Which game involves players 'drawing' and guessing words online?",
@@ -3264,7 +3264,7 @@
       "Pictionary",
       "Gartic Phone"
     ],
-    "explanation": "Skribbl.io is an online multiplayer drawing and guessing game where one player draws a word while others try to guess it. It is a digital version of Pictionary."
+    "explanation": "Skribbl.io is an online multiplayer drawing and guessing game where one player draws a word while others try to guess it."
   },
   {
     "question": "What is the name of the fictional AI antagonist in Halo?",
@@ -3286,7 +3286,7 @@
       "Poker",
       "Hearts"
     ],
-    "explanation": "In poker, 'folding' means discarding your hand and forfeiting your bet rather than matching the current bet. A player folds when they believe their hand is unlikely to win."
+    "explanation": "In poker, 'folding' means discarding your hand and forfeiting your bet rather than matching the current bet."
   },
   {
     "question": "Which video game features the setting of 'Liberty City'?",
@@ -3297,7 +3297,7 @@
       "Grand Theft Auto IV",
       "GTA V"
     ],
-    "explanation": "Liberty City is the fictional New York City analog featured in Grand Theft Auto IV (2008) and several other GTA games. It is a recurring location in the franchise."
+    "explanation": "Liberty City is the fictional New York City analog featured in Grand Theft Auto IV (2008) and several other GTA games."
   },
   {
     "question": "What game features 'The Sims' characters?",
@@ -3330,7 +3330,7 @@
       "Good Game",
       "Go Grind"
     ],
-    "explanation": "'GG' stands for 'Good Game,' a common sportsmanlike expression said at the end of a match, regardless of win or loss. It originated in gaming but has spread to esports and sports."
+    "explanation": "'GG' stands for 'Good Game,' a common sportsmanlike expression said at the end of a match, regardless of win or loss."
   },
   {
     "question": "Which card game features a '21' as a winning hand?",
@@ -3341,7 +3341,7 @@
       "Blackjack",
       "Baccarat"
     ],
-    "explanation": "In Blackjack (21), the object is to have cards totaling 21 or as close to 21 as possible without exceeding it. An Ace and a face card/10 makes Blackjack."
+    "explanation": "In Blackjack (21), the object is to have cards totaling 21 or as close to 21 as possible without exceeding it."
   },
   {
     "question": "What game features the iconic character Solid Snake?",
@@ -3352,7 +3352,7 @@
       "Metal Gear Solid",
       "Agent 47"
     ],
-    "explanation": "Solid Snake is the protagonist of the Metal Gear series by Hideo Kojima. He is a special forces operative known for stealth and espionage."
+    "explanation": "Solid Snake is the protagonist of the Metal Gear series by Hideo Kojima."
   },
   {
     "question": "In what game do players use 'Flux Capacitors' or time travel?",
@@ -3363,7 +3363,7 @@
       "Quantum Break",
       "Life is Strange"
     ],
-    "explanation": "The Back to the Future video games reference the DeLorean time machine's Flux Capacitor. The Flux Capacitor is also referenced in Chrono Trigger's inspiration."
+    "explanation": "The Back to the Future video games reference the DeLorean time machine's Flux Capacitor."
   },
   {
     "question": "Which board game features a murder mystery in a mansion?",
@@ -3374,7 +3374,7 @@
       "Mysterium",
       "Betrayal at House on the Hill"
     ],
-    "explanation": "Clue (known as Cluedo in the UK) is a murder mystery board game. Players try to determine who killed Mr. Boddy, in which room, and with what weapon."
+    "explanation": "Clue (known as Cluedo in the UK) is a murder mystery board game. Players try to determine who killed Mr."
   },
   {
     "question": "What is the main currency in The Legend of Zelda series?",
@@ -3385,7 +3385,7 @@
       "Rupees",
       "Gems"
     ],
-    "explanation": "Rupees are the currency in The Legend of Zelda series. Different colored rupees are worth different amounts, with green rupees typically worth 1 and gold/silver worth more."
+    "explanation": "Rupees are the currency in The Legend of Zelda series. Different colored rupees are worth different amounts, with green rupees typically worth 1 and."
   },
   {
     "question": "Which game uses a 'battle royale' format with building mechanics?",
@@ -3407,10 +3407,10 @@
       "Doom",
       "Quake"
     ],
-    "explanation": "Gordon Freeman is the protagonist of the Half-Life series by Valve. A theoretical physicist at Black Mesa Research Facility, he becomes a key figure in resisting an alien invasion."
+    "explanation": "Gordon Freeman is the protagonist of the Half-Life series by Valve. A theoretical physicist at Black Mesa Research Facility, he becomes a key figure in."
   },
   {
-    "question": "In Pok\u00e9mon, what type is Charizard (first form)?",
+    "question": "In Pokémon, what type is Charizard (first form)?",
     "answer": "Fire/Flying",
     "choices": [
       "Fire/Dragon",
@@ -3418,7 +3418,7 @@
       "Fire only",
       "Dragon/Fire"
     ],
-    "explanation": "Charizard is a Fire/Flying type Pok\u00e9mon, despite looking like a dragon. Its Mega Evolution X form becomes Fire/Dragon type."
+    "explanation": "Charizard is a Fire/Flying type Pokémon, despite looking like a dragon."
   },
   {
     "question": "Which game requires the player to 'keep a poker face'?",
@@ -3429,7 +3429,7 @@
       "Poker",
       "Bluff"
     ],
-    "explanation": "'Keeping a poker face' means showing no expression that reveals what cards you hold. The expression originated in poker but now refers to any situation requiring emotional concealment."
+    "explanation": "'Keeping a poker face' means showing no expression that reveals what cards you hold."
   },
   {
     "question": "In what game does a character fly using a cape or wing suit?",
@@ -3440,7 +3440,7 @@
       "Kirby's Adventure",
       "Super Mario Bros 3"
     ],
-    "explanation": "Super Mario World features the Cape Feather power-up that allows Mario to fly and spin. Super Mario Bros. 3 introduced the Tanooki Suit and Cape, but the iconic cape is from World."
+    "explanation": "Super Mario World features the Cape Feather power-up that allows Mario to fly and spin."
   },
   {
     "question": "What is the name of the iconic blue hedgehog character in Sega's games?",
@@ -3451,7 +3451,7 @@
       "Sonic",
       "Knuckles"
     ],
-    "explanation": "Sonic the Hedgehog is Sega's mascot, a blue anthropomorphic hedgehog known for his super speed. He debuted in 1991 and has starred in hundreds of games."
+    "explanation": "Sonic the Hedgehog is Sega's mascot, a blue anthropomorphic hedgehog known for his super speed."
   },
   {
     "question": "In Candy Land, what character sends players back to the beginning?",
@@ -3462,7 +3462,7 @@
       "Lord Licorice",
       "Princess Lolly"
     ],
-    "explanation": "Lord Licorice is the villain in Candy Land. Landing on his card can set players back. The actual mechanic of being sent back depends on the game edition."
+    "explanation": "Lord Licorice is the villain in Candy Land. Landing on his card can set players back."
   },
   {
     "question": "Which video game is set on Reach, a human colony planet?",
@@ -3473,7 +3473,7 @@
       "Halo: Reach",
       "Halo 4"
     ],
-    "explanation": "Halo: Reach (2010) by Bungie is a prequel set on the planet Reach, a major human colony. Players control Noble Team as Reach falls to the Covenant invasion."
+    "explanation": "Halo: Reach (2010) by Bungie is a prequel set on the planet Reach, a major human colony."
   },
   {
     "question": "In Dungeons & Dragons, what is a 'natural 1' called?",
@@ -3484,7 +3484,7 @@
       "Bad roll",
       "Miss"
     ],
-    "explanation": "A natural 1 on a d20 in D&D is often called a 'critical failure' or 'fumble.' In combat, it typically means an automatic miss and may have additional negative consequences at DM's discretion."
+    "explanation": "A natural 1 on a d20 in D&D is often called a 'critical failure' or 'fumble.' In combat."
   },
   {
     "question": "What game features the character John Marston?",
@@ -3495,7 +3495,7 @@
       "Outlaws",
       "Western Frontier"
     ],
-    "explanation": "John Marston is the protagonist of Red Dead Redemption (2010) by Rockstar Games. He is a former outlaw forced by the government to hunt down his old gang members."
+    "explanation": "John Marston is the protagonist of Red Dead Redemption (2010) by Rockstar Games."
   },
   {
     "question": "Which board game involves moving tokens based on dice rolls to collect properties?",
@@ -3517,7 +3517,7 @@
       "A player who wins by completing tasks",
       "A player who can see through walls"
     ],
-    "explanation": "In Among Us, the Impostor is secretly assigned to sabotage the ship and eliminate crewmates without being discovered. Crewmates must complete tasks and vote out the Impostor."
+    "explanation": "In Among Us, the Impostor is secretly assigned to sabotage the ship and eliminate crewmates without being discovered."
   },
   {
     "question": "Which video game features the 'Aperture Science' company and sentient AI?",
@@ -3528,7 +3528,7 @@
       "Portal",
       "The Talos Principle"
     ],
-    "explanation": "Portal (2007) by Valve is set in the Aperture Science Enrichment Center. The game features GLaDOS, a homicidal AI that guides the player through test chambers using a portal gun."
+    "explanation": "Portal (2007) by Valve is set in the Aperture Science Enrichment Center."
   },
   {
     "question": "What is 'checkmate' in chess?",
@@ -3539,7 +3539,7 @@
       "A position where the king is in check with no legal moves",
       "When both kings face each other"
     ],
-    "explanation": "Checkmate occurs when a player's king is in check (under attack) and there is no legal move that removes the threat. The player whose king is checkmated loses."
+    "explanation": "Checkmate occurs when a player's king is in check (under attack) and there is no legal move that removes the threat."
   },
   {
     "question": "Which handheld console was released by Nintendo in 2004?",
@@ -3550,7 +3550,7 @@
       "PSP",
       "Game Boy Micro"
     ],
-    "explanation": "The Nintendo DS was released in 2004. It featured dual screens (one touchscreen), wireless multiplayer, and a unique clamshell design. It became one of the best-selling consoles."
+    "explanation": "The Nintendo DS was released in 2004. It featured dual screens (one touchscreen), wireless multiplayer, and a unique clamshell design."
   },
   {
     "question": "In the card game Crazy Eights, what do eights do?",
@@ -3561,7 +3561,7 @@
       "Allow the player to change the suit",
       "Make the next player draw 4 cards"
     ],
-    "explanation": "In Crazy Eights, an eight can be played on any card and allows the player to name a new suit that the next player must follow. It is similar to the Wild card in Uno."
+    "explanation": "In Crazy Eights, an eight can be played on any card and allows the player to name a new suit that the next player must follow."
   },
   {
     "question": "Which game series features the protagonist Link exploring a large world?",
@@ -3572,7 +3572,7 @@
       "Horizon Zero Dawn",
       "Dragon's Dogma"
     ],
-    "explanation": "Link is the protagonist of The Legend of Zelda series by Nintendo. In most games, he explores the kingdom of Hyrule and collects items to defeat the antagonist Ganon."
+    "explanation": "Link is the protagonist of The Legend of Zelda series by Nintendo. In most games, he explores the kingdom of Hyrule and collects items to defeat the antagonist."
   },
   {
     "question": "What is the standard game of 'Operation' testing?",
@@ -3583,7 +3583,7 @@
       "Speed and reflexes",
       "Memory and recall"
     ],
-    "explanation": "Operation is a skill game that tests steady hands and precision. Players use tweezers to remove novelty ailment pieces from Cavity Sam's body without touching the metal edges."
+    "explanation": "Operation is a skill game that tests steady hands and precision. Players use tweezers to remove novelty ailment pieces from Cavity Sam's body without touching."
   },
   {
     "question": "Which popular online game requires players to build a 'base'?",
@@ -3605,7 +3605,7 @@
       "Playing your best cards",
       "Bluffing on every hand"
     ],
-    "explanation": "'Going all in' means wagering all of your remaining chips in a single bet. If called, you risk all your chips. If you win, you double up; if you lose, you're eliminated."
+    "explanation": "'Going all in' means wagering all of your remaining chips in a single bet."
   },
   {
     "question": "Which game features the alien planet Zebes?",
@@ -3627,7 +3627,7 @@
       "By being the last piece standing",
       "By being placed in the center"
     ],
-    "explanation": "In Checkers (Draughts), a piece becomes a King when it reaches the last row on the opponent's side of the board. A King can then move backward as well as forward."
+    "explanation": "In Checkers (Draughts), a piece becomes a King when it reaches the last row on the opponent's side of the board."
   },
   {
     "question": "Which game requires players to cross a busy road and rivers?",
@@ -3638,7 +3638,7 @@
       "Sonic",
       "Mario Kart"
     ],
-    "explanation": "Frogger is a classic 1981 arcade game where players guide a frog across a busy road and river to reach home. It was developed by Konami."
+    "explanation": "Frogger is a classic 1981 arcade game where players guide a frog across a busy road and river to reach home."
   },
   {
     "question": "What is the name of the main villain in The Legend of Zelda?",
@@ -3649,7 +3649,7 @@
       "Vaati",
       "Agahnim"
     ],
-    "explanation": "Ganondorf is the primary antagonist in many Zelda games. He is a powerful Gerudo man who seeks the Triforce of Power and transforms into Ganon (a beast form) in some games."
+    "explanation": "Ganondorf is the primary antagonist in many Zelda games. He is a powerful Gerudo man who seeks the Triforce of Power and transforms into Ganon (a beast form)."
   },
   {
     "question": "In what game series can players explore a procedurally generated universe?",
@@ -3660,7 +3660,7 @@
       "Starfield",
       "Outer Wilds"
     ],
-    "explanation": "No Man's Sky by Hello Games features a procedurally generated universe with quintillions of unique planets to explore. It was vastly expanded after a controversial launch."
+    "explanation": "No Man's Sky by Hello Games features a procedurally generated universe with quintillions of unique planets to explore."
   },
   {
     "question": "What is the first item collected in most Mario games?",
@@ -3671,7 +3671,7 @@
       "Super Mushroom",
       "Coin"
     ],
-    "explanation": "The Super Mushroom is typically the first power-up encountered in Mario games. It causes Mario to grow from small Mario to Super Mario, allowing him to break certain blocks."
+    "explanation": "The Super Mushroom is typically the first power-up encountered in Mario games."
   },
   {
     "question": "Which video game includes 'Nook Miles' as a currency?",
@@ -3682,7 +3682,7 @@
       "Harvest Moon",
       "Story of Seasons"
     ],
-    "explanation": "Nook Miles are a secondary currency in Animal Crossing: New Horizons (2020). They are earned through in-game activities and redeemable for special items and services."
+    "explanation": "Nook Miles are a secondary currency in Animal Crossing: New Horizons (2020)."
   },
   {
     "question": "In the board game Snakes and Ladders, what happens if you land on a snake's head?",
@@ -3693,7 +3693,7 @@
       "You slide down to the snake's tail",
       "The game ends"
     ],
-    "explanation": "In Snakes and Ladders, landing on a snake's head causes you to slide down to its tail (lower position). Landing on a ladder's base lets you climb to the top."
+    "explanation": "In Snakes and Ladders, landing on a snake's head causes you to slide down to its tail (lower position)."
   },
   {
     "question": "Which game features players becoming 'Sheriff of Nottingham'?",
@@ -3704,7 +3704,7 @@
       "Coup",
       "One Night Ultimate Werewolf"
     ],
-    "explanation": "Sheriff of Nottingham is a social deduction board game where players are merchants trying to smuggle contraband goods past the Sheriff, who interrogates and searches their pouches."
+    "explanation": "Sheriff of Nottingham is a social deduction board game where players are merchants trying to smuggle contraband goods past the Sheriff."
   },
   {
     "question": "What is the maximum number of pieces a player starts with in chess?",
@@ -3726,7 +3726,7 @@
       "Kingdom Rush",
       "Castle Defense"
     ],
-    "explanation": "Plants vs. Zombies by PopCap Games is a tower defense game where players place various plants with unique abilities to stop waves of zombies from reaching their house."
+    "explanation": "Plants vs. Zombies by PopCap Games is a tower defense game where players place various plants with unique abilities to stop waves of zombies from reaching."
   },
   {
     "question": "In the game 'Life', what is the spinning mechanism called?",
@@ -3748,7 +3748,7 @@
       "Falco Lombardi",
       "Slippy Toad"
     ],
-    "explanation": "Peppy Hare says 'Do a barrel roll!' in Star Fox 64 (1997). The phrase became an internet meme. The maneuver in the game is actually an aileron roll performed by pressing Z or R."
+    "explanation": "Peppy Hare says 'Do a barrel roll!' in Star Fox 64 (1997). The phrase became an internet meme."
   },
   {
     "question": "What does 'MMORPG' stand for?",
@@ -3770,7 +3770,7 @@
       "Complete train routes and score points",
       "Collect all the city cards"
     ],
-    "explanation": "Ticket to Ride is a strategy board game where players collect colored cards to claim railway routes between cities. Points are scored for routes and completed destination tickets."
+    "explanation": "Ticket to Ride is a strategy board game where players collect colored cards to claim railway routes between cities."
   },
   {
     "question": "Which video game character wears a red cap with an 'M' on it?",
@@ -3781,7 +3781,7 @@
       "Yoshi",
       "Toad"
     ],
-    "explanation": "Mario, Nintendo's flagship character, is iconic for his red cap with a white 'M' on it (or sometimes a red 'M'). The cap is as recognizable as the character himself."
+    "explanation": "Mario, Nintendo's flagship character, is iconic for his red cap with a white 'M' on it (or sometimes a red 'M')."
   },
   {
     "question": "What is the name of the horse in The Legend of Zelda: Ocarina of Time?",
@@ -3792,7 +3792,7 @@
       "Epona",
       "Roach"
     ],
-    "explanation": "Epona is Link's horse in Ocarina of Time. She can be befriended by playing 'Epona's Song' on the ocarina. The same horse appears in other Zelda games."
+    "explanation": "Epona is Link's horse in Ocarina of Time. She can be befriended by playing 'Epona's Song' on the ocarina."
   },
   {
     "question": "In video games, what is a 'speedrun'?",
@@ -3803,7 +3803,7 @@
       "Completing a game as quickly as possible",
       "Completing a game with all collectibles"
     ],
-    "explanation": "A speedrun is a playthrough of a video game with the goal of completing it as fast as possible. Speedrunners often use glitches and optimized routes to minimize time."
+    "explanation": "A speedrun is a playthrough of a video game with the goal of completing it as fast as possible."
   },
   {
     "question": "Which game features the 'Breach' loading screen animation?",
@@ -3814,7 +3814,7 @@
       "Overwatch",
       "Rainbow Six Siege"
     ],
-    "explanation": "Valorant by Riot Games features animated character highlights. Breach is one of the game's agents, and like all agents, has animated versions in the character select and loading screens."
+    "explanation": "Valorant by Riot Games features animated character highlights. Breach is one of the game's agents, and like all agents, has animated versions in the character."
   },
   {
     "question": "What is the name of the fantasy world in 'The Elder Scrolls' series?",
@@ -3825,7 +3825,7 @@
       "Eos",
       "Azeroth"
     ],
-    "explanation": "Tamriel is the continent where The Elder Scrolls games are set. It includes provinces such as Skyrim, Morrowind, Cyrodiil, and Elsweyr, each with distinct cultures and landscapes."
+    "explanation": "Tamriel is the continent where The Elder Scrolls games are set. It includes provinces such as Skyrim, Morrowind, Cyrodiil, and Elsweyr, each with distinct."
   },
   {
     "question": "In the game Pac-Man, how many ghosts are there?",
@@ -3836,7 +3836,7 @@
       "5",
       "6"
     ],
-    "explanation": "There are 4 ghosts in Pac-Man: Blinky (red), Pinky (pink), Inky (cyan), and Clyde (orange). Each has distinct AI behavior when chasing Pac-Man."
+    "explanation": "There are 4 ghosts in Pac-Man: Blinky (red), Pinky (pink), Inky (cyan), and Clyde (orange)."
   },
   {
     "question": "Which game allows players to build anything in a pixelated world?",
@@ -3847,7 +3847,7 @@
       "Terraria",
       "Trove"
     ],
-    "explanation": "Minecraft by Mojang/Microsoft is a sandbox game where players can build virtually anything in a blocky, pixelated 3D world. It is the best-selling video game of all time."
+    "explanation": "Minecraft by Mojang/Microsoft is a sandbox game where players can build virtually anything in a blocky, pixelated 3D world."
   },
   {
     "question": "In card games, what is a 'flush'?",
@@ -3858,7 +3858,7 @@
       "Four of the same rank",
       "Three pairs"
     ],
-    "explanation": "A flush in poker is any five cards of the same suit. A straight flush is five consecutive cards of the same suit. A royal flush is A-K-Q-J-10 of the same suit."
+    "explanation": "A flush in poker is any five cards of the same suit. A straight flush is five consecutive cards of the same suit."
   },
   {
     "question": "Which game features characters 'Widowmaker' and 'Tracer'?",
@@ -3869,7 +3869,7 @@
       "Apex Legends",
       "Team Fortress 2"
     ],
-    "explanation": "Overwatch is a team-based hero shooter by Blizzard where players choose from a diverse roster including Widowmaker (French sniper) and Tracer (British time-jumper)."
+    "explanation": "Overwatch is a team-based hero shooter by Blizzard where players choose from a diverse roster including Widowmaker (French sniper)."
   },
   {
     "question": "What is the name of the dragon in Skyrim?",
@@ -3880,7 +3880,7 @@
       "Odahviing",
       "Sahloknir"
     ],
-    "explanation": "Alduin, the World Eater, is the primary antagonist and first dragon in The Elder Scrolls V: Skyrim. He is a large black dragon who seeks to devour the world."
+    "explanation": "Alduin, the World Eater, is the primary antagonist and first dragon in The Elder Scrolls V: Skyrim."
   },
   {
     "question": "In what game do players race go-karts around Nintendo-themed tracks?",
@@ -3891,7 +3891,7 @@
       "Mario Kart",
       "Crash Team Racing"
     ],
-    "explanation": "Mario Kart is Nintendo's racing franchise where players race go-karts as Mario characters on creative tracks inspired by Nintendo games. Mario Kart 8 Deluxe is one of the best-selling Switch games."
+    "explanation": "Mario Kart is Nintendo's racing franchise where players race go-karts as Mario characters on creative tracks inspired by Nintendo games."
   },
   {
     "question": "Which game features the fictional virus 'Cordyceps'?",
@@ -3902,7 +3902,7 @@
       "The Last of Us",
       "Dying Light"
     ],
-    "explanation": "The Last of Us features a mutated Cordyceps fungus that infects humans, turning them into zombie-like creatures. The game was inspired by a real Ophiocordyceps fungus that controls insects."
+    "explanation": "The Last of Us features a mutated Cordyceps fungus that infects humans, turning them into zombie-like creatures."
   },
   {
     "question": "In chess, what is 'en passant'?",
@@ -3913,7 +3913,7 @@
       "Moving the king two spaces",
       "Promoting a pawn to a queen"
     ],
-    "explanation": "En passant is a special pawn capture in chess where a pawn that has just moved two squares forward can be captured by an opposing pawn as if it had only moved one square."
+    "explanation": "En passant is a special pawn capture in chess where a pawn that has just moved two squares forward can be captured by an opposing pawn as if it had only moved."
   },
   {
     "question": "Which game series features protagonist 'Nathan Drake'?",
@@ -3935,7 +3935,7 @@
       "Toad's Turnpike",
       "Peach's Castle"
     ],
-    "explanation": "World 1-1 in Super Mario Bros. (NES) is one of the most iconic levels in gaming history. It introduces players to running, jumping, breaking blocks, and collecting coins."
+    "explanation": "World 1-1 in Super Mario Bros. (NES) is one of the most iconic levels in gaming history."
   },
   {
     "question": "Which card game uses a 'discard pile' and players must match color or number?",
@@ -3946,7 +3946,7 @@
       "Uno",
       "War"
     ],
-    "explanation": "Uno uses a draw and discard pile where players must match the color or number (or symbol) of the top discard card. Special cards include Skip, Reverse, Draw Two, and Wild."
+    "explanation": "Uno uses a draw and discard pile where players must match the color or number (or symbol) of the top discard card."
   },
   {
     "question": "In the game Diablo, what is the main setting?",
@@ -3957,7 +3957,7 @@
       "Hell",
       "Caldeum"
     ],
-    "explanation": "Tristram is the starting town in the original Diablo. The Cathedral beneath it serves as the primary dungeon. Tristram returns as 'Old Tristram' in Diablo III."
+    "explanation": "Tristram is the starting town in the original Diablo. The Cathedral beneath it serves as the primary dungeon."
   },
   {
     "question": "What does 'PvP' mean in gaming?",
@@ -3968,7 +3968,7 @@
       "Points vs. Points",
       "Play versus Play"
     ],
-    "explanation": "PvP (Player vs. Player) refers to gameplay where humans compete against each other, as opposed to PvE (Player vs. Environment) where players cooperate against computer-controlled enemies."
+    "explanation": "PvP (Player vs. Player) refers to gameplay where humans compete against each other, as opposed to PvE (Player vs."
   },
   {
     "question": "Which game involves placing colored blobs to match three or more?",
@@ -3990,7 +3990,7 @@
       "Knock opponents off the stage",
       "Be the last to reach 100 damage"
     ],
-    "explanation": "In Super Smash Bros., players deal damage to increase opponents' percentage. The higher the percentage, the further they fly when hit. The goal is to knock opponents off the stage."
+    "explanation": "In Super Smash Bros., players deal damage to increase opponents' percentage."
   },
   {
     "question": "Which game series features 'Big Boss' as a character?",
@@ -4001,7 +4001,7 @@
       "Ghost Recon",
       "Agent 47"
     ],
-    "explanation": "Big Boss (Naked Snake) is a major character in the Metal Gear series by Hideo Kojima. He is the original super soldier and father of both Solid Snake and Liquid Snake."
+    "explanation": "Big Boss (Naked Snake) is a major character in the Metal Gear series by Hideo Kojima."
   },
   {
     "question": "What is the name of the main character in 'The Legend of Zelda' games?",
@@ -4023,7 +4023,7 @@
       "Atari",
       "SNK"
     ],
-    "explanation": "Sega Genesis (Mega Drive outside North America) was a 16-bit home console released by Sega in 1988 in Japan and 1989 in North America. It was Sega's flagship console."
+    "explanation": "Sega Genesis (Mega Drive outside North America) was a 16-bit home console released by Sega in 1988 in Japan and 1989 in North America."
   },
   {
     "question": "In the board game Pandemic, what is the goal?",
@@ -4067,7 +4067,7 @@
       "Willy",
       "Morris"
     ],
-    "explanation": "M. Rasmodius (the Wizard) lives in the Wizard's Tower at the edge of Cindersap Forest in Stardew Valley. He offers various magical services and has a mysterious backstory."
+    "explanation": "M. Rasmodius (the Wizard) lives in the Wizard's Tower at the edge of Cindersap Forest in Stardew Valley."
   },
   {
     "question": "Which gaming franchise popularized the 'open world' game format?",
@@ -4078,7 +4078,7 @@
       "Fallout",
       "Elder Scrolls"
     ],
-    "explanation": "While open world concepts existed before, GTA III (2001) is widely credited with popularizing the modern 3D open world game format, influencing countless games that followed."
+    "explanation": "While open world concepts existed before, GTA III (2001) is widely credited with popularizing the modern 3D open world game format, influencing countless games."
   },
   {
     "question": "What is the name of the fictional country 'Zaun' in a game?",
@@ -4089,7 +4089,7 @@
       "Overwatch",
       "Dota 2"
     ],
-    "explanation": "Zaun is a fictional undercity in the League of Legends universe. It was the setting for the Netflix animated series Arcane and home to champions like Jinx and Vi."
+    "explanation": "Zaun is a fictional undercity in the League of Legends universe. It was the setting for the Netflix animated series Arcane and home to champions like Jinx and."
   },
   {
     "question": "In chess, which is the only piece that cannot be captured?",
@@ -4100,18 +4100,18 @@
       "King",
       "Pawn"
     ],
-    "explanation": "The king in chess cannot be captured \u2014 the game ends when it is checkmated (in a position where capture would be unavoidable). Instead, the king must avoid check at all times."
+    "explanation": "The king in chess cannot be captured — the game ends when it is checkmated (in a position where capture would be unavoidable)."
   },
   {
-    "question": "Which mobile game became famous for Pok\u00e9mon catching in real life?",
-    "answer": "Pok\u00e9mon GO",
+    "question": "Which mobile game became famous for Pokémon catching in real life?",
+    "answer": "Pokémon GO",
     "choices": [
       "Ingress",
-      "Pok\u00e9mon GO",
+      "Pokémon GO",
       "Harry Potter: Wizards Unite",
       "Jurassic World Alive"
     ],
-    "explanation": "Pok\u00e9mon GO by Niantic was released in 2016 and became a worldwide phenomenon. It uses augmented reality (AR) to overlay Pok\u00e9mon on the real world via smartphone cameras."
+    "explanation": "Pokémon GO by Niantic was released in 2016 and became a worldwide phenomenon."
   },
   {
     "question": "What is the name of the sword in The Legend of Zelda?",
@@ -4122,7 +4122,7 @@
       "Master Sword",
       "Golden Sword"
     ],
-    "explanation": "The Master Sword (Blade of Evil's Bane) is the legendary sword in The Legend of Zelda. It can only be wielded by the hero (Link) and is effective against Ganon's evil magic."
+    "explanation": "The Master Sword (Blade of Evil's Bane) is the legendary sword in The Legend of Zelda."
   },
   {
     "question": "Which game used the famous 'Konami Code' (Up Up Down Down Left Right Left Right B A)?",
@@ -4133,7 +4133,7 @@
       "Gradius",
       "Mega Man"
     ],
-    "explanation": "The Konami Code is cheat code created by developer Kazuhisa Hashimoto. First appearing in Gradius, it became famous in Contra (NES) where it granted 30 extra lives."
+    "explanation": "The Konami Code is cheat code created by developer Kazuhisa Hashimoto."
   },
   {
     "question": "In the card game 'Snap,' what do players do?",
@@ -4144,7 +4144,7 @@
       "Race to pick up a card",
       "Draw until someone has all four suits"
     ],
-    "explanation": "In Snap, players take turns revealing cards. When two consecutive cards match, the first player to shout 'Snap!' and slap the pile wins all the cards in the pile."
+    "explanation": "In Snap, players take turns revealing cards. When two consecutive cards match, the first player to shout 'Snap!' and slap the pile wins all the cards in the."
   },
   {
     "question": "Which video game features 'The Fade' as an otherworldly dimension?",
@@ -4155,7 +4155,7 @@
       "The Witcher",
       "Divinity: Original Sin"
     ],
-    "explanation": "The Fade is a spirit realm in the Dragon Age universe by BioWare. It is a place where demons exist and where mages must venture. It is connected to the real world through the Veil."
+    "explanation": "The Fade is a spirit realm in the Dragon Age universe by BioWare. It is a place where demons exist and where mages must venture."
   },
   {
     "question": "What game requires players to keep a 'poker face'?",
@@ -4166,18 +4166,18 @@
       "Poker",
       "Diplomacy"
     ],
-    "explanation": "Keeping a 'poker face' means maintaining a neutral expression to prevent opponents from reading your cards. The expression originated in the game of poker."
+    "explanation": "Keeping a 'poker face' means maintaining a neutral expression to prevent opponents from reading your cards."
   },
   {
-    "question": "Which game series features 'Pichu' as a baby Pok\u00e9mon?",
-    "answer": "Pok\u00e9mon",
+    "question": "Which game series features 'Pichu' as a baby Pokémon?",
+    "answer": "Pokémon",
     "choices": [
       "Digimon",
-      "Pok\u00e9mon",
+      "Pokémon",
       "Yokai Watch",
       "Monster Rancher"
     ],
-    "explanation": "Pichu is a baby Pok\u00e9mon in the Pok\u00e9mon series. It is the pre-evolution of Pikachu, which in turn evolves into Raichu. Pichu was introduced in Pok\u00e9mon Gold and Silver (Generation 2)."
+    "explanation": "Pichu is a baby Pokémon in the Pokémon series. It is the pre-evolution of Pikachu, which in turn evolves into Raichu."
   },
   {
     "question": "In Minecraft, what is the final boss?",
@@ -4188,7 +4188,7 @@
       "Elder Guardian",
       "Giant"
     ],
-    "explanation": "The Ender Dragon is Minecraft's final boss, found in The End dimension. Defeating it opens the exit portal to see the game's credits. The Wither is an optional summoned boss."
+    "explanation": "The Ender Dragon is Minecraft's final boss, found in The End dimension."
   },
   {
     "question": "Which dice game involves rolling five dice and scoring combinations?",
@@ -4199,7 +4199,7 @@
       "Bunco",
       "Craps"
     ],
-    "explanation": "Yahtzee is a dice game where players roll five dice up to three times per turn, trying to score combinations like three of a kind, full house, or a yahtzee (five of a kind)."
+    "explanation": "Yahtzee is a dice game where players roll five dice up to three times per turn."
   },
   {
     "question": "What is the name of the virtual pet game by Tamagotchi?",
@@ -4232,7 +4232,7 @@
       "19x19",
       "21x21"
     ],
-    "explanation": "A standard Go board is 19\u00d719, creating 361 intersections where stones can be placed. Smaller 9\u00d79 and 13\u00d713 boards are used for beginners and shorter games."
+    "explanation": "A standard Go board is 19×19, creating 361 intersections where stones can be placed."
   },
   {
     "question": "What popular game requires players to herd animals and manage a farm?",
@@ -4243,7 +4243,7 @@
       "Stardew Valley",
       "Ranch Simulator"
     ],
-    "explanation": "Harvest Moon (now Story of Seasons after a publisher split) is a farming simulation/role-playing game series by Marvelous where players manage crops, livestock, and relationships."
+    "explanation": "Harvest Moon (now Story of Seasons after a publisher split) is a farming simulation/role-playing game series by Marvelous where players manage crops."
   },
   {
     "question": "Which game features 'The Illusive Man' as an antagonist?",
@@ -4254,7 +4254,7 @@
       "Mass Effect 3",
       "Andromeda"
     ],
-    "explanation": "The Illusive Man (Jack Harper) is the main antagonist of Mass Effect 2, the leader of Cerberus. He is voiced by Martin Sheen and is a morally ambiguous character."
+    "explanation": "The Illusive Man (Jack Harper) is the main antagonist of Mass Effect 2, the leader of Cerberus."
   },
   {
     "question": "In the game 'Life is Strange,' what ability does Max Caulfield have?",
@@ -4265,7 +4265,7 @@
       "Rewind time",
       "Teleportation"
     ],
-    "explanation": "Max Caulfield in Life is Strange (2015) by Dontnod Entertainment can rewind time. This ability lets her undo decisions and solve puzzles, but has consequences for the timeline."
+    "explanation": "Max Caulfield in Life is Strange (2015) by Dontnod Entertainment can rewind time."
   },
   {
     "question": "What is the goal in the game 'Pac-Man Championship Edition'?",
@@ -4276,7 +4276,7 @@
       "Eat all the ghosts",
       "Survive without dying"
     ],
-    "explanation": "Pac-Man Championship Edition (2007) is an updated version where players score as many points as possible within a time limit on dynamic mazes that change as you play."
+    "explanation": "Pac-Man Championship Edition (2007) is an updated version where players score as many points as possible within a time limit on dynamic mazes that change as."
   },
   {
     "question": "Which game features the 'Breach' charging mechanic?",
@@ -4287,7 +4287,7 @@
       "PUBG",
       "CS:GO"
     ],
-    "explanation": "Breach is an agent in Valorant whose abilities involve sending seismic charges through walls and terrain. His ultimate, Rolling Thunder, is a powerful earthquake that staggers enemies."
+    "explanation": "Breach is an agent in Valorant whose abilities involve sending seismic charges through walls and terrain."
   },
   {
     "question": "In the game Tetris, what is a 'T-spin'?",
@@ -4298,7 +4298,7 @@
       "Rotating a T-piece into a tight space",
       "Clearing four rows at once"
     ],
-    "explanation": "A T-spin is an advanced Tetris technique where a T-shaped piece is rotated into a position that would normally be inaccessible. T-spins clear lines and award bonus points."
+    "explanation": "A T-spin is an advanced Tetris technique where a T-shaped piece is rotated into a position that would normally be inaccessible."
   },
   {
     "question": "Which video game franchise has Mario and Donkey Kong feuding?",
@@ -4309,7 +4309,7 @@
       "Mario vs. Donkey Kong",
       "Smash Bros."
     ],
-    "explanation": "The original Donkey Kong (1981) arcade game established the rivalry between Mario (then called Jumpman) and Donkey Kong. It was Shigeru Miyamoto's first game."
+    "explanation": "The original Donkey Kong (1981) arcade game established the rivalry between Mario (then called Jumpman) and Donkey Kong."
   },
   {
     "question": "What is 'permadeath' in gaming?",
@@ -4320,7 +4320,7 @@
       "A death cinematic sequence",
       "Dying causes the game to restart"
     ],
-    "explanation": "Permadeath means that when a player character dies, they cannot be revived \u2014 the playthrough ends. Many roguelikes and survival games feature this mechanic."
+    "explanation": "Permadeath means that when a player character dies, they cannot be revived — the playthrough ends."
   },
   {
     "question": "Which game features a character who can morph between three animal forms?",
@@ -4331,7 +4331,7 @@
       "Darksiders III",
       "Ori and the Blind Forest"
     ],
-    "explanation": "Okami features Amaterasu, the Japanese sun goddess in wolf form. She uses a 'Celestial Brush' to paint on the environment. The word 'Okami' means both 'wolf' and 'great god' in Japanese."
+    "explanation": "Okami features Amaterasu, the Japanese sun goddess in wolf form. She uses a 'Celestial Brush' to paint on the environment."
   },
   {
     "question": "In the game Portal, what does the portal gun do?",
@@ -4342,7 +4342,7 @@
       "Opens a window to another dimension",
       "Fires gravity-defying projectiles"
     ],
-    "explanation": "The Aperture Science Handheld Portal Device (portal gun) in Portal creates two linked portals \u2014 one orange and one blue. Objects and the player can travel through either portal and exit from the other."
+    "explanation": "The Aperture Science Handheld Portal Device (portal gun) in Portal creates two linked portals — one orange and one blue."
   },
   {
     "question": "Which board game involves buying and selling properties in London?",
@@ -4353,7 +4353,7 @@
       "Monopoly (UK version)",
       "The London Game"
     ],
-    "explanation": "The UK version of Monopoly is set in London, featuring streets like Mayfair (equivalent to Boardwalk) and Park Lane. The original Monopoly (1935) uses Atlantic City, New Jersey streets."
+    "explanation": "The UK version of Monopoly is set in London, featuring streets like Mayfair (equivalent to Boardwalk) and Park Lane."
   },
   {
     "question": "What is the name of the legendary sword in Skyrim?",
@@ -4364,7 +4364,7 @@
       "Windshear",
       "Dragonbane"
     ],
-    "explanation": "Mehrunes' Razor is a legendary Daedric artifact dagger in Skyrim and other Elder Scrolls games. The Master Sword equivalent in Skyrim would be 'Dragonbane' \u2014 designed to fight dragons."
+    "explanation": "Mehrunes' Razor is a legendary Daedric artifact dagger in Skyrim and other Elder Scrolls games."
   },
   {
     "question": "In the game Stardew Valley, what is Pelican Town's community center?",
@@ -4375,7 +4375,7 @@
       "A building restored through collecting items for the Junimos",
       "The local museum"
     ],
-    "explanation": "The Community Center in Stardew Valley is a decrepit building that players can restore by collecting and donating bundles of items to the mysterious Junimos (forest spirits)."
+    "explanation": "The Community Center in Stardew Valley is a decrepit building that players can restore by collecting."
   },
   {
     "question": "Which video game series features 'Project Lazarus'?",
@@ -4386,7 +4386,7 @@
       "Cyberpunk 2077",
       "Prey"
     ],
-    "explanation": "Project Lazarus is the program that resurrects Commander Shepard at the beginning of Mass Effect 2. The Illusive Man funds the secret Cerberus project to bring back humanity's greatest hero."
+    "explanation": "Project Lazarus is the program that resurrects Commander Shepard at the beginning of Mass Effect 2."
   },
   {
     "question": "In the game Kerbal Space Program, what is the goal?",
@@ -4397,7 +4397,7 @@
       "Race other astronauts",
       "Repair a broken space station"
     ],
-    "explanation": "Kerbal Space Program is a space flight simulator where players design, build, and launch rockets and spacecraft with quirky alien Kerbal astronauts, with realistic orbital mechanics."
+    "explanation": "Kerbal Space Program is a space flight simulator where players design, build."
   },
   {
     "question": "Which puzzle game requires matching falling colored bubbles?",
@@ -4408,10 +4408,10 @@
       "Peggle",
       "Bejeweled"
     ],
-    "explanation": "Bust-a-Move (Puzzle Bobble) by Taito is a puzzle game where players shoot colored bubbles at a ceiling of bubbles, clearing groups of three or more same-colored bubbles."
+    "explanation": "Bust-a-Move (Puzzle Bobble) by Taito is a puzzle game where players shoot colored bubbles at a ceiling of bubbles."
   },
   {
-    "question": "What is the name of Pok\u00e9mon's main professor in the original games?",
+    "question": "What is the name of Pokémon's main professor in the original games?",
     "answer": "Professor Oak",
     "choices": [
       "Professor Elm",
@@ -4419,7 +4419,7 @@
       "Professor Oak",
       "Professor Rowan"
     ],
-    "explanation": "Professor Samuel Oak is the Pok\u00e9mon researcher in Pallet Town in the original Generation 1 games. He gives the player their starter Pok\u00e9mon and is the grandfather of the rival Blue."
+    "explanation": "Professor Samuel Oak is the Pokémon researcher in Pallet Town in the original Generation 1 games."
   },
   {
     "question": "Which game popularized the first-person shooter genre?",
@@ -4430,7 +4430,7 @@
       "Quake",
       "Duke Nukem 3D"
     ],
-    "explanation": "Doom (1993) by id Software is widely credited with popularizing the first-person shooter genre. Its fast-paced action, level design, and multiplayer were revolutionary."
+    "explanation": "Doom (1993) by id Software is widely credited with popularizing the first-person shooter genre."
   },
   {
     "question": "In Animal Crossing, what does K.K. Slider do?",
@@ -4441,7 +4441,7 @@
       "Runs the shop",
       "Delivers letters"
     ],
-    "explanation": "K.K. Slider (Totakeke) is a traveling musician dog in Animal Crossing who performs free concerts on Saturday nights. He has his own genre called 'K.K. music.'"
+    "explanation": "K.K. Slider (Totakeke) is a traveling musician dog in Animal Crossing who performs free concerts on Saturday nights."
   },
   {
     "question": "Which game involves stacking blocks in decreasing size?",
@@ -4452,7 +4452,7 @@
       "Blockus",
       "Blokus"
     ],
-    "explanation": "The Tower of Hanoi is a mathematical puzzle where discs of decreasing size are stacked. In Jenga, players remove blocks from a tower \u2014 opposite of stacking."
+    "explanation": "The Tower of Hanoi is a mathematical puzzle where discs of decreasing size are stacked."
   },
   {
     "question": "What is the name of the character who builds traps in Fortnite?",
@@ -4463,7 +4463,7 @@
       "None - all characters can build",
       "The Engineer"
     ],
-    "explanation": "In Fortnite's Battle Royale mode, all players can build. In the cooperative Save the World mode, the Constructor class specializes in building traps and fortifications."
+    "explanation": "In Fortnite's Battle Royale mode, all players can build. In the cooperative Save the World mode, the Constructor class specializes in building traps and."
   },
   {
     "question": "Which legendary game features the line 'The cake is a lie'?",
@@ -4485,7 +4485,7 @@
       "Stone, Coal, Food, Lumber, Metal",
       "Clay, Timber, Grain, Stone, Wool"
     ],
-    "explanation": "Catan uses five resources: Brick (clay), Lumber (wood), Grain (wheat), Ore, and Wool (sheep). Different tile types produce different resources when the associated number is rolled."
+    "explanation": "Catan uses five resources: Brick (clay), Lumber (wood), Grain (wheat), Ore, and Wool (sheep)."
   },
   {
     "question": "Which game is set in the fictional Viking world of 'Midgard'?",
@@ -4496,7 +4496,7 @@
       "Norse Chronicles",
       "Jotun"
     ],
-    "explanation": "God of War (2018) by Santa Monica Studio is set in the Norse mythological realms including Midgard (the human world). Kratos and Atreus travel between the Nine Realms."
+    "explanation": "God of War (2018) by Santa Monica Studio is set in the Norse mythological realms including Midgard (the human world)."
   },
   {
     "question": "What does 'DPS' stand for in gaming?",
@@ -4507,7 +4507,7 @@
       "Deaths Per Session",
       "Double Power Strike"
     ],
-    "explanation": "DPS stands for Damage Per Second, a metric for measuring how much damage a character/weapon can deal over time. In MMORPGs, DPS characters focus on dealing damage rather than healing or tanking."
+    "explanation": "DPS stands for Damage Per Second, a metric for measuring how much damage a character/weapon can deal over time."
   },
   {
     "question": "Which game has players escape from a time loop island?",
@@ -4518,7 +4518,7 @@
       "Twelve Minutes",
       "The Forgotten City"
     ],
-    "explanation": "Outer Wilds (2019) by Mobius Digital features a solar system stuck in a 22-minute time loop. Players explore as a rookie Hearthian astronaut trying to unravel the mystery of the Nomai."
+    "explanation": "Outer Wilds (2019) by Mobius Digital features a solar system stuck in a 22-minute time loop."
   },
   {
     "question": "In the game Minecraft, what are 'Endermen'?",
@@ -4529,7 +4529,7 @@
       "Zombie-like creatures from The End",
       "Invisible stalkers"
     ],
-    "explanation": "Endermen are tall, black, three-meter-tall mobs in Minecraft that can teleport. They become hostile when the player looks directly at them (at their face). They originate from The End dimension."
+    "explanation": "Endermen are tall, black, three-meter-tall mobs in Minecraft that can teleport."
   },
   {
     "question": "Which video game character shoots 'Hadouken' fireballs?",
@@ -4540,7 +4540,7 @@
       "Chun-Li",
       "Guile"
     ],
-    "explanation": "Ryu (and Ken) from Street Fighter can throw a Hadouken \u2014 a projectile attack executed by doing a quarter-circle motion and pressing punch. Ryu's Hadouken has become iconic in gaming."
+    "explanation": "Ryu (and Ken) from Street Fighter can throw a Hadouken — a projectile attack executed by doing a quarter-circle motion and pressing punch."
   },
   {
     "question": "What is the name of the game where players build cities?",
@@ -4551,7 +4551,7 @@
       "Tropico",
       "Banished"
     ],
-    "explanation": "Cities: Skylines by Colossal Order is a city-building game that became popular after the disappointing SimCity 2013. It features complex traffic simulation and an active modding community."
+    "explanation": "Cities: Skylines by Colossal Order is a city-building game that became popular after the disappointing SimCity 2013."
   },
   {
     "question": "Which board game involves deduction to find a murderer?",
@@ -4562,7 +4562,7 @@
       "Betrayal at House on the Hill",
       "Mysterium"
     ],
-    "explanation": "Clue (Cluedo in the UK) is a murder mystery game where players deduce who killed Mr. Boddy (Dr. Black in UK), in which room, and with what weapon through process of elimination."
+    "explanation": "Clue (Cluedo in the UK) is a murder mystery game where players deduce who killed Mr."
   },
   {
     "question": "In the game 'Cuphead,' what is the main gameplay style?",
@@ -4573,7 +4573,7 @@
       "Top-down RPG",
       "Fighting game"
     ],
-    "explanation": "Cuphead by Studio MDHR is a run and gun game heavily inspired by 1930s cartoon animation. It is known for its beautiful hand-drawn art style and challenging boss battles."
+    "explanation": "Cuphead by Studio MDHR is a run and gun game heavily inspired by 1930s cartoon animation."
   },
   {
     "question": "Which game features 'Project Chimera'?",
@@ -4595,7 +4595,7 @@
       "1,575",
       "2,000"
     ],
-    "explanation": "The theoretical maximum score in Yahtzee is 1,575 points, achieved by rolling all Yahtzees (five of a kind) with specific numbers across all rolls and maximizing the upper section."
+    "explanation": "The theoretical maximum score in Yahtzee is 1,575 points, achieved by rolling all Yahtzees (five of a kind) with specific numbers across all rolls."
   },
   {
     "question": "Which game series includes the character 'Samus Aran'?",
@@ -4606,7 +4606,7 @@
       "F-Zero",
       "Kirby"
     ],
-    "explanation": "Samus Aran is the protagonist of Nintendo's Metroid series. A famous twist in the original Metroid was the reveal that the player-controlled bounty hunter was a woman."
+    "explanation": "Samus Aran is the protagonist of Nintendo's Metroid series. A famous twist in the original Metroid was the reveal that the player-controlled bounty hunter was."
   },
   {
     "question": "In the game Spelunky, what happens when you die?",
@@ -4628,7 +4628,7 @@
       "Diner Dash",
       "Food Fantasy"
     ],
-    "explanation": "Cook, Serve, Delicious! is a realistic restaurant management simulator where players manage all aspects of food preparation. Overcooked is a more chaotic co-op cooking game."
+    "explanation": "Cook, Serve, Delicious. is a realistic restaurant management simulator where players manage all aspects of food preparation."
   },
   {
     "question": "What is the name of the main villain in 'Cuphead'?",
@@ -4639,7 +4639,7 @@
       "Dr. Kahl",
       "Chef Saltbaker"
     ],
-    "explanation": "The Devil is the final boss and main antagonist of Cuphead. He made a bet with Cuphead and Mugman that they lost, and then sends them to collect soul contracts from his debtors."
+    "explanation": "The Devil is the final boss and main antagonist of Cuphead. He made a bet with Cuphead and Mugman that they lost, and then sends them to collect soul contracts."
   },
   {
     "question": "In the game Hollow Knight, what is the player character?",
@@ -4650,7 +4650,7 @@
       "A fairy spirit",
       "A robot"
     ],
-    "explanation": "In Hollow Knight by Team Cherry, the player is 'The Knight,' a small silent bug warrior exploring the underground kingdom of Hallownest, fighting various insect-like enemies."
+    "explanation": "In Hollow Knight by Team Cherry, the player is 'The Knight,' a small silent bug warrior exploring the underground kingdom of Hallownest, fighting various."
   },
   {
     "question": "Which video game console was Sony's first?",
@@ -4661,7 +4661,7 @@
       "PSP",
       "PlayStation Portable"
     ],
-    "explanation": "The original PlayStation (PS1) was Sony's first gaming console, released in Japan in 1994 and internationally in 1995. It popularized CD-ROM-based gaming."
+    "explanation": "The original PlayStation (PS1) was Sony's first gaming console, released in Japan in 1994 and internationally in 1995."
   },
   {
     "question": "In the game 'The Sims,' what are 'Aspirations'?",
@@ -4672,7 +4672,7 @@
       "Special skills that Sims learn",
       "Social relationship stages"
     ],
-    "explanation": "Aspirations in The Sims 4 are long-term life goals for a Sim, like becoming a Bestselling Author or Successful Lineage. Completing milestones within an Aspiration rewards Satisfaction points."
+    "explanation": "Aspirations in The Sims 4 are long-term life goals for a Sim, like becoming a Bestselling Author or Successful Lineage."
   },
   {
     "question": "Which game series features the 'Blighttown' area?",
@@ -4683,7 +4683,7 @@
       "Demon's Souls",
       "Elden Ring"
     ],
-    "explanation": "Blighttown is a notoriously difficult and poorly-performing area in Dark Souls. Its toxic swamp and aggressive enemies made it infamous among players."
+    "explanation": "Blighttown is a notoriously difficult and poorly-performing area in Dark Souls."
   },
   {
     "question": "What is the name of the popular battle royale game by EA?",
@@ -4694,7 +4694,7 @@
       "Battlefield BR",
       "EA Royale"
     ],
-    "explanation": "Apex Legends by Respawn Entertainment (owned by EA) is a free-to-play battle royale hero shooter set in the Titanfall universe. It was released in 2019."
+    "explanation": "Apex Legends by Respawn Entertainment (owned by EA) is a free-to-play battle royale hero shooter set in the Titanfall universe."
   },
   {
     "question": "In the game Celeste, what is the main character's goal?",
@@ -4705,7 +4705,7 @@
       "Return home",
       "Find a lost friend"
     ],
-    "explanation": "In Celeste (2018) by Maddy Thorson and Noel Berry, the player controls Madeline as she tries to climb the mysterious Celeste Mountain. The game also deals with mental health themes."
+    "explanation": "In Celeste (2018) by Maddy Thorson and Noel Berry, the player controls Madeline as she tries to climb the mysterious Celeste Mountain."
   },
   {
     "question": "Which game features characters like 'Malthael' and 'Tyrael'?",
@@ -4716,7 +4716,7 @@
       "Heroes of the Storm",
       "Hearthstone"
     ],
-    "explanation": "Malthael (Angel of Death) and Tyrael (Archangel of Justice) are characters in the Diablo III universe. Malthael is the main villain of the Reaper of Souls expansion."
+    "explanation": "Malthael (Angel of Death) and Tyrael (Archangel of Justice) are characters in the Diablo III universe."
   },
   {
     "question": "What game features a player controlling a small ball rolling through obstacles?",
@@ -4727,7 +4727,7 @@
       "Katamari Damacy",
       "Kirby's Dream Course"
     ],
-    "explanation": "Marble Madness (1984) by Atari is an arcade game where players guide a marble through isometric obstacle courses in a limited time. It pioneered trackball controls in arcades."
+    "explanation": "Marble Madness (1984) by Atari is an arcade game where players guide a marble through isometric obstacle courses in a limited time."
   },
   {
     "question": "Which game series features 'Darksiders' protagonist named War?",
@@ -4738,7 +4738,7 @@
       "Dante's Inferno",
       "Bayonetta"
     ],
-    "explanation": "War is the protagonist of the original Darksiders (2010) by Vigil Games. He is one of the Four Horsemen of the Apocalypse, accused of starting the Apocalypse prematurely."
+    "explanation": "War is the protagonist of the original Darksiders (2010) by Vigil Games."
   },
   {
     "question": "In the game 'Among Us,' how do Impostors win?",
@@ -4749,7 +4749,7 @@
       "Equal or outnumber the crewmates",
       "Destroy all tasks"
     ],
-    "explanation": "Impostors win in Among Us when they equal or outnumber surviving crewmates, or successfully sabotage the ship (like a reactor meltdown) without crewmates fixing it in time."
+    "explanation": "Impostors win in Among Us when they equal or outnumber surviving crewmates."
   },
   {
     "question": "Which game has players protecting a 'nexus' from enemy attacks?",
@@ -4760,7 +4760,7 @@
       "Smite",
       "Heroes of the Storm"
     ],
-    "explanation": "In League of Legends, each team's goal is to destroy the opposing Nexus (the crystalline structure at the base of the enemy's fortress) while protecting their own Nexus."
+    "explanation": "In League of Legends, each team's goal is to destroy the opposing Nexus (the crystalline structure at the base of the enemy's fortress) while protecting their."
   },
   {
     "question": "What is the maximum number of cards in a standard poker hand?",
@@ -4771,7 +4771,7 @@
       "7",
       "10"
     ],
-    "explanation": "A standard poker hand consists of exactly 5 cards. In games like Texas Hold'em, players use the 5 best cards from 7 available (2 hole cards + 5 community cards)."
+    "explanation": "A standard poker hand consists of exactly 5 cards. In games like Texas Hold'em, players use the 5 best cards from 7 available (2 hole cards + 5 community."
   },
   {
     "question": "In the game 'Hollow Knight,' what is 'Geo'?",
@@ -4782,7 +4782,7 @@
       "The player character's health points",
       "A type of special ability"
     ],
-    "explanation": "Geo is the currency in Hollow Knight. Players collect Geo by defeating enemies and finding it in the world. It is used to buy items, maps, and other services."
+    "explanation": "Geo is the currency in Hollow Knight. Players collect Geo by defeating enemies and finding it in the world."
   },
   {
     "question": "Which game features 'Vault Hunters' searching for alien vaults?",
@@ -4793,7 +4793,7 @@
       "Borderlands",
       "The Division"
     ],
-    "explanation": "Borderlands by Gearbox Software is a looter-shooter set on the planet Pandora. Players are Vault Hunters seeking legendary alien Vaults. The franchise is known for its cel-shaded art."
+    "explanation": "Borderlands by Gearbox Software is a looter-shooter set on the planet Pandora."
   },
   {
     "question": "What does 'RNG' stand for in gaming?",
@@ -4804,7 +4804,7 @@
       "Ranked Normal Game",
       "Rapid Navigation Guide"
     ],
-    "explanation": "RNG stands for Random Number Generator, a system that introduces randomness into games. When players say 'bad RNG,' they mean they had bad luck with random outcomes."
+    "explanation": "RNG stands for Random Number Generator, a system that introduces randomness into games."
   },
   {
     "question": "Which game features a detective named Sam in a neo-noir setting?",
@@ -4826,7 +4826,7 @@
       "Checkpoint Rewind",
       "Practice Room"
     ],
-    "explanation": "Celeste features an Assist Mode that allows players to slow game speed, gain infinite dashes, skip chapters, or enable invincibility \u2014 making the game more accessible without removing the full experience."
+    "explanation": "Celeste features an Assist Mode that allows players to slow game speed."
   },
   {
     "question": "Which game series features the protagonist 'Nier' and robots?",
@@ -4848,10 +4848,10 @@
       "Purple Pikmin",
       "Dark Pikmin"
     ],
-    "explanation": "Purple Pikmin in the Pikmin series are the strongest and heaviest Pikmin. They carry 10 times the weight of other Pikmin and deliver 10 times the attack power."
+    "explanation": "Purple Pikmin in the Pikmin series are the strongest and heaviest Pikmin."
   },
   {
-    "question": "In Pok\u00e9mon, which type is strong against Water?",
+    "question": "In Pokémon, which type is strong against Water?",
     "answer": "Electric",
     "choices": [
       "Fire",
@@ -4859,7 +4859,7 @@
       "Ground",
       "Grass"
     ],
-    "explanation": "Electric-type moves are super effective against Water-type Pok\u00e9mon. Grass is also super effective against Water. Ground-type Pok\u00e9mon are immune to Electric moves."
+    "explanation": "Electric-type moves are super effective against Water-type Pokémon. Grass is also super effective against Water."
   },
   {
     "question": "Which game features the character 'Shovel Knight'?",
@@ -4870,7 +4870,7 @@
       "Cave Story",
       "Spelunky"
     ],
-    "explanation": "Shovel Knight is the protagonist of Shovel Knight (2014) by Yacht Club Games, a side-scrolling platformer inspired by NES classics like Mega Man and Castlevania."
+    "explanation": "Shovel Knight is the protagonist of Shovel Knight (2014) by Yacht Club Games."
   },
   {
     "question": "In the game 'Papers Please,' what do you play as?",
@@ -4881,7 +4881,7 @@
       "A journalist exposing corruption",
       "A soldier on the border"
     ],
-    "explanation": "Papers, Please (2013) by Lucas Pope puts players in the role of an immigration officer in the fictional country of Arstotzka, tasked with checking travelers' documents."
+    "explanation": "Papers, Please (2013) by Lucas Pope puts players in the role of an immigration officer in the fictional country of Arstotzka, tasked with checking travelers'."
   },
   {
     "question": "Which game features playing as a detective in 1940s Los Angeles?",
@@ -4892,7 +4892,7 @@
       "Chinatown Detective Agency",
       "The Sinking City"
     ],
-    "explanation": "L.A. Noire (2011) by Team Bondi/Rockstar is set in 1940s Los Angeles. Players control detective Cole Phelps, investigating crimes across multiple city departments."
+    "explanation": "L.A. Noire (2011) by Team Bondi/Rockstar is set in 1940s Los Angeles. Players control detective Cole Phelps, investigating crimes across multiple city."
   },
   {
     "question": "What is the object of the game 'Mancala'?",
@@ -4903,7 +4903,7 @@
       "Fill your store with all the stones",
       "Make a complete circle with your stones"
     ],
-    "explanation": "Mancala is one of the oldest strategy games. In most versions, players take stones from pits on their side and distribute them. The goal is to capture more stones (48+ of 96) than the opponent."
+    "explanation": "Mancala is one of the oldest strategy games. In most versions, players take stones from pits on their side and distribute them."
   },
   {
     "question": "In the game Rocket League, what sport do players essentially play?",
@@ -4914,7 +4914,7 @@
       "Hockey with vehicles",
       "Football with hovercraft"
     ],
-    "explanation": "Rocket League by Psyonix is a vehicular soccer game where rocket-powered cars play soccer. Players score goals by hitting a ball into the opponent's net with their cars."
+    "explanation": "Rocket League by Psyonix is a vehicular soccer game where rocket-powered cars play soccer."
   },
   {
     "question": "Which game series features the 'Telvanni' wizard towers?",
@@ -4936,7 +4936,7 @@
       "Kirby",
       "Metroid"
     ],
-    "explanation": "Bullet Bills are cylindrical enemies in the Mario franchise that are shot from Bullet Bill Launchers. They fly horizontally and appear in many Mario games."
+    "explanation": "Bullet Bills are cylindrical enemies in the Mario franchise that are shot from Bullet Bill Launchers."
   },
   {
     "question": "In the game Final Fantasy, what are 'Moogles'?",
@@ -4947,7 +4947,7 @@
       "Giant dogs",
       "Robotic assistants"
     ],
-    "explanation": "Moogles are recurring creatures in the Final Fantasy series, known for saying 'Kupo!' They are furry creatures with a distinctive red pompom on their heads and appear across many games."
+    "explanation": "Moogles are recurring creatures in the Final Fantasy series, known for saying 'Kupo!' They are furry creatures with a distinctive red pompom on their heads."
   },
   {
     "question": "Which game features the 'N7' special operations designation?",
@@ -4958,7 +4958,7 @@
       "Andromeda",
       "Dead Space"
     ],
-    "explanation": "N7 is the highest level of Systems Alliance military distinction in the Mass Effect universe. Commander Shepard holds N7 status, and the designation appears on their armor."
+    "explanation": "N7 is the highest level of Systems Alliance military distinction in the Mass Effect universe."
   },
   {
     "question": "In the game 'Gloomhaven,' what type of game is it?",
@@ -4969,7 +4969,7 @@
       "A worker placement game",
       "A city-building board game"
     ],
-    "explanation": "Gloomhaven is a cooperative dungeon-crawling legacy board game where players explore a world through scenarios. It is one of the highest-rated board games of all time."
+    "explanation": "Gloomhaven is a cooperative dungeon-crawling legacy board game where players explore a world through scenarios."
   },
   {
     "question": "Which classic video game involves a gorilla throwing barrels?",
@@ -4980,7 +4980,7 @@
       "Jungle Hunt",
       "King Kong"
     ],
-    "explanation": "Donkey Kong (1981) by Nintendo features a large gorilla throwing barrels at Jumpman (later renamed Mario). It was Shigeru Miyamoto's breakthrough game and Nintendo's first major hit."
+    "explanation": "Donkey Kong (1981) by Nintendo features a large gorilla throwing barrels at Jumpman (later renamed Mario)."
   },
   {
     "question": "What is the name of Sega's hedgehog mascot?",
@@ -4991,7 +4991,7 @@
       "Sonic",
       "Blaze"
     ],
-    "explanation": "Sonic the Hedgehog is Sega's iconic mascot, created in 1991 by Yuji Naka and Naoto Ohshima. The blue hedgehog is known for his speed and adventurous attitude."
+    "explanation": "Sonic the Hedgehog is Sega's iconic mascot, created in 1991 by Yuji Naka and Naoto Ohshima."
   },
   {
     "question": "In the card game 'Solitaire,' what is the goal?",
@@ -5013,7 +5013,7 @@
       "The Division",
       "Warframe"
     ],
-    "explanation": "Borderlands (2009) by Gearbox Software popularized the looter-shooter genre \u2014 combining first-person shooter gameplay with role-playing loot systems to generate randomized weapons."
+    "explanation": "Borderlands (2009) by Gearbox Software popularized the looter-shooter genre."
   },
   {
     "question": "What is the name of the rabbit character in Donnie Darko?",
@@ -5024,7 +5024,7 @@
       "Bugs",
       "Jack"
     ],
-    "explanation": "Frank is the rabbit-costumed character in the 2001 film Donnie Darko who appears to Donnie in visions. This is a film reference that appears in various games as Easter eggs."
+    "explanation": "Frank is the rabbit-costumed character in the 2001 film Donnie Darko who appears to Donnie in visions."
   },
   {
     "question": "In the game 'Undertale,' what does 'pacifist route' mean?",
@@ -5035,7 +5035,7 @@
       "Choosing dialogue options only",
       "Playing as a passive character"
     ],
-    "explanation": "Undertale (2015) by Toby Fox features a True Pacifist Route where players spare every enemy through ACTs instead of fighting. This is considered the 'true' ending of the game."
+    "explanation": "Undertale (2015) by Toby Fox features a True Pacifist Route where players spare every enemy through ACTs instead of fighting."
   },
   {
     "question": "Which game series features 'Inklings' who can turn into squid?",
@@ -5046,7 +5046,7 @@
       "Xenoblade",
       "Arms"
     ],
-    "explanation": "Inklings are the player characters in Nintendo's Splatoon series. They can transform between human and squid forms. In squid form, they can swim through their team's ink quickly."
+    "explanation": "Inklings are the player characters in Nintendo's Splatoon series. They can transform between human and squid forms."
   },
   {
     "question": "What is the name of Shigeru Miyamoto's most famous creation?",
@@ -5057,7 +5057,7 @@
       "Link",
       "Samus"
     ],
-    "explanation": "Shigeru Miyamoto is the legendary Nintendo game designer who created Mario (Donkey Kong/Mario Bros.), The Legend of Zelda, Star Fox, Pikmin, and many other iconic franchises."
+    "explanation": "Shigeru Miyamoto is the legendary Nintendo game designer who created Mario (Donkey Kong/Mario Bros.)."
   },
   {
     "question": "In the game 'Hades,' who is the protagonist?",
@@ -5068,7 +5068,7 @@
       "Achilles",
       "Orpheus"
     ],
-    "explanation": "Zagreus is the son of Hades and the protagonist of Hades (2020) by Supergiant Games. He repeatedly attempts to escape the Underworld, encountering Greek mythological figures."
+    "explanation": "Zagreus is the son of Hades and the protagonist of Hades (2020) by Supergiant Games."
   },
   {
     "question": "Which classic arcade game involves eating dots while avoiding ghosts?",
@@ -5079,7 +5079,7 @@
       "Centipede",
       "Asteroids"
     ],
-    "explanation": "Pac-Man (1980) by Namco is one of the most iconic arcade games. The yellow Pac-Man eats dots and power pellets while being chased by four ghosts: Blinky, Pinky, Inky, and Clyde."
+    "explanation": "Pac-Man (1980) by Namco is one of the most iconic arcade games. The yellow Pac-Man eats dots and power pellets while being chased by four ghosts: Blinky."
   },
   {
     "question": "What type of game is 'The Sims'?",
@@ -5090,7 +5090,7 @@
       "Farming simulator",
       "Social RPG"
     ],
-    "explanation": "The Sims is a life simulation game where players create and control virtual people (Sims) through various life stages. Created by Will Wright, it was first published by Maxis/EA in 2000."
+    "explanation": "The Sims is a life simulation game where players create and control virtual people (Sims) through various life stages."
   },
   {
     "question": "In the game 'Fortnite,' what is a 'Victory Royale'?",
@@ -5101,7 +5101,7 @@
       "Getting the most eliminations",
       "Surviving all storm phases"
     ],
-    "explanation": "Victory Royale is the message displayed in Fortnite when a player or team is the last one standing. It is the ultimate goal in each match of Fortnite Battle Royale."
+    "explanation": "Victory Royale is the message displayed in Fortnite when a player or team is the last one standing."
   },
   {
     "question": "Which game allows players to create their own levels and share them?",
@@ -5112,7 +5112,7 @@
       "Dreams",
       "Roblox"
     ],
-    "explanation": "Super Mario Maker (2015) and its sequel Super Mario Maker 2 (2019) allow players to create, play, and share Super Mario levels using assets from various Super Mario games."
+    "explanation": "Super Mario Maker (2015) and its sequel Super Mario Maker 2 (2019) allow players to create."
   },
   {
     "question": "What is the name of the dragon you ride in Skyrim?",
@@ -5123,7 +5123,7 @@
       "Durnehviir",
       "Paarthurnax"
     ],
-    "explanation": "Odahviing (Snow Wing Hunter) is a red dragon in Skyrim that the Dragonborn captures and tames. After defeating Alduin, Odahviing can be called as a mount using the Bend Will shout."
+    "explanation": "Odahviing (Snow Wing Hunter) is a red dragon in Skyrim that the Dragonborn captures and tames."
   },
   {
     "question": "In what game series do players collect and battle creatures called 'Yokai'?",
@@ -5134,7 +5134,7 @@
       "Monster Rancher",
       "Fossil Fighters"
     ],
-    "explanation": "Yo-kai Watch is a franchise by Level-5 where players befriend and battle Yo-kai (supernatural creatures from Japanese folklore). It was a massive hit in Japan."
+    "explanation": "Yo-kai Watch is a franchise by Level-5 where players befriend and battle Yo-kai (supernatural creatures from Japanese folklore)."
   },
   {
     "question": "Which game features the post-apocalyptic wasteland of 'The Commonwealth'?",
@@ -5145,7 +5145,7 @@
       "Fallout 4",
       "Fallout 76"
     ],
-    "explanation": "The Commonwealth (post-apocalyptic Boston/Massachusetts) is the setting of Fallout 4 (2015) by Bethesda. The Institute and the Railroad are factions battling over synths (synthetic humans)."
+    "explanation": "The Commonwealth (post-apocalyptic Boston/Massachusetts) is the setting of Fallout 4 (2015) by Bethesda."
   },
   {
     "question": "What does 'HP' stand for in most role-playing games?",
@@ -5156,7 +5156,7 @@
       "Health Percentage",
       "Heavy Punch"
     ],
-    "explanation": "HP stands for Hit Points (or Health Points), a numerical value representing how much damage a character can take before dying. When HP reaches zero, the character is defeated."
+    "explanation": "HP stands for Hit Points (or Health Points), a numerical value representing how much damage a character can take before dying."
   },
   {
     "question": "In the game Tetris, which piece is called the 'I-piece'?",
@@ -5167,7 +5167,7 @@
       "The straight 4-block piece",
       "The square piece"
     ],
-    "explanation": "The I-piece in Tetris is the straight line of 4 blocks. It is the only piece that can complete a 'Tetris' (clearing four lines at once) by fitting into a narrow gap."
+    "explanation": "The I-piece in Tetris is the straight line of 4 blocks. It is the only piece that can complete a 'Tetris' (clearing four lines at once) by fitting into a."
   },
   {
     "question": "Which game features a protagonist who uses a hookshot for traversal?",
@@ -5178,7 +5178,7 @@
       "The Legend of Zelda",
       "Just Cause"
     ],
-    "explanation": "The Hookshot is a classic item in The Legend of Zelda series, allowing Link to grab distant targets and pull himself toward them. It has appeared in many Zelda games."
+    "explanation": "The Hookshot is a classic item in The Legend of Zelda series, allowing Link to grab distant targets and pull himself toward them."
   },
   {
     "question": "In the game 'Fall Guys,' what is the gameplay format?",
@@ -5189,7 +5189,7 @@
       "Team-based capture the flag",
       "Racing game with obstacles"
     ],
-    "explanation": "Fall Guys (2020) by Mediatonic is a battle royale party game where up to 60 players (jelly bean-like characters) compete in random mini-games and obstacle courses."
+    "explanation": "Fall Guys (2020) by Mediatonic is a battle royale party game where up to 60 players (jelly bean-like characters) compete in random mini-games."
   },
   {
     "question": "Which classic board game has a 'Colonel Mustard' character?",
@@ -5200,7 +5200,7 @@
       "Monopoly",
       "Battleship"
     ],
-    "explanation": "Colonel Mustard is one of the six murder suspects in Clue (Cluedo). The other original suspects are Miss Scarlett, Professor Plum, Mrs. Peacock, Reverend Green, and Dr. Orchid (replacing Mrs. White)."
+    "explanation": "Colonel Mustard is one of the six murder suspects in Clue (Cluedo). The other original suspects are Miss Scarlett, Professor Plum, Mrs."
   },
   {
     "question": "In the game Diablo II, what is the final act?",
@@ -5211,7 +5211,7 @@
       "Act III",
       "Act VI"
     ],
-    "explanation": "Diablo II: Lord of Destruction added Act V, the expansion's content. The base game had four acts. The final boss of Act V (and the expansion) is Baal, Lord of Destruction."
+    "explanation": "Diablo II: Lord of Destruction added Act V, the expansion's content. The base game had four acts."
   },
   {
     "question": "Which game involves managing resources to colonize Mars?",
@@ -5233,7 +5233,7 @@
       "Deserted Island",
       "Paradise Isle"
     ],
-    "explanation": "In Animal Crossing: New Horizons, players choose the name of their island when setting it up for the first time. Tom Nook facilitates the player's new life on the deserted island."
+    "explanation": "In Animal Crossing: New Horizons, players choose the name of their island when setting it up for the first time."
   },
   {
     "question": "Which company developed the first commercially successful game console?",
@@ -5277,7 +5277,7 @@
       "Devil May Cry",
       "Dante's Inferno"
     ],
-    "explanation": "Kratos is the main protagonist of Sony's God of War franchise."
+    "explanation": "Kratos is the main character of Sony's God of War franchise. He began in Greek mythology and later shifted into the Norse era."
   },
   {
     "question": "What console introduced the rumble pack peripheral?",
@@ -5299,7 +5299,7 @@
       "CD Projekt Red",
       "Bethesda"
     ],
-    "explanation": "Red Dead Redemption and its sequel were developed by Rockstar Games."
+    "explanation": "Rockstar Games developed the Red Dead Redemption series. The open-world western became one of the studio's best-known franchises."
   },
   {
     "question": "In Pokemon, what type is Charmander?",
@@ -5310,7 +5310,7 @@
       "Grass",
       "Electric"
     ],
-    "explanation": "Charmander is a Fire-type Pok\u00e9mon, one of the three starter Pok\u00e9mon in the original games."
+    "explanation": "Charmander is a Fire-type Pokémon, one of the three starter Pokémon in the original games."
   },
   {
     "question": "What is the highest-selling gaming console of all time?",
@@ -5358,14 +5358,14 @@
   },
   {
     "question": "What is the name of the main character in the Assassin's Creed series who is the original ancestor?",
-    "answer": "Alta\u00efr Ibn-La'Ahad",
+    "answer": "Altaïr Ibn-La'Ahad",
     "choices": [
-      "Alta\u00efr Ibn-La'Ahad",
+      "Altaïr Ibn-La'Ahad",
       "Ezio Auditore",
       "Desmond Miles",
       "Connor Kenway"
     ],
-    "explanation": "Alta\u00efr Ibn-La'Ahad from Assassin's Creed (2007) was the first main protagonist in the franchise."
+    "explanation": "Altaïr Ibn-La'Ahad from Assassin's Creed (2007) was the first main protagonist in the franchise."
   },
   {
     "question": "Which game series features the character Solid Snake?",
@@ -5379,15 +5379,15 @@
     "explanation": "Solid Snake is the main protagonist of Hideo Kojima's Metal Gear franchise."
   },
   {
-    "question": "What was the first Pok\u00e9mon game released?",
-    "answer": "Pok\u00e9mon Red and Blue",
+    "question": "What was the first Pokémon game released?",
+    "answer": "Pokémon Red and Blue",
     "choices": [
-      "Pok\u00e9mon Red and Blue",
-      "Pok\u00e9mon Yellow",
-      "Pok\u00e9mon Gold and Silver",
-      "Pok\u00e9mon Snap"
+      "Pokémon Red and Blue",
+      "Pokémon Yellow",
+      "Pokémon Gold and Silver",
+      "Pokémon Snap"
     ],
-    "explanation": "Pok\u00e9mon Red and Blue (Green in Japan) were the first Pok\u00e9mon games, released in Japan in 1996."
+    "explanation": "Pokémon Red and Blue (Green in Japan) were the first Pokémon games, released in Japan in 1996."
   },
   {
     "question": "What genre is Dark Souls?",
@@ -5431,7 +5431,7 @@
       "Bethesda",
       "Obsidian"
     ],
-    "explanation": "The Witcher series was developed by Polish studio CD Projekt Red."
+    "explanation": "CD Projekt Red, a Polish studio, developed The Witcher series. Its games helped turn Andrzej Sapkowski's books into a major RPG franchise."
   },
   {
     "question": "What year was Fortnite released?",
@@ -5618,7 +5618,7 @@
       "Distinguished Master Guardian",
       "Legendary Eagle Master"
     ],
-    "explanation": "Global Elite is the highest competitive rank achievable in CS:GO."
+    "explanation": "Global Elite is the highest competitive rank in Counter-Strike: Global Offensive. It marks the top tier of matchmaking play."
   },
   {
     "question": "Which game features a character called the Dragonborn?",
@@ -5750,7 +5750,7 @@
       "99",
       "100"
     ],
-    "explanation": "In the original Diablo (1996), the maximum character level is 50."
+    "explanation": "The original Diablo capped character progression at level 50. That limit fit the game's early action-RPG design."
   },
   {
     "question": "Which game developer made Celeste?",
@@ -5948,7 +5948,7 @@
       "Silent Hill 2",
       "Dead Space"
     ],
-    "explanation": "The unnamed Merchant in Resident Evil 4 greets Leon with the iconic phrase 'What are ya buyin'?'"
+    "explanation": "The unnamed Merchant in Resident Evil 4 greets Leon with the iconic phrase 'What are ya buyin'?'."
   },
   {
     "question": "What controller introduced analog sticks to mainstream gaming?",
@@ -6193,7 +6193,7 @@
     "explanation": "Fallout 4 (2015) is set in the post-apocalyptic Commonwealth, based on the Boston area."
   },
   {
-    "question": "What is the name of the Pok\u00e9mon associated with the number 25?",
+    "question": "What is the name of the Pokémon associated with the number 25?",
     "answer": "Pikachu",
     "choices": [
       "Pikachu",
@@ -6201,7 +6201,7 @@
       "Clefairy",
       "Jigglypuff"
     ],
-    "explanation": "Pikachu is Pok\u00e9mon #025 in the National Pok\u00e9dex and the franchise's most iconic character."
+    "explanation": "Pikachu is Pokémon #025 in the National Pokédex and the franchise's most iconic character."
   },
   {
     "question": "Which game is set on the planet Reach in its prequel story?",
@@ -6520,7 +6520,7 @@
       "Dragon Quest",
       "Ultima"
     ],
-    "explanation": "The famous quote 'It's dangerous to go alone! Take this.' is from the original Legend of Zelda (1986)."
+    "explanation": "The famous quote 'It's dangerous to go alone. Take this.' is from the original Legend of Zelda (1986)."
   },
   {
     "question": "What is the name of the protagonist in the Dark Souls series?",
@@ -6597,7 +6597,7 @@
       "1994",
       "1995"
     ],
-    "explanation": "Sony released the original PlayStation in Japan on December 3, 1994."
+    "explanation": "Sony released the original PlayStation in Japan on December 3, 1994. The console later launched worldwide and reshaped the home gaming market."
   },
   {
     "question": "What is the main objective in a game of chess?",
@@ -6644,7 +6644,7 @@
     "explanation": "Monopoly is a classic real-estate board game where players buy properties, build houses and hotels, and charge rent to bankrupt opponents."
   },
   {
-    "question": "In Pok\u00e9mon, what is the first Pok\u00e9mon in the National Pok\u00e9dex?",
+    "question": "In Pokémon, what is the first Pokémon in the National Pokédex?",
     "answer": "Bulbasaur",
     "choices": [
       "Bulbasaur",
@@ -6652,7 +6652,7 @@
       "Squirtle",
       "Caterpie"
     ],
-    "explanation": "Bulbasaur is #001 in the National Pok\u00e9dex, making it the first Pok\u00e9mon listed."
+    "explanation": "Bulbasaur is #001 in the National Pokédex, making it the first Pokémon listed."
   },
   {
     "question": "Which game series is set in the 'Mushroom Kingdom'?",
@@ -6685,7 +6685,7 @@
       "Reversi",
       "Shogi"
     ],
-    "explanation": "Go is an ancient board game originating in China, played on a 19\u00d719 grid with black and white stones."
+    "explanation": "Go is an ancient board game originating in China, played on a 19×19 grid with black and white stones."
   },
   {
     "question": "In which game series does the protagonist use a hookshot or grappling hook to traverse environments?",
@@ -6766,14 +6766,14 @@
   },
   {
     "question": "What is the highest-grossing video game franchise of all time?",
-    "answer": "Pok\u00e9mon",
+    "answer": "Pokémon",
     "choices": [
-      "Pok\u00e9mon",
+      "Pokémon",
       "Mario",
       "Call of Duty",
       "Grand Theft Auto"
     ],
-    "explanation": "The Pok\u00e9mon franchise, including games, merchandise, and the trading card game, is the highest-grossing media franchise ever."
+    "explanation": "The Pokémon franchise, including games, merchandise, and the trading card game, is the highest-grossing media franchise ever."
   },
   {
     "question": "In what game do players build and survive in a world made of blocks?",
@@ -6864,15 +6864,15 @@
     "explanation": "PUBG popularized the battle royale genre when it launched in 2017, placing 100 players on a shrinking island."
   },
   {
-    "question": "Which Pok\u00e9mon game introduced the concept of breeding?",
-    "answer": "Pok\u00e9mon Gold and Silver",
+    "question": "Which Pokémon game introduced the concept of breeding?",
+    "answer": "Pokémon Gold and Silver",
     "choices": [
-      "Pok\u00e9mon Gold and Silver",
-      "Pok\u00e9mon Red and Blue",
-      "Pok\u00e9mon Ruby and Sapphire",
-      "Pok\u00e9mon X and Y"
+      "Pokémon Gold and Silver",
+      "Pokémon Red and Blue",
+      "Pokémon Ruby and Sapphire",
+      "Pokémon X and Y"
     ],
-    "explanation": "Pok\u00e9mon Gold and Silver (1999) introduced the Day Care breeding mechanic, allowing players to hatch Pok\u00e9mon from eggs."
+    "explanation": "Pokémon Gold and Silver (1999) introduced the Day Care breeding mechanic, allowing players to hatch Pokémon from eggs."
   },
   {
     "question": "What is the name of the main antagonist in the Portal series?",
@@ -6979,7 +6979,7 @@
     "choices": [
       "Diamond Dogs",
       "Foxhound",
-      "Militaires Sans Fronti\u00e8res",
+      "Militaires Sans Frontières",
       "Cipher"
     ],
     "explanation": "Diamond Dogs is the private military company founded by Snake (Big Boss) in Metal Gear Solid V: The Phantom Pain."
@@ -7286,7 +7286,7 @@
     "answer": "Digimon",
     "choices": [
       "Digimon",
-      "Pok\u00e9mon",
+      "Pokémon",
       "Monster Hunter",
       "Dragon Quest Monsters"
     ],
@@ -7484,7 +7484,7 @@
     "answer": "Magic: The Gathering",
     "choices": [
       "Magic: The Gathering",
-      "Pok\u00e9mon TCG",
+      "Pokémon TCG",
       "Yu-Gi-Oh!",
       "Hearthstone"
     ],
@@ -7514,14 +7514,14 @@
   },
   {
     "question": "In which game can you 'Catch 'em all' by capturing creatures in balls?",
-    "answer": "Pok\u00e9mon",
+    "answer": "Pokémon",
     "choices": [
-      "Pok\u00e9mon",
+      "Pokémon",
       "Monster Hunter",
       "Digimon",
       "Temtem"
     ],
-    "explanation": "The Pok\u00e9mon franchise's motto is 'Gotta Catch 'em All,' encouraging players to collect all available Pok\u00e9mon."
+    "explanation": "The Pokémon franchise's motto is 'Gotta Catch 'em All,' encouraging players to collect all available Pokémon."
   },
   {
     "question": "What is the name of the final boss in Super Mario Bros.?",
@@ -7609,7 +7609,7 @@
       "Don't Starve",
       "Terraria"
     ],
-    "explanation": "Crafting is central to Minecraft \u2014 players gather resources like wood, stone, and ore to craft tools, weapons, and structures."
+    "explanation": "Crafting is central to Minecraft — players gather resources like wood, stone, and ore to craft tools, weapons, and structures."
   },
   {
     "question": "What is the highest rank in most competitive shooters?",
@@ -7634,7 +7634,7 @@
     "explanation": "The Elder Scrolls V: Skyrim features a Dragonborn hero who can absorb dragon souls and use powerful Shouts."
   },
   {
-    "question": "What gaming company created Mario, Pok\u00e9mon, and Zelda?",
+    "question": "What gaming company created Mario, Pokémon, and Zelda?",
     "answer": "Nintendo",
     "choices": [
       "Nintendo",
@@ -7642,7 +7642,7 @@
       "Sony",
       "Capcom"
     ],
-    "explanation": "Nintendo is the Japanese company behind iconic franchises including Mario, Pok\u00e9mon, Zelda, and Donkey Kong."
+    "explanation": "Nintendo is the Japanese company behind iconic franchises including Mario, Pokémon, Zelda, and Donkey Kong."
   },
   {
     "question": "What board game involves trying to trap the opponent with no legal moves?",
@@ -7653,7 +7653,7 @@
       "Go",
       "Othello"
     ],
-    "explanation": "In chess, the goal is checkmate \u2014 placing the opponent's king in a position where it cannot escape capture."
+    "explanation": "In chess, the goal is checkmate — placing the opponent's king in a position where it cannot escape capture."
   },
   {
     "question": "What is the name of the popular video game map editor in Minecraft?",
@@ -7752,7 +7752,7 @@
       "Epona",
       "Shadowmere"
     ],
-    "explanation": "In Red Dead Redemption 2, players can bond with and rename their horse. (Roach is Geralt's horse in The Witcher 3.)"
+    "explanation": "In Red Dead Redemption 2, players can bond with and rename their horse."
   },
   {
     "question": "In what game does a player shoot web and swing between buildings in New York?",
@@ -7873,7 +7873,7 @@
       "Circle",
       "Endgame"
     ],
-    "explanation": "In Fortnite, the safe area is called the Storm Eye \u2014 as the game progresses, the safe zone shrinks, forcing players together."
+    "explanation": "In Fortnite, the safe area is called the Storm Eye — as the game progresses, the safe zone shrinks, forcing players together."
   },
   {
     "question": "Which legendary RPG series features the character Cloud Strife?",
@@ -8101,10 +8101,10 @@
     "choices": [
       "Yu-Gi-Oh!",
       "Magic: The Gathering",
-      "Pok\u00e9mon TCG",
+      "Pokémon TCG",
       "Hearthstone"
     ],
-    "explanation": "Yu-Gi-Oh! has players reducing their opponent's Life Points from 8000 to 0 by summoning monsters and casting spells."
+    "explanation": "Yu-Gi-Oh. has players reducing their opponent's Life Points from 8000 to 0 by summoning monsters and casting spells."
   },
   {
     "question": "Which game features a 'nemesis system' where enemies remember and adapt to the player?",
@@ -8137,7 +8137,7 @@
       "Celeste",
       "Shovel Knight"
     ],
-    "explanation": "Getting Over It with Bennett Foddy uses a large hammer (not a plunger) \u2014 players move a man in a cauldron by swinging the hammer."
+    "explanation": "Getting Over It with Bennett Foddy uses a large hammer (not a plunger) — players move a man in a cauldron by swinging the hammer."
   },
   {
     "question": "What video game series features Nathan Drake searching for ancient treasures?",
@@ -8291,7 +8291,7 @@
       "Wormhole Launcher",
       "Space Gun"
     ],
-    "explanation": "The portal gun's official name is the Aperture Science Handheld Portal Device, though it's universally called the 'portal gun.'"
+    "explanation": "The portal gun's official name is the Aperture Science Handheld Portal Device, though it's universally called the 'portal gun.'."
   },
   {
     "question": "In what game series does a Mandalorian-like character wear Beskar armor?",
@@ -8302,18 +8302,18 @@
       "Mass Effect",
       "Destiny"
     ],
-    "explanation": "Beskar armor is most associated with The Mandalorian \u2014 in video games, Star Wars: Jedi Survivor and related titles feature similar lore."
+    "explanation": "Beskar armor is most associated with The Mandalorian — in video games, Star Wars: Jedi Survivor and related titles feature similar lore."
   },
   {
     "question": "What is the name of the weapon used by the hero in Elden Ring?",
-    "answer": "Various \u2014 the player chooses",
+    "answer": "Various — the player chooses",
     "choices": [
-      "Various \u2014 the player chooses",
+      "Various — the player chooses",
       "Greatsword",
       "Tarnished Blade",
       "Godslayer Greatsword"
     ],
-    "explanation": "Elden Ring (2022) by FromSoftware gives players freedom to use many weapons; there's no single 'hero weapon.'"
+    "explanation": "Elden Ring (2022) by FromSoftware gives players freedom to use many weapons; there's no single 'hero weapon.'."
   },
   {
     "question": "Which studio developed the game Hollow Knight?",
@@ -8368,7 +8368,7 @@
       "The Division",
       "Mass Effect"
     ],
-    "explanation": "In Destiny 2, players take on the role of a Guardian \u2014 a defender of the last city on Earth \u2014 and can fully customize their character."
+    "explanation": "In Destiny 2, players take on the role of a Guardian — a defender of the last city on Earth — and can fully customize their character."
   },
   {
     "question": "What is the name of the hero in the game Hades who escapes the Underworld?",
