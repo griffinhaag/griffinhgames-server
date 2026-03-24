@@ -1210,7 +1210,7 @@
     "explanation": "The Bayeux Tapestry is an embroidered cloth nearly 70 meters long that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings in 1066. It is an extraordinary historical document created shortly after the events it portrays."
   },
   {
-    "question": "Complete this famous quote from Churchill: 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and ___________, we shall fight in the hills, we shall ________________.'",
+    "question": "'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and ___________, we shall fight in the hills, we shall ________________.'",
     "answer": "in the streets \u2013 never surrender",
     "choices": [
       "in the streets \u2013 never surrender",
@@ -2728,7 +2728,7 @@
     "explanation": "The Good Friday Agreement is closely associated with Northern Ireland."
   },
   {
-    "question": "Historically, in what year did the Battle of Hastings occur?",
+    "question": "In what year did the Battle of Hastings occur?",
     "answer": "1066",
     "choices": [
       "1947",
@@ -2739,7 +2739,7 @@
     "explanation": "The Battle of Hastings took place in 1066."
   },
   {
-    "question": "Historically, the Battle of Hastings is most closely associated with which person, place, or idea?",
+    "question": "The Battle of Hastings is most closely associated with which person, place, or idea?",
     "answer": "William the Conqueror",
     "choices": [
       "Protestant Reformation",
@@ -2750,7 +2750,7 @@
     "explanation": "The Battle of Hastings is closely associated with William the Conqueror."
   },
   {
-    "question": "Historically, in what year did the Magna Carta occur?",
+    "question": "In what year did the Magna Carta occur?",
     "answer": "1215",
     "choices": [
       "1917",
@@ -2761,7 +2761,7 @@
     "explanation": "The Magna Carta took place in 1215."
   },
   {
-    "question": "Historically, the Magna Carta is most closely associated with which person, place, or idea?",
+    "question": "The Magna Carta is most closely associated with which person, place, or idea?",
     "answer": "England",
     "choices": [
       "United States",
@@ -2772,7 +2772,7 @@
     "explanation": "The Magna Carta is closely associated with England."
   },
   {
-    "question": "Historically, in what year did the Fall of Constantinople occur?",
+    "question": "In what year did the Fall of Constantinople occur?",
     "answer": "1453",
     "choices": [
       "1961",
@@ -2783,7 +2783,7 @@
     "explanation": "The Fall of Constantinople took place in 1453."
   },
   {
-    "question": "Historically, the Fall of Constantinople is most closely associated with which person, place, or idea?",
+    "question": "The Fall of Constantinople is most closely associated with which person, place, or idea?",
     "answer": "Ottoman Empire",
     "choices": [
       "England",
@@ -2794,7 +2794,7 @@
     "explanation": "The Fall of Constantinople is closely associated with Ottoman Empire."
   },
   {
-    "question": "Historically, in what year did the Columbus first voyage occur?",
+    "question": "In what year did the Columbus first voyage occur?",
     "answer": "1492",
     "choices": [
       "1492",
@@ -2805,7 +2805,7 @@
     "explanation": "The Columbus first voyage took place in 1492."
   },
   {
-    "question": "Historically, the Columbus first voyage is most closely associated with which person, place, or idea?",
+    "question": "The Columbus first voyage is most closely associated with which person, place, or idea?",
     "answer": "Atlantic Ocean",
     "choices": [
       "United States",
@@ -2816,7 +2816,7 @@
     "explanation": "The Columbus first voyage is closely associated with Atlantic Ocean."
   },
   {
-    "question": "Historically, in what year did the Martin Luther's Ninety-Five Theses occur?",
+    "question": "In what year did the Martin Luther's Ninety-Five Theses occur?",
     "answer": "1517",
     "choices": [
       "1517",
@@ -2827,7 +2827,7 @@
     "explanation": "The Martin Luther's Ninety-Five Theses took place in 1517."
   },
   {
-    "question": "Historically, the Martin Luther's Ninety-Five Theses is most closely associated with which person, place, or idea?",
+    "question": "The Martin Luther's Ninety-Five Theses is most closely associated with which person, place, or idea?",
     "answer": "Protestant Reformation",
     "choices": [
       "Atlantic Ocean",
@@ -2838,7 +2838,7 @@
     "explanation": "The Martin Luther's Ninety-Five Theses is closely associated with Protestant Reformation."
   },
   {
-    "question": "Historically, in what year did the Spanish Armada defeated occur?",
+    "question": "In what year did the Spanish Armada defeated occur?",
     "answer": "1588",
     "choices": [
       "1588",
@@ -2849,7 +2849,7 @@
     "explanation": "The Spanish Armada defeated took place in 1588."
   },
   {
-    "question": "Historically, the Spanish Armada defeated is most closely associated with which person, place, or idea?",
+    "question": "The Spanish Armada defeated is most closely associated with which person, place, or idea?",
     "answer": "England",
     "choices": [
       "England",
@@ -2860,7 +2860,7 @@
     "explanation": "The Spanish Armada defeated is closely associated with England."
   },
   {
-    "question": "Historically, in what year did the English Civil War began occur?",
+    "question": "In what year did the English Civil War began occur?",
     "answer": "1642",
     "choices": [
       "1642",
@@ -2871,7 +2871,7 @@
     "explanation": "The English Civil War began took place in 1642."
   },
   {
-    "question": "Historically, the English Civil War began is most closely associated with which person, place, or idea?",
+    "question": "The English Civil War began is most closely associated with which person, place, or idea?",
     "answer": "Parliament vs. King Charles I",
     "choices": [
       "Bastille",
@@ -2882,7 +2882,7 @@
     "explanation": "The English Civil War began is closely associated with Parliament vs. King Charles I."
   },
   {
-    "question": "Historically, in what year did the Glorious Revolution occur?",
+    "question": "In what year did the Glorious Revolution occur?",
     "answer": "1688",
     "choices": [
       "1688",
@@ -2893,7 +2893,7 @@
     "explanation": "The Glorious Revolution took place in 1688."
   },
   {
-    "question": "Historically, the Glorious Revolution is most closely associated with which person, place, or idea?",
+    "question": "The Glorious Revolution is most closely associated with which person, place, or idea?",
     "answer": "William and Mary",
     "choices": [
       "England",
@@ -2904,7 +2904,7 @@
     "explanation": "The Glorious Revolution is closely associated with William and Mary."
   },
   {
-    "question": "Historically, in what year did the American Declaration of Independence occur?",
+    "question": "In what year did the American Declaration of Independence occur?",
     "answer": "1776",
     "choices": [
       "1969",
@@ -2915,7 +2915,7 @@
     "explanation": "The American Declaration of Independence took place in 1776."
   },
   {
-    "question": "Historically, the American Declaration of Independence is most closely associated with which person, place, or idea?",
+    "question": "The American Declaration of Independence is most closely associated with which person, place, or idea?",
     "answer": "United States",
     "choices": [
       "United States",
@@ -2926,7 +2926,7 @@
     "explanation": "The American Declaration of Independence is closely associated with United States."
   },
   {
-    "question": "Historically, in what year did the French Revolution began occur?",
+    "question": "In what year did the French Revolution began occur?",
     "answer": "1789",
     "choices": [
       "1789",
@@ -2937,7 +2937,7 @@
     "explanation": "The French Revolution began took place in 1789."
   },
   {
-    "question": "Historically, the French Revolution began is most closely associated with which person, place, or idea?",
+    "question": "The French Revolution began is most closely associated with which person, place, or idea?",
     "answer": "Bastille",
     "choices": [
       "Great Depression",
@@ -2948,7 +2948,7 @@
     "explanation": "The French Revolution began is closely associated with Bastille."
   },
   {
-    "question": "Historically, in what year did the Battle of Waterloo occur?",
+    "question": "In what year did the Battle of Waterloo occur?",
     "answer": "1815",
     "choices": [
       "1815",
@@ -2959,7 +2959,7 @@
     "explanation": "The Battle of Waterloo took place in 1815."
   },
   {
-    "question": "Historically, the Battle of Waterloo is most closely associated with which person, place, or idea?",
+    "question": "The Battle of Waterloo is most closely associated with which person, place, or idea?",
     "answer": "Napoleon",
     "choices": [
       "United States",
@@ -2970,7 +2970,7 @@
     "explanation": "The Battle of Waterloo is closely associated with Napoleon."
   },
   {
-    "question": "Historically, in what year did the Emancipation Proclamation occur?",
+    "question": "In what year did the Emancipation Proclamation occur?",
     "answer": "1863",
     "choices": [
       "1989",
@@ -2981,7 +2981,7 @@
     "explanation": "The Emancipation Proclamation took place in 1863."
   },
   {
-    "question": "Historically, the Emancipation Proclamation is most closely associated with which person, place, or idea?",
+    "question": "The Emancipation Proclamation is most closely associated with which person, place, or idea?",
     "answer": "Abraham Lincoln",
     "choices": [
       "Abraham Lincoln",
@@ -2992,7 +2992,7 @@
     "explanation": "The Emancipation Proclamation is closely associated with Abraham Lincoln."
   },
   {
-    "question": "Historically, in what year did the Meiji Restoration occur?",
+    "question": "In what year did the Meiji Restoration occur?",
     "answer": "1868",
     "choices": [
       "1868",
@@ -3003,7 +3003,7 @@
     "explanation": "The Meiji Restoration took place in 1868."
   },
   {
-    "question": "Historically, the Meiji Restoration is most closely associated with which person, place, or idea?",
+    "question": "The Meiji Restoration is most closely associated with which person, place, or idea?",
     "answer": "Japan",
     "choices": [
       "Japan",
@@ -3014,7 +3014,7 @@
     "explanation": "The Meiji Restoration is closely associated with Japan."
   },
   {
-    "question": "Historically, in what year did the Russian Revolution occur?",
+    "question": "In what year did the Russian Revolution occur?",
     "answer": "1917",
     "choices": [
       "1215",
@@ -3025,7 +3025,7 @@
     "explanation": "The Russian Revolution took place in 1917."
   },
   {
-    "question": "Historically, the Russian Revolution is most closely associated with which person, place, or idea?",
+    "question": "The Russian Revolution is most closely associated with which person, place, or idea?",
     "answer": "Bolsheviks",
     "choices": [
       "Bolsheviks",
@@ -3036,7 +3036,7 @@
     "explanation": "The Russian Revolution is closely associated with Bolsheviks."
   },
   {
-    "question": "Historically, in what year did the Treaty of Versailles signed occur?",
+    "question": "In what year did the Treaty of Versailles signed occur?",
     "answer": "1919",
     "choices": [
       "1919",
@@ -3047,7 +3047,7 @@
     "explanation": "The Treaty of Versailles signed took place in 1919."
   },
   {
-    "question": "Historically, the Treaty of Versailles signed is most closely associated with which person, place, or idea?",
+    "question": "The Treaty of Versailles signed is most closely associated with which person, place, or idea?",
     "answer": "World War I",
     "choices": [
       "Atlantic Ocean",
@@ -3058,7 +3058,7 @@
     "explanation": "The Treaty of Versailles signed is closely associated with World War I."
   },
   {
-    "question": "Historically, in what year did the Stock Market Crash occur?",
+    "question": "In what year did the Stock Market Crash occur?",
     "answer": "1929",
     "choices": [
       "1929",
@@ -3069,7 +3069,7 @@
     "explanation": "The Stock Market Crash took place in 1929."
   },
   {
-    "question": "Historically, the Stock Market Crash is most closely associated with which person, place, or idea?",
+    "question": "The Stock Market Crash is most closely associated with which person, place, or idea?",
     "answer": "Great Depression",
     "choices": [
       "William and Mary",
@@ -3080,7 +3080,7 @@
     "explanation": "The Stock Market Crash is closely associated with Great Depression."
   },
   {
-    "question": "Historically, in what year did the D-Day occur?",
+    "question": "In what year did the D-Day occur?",
     "answer": "1944",
     "choices": [
       "1688",
@@ -3091,7 +3091,7 @@
     "explanation": "The D-Day took place in 1944."
   },
   {
-    "question": "Historically, the D-Day is most closely associated with which person, place, or idea?",
+    "question": "The D-Day is most closely associated with which person, place, or idea?",
     "answer": "Normandy",
     "choices": [
       "Ottoman Empire",
@@ -3102,7 +3102,7 @@
     "explanation": "The D-Day is closely associated with Normandy."
   },
   {
-    "question": "Historically, in what year did the United Nations founded occur?",
+    "question": "In what year did the United Nations founded occur?",
     "answer": "1945",
     "choices": [
       "1066",
@@ -3113,7 +3113,7 @@
     "explanation": "The United Nations founded took place in 1945."
   },
   {
-    "question": "Historically, the United Nations founded is most closely associated with which person, place, or idea?",
+    "question": "The United Nations founded is most closely associated with which person, place, or idea?",
     "answer": "international cooperation",
     "choices": [
       "international cooperation",
@@ -3124,7 +3124,7 @@
     "explanation": "The United Nations founded is closely associated with international cooperation."
   },
   {
-    "question": "Historically, in what year did the Partition of India occur?",
+    "question": "In what year did the Partition of India occur?",
     "answer": "1947",
     "choices": [
       "1789",
@@ -3135,7 +3135,7 @@
     "explanation": "The Partition of India took place in 1947."
   },
   {
-    "question": "Historically, the Partition of India is most closely associated with which person, place, or idea?",
+    "question": "The Partition of India is most closely associated with which person, place, or idea?",
     "answer": "India and Pakistan",
     "choices": [
       "India and Pakistan",
@@ -3146,7 +3146,7 @@
     "explanation": "The Partition of India is closely associated with India and Pakistan."
   },
   {
-    "question": "Historically, in what year did the Berlin Wall built occur?",
+    "question": "In what year did the Berlin Wall built occur?",
     "answer": "1961",
     "choices": [
       "1994",
@@ -3157,7 +3157,7 @@
     "explanation": "The Berlin Wall built took place in 1961."
   },
   {
-    "question": "Historically, the Berlin Wall built is most closely associated with which person, place, or idea?",
+    "question": "The Berlin Wall built is most closely associated with which person, place, or idea?",
     "answer": "East Germany",
     "choices": [
       "Protestant Reformation",
@@ -3168,7 +3168,7 @@
     "explanation": "The Berlin Wall built is closely associated with East Germany."
   },
   {
-    "question": "Historically, in what year did the Apollo 11 Moon landing occur?",
+    "question": "In what year did the Apollo 11 Moon landing occur?",
     "answer": "1969",
     "choices": [
       "1998",
@@ -3179,7 +3179,7 @@
     "explanation": "The Apollo 11 Moon landing took place in 1969."
   },
   {
-    "question": "Historically, the Apollo 11 Moon landing is most closely associated with which person, place, or idea?",
+    "question": "The Apollo 11 Moon landing is most closely associated with which person, place, or idea?",
     "answer": "Neil Armstrong",
     "choices": [
       "East Germany",
@@ -3190,7 +3190,7 @@
     "explanation": "The Apollo 11 Moon landing is closely associated with Neil Armstrong."
   },
   {
-    "question": "Historically, in what year did the Fall of the Berlin Wall occur?",
+    "question": "In what year did the Fall of the Berlin Wall occur?",
     "answer": "1989",
     "choices": [
       "1989",
@@ -3201,7 +3201,7 @@
     "explanation": "The Fall of the Berlin Wall took place in 1989."
   },
   {
-    "question": "Historically, the Fall of the Berlin Wall is most closely associated with which person, place, or idea?",
+    "question": "The Fall of the Berlin Wall is most closely associated with which person, place, or idea?",
     "answer": "Cold War",
     "choices": [
       "William and Mary",
@@ -3212,7 +3212,7 @@
     "explanation": "The Fall of the Berlin Wall is closely associated with Cold War."
   },
   {
-    "question": "Historically, in what year did the South Africa's first democratic election occur?",
+    "question": "In what year did the South Africa's first democratic election occur?",
     "answer": "1994",
     "choices": [
       "1688",
@@ -3223,7 +3223,7 @@
     "explanation": "The South Africa's first democratic election took place in 1994."
   },
   {
-    "question": "Historically, the South Africa's first democratic election is most closely associated with which person, place, or idea?",
+    "question": "The South Africa's first democratic election is most closely associated with which person, place, or idea?",
     "answer": "Nelson Mandela",
     "choices": [
       "Ottoman Empire",
@@ -3234,7 +3234,7 @@
     "explanation": "The South Africa's first democratic election is closely associated with Nelson Mandela."
   },
   {
-    "question": "Historically, in what year did the Good Friday Agreement occur?",
+    "question": "In what year did the Good Friday Agreement occur?",
     "answer": "1998",
     "choices": [
       "1998",
@@ -3245,7 +3245,7 @@
     "explanation": "The Good Friday Agreement took place in 1998."
   },
   {
-    "question": "Historically, the Good Friday Agreement is most closely associated with which person, place, or idea?",
+    "question": "The Good Friday Agreement is most closely associated with which person, place, or idea?",
     "answer": "Northern Ireland",
     "choices": [
       "Abraham Lincoln",
