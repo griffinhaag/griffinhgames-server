@@ -464,6 +464,17 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // Remove from room
       roomManager.removePlayerBySocket(targetSocketId);
 
+      // Notify game engine so kicked player disappears from scores/leaderboard
+      // (their score is preserved in scoresByName so it restores if they rejoin)
+      if (room.phase === "in-progress") {
+        gameEngine.handleGameEvent({
+          roomCode: code,
+          eventName: "player:kicked",
+          payload: { socketId: targetSocketId, playerName: targetName },
+          socketId: socket.id
+        });
+      }
+
       // Broadcast updated room state
       const roomState = roomManager.serializeRoom(code);
       io.to(code).emit("room:state", roomState);
