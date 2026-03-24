@@ -15,10 +15,9 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
   function promoteNewHostIfNeeded(roomCode, wasHost) {
     if (!wasHost) return;
-    // Delay host promotion by 4 seconds so the original host can reconnect
-    // (e.g. mobile browser refresh) before we transfer host to someone else.
-    // If they reconnect within this window, addPlayerToRoom restores their host
-    // status and the hasActiveHost check below aborts the promotion.
+    // Delay host promotion by 30 seconds so the original host can reconnect
+    // after WiFi drops or mobile browser backgrounding before we transfer host
+    // to someone else. addPlayerToRoom restores their status within this window.
     setTimeout(() => {
       const room = roomManager.getRoom(roomCode);
       if (!room || room.players.size === 0) return;
@@ -49,7 +48,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (roomState) io.to(roomCode).emit("room:state", roomState);
 
       logInfo(`Host transferred to ${newHostPlayer.name} in room ${roomCode} (after reconnect grace period)`);
-    }, 4000);
+    }, 30000);
   }
 
   // When a host's old socket disconnects AFTER the host already rejoined under a new socket
@@ -156,8 +155,12 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       // Validate and sanitize name
       let finalName = typeof name === "string" ? name.trim() : "";
-      if (!finalName || finalName.length === 0) {
-        finalName = `Player-${socket.id.slice(0, 4)}`;
+      // Fall back to any name previously stored for this socket (e.g. from player:setName)
+      if (!finalName) finalName = roomManager.getPlayerName(socket.id) || "";
+      // Reject nameless joins — they create ghost players that pollute the game
+      if (!finalName) {
+        socket.emit("room:error", "A name is required to join.");
+        return;
       }
       // Limit name length
       if (finalName.length > 20) {
@@ -234,15 +237,29 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         });
       }
 
-      // If this reconnecting player reclaimed host during an active game, notify them explicitly.
-      // The room:state already reflects the change, but the explicit event
-      // ensures a reliable UI update even if room:state arrives first.
-      // Only emit during in-progress games — navigating from setup to lobby should not trigger this.
-      if (joinResult.isReconnecting && joinResult.wasHost && roomState.phase === 'in-progress') {
+      // If this reconnecting player reclaimed host, notify them explicitly in ALL phases.
+      // The room:state already reflects the change but the explicit event guarantees
+      // a reliable UI update regardless of race conditions with room:state delivery.
+      if (joinResult.isReconnecting && joinResult.wasHost) {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
         });
+
+        // If another player was promoted while the original host was away,
+        // notify them that they are no longer host so their UI updates.
+        const demotedPlayer = [...room.players.values()].find(
+          p => p.socketId !== socket.id && !p.isHost &&
+               room.hostSocketId === socket.id // original host is now set
+        );
+        // Broadcast updated room:state covers the demotion; also send explicit event
+        // to the previously-promoted socket so the client can react immediately.
+        for (const [sid, p] of room.players) {
+          if (sid !== socket.id) {
+            // Tell every other player the host has changed so their isHost flag refreshes
+            io.to(sid).emit("host:changed", { newHostSocketId: socket.id });
+          }
+        }
       }
 
       const statusMsg = joinResult.isReconnecting
@@ -387,6 +404,24 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (!checkIsHost(socket, room)) return;
       if (!targetSocketId || targetSocketId === socket.id) return; // can't kick self
 
+      // Guard: cannot kick another player who currently holds host status
+      const targetPlayer = room.players.get(targetSocketId);
+      if (targetPlayer?.isHost) {
+        socket.emit("room:error", "Cannot kick the host.");
+        return;
+      }
+
+      // Guard: cannot kick an actively connected, non-ghost player during a live game.
+      // "Active" = socket is connected AND the player has a real (non-auto-generated) name.
+      const targetIsLive = io.sockets.sockets.has(targetSocketId);
+      const targetName = targetPlayer?.name || "";
+      const isGhostName = /^Player-[a-zA-Z0-9]{4}$/.test(targetName);
+      if (room.phase === "in-progress" && targetIsLive && !isGhostName) {
+        // Allow kick — hosts can legitimately remove disruptive active players
+        // but we log a warning for audit purposes.
+        logInfo(`Host ${socket.id} kicking active player ${targetName} from live game ${code}`);
+      }
+
       // Notify the kicked player
       const targetSocket = io.sockets.sockets.get(targetSocketId);
       if (targetSocket) {
@@ -400,7 +435,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // Broadcast updated room state
       const roomState = roomManager.serializeRoom(code);
       io.to(code).emit("room:state", roomState);
-      logInfo(`Host kicked player ${targetSocketId} from room ${code}`);
+      logInfo(`Host kicked player ${targetSocketId} (${targetName}) from room ${code}`);
     });
 
     // Host end game

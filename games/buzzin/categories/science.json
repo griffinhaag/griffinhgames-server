@@ -19,7 +19,7 @@
       "Jupiter",
       "Saturn"
     ],
-    "explanation": "Mars appears red due to iron oxide (rust) on its surface."
+    "explanation": "Mars is a standard science answer used in basic biology, chemistry, or physics trivia."
   },
   {
     "question": "What is the speed of light in a vacuum?",
@@ -63,7 +63,7 @@
       "Carbon dioxide",
       "Argon"
     ],
-    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, while oxygen makes up about 21%."
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, making it by far the most abundant gas."
   },
   {
     "question": "What force keeps planets in orbit around the Sun?",
@@ -107,7 +107,7 @@
       "Fermentation",
       "Transpiration"
     ],
-    "explanation": "Photosynthesis is the process by which plants use sunlight, water, and CO\u2082 to produce glucose and oxygen."
+    "explanation": "Photosynthesis is the process by which plants use sunlight, water, and CO₂ to produce glucose and oxygen."
   },
   {
     "question": "What is the hardest natural substance on Earth?",
@@ -133,14 +133,14 @@
   },
   {
     "question": "What is the chemical formula for water?",
-    "answer": "H\u2082O",
+    "answer": "H₂O",
     "choices": [
-      "H\u2082O",
-      "H\u2082O\u2082",
-      "HO\u2082",
-      "CO\u2082"
+      "H₂O",
+      "H₂O₂",
+      "HO₂",
+      "CO₂"
     ],
-    "explanation": "Water (H\u2082O) consists of two hydrogen atoms covalently bonded to one oxygen atom."
+    "explanation": "Water (H₂O) consists of two hydrogen atoms covalently bonded to one oxygen atom."
   },
   {
     "question": "What organ pumps blood throughout the human body?",
@@ -162,7 +162,7 @@
       "Condensation",
       "Deposition"
     ],
-    "explanation": "Sublimation is the direct phase transition from solid to gas, as seen with dry ice (solid CO\u2082)."
+    "explanation": "Sublimation is the direct phase transition from solid to gas, as seen with dry ice (solid CO₂)."
   },
   {
     "question": "Which planet has the most moons in our solar system?",
@@ -199,14 +199,14 @@
   },
   {
     "question": "What is the boiling point of water at sea level in Celsius?",
-    "answer": "100\u00b0C",
+    "answer": "100°C",
     "choices": [
-      "100\u00b0C",
-      "90\u00b0C",
-      "110\u00b0C",
-      "212\u00b0C"
+      "100°C",
+      "90°C",
+      "110°C",
+      "212°C"
     ],
-    "explanation": "Water boils at 100\u00b0C (212\u00b0F) at sea level (1 atmosphere of pressure)."
+    "explanation": "Water boils at 100°C at sea level because its vapor pressure matches atmospheric pressure there."
   },
   {
     "question": "Which gas do plants absorb during photosynthesis?",
@@ -268,7 +268,7 @@
     "answer": "F = ma",
     "choices": [
       "F = ma",
-      "E = mc\u00b2",
+      "E = mc²",
       "F = mv",
       "p = mv"
     ],
@@ -294,7 +294,7 @@
       "Ampere",
       "Watt"
     ],
-    "explanation": "The ohm (\u03a9) is the SI unit of electrical resistance, named after German physicist Georg Simon Ohm."
+    "explanation": "The ohm (Ω) is the SI unit of electrical resistance, named after German physicist Georg Simon Ohm."
   },
   {
     "question": "Which element is the most abundant in the universe?",
@@ -426,7 +426,7 @@
       "Sd",
       "Nm"
     ],
-    "explanation": "Sodium's symbol 'Na' comes from the Latin 'natrium.'"
+    "explanation": "Na is identified by a chemistry symbol rooted in Latin naming traditions and used worldwide."
   },
   {
     "question": "What is the name of the phenomenon where light bends when passing from one medium to another?",
@@ -492,7 +492,7 @@
       "Francium",
       "Fermium"
     ],
-    "explanation": "Iron's chemical symbol 'Fe' comes from the Latin word 'ferrum.'"
+    "explanation": "Iron is a standard science answer used in basic biology, chemistry, or physics trivia."
   },
   {
     "question": "What is the name of the process that converts glucose to energy without oxygen?",
@@ -536,7 +536,7 @@
       "Omnivore",
       "Detritivore"
     ],
-    "explanation": "Herbivores are animals that feed exclusively on plant material."
+    "explanation": "Herbivores eat only plant material and range from tiny insects to huge grazing mammals."
   },
   {
     "question": "What is the smallest planet in our solar system?",
@@ -562,14 +562,14 @@
   },
   {
     "question": "What is the chemical formula for carbon dioxide?",
-    "answer": "CO\u2082",
+    "answer": "CO₂",
     "choices": [
-      "CO\u2082",
+      "CO₂",
       "CO",
-      "C\u2082O",
-      "O\u2082C"
+      "C₂O",
+      "O₂C"
     ],
-    "explanation": "Carbon dioxide (CO\u2082) consists of one carbon atom double-bonded to two oxygen atoms."
+    "explanation": "Carbon dioxide (CO₂) consists of one carbon atom double-bonded to two oxygen atoms."
   },
   {
     "question": "What is the name of the force that pulls objects toward Earth's center?",
@@ -602,7 +602,7 @@
       "About 1000 m/s",
       "About 150 m/s"
     ],
-    "explanation": "Sound travels at approximately 343 meters per second (1,125 feet per second) through air at room temperature (20\u00b0C)."
+    "explanation": "Sound travels at approximately 343 meters per second (1,125 feet per second) through air at room temperature (20°C)."
   },
   {
     "question": "What is the name of the cells that carry oxygen in the blood?",
@@ -723,7 +723,7 @@
       "Saturn",
       "Venus"
     ],
-    "explanation": "Uranus has an extreme axial tilt of about 97.77\u00b0, causing it to rotate nearly on its side relative to its orbit."
+    "explanation": "Uranus has an extreme axial tilt of about 97.77°, causing it to rotate nearly on its side relative to its orbit."
   },
   {
     "question": "What is the name of the process by which a caterpillar becomes a butterfly?",
@@ -734,7 +734,7 @@
       "Pupation",
       "Molting"
     ],
-    "explanation": "Metamorphosis is the biological process of transformation; butterflies undergo complete metamorphosis (egg \u2192 larva \u2192 pupa \u2192 adult)."
+    "explanation": "Metamorphosis is the biological process of transformation; butterflies undergo complete metamorphosis (egg → larva → pupa → adult)."
   },
   {
     "question": "What is the measurement of the amount of matter in an object?",
@@ -899,7 +899,7 @@
       "Nitrogen",
       "Methane"
     ],
-    "explanation": "Carbon dioxide (CO\u2082) is the primary greenhouse gas contributing to climate change, though methane is also significant per molecule."
+    "explanation": "Carbon dioxide (CO₂) is the primary greenhouse gas contributing to climate change, though methane is also significant per molecule."
   },
   {
     "question": "What is the name of the unit used to measure the frequency of a wave?",
@@ -1064,7 +1064,7 @@
       "Topography",
       "Geodesy"
     ],
-    "explanation": "Cartography is the science and art of making maps."
+    "explanation": "Cartography is the science and art of making maps, combining geography, design, and data."
   },
   {
     "question": "What chemical element has the symbol 'Pb'?",
@@ -1075,7 +1075,7 @@
       "Platinum",
       "Palladium"
     ],
-    "explanation": "Lead's symbol 'Pb' comes from the Latin word 'plumbum.'"
+    "explanation": "Lead is a standard science answer used in basic biology, chemistry, or physics trivia."
   },
   {
     "question": "How many sides does a hexagon have?",
@@ -1086,7 +1086,7 @@
       "7",
       "8"
     ],
-    "explanation": "A hexagon is a six-sided polygon with six angles. Regular hexagons, where all sides and angles are equal, appear in honeycombs and are efficient shapes for tiling flat surfaces."
+    "explanation": "A hexagon is a six-sided polygon with six angles. Regular hexagons, where all sides and angles are equal, appear in honeycombs and are efficient shapes for."
   },
   {
     "question": "What is the name of the process by which rocks are broken down by weather?",
@@ -1160,7 +1160,7 @@
     "choices": [
       "NaCl",
       "NaOH",
-      "Na\u2082O",
+      "Na₂O",
       "KCl"
     ],
     "explanation": "Table salt is sodium chloride (NaCl), formed by the ionic bond between sodium (Na) and chlorine (Cl)."
@@ -1174,7 +1174,7 @@
       "Magnetic anomaly",
       "Polarity flip"
     ],
-    "explanation": "Geomagnetic reversals occur when Earth's north and south magnetic poles switch positions, happening roughly every 200,000\u2013300,000 years."
+    "explanation": "Geomagnetic reversals occur when Earth's north and south magnetic poles switch positions, happening roughly every 200,000–300,000 years."
   },
   {
     "question": "What is the name of the structure in cells where proteins are made?",
@@ -1185,7 +1185,7 @@
       "Golgi apparatus",
       "Lysosome"
     ],
-    "explanation": "Ribosomes are the cellular structures where translation occurs \u2014 the process of making proteins from mRNA instructions."
+    "explanation": "Ribosomes are the cellular structures where translation occurs — the process of making proteins from mRNA instructions."
   },
   {
     "question": "What is the SI unit of force?",
@@ -1196,7 +1196,7 @@
       "Pascal",
       "Watt"
     ],
-    "explanation": "The newton (N) is the SI unit of force, defined as the force needed to accelerate 1 kg at 1 m/s\u00b2."
+    "explanation": "The newton (N) is the SI unit of force, defined as the force needed to accelerate 1 kg at 1 m/s²."
   },
   {
     "question": "What color is produced when red and blue light are mixed?",
@@ -1460,7 +1460,7 @@
       "Molybdenum",
       "Osmium"
     ],
-    "explanation": "Tungsten (W) has the highest melting point of any metal at 3,422\u00b0C, making it ideal for use in light bulb filaments."
+    "explanation": "Tungsten (W) has the highest melting point of any metal at 3,422°C, making it ideal for use in light bulb filaments."
   },
   {
     "question": "What type of rock forms from compressed sediments over time?",
@@ -1482,7 +1482,7 @@
       "Zoology",
       "Microbiology"
     ],
-    "explanation": "Mycology is the branch of biology concerned with the study of fungi."
+    "explanation": "Mycology is the branch of biology that studies fungi, from mushrooms and molds to yeasts and spores."
   },
   {
     "question": "What is the name of the process by which ice turns directly into water vapor?",
@@ -1546,20 +1546,20 @@
       "Thermohaline circulation",
       "Gulf Stream",
       "Antarctic Circumpolar Current",
-      "El Ni\u00f1o"
+      "El Niño"
     ],
     "explanation": "The thermohaline circulation (also called the ocean conveyor belt) is a system of deep-ocean currents driven by temperature and salinity differences."
   },
   {
     "question": "What is the chemical formula for glucose?",
-    "answer": "C\u2086H\u2081\u2082O\u2086",
+    "answer": "C₆H₁₂O₆",
     "choices": [
-      "C\u2086H\u2081\u2082O\u2086",
-      "C\u2081\u2082H\u2082\u2082O\u2081\u2081",
-      "C\u2082H\u2086O",
-      "CH\u2084O"
+      "C₆H₁₂O₆",
+      "C₁₂H₂₂O₁₁",
+      "C₂H₆O",
+      "CH₄O"
     ],
-    "explanation": "Glucose (C\u2086H\u2081\u2082O\u2086) is a simple sugar that is the primary source of energy for cells."
+    "explanation": "Glucose (C₆H₁₂O₆) is a simple sugar that is the primary source of energy for cells."
   },
   {
     "question": "What is the name of the technique used to separate substances by their movement through a medium?",
@@ -1592,7 +1592,7 @@
       "Slightly slower",
       "Faster"
     ],
-    "explanation": "Sound travels at about 343 m/s in air, while light travels at nearly 300,000,000 m/s \u2014 light is about 880,000 times faster."
+    "explanation": "Sound travels at about 343 m/s in air, while light travels at nearly 300,000,000 m/s — light is about 880,000 times faster."
   },
   {
     "question": "What is the name of the protein that makes up muscle fibers?",
@@ -1625,7 +1625,7 @@
       "Cesium",
       "Chlorine"
     ],
-    "explanation": "Bromine is one of only two elements that are liquid at standard room temperature (25\u00b0C), the other being mercury."
+    "explanation": "Bromine is one of only two elements that are liquid at standard room temperature (25°C), the other being mercury."
   },
   {
     "question": "What is the name of the membrane that lines the inside of the chest and surrounds the lungs?",
@@ -1702,7 +1702,7 @@
       "Thorium",
       "Radium"
     ],
-    "explanation": "Uranium-235 is the most common fuel used in nuclear fission reactors."
+    "explanation": "Uranium is a standard science answer used in basic biology, chemistry, or physics trivia."
   },
   {
     "question": "What is the name of the condition where the body's immune system attacks its own tissues?",
@@ -1735,7 +1735,7 @@
       "Jupiter",
       "Mars"
     ],
-    "explanation": "Venus has the longest day of any planet, with one rotation taking about 243 Earth days \u2014 longer than its year."
+    "explanation": "Venus has the longest day of any planet, with one rotation taking about 243 Earth days — longer than its year."
   },
   {
     "question": "What is the name of the structure that carries electrical impulses along a neuron?",
@@ -1757,7 +1757,7 @@
       "Denitrification",
       "Ammonification"
     ],
-    "explanation": "Nitrogen fixation is the process by which atmospheric N\u2082 is converted into ammonia (NH\u2083), primarily by certain bacteria."
+    "explanation": "Nitrogen fixation is the process by which atmospheric N₂ is converted into ammonia (NH₃), primarily by certain bacteria."
   },
   {
     "question": "What is the term for a substance that speeds up a chemical reaction without being consumed?",
@@ -1933,7 +1933,7 @@
       "Plato",
       "Thales"
     ],
-    "explanation": "Democritus, a Greek philosopher (c. 460\u2013370 BCE), proposed that all matter is composed of tiny, indivisible particles called atoms."
+    "explanation": "Democritus, a Greek philosopher (c. 460–370 BCE), proposed that all matter is composed of tiny, indivisible particles called atoms."
   },
   {
     "question": "What type of animal is a platypus?",
@@ -1944,7 +1944,7 @@
       "Amphibian",
       "Bird"
     ],
-    "explanation": "The platypus is a mammal \u2014 specifically a monotreme, a rare egg-laying mammal native to eastern Australia."
+    "explanation": "The platypus is a mammal — specifically a monotreme, a rare egg-laying mammal native to eastern Australia."
   },
   {
     "question": "What is the name of the molecule that forms the basic structure of cell membranes?",
@@ -1977,7 +1977,7 @@
       "Salts",
       "Buffers"
     ],
-    "explanation": "Acids have a pH below 7, taste sour, and donate protons (H\u207a ions) in chemical reactions."
+    "explanation": "Acids have a pH below 7, taste sour, and donate protons (H⁺ ions) in chemical reactions."
   },
   {
     "question": "What is the name of the force that causes objects moving in a circle to appear to be pushed outward?",
@@ -2168,14 +2168,14 @@
   },
   {
     "question": "What is the chemical formula for sulfuric acid?",
-    "answer": "H\u2082SO\u2084",
+    "answer": "H₂SO₄",
     "choices": [
-      "H\u2082SO\u2084",
+      "H₂SO₄",
       "HCl",
-      "HNO\u2083",
-      "H\u2083PO\u2084"
+      "HNO₃",
+      "H₃PO₄"
     ],
-    "explanation": "Sulfuric acid (H\u2082SO\u2084) is a highly corrosive mineral acid used in batteries and industrial processes."
+    "explanation": "Sulfuric acid (H₂SO₄) is a highly corrosive mineral acid used in batteries and industrial processes."
   },
   {
     "question": "What is the name of the long bone of the upper arm?",
@@ -2230,7 +2230,7 @@
       "Transpiration",
       "Fermentation"
     ],
-    "explanation": "Photosynthesis uses sunlight, CO\u2082, and water to produce glucose and oxygen in chloroplast-containing cells."
+    "explanation": "Photosynthesis uses sunlight, CO₂, and water to produce glucose and oxygen in chloroplast-containing cells."
   },
   {
     "question": "Which organ produces bile in the human body?",
@@ -2263,7 +2263,7 @@
       "Sr",
       "Sv"
     ],
-    "explanation": "Silver's symbol 'Ag' comes from the Latin word 'argentum.'"
+    "explanation": "Ag is identified by a chemistry symbol rooted in Latin naming traditions and used worldwide."
   },
   {
     "question": "What is the name of the longest bone in the human body?",
@@ -2296,18 +2296,18 @@
       "Ichthyology",
       "Herpetology"
     ],
-    "explanation": "Ornithology is the branch of zoology dedicated to the study of birds, covering their behavior, physiology, ecology, and classification. It is one of the oldest natural sciences."
+    "explanation": "Ornithology is the branch of zoology dedicated to the study of birds, covering their behavior, physiology, ecology, and classification."
   },
   {
     "question": "What is the chemical formula for methane?",
-    "answer": "CH\u2084",
+    "answer": "CH₄",
     "choices": [
-      "CH\u2084",
-      "C\u2082H\u2086",
+      "CH₄",
+      "C₂H₆",
       "CO",
-      "CO\u2082"
+      "CO₂"
     ],
-    "explanation": "Methane (CH\u2084) is the simplest alkane and the primary component of natural gas."
+    "explanation": "Methane (CH₄) is the simplest alkane and the primary component of natural gas."
   },
   {
     "question": "What is the name of the layer in Earth's atmosphere that contains ozone?",
@@ -2318,7 +2318,7 @@
       "Mesosphere",
       "Thermosphere"
     ],
-    "explanation": "The ozone layer is located in the stratosphere, approximately 15\u201335 km above Earth's surface."
+    "explanation": "The ozone layer is located in the stratosphere, approximately 15–35 km above Earth's surface."
   },
   {
     "question": "What is the term for an atom or molecule that has gained or lost electrons?",
@@ -2355,14 +2355,14 @@
   },
   {
     "question": "What is the name of the boundary between Earth's crust and mantle?",
-    "answer": "Mohorovi\u010di\u0107 discontinuity (Moho)",
+    "answer": "Mohorovičić discontinuity (Moho)",
     "choices": [
-      "Mohorovi\u010di\u0107 discontinuity (Moho)",
+      "Mohorovičić discontinuity (Moho)",
       "Gutenberg discontinuity",
       "Conrad discontinuity",
       "Lehmann discontinuity"
     ],
-    "explanation": "The Mohorovi\u010di\u0107 discontinuity (Moho) is the boundary between Earth's crust and the upper mantle."
+    "explanation": "The Mohorovičić discontinuity (Moho) is the boundary between Earth's crust and the upper mantle."
   },
   {
     "question": "What is the name of the process by which water rises through narrow tubes?",
@@ -2395,7 +2395,7 @@
       "Objects at rest stay at rest",
       "Energy equals mass times speed squared"
     ],
-    "explanation": "The first law of thermodynamics states that energy cannot be created or destroyed \u2014 total energy in a closed system is constant."
+    "explanation": "The first law of thermodynamics states that energy cannot be created or destroyed — total energy in a closed system is constant."
   },
   {
     "question": "Which vitamin is stored in the liver and essential for blood clotting?",
@@ -2527,7 +2527,7 @@
       "Arachnology",
       "Myrmecology"
     ],
-    "explanation": "Entomology is the branch of zoology focused on insects, the most species-rich group of animals on Earth. Insects play vital roles in pollination, decomposition, and food webs."
+    "explanation": "Entomology is the branch of zoology focused on insects, the most species-rich group of animals on Earth."
   },
   {
     "question": "Which biological molecule carries instructions for making proteins?",
@@ -2780,7 +2780,7 @@
       "Copernicus",
       "Galileo"
     ],
-    "explanation": "Aristarchus of Samos (c. 310\u2013230 BCE) was the first to propose a heliocentric model of the solar system, nearly 1,800 years before Copernicus."
+    "explanation": "Aristarchus of Samos (c. 310–230 BCE) was the first to propose a heliocentric model of the solar system, nearly 1,800 years before Copernicus."
   },
   {
     "question": "What is the name of the measurement of the amount of salt dissolved in water?",
@@ -2835,7 +2835,7 @@
       "Fahrenheit",
       "Rankine"
     ],
-    "explanation": "The kelvin (K) is the SI unit of thermodynamic temperature, with absolute zero at 0 K (\u2212273.15\u00b0C)."
+    "explanation": "The kelvin (K) is the SI unit of thermodynamic temperature, with absolute zero at 0 K (−273.15°C)."
   },
   {
     "question": "What is the name of the process where plants lose water vapor through their leaves?",
@@ -2857,7 +2857,7 @@
       "Argon",
       "Carbon dioxide"
     ],
-    "explanation": "Nitrogen (N\u2082) makes up approximately 78% of Earth's atmosphere."
+    "explanation": "Nitrogen is a standard science answer used in basic biology, chemistry, or physics trivia."
   },
   {
     "question": "What is the name of the study of the relationship between organisms and their environment?",
@@ -2894,14 +2894,14 @@
   },
   {
     "question": "What is the chemical formula for ammonia?",
-    "answer": "NH\u2083",
+    "answer": "NH₃",
     "choices": [
-      "NH\u2083",
-      "N\u2082H\u2084",
-      "NO\u2082",
-      "N\u2082O"
+      "NH₃",
+      "N₂H₄",
+      "NO₂",
+      "N₂O"
     ],
-    "explanation": "Ammonia (NH\u2083) consists of one nitrogen atom bonded to three hydrogen atoms; it is widely used in fertilizers."
+    "explanation": "Ammonia (NH₃) consists of one nitrogen atom bonded to three hydrogen atoms; it is widely used in fertilizers."
   },
   {
     "question": "What is the term for the bending of white light into its component colors?",
@@ -2967,7 +2967,7 @@
       "Nitrogen",
       "Argon"
     ],
-    "explanation": "Carbon dioxide (CO\u2082) is dissolved under pressure in carbonated beverages; when the pressure is released, it forms bubbles."
+    "explanation": "Carbon dioxide (CO₂) is dissolved under pressure in carbonated beverages; when the pressure is released, it forms bubbles."
   },
   {
     "question": "Which organ produces both insulin and digestive enzymes?",
@@ -3132,7 +3132,7 @@
       "Magnus effect",
       "Precession"
     ],
-    "explanation": "The Coriolis effect is an inertial force that deflects moving objects to the right in the Northern Hemisphere and left in the Southern Hemisphere due to Earth's rotation."
+    "explanation": "The Coriolis effect is an inertial force that deflects moving objects to the right in the Northern Hemisphere and left in the Southern Hemisphere due to."
   },
   {
     "question": "What is the name of the periodic table group that contains the most reactive metals?",
@@ -3165,7 +3165,7 @@
       "Thermal radiation",
       "Cosmic radiation"
     ],
-    "explanation": "Radioactive decay emits three main types of radiation: alpha particles (helium nuclei), beta particles (electrons/positrons), and gamma rays (high-energy photons)."
+    "explanation": "Radioactive decay emits three main types of radiation: alpha particles (helium nuclei), beta particles (electrons/positrons), and gamma rays (high-energy."
   },
   {
     "question": "What is the name of the instrument used to observe the stars?",
@@ -3231,7 +3231,7 @@
       "George Stephenson",
       "Robert Fulton"
     ],
-    "explanation": "James Watt significantly improved Newcomen's steam engine in the 1760s\u20131780s, making it practical for industrial use."
+    "explanation": "James Watt significantly improved Newcomen's steam engine in the 1760s–1780s, making it practical for industrial use."
   },
   {
     "question": "What is the name of the condition where a person's immune system attacks their joints?",
@@ -3326,9 +3326,9 @@
     "answer": "HCl",
     "choices": [
       "HCl",
-      "H\u2082SO\u2084",
-      "HNO\u2083",
-      "H\u2083PO\u2084"
+      "H₂SO₄",
+      "HNO₃",
+      "H₃PO₄"
     ],
     "explanation": "Hydrochloric acid (HCl) is a strong acid, produced in the stomach (as gastric acid) to aid digestion."
   },
@@ -3396,10 +3396,10 @@
       "Weight",
       "Pressure"
     ],
-    "explanation": "Density is mass divided by volume (\u03c1 = m/V), a measure of how much matter is packed into a given space."
+    "explanation": "Density is mass divided by volume (ρ = m/V), a measure of how much matter is packed into a given space."
   },
   {
-    "question": "What is the name of the biological process that converts atmospheric CO\u2082 into organic compounds?",
+    "question": "What is the name of the biological process that converts atmospheric CO₂ into organic compounds?",
     "answer": "Carbon fixation (photosynthesis)",
     "choices": [
       "Carbon fixation (photosynthesis)",
@@ -3407,7 +3407,7 @@
       "Decomposition",
       "Chemosynthesis"
     ],
-    "explanation": "Carbon fixation is the process by which inorganic carbon (CO\u2082) is incorporated into organic compounds, primarily through photosynthesis."
+    "explanation": "Carbon fixation is the process by which inorganic carbon (CO₂) is incorporated into organic compounds, primarily through photosynthesis."
   },
   {
     "question": "What is the name of the substance that carries electrical signals across a synapse?",
@@ -3543,14 +3543,14 @@
   },
   {
     "question": "Which gas forms when hydrogen burns in oxygen?",
-    "answer": "Water vapor (H\u2082O)",
+    "answer": "Water vapor (H₂O)",
     "choices": [
-      "Water vapor (H\u2082O)",
+      "Water vapor (H₂O)",
       "Carbon dioxide",
       "Hydrogen peroxide",
       "Hydroxide"
     ],
-    "explanation": "When hydrogen (H\u2082) burns in oxygen (O\u2082), it forms water (H\u2082O): 2H\u2082 + O\u2082 \u2192 2H\u2082O."
+    "explanation": "When hydrogen (H₂) burns in oxygen (O₂), it forms water (H₂O): 2H₂ + O₂ → 2H₂O."
   },
   {
     "question": "What is the name of the small circular DNA molecule found in bacteria?",
@@ -3652,7 +3652,7 @@
     "explanation": "Radiometric dating (including carbon-14 dating for recent fossils) measures radioactive decay to determine age."
   },
   {
-    "question": "Which planet is known for its extreme surface temperatures, reaching up to 465\u00b0C?",
+    "question": "Which planet is known for its extreme surface temperatures, reaching up to 465°C?",
     "answer": "Venus",
     "choices": [
       "Venus",
@@ -3715,7 +3715,7 @@
       "Wave-particle duality",
       "Superposition"
     ],
-    "explanation": "Quantum tunneling is the quantum mechanical phenomenon where particles can pass through potential energy barriers that classical physics would consider impenetrable."
+    "explanation": "Quantum tunneling is the quantum mechanical phenomenon where particles can pass through potential energy barriers that classical physics would consider."
   },
   {
     "question": "What is the primary function of white blood cells?",
@@ -3770,18 +3770,18 @@
       "Mesosphere",
       "Thermosphere"
     ],
-    "explanation": "The ozone layer is located in the stratosphere, 15\u201335 km above Earth's surface, protecting life from UV radiation."
+    "explanation": "The ozone layer is located in the stratosphere, 15–35 km above Earth's surface, protecting life from UV radiation."
   },
   {
     "question": "What is the chemical name for rust?",
-    "answer": "Iron(III) oxide (Fe\u2082O\u2083)",
+    "answer": "Iron(III) oxide (Fe₂O₃)",
     "choices": [
-      "Iron(III) oxide (Fe\u2082O\u2083)",
+      "Iron(III) oxide (Fe₂O₃)",
       "Iron(II) oxide (FeO)",
       "Iron sulfide (FeS)",
-      "Iron carbonate (FeCO\u2083)"
+      "Iron carbonate (FeCO₃)"
     ],
-    "explanation": "Rust is iron(III) oxide (Fe\u2082O\u2083), formed when iron reacts with oxygen in the presence of water."
+    "explanation": "Rust is iron(III) oxide (Fe₂O₃), formed when iron reacts with oxygen in the presence of water."
   },
   {
     "question": "What is the name of the organ in the body that produces stomach acid?",
@@ -3924,18 +3924,18 @@
       "Pulsar",
       "Quasar"
     ],
-    "explanation": "A black hole is a region of spacetime where gravity is so strong that nothing \u2014 not even light \u2014 can escape past the event horizon."
+    "explanation": "A black hole is a region of spacetime where gravity is so strong that nothing — not even light — can escape past the event horizon."
   },
   {
     "question": "What is the chemical formula for ethanol (drinking alcohol)?",
-    "answer": "C\u2082H\u2085OH",
+    "answer": "C₂H₅OH",
     "choices": [
-      "C\u2082H\u2085OH",
-      "CH\u2083OH",
-      "C\u2083H\u2087OH",
-      "C\u2084H\u2089OH"
+      "C₂H₅OH",
+      "CH₃OH",
+      "C₃H₇OH",
+      "C₄H₉OH"
     ],
-    "explanation": "Ethanol (C\u2082H\u2085OH or CH\u2083CH\u2082OH) is the type of alcohol found in alcoholic beverages."
+    "explanation": "Ethanol (C₂H₅OH or CH₃CH₂OH) is the type of alcohol found in alcoholic beverages."
   },
   {
     "question": "What is the name of the particle accelerator at CERN?",
@@ -3987,7 +3987,7 @@
     "choices": [
       "Heisenberg Uncertainty Principle",
       "Pauli Exclusion Principle",
-      "Schr\u00f6dinger's equation",
+      "Schrödinger's equation",
       "Bohr model"
     ],
     "explanation": "Heisenberg's Uncertainty Principle states that the position and momentum of a particle cannot both be known precisely at the same time."
@@ -4023,7 +4023,7 @@
       "Hydrochloric acid",
       "Tartaric acid"
     ],
-    "explanation": "Acetic acid (CH\u2083COOH) is the main component of vinegar, giving it its distinctive sour taste and smell."
+    "explanation": "Acetic acid (CH₃COOH) is the main component of vinegar, giving it its distinctive sour taste and smell."
   },
   {
     "question": "What is the term for an atom or molecule with a net electric charge?",
@@ -4122,7 +4122,7 @@
       "Plasma",
       "Quark-gluon plasma"
     ],
-    "explanation": "The interior of a neutron star consists of neutron degenerate matter \u2014 a form of degenerate matter so dense that neutrons are packed tightly together."
+    "explanation": "The interior of a neutron star consists of neutron degenerate matter — a form of degenerate matter so dense that neutrons are packed tightly together."
   },
   {
     "question": "What is the name of the element responsible for the yellow flame in a candle?",
@@ -4188,18 +4188,18 @@
       "Scintillation counter",
       "Ionization chamber"
     ],
-    "explanation": "A Geiger counter (Geiger-M\u00fcller tube) detects ionizing radiation by counting electrical pulses caused by radiation particles."
+    "explanation": "A Geiger counter (Geiger-Müller tube) detects ionizing radiation by counting electrical pulses caused by radiation particles."
   },
   {
     "question": "What is the name of the mathematical constant approximately equal to 2.718?",
     "answer": "Euler's number (e)",
     "choices": [
       "Euler's number (e)",
-      "Pi (\u03c0)",
-      "The golden ratio (\u03c6)",
+      "Pi (π)",
+      "The golden ratio (φ)",
       "Planck's constant (h)"
     ],
-    "explanation": "Euler's number (e \u2248 2.718) is the base of the natural logarithm, fundamental in mathematics and physics."
+    "explanation": "Euler's number (e ≈ 2.718) is the base of the natural logarithm, fundamental in mathematics and physics."
   },
   {
     "question": "What is the name of the chemical reaction that produces light and heat?",
@@ -4269,14 +4269,14 @@
   },
   {
     "question": "What is the name of the fundamental physical law relating energy and mass?",
-    "answer": "E = mc\u00b2",
+    "answer": "E = mc²",
     "choices": [
-      "E = mc\u00b2",
+      "E = mc²",
       "F = ma",
       "PV = nRT",
-      "\u0394E = hf"
+      "ΔE = hf"
     ],
-    "explanation": "Einstein's mass-energy equivalence E = mc\u00b2 states that energy equals mass times the speed of light squared."
+    "explanation": "Einstein's mass-energy equivalence E = mc² states that energy equals mass times the speed of light squared."
   },
   {
     "question": "What is the name of the star closest to the Sun in the Alpha Centauri system?",
@@ -4298,7 +4298,7 @@
       "Ozone depletion",
       "Photochemical smog"
     ],
-    "explanation": "Acid rain forms when sulfur dioxide (SO\u2082) and nitrogen oxides (NO\u2093) from burning fossil fuels react with atmospheric water."
+    "explanation": "Acid rain forms when sulfur dioxide (SO₂) and nitrogen oxides (NOₓ) from burning fossil fuels react with atmospheric water."
   },
   {
     "question": "What is the name of the principle that states no two electrons can have the same quantum state?",
@@ -4306,7 +4306,7 @@
     "choices": [
       "Pauli Exclusion Principle",
       "Heisenberg Uncertainty Principle",
-      "Schr\u00f6dinger's Wave Equation",
+      "Schrödinger's Wave Equation",
       "Bohr's Atomic Model"
     ],
     "explanation": "The Pauli Exclusion Principle states that no two identical fermions (like electrons) can occupy the same quantum state simultaneously."
@@ -4573,10 +4573,10 @@
       "Elasticity",
       "Viscosity"
     ],
-    "explanation": "The bulk modulus measures a material's resistance to uniform compression \u2014 a high bulk modulus means the substance is incompressible."
+    "explanation": "The bulk modulus measures a material's resistance to uniform compression — a high bulk modulus means the substance is incompressible."
   },
   {
-    "question": "What is the common name for the compound NaHCO\u2083?",
+    "question": "What is the common name for the compound NaHCO₃?",
     "answer": "Baking soda",
     "choices": [
       "Baking soda",
@@ -4584,7 +4584,7 @@
       "Washing soda",
       "Salt"
     ],
-    "explanation": "Sodium bicarbonate (NaHCO\u2083) is commonly known as baking soda, used as a leavening agent in baking."
+    "explanation": "Sodium bicarbonate (NaHCO₃) is commonly known as baking soda, used as a leavening agent in baking."
   },
   {
     "question": "What is the name of the gas that gives Mars its reddish color?",
@@ -4595,7 +4595,7 @@
       "Sulfur dioxide",
       "Red dust"
     ],
-    "explanation": "Mars appears red due to iron oxide (rust, Fe\u2082O\u2083) in its soil and dust, which gives the planet a distinctive reddish hue."
+    "explanation": "Mars appears red due to iron oxide (rust, Fe₂O₃) in its soil and dust, which gives the planet a distinctive reddish hue."
   },
   {
     "question": "What is the name of the molecular machine that generates most of the cell's ATP?",
@@ -4639,7 +4639,7 @@
       "Carbon dioxide",
       "Argon"
     ],
-    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, while oxygen makes up about 21%."
+    "explanation": "Nitrogen dominates Earth's atmosphere at about 78%, with oxygen a distant second."
   },
   {
     "question": "What is the process by which plants make their own food using sunlight?",
@@ -4958,7 +4958,7 @@
       "Isaac Newton",
       "Nicolaus Copernicus"
     ],
-    "explanation": "Johannes Kepler formulated three laws of planetary motion (1609\u20131619), describing how planets orbit the sun."
+    "explanation": "Johannes Kepler formulated three laws of planetary motion (1609–1619), describing how planets orbit the sun."
   },
   {
     "question": "What is the name of the process by which rocks are broken down into smaller pieces?",
@@ -5024,7 +5024,7 @@
       "Mesosphere",
       "Thermosphere"
     ],
-    "explanation": "The ozone layer is in the stratosphere, 15\u201335 km above Earth's surface, where it absorbs harmful UV radiation."
+    "explanation": "The ozone layer is in the stratosphere, 15–35 km above Earth's surface, where it absorbs harmful UV radiation."
   },
   {
     "question": "What is the term for an atom that has gained or lost electrons?",

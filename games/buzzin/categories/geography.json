@@ -129,18 +129,18 @@
       "Brazil and Bolivia",
       "India and Pakistan"
     ],
-    "explanation": "The Canada\u2013US border stretches 8,891 km, making it the longest international border in the world."
+    "explanation": "The Canada–US border stretches 8,891 km, making it the longest international border in the world."
   },
   {
     "question": "What is the capital of Brazil?",
-    "answer": "Bras\u00edlia",
+    "answer": "Brasília",
     "choices": [
-      "Bras\u00edlia",
+      "Brasília",
       "Rio de Janeiro",
-      "S\u00e3o Paulo",
+      "São Paulo",
       "Salvador"
     ],
-    "explanation": "Bras\u00edlia replaced Rio de Janeiro as Brazil's capital in 1960 and was purpose-built as a new city."
+    "explanation": "Brasília replaced Rio de Janeiro as Brazil's capital in 1960 and was purpose-built as a new city."
   },
   {
     "question": "Which country contains the Amazon River?",
@@ -184,7 +184,7 @@
       "Yuan",
       "Dong"
     ],
-    "explanation": "The Japanese Yen (\u00a5) is Japan's official currency and one of the most traded currencies in the world."
+    "explanation": "The Japanese Yen (¥) is Japan's official currency and one of the most traded currencies in the world."
   },
   {
     "question": "Which country is home to the Great Barrier Reef?",
@@ -206,7 +206,7 @@
       "Montreal",
       "Vancouver"
     ],
-    "explanation": "Ottawa, located in Ontario, has been Canada's capital since 1857."
+    "explanation": "Ottawa has long served as the capital of Canada and as its political and cultural center."
   },
   {
     "question": "Which mountain range runs along the border between Europe and Asia?",
@@ -283,7 +283,7 @@
       "United States",
       "China"
     ],
-    "explanation": "France, including its overseas territories, spans 12 time zones \u2014 more than any other country."
+    "explanation": "France, including its overseas territories, spans 12 time zones — more than any other country."
   },
   {
     "question": "What is the name of the world's largest hot desert?",
@@ -415,7 +415,7 @@
       "Spain",
       "France"
     ],
-    "explanation": "Italy has 58 UNESCO World Heritage Sites, the most of any country."
+    "explanation": "Italy leads the world with 58 UNESCO World Heritage Sites, reflecting its dense concentration of history and art."
   },
   {
     "question": "What is the name of the sea between Italy and the Balkans?",
@@ -437,7 +437,7 @@
       "Colombia",
       "Bolivia"
     ],
-    "explanation": "Approximately 60% of the Amazon Rainforest is located in Brazil."
+    "explanation": "About 60% of the Amazon Rainforest lies in Brazil, making it central to biodiversity and climate policy."
   },
   {
     "question": "What is the capital of China?",
@@ -525,7 +525,7 @@
       "Timor Sea",
       "Arafura Sea"
     ],
-    "explanation": "The Tasman Sea lies between southeastern Australia and New Zealand."
+    "explanation": "The Tasman Sea lies between southeastern Australia and New Zealand and is a major South Pacific waterway."
   },
   {
     "question": "Which is the only continent without a native reptile species?",
@@ -551,14 +551,14 @@
   },
   {
     "question": "What is the name of the archipelago that belongs to Ecuador in the Pacific Ocean?",
-    "answer": "Gal\u00e1pagos Islands",
+    "answer": "Galápagos Islands",
     "choices": [
-      "Gal\u00e1pagos Islands",
+      "Galápagos Islands",
       "Canary Islands",
       "Easter Island",
-      "Juan Fern\u00e1ndez Islands"
+      "Juan Fernández Islands"
     ],
-    "explanation": "The Gal\u00e1pagos Islands are famous for their unique wildlife that inspired Darwin's theory of evolution."
+    "explanation": "The Galápagos Islands are famous for their unique wildlife that inspired Darwin's theory of evolution."
   },
   {
     "question": "Which city is known as 'The Big Apple'?",
@@ -569,7 +569,7 @@
       "Los Angeles",
       "Miami"
     ],
-    "explanation": "New York City earned the nickname 'The Big Apple' in the 1920s\u20131930s jazz era."
+    "explanation": "New York City earned the nickname 'The Big Apple' in the 1920s–1930s jazz era."
   },
   {
     "question": "What country has the most islands?",
@@ -598,11 +598,11 @@
     "answer": "Buenos Aires",
     "choices": [
       "Buenos Aires",
-      "C\u00f3rdoba",
+      "Córdoba",
       "Rosario",
       "Mendoza"
     ],
-    "explanation": "Buenos Aires is Argentina's capital and largest city, located on the R\u00edo de la Plata."
+    "explanation": "Buenos Aires is Argentina's capital and largest city, located on the Río de la Plata."
   },
   {
     "question": "Which city hosted the first modern Olympics?",
@@ -613,7 +613,7 @@
       "London",
       "Rome"
     ],
-    "explanation": "The first modern Olympic Games were held in Athens, Greece, in 1896."
+    "explanation": "Athens hosted the first modern Olympics in 1896, reviving the ancient Games for the modern era."
   },
   {
     "question": "What is the name of the strip of water separating England from France?",
@@ -763,22 +763,22 @@
     "answer": "Amazon",
     "choices": [
       "Amazon",
-      "Paran\u00e1",
+      "Paraná",
       "Orinoco",
-      "S\u00e3o Francisco"
+      "São Francisco"
     ],
     "explanation": "The Amazon River is about 6,400 km long and carries the largest volume of water of any river in the world."
   },
   {
     "question": "What is the largest city in the Southern Hemisphere?",
-    "answer": "S\u00e3o Paulo",
+    "answer": "São Paulo",
     "choices": [
-      "S\u00e3o Paulo",
+      "São Paulo",
       "Buenos Aires",
       "Sydney",
       "Melbourne"
     ],
-    "explanation": "S\u00e3o Paulo, Brazil, with over 22 million people in its metro area, is the largest city in the Southern Hemisphere."
+    "explanation": "São Paulo, Brazil, with over 22 million people in its metro area, is the largest city in the Southern Hemisphere."
   },
   {
     "question": "Which countries make up the Scandinavian Peninsula?",
@@ -833,7 +833,7 @@
       "Gila River",
       "Pecos River"
     ],
-    "explanation": "The Rio Grande (R\u00edo Bravo del Norte in Mexico) forms the border between Texas and Mexico."
+    "explanation": "The Rio Grande (Río Bravo del Norte in Mexico) forms the border between Texas and Mexico."
   },
   {
     "question": "What is the name of the group of islands that make up Hawaii?",
@@ -943,7 +943,7 @@
       "Aegean Sea",
       "Tyrrhenian Sea"
     ],
-    "explanation": "The Ionian Sea lies between Italy, Greece, and Albania."
+    "explanation": "The Ionian Sea sits between Italy, Greece, and Albania and has long been important to Mediterranean trade."
   },
   {
     "question": "Which country has the longest river in Europe?",
@@ -954,7 +954,7 @@
       "Ukraine",
       "Romania"
     ],
-    "explanation": "The Volga River in Russia is Europe's longest river at 3,530 km."
+    "explanation": "Russia is home to the Volga, Europe's longest river, which has shaped transport and settlement for centuries."
   },
   {
     "question": "What is the capital city of Spain?",
@@ -1075,7 +1075,7 @@
       "Dollar",
       "Crown"
     ],
-    "explanation": "The British Pound Sterling (\u00a3) is the official currency of the United Kingdom."
+    "explanation": "The British Pound Sterling (£) is the official currency of the United Kingdom."
   },
   {
     "question": "Which European country contains the Black Forest?",
@@ -1086,7 +1086,7 @@
       "Switzerland",
       "France"
     ],
-    "explanation": "The Black Forest (Schwarzwald) is a forested mountain range in Baden-W\u00fcrttemberg, southwestern Germany."
+    "explanation": "The Black Forest (Schwarzwald) is a forested mountain range in Baden-Württemberg, southwestern Germany."
   },
   {
     "question": "What is the name of the famous reef system in the Caribbean?",
@@ -1207,7 +1207,7 @@
       "Monterrey",
       "Puebla"
     ],
-    "explanation": "Mexico City (Ciudad de M\u00e9xico) is the capital and largest city of Mexico."
+    "explanation": "Mexico City (Ciudad de México) is the capital and largest city of Mexico."
   },
   {
     "question": "Which US state has the most people?",
@@ -1240,7 +1240,7 @@
       "Botswana",
       "Zimbabwe"
     ],
-    "explanation": "Lesotho is a landlocked country completely encircled by South Africa."
+    "explanation": "Lesotho is an enclave state, completely surrounded by South Africa and known for its high mountain terrain."
   },
   {
     "question": "What is the name of the narrow strip of land connecting North and South America?",
@@ -1249,7 +1249,7 @@
       "Central America",
       "Caribbean",
       "Isthmus of Panama",
-      "Yucat\u00e1n Peninsula"
+      "Yucatán Peninsula"
     ],
     "explanation": "Central America (specifically the Isthmus of Panama) connects North and South America."
   },
@@ -1394,7 +1394,7 @@
       "Libya",
       "Tunisia"
     ],
-    "explanation": "Sudan has approximately 200\u2013255 ancient pyramids, more than Egypt, built by the Kushite kingdoms."
+    "explanation": "Sudan has approximately 200–255 ancient pyramids, more than Egypt, built by the Kushite kingdoms."
   },
   {
     "question": "What is the capital of Pakistan?",
@@ -1427,7 +1427,7 @@
       "Da Nang",
       "Hue"
     ],
-    "explanation": "Hanoi is Vietnam's capital city, located in the north of the country."
+    "explanation": "Hanoi has long served as the capital of Vietnam and as its political and cultural center."
   },
   {
     "question": "Which is the largest lake in North America?",
@@ -1471,7 +1471,7 @@
       "Cabo Branco, Brazil",
       "Point Gallinas, Colombia"
     ],
-    "explanation": "Ponta do Seixas (near Jo\u00e3o Pessoa, Brazil) is the easternmost point of South America."
+    "explanation": "Ponta do Seixas (near João Pessoa, Brazil) is the easternmost point of South America."
   },
   {
     "question": "Which European country has the most active volcanoes?",
@@ -1669,7 +1669,7 @@
       "Equator",
       "Tropic of Cancer"
     ],
-    "explanation": "The Prime Meridian (0\u00b0 longitude) passes through Greenwich, London, dividing Earth into Eastern and Western hemispheres."
+    "explanation": "The Prime Meridian (0° longitude) passes through Greenwich, London, dividing Earth into Eastern and Western hemispheres."
   },
   {
     "question": "Which mountain is the highest in Africa?",
@@ -1709,9 +1709,9 @@
     "answer": "Warsaw",
     "choices": [
       "Warsaw",
-      "Krak\u00f3w",
-      "Gda\u0144sk",
-      "Wroc\u0142aw"
+      "Kraków",
+      "Gdańsk",
+      "Wrocław"
     ],
     "explanation": "Warsaw (Warszawa) is Poland's capital and largest city, rebuilt after being largely destroyed in WWII."
   },
@@ -1746,7 +1746,7 @@
       "Amsterdam",
       "Hong Kong"
     ],
-    "explanation": "Paris has been called 'La Ville Lumi\u00e8re' (The City of Light) since it was one of the first European cities to adopt gas street lighting."
+    "explanation": "Paris has been called 'La Ville Lumière' (The City of Light) since it was one of the first European cities to adopt gas street lighting."
   },
   {
     "question": "What is the name of the desert in southern Africa?",
@@ -1805,14 +1805,14 @@
   },
   {
     "question": "Which city is the most populous in South America?",
-    "answer": "S\u00e3o Paulo",
+    "answer": "São Paulo",
     "choices": [
-      "S\u00e3o Paulo",
+      "São Paulo",
       "Buenos Aires",
       "Lima",
-      "Bogot\u00e1"
+      "Bogotá"
     ],
-    "explanation": "S\u00e3o Paulo, Brazil, is South America's most populous city with over 22 million people in its metropolitan area."
+    "explanation": "São Paulo, Brazil, is South America's most populous city with over 22 million people in its metropolitan area."
   },
   {
     "question": "What is the name of the large plateau region in western China?",
@@ -1856,7 +1856,7 @@
       "Libya",
       "Ethiopia"
     ],
-    "explanation": "Sudan has more ancient pyramids than Egypt, with approximately 200\u2013255 Nubian pyramids."
+    "explanation": "Sudan has more ancient pyramids than Egypt, with approximately 200–255 Nubian pyramids."
   },
   {
     "question": "What is the official name of the island nation of Sri Lanka before 1972?",
@@ -1922,7 +1922,7 @@
       "Buenos Aires, Argentina",
       "Cape Town, South Africa"
     ],
-    "explanation": "Wellington, New Zealand, at 41.3\u00b0S, is the southernmost national capital in the world."
+    "explanation": "Wellington, New Zealand, at 41.3°S, is the southernmost national capital in the world."
   },
   {
     "question": "What is the name of the island group to the north of Scotland?",
@@ -1985,13 +1985,13 @@
     "choices": [
       "Madagascar",
       "Maldives",
-      "R\u00e9union",
+      "Réunion",
       "Seychelles"
     ],
     "explanation": "Madagascar is nicknamed the 'Red Island' or 'Big Red Island' because of its characteristic red laterite soil."
   },
   {
-    "question": "What is the name of the line at 23.5\u00b0N latitude?",
+    "question": "What is the name of the line at 23.5°N latitude?",
     "answer": "Tropic of Cancer",
     "choices": [
       "Tropic of Cancer",
@@ -1999,7 +1999,7 @@
       "Arctic Circle",
       "Equator"
     ],
-    "explanation": "The Tropic of Cancer at 23.5\u00b0N is the northernmost latitude where the sun can be directly overhead."
+    "explanation": "The Tropic of Cancer at 23.5°N is the northernmost latitude where the sun can be directly overhead."
   },
   {
     "question": "Which country is home to the famous ancient city of Petra?",
@@ -2013,15 +2013,15 @@
     "explanation": "Petra is a famous archaeological city in southern Jordan, known for its rock-cut architecture."
   },
   {
-    "question": "What is the name of the channel separating Cuba from the Yucat\u00e1n Peninsula?",
-    "answer": "Yucat\u00e1n Channel",
+    "question": "What is the name of the channel separating Cuba from the Yucatán Peninsula?",
+    "answer": "Yucatán Channel",
     "choices": [
-      "Yucat\u00e1n Channel",
+      "Yucatán Channel",
       "Florida Strait",
       "Windward Passage",
       "Mona Passage"
     ],
-    "explanation": "The Yucat\u00e1n Channel connects the Gulf of Mexico and the Caribbean Sea between Cuba and Mexico."
+    "explanation": "The Yucatán Channel connects the Gulf of Mexico and the Caribbean Sea between Cuba and Mexico."
   },
   {
     "question": "Which country has the most mountains in Europe?",
@@ -2090,7 +2090,7 @@
     "explanation": "The Suez Canal connects the Mediterranean Sea to the Red Sea, eliminating the need to sail around Africa."
   },
   {
-    "question": "Which country has the most ancient civilization history \u2014 sometimes called the 'cradle of civilization'?",
+    "question": "Which country has the most ancient civilization history — sometimes called the 'cradle of civilization'?",
     "answer": "Iraq (Mesopotamia)",
     "choices": [
       "Iraq (Mesopotamia)",
@@ -2109,7 +2109,7 @@
       "Tropic of Cancer",
       "International Date Line"
     ],
-    "explanation": "The Equator at 0\u00b0 latitude divides Earth into the Northern and Southern hemispheres."
+    "explanation": "The Equator at 0° latitude divides Earth into the Northern and Southern hemispheres."
   },
   {
     "question": "Which is the most populous city in the world?",
@@ -2118,7 +2118,7 @@
       "Tokyo",
       "Shanghai",
       "Delhi",
-      "S\u00e3o Paulo"
+      "São Paulo"
     ],
     "explanation": "Tokyo, Japan, is the most populous urban agglomeration with over 37 million people."
   },
@@ -2131,7 +2131,7 @@
       "Franc",
       "Mark"
     ],
-    "explanation": "The Euro (\u20ac) is used by 20 of the 27 EU member states, known collectively as the Eurozone."
+    "explanation": "The Euro (€) is used by 20 of the 27 EU member states, known collectively as the Eurozone."
   },
   {
     "question": "Which country contains the source of the Blue Nile?",
@@ -2193,8 +2193,8 @@
     "answer": "Santiago",
     "choices": [
       "Santiago",
-      "Valpara\u00edso",
-      "Concepci\u00f3n",
+      "Valparaíso",
+      "Concepción",
       "Antofagasta"
     ],
     "explanation": "Santiago is Chile's capital and largest city, home to about 40% of the country's population."
@@ -2362,10 +2362,10 @@
       "Bolivia",
       "Argentina"
     ],
-    "explanation": "Uruguay has a coastline on the Atlantic Ocean and the R\u00edo de la Plata estuary."
+    "explanation": "Uruguay has a coastline on the Atlantic Ocean and the Río de la Plata estuary."
   },
   {
-    "question": "What is the name of the gulf that separates Mexico from the Yucat\u00e1n Peninsula?",
+    "question": "What is the name of the gulf that separates Mexico from the Yucatán Peninsula?",
     "answer": "Gulf of Mexico",
     "choices": [
       "Gulf of Mexico",
@@ -2373,14 +2373,14 @@
       "Caribbean Sea",
       "Gulf of Honduras"
     ],
-    "explanation": "The Gulf of Mexico is partially enclosed by Mexico's coastlines and the Yucat\u00e1n Peninsula."
+    "explanation": "The Gulf of Mexico is partially enclosed by Mexico's coastlines and the Yucatán Peninsula."
   },
   {
     "question": "Which is the smallest country on the African continent?",
     "answer": "Seychelles",
     "choices": [
       "Seychelles",
-      "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "São Tomé and Príncipe",
       "Comoros",
       "Eswatini"
     ],
@@ -2417,7 +2417,7 @@
       "Kinshasa",
       "Johannesburg"
     ],
-    "explanation": "Greater Cairo has approximately 21\u201322 million residents, making it Africa's most populous metro area."
+    "explanation": "Greater Cairo has approximately 21–22 million residents, making it Africa's most populous metro area."
   },
   {
     "question": "Which country in Southeast Asia is located on the Malay Peninsula?",
@@ -2593,7 +2593,7 @@
       "Davao",
       "Quezon City"
     ],
-    "explanation": "Manila is the capital of the Philippines, located on the western coast of Luzon island."
+    "explanation": "Manila has long served as the capital of the Philippines and as its political and cultural center."
   },
   {
     "question": "Which river forms most of the border between the United States and Canada in the Great Lakes region?",
@@ -2652,14 +2652,14 @@
   },
   {
     "question": "What is the capital of Colombia?",
-    "answer": "Bogot\u00e1",
+    "answer": "Bogotá",
     "choices": [
-      "Bogot\u00e1",
-      "Medell\u00edn",
+      "Bogotá",
+      "Medellín",
       "Cali",
       "Cartagena"
     ],
-    "explanation": "Bogot\u00e1 (officially Bogot\u00e1 D.C.) is Colombia's capital and most populous city."
+    "explanation": "Bogotá (officially Bogotá D.C.) is Colombia's capital and most populous city."
   },
   {
     "question": "Which European country has the most castles per capita?",
@@ -2692,7 +2692,7 @@
       "Jamaica",
       "Puerto Rico"
     ],
-    "explanation": "Cuba is the largest island in the Caribbean at about 109,884 sq km."
+    "explanation": "Cuba is the largest Caribbean island by area and the most populous island nation in the region."
   },
   {
     "question": "What is the name of the deep oceanic trench near Japan?",
@@ -2723,7 +2723,7 @@
       "Sognefjord",
       "Hardangerfjord",
       "Geirangerfjord",
-      "N\u00e6r\u00f8yfjord"
+      "Nærøyfjord"
     ],
     "explanation": "Sognefjord is Norway's longest and deepest fjord at 1,308 meters deep and 204 km long."
   },
@@ -2736,7 +2736,7 @@
       "Turkey",
       "Spain"
     ],
-    "explanation": "Rome, Italy, is home to the ancient Colosseum and Roman Forum."
+    "explanation": "Italy is home to the Colosseum and Roman Forum, two of the most famous ruins of ancient Rome."
   },
   {
     "question": "What is the name of the small European country between France and Spain?",
@@ -2901,7 +2901,7 @@
       "Indian Ocean",
       "Atlantic Ocean"
     ],
-    "explanation": "The Southern Ocean (also called the Antarctic Ocean) surrounds Antarctica and extends to 60\u00b0S latitude."
+    "explanation": "The Southern Ocean (also called the Antarctic Ocean) surrounds Antarctica and extends to 60°S latitude."
   },
   {
     "question": "What is the largest river in Africa by volume?",
@@ -3154,7 +3154,7 @@
       "Timor Sea",
       "Solomon Sea"
     ],
-    "explanation": "The Tasman Sea lies between southeastern Australia and New Zealand."
+    "explanation": "Tasman Sea is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which South American country does the Orinoco River flow through?",
@@ -3251,7 +3251,7 @@
       "Havana",
       "Santiago de Cuba",
       "Cienfuegos",
-      "Camag\u00fcey"
+      "Camagüey"
     ],
     "explanation": "Havana (La Habana) is Cuba's capital and largest city, located on the northwestern coast."
   },
@@ -3289,7 +3289,7 @@
     "explanation": "The Arctic Ocean is the coldest and shallowest of the world's five oceans."
   },
   {
-    "question": "What is the name of the geographic line at 66.5\u00b0N latitude?",
+    "question": "What is the name of the geographic line at 66.5°N latitude?",
     "answer": "Arctic Circle",
     "choices": [
       "Arctic Circle",
@@ -3297,7 +3297,7 @@
       "Antarctic Circle",
       "60th Parallel"
     ],
-    "explanation": "The Arctic Circle at 66.5\u00b0N marks the boundary above which the sun doesn't set on the summer solstice."
+    "explanation": "The Arctic Circle at 66.5°N marks the boundary above which the sun doesn't set on the summer solstice."
   },
   {
     "question": "Which country contains Lake Titicaca, the highest navigable lake in the world?",
@@ -3382,7 +3382,7 @@
     "choices": [
       "Lake Nicaragua (Lake Cocibolca)",
       "Lake Gatun",
-      "Lake Atitl\u00e1n",
+      "Lake Atitlán",
       "Lake Yojoa"
     ],
     "explanation": "Lake Nicaragua (Lake Cocibolca) covers about 8,264 sq km and is Central America's largest lake."
@@ -3418,7 +3418,7 @@
       "Quebec",
       "Manitoba"
     ],
-    "explanation": "Ontario borders Minnesota, Michigan, Ohio, Pennsylvania, and New York \u2014 the most US state borders of any Canadian province."
+    "explanation": "Ontario borders Minnesota, Michigan, Ohio, Pennsylvania, and New York — the most US state borders of any Canadian province."
   },
   {
     "question": "What is the name of the tropical cyclone that devastated New Orleans in 2005?",
@@ -3460,7 +3460,7 @@
       "Sri Lanka",
       "Maldives",
       "Madagascar",
-      "R\u00e9union"
+      "Réunion"
     ],
     "explanation": "Sri Lanka was historically called 'The Granary of the East' for its rice production in ancient times."
   },
@@ -3550,7 +3550,7 @@
       "Danube",
       "Oder"
     ],
-    "explanation": "The Elbe flows northwest through the Czech Republic and into Germany."
+    "explanation": "Elbe River is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which US state has the most counties?",
@@ -3561,7 +3561,7 @@
       "Virginia",
       "Kentucky"
     ],
-    "explanation": "Texas has 254 counties, more than any other US state."
+    "explanation": "Texas has the most counties of any U.S. state, with 254 in total. It adds context beyond the answer itself."
   },
   {
     "question": "What is the name of the body of water between Australia and Antarctica?",
@@ -3601,7 +3601,7 @@
     "answer": "Mexican Plateau (Altiplano)",
     "choices": [
       "Mexican Plateau (Altiplano)",
-      "Yucat\u00e1n Peninsula",
+      "Yucatán Peninsula",
       "Sierra Madre",
       "Trans-Mexican Volcanic Belt"
     ],
@@ -3616,7 +3616,7 @@
       "Crete",
       "Cyprus"
     ],
-    "explanation": "Malta's megalithic temples (like \u0120gantija) date to 3600\u20132500 BC and are among the world's oldest freestanding structures."
+    "explanation": "Malta's megalithic temples (like Ġgantija) date to 3600–2500 BC and are among the world's oldest freestanding structures."
   },
   {
     "question": "What is the name of the fault zone in California that runs from north to south?",
@@ -3653,14 +3653,14 @@
   },
   {
     "question": "What is the most populated city in South America?",
-    "answer": "S\u00e3o Paulo",
+    "answer": "São Paulo",
     "choices": [
-      "S\u00e3o Paulo",
+      "São Paulo",
       "Buenos Aires",
       "Lima",
       "Rio de Janeiro"
     ],
-    "explanation": "S\u00e3o Paulo, Brazil, is the most populous city in South America and the Southern Hemisphere."
+    "explanation": "São Paulo, Brazil, is the most populous city in South America and the Southern Hemisphere."
   },
   {
     "question": "Which country contains the world's second longest river (Amazon)?",
@@ -3828,7 +3828,7 @@
     "explanation": "The Strait of Gibraltar (only 14 km at its narrowest) separates Spain from Morocco and connects the two seas."
   },
   {
-    "question": "Which Scandinavian country is home to the fjords of Geiranger and N\u00e6r\u00f8y?",
+    "question": "Which Scandinavian country is home to the fjords of Geiranger and Nærøy?",
     "answer": "Norway",
     "choices": [
       "Norway",
@@ -3836,7 +3836,7 @@
       "Sweden",
       "Denmark"
     ],
-    "explanation": "Geirangerfjord and N\u00e6r\u00f8yfjord are UNESCO World Heritage listed fjords in western Norway."
+    "explanation": "Geirangerfjord and Nærøyfjord are UNESCO World Heritage listed fjords in western Norway."
   },
   {
     "question": "What is the name of the geographic area where freshwater meets saltwater?",
@@ -3913,7 +3913,7 @@
       "Pacific Ocean",
       "Southern Ocean"
     ],
-    "explanation": "The South Atlantic Ocean separates Africa from South America."
+    "explanation": "South Atlantic Ocean is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which European country is home to the Acropolis?",
@@ -3979,7 +3979,7 @@
       "North America",
       "Europe"
     ],
-    "explanation": "Asia is the largest continent, covering approximately 44.6 million square kilometers \u2014 about 30% of Earth's total land area."
+    "explanation": "Asia is the largest continent, covering approximately 44.6 million square kilometers — about 30% of Earth's total land area."
   },
   {
     "question": "What is the world's largest ocean?",
@@ -3990,7 +3990,7 @@
       "Pacific Ocean",
       "Arctic Ocean"
     ],
-    "explanation": "The Pacific Ocean is the largest ocean, covering more than 165 million square kilometers \u2014 larger than all land masses combined."
+    "explanation": "The Pacific Ocean is the largest ocean, covering more than 165 million square kilometers — larger than all land masses combined."
   },
   {
     "question": "What is the tallest mountain in the world?",
@@ -4012,7 +4012,7 @@
       "Brazil",
       "Venezuela"
     ],
-    "explanation": "The majority of the Amazon rainforest \u2014 about 60% \u2014 is located in Brazil, though it extends into 8 other South American countries."
+    "explanation": "The majority of the Amazon rainforest — about 60% — is located in Brazil, though it extends into 8 other South American countries."
   },
   {
     "question": "What is the capital of Japan?",
@@ -4056,7 +4056,7 @@
       "United States",
       "Russia"
     ],
-    "explanation": "Russia is the world's largest country by area, covering 17.1 million square kilometers \u2014 about 11% of Earth's total land area."
+    "explanation": "Russia is the world's largest country by area, covering 17.1 million square kilometers — about 11% of Earth's total land area."
   },
   {
     "question": "Which African country has the largest population?",
@@ -4095,10 +4095,10 @@
     "question": "What is the longest river in South America?",
     "answer": "Amazon River",
     "choices": [
-      "Paran\u00e1",
+      "Paraná",
       "Orinoco",
       "Amazon River",
-      "S\u00e3o Francisco"
+      "São Francisco"
     ],
     "explanation": "The Amazon River is the longest in South America at about 6,400 km and carries the largest volume of water of any river in the world."
   },
@@ -4199,7 +4199,7 @@
       "Vietnam",
       "Japan"
     ],
-    "explanation": "Japan has been called the Land of the Rising Sun because, from China, Japan is to the east \u2014 the direction of the rising sun."
+    "explanation": "Japan has been called the Land of the Rising Sun because, from China, Japan is to the east — the direction of the rising sun."
   },
   {
     "question": "Which lake is the highest navigable lake in the world?",
@@ -4221,7 +4221,7 @@
       "United States",
       "Indonesia"
     ],
-    "explanation": "Indonesia has the most volcanoes of any country \u2014 about 130 active volcanoes \u2014 due to its position on the Pacific Ring of Fire."
+    "explanation": "Indonesia has the most volcanoes of any country — about 130 active volcanoes — due to its position on the Pacific Ring of Fire."
   },
   {
     "question": "Which strait separates Europe from Africa at its closest point?",
@@ -4261,7 +4261,7 @@
     "answer": "Mauritius",
     "choices": [
       "Comoros",
-      "R\u00e9union",
+      "Réunion",
       "Seychelles",
       "Mauritius"
     ],
@@ -4326,8 +4326,8 @@
     "question": "What is the capital of Argentina's neighboring country Chile?",
     "answer": "Santiago",
     "choices": [
-      "Valpara\u00edso",
-      "Concepci\u00f3n",
+      "Valparaíso",
+      "Concepción",
       "Mendoza",
       "Santiago"
     ],
@@ -4349,11 +4349,11 @@
     "answer": "Stockholm",
     "choices": [
       "Gothenburg",
-      "Malm\u00f6",
+      "Malmö",
       "Uppsala",
       "Stockholm"
     ],
-    "explanation": "Stockholm is the capital and largest city of Sweden. Built on 14 islands where Lake M\u00e4laren meets the Baltic Sea, it is known as the 'Venice of the North.'"
+    "explanation": "Stockholm is the capital and largest city of Sweden. Built on 14 islands where Lake Mälaren meets the Baltic Sea, it is known as the 'Venice of the North.'"
   },
   {
     "question": "Which country is home to the Serengeti?",
@@ -4397,7 +4397,7 @@
       "Denmark",
       "Norway"
     ],
-    "explanation": "Norway is famous for its fjords \u2014 deep, narrow inlets carved by glaciers. The Sognefjord is the longest at 204 km."
+    "explanation": "Norway is famous for its fjords — deep, narrow inlets carved by glaciers. The Sognefjord is the longest at 204 km."
   },
   {
     "question": "What is the capital of the Netherlands?",
@@ -4408,7 +4408,7 @@
       "Utrecht",
       "Amsterdam"
     ],
-    "explanation": "Amsterdam is the capital of the Netherlands, though The Hague is where the government sits. Amsterdam is known for its canals."
+    "explanation": "Amsterdam has long served as the capital of the Netherlands and as its political and cultural center."
   },
   {
     "question": "Which country has the world's largest economy?",
@@ -4463,7 +4463,7 @@
       "Pecos River",
       "Rio Grande"
     ],
-    "explanation": "The Rio Grande (called R\u00edo Bravo in Mexico) forms the border between Texas and Mexico, from El Paso to the Gulf of Mexico."
+    "explanation": "The Rio Grande (called Río Bravo in Mexico) forms the border between Texas and Mexico, from El Paso to the Gulf of Mexico."
   },
   {
     "question": "What is the capital of Ukraine?",
@@ -4562,7 +4562,7 @@
       "Africa",
       "South America"
     ],
-    "explanation": "Africa has the most countries of any continent \u2014 54 recognized sovereign states."
+    "explanation": "Africa has the most countries of any continent — 54 recognized sovereign states."
   },
   {
     "question": "Which country is home to the Parthenon?",
@@ -4580,11 +4580,11 @@
     "answer": "Budapest",
     "choices": [
       "Debrecen",
-      "P\u00e9cs",
+      "Pécs",
       "Miskolc",
       "Budapest"
     ],
-    "explanation": "Budapest is the capital of Hungary, formed by the merging of Buda and Pest across the Danube River in 1873."
+    "explanation": "Budapest has long served as the capital of Hungary and as its political and cultural center."
   },
   {
     "question": "Which ocean is the warmest on average?",
@@ -4606,7 +4606,7 @@
       "Bhutan",
       "China"
     ],
-    "explanation": "The Tibetan Plateau lies primarily in China (the Tibet Autonomous Region and Qinghai province). It is the world's highest plateau at an average elevation of 4,500 meters."
+    "explanation": "The Tibetan Plateau lies primarily in China (the Tibet Autonomous Region and Qinghai province)."
   },
   {
     "question": "What is the capital of Peru?",
@@ -4661,7 +4661,7 @@
       "Kisangani",
       "Kinshasa"
     ],
-    "explanation": "Kinshasa is the capital of the DRC and one of Africa's largest cities, located on the Congo River."
+    "explanation": "Kinshasa has long served as the capital of the Democratic Republic of Congo and as its political and cultural center."
   },
   {
     "question": "Which country spans both Europe and Asia?",
@@ -4705,7 +4705,7 @@
       "Bruges",
       "Brussels"
     ],
-    "explanation": "Brussels is the capital of Belgium and home to major EU institutions, hence its nickname 'the capital of Europe.'"
+    "explanation": "Brussels has long served as the capital of Belgium and as its political and cultural center."
   },
   {
     "question": "Which country has the longest river in Asia?",
@@ -4760,7 +4760,7 @@
       "Egypt",
       "Indonesia"
     ],
-    "explanation": "Indonesia has the world's largest Muslim population with over 230 million Muslims \u2014 about 87% of its population."
+    "explanation": "Indonesia has the world's largest Muslim population with over 230 million Muslims — about 87% of its population."
   },
   {
     "question": "What is the capital of Ethiopia's neighbor Somalia?",
@@ -4793,7 +4793,7 @@
       "Basel",
       "Bern"
     ],
-    "explanation": "Bern is the de facto capital of Switzerland (officially, Switzerland has no capital but Bern is the 'federal city'). It has been the seat of the federal government since 1848."
+    "explanation": "Bern is the de facto capital of Switzerland (officially, Switzerland has no capital but Bern is the 'federal city')."
   },
   {
     "question": "Which body of water separates the islands of Japan from the Korean Peninsula?",
@@ -4899,8 +4899,8 @@
     "answer": "Bucharest",
     "choices": [
       "Cluj-Napoca",
-      "Timi\u0219oara",
-      "Ia\u0219i",
+      "Timișoara",
+      "Iași",
       "Bucharest"
     ],
     "explanation": "Bucharest is the capital and largest city of Romania. It was nicknamed 'Little Paris' in the early 20th century for its French-influenced architecture."
@@ -4925,7 +4925,7 @@
       "Peru",
       "Sudan"
     ],
-    "explanation": "Sudan has more ancient pyramids than Egypt \u2014 about 200-255 vs. Egypt's 130-138. The Nubian pyramids were built by the rulers of the ancient Kushite kingdom."
+    "explanation": "Sudan has more ancient pyramids than Egypt — about 200-255 vs. Egypt's 130-138. The Nubian pyramids were built by the rulers of the ancient Kushite kingdom."
   },
   {
     "question": "What is the capital of Ghana?",
@@ -4947,7 +4947,7 @@
       "Venezuela",
       "Brazil"
     ],
-    "explanation": "The Amazon River empties into the Atlantic Ocean on the northeastern coast of Brazil, near the city of Maraj\u00f3 Bay."
+    "explanation": "The Amazon River empties into the Atlantic Ocean on the northeastern coast of Brazil, near the city of Marajó Bay."
   },
   {
     "question": "What is the capital of Myanmar (Burma)?",
@@ -4958,7 +4958,7 @@
       "Bago",
       "Naypyidaw"
     ],
-    "explanation": "Naypyidaw is the capital of Myanmar. It was purpose-built as the capital and officially designated in 2006, replacing Yangon."
+    "explanation": "Naypyidaw has long served as the capital of Myanmar (Burma) and as its political and cultural center."
   },
   {
     "question": "Which sea is located north of the Arabian Peninsula?",
@@ -5002,7 +5002,7 @@
       "Hodeidah",
       "Sana'a"
     ],
-    "explanation": "Sana'a is the capital of Yemen, though Aden serves as a temporary capital during ongoing conflict. Sana'a is one of the oldest continuously inhabited cities."
+    "explanation": "Sana'a has long served as the capital of Saudi Arabia's neighbor Yemen and as its political and cultural center."
   },
   {
     "question": "Which country's territory includes the island of Borneo?",
@@ -5134,7 +5134,7 @@
       "Manta",
       "Quito"
     ],
-    "explanation": "Quito is the capital of Ecuador and the highest official capital city in the world at 2,850 meters above sea level."
+    "explanation": "Quito has long served as the capital of Ecuador and as its political and cultural center."
   },
   {
     "question": "Which country has the Mekong River as a major waterway?",
@@ -5145,13 +5145,13 @@
       "China",
       "Vietnam"
     ],
-    "explanation": "The Mekong River runs through six countries but its delta, where most of its water enters the sea, is in Vietnam's south. It flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam."
+    "explanation": "The Mekong River runs through six countries but its delta, where most of its water enters the sea, is in Vietnam's south."
   },
   {
     "question": "What is the capital of Senegal?",
     "answer": "Dakar",
     "choices": [
-      "Thi\u00e8s",
+      "Thiès",
       "Kaolack",
       "Saint-Louis",
       "Dakar"
@@ -5215,14 +5215,14 @@
   },
   {
     "question": "What is the capital of Paraguay?",
-    "answer": "Asunci\u00f3n",
+    "answer": "Asunción",
     "choices": [
       "Ciudad del Este",
       "San Lorenzo",
       "Luque",
-      "Asunci\u00f3n"
+      "Asunción"
     ],
-    "explanation": "Asunci\u00f3n is the capital and largest city of Paraguay. Founded in 1537, it is one of the oldest continuously inhabited cities in South America."
+    "explanation": "Asunción is the capital and largest city of Paraguay. Founded in 1537, it is one of the oldest continuously inhabited cities in South America."
   },
   {
     "question": "Which country contains the most of the Sahara Desert's area?",
@@ -5266,7 +5266,7 @@
       "Arusha",
       "Dodoma"
     ],
-    "explanation": "Dodoma is the capital of Tanzania. Dar es Salaam is larger and was the former capital, but the government has been relocating to Dodoma since 1996."
+    "explanation": "Dodoma has long served as the capital of Tanzania and as its political and cultural center."
   },
   {
     "question": "Which country has the city of Timbuktu?",
@@ -5291,7 +5291,7 @@
     "explanation": "Kathmandu is the capital and largest city of Nepal, located in the Kathmandu Valley in the Himalayas."
   },
   {
-    "question": "Which country is home to the Gal\u00e1pagos Islands?",
+    "question": "Which country is home to the Galápagos Islands?",
     "answer": "Ecuador",
     "choices": [
       "Peru",
@@ -5299,7 +5299,7 @@
       "Colombia",
       "Ecuador"
     ],
-    "explanation": "The Gal\u00e1pagos Islands are an archipelago of the Pacific Ocean administered as a province of Ecuador, located about 906 km from the Ecuadorian mainland."
+    "explanation": "The Galápagos Islands are an archipelago of the Pacific Ocean administered as a province of Ecuador, located about 906 km from the Ecuadorian mainland."
   },
   {
     "question": "What is the capital of Sudan?",
@@ -5310,7 +5310,7 @@
       "Wad Madani",
       "Khartoum"
     ],
-    "explanation": "Khartoum is the capital of Sudan, located at the confluence of the Blue Nile and White Nile rivers."
+    "explanation": "Khartoum has long served as the capital of Sudan and as its political and cultural center."
   },
   {
     "question": "Which country is known as the Roof of the World?",
@@ -5321,7 +5321,7 @@
       "Mongolia",
       "Tibet"
     ],
-    "explanation": "Tibet (Tibet Autonomous Region of China) is called the Roof of the World due to its extreme altitude \u2014 the Tibetan Plateau averages 4,500 meters above sea level."
+    "explanation": "Tibet (Tibet Autonomous Region of China) is called the Roof of the World due to its extreme altitude — the Tibetan Plateau averages 4,500 meters above sea."
   },
   {
     "question": "What is the capital of Zambia?",
@@ -5349,12 +5349,12 @@
     "question": "What is the capital of Cuba's neighbor Haiti?",
     "answer": "Port-au-Prince",
     "choices": [
-      "Cap-Ha\u00eftien",
+      "Cap-Haïtien",
       "Les Cayes",
-      "Gona\u00efves",
+      "Gonaïves",
       "Port-au-Prince"
     ],
-    "explanation": "Port-au-Prince is the capital and largest city of Haiti, located on the Gulf of Gon\u00e2ve in the Caribbean."
+    "explanation": "Port-au-Prince is the capital and largest city of Haiti, located on the Gulf of Gonâve in the Caribbean."
   },
   {
     "question": "Which river forms the border between Texas and Oklahoma?",
@@ -5373,7 +5373,7 @@
     "choices": [
       "Brno",
       "Ostrava",
-      "Plze\u0148",
+      "Plzeň",
       "Prague"
     ],
     "explanation": "Prague is the capital and largest city of the Czech Republic (Czechia). It is known as the 'City of a Hundred Spires.'"
@@ -5387,7 +5387,7 @@
       "Angola",
       "Mali"
     ],
-    "explanation": "The Sahel is a semi-arid region spanning multiple African countries including Mali, Niger, Chad, Burkina Faso, and Sudan \u2014 acting as a transition zone between the Sahara and sub-Saharan Africa."
+    "explanation": "The Sahel is a semi-arid region spanning multiple African countries including Mali, Niger, Chad, Burkina Faso, and Sudan — acting as a transition zone."
   },
   {
     "question": "What is the capital of Myanmar's neighbor Laos?",
@@ -5415,9 +5415,9 @@
     "question": "What is the capital of Slovakia?",
     "answer": "Bratislava",
     "choices": [
-      "Ko\u0161ice",
-      "Pre\u0161ov",
-      "\u017dilina",
+      "Košice",
+      "Prešov",
+      "Žilina",
       "Bratislava"
     ],
     "explanation": "Bratislava is the capital and largest city of Slovakia. It sits on the Danube River near the borders of Austria and Hungary."
@@ -5482,7 +5482,7 @@
     "answer": "Belgrade",
     "choices": [
       "Novi Sad",
-      "Ni\u0161",
+      "Niš",
       "Kragujevac",
       "Belgrade"
     ],
@@ -5497,7 +5497,7 @@
       "Netherlands",
       "China"
     ],
-    "explanation": "The Port of Shanghai in China is the world's busiest port by cargo volume. China also operates the ports of Ningbo-Zhoushan and Shenzhen, which rank in the top five."
+    "explanation": "The Port of Shanghai in China is the world's busiest port by cargo volume."
   },
   {
     "question": "What is the capital of Cuba's neighbor Dominican Republic?",
@@ -5505,7 +5505,7 @@
     "choices": [
       "Santiago de los Caballeros",
       "La Romana",
-      "San Pedro de Macor\u00eds",
+      "San Pedro de Macorís",
       "Santo Domingo"
     ],
     "explanation": "Santo Domingo is the capital and largest city of the Dominican Republic and the oldest continuously inhabited European city in the Americas (founded 1496)."
@@ -5519,7 +5519,7 @@
       "Namibia",
       "Lesotho"
     ],
-    "explanation": "Lesotho is an enclave nation completely surrounded by South Africa. It is one of only three countries in the world that are entirely surrounded by another single country."
+    "explanation": "Lesotho is an enclave nation completely surrounded by South Africa. It is one of only three countries in the world that are entirely surrounded by another."
   },
   {
     "question": "What is the capital of the United Arab Emirates?",
@@ -5530,7 +5530,7 @@
       "Ajman",
       "Abu Dhabi"
     ],
-    "explanation": "Abu Dhabi is the capital of the UAE. Dubai is more famous internationally, but Abu Dhabi is the seat of the federal government."
+    "explanation": "Abu Dhabi has long served as the capital of the United Arab Emirates and as its political and cultural center."
   },
   {
     "question": "Which country has the Pampas grasslands?",
@@ -5552,7 +5552,7 @@
       "Choibalsan",
       "Ulaanbaatar"
     ],
-    "explanation": "Ulaanbaatar is the capital and largest city of Mongolia. It is the coldest capital city in the world with an average annual temperature of \u22122\u00b0C."
+    "explanation": "Ulaanbaatar is the capital and largest city of Mongolia. It is the coldest capital city in the world with an average annual temperature of −2°C."
   },
   {
     "question": "Which country is home to the source of the Amazon River?",
@@ -5566,15 +5566,15 @@
     "explanation": "The Amazon River originates in the Andes mountains of Peru, near the Nevado Mismi peak, before flowing east through Brazil."
   },
   {
-    "question": "What is the capital of Ivory Coast (C\u00f4te d'Ivoire)?",
+    "question": "What is the capital of Ivory Coast (Côte d'Ivoire)?",
     "answer": "Yamoussoukro",
     "choices": [
       "Abidjan",
-      "Bouak\u00e9",
+      "Bouaké",
       "Daloa",
       "Yamoussoukro"
     ],
-    "explanation": "Yamoussoukro is the official capital of C\u00f4te d'Ivoire. However, Abidjan remains the economic and administrative center where most government functions occur."
+    "explanation": "Yamoussoukro is the official capital of Côte d'Ivoire. However, Abidjan remains the economic and administrative center where most government functions occur."
   },
   {
     "question": "Which country has the largest rainforest in Asia?",
@@ -5589,14 +5589,14 @@
   },
   {
     "question": "What is the capital of Costa Rica?",
-    "answer": "San Jos\u00e9",
+    "answer": "San José",
     "choices": [
       "Liberia",
       "Alajuela",
       "Cartago",
-      "San Jos\u00e9"
+      "San José"
     ],
-    "explanation": "San Jos\u00e9 is the capital and largest city of Costa Rica, located in the Central Valley."
+    "explanation": "San José is the capital and largest city of Costa Rica, located in the Central Valley."
   },
   {
     "question": "Which country contains the Tibetan Autonomous Region?",
@@ -5618,7 +5618,7 @@
       "Paphos",
       "Nicosia"
     ],
-    "explanation": "Nicosia is the capital and largest city of Cyprus. It is the last divided capital in the world, split between the Republic of Cyprus and Turkish-occupied northern Cyprus."
+    "explanation": "Nicosia is the capital and largest city of Cyprus. It is the last divided capital in the world, split between the Republic of Cyprus and Turkish-occupied."
   },
   {
     "question": "Which country is home to the ancient ruins of Angkor Wat?",
@@ -5636,7 +5636,7 @@
     "answer": "Riga",
     "choices": [
       "Daugavpils",
-      "Liep\u0101ja",
+      "Liepāja",
       "Jelgava",
       "Riga"
     ],
@@ -5723,9 +5723,9 @@
     "question": "What is the capital of Albania?",
     "answer": "Tirana",
     "choices": [
-      "Durr\u00ebs",
-      "Vlor\u00eb",
-      "Shkod\u00ebr",
+      "Durrës",
+      "Vlorë",
+      "Shkodër",
       "Tirana"
     ],
     "explanation": "Tirana is the capital and largest city of Albania, located in the center of the country in a valley surrounded by mountains."
@@ -5747,7 +5747,7 @@
     "choices": [
       "Walvis Bay",
       "Swakopmund",
-      "L\u00fcderitz",
+      "Lüderitz",
       "Windhoek"
     ],
     "explanation": "Windhoek is the capital and largest city of Namibia, located in the central highlands."
@@ -5761,18 +5761,18 @@
       "Mongolia",
       "New Zealand"
     ],
-    "explanation": "New Zealand has about 6 sheep per person. With approximately 5 million people and around 30 million sheep, it has more sheep than any other country relative to population."
+    "explanation": "New Zealand has about 6 sheep per person. With approximately 5 million people and around 30 million sheep, it has more sheep than any other country relative."
   },
   {
     "question": "What is the capital of the Maldives?",
-    "answer": "Mal\u00e9",
+    "answer": "Malé",
     "choices": [
       "Addu City",
       "Fuvahmulah",
       "Kulhudhuffushi",
-      "Mal\u00e9"
+      "Malé"
     ],
-    "explanation": "Mal\u00e9 is the capital and most populous city of the Maldives, located on Mal\u00e9 Atoll in the Indian Ocean."
+    "explanation": "Malé is the capital and most populous city of the Maldives, located on Malé Atoll in the Indian Ocean."
   },
   {
     "question": "Which country is home to the Hindu Kush mountain range?",
@@ -5790,8 +5790,8 @@
     "answer": "Vilnius",
     "choices": [
       "Kaunas",
-      "Klaip\u0117da",
-      "\u0160iauliai",
+      "Klaipėda",
+      "Šiauliai",
       "Vilnius"
     ],
     "explanation": "Vilnius is the capital and largest city of Lithuania. Its medieval old town is a UNESCO World Heritage Site."
@@ -5805,18 +5805,18 @@
       "Guyana",
       "Venezuela"
     ],
-    "explanation": "Angel Falls (Salto \u00c1ngel) in Venezuela is the world's highest uninterrupted waterfall at 979 meters. It is located in Canaima National Park."
+    "explanation": "Angel Falls (Salto Ángel) in Venezuela is the world's highest uninterrupted waterfall at 979 meters. It is located in Canaima National Park."
   },
   {
     "question": "What is the capital of Cameroon?",
-    "answer": "Yaound\u00e9",
+    "answer": "Yaoundé",
     "choices": [
       "Douala",
       "Bafoussam",
       "Bamenda",
-      "Yaound\u00e9"
+      "Yaoundé"
     ],
-    "explanation": "Yaound\u00e9 is the capital of Cameroon. Douala is the larger and more economically important city, but Yaound\u00e9 is the seat of government."
+    "explanation": "Yaoundé has long served as the capital of Cameroon and as its political and cultural center."
   },
   {
     "question": "What is the capital of Tunisia?",
@@ -5868,7 +5868,7 @@
     "choices": [
       "Akureyri",
       "Keflavik",
-      "Hafnarfj\u00f6r\u00f0ur",
+      "Hafnarfjörður",
       "Reykjavik"
     ],
     "explanation": "Reykjavik is the capital and largest city of Iceland, and the northernmost capital of a sovereign state in the world."
@@ -5882,7 +5882,7 @@
       "Germany",
       "China"
     ],
-    "explanation": "China borders 14 countries: Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, Vietnam, and North Korea. Russia also borders 14 countries."
+    "explanation": "China borders 14 countries: Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, Vietnam, and."
   },
   {
     "question": "What is the capital of Belarus?",
@@ -5959,7 +5959,7 @@
       "Birkirkara",
       "Valletta"
     ],
-    "explanation": "Valletta is the capital of Malta and the smallest EU capital by area at just 0.8 square kilometers. It is a UNESCO World Heritage Site."
+    "explanation": "Valletta has long served as the capital of Malta and as its political and cultural center."
   },
   {
     "question": "Which country contains the headwaters of the Nile River?",
@@ -5970,7 +5970,7 @@
       "Sudan",
       "Rwanda"
     ],
-    "explanation": "The most remote source of the Nile is the Kagera River in the Nyungwe Forest of Rwanda, though Lake Victoria in Uganda is traditionally considered the Nile's source."
+    "explanation": "The most remote source of the Nile is the Kagera River in the Nyungwe Forest of Rwanda, though Lake Victoria in Uganda is traditionally considered the."
   },
   {
     "question": "What is the capital of the Republic of Ireland?",
@@ -6058,7 +6058,7 @@
       "Aral Sea",
       "Caspian Sea"
     ],
-    "explanation": "The Caspian Sea is the world's largest lake by surface area at 371,000 km\u00b2. It is technically a lake as it is landlocked."
+    "explanation": "The Caspian Sea is the world's largest lake by surface area at 371,000 km². It is technically a lake as it is landlocked."
   },
   {
     "question": "What is the capital of Honduras?",
@@ -6088,7 +6088,7 @@
     "choices": [
       "Tartu",
       "Narva",
-      "P\u00e4rnu",
+      "Pärnu",
       "Tallinn"
     ],
     "explanation": "Tallinn is the capital and largest city of Estonia. Its medieval old town is a UNESCO World Heritage Site."
@@ -6149,15 +6149,15 @@
     "explanation": "Varanasi (also called Benares or Kashi) is a city in Uttar Pradesh, India, on the banks of the Ganges River. It is one of the holiest cities in Hinduism."
   },
   {
-    "question": "What is the capital of C\u00f4te d'Ivoire (Ivory Coast)?",
+    "question": "What is the capital of Côte d'Ivoire (Ivory Coast)?",
     "answer": "Yamoussoukro",
     "choices": [
       "Abidjan",
-      "Bouak\u00e9",
-      "San-P\u00e9dro",
+      "Bouaké",
+      "San-Pédro",
       "Yamoussoukro"
     ],
-    "explanation": "Yamoussoukro is the official capital of C\u00f4te d'Ivoire. The government is partly in Abidjan, the economic capital."
+    "explanation": "Yamoussoukro is the official capital of Côte d'Ivoire. The government is partly in Abidjan, the economic capital."
   },
   {
     "question": "Which river is known as the 'Father of African Rivers'?",
@@ -6174,7 +6174,7 @@
     "question": "What is the capital of Panama?",
     "answer": "Panama City",
     "choices": [
-      "Col\u00f3n",
+      "Colón",
       "David",
       "Santiago",
       "Panama City"
@@ -6201,7 +6201,7 @@
       "India",
       "Mexico"
     ],
-    "explanation": "The Tropic of Cancer passes through several countries. Mexico is one of the most notable, with the line crossing through states like Sinaloa, Durango, and Yucatan."
+    "explanation": "The Tropic of Cancer passes through several countries. Mexico is one of the most notable, with the line crossing through states like Sinaloa, Durango, and."
   },
   {
     "question": "What is the capital of Suriname?",
@@ -6278,7 +6278,7 @@
       "Chicago",
       "Washington D.C."
     ],
-    "explanation": "Washington D.C. is the capital of the United States. It was purpose-built as the nation's capital and named after the first president, George Washington."
+    "explanation": "Washington D.C. has long served as the capital of Cuba's larger neighbor the United States and as its political and cultural center."
   },
   {
     "question": "Which country has the Altai Mountains?",
@@ -6311,7 +6311,7 @@
       "Turkey",
       "Iraq"
     ],
-    "explanation": "Babylon was an ancient city-state in Mesopotamia, located about 85 km south of modern Baghdad, Iraq. It was one of the most important cities of the ancient world."
+    "explanation": "Babylon was an ancient city-state in Mesopotamia, located about 85 km south of modern Baghdad, Iraq."
   },
   {
     "question": "What is the capital of Bahrain?",
@@ -6429,7 +6429,7 @@
     "choices": [
       "Kankan",
       "Kindia",
-      "Lab\u00e9",
+      "Labé",
       "Conakry"
     ],
     "explanation": "Conakry is the capital and largest city of Guinea, located on the Kaloum Peninsula along the Atlantic coast."
@@ -6491,14 +6491,14 @@
   },
   {
     "question": "What is the capital of Togo?",
-    "answer": "Lom\u00e9",
+    "answer": "Lomé",
     "choices": [
-      "Sokod\u00e9",
+      "Sokodé",
       "Kara",
-      "Atakpam\u00e9",
-      "Lom\u00e9"
+      "Atakpamé",
+      "Lomé"
     ],
-    "explanation": "Lom\u00e9 is the capital and largest city of Togo, located on the Gulf of Guinea in West Africa."
+    "explanation": "Lomé is the capital and largest city of Togo, located on the Gulf of Guinea in West Africa."
   },
   {
     "question": "Which country contains the Bosphorus strait?",
@@ -6575,15 +6575,15 @@
       "Albania",
       "Turkey"
     ],
-    "explanation": "Troy (Ilium) is an ancient city located in what is now western Turkey, near the town of Tevfikiye in \u00c7anakkale Province."
+    "explanation": "Troy (Ilium) is an ancient city located in what is now western Turkey, near the town of Tevfikiye in Çanakkale Province."
   },
   {
     "question": "What is the capital of Turkmenistan?",
     "answer": "Ashgabat",
     "choices": [
-      "T\u00fcrkmenabat",
+      "Türkmenabat",
       "Mary",
-      "Da\u015foguz",
+      "Daşoguz",
       "Ashgabat"
     ],
     "explanation": "Ashgabat is the capital and largest city of Turkmenistan. It is known for its extravagant white marble buildings."
@@ -6603,7 +6603,7 @@
     "question": "What is the capital of the Central African Republic?",
     "answer": "Bangui",
     "choices": [
-      "Berb\u00e9rati",
+      "Berbérati",
       "Carnot",
       "Bambari",
       "Bangui"
@@ -6641,7 +6641,7 @@
       "Canary Current",
       "Gulf Stream"
     ],
-    "explanation": "The Gulf Stream (and its extension, the North Atlantic Current) carries warm water from the Gulf of Mexico to Northwestern Europe, keeping it milder than comparable latitudes in North America."
+    "explanation": "The Gulf Stream (and its extension, the North Atlantic Current) carries warm water from the Gulf of Mexico to Northwestern Europe, keeping it milder than."
   },
   {
     "question": "What is the capital of Djibouti?",
@@ -6685,14 +6685,14 @@
       "Uruguay",
       "Argentina"
     ],
-    "explanation": "The Paran\u00e1 River runs through Brazil, Paraguay, and Argentina before emptying into the R\u00edo de la Plata. Argentina has the longest stretch."
+    "explanation": "The Paraná River runs through Brazil, Paraguay, and Argentina before emptying into the Río de la Plata. Argentina has the longest stretch."
   },
   {
     "question": "What is the capital of Guinea-Bissau?",
     "answer": "Bissau",
     "choices": [
-      "Bafat\u00e1",
-      "Gab\u00fa",
+      "Bafatá",
+      "Gabú",
       "Farim",
       "Bissau"
     ],
@@ -6713,8 +6713,8 @@
     "question": "What is the capital of Haiti?",
     "answer": "Port-au-Prince",
     "choices": [
-      "Cap-Ha\u00eftien",
-      "Gona\u00efves",
+      "Cap-Haïtien",
+      "Gonaïves",
       "Les Cayes",
       "Port-au-Prince"
     ],
@@ -6733,14 +6733,14 @@
   },
   {
     "question": "What is the capital of Moldova?",
-    "answer": "Chi\u0219in\u0103u",
+    "answer": "Chișinău",
     "choices": [
       "Tiraspol",
-      "B\u0103l\u021bi",
+      "Bălți",
       "Bender",
-      "Chi\u0219in\u0103u"
+      "Chișinău"
     ],
-    "explanation": "Chi\u0219in\u0103u is the capital and largest city of Moldova. It is located in the center of the country on the B\u00eec River."
+    "explanation": "Chișinău is the capital and largest city of Moldova. It is located in the center of the country on the Bîc River."
   },
   {
     "question": "What is the capital of Kosovo?",
@@ -6762,7 +6762,7 @@
       "Malawi",
       "Ethiopia"
     ],
-    "explanation": "The East African Rift runs through several countries. Ethiopia contains the northern part (Afar Triangle and Ethiopian Rift Valley), a geologically significant section."
+    "explanation": "The East African Rift runs through several countries. Ethiopia contains the northern part (Afar Triangle and Ethiopian Rift Valley), a geologically."
   },
   {
     "question": "What is the capital of Gabon?",
@@ -6806,7 +6806,7 @@
       "Ethiopia",
       "Uganda"
     ],
-    "explanation": "Lake Victoria borders Uganda, Tanzania, and Kenya. Uganda contains the northern shore including the lake's outlet \u2014 the Nile \u2014 at Jinja."
+    "explanation": "Lake Victoria borders Uganda, Tanzania, and Kenya. Uganda contains the northern shore including the lake's outlet — the Nile — at Jinja."
   },
   {
     "question": "What is the capital of Lebanon?",
@@ -6850,7 +6850,7 @@
       "Switzerland",
       "Germany"
     ],
-    "explanation": "Germany borders 9 countries: Denmark, Netherlands, Belgium, Luxembourg, France, Switzerland, Austria, Czech Republic, and Poland \u2014 more than any other European country."
+    "explanation": "Germany borders 9 countries: Denmark, Netherlands, Belgium, Luxembourg, France, Switzerland, Austria, Czech Republic, and Poland — more than any other."
   },
   {
     "question": "What is the capital of Brunei?",
@@ -6861,7 +6861,7 @@
       "Kuala Belait",
       "Bandar Seri Begawan"
     ],
-    "explanation": "Bandar Seri Begawan is the capital city of Brunei, a small oil-rich sultanate on the island of Borneo."
+    "explanation": "Bandar Seri Begawan has long served as the capital of Brunei and as its political and cultural center."
   },
   {
     "question": "Which country contains the Mara River?",
@@ -6872,7 +6872,7 @@
       "Rwanda",
       "Kenya"
     ],
-    "explanation": "The Mara River originates in Kenya's Mau Forest and flows into Tanzania's Serengeti. It is famous as the crossing point for wildebeest during the Great Migration."
+    "explanation": "The Mara River originates in Kenya's Mau Forest and flows into Tanzania's Serengeti."
   },
   {
     "question": "What is the capital of Mongolia's neighbor North Korea?",
@@ -6894,7 +6894,7 @@
       "Hungary",
       "Poland"
     ],
-    "explanation": "The Wieliczka Salt Mine near Krak\u00f3w, Poland has been mined for salt since the 13th century. It contains an underground cathedral carved in salt and is a UNESCO World Heritage Site."
+    "explanation": "The Wieliczka Salt Mine near Kraków, Poland has been mined for salt since the 13th century."
   },
   {
     "question": "What is the capital of Mozambique's neighbor Malawi?",
@@ -6971,7 +6971,7 @@
       "Brisbane",
       "Canberra"
     ],
-    "explanation": "Canberra is the capital of Australia. It was purpose-built as a compromise between rivals Sydney and Melbourne and became the capital in 1913."
+    "explanation": "Canberra has long served as the capital of Papua New Guinea's neighbor Australia and as its political and cultural center."
   },
   {
     "question": "Which country contains the Okefenokee Swamp?",
@@ -7052,14 +7052,14 @@
   },
   {
     "question": "What is the capital of Western Sahara?",
-    "answer": "El Aai\u00fan",
+    "answer": "El Aaiún",
     "choices": [
       "Dakhla",
       "Smara",
       "Boujdour",
-      "El Aai\u00fan"
+      "El Aaiún"
     ],
-    "explanation": "El Aai\u00fan (Laayoune) is the largest city and de facto capital of Western Sahara, a disputed territory administered primarily by Morocco."
+    "explanation": "El Aaiún (Laayoune) is the largest city and de facto capital of Western Sahara, a disputed territory administered primarily by Morocco."
   },
   {
     "question": "Which country is home to the ancient city of Teotihuacan?",
@@ -7103,7 +7103,7 @@
       "Tofol",
       "Palikir"
     ],
-    "explanation": "Palikir is the capital of the Federated States of Micronesia, located on the island of Pohnpei in the western Pacific Ocean."
+    "explanation": "Palikir has long served as the capital of the Federated States of Micronesia and as its political and cultural center."
   },
   {
     "question": "Which country contains the Tibetan antelope?",
@@ -7136,7 +7136,7 @@
       "Italy",
       "Turkey"
     ],
-    "explanation": "The Pergamon altar was an ancient Greek structure built in the 2nd century BCE in Pergamon (modern Bergama, Turkey). The actual altar is now in the Pergamon Museum in Berlin."
+    "explanation": "The Pergamon altar was an ancient Greek structure built in the 2nd century BCE in Pergamon (modern Bergama, Turkey)."
   },
   {
     "question": "What is the capital of Timor-Leste (East Timor)?",
@@ -7158,18 +7158,18 @@
       "Mexico",
       "Canada"
     ],
-    "explanation": "Niagara Falls straddles the border between Ontario, Canada and New York, USA. The American Falls are in the US, but the Horseshoe Falls (most of the water) is on the Canadian side."
+    "explanation": "Niagara Falls straddles the border between Ontario, Canada and New York, USA."
   },
   {
     "question": "What is the capital of Andorra?",
     "answer": "Andorra la Vella",
     "choices": [
       "Escaldes-Engordany",
-      "Sant Juli\u00e0 de L\u00f2ria",
+      "Sant Julià de Lòria",
       "Encamp",
       "Andorra la Vella"
     ],
-    "explanation": "Andorra la Vella is the capital of Andorra. At 1,023 meters above sea level, it is the highest capital city in Europe."
+    "explanation": "Andorra la Vella has long served as the capital of Andorra and as its political and cultural center."
   },
   {
     "question": "Which country contains the Orinoco River?",
@@ -7191,7 +7191,7 @@
       "Triesen",
       "Vaduz"
     ],
-    "explanation": "Vaduz is the capital of Liechtenstein, a tiny principality between Switzerland and Austria. It is home to Vaduz Castle, residence of the reigning prince."
+    "explanation": "Vaduz has long served as the capital of Liechtenstein and as its political and cultural center."
   },
   {
     "question": "Which country contains the Great Wall?",
@@ -7257,7 +7257,7 @@
       "San Ignacio",
       "Belmopan"
     ],
-    "explanation": "Belmopan is the capital of Belize. It was built as a replacement capital after Hurricane Hattie devastated Belize City in 1961."
+    "explanation": "Belmopan has long served as the capital of Belize and as its political and cultural center."
   },
   {
     "question": "What is the capital of San Marino?",
@@ -7268,7 +7268,7 @@
       "Fiorentino",
       "San Marino City"
     ],
-    "explanation": "San Marino City is the capital of San Marino, an enclaved microstate within Italy. San Marino claims to be the world's oldest republic, founded in 301 CE."
+    "explanation": "San Marino City has long served as the capital of San Marino and as its political and cultural center."
   },
   {
     "question": "Which mountain is the highest outside of Asia?",
@@ -7301,7 +7301,7 @@
       "Azerbaijan",
       "Iran"
     ],
-    "explanation": "The Elburz (Alborz) mountain range is located in northern Iran, separating the Caspian coast from the Iranian plateau. Its highest peak is Mount Damavand at 5,610 meters."
+    "explanation": "The Elburz (Alborz) mountain range is located in northern Iran, separating the Caspian coast from the Iranian plateau."
   },
   {
     "question": "What is the capital of Palau?",
@@ -7312,7 +7312,7 @@
       "Meyungs",
       "Ngerulmud"
     ],
-    "explanation": "Ngerulmud is the capital of Palau, though it is a small area. Koror is the most populous city and the former capital."
+    "explanation": "Ngerulmud has long served as the capital of Palau and as its political and cultural center."
   },
   {
     "question": "Which country contains the Drakensberg mountain range?",
@@ -7345,7 +7345,7 @@
       "Iran",
       "Iraq"
     ],
-    "explanation": "The Tigris flows primarily through Iraq, running through Baghdad and joining the Euphrates near Basra. Ancient Mesopotamian civilizations developed between the Tigris and Euphrates."
+    "explanation": "The Tigris flows primarily through Iraq, running through Baghdad and joining the Euphrates near Basra."
   },
   {
     "question": "What is the capital of Comoros?",
@@ -7374,7 +7374,7 @@
     "answer": "Praia",
     "choices": [
       "Mindelo",
-      "S\u00e3o Filipe",
+      "São Filipe",
       "Sal Rei",
       "Praia"
     ],
@@ -7392,15 +7392,15 @@
     "explanation": "The White Nile is generally considered to originate at the Ripon Falls in Uganda where the Nile leaves Lake Victoria."
   },
   {
-    "question": "What is the capital of S\u00e3o Tom\u00e9 and Pr\u00edncipe?",
-    "answer": "S\u00e3o Tom\u00e9",
+    "question": "What is the capital of São Tomé and Príncipe?",
+    "answer": "São Tomé",
     "choices": [
-      "Santo Ant\u00f3nio",
+      "Santo António",
       "Trindade",
       "Neves",
-      "S\u00e3o Tom\u00e9"
+      "São Tomé"
     ],
-    "explanation": "S\u00e3o Tom\u00e9 is the capital and largest city of S\u00e3o Tom\u00e9 and Pr\u00edncipe, an island nation in the Gulf of Guinea."
+    "explanation": "São Tomé is the capital and largest city of São Tomé and Príncipe, an island nation in the Gulf of Guinea."
   },
   {
     "question": "Which country contains the Blue Mountains?",
@@ -7411,18 +7411,18 @@
       "Canada",
       "Australia"
     ],
-    "explanation": "The Blue Mountains are a mountain range in New South Wales, Australia, about 81 km west of Sydney. They are named for the blue haze produced by eucalyptus trees."
+    "explanation": "The Blue Mountains are a mountain range in New South Wales, Australia, about 81 km west of Sydney."
   },
   {
     "question": "What is the capital of Equatorial Guinea?",
     "answer": "Malabo",
     "choices": [
       "Bata",
-      "Ebebiy\u00edn",
+      "Ebebiyín",
       "Aconibe",
       "Malabo"
     ],
-    "explanation": "Malabo is the capital of Equatorial Guinea, located on the island of Bioko. A new capital, Oyala (Ciudad de la Paz), is being constructed on the mainland."
+    "explanation": "Malabo has long served as the capital of Equatorial Guinea and as its political and cultural center."
   },
   {
     "question": "Which country contains the Nullarbor Plain?",
@@ -7433,7 +7433,7 @@
       "Namibia",
       "Australia"
     ],
-    "explanation": "The Nullarbor Plain is a vast flat semi-arid limestone plain in southern Australia, straddling South Australia and Western Australia. Its name means 'no tree' in Latin."
+    "explanation": "The Nullarbor Plain is a vast flat semi-arid limestone plain in southern Australia, straddling South Australia and Western Australia."
   },
   {
     "question": "What is the capital of Kiribati?",
@@ -7488,7 +7488,7 @@
       "Nanumea",
       "Funafuti"
     ],
-    "explanation": "Funafuti is the capital of Tuvalu, a small island nation in the Pacific Ocean. Tuvalu is one of the world's most threatened nations by climate change."
+    "explanation": "Funafuti has long served as the capital of Tuvalu and as its political and cultural center."
   },
   {
     "question": "Which European country has the most vineyards?",
@@ -7543,7 +7543,7 @@
       "Codrington",
       "St. John's"
     ],
-    "explanation": "St. John's is the capital of Antigua and Barbuda, located on the northwestern coast of Antigua island in the Caribbean."
+    "explanation": "St. John's has long served as the capital of Antigua and Barbuda and as its political and cultural center."
   },
   {
     "question": "Which sea lies between Greece and Turkey?",
@@ -7576,7 +7576,7 @@
       "Angola",
       "Namibia"
     ],
-    "explanation": "The Namib Desert runs along the entire Atlantic coast of Namibia, from South Africa in the south to Angola in the north. It is one of the world's oldest deserts."
+    "explanation": "The Namib Desert runs along the entire Atlantic coast of Namibia, from South Africa in the south to Angola in the north."
   },
   {
     "question": "What is the capital of St. Kitts and Nevis?",
@@ -7598,7 +7598,7 @@
       "Mozambique",
       "Namibia"
     ],
-    "explanation": "The Skeleton Coast is the northern part of Namibia's Atlantic coast. It gets its name from the whale and seal bones from the whaling industry and the bleached bones of shipwrecked sailors."
+    "explanation": "The Skeleton Coast is the northern part of Namibia's Atlantic coast. It gets its name from the whale and seal bones from the whaling industry and the."
   },
   {
     "question": "What is the capital of Saint Lucia?",
@@ -7606,7 +7606,7 @@
     "choices": [
       "Vieux Fort",
       "Micoud",
-      "Soufri\u00e8re",
+      "Soufrière",
       "Castries"
     ],
     "explanation": "Castries is the capital and largest city of Saint Lucia, located on the northwestern coast of the island in the Caribbean."
@@ -7642,7 +7642,7 @@
       "Zambia",
       "Tanzania"
     ],
-    "explanation": "The Great Migration's main river crossing occurs at the Mara River in the Serengeti National Park in Tanzania, as wildebeest move between the Serengeti and Kenya's Masai Mara."
+    "explanation": "The Great Migration's main river crossing occurs at the Mara River in the Serengeti National Park in Tanzania, as wildebeest move between the Serengeti and."
   },
   {
     "question": "What is the capital of St. Vincent and the Grenadines?",
@@ -7675,18 +7675,18 @@
       "Vienna",
       "Istanbul"
     ],
-    "explanation": "Istanbul straddles Europe and Asia, divided by the Bosphorus Strait. The European side (Thrace) and Asian side (Anatolia) are connected by bridges and a rail tunnel."
+    "explanation": "Istanbul straddles Europe and Asia, divided by the Bosphorus Strait. The European side (Thrace) and Asian side (Anatolia) are connected by bridges and a."
   },
   {
     "question": "What is the capital of Cabo Verde (Cape Verde)?",
     "answer": "Praia",
     "choices": [
       "Mindelo",
-      "S\u00e3o Vicente",
+      "São Vicente",
       "Sal Rei",
       "Praia"
     ],
-    "explanation": "Praia is the capital of Cabo Verde, an archipelago nation off the west coast of Africa."
+    "explanation": "Praia has long served as the capital of Cabo Verde (Cape Verde) and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Kalahari Meerkat Project?",
@@ -7745,14 +7745,14 @@
   },
   {
     "question": "What is the capital of Sao Tome and Principe?",
-    "answer": "S\u00e3o Tom\u00e9",
+    "answer": "São Tomé",
     "choices": [
-      "Santo Ant\u00f3nio",
+      "Santo António",
       "Trindade",
       "Santana",
-      "S\u00e3o Tom\u00e9"
+      "São Tomé"
     ],
-    "explanation": "S\u00e3o Tom\u00e9 city is the capital of S\u00e3o Tom\u00e9 and Pr\u00edncipe. The country consists of two main islands and several smaller ones in the Gulf of Guinea."
+    "explanation": "São Tomé city is the capital of São Tomé and Príncipe. The country consists of two main islands and several smaller ones in the Gulf of Guinea."
   },
   {
     "question": "Which country is home to the Pantanal, the world's largest tropical wetland?",
@@ -7763,7 +7763,7 @@
       "Argentina",
       "Brazil"
     ],
-    "explanation": "The Pantanal is a vast tropical wetland in South America, primarily in Brazil (Mato Grosso and Mato Grosso do Sul states), with portions in Bolivia and Paraguay."
+    "explanation": "The Pantanal is a vast tropical wetland in South America, primarily in Brazil (Mato Grosso and Mato Grosso do Sul states), with portions in Bolivia and."
   },
   {
     "question": "Which country contains the Drakensberg (Dragon's Mountain) range?",
@@ -7818,7 +7818,7 @@
       "Sandy Point",
       "Basseterre"
     ],
-    "explanation": "Basseterre is the capital of Saint Kitts and Nevis, the smallest sovereign state in the Western Hemisphere."
+    "explanation": "Basseterre has long served as the capital of Saint Kitts and Nevis and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Franz Josef Glacier?",
@@ -7884,7 +7884,7 @@
       "Tulagi",
       "Honiara"
     ],
-    "explanation": "Honiara is the capital of the Solomon Islands, located on the island of Guadalcanal in the southwestern Pacific Ocean."
+    "explanation": "Honiara has long served as the capital of the Solomon Islands and as its political and cultural center."
   },
   {
     "question": "Which country is home to the famous Rock of Gibraltar?",
@@ -7917,7 +7917,7 @@
       "Lebanon",
       "Israel"
     ],
-    "explanation": "The Western Wall (Wailing Wall) is a portion of the ancient limestone wall in the Old City of Jerusalem, under Israeli control. It is the holiest site where Jews can pray."
+    "explanation": "The Western Wall (Wailing Wall) is a portion of the ancient limestone wall in the Old City of Jerusalem, under Israeli control."
   },
   {
     "question": "Which country is home to the statue Christ the Redeemer?",
@@ -7939,7 +7939,7 @@
       "Dudelange",
       "Luxembourg City"
     ],
-    "explanation": "Luxembourg City is the capital of the Grand Duchy of Luxembourg. It is one of the EU's three institutional capitals along with Brussels and Strasbourg."
+    "explanation": "Luxembourg City has long served as the capital of Luxembourg and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Lascaux cave paintings?",
@@ -7961,7 +7961,7 @@
       "Bolivia",
       "Argentina"
     ],
-    "explanation": "Iguazu Falls is located on the border of Argentina and Brazil. The main viewpoint is from the Argentine side, which contains the 'Devil's Throat' U-shaped cataract."
+    "explanation": "Iguazu Falls is located on the border of Argentina and Brazil. The main viewpoint is from the Argentine side, which contains the 'Devil's Throat' U-shaped."
   },
   {
     "question": "Which country has the world's highest waterfall?",
@@ -7972,7 +7972,7 @@
       "Zambia",
       "Venezuela"
     ],
-    "explanation": "Angel Falls (Salto \u00c1ngel) in Venezuela is the world's highest uninterrupted waterfall at 979 meters (3,212 feet). It is in Canaima National Park."
+    "explanation": "Angel Falls (Salto Ángel) in Venezuela is the world's highest uninterrupted waterfall at 979 meters (3,212 feet). It is in Canaima National Park."
   },
   {
     "question": "Which country contains the Pyrenees mountain range?",
@@ -8005,7 +8005,7 @@
       "Iceland",
       "Norway"
     ],
-    "explanation": "The Lofoten Islands are an archipelago in northern Norway, above the Arctic Circle. They are known for dramatic landscapes, fishing villages, and the midnight sun."
+    "explanation": "The Lofoten Islands are an archipelago in northern Norway, above the Arctic Circle."
   },
   {
     "question": "Which country has the Salinas Grandes salt flats?",
@@ -8016,18 +8016,18 @@
       "Peru",
       "Argentina"
     ],
-    "explanation": "The Salinas Grandes are a large salt flat in northwestern Argentina, in Jujuy and Salta provinces. Bolivia's Uyuni is more famous, but Argentina's salt flats are also significant."
+    "explanation": "The Salinas Grandes are a large salt flat in northwestern Argentina, in Jujuy and Salta provinces."
   },
   {
     "question": "What is the capital of New Caledonia?",
     "answer": "Noumea",
     "choices": [
-      "Kon\u00e9",
+      "Koné",
       "La Foa",
       "Bourail",
       "Noumea"
     ],
-    "explanation": "Noumea is the capital of New Caledonia, a French special collectivity in the southwestern Pacific Ocean."
+    "explanation": "Noumea has long served as the capital of New Caledonia and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Skeleton Coast National Park?",
@@ -8038,7 +8038,7 @@
       "Botswana",
       "Namibia"
     ],
-    "explanation": "Skeleton Coast National Park is on the Atlantic coast of Namibia. The name comes from the bleached whale and seal bones, and the skeletons of shipwrecked sailors."
+    "explanation": "Skeleton Coast National Park is on the Atlantic coast of Namibia. The name comes from the bleached whale and seal bones, and the skeletons of shipwrecked."
   },
   {
     "question": "What is the capital of South Sudan?",
@@ -8071,13 +8071,13 @@
       "Indonesia",
       "Vietnam"
     ],
-    "explanation": "Ha Long Bay is in Qu\u1ea3ng Ninh Province, Vietnam. It is known for its emerald waters and thousands of towering limestone islands topped with rainforests."
+    "explanation": "Ha Long Bay is in Quảng Ninh Province, Vietnam. It is known for its emerald waters and thousands of towering limestone islands topped with rainforests."
   },
   {
     "question": "What is the capital of Nicaragua?",
     "answer": "Managua",
     "choices": [
-      "Le\u00f3n",
+      "León",
       "Granada",
       "Masaya",
       "Managua"
@@ -8104,7 +8104,7 @@
       "Sima",
       "Moroni"
     ],
-    "explanation": "Moroni is the capital of the Comoros, a small island nation off the eastern coast of Africa in the Indian Ocean."
+    "explanation": "Moroni has long served as the capital of the Comoros and as its political and cultural center."
   },
   {
     "question": "Which African country has the Nile Delta?",
@@ -8132,8 +8132,8 @@
     "question": "What is the capital of Guinea Bissau?",
     "answer": "Bissau",
     "choices": [
-      "Bafat\u00e1",
-      "Gab\u00fa",
+      "Bafatá",
+      "Gabú",
       "Farim",
       "Bissau"
     ],
@@ -8159,7 +8159,7 @@
       "Saudi Arabia",
       "Iran"
     ],
-    "explanation": "The Kavir Desert (Dasht-e Kavir), also known as the Great Salt Desert, is a large desert in north-central Iran. It is one of the driest and harshest places on Earth."
+    "explanation": "The Kavir Desert (Dasht-e Kavir), also known as the Great Salt Desert, is a large desert in north-central Iran."
   },
   {
     "question": "Which country has the Ayers Rock (Uluru)?",
@@ -8181,7 +8181,7 @@
       "Bakau",
       "Banjul"
     ],
-    "explanation": "Banjul is the capital of Gambia, the smallest country on mainland Africa. It is located on St. Mary's Island at the mouth of the Gambia River."
+    "explanation": "Banjul has long served as the capital of the Gambia and as its political and cultural center."
   },
   {
     "question": "Which country has the world's highest road?",
@@ -8203,7 +8203,7 @@
       "Thailand",
       "Bangladesh"
     ],
-    "explanation": "The Sundarbans is the world's largest mangrove forest, shared between Bangladesh and India. The Bangladesh portion is larger and is a UNESCO World Heritage Site."
+    "explanation": "The Sundarbans is the world's largest mangrove forest, shared between Bangladesh and India."
   },
   {
     "question": "What is the capital of Lesotho?",
@@ -8225,7 +8225,7 @@
       "Sudan",
       "Ethiopia"
     ],
-    "explanation": "The Simien Mountains are in northern Ethiopia and form one of Africa's major highlands. They are a UNESCO World Heritage Site home to the Gelada baboon and Ethiopian wolf."
+    "explanation": "The Simien Mountains are in northern Ethiopia and form one of Africa's major highlands."
   },
   {
     "question": "What is the capital of Swaziland (Eswatini)?",
@@ -8236,7 +8236,7 @@
       "Siteki",
       "Mbabane"
     ],
-    "explanation": "Mbabane is the capital of Eswatini (formerly Swaziland), a small landlocked kingdom in southern Africa. Lobamba is the royal and legislative capital."
+    "explanation": "Mbabane has long served as the capital of Swaziland (Eswatini) and as its political and cultural center."
   },
   {
     "question": "Which country contains the Huang Shan (Yellow Mountains)?",
@@ -8247,7 +8247,7 @@
       "Taiwan",
       "China"
     ],
-    "explanation": "Huangshan (Yellow Mountains) is a mountain range in Anhui Province, China, known for its uniquely shaped granite peaks, hot springs, and ancient pines. It is a UNESCO World Heritage Site."
+    "explanation": "Huangshan (Yellow Mountains) is a mountain range in Anhui Province, China, known for its uniquely shaped granite peaks, hot springs, and ancient pines."
   },
   {
     "question": "Which country is home to the Vinson Massif?",
@@ -8280,7 +8280,7 @@
       "Nkayi",
       "Brazzaville"
     ],
-    "explanation": "Brazzaville is the capital of the Republic of Congo. It sits directly across the Congo River from Kinshasa, the DRC capital \u2014 the only place in the world where two national capitals are visible from each other."
+    "explanation": "Brazzaville has long served as the capital of the Republic of Congo (Congo-Brazzaville) and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Sundarbans Delta?",
@@ -8291,7 +8291,7 @@
       "Thailand",
       "Bangladesh"
     ],
-    "explanation": "The Sundarbans Delta is in Bangladesh and India, where the Ganges, Brahmaputra, and Meghna rivers empty into the Bay of Bengal. It is the world's largest river delta."
+    "explanation": "The Sundarbans Delta is in Bangladesh and India, where the Ganges, Brahmaputra, and Meghna rivers empty into the Bay of Bengal."
   },
   {
     "question": "What is the capital of Eswatini (Swaziland)?",
@@ -8365,10 +8365,10 @@
     "choices": [
       "Kindia",
       "Kankan",
-      "Lab\u00e9",
+      "Labé",
       "Conakry"
     ],
-    "explanation": "Conakry is the capital of Guinea. It is located on Tombo Island, connected to the mainland, on the Atlantic coast of West Africa."
+    "explanation": "Conakry has long served as the capital of Senegal's neighbor Guinea and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Skeleton Coast?",
@@ -8379,7 +8379,7 @@
       "Mozambique",
       "Namibia"
     ],
-    "explanation": "The Skeleton Coast is a stretch of Namibia's Atlantic coast known for its dangerous seas, desert conditions, and the bleached bones of stranded whales and sailors."
+    "explanation": "The Skeleton Coast is a stretch of Namibia's Atlantic coast known for its dangerous seas, desert conditions, and the bleached bones of stranded whales and."
   },
   {
     "question": "What is the capital of Chad?",
@@ -8387,7 +8387,7 @@
     "choices": [
       "Moundou",
       "Sarh",
-      "Ab\u00e9ch\u00e9",
+      "Abéché",
       "N'Djamena"
     ],
     "explanation": "N'Djamena is the capital and largest city of Chad, located near the confluence of the Chari and Logone rivers."
@@ -8412,7 +8412,7 @@
       "Makeni",
       "Freetown"
     ],
-    "explanation": "Freetown is the capital of Sierra Leone. It is located at the northern end of the Freetown Peninsula on the Atlantic Ocean."
+    "explanation": "Freetown has long served as the capital of Liberia's neighbor Sierra Leone and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Masoala Peninsula?",
@@ -8434,7 +8434,7 @@
       "Atar",
       "Nouakchott"
     ],
-    "explanation": "Nouakchott is the capital of Mauritania, located near the Atlantic Ocean in northwestern Africa. It is the capital closest to the Sahara Desert."
+    "explanation": "Nouakchott has long served as the capital of Western Sahara's neighbor Mauritania and as its political and cultural center."
   },
   {
     "question": "Which country contains the Taklimakan Desert?",
@@ -8451,12 +8451,12 @@
     "question": "What is the capital of Cape Verde's neighbor Senegal?",
     "answer": "Dakar",
     "choices": [
-      "Thi\u00e8s",
+      "Thiès",
       "Saint-Louis",
       "Ziguinchor",
       "Dakar"
     ],
-    "explanation": "Dakar is the capital of Senegal on the Cape Verde Peninsula (not to be confused with Cape Verde islands). It is on Africa's westernmost point."
+    "explanation": "Dakar has long served as the capital of Cape Verde's neighbor Senegal and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Kavango River Basin?",
@@ -8467,7 +8467,7 @@
       "Zambia",
       "Botswana"
     ],
-    "explanation": "The Kavango (Okavango) River originates in Angola, passes through Namibia (Caprivi Strip), and empties into the Okavango Delta in Botswana \u2014 one of the world's largest inland deltas."
+    "explanation": "The Kavango (Okavango) River originates in Angola, passes through Namibia (Caprivi Strip), and empties into the Okavango Delta in Botswana — one of the."
   },
   {
     "question": "Which country contains Lake Tanganyika's eastern shore?",
@@ -8478,7 +8478,7 @@
       "Burundi",
       "Tanzania"
     ],
-    "explanation": "Lake Tanganyika borders four countries: Tanzania (eastern shore), DRC (western shore), Zambia (southern shore), and Burundi (northern tip). Tanzania has the longest shoreline."
+    "explanation": "Lake Tanganyika borders four countries: Tanzania (eastern shore), DRC (western shore), Zambia (southern shore), and Burundi (northern tip)."
   },
   {
     "question": "What is the capital of the Comoros Islands?",
@@ -8489,7 +8489,7 @@
       "Fomboni",
       "Moroni"
     ],
-    "explanation": "Moroni is the capital of the Union of the Comoros, located on the western coast of Grande Comore (Ngazidja) island."
+    "explanation": "Moroni has long served as the capital of the Comoros Islands and as its political and cultural center."
   },
   {
     "question": "Which country contains the world's longest coral reef system?",
@@ -8522,7 +8522,7 @@
       "Nakuru",
       "Nairobi"
     ],
-    "explanation": "Nairobi is the capital of Kenya, located in the south-central part of the country. It was founded in 1899 as a railway depot."
+    "explanation": "Nairobi has long served as the capital of Somalia's neighbor Kenya and as its political and cultural center."
   },
   {
     "question": "Which country contains the Zagros Mountains?",
@@ -8537,14 +8537,14 @@
   },
   {
     "question": "What is the capital of the Republic of Maldives?",
-    "answer": "Mal\u00e9",
+    "answer": "Malé",
     "choices": [
       "Addu City",
       "Fuvahmulah",
       "Gan",
-      "Mal\u00e9"
+      "Malé"
     ],
-    "explanation": "Mal\u00e9 is the capital of the Maldives. Located on the North Mal\u00e9 Atoll, it is one of the world's most densely populated cities."
+    "explanation": "Malé has long served as the capital of the Republic of Maldives and as its political and cultural center."
   },
   {
     "question": "Which country has the most borders (tied with another)?",
@@ -8555,7 +8555,7 @@
       "Germany",
       "China"
     ],
-    "explanation": "China and Russia both border 14 countries \u2014 the most in the world. China's neighbors include Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, Vietnam, and North Korea."
+    "explanation": "China and Russia both border 14 countries — the most in the world. China's neighbors include Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan."
   },
   {
     "question": "Which country is home to the Bering Strait?",
@@ -8588,7 +8588,7 @@
       "Lakatoro",
       "Port Vila"
     ],
-    "explanation": "Port Vila is the capital of Vanuatu, an island nation in the South Pacific. Vanuatu is known for its active volcanoes, coral reefs, and diverse cultures."
+    "explanation": "Port Vila has long served as the capital of Fiji's neighbor Vanuatu and as its political and cultural center."
   },
   {
     "question": "Which European country has the most official languages?",
@@ -8610,7 +8610,7 @@
       "Livingstone",
       "Lusaka"
     ],
-    "explanation": "Lusaka is the capital of Zambia, located in the south-central part of the country at about 1,300 meters elevation."
+    "explanation": "Lusaka has long served as the capital of Angola's neighbor Zambia and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Altiplano plateau?",
@@ -8621,7 +8621,7 @@
       "Argentina",
       "Bolivia"
     ],
-    "explanation": "The Altiplano is a high plateau in western Bolivia (and smaller parts of Peru, Chile, and Argentina). At 3,750 meters above sea level, it is one of Earth's highest plateaus."
+    "explanation": "The Altiplano is a high plateau in western Bolivia (and smaller parts of Peru, Chile, and Argentina)."
   },
   {
     "question": "Which country is home to the Atacama's geoglyphs called the Nazca Lines?",
@@ -8632,7 +8632,7 @@
       "Argentina",
       "Peru"
     ],
-    "explanation": "The Nazca Lines are ancient geoglyphs located in the Nazca Desert in southern Peru. Created between 400 BCE and 1000 CE, they depict animals, plants, and geometric shapes."
+    "explanation": "The Nazca Lines are ancient geoglyphs located in the Nazca Desert in southern Peru."
   },
   {
     "question": "Which country has the Gangetic Plain?",
@@ -8643,7 +8643,7 @@
       "Pakistan",
       "India"
     ],
-    "explanation": "The Gangetic Plain (Indo-Gangetic Plain) spans northern India (and also parts of Pakistan, Nepal, and Bangladesh). It is one of the most fertile and densely populated regions in the world."
+    "explanation": "The Gangetic Plain (Indo-Gangetic Plain) spans northern India (and also parts of Pakistan, Nepal, and Bangladesh)."
   },
   {
     "question": "Which country contains the source of the Yellow River?",
@@ -8660,7 +8660,7 @@
     "question": "What is the capital of Central African Republic?",
     "answer": "Bangui",
     "choices": [
-      "Berb\u00e9rati",
+      "Berbérati",
       "Carnot",
       "Bambari",
       "Bangui"
@@ -8682,8 +8682,8 @@
     "question": "What is the capital of Cuba's island neighbor Haiti?",
     "answer": "Port-au-Prince",
     "choices": [
-      "Cap-Ha\u00eftien",
-      "Gona\u00efves",
+      "Cap-Haïtien",
+      "Gonaïves",
       "Jacmel",
       "Port-au-Prince"
     ],
@@ -8731,7 +8731,7 @@
       "India",
       "Pakistan"
     ],
-    "explanation": "The Khyber Pass is a mountain pass on the border between Pakistan and Afghanistan, connecting Peshawar with Kabul. It has been a major trade and invasion route for millennia."
+    "explanation": "The Khyber Pass is a mountain pass on the border between Pakistan and Afghanistan, connecting Peshawar with Kabul."
   },
   {
     "question": "Which country contains the Huang He's (Yellow River) great bend?",
@@ -8786,7 +8786,7 @@
       "UAE",
       "Saudi Arabia"
     ],
-    "explanation": "The Rub' al Khali (Empty Quarter) is the world's largest contiguous sand desert, covering about 650,000 km\u00b2. Most of it is in Saudi Arabia, with parts in Oman, UAE, and Yemen."
+    "explanation": "The Rub' al Khali (Empty Quarter) is the world's largest contiguous sand desert, covering about 650,000 km²."
   },
   {
     "question": "Which country is home to the Murray-Darling River system?",
@@ -8797,7 +8797,7 @@
       "Indonesia",
       "Australia"
     ],
-    "explanation": "The Murray-Darling River system is Australia's longest river system, flowing primarily through New South Wales and Victoria. The Murray is the main river and is critical for irrigation."
+    "explanation": "The Murray-Darling River system is Australia's longest river system, flowing primarily through New South Wales and Victoria."
   },
   {
     "question": "Which mountain range separates France and Spain?",
@@ -8830,7 +8830,7 @@
       "Iraq",
       "Jordan"
     ],
-    "explanation": "Petra is an ancient city carved into rose-red rock in southern Jordan. It was the capital of the Nabataean Kingdom and is now a UNESCO World Heritage Site and one of the New Seven Wonders."
+    "explanation": "Petra is an ancient city carved into rose-red rock in southern Jordan."
   },
   {
     "question": "Which country is home to the Sundarbans National Park?",
@@ -8841,7 +8841,7 @@
       "Thailand",
       "Bangladesh"
     ],
-    "explanation": "The Sundarbans National Park spans the Sundarbans delta in southern Bangladesh (and India). It is the world's largest mangrove forest and a UNESCO World Heritage Site."
+    "explanation": "The Sundarbans National Park spans the Sundarbans delta in southern Bangladesh (and India)."
   },
   {
     "question": "What is the capital of the Seychelles?",
@@ -8852,7 +8852,7 @@
       "Grand Anse",
       "Victoria"
     ],
-    "explanation": "Victoria is the capital and largest city of the Seychelles. It is located on the northeastern coast of Mah\u00e9 island, the main island of this archipelago nation."
+    "explanation": "Victoria is the capital and largest city of the Seychelles. It is located on the northeastern coast of Mahé island, the main island of this archipelago nation."
   },
   {
     "question": "Which country is home to the Strait of Malacca?",
@@ -8907,7 +8907,7 @@
       "Mossendjo",
       "Brazzaville"
     ],
-    "explanation": "Brazzaville is the capital of the Republic of Congo (Congo-Brazzaville), located on the Congo River directly across from Kinshasa, the DRC capital."
+    "explanation": "Brazzaville has long served as the capital of Congo-Brazzaville (Republic of Congo) and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Mariana Trench?",
@@ -8918,7 +8918,7 @@
       "Micronesia",
       "United States"
     ],
-    "explanation": "The Mariana Trench is in the western Pacific Ocean. While geographically near Guam (a U.S. territory), it is in international waters but the U.S. has jurisdiction over the Challenger Deep area."
+    "explanation": "The Mariana Trench is in the western Pacific Ocean. While geographically near Guam (a U.S."
   },
   {
     "question": "Which country is home to the Mekong River delta?",
@@ -8951,7 +8951,7 @@
       "Italy",
       "Portugal"
     ],
-    "explanation": "The Douro River flows through Spain (where it is called the Duero) and Portugal, entering the Atlantic Ocean at Porto. The Douro Valley is known for port wine production."
+    "explanation": "The Douro River flows through Spain (where it is called the Duero) and Portugal, entering the Atlantic Ocean at Porto."
   },
   {
     "question": "Which country contains the island of Lombok?",
@@ -8973,7 +8973,7 @@
       "Qurghonteppa",
       "Dushanbe"
     ],
-    "explanation": "Dushanbe is the capital of Tajikistan. Its name means 'Monday' in Tajik, as it grew from a Monday marketplace."
+    "explanation": "Dushanbe has long served as the capital of Kyrgyzstan's neighbor Tajikistan and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Socotra Archipelago?",
@@ -8995,7 +8995,7 @@
       "Colombia",
       "Peru"
     ],
-    "explanation": "Lake Titicaca is the world's highest navigable lake at 3,812 meters above sea level. It is shared between Peru and Bolivia, with Peru containing the larger portion."
+    "explanation": "Lake Titicaca is the world's highest navigable lake at 3,812 meters above sea level."
   },
   {
     "question": "What is the capital of Jordan's neighbor Syria?",
@@ -9006,7 +9006,7 @@
       "Latakia",
       "Damascus"
     ],
-    "explanation": "Damascus is the capital of Syria and one of the oldest continuously inhabited cities in the world, with history dating back over 10,000 years."
+    "explanation": "Damascus has long served as the capital of Jordan's neighbor Syria and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Khao Yai National Park?",
@@ -9028,7 +9028,7 @@
       "Venezuela",
       "Brazil"
     ],
-    "explanation": "The Amazon River system is primarily in Brazil. The river has the largest drainage basin in the world and discharges about 20% of all freshwater entering the world's oceans."
+    "explanation": "The Amazon River system is primarily in Brazil. The river has the largest drainage basin in the world and discharges about 20% of all freshwater entering."
   },
   {
     "question": "Which country is home to the Great Victoria Desert?",
@@ -9050,7 +9050,7 @@
       "Farafenni",
       "Banjul"
     ],
-    "explanation": "Banjul is the capital of Gambia, located on St. Mary's Island at the mouth of the Gambia River. Gambia is Africa's smallest country."
+    "explanation": "Banjul has long served as the capital of Senegal's neighbor Gambia and as its political and cultural center."
   },
   {
     "question": "Which country contains the source of the Murray River?",
@@ -9072,7 +9072,7 @@
       "South Korea",
       "China"
     ],
-    "explanation": "Zhangjiajie National Forest Park in Hunan Province, China is famous for its pillar-like quartzite sandstone rock formations, which inspired the floating mountains in Avatar."
+    "explanation": "Zhangjiajie National Forest Park in Hunan Province, China is famous for its pillar-like quartzite sandstone rock formations, which inspired the floating."
   },
   {
     "question": "Which country has the world's highest capital city?",
@@ -9083,7 +9083,7 @@
       "Ethiopia",
       "Bolivia"
     ],
-    "explanation": "La Paz in Bolivia is the world's highest administrative capital at about 3,640 meters above sea level. Sucre is the constitutional capital. Thimphu, Bhutan is higher than many, but La Paz is generally recognized as highest."
+    "explanation": "La Paz in Bolivia is the world's highest administrative capital at about 3,640 meters above sea level."
   },
   {
     "question": "Which country contains the Patagonian Ice Fields?",
@@ -9094,7 +9094,7 @@
       "Peru",
       "Chile"
     ],
-    "explanation": "The Patagonian Ice Fields (Northern and Southern Patagonian Ice Fields) are located primarily in Chile, with portions extending into Argentina. They are the largest temperate ice fields in the Southern Hemisphere."
+    "explanation": "The Patagonian Ice Fields (Northern and Southern Patagonian Ice Fields) are located primarily in Chile, with portions extending into Argentina."
   },
   {
     "question": "Which country is home to the Dead Sea?",
@@ -9105,7 +9105,7 @@
       "Lebanon",
       "Jordan"
     ],
-    "explanation": "The Dead Sea lies on the border between Jordan and Israel/Palestinian Authority. Its surface and shores are about 430 meters below sea level, Earth's lowest land elevation."
+    "explanation": "The Dead Sea lies on the border between Jordan and Israel/Palestinian Authority."
   },
   {
     "question": "Which country is home to the Saharan silver ant?",
@@ -9116,7 +9116,7 @@
       "Morocco",
       "Algeria"
     ],
-    "explanation": "The Saharan silver ant lives in the Sahara Desert, primarily in Algeria and nearby countries. It is one of the fastest ants in the world and can withstand extreme heat."
+    "explanation": "The Saharan silver ant lives in the Sahara Desert, primarily in Algeria and nearby countries."
   },
   {
     "question": "Which country is home to the Huang Shan (Yellow Mountains)?",
@@ -9127,7 +9127,7 @@
       "Vietnam",
       "China"
     ],
-    "explanation": "Huangshan (Yellow Mountains) in Anhui Province, China, are famous for their towering granite peaks and ancient pine trees. They are a UNESCO World Heritage Site."
+    "explanation": "Huangshan (Yellow Mountains) in Anhui Province, China, are famous for their towering granite peaks and ancient pine trees."
   },
   {
     "question": "Which country contains the Parana River's source?",
@@ -9138,7 +9138,7 @@
       "Bolivia",
       "Brazil"
     ],
-    "explanation": "The Paran\u00e1 River originates in southeast Brazil, in the states of S\u00e3o Paulo and Minas Gerais, where the Grande and Parana\u00edba rivers meet."
+    "explanation": "The Paraná River originates in southeast Brazil, in the states of São Paulo and Minas Gerais, where the Grande and Paranaíba rivers meet."
   },
   {
     "question": "Which country is home to the Yellow Sea?",
@@ -9160,10 +9160,10 @@
       "Beersheba",
       "Jerusalem"
     ],
-    "explanation": "Jerusalem is the capital of Israel. It is one of the oldest cities in the world and is sacred to Judaism, Christianity, and Islam."
+    "explanation": "Jerusalem has long served as the capital of Jordan's neighbor Israel and as its political and cultural center."
   },
   {
-    "question": "Which country is home to the island of R\u00e9union?",
+    "question": "Which country is home to the island of Réunion?",
     "answer": "France",
     "choices": [
       "Mauritius",
@@ -9171,7 +9171,7 @@
       "Madagascar",
       "France"
     ],
-    "explanation": "R\u00e9union is an island in the Indian Ocean that is an overseas region and department of France. It is known for its active volcano, Piton de la Fournaise."
+    "explanation": "Réunion is an island in the Indian Ocean that is an overseas region and department of France. It is known for its active volcano, Piton de la Fournaise."
   },
   {
     "question": "Which country contains the Great Barrier Reef?",
@@ -9182,7 +9182,7 @@
       "Papua New Guinea",
       "Australia"
     ],
-    "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia. It is the world's largest coral reef system and a UNESCO World Heritage Site."
+    "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia."
   },
   {
     "question": "Which country is home to the Aral Sea?",
@@ -9193,7 +9193,7 @@
       "Kyrgyzstan",
       "Kazakhstan"
     ],
-    "explanation": "The Aral Sea straddles the border between Kazakhstan and Uzbekistan. Once one of the world's largest lakes, it has dramatically shrunk due to irrigation projects."
+    "explanation": "The Aral Sea straddles the border between Kazakhstan and Uzbekistan. Once one of the world's largest lakes, it has dramatically shrunk due to irrigation."
   },
   {
     "question": "Which country is home to the world's largest mangrove forest?",
@@ -9204,7 +9204,7 @@
       "Brazil",
       "Bangladesh"
     ],
-    "explanation": "The Sundarbans, shared between Bangladesh and India, is the world's largest mangrove forest. The Bangladesh portion is larger and is a UNESCO World Heritage Site."
+    "explanation": "The Sundarbans, shared between Bangladesh and India, is the world's largest mangrove forest."
   },
   {
     "question": "What is the capital of Oman?",
@@ -9226,7 +9226,7 @@
       "China",
       "Russia"
     ],
-    "explanation": "The Altai Republic is a federal subject of Russia, located in southern Siberia. The Altai Mountains and Golden Mountains of Altai are a UNESCO World Heritage Site."
+    "explanation": "The Altai Republic is a federal subject of Russia, located in southern Siberia."
   },
   {
     "question": "What is the capital of Qatar?",
@@ -9259,7 +9259,7 @@
       "Farwaniya",
       "Kuwait City"
     ],
-    "explanation": "Kuwait City is the capital of Kuwait, located at the shore of Kuwait Bay in the Persian Gulf."
+    "explanation": "Kuwait City has long served as the capital of Kuwait and as its political and cultural center."
   },
   {
     "question": "Which country contains the Lake District?",
@@ -9273,7 +9273,7 @@
     "explanation": "The Lake District is a national park in Cumbria, England, UK. It contains England's highest point (Scafell Pike) and is a UNESCO World Heritage Site."
   },
   {
-    "question": "Which country is home to the Serran\u00eda de la Macarena?",
+    "question": "Which country is home to the Serranía de la Macarena?",
     "answer": "Colombia",
     "choices": [
       "Venezuela",
@@ -9281,7 +9281,7 @@
       "Peru",
       "Colombia"
     ],
-    "explanation": "The Serran\u00eda de la Macarena is a national park in Colombia home to Ca\u00f1o Cristales, called the 'River of Five Colors' for its multicolored algae and plants."
+    "explanation": "The Serranía de la Macarena is a national park in Colombia home to Caño Cristales, called the 'River of Five Colors' for its multicolored algae and plants."
   },
   {
     "question": "Which country has the Grand Canyon?",
@@ -9314,7 +9314,7 @@
       "Harper",
       "Monrovia"
     ],
-    "explanation": "Monrovia is the capital of Liberia. It is the only African capital city named after a U.S. president (James Monroe, who supported Liberia's founding)."
+    "explanation": "Monrovia has long served as the capital of Sierra Leone's neighbor Liberia and as its political and cultural center."
   },
   {
     "question": "Which country is home to the Galilee region?",
@@ -9336,7 +9336,7 @@
       "Canada",
       "Australia"
     ],
-    "explanation": "The Pilbara region in Western Australia is one of the world's richest iron ore deposits. Mining operations there make Australia one of the world's top iron ore exporters."
+    "explanation": "The Pilbara region in Western Australia is one of the world's richest iron ore deposits."
   },
   {
     "question": "Which country contains the Kavango-Zambezi Transfrontier Conservation Area?",
@@ -9347,7 +9347,7 @@
       "Namibia",
       "Botswana"
     ],
-    "explanation": "The Kavango-Zambezi TFCA spans five countries: Botswana, Zimbabwe, Zambia, Namibia, and Angola. It is one of the world's largest transfrontier conservation areas."
+    "explanation": "The Kavango-Zambezi TFCA spans five countries: Botswana, Zimbabwe, Zambia, Namibia, and Angola."
   },
   {
     "question": "Which country is home to the Wrangell-St. Elias National Park?",
@@ -9358,7 +9358,7 @@
       "Norway",
       "United States"
     ],
-    "explanation": "Wrangell-St. Elias in Alaska, USA is the largest national park in the United States at 53,321 km\u00b2. It contains nine of the sixteen highest peaks in the United States."
+    "explanation": "Wrangell-St. Elias in Alaska, USA is the largest national park in the United States at 53,321 km²."
   },
   {
     "question": "Which country contains the Virunga Mountains?",
@@ -9380,7 +9380,7 @@
       "Tanzania",
       "Democratic Republic of Congo"
     ],
-    "explanation": "Virunga National Park is in the eastern DRC. It is Africa's oldest national park (established 1925) and is home to endangered mountain gorillas and the active volcano Nyiragongo."
+    "explanation": "Virunga National Park is in the eastern DRC. It is Africa's oldest national park (established 1925) and is home to endangered mountain gorillas and the."
   },
   {
     "question": "Which country is home to the Namib Desert?",
@@ -9402,7 +9402,7 @@
       "Qatar",
       "Iran"
     ],
-    "explanation": "The Strait of Hormuz lies between Iran and Oman. It is a critically important waterway connecting the Persian Gulf to the Gulf of Oman, through which much of the world's oil supply passes."
+    "explanation": "The Strait of Hormuz lies between Iran and Oman. It is a critically important waterway connecting the Persian Gulf to the Gulf of Oman, through which much."
   },
   {
     "question": "Which country is home to the Skeleton Coast's Epupa Falls?",
@@ -9424,7 +9424,7 @@
       "South Africa",
       "Botswana"
     ],
-    "explanation": "The Makgadikgadi Pan is one of the largest salt flats in the world, located in northeastern Botswana. In the wet season, flamingos migrate there in large numbers."
+    "explanation": "The Makgadikgadi Pan is one of the largest salt flats in the world, located in northeastern Botswana."
   },
   {
     "question": "Which country is home to the Orinoco Delta?",
@@ -9446,7 +9446,7 @@
       "Sudan",
       "Algeria"
     ],
-    "explanation": "The Algerian Sahara contains the Grand Erg Oriental and Grand Erg Occidental, two of the Sahara's largest ergs (sand seas). Algeria has the most Saharan territory overall."
+    "explanation": "The Algerian Sahara contains the Grand Erg Oriental and Grand Erg Occidental, two of the Sahara's largest ergs (sand seas)."
   },
   {
     "question": "Which country contains the Irrawaddy River?",
@@ -9468,7 +9468,7 @@
       "Indonesia",
       "Australia"
     ],
-    "explanation": "Kakadu National Park is in Australia's Northern Territory, renowned for its Aboriginal rock art, wetlands, and diverse wildlife. It is a UNESCO World Heritage Site."
+    "explanation": "Kakadu National Park is in Australia's Northern Territory, renowned for its Aboriginal rock art, wetlands, and diverse wildlife."
   },
   {
     "question": "Which country contains the world's largest lava lake?",
@@ -9501,7 +9501,7 @@
       "Iran",
       "Iraq"
     ],
-    "explanation": "Both the Tigris and Euphrates flow through Iraq. They meet near Basra to form the Shatt al-Arab waterway. Ancient Mesopotamian civilizations flourished between these rivers in Iraq."
+    "explanation": "Both the Tigris and Euphrates flow through Iraq. They meet near Basra to form the Shatt al-Arab waterway."
   },
   {
     "question": "Which country contains the city of Marrakesh?",
@@ -9512,7 +9512,7 @@
       "Egypt",
       "Algeria"
     ],
-    "explanation": "Marrakesh is one of Morocco's best-known cities."
+    "explanation": "Marrakesh is a major city in Morocco, which is why Morocco is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Cusco?",
@@ -9523,7 +9523,7 @@
       "Peru",
       "Chile"
     ],
-    "explanation": "Cusco was the historic capital of the Inca Empire in Peru."
+    "explanation": "Cusco is a major city in Peru, which is why Peru is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Dubrovnik?",
@@ -9534,10 +9534,10 @@
       "Slovenia",
       "Greece"
     ],
-    "explanation": "Dubrovnik is a major coastal city in Croatia."
+    "explanation": "Dubrovnik is a major city in Croatia, which is why Croatia is the country named in the clue."
   },
   {
-    "question": "Which country contains the city of Krak\u00f3w?",
+    "question": "Which country contains the city of Kraków?",
     "answer": "Poland",
     "choices": [
       "Slovakia",
@@ -9545,7 +9545,7 @@
       "Czech Republic",
       "Poland"
     ],
-    "explanation": "Krak\u00f3w is one of Poland's principal historic cities."
+    "explanation": "Kraków is a major city in Poland, which is why Poland is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Bergen?",
@@ -9556,10 +9556,10 @@
       "Norway",
       "Sweden"
     ],
-    "explanation": "Bergen is a major Norwegian city on the west coast."
+    "explanation": "Bergen is a major city in Norway, which is why Norway is the country named in the clue."
   },
   {
-    "question": "Which country contains the city of Medell\u00edn?",
+    "question": "Which country contains the city of Medellín?",
     "answer": "Colombia",
     "choices": [
       "Peru",
@@ -9567,7 +9567,7 @@
       "Ecuador",
       "Venezuela"
     ],
-    "explanation": "Medell\u00edn is Colombia's second-largest city."
+    "explanation": "Medellín is a major city in Colombia, which is why Colombia is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Fez?",
@@ -9578,7 +9578,7 @@
       "Tunisia",
       "Jordan"
     ],
-    "explanation": "Fez is one of Morocco's historic imperial cities."
+    "explanation": "Fez is a major city in Morocco, which is why Morocco is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Porto?",
@@ -9589,7 +9589,7 @@
       "Italy",
       "Spain"
     ],
-    "explanation": "Porto is a major Portuguese city on the Douro River."
+    "explanation": "Porto is a major city in Portugal, which is why Portugal is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Salzburg?",
@@ -9600,7 +9600,7 @@
       "Hungary",
       "Austria"
     ],
-    "explanation": "Salzburg is an Austrian city famed for baroque architecture."
+    "explanation": "Salzburg is a major city in Austria, which is why Austria is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Busan?",
@@ -9611,7 +9611,7 @@
       "China",
       "Taiwan"
     ],
-    "explanation": "Busan is a major port city in South Korea."
+    "explanation": "Busan is a major city in South Korea, which is why South Korea is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Jaipur?",
@@ -9622,7 +9622,7 @@
       "Nepal",
       "Bangladesh"
     ],
-    "explanation": "Jaipur is the capital of Rajasthan in India."
+    "explanation": "Jaipur is a major city in India, which is why India is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Split?",
@@ -9633,10 +9633,10 @@
       "Croatia",
       "Greece"
     ],
-    "explanation": "Split is a major city on Croatia's Adriatic coast."
+    "explanation": "Split is a major city in Croatia, which is why Croatia is the country named in the clue."
   },
   {
-    "question": "Which country contains the city of Valpara\u00edso?",
+    "question": "Which country contains the city of Valparaíso?",
     "answer": "Chile",
     "choices": [
       "Argentina",
@@ -9644,10 +9644,10 @@
       "Chile",
       "Peru"
     ],
-    "explanation": "Valpara\u00edso is a major Chilean port city."
+    "explanation": "Valparaíso is a major city in Chile, which is why Chile is the country named in the clue."
   },
   {
-    "question": "Which country contains the city of Malm\u00f6?",
+    "question": "Which country contains the city of Malmö?",
     "answer": "Sweden",
     "choices": [
       "Finland",
@@ -9655,7 +9655,7 @@
       "Norway",
       "Denmark"
     ],
-    "explanation": "Malm\u00f6 is a city in southern Sweden."
+    "explanation": "Malmö is a major city in Sweden, which is why Sweden is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Cebu?",
@@ -9666,7 +9666,7 @@
       "Indonesia",
       "Philippines"
     ],
-    "explanation": "Cebu is a major city in the central Philippines."
+    "explanation": "Cebu is a major city in Philippines, which is why Philippines is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Luang Prabang?",
@@ -9677,7 +9677,7 @@
       "Laos",
       "Thailand"
     ],
-    "explanation": "Luang Prabang is a historic city in Laos."
+    "explanation": "Luang Prabang is a major city in Laos, which is why Laos is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Alexandria?",
@@ -9688,7 +9688,7 @@
       "Turkey",
       "Lebanon"
     ],
-    "explanation": "Alexandria is a major Mediterranean city in Egypt."
+    "explanation": "Alexandria is a major city in Egypt, which is why Egypt is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Samarkand?",
@@ -9699,7 +9699,7 @@
       "Turkmenistan",
       "Kazakhstan"
     ],
-    "explanation": "Samarkand is a historic Silk Road city in Uzbekistan."
+    "explanation": "Samarkand is a major city in Uzbekistan, which is why Uzbekistan is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Tbilisi?",
@@ -9710,7 +9710,7 @@
       "Georgia",
       "Turkey"
     ],
-    "explanation": "Tbilisi is the capital of Georgia."
+    "explanation": "Tbilisi is a major city in Georgia, which is why Georgia is the country named in the clue."
   },
   {
     "question": "Which country contains the city of Lviv?",
@@ -9721,7 +9721,7 @@
       "Ukraine",
       "Belarus"
     ],
-    "explanation": "Lviv is a major city in western Ukraine."
+    "explanation": "Lviv is a major city in Ukraine, which is why Ukraine is the country named in the clue."
   },
   {
     "question": "Which river flows through Budapest?",
@@ -9732,7 +9732,7 @@
       "Rhine",
       "Seine"
     ],
-    "explanation": "The Danube River flows through Budapest."
+    "explanation": "The Danube runs through Budapest and has shaped Central Europe's history for centuries."
   },
   {
     "question": "Which river flows through Prague?",
@@ -9743,7 +9743,7 @@
       "Vltava",
       "Elbe"
     ],
-    "explanation": "Prague is built on the Vltava River."
+    "explanation": "Vltava is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Baghdad?",
@@ -9754,7 +9754,7 @@
       "Nile",
       "Jordan"
     ],
-    "explanation": "Baghdad lies on the Tigris River."
+    "explanation": "Tigris is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Cairo?",
@@ -9765,7 +9765,7 @@
       "Niger",
       "Congo"
     ],
-    "explanation": "Cairo is located on the Nile River."
+    "explanation": "Nile is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Paris?",
@@ -9776,7 +9776,7 @@
       "Loire",
       "Rhine"
     ],
-    "explanation": "Paris is built on the Seine."
+    "explanation": "Seine is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Rome?",
@@ -9787,7 +9787,7 @@
       "Po",
       "Arno"
     ],
-    "explanation": "Rome lies on the Tiber River."
+    "explanation": "Tiber is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through London?",
@@ -9798,7 +9798,7 @@
       "Severn",
       "Thames"
     ],
-    "explanation": "London stands on the River Thames."
+    "explanation": "Thames is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Vienna?",
@@ -9809,7 +9809,7 @@
       "Rhine",
       "Danube"
     ],
-    "explanation": "Vienna is situated on the Danube."
+    "explanation": "The Danube flows through Vienna, linking the Austrian capital to the broader waterways of Europe."
   },
   {
     "question": "Which river flows through Seville?",
@@ -9820,7 +9820,7 @@
       "Guadalquivir",
       "Ebro"
     ],
-    "explanation": "Seville lies on the Guadalquivir River."
+    "explanation": "Guadalquivir is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which river flows through Florence?",
@@ -9831,7 +9831,7 @@
       "Po",
       "Tiber"
     ],
-    "explanation": "Florence lies on the Arno River."
+    "explanation": "Arno is a major waterway that has shaped settlement, trade, and agriculture along its course."
   },
   {
     "question": "Which mountain range separates Spain from France?",
@@ -9842,7 +9842,7 @@
       "Apennines",
       "Pyrenees"
     ],
-    "explanation": "The Pyrenees form a natural border between Spain and France."
+    "explanation": "The Pyrenees form a natural border between Spain and France. It adds context beyond the answer itself."
   },
   {
     "question": "Which mountain range runs down the spine of Italy?",
@@ -9853,7 +9853,7 @@
       "Alps",
       "Balkans"
     ],
-    "explanation": "The Apennines run along much of the Italian peninsula."
+    "explanation": "The Apennines run the length of Italy and shape much of the peninsula’s geography."
   },
   {
     "question": "Which mountain range is associated with Nepal and Bhutan?",
@@ -9864,7 +9864,7 @@
       "Atlas Mountains",
       "Andes"
     ],
-    "explanation": "Nepal and Bhutan lie in the Himalayas."
+    "explanation": "Himalayas is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which mountain range is associated with western South America?",
@@ -9875,7 +9875,7 @@
       "Rockies",
       "Atlas Mountains"
     ],
-    "explanation": "The Andes run along the western edge of South America."
+    "explanation": "Andes is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which mountain range stretches across Morocco, Algeria, and Tunisia?",
@@ -9886,7 +9886,7 @@
       "Alps",
       "Andes"
     ],
-    "explanation": "The Atlas Mountains are in northwestern Africa."
+    "explanation": "Atlas Mountains is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which mountain range forms a major arc across central Europe including Switzerland and Austria?",
@@ -9897,7 +9897,7 @@
       "Carpathians",
       "Alps"
     ],
-    "explanation": "The Alps stretch across several central European countries."
+    "explanation": "Alps is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which desert covers much of Botswana and Namibia?",
@@ -9908,7 +9908,7 @@
       "Kalahari",
       "Gobi"
     ],
-    "explanation": "The Kalahari spans parts of Botswana, Namibia, and South Africa."
+    "explanation": "Kalahari is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which desert lies mainly along the coast of Namibia?",
@@ -9919,7 +9919,7 @@
       "Sahara",
       "Namib"
     ],
-    "explanation": "The Namib is a coastal desert in Namibia."
+    "explanation": "Namib is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which desert spans northern China and southern Mongolia?",
@@ -9930,7 +9930,7 @@
       "Gobi",
       "Arabian Desert"
     ],
-    "explanation": "The Gobi lies across China and Mongolia."
+    "explanation": "Gobi is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which desert occupies much of the Arabian Peninsula?",
@@ -9941,7 +9941,7 @@
       "Gobi",
       "Syrian Desert"
     ],
-    "explanation": "The Arabian Desert covers much of Saudi Arabia and neighboring areas."
+    "explanation": "Arabian Desert is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which sea lies between Saudi Arabia and northeast Africa?",
@@ -9952,7 +9952,7 @@
       "Red Sea",
       "Arabian Sea"
     ],
-    "explanation": "The Red Sea separates the Arabian Peninsula from Africa."
+    "explanation": "Red Sea is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which sea lies east of Italy and west of the Balkans?",
@@ -9963,7 +9963,7 @@
       "Aegean Sea",
       "Adriatic Sea"
     ],
-    "explanation": "The Adriatic separates Italy from the Balkan Peninsula."
+    "explanation": "Adriatic Sea is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which sea lies west of Italy and east of Sardinia and Corsica?",
@@ -9985,7 +9985,7 @@
       "Persian Gulf",
       "Red Sea"
     ],
-    "explanation": "The Persian Gulf lies between Iran and the Arabian Peninsula."
+    "explanation": "Persian Gulf is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which strait links the Mediterranean Sea to the Atlantic Ocean?",
@@ -9996,7 +9996,7 @@
       "Strait of Gibraltar",
       "Bosporus"
     ],
-    "explanation": "The Strait of Gibraltar connects the Mediterranean and Atlantic."
+    "explanation": "Strait of Gibraltar is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which strait separates Asia from North America?",
@@ -10007,7 +10007,7 @@
       "Davis Strait",
       "Bering Strait"
     ],
-    "explanation": "The Bering Strait lies between Russia and Alaska."
+    "explanation": "Bering Strait is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which canal links the Mediterranean Sea and the Red Sea?",
@@ -10018,7 +10018,7 @@
       "Suez Canal",
       "Panama Canal"
     ],
-    "explanation": "The Suez Canal runs through Egypt."
+    "explanation": "Suez Canal is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which canal links the Atlantic Ocean and the Pacific Ocean across Central America?",
@@ -10029,7 +10029,7 @@
       "Suez Canal",
       "Erie Canal"
     ],
-    "explanation": "The Panama Canal cuts across the Isthmus of Panama."
+    "explanation": "Panama Canal is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which island is shared by Haiti and the Dominican Republic?",
@@ -10040,7 +10040,7 @@
       "Hispaniola",
       "Cuba"
     ],
-    "explanation": "Haiti and the Dominican Republic share the island of Hispaniola."
+    "explanation": "Hispaniola is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which island nation lies southeast of India and is known for Ceylon tea?",
@@ -10051,7 +10051,7 @@
       "Mauritius",
       "Sri Lanka"
     ],
-    "explanation": "Sri Lanka lies just southeast of India."
+    "explanation": "Sri Lanka is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which island is the largest in the Mediterranean Sea?",
@@ -10062,7 +10062,7 @@
       "Cyprus",
       "Sicily"
     ],
-    "explanation": "Sicily is the Mediterranean's largest island."
+    "explanation": "Sicily is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which island belongs to Denmark but has extensive self-government and lies in the North Atlantic?",
@@ -10073,7 +10073,7 @@
       "Iceland",
       "Faroe Islands"
     ],
-    "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark."
+    "explanation": "Greenland is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains Norway and Sweden?",
@@ -10084,7 +10084,7 @@
       "Iberian Peninsula",
       "Jutland Peninsula"
     ],
-    "explanation": "Norway and Sweden occupy most of the Scandinavian Peninsula."
+    "explanation": "Scandinavian Peninsula is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains Spain and Portugal?",
@@ -10095,7 +10095,7 @@
       "Iberian Peninsula",
       "Balkan Peninsula"
     ],
-    "explanation": "Spain and Portugal occupy the Iberian Peninsula."
+    "explanation": "Iberian Peninsula is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains most of Greece and nearby southeastern Europe?",
@@ -10106,7 +10106,7 @@
       "Balkan Peninsula",
       "Scandinavian Peninsula"
     ],
-    "explanation": "Greece is part of the Balkan Peninsula."
+    "explanation": "Balkan Peninsula is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which peninsula is occupied mainly by Denmark and part of Germany?",
@@ -10117,7 +10117,7 @@
       "Iberian Peninsula",
       "Balkan Peninsula"
     ],
-    "explanation": "The Jutland Peninsula includes mainland Denmark."
+    "explanation": "Jutland Peninsula is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which country completely surrounds Vatican City?",
@@ -10128,7 +10128,7 @@
       "Italy",
       "Switzerland"
     ],
-    "explanation": "Vatican City is enclaved within Rome, Italy."
+    "explanation": "Italy surrounds Vatican City on all sides, making it an enclave within Rome."
   },
   {
     "question": "Which country completely surrounds San Marino?",
@@ -10139,7 +10139,7 @@
       "Croatia",
       "Italy"
     ],
-    "explanation": "San Marino is an enclaved microstate within Italy."
+    "explanation": "Italy surrounds San Marino, another historic enclave on the Italian peninsula."
   },
   {
     "question": "Which country completely surrounds Lesotho?",
@@ -10150,7 +10150,7 @@
       "South Africa",
       "Zimbabwe"
     ],
-    "explanation": "Lesotho is an enclave within South Africa."
+    "explanation": "Lesotho is completely surrounded by South Africa, making it a high-altitude enclave state."
   },
   {
     "question": "Which country borders both the Atlantic and Indian Oceans?",
@@ -10161,7 +10161,7 @@
       "South Africa",
       "India"
     ],
-    "explanation": "South Africa has coastlines on both oceans."
+    "explanation": "South Africa reaches both the Atlantic and Indian Oceans, giving it a long and varied coastline."
   },
   {
     "question": "Which country borders both the Caribbean Sea and the Pacific Ocean in Central America?",
@@ -10172,7 +10172,7 @@
       "Costa Rica",
       "Guatemala"
     ],
-    "explanation": "Costa Rica has both Caribbean and Pacific coastlines."
+    "explanation": "Costa Rica is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country borders the United States to the south?",
@@ -10183,7 +10183,7 @@
       "Canada",
       "Cuba"
     ],
-    "explanation": "Mexico lies directly south of the contiguous United States."
+    "explanation": "Mexico borders the United States to the south and shares one of the world's busiest land frontiers."
   },
   {
     "question": "Which country borders France to the southwest and has Andorra on its border?",
@@ -10194,7 +10194,7 @@
       "Spain",
       "Portugal"
     ],
-    "explanation": "Spain borders France and also surrounds Andorra with France."
+    "explanation": "Spain is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country borders Germany to the east and the Czech Republic to the north?",
@@ -10205,7 +10205,7 @@
       "Netherlands",
       "Austria"
     ],
-    "explanation": "Poland lies east of Germany and north of the Czech Republic."
+    "explanation": "Poland is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which African country is split by the Equator and is famous for mountain gorillas?",
@@ -10216,7 +10216,7 @@
       "Uganda",
       "Tanzania"
     ],
-    "explanation": "Uganda straddles the Equator and is known for gorilla trekking."
+    "explanation": "Uganda is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which African country is famous for the Okavango Delta?",
@@ -10227,7 +10227,7 @@
       "Zambia",
       "Botswana"
     ],
-    "explanation": "The Okavango Delta lies mainly in Botswana."
+    "explanation": "Botswana is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which South American country is landlocked and contains much of the Salar de Uyuni?",
@@ -10238,7 +10238,7 @@
       "Bolivia",
       "Paraguay"
     ],
-    "explanation": "The Salar de Uyuni salt flat is in Bolivia."
+    "explanation": "Bolivia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is famous for Petra, the rock-cut ancient city?",
@@ -10249,7 +10249,7 @@
       "Israel",
       "Egypt"
     ],
-    "explanation": "Petra is located in southern Jordan."
+    "explanation": "Petra is one of Jordan's most famous archaeological sites and a UNESCO World Heritage treasure."
   },
   {
     "question": "Which country is home to Angkor Wat?",
@@ -10260,7 +10260,7 @@
       "Cambodia",
       "Vietnam"
     ],
-    "explanation": "Angkor Wat is in Cambodia near Siem Reap."
+    "explanation": "Cambodia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Bagan, known for thousands of Buddhist temples?",
@@ -10271,7 +10271,7 @@
       "Thailand",
       "Cambodia"
     ],
-    "explanation": "Bagan is a historic temple plain in Myanmar."
+    "explanation": "Myanmar is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Lake Bled?",
@@ -10282,7 +10282,7 @@
       "Austria",
       "Slovakia"
     ],
-    "explanation": "Lake Bled is one of Slovenia's best-known landmarks."
+    "explanation": "Slovenia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the fjord town of Geiranger?",
@@ -10293,7 +10293,7 @@
       "Finland",
       "Norway"
     ],
-    "explanation": "Geiranger is in Norway's fjord region."
+    "explanation": "Norway is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Mount Fuji?",
@@ -10304,7 +10304,7 @@
       "Taiwan",
       "Japan"
     ],
-    "explanation": "Mount Fuji is Japan's highest mountain."
+    "explanation": "Japan is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the Blue Mosque and Hagia Sophia?",
@@ -10315,7 +10315,7 @@
       "Turkey",
       "Bulgaria"
     ],
-    "explanation": "Both landmarks are in Istanbul, Turkey."
+    "explanation": "Turkey is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the Danakil Depression and the city of Addis Ababa?",
@@ -10326,7 +10326,7 @@
       "Sudan",
       "Eritrea"
     ],
-    "explanation": "Addis Ababa is the capital of Ethiopia."
+    "explanation": "Ethiopia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the city of Petra's neighboring desert Wadi Rum?",
@@ -10337,7 +10337,7 @@
       "Egypt",
       "Saudi Arabia"
     ],
-    "explanation": "Wadi Rum is a protected desert area in Jordan."
+    "explanation": "Wadi Rum is Jordan's dramatic desert landscape, known for sandstone cliffs and ancient rock art."
   },
   {
     "question": "Which country is home to the Serengeti National Park?",
@@ -10348,7 +10348,7 @@
       "Tanzania",
       "Kenya"
     ],
-    "explanation": "The Serengeti is in northern Tanzania."
+    "explanation": "Tanzania is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Chichen Itza?",
@@ -10359,7 +10359,7 @@
       "Guatemala",
       "Mexico"
     ],
-    "explanation": "Chichen Itza is a major Maya archaeological site in Mexico."
+    "explanation": "Chichen Itza is in Mexico and is one of the most famous remnants of the Maya civilization."
   },
   {
     "question": "Which country is home to the Plitvice Lakes?",
@@ -10370,7 +10370,7 @@
       "Bosnia and Herzegovina",
       "Slovenia"
     ],
-    "explanation": "Plitvice Lakes National Park is in Croatia."
+    "explanation": "Croatia's Plitvice Lakes are famous for their terraced turquoise waters and waterfalls."
   },
   {
     "question": "Which country is home to Banff National Park?",
@@ -10381,7 +10381,7 @@
       "Sweden",
       "United States"
     ],
-    "explanation": "Banff National Park is in Alberta, Canada."
+    "explanation": "Canada is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Uluru?",
@@ -10392,7 +10392,7 @@
       "Namibia",
       "Australia"
     ],
-    "explanation": "Uluru is a famous sandstone monolith in central Australia."
+    "explanation": "Australia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the ancient city of Timbuktu?",
@@ -10403,7 +10403,7 @@
       "Chad",
       "Mauritania"
     ],
-    "explanation": "Timbuktu is in present-day Mali."
+    "explanation": "Mali is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to the city of Petra?",
@@ -10414,7 +10414,7 @@
       "Lebanon",
       "Jordan"
     ],
-    "explanation": "Petra is an archaeological city in Jordan."
+    "explanation": "Petra is in Jordan, where the Nabataeans carved the city into rose-red sandstone cliffs."
   },
   {
     "question": "Which country is home to Mount Elbrus, Europe's highest peak?",
@@ -10425,7 +10425,7 @@
       "Russia",
       "Georgia"
     ],
-    "explanation": "Mount Elbrus is in the Caucasus within Russia."
+    "explanation": "Russia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Aconcagua, the highest mountain in the Americas?",
@@ -10436,7 +10436,7 @@
       "Peru",
       "Chile"
     ],
-    "explanation": "Aconcagua is in western Argentina."
+    "explanation": "Aconcagua rises in Argentina and stands as the highest peak in the Americas."
   },
   {
     "question": "Which country is home to Table Mountain?",
@@ -10447,7 +10447,7 @@
       "Botswana",
       "Zimbabwe"
     ],
-    "explanation": "Table Mountain overlooks Cape Town in South Africa."
+    "explanation": "Table Mountain rises above Cape Town and is one of South Africa's best-known landmarks."
   },
   {
     "question": "Which country is home to Iguazu Falls on one side of the border?",
@@ -10458,7 +10458,7 @@
       "Paraguay",
       "Uruguay"
     ],
-    "explanation": "Iguazu Falls straddles Argentina and Brazil."
+    "explanation": "Argentina shares Iguazu Falls with Brazil, and its side includes the long network of walkways and viewpoints."
   },
   {
     "question": "Which country is home to Iguazu Falls on the larger waterfall side?",
@@ -10469,7 +10469,7 @@
       "Uruguay",
       "Brazil"
     ],
-    "explanation": "Most of the falls are on the Argentine side."
+    "explanation": "Argentina holds the larger side of Iguazu Falls, while Brazil offers the panoramic view."
   },
   {
     "question": "Which country is home to Victoria Falls on one side of the border?",
@@ -10480,7 +10480,7 @@
       "Namibia",
       "Mozambique"
     ],
-    "explanation": "Victoria Falls lies on the border of Zambia and Zimbabwe."
+    "explanation": "Zambia is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country is home to Victoria Falls on the other side of the border?",
@@ -10491,7 +10491,7 @@
       "Zambia",
       "Botswana"
     ],
-    "explanation": "Zimbabwe shares Victoria Falls with Zambia."
+    "explanation": "Zimbabwe is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country uses the forint as its currency?",
@@ -10502,7 +10502,7 @@
       "Hungary",
       "Poland"
     ],
-    "explanation": "The forint is Hungary's currency."
+    "explanation": "Hungary uses the forint as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the baht as its currency?",
@@ -10513,7 +10513,7 @@
       "Laos",
       "Vietnam"
     ],
-    "explanation": "The baht is Thailand's currency."
+    "explanation": "Thailand uses the baht as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the rand as its currency?",
@@ -10524,7 +10524,7 @@
       "Zimbabwe",
       "Namibia"
     ],
-    "explanation": "The rand is South Africa's currency."
+    "explanation": "South Africa uses the rand as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the zloty as its currency?",
@@ -10535,7 +10535,7 @@
       "Czech Republic",
       "Poland"
     ],
-    "explanation": "The zloty is Poland's currency."
+    "explanation": "Poland uses the zloty as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the won as its currency?",
@@ -10546,7 +10546,7 @@
       "Japan",
       "South Korea"
     ],
-    "explanation": "The won is South Korea's currency."
+    "explanation": "South Korea uses the won as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the krona as its currency?",
@@ -10557,7 +10557,7 @@
       "Iceland",
       "Finland"
     ],
-    "explanation": "Sweden uses the Swedish krona."
+    "explanation": "Sweden uses the krona as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the kuna no longer after adopting the euro in 2023?",
@@ -10568,7 +10568,7 @@
       "Serbia",
       "Slovenia"
     ],
-    "explanation": "Croatia replaced the kuna with the euro in 2023."
+    "explanation": "Croatia adopted the euro in 2023, replacing the kuna as its currency. It adds context beyond the answer itself."
   },
   {
     "question": "Which country uses the leu as its currency?",
@@ -10579,7 +10579,7 @@
       "Moldova",
       "Bulgaria"
     ],
-    "explanation": "Romania's currency is the leu."
+    "explanation": "Romania uses the leu as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the dirham as its currency?",
@@ -10590,7 +10590,7 @@
       "Egypt",
       "Morocco"
     ],
-    "explanation": "Morocco's currency is the dirham."
+    "explanation": "Morocco uses the dirham as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the ringgit as its currency?",
@@ -10601,7 +10601,7 @@
       "Philippines",
       "Malaysia"
     ],
-    "explanation": "Malaysia's currency is the ringgit."
+    "explanation": "Malaysia uses the ringgit as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the dong as its currency?",
@@ -10612,7 +10612,7 @@
       "Thailand",
       "Laos"
     ],
-    "explanation": "Vietnam uses the dong."
+    "explanation": "Vietnam uses the dong as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the peso and includes the city of Cebu?",
@@ -10623,7 +10623,7 @@
       "Colombia",
       "Philippines"
     ],
-    "explanation": "The Philippine peso is used in the Philippines."
+    "explanation": "Philippines is the country identified in the clue, and it is known for the geographic feature mentioned."
   },
   {
     "question": "Which country uses the sol as its currency?",
@@ -10634,7 +10634,7 @@
       "Peru",
       "Ecuador"
     ],
-    "explanation": "Peru's currency is the sol."
+    "explanation": "Peru uses the sol as its currency, the money people rely on for daily commerce and banking."
   },
   {
     "question": "Which country uses the quetzal as its currency?",
@@ -10645,10 +10645,10 @@
       "Guatemala",
       "El Salvador"
     ],
-    "explanation": "The quetzal is Guatemala's currency."
+    "explanation": "Guatemala uses the quetzal as its currency, the money people rely on for daily commerce and banking."
   },
   {
-    "question": "Which country uses the col\u00f3n as one of its currency names today?",
+    "question": "Which country uses the colón as one of its currency names today?",
     "answer": "Costa Rica",
     "choices": [
       "Belize",
@@ -10656,7 +10656,7 @@
       "Costa Rica",
       "Guatemala"
     ],
-    "explanation": "Costa Rica uses the col\u00f3n."
+    "explanation": "Costa Rica is the official currency used in that country's daily commerce and financial system."
   },
   {
     "question": "Which African lake is bordered by Tanzania, Uganda, and Kenya?",
@@ -10667,7 +10667,7 @@
       "Lake Malawi",
       "Lake Turkana"
     ],
-    "explanation": "Lake Victoria borders Tanzania, Uganda, and Kenya."
+    "explanation": "Lake Victoria is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which African lake is one of the deepest in the world and bordered by Tanzania, DRC, Burundi, and Zambia?",
@@ -10678,7 +10678,7 @@
       "Lake Malawi",
       "Lake Victoria"
     ],
-    "explanation": "Lake Tanganyika is among the world's deepest lakes."
+    "explanation": "Lake Tanganyika is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which African lake is also known as Lake Nyasa?",
@@ -10689,7 +10689,7 @@
       "Lake Albert",
       "Lake Malawi"
     ],
-    "explanation": "Lake Malawi is also called Lake Nyasa."
+    "explanation": "Lake Malawi is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which U.S. state is separated from the mainland by Canada?",
@@ -10700,7 +10700,7 @@
       "Washington",
       "Maine"
     ],
-    "explanation": "Alaska is separated from the contiguous U.S. by Canada."
+    "explanation": "Alaska is separated from the lower 48 by Canada and is the largest U.S. state by area."
   },
   {
     "question": "Which U.S. state is made up of islands in the central Pacific?",
@@ -10711,7 +10711,7 @@
       "California",
       "Hawaii"
     ],
-    "explanation": "Hawaii is an island state in the Pacific."
+    "explanation": "Hawaii is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the Grand Canyon?",
@@ -10722,7 +10722,7 @@
       "Utah",
       "New Mexico"
     ],
-    "explanation": "The Grand Canyon is in Arizona."
+    "explanation": "Arizona is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains Yellowstone National Park's largest share?",
@@ -10733,7 +10733,7 @@
       "Colorado",
       "Wyoming"
     ],
-    "explanation": "Most of Yellowstone lies in Wyoming."
+    "explanation": "Wyoming is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains Mount Rushmore?",
@@ -10744,7 +10744,7 @@
       "South Dakota",
       "North Dakota"
     ],
-    "explanation": "Mount Rushmore is in South Dakota."
+    "explanation": "South Dakota is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of New Orleans?",
@@ -10755,7 +10755,7 @@
       "Alabama",
       "Louisiana"
     ],
-    "explanation": "New Orleans is in Louisiana."
+    "explanation": "Louisiana is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Seattle?",
@@ -10766,7 +10766,7 @@
       "Washington",
       "Oregon"
     ],
-    "explanation": "Seattle is in Washington state."
+    "explanation": "Washington is the body of water or landform described in the clue, and it helps define regional geography."
   },
   {
     "question": "Which U.S. state contains the city of Nashville?",
@@ -10777,7 +10777,7 @@
       "Kentucky",
       "Alabama"
     ],
-    "explanation": "Nashville is the capital of Tennessee."
+    "explanation": "Tennessee is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Albuquerque?",
@@ -10788,7 +10788,7 @@
       "Arizona",
       "Texas"
     ],
-    "explanation": "Albuquerque is in New Mexico."
+    "explanation": "New Mexico is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Anchorage?",
@@ -10799,7 +10799,7 @@
       "Oregon",
       "Washington"
     ],
-    "explanation": "Anchorage is in Alaska."
+    "explanation": "Anchorage is in Alaska, the state's largest city and a major transportation hub."
   },
   {
     "question": "Which Canadian province contains the city of Calgary?",
@@ -10810,7 +10810,7 @@
       "Manitoba",
       "Saskatchewan"
     ],
-    "explanation": "Calgary is in Alberta."
+    "explanation": "Alberta is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Halifax?",
@@ -10821,7 +10821,7 @@
       "Newfoundland and Labrador",
       "New Brunswick"
     ],
-    "explanation": "Halifax is in Nova Scotia."
+    "explanation": "Nova Scotia is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Winnipeg?",
@@ -10832,7 +10832,7 @@
       "Saskatchewan",
       "Alberta"
     ],
-    "explanation": "Winnipeg is the capital of Manitoba."
+    "explanation": "Manitoba is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Victoria?",
@@ -10843,7 +10843,7 @@
       "British Columbia",
       "Quebec"
     ],
-    "explanation": "Victoria is the capital of British Columbia."
+    "explanation": "British Columbia is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province is the only one officially bilingual at the provincial level?",
@@ -10854,7 +10854,7 @@
       "Quebec",
       "New Brunswick"
     ],
-    "explanation": "New Brunswick is officially bilingual in English and French."
+    "explanation": "New Brunswick is the place named in the clue and a standard geographic reference point."
   },
   {
     "question": "Which country has the capital city of Kigali?",
@@ -10865,7 +10865,7 @@
       "Uganda",
       "Rwanda"
     ],
-    "explanation": "Kigali is the capital of Rwanda."
+    "explanation": "Rwanda has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Vilnius?",
@@ -10876,7 +10876,7 @@
       "Lithuania",
       "Belarus"
     ],
-    "explanation": "Vilnius is Lithuania's capital."
+    "explanation": "Lithuania has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Tallinn?",
@@ -10887,7 +10887,7 @@
       "Estonia",
       "Lithuania"
     ],
-    "explanation": "Tallinn is the capital of Estonia."
+    "explanation": "Estonia has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Riga?",
@@ -10898,7 +10898,7 @@
       "Estonia",
       "Lithuania"
     ],
-    "explanation": "Riga is the capital of Latvia."
+    "explanation": "Latvia has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Bratislava?",
@@ -10909,7 +10909,7 @@
       "Slovakia",
       "Hungary"
     ],
-    "explanation": "Bratislava is Slovakia's capital."
+    "explanation": "Slovakia has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Ljubljana?",
@@ -10920,7 +10920,7 @@
       "Slovenia",
       "Croatia"
     ],
-    "explanation": "Ljubljana is the capital of Slovenia."
+    "explanation": "Slovenia has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Chisinau?",
@@ -10931,7 +10931,7 @@
       "Ukraine",
       "Bulgaria"
     ],
-    "explanation": "Chisinau is Moldova's capital."
+    "explanation": "Moldova has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Yerevan?",
@@ -10942,7 +10942,7 @@
       "Turkey",
       "Georgia"
     ],
-    "explanation": "Yerevan is the capital of Armenia."
+    "explanation": "Armenia has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Baku?",
@@ -10953,7 +10953,7 @@
       "Kazakhstan",
       "Armenia"
     ],
-    "explanation": "Baku is the capital of Azerbaijan."
+    "explanation": "Azerbaijan has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Bishkek?",
@@ -10964,7 +10964,7 @@
       "Uzbekistan",
       "Kyrgyzstan"
     ],
-    "explanation": "Bishkek is the capital of Kyrgyzstan."
+    "explanation": "Kyrgyzstan has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Dushanbe?",
@@ -10975,7 +10975,7 @@
       "Turkmenistan",
       "Kyrgyzstan"
     ],
-    "explanation": "Dushanbe is the capital of Tajikistan."
+    "explanation": "Tajikistan has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Ashgabat?",
@@ -10986,7 +10986,7 @@
       "Tajikistan",
       "Turkmenistan"
     ],
-    "explanation": "Ashgabat is the capital of Turkmenistan."
+    "explanation": "Turkmenistan has long served as the political center of its country and a major cultural hub."
   },
   {
     "question": "Which country has the capital city of Ulaanbaatar?",
@@ -10997,6 +10997,6 @@
       "Mongolia",
       "Kyrgyzstan"
     ],
-    "explanation": "Ulaanbaatar is Mongolia's capital."
+    "explanation": "Mongolia has long served as the political center of its country and a major cultural hub."
   }
 ]
