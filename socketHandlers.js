@@ -240,7 +240,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // If this reconnecting player reclaimed host, notify them explicitly in ALL phases.
       // The room:state already reflects the change but the explicit event guarantees
       // a reliable UI update regardless of race conditions with room:state delivery.
-      if (joinResult.isReconnecting && joinResult.wasHost) {
+      if (joinResult.genuineReconnect && joinResult.wasHost) {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
