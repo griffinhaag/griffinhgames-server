@@ -180,21 +180,21 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         return;
       }
 
-      // If a live socket with the same name already exists, evict it immediately.
-      // This is the browser-refresh race condition: the new socket arrives before
-      // the old one fires its disconnect event, creating a brief duplicate entry.
-      // Calling removePlayerBySocket first writes the player to disconnectedPlayers
-      // (preserving wasHost), so addPlayerToRoom below will find it and restore status.
+      // Reject the join if a live socket with the same name already exists in this room.
+      // This prevents name hijacking — no one can impersonate or displace an active player.
+      // Legitimate reconnects always arrive after the previous socket has properly disconnected
+      // (removed from room.players and placed in disconnectedPlayers). If a browser-refresh
+      // race causes a brief overlap, the client's room:error retry handler (4 × 500ms) will
+      // succeed on a later attempt once the old socket's disconnect event has been processed.
       for (const [existingSocketId, existingPlayer] of room.players) {
         if (
           existingPlayer.name?.toLowerCase() === finalName.toLowerCase() &&
           existingSocketId !== socket.id &&
           io.sockets.sockets.has(existingSocketId)
         ) {
-          logInfo(`Evicting stale socket ${existingSocketId} for ${finalName} in room ${code} (browser refresh)`);
-          roomManager.removePlayerBySocket(existingSocketId);
-          io.sockets.sockets.get(existingSocketId)?.disconnect(true);
-          break;
+          logInfo(`Rejecting join for ${finalName} in room ${code}: active socket ${existingSocketId} already holds that name`);
+          socket.emit("room:error", "Someone with that name is already active in this room.");
+          return;
         }
       }
 
