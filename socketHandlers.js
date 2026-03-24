@@ -1,6 +1,13 @@
 import { logInfo, logWarn } from "./utils/logger.js";
 
 export default function registerSocketHandlers(io, roomManager, gameEngine) {
+  // Helper: get the real client IP, respecting reverse-proxy X-Forwarded-For header
+  function getClientIP(sock) {
+    return sock.handshake.headers["x-forwarded-for"]?.split(",")[0]?.trim()
+      || sock.handshake.address
+      || null;
+  }
+
   // Helper: returns true if socketId is the host (handles stale hostSocketId after reconnect)
   function checkIsHost(socket, room) {
     if (!room) return false;
@@ -180,21 +187,46 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         return;
       }
 
-      // Reject the join if a live socket with the same name already exists in this room.
-      // This prevents name hijacking — no one can impersonate or displace an active player.
-      // Legitimate reconnects always arrive after the previous socket has properly disconnected
-      // (removed from room.players and placed in disconnectedPlayers). If a browser-refresh
-      // race causes a brief overlap, the client's room:error retry handler (4 × 500ms) will
-      // succeed on a later attempt once the old socket's disconnect event has been processed.
+      // Handle live-socket name conflicts: same name, different socket, socket is still connected.
+      // Same IP   → legitimate device switch (e.g. host moved to another tab/device on same network).
+      //             Notify the old device, evict its socket, then let the join proceed normally.
+      // Diff IP   → potential hijack. Reject immediately.
+      // No match  → no conflict, fall through.
+      let ipVerifiedSwitch = false;
       for (const [existingSocketId, existingPlayer] of room.players) {
         if (
           existingPlayer.name?.toLowerCase() === finalName.toLowerCase() &&
           existingSocketId !== socket.id &&
           io.sockets.sockets.has(existingSocketId)
         ) {
-          logInfo(`Rejecting join for ${finalName} in room ${code}: active socket ${existingSocketId} already holds that name`);
-          socket.emit("room:error", "Someone with that name is already active in this room.");
-          return;
+          const existingSocket = io.sockets.sockets.get(existingSocketId);
+          const existingIP = getClientIP(existingSocket);
+          const newIP = getClientIP(socket);
+
+          if (existingIP && newIP && existingIP === newIP) {
+            // Same IP — graceful device switch. Notify old device then evict it.
+            logInfo(`IP-verified device switch for ${finalName} in room ${code} (IP: ${newIP})`);
+            if (existingPlayer.isHost) {
+              existingSocket.emit("host:deviceChanged", {
+                roomCode: code,
+                message: "Your host session has moved to another device. Rejoin to reclaim host."
+              });
+            } else {
+              existingSocket.emit("room:deviceChanged", {
+                roomCode: code,
+                message: "Your session has moved to another device."
+              });
+            }
+            roomManager.removePlayerBySocket(existingSocketId);
+            existingSocket.disconnect(true);
+            ipVerifiedSwitch = true;
+          } else {
+            // Different IP — reject to prevent impersonation / hijacking.
+            logInfo(`Rejecting join for ${finalName} in room ${code}: active socket ${existingSocketId} holds that name (IP mismatch)`);
+            socket.emit("room:error", "Someone with that name is already active in this room.");
+            return;
+          }
+          break;
         }
       }
 
@@ -240,7 +272,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       // If this reconnecting player reclaimed host, notify them explicitly in ALL phases.
       // The room:state already reflects the change but the explicit event guarantees
       // a reliable UI update regardless of race conditions with room:state delivery.
-      if (joinResult.genuineReconnect && joinResult.wasHost) {
+      if ((joinResult.genuineReconnect || ipVerifiedSwitch) && joinResult.wasHost) {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
