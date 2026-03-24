@@ -22,17 +22,6 @@
     "explanation": "Minecraft has sold over 300 million copies across all platforms, making it the best-selling game of all time."
   },
   {
-    "question": "Which company created the PlayStation console?",
-    "answer": "Sony",
-    "choices": [
-      "Sony",
-      "Microsoft",
-      "Nintendo",
-      "Sega"
-    ],
-    "explanation": "Sony Interactive Entertainment launched the original PlayStation in 1994 in Japan."
-  },
-  {
     "question": "What is the name of the hero in The Legend of Zelda?",
     "answer": "Link",
     "choices": [
@@ -132,17 +121,6 @@
     "explanation": "Chess is an abstract strategy game with no hidden information and no element of chance."
   },
   {
-    "question": "Which game uses a deck of cards with suits including Hearts, Diamonds, Clubs, and Spades?",
-    "answer": "Poker (and most card games)",
-    "choices": [
-      "Poker (and most card games)",
-      "Tarot",
-      "Uno",
-      "Snap"
-    ],
-    "explanation": "A standard 52-card deck has four suits: Hearts, Diamonds, Clubs, and Spades."
-  },
-  {
     "question": "What Nintendo franchise features a pink puffball that can inhale enemies?",
     "answer": "Kirby",
     "choices": [
@@ -163,28 +141,6 @@
       "Kingdom Rush"
     ],
     "explanation": "Plants vs. Zombies (PopCap, 2009) has players use various plants to defend against zombie attacks."
-  },
-  {
-    "question": "What is the name of Pac-Man's wife in the Pac-Man franchise?",
-    "answer": "Ms. Pac-Man",
-    "choices": [
-      "Ms. Pac-Man",
-      "Pac-Girl",
-      "Pac-Lady",
-      "Pac-Mom"
-    ],
-    "explanation": "Ms. Pac-Man is a 1982 arcade game and the character is Pac-Man's wife in the lore."
-  },
-  {
-    "question": "Which video game developer created Half-Life and Portal?",
-    "answer": "Valve",
-    "choices": [
-      "Valve",
-      "Bethesda",
-      "id Software",
-      "Epic Games"
-    ],
-    "explanation": "Valve Corporation (founded 1996) developed the Half-Life and Portal series."
   },
   {
     "question": "In Monopoly, what is the highest-value property?",
@@ -218,17 +174,6 @@
       "Sleuth"
     ],
     "explanation": "Clue (Cluedo in the UK) has players determining the murderer, weapon, and room of a crime."
-  },
-  {
-    "question": "In The Sims, what language do Sims speak?",
-    "answer": "Simlish",
-    "choices": [
-      "Simlish",
-      "Gibberish",
-      "Latin",
-      "Elvish"
-    ],
-    "explanation": "Simlish is the fictional language created for The Sims games by Maxis."
   },
   {
     "question": "What word game involves placing tiles on a board to form words for points?",
@@ -273,17 +218,6 @@
       "Old Maid"
     ],
     "explanation": "Spades is a trick-taking card game where players bid on how many tricks they expect to win."
-  },
-  {
-    "question": "What ancient Chinese game uses tiles with suits and honors, played in sets?",
-    "answer": "Mahjong",
-    "choices": [
-      "Mahjong",
-      "Go",
-      "Shogi",
-      "Pai Gow"
-    ],
-    "explanation": "Mahjong is a tile-based game originating in China during the Qing dynasty."
   },
   {
     "question": "In Pok\u00e9mon, what type is effective against both Fire and Water types?",
@@ -440,28 +374,6 @@
     "explanation": "RPG stands for Role-Playing Game, a genre where players assume the roles of characters in a fictional world."
   },
   {
-    "question": "Which company made the original Game Boy handheld?",
-    "answer": "Nintendo",
-    "choices": [
-      "Nintendo",
-      "Sega",
-      "Atari",
-      "SNK"
-    ],
-    "explanation": "Nintendo released the original Game Boy in 1989, designed by Gunpei Yokoi."
-  },
-  {
-    "question": "What tabletop game involves miniature models in strategic battle?",
-    "answer": "Warhammer 40,000",
-    "choices": [
-      "Warhammer 40,000",
-      "Dungeons & Dragons",
-      "Risk",
-      "Battleship"
-    ],
-    "explanation": "Warhammer 40,000 (Games Workshop, 1987) is a sci-fi tabletop miniature wargame."
-  },
-  {
     "question": "In playing cards, which card is typically the highest in most games?",
     "answer": "Ace",
     "choices": [
@@ -570,17 +482,6 @@
       "Game Boy Advance"
     ],
     "explanation": "The Nintendo Switch launched in March 2017 and can be used as a portable or home console."
-  },
-  {
-    "question": "In chess, what is the term for a move that puts the opponent's king in unavoidable capture?",
-    "answer": "Checkmate",
-    "choices": [
-      "Checkmate",
-      "Check",
-      "Stalemate",
-      "Fork"
-    ],
-    "explanation": "Checkmate ends the game; the king is in check with no legal move to escape capture."
   },
   {
     "question": "Which classic game involves players guessing a hidden code of colored pegs?",
@@ -814,17 +715,6 @@
     "explanation": "PlayerUnknown's Battlegrounds (PUBG) launched in 2017 and pioneered the modern battle royale genre."
   },
   {
-    "question": "What is the name of Link's fairy companion in The Legend of Zelda: Ocarina of Time?",
-    "answer": "Navi",
-    "choices": [
-      "Navi",
-      "Tatl",
-      "Ciela",
-      "Fi"
-    ],
-    "explanation": "Navi is Link's fairy guide in Ocarina of Time, known for the phrase 'Hey! Listen!'"
-  },
-  {
     "question": "In what game do players roll and move around a board buying properties?",
     "answer": "Monopoly",
     "choices": [
@@ -999,17 +889,6 @@
       "Old Maid"
     ],
     "explanation": "Crazy Eights players match cards by suit or rank; eights are wild, making them especially powerful."
-  },
-  {
-    "question": "In the game of darts, what is the highest score achievable with a single throw?",
-    "answer": "60 (triple 20)",
-    "choices": [
-      "60 (triple 20)",
-      "50 (bullseye)",
-      "100",
-      "57 (triple 19)"
-    ],
-    "explanation": "A triple 20 scores 60 points, the highest for a single dart; the bullseye scores 50."
   },
   {
     "question": "What video game franchise features the character Kratos as a God of War?",
@@ -1397,17 +1276,6 @@
     "explanation": "The knight moves in an L-shape: two squares in one direction then one square perpendicular, jumping over pieces."
   },
   {
-    "question": "What is the tabletop RPG system that uses a d20 as its primary die?",
-    "answer": "Dungeons & Dragons",
-    "choices": [
-      "Dungeons & Dragons",
-      "Pathfinder",
-      "GURPS",
-      "All of these (D&D's d20 system)"
-    ],
-    "explanation": "D&D uses a 20-sided die (d20) for most checks, attacks, and saving throws."
-  },
-  {
     "question": "Which video game has players catching virtual creatures and battling them?",
     "answer": "Pok\u00e9mon",
     "choices": [
@@ -1584,17 +1452,6 @@
     "explanation": "Counter-Strike (Valve, 2000) is a classic team-based tactical FPS where two sides complete objectives or eliminate opponents."
   },
   {
-    "question": "What number is the sum of opposite faces on a standard six-sided die?",
-    "answer": "7",
-    "choices": [
-      "7",
-      "6",
-      "8",
-      "5"
-    ],
-    "explanation": "On a standard die, opposite faces always sum to 7: 1\u20136, 2\u20135, 3\u20134."
-  },
-  {
     "question": "Which popular word game requires players to make words from randomly drawn letter tiles?",
     "answer": "Bananagrams",
     "choices": [
@@ -1758,17 +1615,6 @@
       "Jeopardy!"
     ],
     "explanation": "Wheel of Fortune (Merv Griffin, 1975) became a board game adaptation of the TV puzzle word game."
-  },
-  {
-    "question": "What ancient game uses pieces called 'pawns', 'rooks', and 'bishops'?",
-    "answer": "Chess",
-    "choices": [
-      "Chess",
-      "Backgammon",
-      "Go",
-      "Mahjong"
-    ],
-    "explanation": "Chess uses six piece types: King, Queen, Rook, Bishop, Knight, and Pawn."
   },
   {
     "question": "Which cooperative card game involves players defusing a bomb using instructions?",
@@ -1958,17 +1804,6 @@
     "explanation": "Professor Layton (Level-5) is a puzzle adventure game where players solve mysteries through logic puzzles."
   },
   {
-    "question": "In the game Sorry!, what do players need to get from the deck to enter play?",
-    "answer": "A 1 or 2 card",
-    "choices": [
-      "A 1 or 2 card",
-      "A 5 card",
-      "A Sorry card",
-      "Any card"
-    ],
-    "explanation": "In Sorry!, players must draw a 1 or 2 card to move a pawn out of the start position."
-  },
-  {
     "question": "What is the objective of the board game Ticket to Ride?",
     "answer": "Build train routes to connect cities on destination cards",
     "choices": [
@@ -2077,17 +1912,6 @@
       "Fictionary"
     ],
     "explanation": "Password (1961) and its modern variants have one player give single-word clues to get a partner to say the target word."
-  },
-  {
-    "question": "In the traditional game of marbles, what is the large shooting marble called?",
-    "answer": "Shooter or taw",
-    "choices": [
-      "Shooter or taw",
-      "Aggie",
-      "Steely",
-      "Boulder"
-    ],
-    "explanation": "The large marble used to knock others out of the ring is called the shooter or taw."
   },
   {
     "question": "Which 2003 video game lets players design and manage a theme park?",
@@ -2539,17 +2363,6 @@
       "Have the most cards"
     ],
     "explanation": "In Blackjack, the goal is to have a hand value closer to 21 than the dealer without exceeding 21 (which is called 'busting')."
-  },
-  {
-    "question": "How many tiles are in a standard Scrabble set?",
-    "answer": "100",
-    "choices": [
-      "90",
-      "100",
-      "110",
-      "120"
-    ],
-    "explanation": "A standard Scrabble set contains 100 tiles: 98 letter tiles and 2 blank tiles."
   },
   {
     "question": "Which video game character says 'It's-a me, Mario!'?",
@@ -5423,2049 +5236,3402 @@
     "explanation": "In Animal Crossing: New Horizons, players choose the name of their island when setting it up for the first time. Tom Nook facilitates the player's new life on the deserted island."
   },
   {
-    "question": "Which game features Nintendo 64?",
-    "answer": "The Legend of Zelda: Ocarina of Time",
+    "question": "Which company developed the first commercially successful game console?",
+    "answer": "Atari",
     "choices": [
-      "Animal Crossing: New Horizons",
-      "Mass Effect",
-      "The Last of Us",
-      "The Legend of Zelda: Ocarina of Time"
+      "Atari",
+      "Nintendo",
+      "Sega",
+      "Coleco"
     ],
-    "explanation": "Nintendo 64 is associated with The Legend of Zelda: Ocarina of Time."
+    "explanation": "Atari's Pong (1972) and the Atari 2600 (1977) were the first commercially successful arcade game and home console."
   },
   {
-    "question": "Ocarina of Time is most closely associated with which character, place, or concept?",
-    "answer": "Nintendo 64",
-    "choices": [
-      "Samus Aran",
-      "Nintendo 64",
-      "Valve",
-      "Riot Games"
-    ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Nintendo 64."
-  },
-  {
-    "question": "Ocarina of Time is most closely associated with which company or description?",
-    "answer": "Link",
-    "choices": [
-      "Bungie",
-      "Link",
-      "Square",
-      "Mojang"
-    ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Link."
-  },
-  {
-    "question": "Which game features Master Chief?",
-    "answer": "Halo: Combat Evolved",
-    "choices": [
-      "Halo: Combat Evolved",
-      "Tetris",
-      "Red Dead Redemption 2",
-      "Animal Crossing: New Horizons"
-    ],
-    "explanation": "Master Chief is associated with Halo: Combat Evolved."
-  },
-  {
-    "question": "Combat Evolved is most closely associated with which character, place, or concept?",
+    "question": "What is the name of the hero in the Halo series?",
     "answer": "Master Chief",
     "choices": [
-      "Arthur Morgan",
-      "FromSoftware",
       "Master Chief",
-      "Riot Games"
-    ],
-    "explanation": "Halo: Combat Evolved is associated with Master Chief."
-  },
-  {
-    "question": "Combat Evolved is most closely associated with which company or description?",
-    "answer": "Bungie",
-    "choices": [
-      "Lands Between",
-      "Mojang",
-      "roguelike",
-      "Bungie"
-    ],
-    "explanation": "Halo: Combat Evolved is associated with Bungie."
-  },
-  {
-    "question": "Which game features Aperture Science?",
-    "answer": "Portal",
-    "choices": [
-      "Pokemon Red and Blue",
-      "Portal",
-      "Red Dead Redemption 2",
-      "Mass Effect"
-    ],
-    "explanation": "Aperture Science is associated with Portal."
-  },
-  {
-    "question": "Portal is most closely associated with which character, place, or concept?",
-    "answer": "Aperture Science",
-    "choices": [
-      "Valve",
-      "crewmates and impostors",
-      "Gordon Freeman",
-      "Aperture Science"
-    ],
-    "explanation": "Portal is associated with Aperture Science."
-  },
-  {
-    "question": "Portal is most closely associated with which company or description?",
-    "answer": "GLaDOS",
-    "choices": [
-      "yellow maze character",
-      "GLaDOS",
-      "Capcom",
-      "Alexey Pajitnov"
-    ],
-    "explanation": "Portal is associated with GLaDOS."
-  },
-  {
-    "question": "Which game features Gordon Freeman?",
-    "answer": "Half-Life",
-    "choices": [
-      "Half-Life",
-      "Minecraft",
-      "Red Dead Redemption 2",
-      "Resident Evil"
-    ],
-    "explanation": "Gordon Freeman is associated with Half-Life."
-  },
-  {
-    "question": "Half-Life is most closely associated with which character, place, or concept?",
-    "answer": "Gordon Freeman",
-    "choices": [
       "Commander Shepard",
-      "James Sunderland",
-      "Gordon Freeman",
-      "Pikachu"
+      "Doomguy",
+      "Marcus Fenix"
     ],
-    "explanation": "Half-Life is associated with Gordon Freeman."
+    "explanation": "Master Chief Petty Officer John-117 is the protagonist of the Halo franchise."
   },
   {
-    "question": "Half-Life is most closely associated with which company or description?",
-    "answer": "Valve",
-    "choices": [
-      "indie platformer",
-      "Valve",
-      "hero shooter",
-      "CD Projekt"
-    ],
-    "explanation": "Half-Life is associated with Valve."
-  },
-  {
-    "question": "Which game features Ryu?",
-    "answer": "Street Fighter II",
-    "choices": [
-      "Street Fighter II",
-      "Pokemon Red and Blue",
-      "The Last of Us",
-      "Silent Hill 2"
-    ],
-    "explanation": "Ryu is associated with Street Fighter II."
-  },
-  {
-    "question": "Street Fighter II is most closely associated with which character, place, or concept?",
-    "answer": "Ryu",
-    "choices": [
-      "Namco",
-      "Nathan Drake",
-      "Ryu",
-      "Cloud Strife"
-    ],
-    "explanation": "Street Fighter II is associated with Ryu."
-  },
-  {
-    "question": "Street Fighter II is most closely associated with which company or description?",
-    "answer": "Capcom",
-    "choices": [
-      "Valve",
-      "psychological horror",
-      "Innersloth",
-      "Capcom"
-    ],
-    "explanation": "Street Fighter II is associated with Capcom."
-  },
-  {
-    "question": "Which game features Namco?",
-    "answer": "Pac-Man",
-    "choices": [
-      "Dota 2",
-      "Street Fighter II",
-      "Pac-Man",
-      "League of Legends"
-    ],
-    "explanation": "Namco is associated with Pac-Man."
-  },
-  {
-    "question": "Pac-Man is most closely associated with which character, place, or concept?",
-    "answer": "Namco",
-    "choices": [
-      "Master Chief",
-      "Namco",
-      "Tom Nook",
-      "Samus Aran"
-    ],
-    "explanation": "Pac-Man is associated with Namco."
-  },
-  {
-    "question": "Pac-Man is most closely associated with which company or description?",
-    "answer": "yellow maze character",
-    "choices": [
-      "Blizzard",
-      "Valve",
-      "yellow maze character",
-      "Capcom"
-    ],
-    "explanation": "Pac-Man is associated with yellow maze character."
-  },
-  {
-    "question": "Which game features Samus Aran?",
-    "answer": "Metroid",
-    "choices": [
-      "Final Fantasy VII",
-      "Metroid",
-      "Street Fighter II",
-      "The Legend of Zelda: Ocarina of Time"
-    ],
-    "explanation": "Samus Aran is associated with Metroid."
-  },
-  {
-    "question": "Metroid is most closely associated with which character, place, or concept?",
-    "answer": "Samus Aran",
-    "choices": [
-      "Samus Aran",
-      "Madeline",
-      "James Sunderland",
-      "Arthur Morgan"
-    ],
-    "explanation": "Metroid is associated with Samus Aran."
-  },
-  {
-    "question": "Metroid is most closely associated with which company or description?",
-    "answer": "Nintendo",
-    "choices": [
-      "Nintendo",
-      "Firaxis",
-      "Santa Monica Studio",
-      "Capcom"
-    ],
-    "explanation": "Metroid is associated with Nintendo."
-  },
-  {
-    "question": "Which game features Cloud Strife?",
-    "answer": "Final Fantasy VII",
-    "choices": [
-      "Hades",
-      "Halo: Combat Evolved",
-      "Final Fantasy VII",
-      "God of War"
-    ],
-    "explanation": "Cloud Strife is associated with Final Fantasy VII."
-  },
-  {
-    "question": "Final Fantasy VII is most closely associated with which character, place, or concept?",
-    "answer": "Cloud Strife",
-    "choices": [
-      "zombies and Umbrella",
-      "Nintendo 64",
-      "Valve",
-      "Cloud Strife"
-    ],
-    "explanation": "Final Fantasy VII is associated with Cloud Strife."
-  },
-  {
-    "question": "Final Fantasy VII is most closely associated with which company or description?",
-    "answer": "Square",
-    "choices": [
-      "Nintendo Switch",
-      "Valve",
-      "indie platformer",
-      "Square"
-    ],
-    "explanation": "Final Fantasy VII is associated with Square."
-  },
-  {
-    "question": "Which game features Blizzard?",
-    "answer": "Overwatch",
-    "choices": [
-      "Halo: Combat Evolved",
-      "The Last of Us",
-      "Overwatch",
-      "Silent Hill 2"
-    ],
-    "explanation": "Blizzard is associated with Overwatch."
-  },
-  {
-    "question": "Overwatch is most closely associated with which character, place, or concept?",
-    "answer": "Blizzard",
-    "choices": [
-      "Pikachu",
-      "Blizzard",
-      "creepers",
-      "Nintendo 64"
-    ],
-    "explanation": "Overwatch is associated with Blizzard."
-  },
-  {
-    "question": "Overwatch is most closely associated with which company or description?",
-    "answer": "hero shooter",
-    "choices": [
-      "BioWare",
-      "Santa Monica Studio",
-      "hero shooter",
-      "Blizzard"
-    ],
-    "explanation": "Overwatch is associated with hero shooter."
-  },
-  {
-    "question": "Which game features Geralt of Rivia?",
-    "answer": "The Witcher 3: Wild Hunt",
-    "choices": [
-      "Civilization VI",
-      "Street Fighter II",
-      "Metroid",
-      "The Witcher 3: Wild Hunt"
-    ],
-    "explanation": "Geralt of Rivia is associated with The Witcher 3: Wild Hunt."
-  },
-  {
-    "question": "The Witcher 3: Wild Hunt is most closely associated with which character, place, or concept?",
-    "answer": "Geralt of Rivia",
-    "choices": [
-      "turn-based strategy",
-      "Geralt of Rivia",
-      "Master Chief",
-      "Madeline"
-    ],
-    "explanation": "The Witcher 3: Wild Hunt is associated with Geralt of Rivia."
-  },
-  {
-    "question": "The Witcher 3: Wild Hunt is most closely associated with which company or description?",
-    "answer": "CD Projekt",
-    "choices": [
-      "CD Projekt",
-      "Bungie",
-      "Firaxis",
-      "Mojang"
-    ],
-    "explanation": "The Witcher 3: Wild Hunt is associated with CD Projekt."
-  },
-  {
-    "question": "Which game features FromSoftware?",
-    "answer": "Elden Ring",
-    "choices": [
-      "Portal",
-      "The Legend of Zelda: Ocarina of Time",
-      "Civilization VI",
-      "Elden Ring"
-    ],
-    "explanation": "FromSoftware is associated with Elden Ring."
-  },
-  {
-    "question": "Elden Ring is most closely associated with which character, place, or concept?",
-    "answer": "FromSoftware",
-    "choices": [
-      "FromSoftware",
-      "Master Chief",
-      "creepers",
-      "Nintendo 64"
-    ],
-    "explanation": "Elden Ring is associated with FromSoftware."
-  },
-  {
-    "question": "Elden Ring is most closely associated with which company or description?",
-    "answer": "Lands Between",
-    "choices": [
-      "MOBA",
-      "Lands Between",
-      "Game Boy",
-      "Valve"
-    ],
-    "explanation": "Elden Ring is associated with Lands Between."
-  },
-  {
-    "question": "Which game features Kratos?",
-    "answer": "God of War",
-    "choices": [
-      "Metroid",
-      "Among Us",
-      "God of War",
-      "Resident Evil"
-    ],
-    "explanation": "Kratos is associated with God of War."
-  },
-  {
-    "question": "God of War is most closely associated with which character, place, or concept?",
-    "answer": "Kratos",
-    "choices": [
-      "Namco",
-      "Pikachu",
-      "Geralt of Rivia",
-      "Kratos"
-    ],
-    "explanation": "God of War is associated with Kratos."
-  },
-  {
-    "question": "God of War is most closely associated with which company or description?",
-    "answer": "Santa Monica Studio",
-    "choices": [
-      "Santa Monica Studio",
-      "Capcom",
-      "Capcom",
-      "GLaDOS"
-    ],
-    "explanation": "God of War is associated with Santa Monica Studio."
-  },
-  {
-    "question": "Which game features Commander Shepard?",
-    "answer": "Mass Effect",
-    "choices": [
-      "Street Fighter II",
-      "Mass Effect",
-      "Pac-Man",
-      "Final Fantasy VII"
-    ],
-    "explanation": "Commander Shepard is associated with Mass Effect."
-  },
-  {
-    "question": "Mass Effect is most closely associated with which character, place, or concept?",
-    "answer": "Commander Shepard",
-    "choices": [
-      "creepers",
-      "terrorists and counter-terrorists",
-      "Commander Shepard",
-      "Kratos"
-    ],
-    "explanation": "Mass Effect is associated with Commander Shepard."
-  },
-  {
-    "question": "Mass Effect is most closely associated with which company or description?",
-    "answer": "BioWare",
-    "choices": [
-      "Link",
-      "BioWare",
-      "hero shooter",
-      "Mojang"
-    ],
-    "explanation": "Mass Effect is associated with BioWare."
-  },
-  {
-    "question": "Which game features Arthur Morgan?",
-    "answer": "Red Dead Redemption 2",
-    "choices": [
-      "Red Dead Redemption 2",
-      "Tetris",
-      "Half-Life",
-      "The Last of Us"
-    ],
-    "explanation": "Arthur Morgan is associated with Red Dead Redemption 2."
-  },
-  {
-    "question": "Red Dead Redemption 2 is most closely associated with which character, place, or concept?",
-    "answer": "Arthur Morgan",
-    "choices": [
-      "falling tetrominoes",
-      "turn-based strategy",
-      "Arthur Morgan",
-      "terrorists and counter-terrorists"
-    ],
-    "explanation": "Red Dead Redemption 2 is associated with Arthur Morgan."
-  },
-  {
-    "question": "Red Dead Redemption 2 is most closely associated with which company or description?",
-    "answer": "Rockstar Games",
-    "choices": [
-      "Rockstar Games",
-      "Firaxis",
-      "Naughty Dog",
-      "CD Projekt"
-    ],
-    "explanation": "Red Dead Redemption 2 is associated with Rockstar Games."
-  },
-  {
-    "question": "Which game features Tom Nook?",
-    "answer": "Animal Crossing: New Horizons",
-    "choices": [
-      "Counter-Strike",
-      "Hades",
-      "Animal Crossing: New Horizons",
-      "Celeste"
-    ],
-    "explanation": "Tom Nook is associated with Animal Crossing: New Horizons."
-  },
-  {
-    "question": "New Horizons is most closely associated with which character, place, or concept?",
-    "answer": "Tom Nook",
-    "choices": [
-      "terran, zerg, and protoss",
-      "turn-based strategy",
-      "Aperture Science",
-      "Tom Nook"
-    ],
-    "explanation": "Animal Crossing: New Horizons is associated with Tom Nook."
-  },
-  {
-    "question": "New Horizons is most closely associated with which company or description?",
-    "answer": "Nintendo Switch",
-    "choices": [
-      "roguelike",
-      "Nintendo Switch",
-      "Santa Monica Studio",
-      "BioWare"
-    ],
-    "explanation": "Animal Crossing: New Horizons is associated with Nintendo Switch."
-  },
-  {
-    "question": "Which game features Riot Games?",
-    "answer": "League of Legends",
-    "choices": [
-      "League of Legends",
-      "Pokemon Red and Blue",
-      "Street Fighter II",
-      "Uncharted 2: Among Thieves"
-    ],
-    "explanation": "Riot Games is associated with League of Legends."
-  },
-  {
-    "question": "League of Legends is most closely associated with which character, place, or concept?",
-    "answer": "Riot Games",
-    "choices": [
-      "Riot Games",
-      "Cloud Strife",
-      "turn-based strategy",
-      "creepers"
-    ],
-    "explanation": "League of Legends is associated with Riot Games."
-  },
-  {
-    "question": "League of Legends is most closely associated with which company or description?",
-    "answer": "MOBA",
-    "choices": [
-      "CD Projekt",
-      "Innersloth",
-      "MOBA",
-      "Lands Between"
-    ],
-    "explanation": "League of Legends is associated with MOBA."
-  },
-  {
-    "question": "Which game features Valve?",
-    "answer": "Dota 2",
-    "choices": [
-      "Animal Crossing: New Horizons",
-      "Resident Evil",
-      "Half-Life",
-      "Dota 2"
-    ],
-    "explanation": "Valve is associated with Dota 2."
-  },
-  {
-    "question": "Dota 2 is most closely associated with which character, place, or concept?",
-    "answer": "Valve",
-    "choices": [
-      "turn-based strategy",
-      "Valve",
-      "James Sunderland",
-      "Pikachu"
-    ],
-    "explanation": "Dota 2 is associated with Valve."
-  },
-  {
-    "question": "Dota 2 is most closely associated with which company or description?",
-    "answer": "MOBA",
-    "choices": [
-      "MOBA",
-      "Valve",
-      "BioWare",
-      "Lands Between"
-    ],
-    "explanation": "Dota 2 is associated with MOBA."
-  },
-  {
-    "question": "Which game features terrorists and counter-terrorists?",
-    "answer": "Counter-Strike",
-    "choices": [
-      "Dota 2",
-      "The Last of Us",
-      "Resident Evil",
-      "Counter-Strike"
-    ],
-    "explanation": "terrorists and counter-terrorists is associated with Counter-Strike."
-  },
-  {
-    "question": "Counter-Strike is most closely associated with which character, place, or concept?",
-    "answer": "terrorists and counter-terrorists",
-    "choices": [
-      "falling tetrominoes",
-      "Gordon Freeman",
-      "FromSoftware",
-      "terrorists and counter-terrorists"
-    ],
-    "explanation": "Counter-Strike is associated with terrorists and counter-terrorists."
-  },
-  {
-    "question": "Counter-Strike is most closely associated with which company or description?",
-    "answer": "Valve",
-    "choices": [
-      "MOBA",
-      "hero shooter",
-      "Santa Monica Studio",
-      "Valve"
-    ],
-    "explanation": "Counter-Strike is associated with Valve."
-  },
-  {
-    "question": "Which game features creepers?",
-    "answer": "Minecraft",
-    "choices": [
-      "Among Us",
-      "Minecraft",
-      "The Legend of Zelda: Ocarina of Time",
-      "Red Dead Redemption 2"
-    ],
-    "explanation": "creepers is associated with Minecraft."
-  },
-  {
-    "question": "Minecraft is most closely associated with which character, place, or concept?",
-    "answer": "creepers",
-    "choices": [
-      "Nathan Drake",
-      "Ryu",
-      "Kratos",
-      "creepers"
-    ],
-    "explanation": "Minecraft is associated with creepers."
-  },
-  {
-    "question": "Minecraft is most closely associated with which company or description?",
+    "question": "Which company developed Minecraft?",
     "answer": "Mojang",
     "choices": [
       "Mojang",
-      "yellow maze character",
-      "psychological horror",
-      "Bungie"
-    ],
-    "explanation": "Minecraft is associated with Mojang."
-  },
-  {
-    "question": "Which game features falling tetrominoes?",
-    "answer": "Tetris",
-    "choices": [
-      "Mass Effect",
-      "Pac-Man",
-      "Tetris",
-      "Metroid"
-    ],
-    "explanation": "falling tetrominoes is associated with Tetris."
-  },
-  {
-    "question": "Tetris is most closely associated with which character, place, or concept?",
-    "answer": "falling tetrominoes",
-    "choices": [
-      "falling tetrominoes",
-      "Nathan Drake",
-      "Ryu",
-      "Tom Nook"
-    ],
-    "explanation": "Tetris is associated with falling tetrominoes."
-  },
-  {
-    "question": "Tetris is most closely associated with which company or description?",
-    "answer": "Alexey Pajitnov",
-    "choices": [
-      "yellow maze character",
-      "Lands Between",
-      "Alexey Pajitnov",
-      "Innersloth"
-    ],
-    "explanation": "Tetris is associated with Alexey Pajitnov."
-  },
-  {
-    "question": "Which game features Madeline?",
-    "answer": "Celeste",
-    "choices": [
-      "Pac-Man",
-      "Civilization VI",
-      "Celeste",
-      "StarCraft"
-    ],
-    "explanation": "Madeline is associated with Celeste."
-  },
-  {
-    "question": "Celeste is most closely associated with which character, place, or concept?",
-    "answer": "Madeline",
-    "choices": [
-      "Arthur Morgan",
-      "Nintendo 64",
-      "Ryu",
-      "Madeline"
-    ],
-    "explanation": "Celeste is associated with Madeline."
-  },
-  {
-    "question": "Celeste is most closely associated with which company or description?",
-    "answer": "indie platformer",
-    "choices": [
-      "Capcom",
-      "Rockstar Games",
-      "indie platformer",
-      "Firaxis"
-    ],
-    "explanation": "Celeste is associated with indie platformer."
-  },
-  {
-    "question": "Which game features Supergiant Games?",
-    "answer": "Hades",
-    "choices": [
-      "Hades",
-      "Portal",
-      "Resident Evil",
-      "Pac-Man"
-    ],
-    "explanation": "Supergiant Games is associated with Hades."
-  },
-  {
-    "question": "Hades is most closely associated with which character, place, or concept?",
-    "answer": "Supergiant Games",
-    "choices": [
-      "Supergiant Games",
-      "Geralt of Rivia",
       "Valve",
-      "Master Chief"
+      "Epic Games",
+      "Bethesda"
     ],
-    "explanation": "Hades is associated with Supergiant Games."
+    "explanation": "Minecraft was created by Markus 'Notch' Persson at Mojang, first released in 2011."
   },
   {
-    "question": "Hades is most closely associated with which company or description?",
-    "answer": "roguelike",
-    "choices": [
-      "roguelike",
-      "indie platformer",
-      "Bungie",
-      "Naughty Dog"
-    ],
-    "explanation": "Hades is associated with roguelike."
-  },
-  {
-    "question": "Which game features crewmates and impostors?",
-    "answer": "Among Us",
-    "choices": [
-      "Tetris",
-      "Uncharted 2: Among Thieves",
-      "Portal",
-      "Among Us"
-    ],
-    "explanation": "crewmates and impostors is associated with Among Us."
-  },
-  {
-    "question": "Among Us is most closely associated with which character, place, or concept?",
-    "answer": "crewmates and impostors",
-    "choices": [
-      "Samus Aran",
-      "Nintendo 64",
-      "crewmates and impostors",
-      "James Sunderland"
-    ],
-    "explanation": "Among Us is associated with crewmates and impostors."
-  },
-  {
-    "question": "Among Us is most closely associated with which company or description?",
-    "answer": "Innersloth",
-    "choices": [
-      "Bungie",
-      "Square",
-      "Innersloth",
-      "Game Boy"
-    ],
-    "explanation": "Among Us is associated with Innersloth."
-  },
-  {
-    "question": "Which game features Pikachu?",
-    "answer": "Pokemon Red and Blue",
-    "choices": [
-      "Uncharted 2: Among Thieves",
-      "Pokemon Red and Blue",
-      "Minecraft",
-      "Metroid"
-    ],
-    "explanation": "Pikachu is associated with Pokemon Red and Blue."
-  },
-  {
-    "question": "Pokemon Red and Blue is most closely associated with which character, place, or concept?",
-    "answer": "Pikachu",
-    "choices": [
-      "Ryu",
-      "creepers",
-      "zombies and Umbrella",
-      "Pikachu"
-    ],
-    "explanation": "Pokemon Red and Blue is associated with Pikachu."
-  },
-  {
-    "question": "Pokemon Red and Blue is most closely associated with which company or description?",
-    "answer": "Game Boy",
-    "choices": [
-      "Game Boy",
-      "Valve",
-      "Naughty Dog",
-      "indie platformer"
-    ],
-    "explanation": "Pokemon Red and Blue is associated with Game Boy."
-  },
-  {
-    "question": "Which game features zombies and Umbrella?",
-    "answer": "Resident Evil",
-    "choices": [
-      "Counter-Strike",
-      "The Legend of Zelda: Ocarina of Time",
-      "League of Legends",
-      "Resident Evil"
-    ],
-    "explanation": "zombies and Umbrella is associated with Resident Evil."
-  },
-  {
-    "question": "Resident Evil is most closely associated with which character, place, or concept?",
-    "answer": "zombies and Umbrella",
-    "choices": [
-      "zombies and Umbrella",
-      "terran, zerg, and protoss",
-      "FromSoftware",
-      "creepers"
-    ],
-    "explanation": "Resident Evil is associated with zombies and Umbrella."
-  },
-  {
-    "question": "Resident Evil is most closely associated with which company or description?",
-    "answer": "Capcom",
-    "choices": [
-      "Valve",
-      "Game Boy",
-      "yellow maze character",
-      "Capcom"
-    ],
-    "explanation": "Resident Evil is associated with Capcom."
-  },
-  {
-    "question": "Which game features James Sunderland?",
-    "answer": "Silent Hill 2",
-    "choices": [
-      "Civilization VI",
-      "Pac-Man",
-      "Uncharted 2: Among Thieves",
-      "Silent Hill 2"
-    ],
-    "explanation": "James Sunderland is associated with Silent Hill 2."
-  },
-  {
-    "question": "Silent Hill 2 is most closely associated with which character, place, or concept?",
-    "answer": "James Sunderland",
-    "choices": [
-      "James Sunderland",
-      "Tom Nook",
-      "Nintendo 64",
-      "Valve"
-    ],
-    "explanation": "Silent Hill 2 is associated with James Sunderland."
-  },
-  {
-    "question": "Silent Hill 2 is most closely associated with which company or description?",
-    "answer": "psychological horror",
-    "choices": [
-      "CD Projekt",
-      "Bungie",
-      "psychological horror",
-      "MOBA"
-    ],
-    "explanation": "Silent Hill 2 is associated with psychological horror."
-  },
-  {
-    "question": "Which game features Joel and Ellie?",
-    "answer": "The Last of Us",
-    "choices": [
-      "Silent Hill 2",
-      "The Legend of Zelda: Ocarina of Time",
-      "The Last of Us",
-      "League of Legends"
-    ],
-    "explanation": "Joel and Ellie is associated with The Last of Us."
-  },
-  {
-    "question": "The Last of Us is most closely associated with which character, place, or concept?",
-    "answer": "Joel and Ellie",
-    "choices": [
-      "Commander Shepard",
-      "Gordon Freeman",
-      "Pikachu",
-      "Joel and Ellie"
-    ],
-    "explanation": "The Last of Us is associated with Joel and Ellie."
-  },
-  {
-    "question": "The Last of Us is most closely associated with which company or description?",
-    "answer": "Naughty Dog",
-    "choices": [
-      "Naughty Dog",
-      "Firaxis",
-      "Link",
-      "Square"
-    ],
-    "explanation": "The Last of Us is associated with Naughty Dog."
-  },
-  {
-    "question": "Which game features Nathan Drake?",
-    "answer": "Uncharted 2: Among Thieves",
-    "choices": [
-      "The Legend of Zelda: Ocarina of Time",
-      "Pokemon Red and Blue",
-      "Uncharted 2: Among Thieves",
-      "Metroid"
-    ],
-    "explanation": "Nathan Drake is associated with Uncharted 2: Among Thieves."
-  },
-  {
-    "question": "Uncharted 2: Among Thieves is most closely associated with which character, place, or concept?",
-    "answer": "Nathan Drake",
-    "choices": [
-      "Nathan Drake",
-      "Master Chief",
-      "zombies and Umbrella",
-      "Valve"
-    ],
-    "explanation": "Uncharted 2: Among Thieves is associated with Nathan Drake."
-  },
-  {
-    "question": "Uncharted 2: Among Thieves is most closely associated with which company or description?",
-    "answer": "Naughty Dog",
-    "choices": [
-      "Bungie",
-      "Blizzard",
-      "indie platformer",
-      "Naughty Dog"
-    ],
-    "explanation": "Uncharted 2: Among Thieves is associated with Naughty Dog."
-  },
-  {
-    "question": "Which game features turn-based strategy?",
-    "answer": "Civilization VI",
-    "choices": [
-      "Halo: Combat Evolved",
-      "League of Legends",
-      "Civilization VI",
-      "Tetris"
-    ],
-    "explanation": "turn-based strategy is associated with Civilization VI."
-  },
-  {
-    "question": "Civilization VI is most closely associated with which character, place, or concept?",
-    "answer": "turn-based strategy",
-    "choices": [
-      "Blizzard",
-      "Riot Games",
-      "turn-based strategy",
-      "crewmates and impostors"
-    ],
-    "explanation": "Civilization VI is associated with turn-based strategy."
-  },
-  {
-    "question": "Civilization VI is most closely associated with which company or description?",
-    "answer": "Firaxis",
-    "choices": [
-      "Firaxis",
-      "Nintendo Switch",
-      "GLaDOS",
-      "Valve"
-    ],
-    "explanation": "Civilization VI is associated with Firaxis."
-  },
-  {
-    "question": "Which game features terran, zerg, and protoss?",
-    "answer": "StarCraft",
-    "choices": [
-      "StarCraft",
-      "Resident Evil",
-      "Counter-Strike",
-      "Pac-Man"
-    ],
-    "explanation": "terran, zerg, and protoss is associated with StarCraft."
-  },
-  {
-    "question": "StarCraft is most closely associated with which character, place, or concept?",
-    "answer": "terran, zerg, and protoss",
-    "choices": [
-      "crewmates and impostors",
-      "terran, zerg, and protoss",
-      "Blizzard",
-      "turn-based strategy"
-    ],
-    "explanation": "StarCraft is associated with terran, zerg, and protoss."
-  },
-  {
-    "question": "StarCraft is most closely associated with which company or description?",
-    "answer": "Blizzard",
-    "choices": [
-      "roguelike",
-      "CD Projekt",
-      "MOBA",
-      "Blizzard"
-    ],
-    "explanation": "StarCraft is associated with Blizzard."
-  },
-  {
-    "question": "In gaming, which game features Nintendo 64?",
-    "answer": "The Legend of Zelda: Ocarina of Time",
-    "choices": [
-      "Animal Crossing: New Horizons",
-      "Mass Effect",
-      "The Last of Us",
-      "The Legend of Zelda: Ocarina of Time"
-    ],
-    "explanation": "Nintendo 64 is associated with The Legend of Zelda: Ocarina of Time."
-  },
-  {
-    "question": "In gaming, the Legend of Zelda: Ocarina of Time is most closely associated with which character, place, or concept?",
-    "answer": "Nintendo 64",
-    "choices": [
-      "Samus Aran",
-      "Nintendo 64",
-      "Valve",
-      "Riot Games"
-    ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Nintendo 64."
-  },
-  {
-    "question": "In gaming, the Legend of Zelda: Ocarina of Time is most closely associated with which company or description?",
-    "answer": "Link",
-    "choices": [
-      "Bungie",
-      "Link",
-      "Square",
-      "Mojang"
-    ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Link."
-  },
-  {
-    "question": "In gaming, which game features Master Chief?",
-    "answer": "Halo: Combat Evolved",
-    "choices": [
-      "Halo: Combat Evolved",
-      "Tetris",
-      "Red Dead Redemption 2",
-      "Animal Crossing: New Horizons"
-    ],
-    "explanation": "Master Chief is associated with Halo: Combat Evolved."
-  },
-  {
-    "question": "In gaming, halo: Combat Evolved is most closely associated with which character, place, or concept?",
-    "answer": "Master Chief",
-    "choices": [
-      "Arthur Morgan",
-      "FromSoftware",
-      "Master Chief",
-      "Riot Games"
-    ],
-    "explanation": "Halo: Combat Evolved is associated with Master Chief."
-  },
-  {
-    "question": "In gaming, halo: Combat Evolved is most closely associated with which company or description?",
-    "answer": "Bungie",
-    "choices": [
-      "Lands Between",
-      "Mojang",
-      "roguelike",
-      "Bungie"
-    ],
-    "explanation": "Halo: Combat Evolved is associated with Bungie."
-  },
-  {
-    "question": "In gaming, which game features Aperture Science?",
-    "answer": "Portal",
-    "choices": [
-      "Pokemon Red and Blue",
-      "Portal",
-      "Red Dead Redemption 2",
-      "Mass Effect"
-    ],
-    "explanation": "Aperture Science is associated with Portal."
-  },
-  {
-    "question": "In gaming, portal is most closely associated with which character, place, or concept?",
-    "answer": "Aperture Science",
-    "choices": [
-      "Valve",
-      "crewmates and impostors",
-      "Gordon Freeman",
-      "Aperture Science"
-    ],
-    "explanation": "Portal is associated with Aperture Science."
-  },
-  {
-    "question": "In gaming, portal is most closely associated with which company or description?",
-    "answer": "GLaDOS",
-    "choices": [
-      "yellow maze character",
-      "GLaDOS",
-      "Capcom",
-      "Alexey Pajitnov"
-    ],
-    "explanation": "Portal is associated with GLaDOS."
-  },
-  {
-    "question": "In gaming, which game features Gordon Freeman?",
-    "answer": "Half-Life",
-    "choices": [
-      "Half-Life",
-      "Minecraft",
-      "Red Dead Redemption 2",
-      "Resident Evil"
-    ],
-    "explanation": "Gordon Freeman is associated with Half-Life."
-  },
-  {
-    "question": "In gaming, half-Life is most closely associated with which character, place, or concept?",
-    "answer": "Gordon Freeman",
-    "choices": [
-      "Commander Shepard",
-      "James Sunderland",
-      "Gordon Freeman",
-      "Pikachu"
-    ],
-    "explanation": "Half-Life is associated with Gordon Freeman."
-  },
-  {
-    "question": "In gaming, half-Life is most closely associated with which company or description?",
-    "answer": "Valve",
-    "choices": [
-      "indie platformer",
-      "Valve",
-      "hero shooter",
-      "CD Projekt"
-    ],
-    "explanation": "Half-Life is associated with Valve."
-  },
-  {
-    "question": "In gaming, which game features Ryu?",
-    "answer": "Street Fighter II",
-    "choices": [
-      "Street Fighter II",
-      "Pokemon Red and Blue",
-      "The Last of Us",
-      "Silent Hill 2"
-    ],
-    "explanation": "Ryu is associated with Street Fighter II."
-  },
-  {
-    "question": "In gaming, street Fighter II is most closely associated with which character, place, or concept?",
-    "answer": "Ryu",
-    "choices": [
-      "Namco",
-      "Nathan Drake",
-      "Ryu",
-      "Cloud Strife"
-    ],
-    "explanation": "Street Fighter II is associated with Ryu."
-  },
-  {
-    "question": "In gaming, street Fighter II is most closely associated with which company or description?",
-    "answer": "Capcom",
-    "choices": [
-      "Valve",
-      "psychological horror",
-      "Innersloth",
-      "Capcom"
-    ],
-    "explanation": "Street Fighter II is associated with Capcom."
-  },
-  {
-    "question": "In gaming, which game features Namco?",
-    "answer": "Pac-Man",
-    "choices": [
-      "Dota 2",
-      "Street Fighter II",
-      "Pac-Man",
-      "League of Legends"
-    ],
-    "explanation": "Namco is associated with Pac-Man."
-  },
-  {
-    "question": "In gaming, pac-Man is most closely associated with which character, place, or concept?",
-    "answer": "Namco",
-    "choices": [
-      "Master Chief",
-      "Namco",
-      "Tom Nook",
-      "Samus Aran"
-    ],
-    "explanation": "Pac-Man is associated with Namco."
-  },
-  {
-    "question": "In gaming, pac-Man is most closely associated with which company or description?",
-    "answer": "yellow maze character",
-    "choices": [
-      "Blizzard",
-      "Valve",
-      "yellow maze character",
-      "Capcom"
-    ],
-    "explanation": "Pac-Man is associated with yellow maze character."
-  },
-  {
-    "question": "In gaming, which game features Samus Aran?",
-    "answer": "Metroid",
-    "choices": [
-      "Final Fantasy VII",
-      "Metroid",
-      "Street Fighter II",
-      "The Legend of Zelda: Ocarina of Time"
-    ],
-    "explanation": "Samus Aran is associated with Metroid."
-  },
-  {
-    "question": "In gaming, metroid is most closely associated with which character, place, or concept?",
-    "answer": "Samus Aran",
-    "choices": [
-      "Samus Aran",
-      "Madeline",
-      "James Sunderland",
-      "Arthur Morgan"
-    ],
-    "explanation": "Metroid is associated with Samus Aran."
-  },
-  {
-    "question": "In gaming, metroid is most closely associated with which company or description?",
-    "answer": "Nintendo",
-    "choices": [
-      "Nintendo",
-      "Firaxis",
-      "Santa Monica Studio",
-      "Capcom"
-    ],
-    "explanation": "Metroid is associated with Nintendo."
-  },
-  {
-    "question": "In gaming, which game features Cloud Strife?",
-    "answer": "Final Fantasy VII",
-    "choices": [
-      "Hades",
-      "Halo: Combat Evolved",
-      "Final Fantasy VII",
-      "God of War"
-    ],
-    "explanation": "Cloud Strife is associated with Final Fantasy VII."
-  },
-  {
-    "question": "In gaming, final Fantasy VII is most closely associated with which character, place, or concept?",
-    "answer": "Cloud Strife",
-    "choices": [
-      "zombies and Umbrella",
-      "Nintendo 64",
-      "Valve",
-      "Cloud Strife"
-    ],
-    "explanation": "Final Fantasy VII is associated with Cloud Strife."
-  },
-  {
-    "question": "In gaming, final Fantasy VII is most closely associated with which company or description?",
-    "answer": "Square",
-    "choices": [
-      "Nintendo Switch",
-      "Valve",
-      "indie platformer",
-      "Square"
-    ],
-    "explanation": "Final Fantasy VII is associated with Square."
-  },
-  {
-    "question": "In gaming, which game features Blizzard?",
-    "answer": "Overwatch",
-    "choices": [
-      "Halo: Combat Evolved",
-      "The Last of Us",
-      "Overwatch",
-      "Silent Hill 2"
-    ],
-    "explanation": "Blizzard is associated with Overwatch."
-  },
-  {
-    "question": "In gaming, overwatch is most closely associated with which character, place, or concept?",
-    "answer": "Blizzard",
-    "choices": [
-      "Pikachu",
-      "Blizzard",
-      "creepers",
-      "Nintendo 64"
-    ],
-    "explanation": "Overwatch is associated with Blizzard."
-  },
-  {
-    "question": "In gaming, overwatch is most closely associated with which company or description?",
-    "answer": "hero shooter",
-    "choices": [
-      "BioWare",
-      "Santa Monica Studio",
-      "hero shooter",
-      "Blizzard"
-    ],
-    "explanation": "Overwatch is associated with hero shooter."
-  },
-  {
-    "question": "In gaming, which game features Geralt of Rivia?",
-    "answer": "The Witcher 3: Wild Hunt",
-    "choices": [
-      "Civilization VI",
-      "Street Fighter II",
-      "Metroid",
-      "The Witcher 3: Wild Hunt"
-    ],
-    "explanation": "Geralt of Rivia is associated with The Witcher 3: Wild Hunt."
-  },
-  {
-    "question": "In gaming, the Witcher 3: Wild Hunt is most closely associated with which character, place, or concept?",
-    "answer": "Geralt of Rivia",
-    "choices": [
-      "turn-based strategy",
-      "Geralt of Rivia",
-      "Master Chief",
-      "Madeline"
-    ],
-    "explanation": "The Witcher 3: Wild Hunt is associated with Geralt of Rivia."
-  },
-  {
-    "question": "In gaming, the Witcher 3: Wild Hunt is most closely associated with which company or description?",
-    "answer": "CD Projekt",
-    "choices": [
-      "CD Projekt",
-      "Bungie",
-      "Firaxis",
-      "Mojang"
-    ],
-    "explanation": "The Witcher 3: Wild Hunt is associated with CD Projekt."
-  },
-  {
-    "question": "In gaming, which game features FromSoftware?",
-    "answer": "Elden Ring",
-    "choices": [
-      "Portal",
-      "The Legend of Zelda: Ocarina of Time",
-      "Civilization VI",
-      "Elden Ring"
-    ],
-    "explanation": "FromSoftware is associated with Elden Ring."
-  },
-  {
-    "question": "In gaming, elden Ring is most closely associated with which character, place, or concept?",
-    "answer": "FromSoftware",
-    "choices": [
-      "FromSoftware",
-      "Master Chief",
-      "creepers",
-      "Nintendo 64"
-    ],
-    "explanation": "Elden Ring is associated with FromSoftware."
-  },
-  {
-    "question": "In gaming, elden Ring is most closely associated with which company or description?",
-    "answer": "Lands Between",
-    "choices": [
-      "MOBA",
-      "Lands Between",
-      "Game Boy",
-      "Valve"
-    ],
-    "explanation": "Elden Ring is associated with Lands Between."
-  },
-  {
-    "question": "In gaming, which game features Kratos?",
+    "question": "Which game franchise features characters named Kratos?",
     "answer": "God of War",
     "choices": [
-      "Metroid",
-      "Among Us",
       "God of War",
-      "Resident Evil"
+      "Assassin's Creed",
+      "Devil May Cry",
+      "Dante's Inferno"
     ],
-    "explanation": "Kratos is associated with God of War."
+    "explanation": "Kratos is the main protagonist of Sony's God of War franchise."
   },
   {
-    "question": "In gaming, god of War is most closely associated with which character, place, or concept?",
-    "answer": "Kratos",
+    "question": "What console introduced the rumble pack peripheral?",
+    "answer": "Nintendo 64",
     "choices": [
-      "Namco",
-      "Pikachu",
-      "Geralt of Rivia",
-      "Kratos"
+      "Nintendo 64",
+      "SNES",
+      "PlayStation",
+      "Sega Saturn"
     ],
-    "explanation": "God of War is associated with Kratos."
+    "explanation": "Nintendo introduced the Rumble Pak accessory for the Nintendo 64 controller in 1997."
   },
   {
-    "question": "In gaming, god of War is most closely associated with which company or description?",
-    "answer": "Santa Monica Studio",
-    "choices": [
-      "Santa Monica Studio",
-      "Capcom",
-      "Capcom",
-      "GLaDOS"
-    ],
-    "explanation": "God of War is associated with Santa Monica Studio."
-  },
-  {
-    "question": "In gaming, which game features Commander Shepard?",
-    "answer": "Mass Effect",
-    "choices": [
-      "Street Fighter II",
-      "Mass Effect",
-      "Pac-Man",
-      "Final Fantasy VII"
-    ],
-    "explanation": "Commander Shepard is associated with Mass Effect."
-  },
-  {
-    "question": "In gaming, mass Effect is most closely associated with which character, place, or concept?",
-    "answer": "Commander Shepard",
-    "choices": [
-      "creepers",
-      "terrorists and counter-terrorists",
-      "Commander Shepard",
-      "Kratos"
-    ],
-    "explanation": "Mass Effect is associated with Commander Shepard."
-  },
-  {
-    "question": "In gaming, mass Effect is most closely associated with which company or description?",
-    "answer": "BioWare",
-    "choices": [
-      "Link",
-      "BioWare",
-      "hero shooter",
-      "Mojang"
-    ],
-    "explanation": "Mass Effect is associated with BioWare."
-  },
-  {
-    "question": "In gaming, which game features Arthur Morgan?",
-    "answer": "Red Dead Redemption 2",
-    "choices": [
-      "Red Dead Redemption 2",
-      "Tetris",
-      "Half-Life",
-      "The Last of Us"
-    ],
-    "explanation": "Arthur Morgan is associated with Red Dead Redemption 2."
-  },
-  {
-    "question": "In gaming, red Dead Redemption 2 is most closely associated with which character, place, or concept?",
-    "answer": "Arthur Morgan",
-    "choices": [
-      "falling tetrominoes",
-      "turn-based strategy",
-      "Arthur Morgan",
-      "terrorists and counter-terrorists"
-    ],
-    "explanation": "Red Dead Redemption 2 is associated with Arthur Morgan."
-  },
-  {
-    "question": "In gaming, red Dead Redemption 2 is most closely associated with which company or description?",
+    "question": "Which studio made the Red Dead Redemption series?",
     "answer": "Rockstar Games",
     "choices": [
       "Rockstar Games",
-      "Firaxis",
       "Naughty Dog",
-      "CD Projekt"
+      "CD Projekt Red",
+      "Bethesda"
     ],
-    "explanation": "Red Dead Redemption 2 is associated with Rockstar Games."
+    "explanation": "Red Dead Redemption and its sequel were developed by Rockstar Games."
   },
   {
-    "question": "In gaming, which game features Tom Nook?",
-    "answer": "Animal Crossing: New Horizons",
+    "question": "In Pokemon, what type is Charmander?",
+    "answer": "Fire",
     "choices": [
-      "Counter-Strike",
-      "Hades",
-      "Animal Crossing: New Horizons",
-      "Celeste"
+      "Fire",
+      "Water",
+      "Grass",
+      "Electric"
     ],
-    "explanation": "Tom Nook is associated with Animal Crossing: New Horizons."
+    "explanation": "Charmander is a Fire-type Pok\u00e9mon, one of the three starter Pok\u00e9mon in the original games."
   },
   {
-    "question": "In gaming, animal Crossing: New Horizons is most closely associated with which character, place, or concept?",
-    "answer": "Tom Nook",
+    "question": "What is the highest-selling gaming console of all time?",
+    "answer": "PlayStation 2",
     "choices": [
-      "terran, zerg, and protoss",
-      "turn-based strategy",
-      "Aperture Science",
-      "Tom Nook"
+      "PlayStation 2",
+      "Nintendo DS",
+      "Game Boy",
+      "PlayStation 4"
     ],
-    "explanation": "Animal Crossing: New Horizons is associated with Tom Nook."
+    "explanation": "The PlayStation 2 sold over 155 million units, making it the best-selling gaming console of all time."
   },
   {
-    "question": "In gaming, animal Crossing: New Horizons is most closely associated with which company or description?",
-    "answer": "Nintendo Switch",
+    "question": "Which game popularized the battle royale genre?",
+    "answer": "PlayerUnknown's Battlegrounds",
     "choices": [
-      "roguelike",
-      "Nintendo Switch",
-      "Santa Monica Studio",
-      "BioWare"
+      "PlayerUnknown's Battlegrounds",
+      "Fortnite",
+      "Apex Legends",
+      "H1Z1"
     ],
-    "explanation": "Animal Crossing: New Horizons is associated with Nintendo Switch."
+    "explanation": "PlayerUnknown's Battlegrounds (PUBG) popularized the battle royale genre when it launched in 2017."
   },
   {
-    "question": "In gaming, which game features Riot Games?",
-    "answer": "League of Legends",
+    "question": "What was the first home console made by Nintendo?",
+    "answer": "Nintendo Entertainment System",
     "choices": [
-      "League of Legends",
-      "Pokemon Red and Blue",
-      "Street Fighter II",
-      "Uncharted 2: Among Thieves"
+      "Nintendo Entertainment System",
+      "Game Boy",
+      "SNES",
+      "Famicom"
     ],
-    "explanation": "Riot Games is associated with League of Legends."
+    "explanation": "The Nintendo Entertainment System (NES), known as the Famicom in Japan, was Nintendo's first home console, released in 1983 in Japan."
   },
   {
-    "question": "In gaming, league of Legends is most closely associated with which character, place, or concept?",
-    "answer": "Riot Games",
+    "question": "Which game developer created The Legend of Zelda?",
+    "answer": "Nintendo",
     "choices": [
-      "Riot Games",
-      "Cloud Strife",
-      "turn-based strategy",
-      "creepers"
+      "Nintendo",
+      "Sega",
+      "Capcom",
+      "Konami"
     ],
-    "explanation": "League of Legends is associated with Riot Games."
+    "explanation": "The Legend of Zelda franchise was created by Shigeru Miyamoto and Takashi Tezuka at Nintendo."
   },
   {
-    "question": "In gaming, league of Legends is most closely associated with which company or description?",
-    "answer": "MOBA",
+    "question": "What is the name of the main character in the Assassin's Creed series who is the original ancestor?",
+    "answer": "Alta\u00efr Ibn-La'Ahad",
     "choices": [
-      "CD Projekt",
-      "Innersloth",
-      "MOBA",
-      "Lands Between"
+      "Alta\u00efr Ibn-La'Ahad",
+      "Ezio Auditore",
+      "Desmond Miles",
+      "Connor Kenway"
     ],
-    "explanation": "League of Legends is associated with MOBA."
+    "explanation": "Alta\u00efr Ibn-La'Ahad from Assassin's Creed (2007) was the first main protagonist in the franchise."
   },
   {
-    "question": "In gaming, which game features Valve?",
-    "answer": "Dota 2",
+    "question": "Which game series features the character Solid Snake?",
+    "answer": "Metal Gear",
     "choices": [
-      "Animal Crossing: New Horizons",
-      "Resident Evil",
-      "Half-Life",
-      "Dota 2"
+      "Metal Gear",
+      "Splinter Cell",
+      "Hitman",
+      "Deus Ex"
     ],
-    "explanation": "Valve is associated with Dota 2."
+    "explanation": "Solid Snake is the main protagonist of Hideo Kojima's Metal Gear franchise."
   },
   {
-    "question": "In gaming, dota 2 is most closely associated with which character, place, or concept?",
-    "answer": "Valve",
+    "question": "What was the first Pok\u00e9mon game released?",
+    "answer": "Pok\u00e9mon Red and Blue",
     "choices": [
-      "turn-based strategy",
-      "Valve",
-      "James Sunderland",
-      "Pikachu"
+      "Pok\u00e9mon Red and Blue",
+      "Pok\u00e9mon Yellow",
+      "Pok\u00e9mon Gold and Silver",
+      "Pok\u00e9mon Snap"
     ],
-    "explanation": "Dota 2 is associated with Valve."
+    "explanation": "Pok\u00e9mon Red and Blue (Green in Japan) were the first Pok\u00e9mon games, released in Japan in 1996."
   },
   {
-    "question": "In gaming, dota 2 is most closely associated with which company or description?",
-    "answer": "MOBA",
+    "question": "What genre is Dark Souls?",
+    "answer": "Action RPG",
     "choices": [
-      "MOBA",
-      "Valve",
-      "BioWare",
-      "Lands Between"
+      "Action RPG",
+      "Platformer",
+      "First-person shooter",
+      "Real-time strategy"
     ],
-    "explanation": "Dota 2 is associated with MOBA."
+    "explanation": "Dark Souls, developed by FromSoftware, is an action role-playing game known for its difficulty."
   },
   {
-    "question": "In gaming, which game features terrorists and counter-terrorists?",
-    "answer": "Counter-Strike",
+    "question": "Which game features a character named Arthur Morgan?",
+    "answer": "Red Dead Redemption 2",
     "choices": [
-      "Dota 2",
-      "The Last of Us",
-      "Resident Evil",
-      "Counter-Strike"
+      "Red Dead Redemption 2",
+      "Grand Theft Auto V",
+      "L.A. Noire",
+      "Mafia II"
     ],
-    "explanation": "terrorists and counter-terrorists is associated with Counter-Strike."
+    "explanation": "Arthur Morgan is the main protagonist of Rockstar Games' Red Dead Redemption 2 (2018)."
   },
   {
-    "question": "In gaming, counter-Strike is most closely associated with which character, place, or concept?",
-    "answer": "terrorists and counter-terrorists",
+    "question": "What is the in-game currency in The Legend of Zelda?",
+    "answer": "Rupees",
     "choices": [
-      "falling tetrominoes",
-      "Gordon Freeman",
-      "FromSoftware",
-      "terrorists and counter-terrorists"
+      "Rupees",
+      "Gold",
+      "Coins",
+      "Gems"
     ],
-    "explanation": "Counter-Strike is associated with terrorists and counter-terrorists."
+    "explanation": "The Legend of Zelda games use Rupees as the in-game currency, depicted as gems of different colors."
   },
   {
-    "question": "In gaming, counter-Strike is most closely associated with which company or description?",
-    "answer": "Valve",
+    "question": "Which game studio developed The Witcher series?",
+    "answer": "CD Projekt Red",
     "choices": [
-      "MOBA",
-      "hero shooter",
-      "Santa Monica Studio",
-      "Valve"
+      "CD Projekt Red",
+      "Bioware",
+      "Bethesda",
+      "Obsidian"
     ],
-    "explanation": "Counter-Strike is associated with Valve."
+    "explanation": "The Witcher series was developed by Polish studio CD Projekt Red."
   },
   {
-    "question": "In gaming, which game features creepers?",
-    "answer": "Minecraft",
+    "question": "What year was Fortnite released?",
+    "answer": "2017",
     "choices": [
-      "Among Us",
-      "Minecraft",
-      "The Legend of Zelda: Ocarina of Time",
-      "Red Dead Redemption 2"
+      "2015",
+      "2016",
+      "2017",
+      "2018"
     ],
-    "explanation": "creepers is associated with Minecraft."
+    "explanation": "Fortnite was released by Epic Games in 2017, with Battle Royale mode launching later that year."
   },
   {
-    "question": "In gaming, minecraft is most closely associated with which character, place, or concept?",
-    "answer": "creepers",
+    "question": "Which franchise features the characters Mario and Luigi?",
+    "answer": "Super Mario",
     "choices": [
-      "Nathan Drake",
-      "Ryu",
-      "Kratos",
-      "creepers"
+      "Super Mario",
+      "Donkey Kong",
+      "Wario Land",
+      "Yoshi's Island"
     ],
-    "explanation": "Minecraft is associated with creepers."
+    "explanation": "Mario and Luigi are the main characters of Nintendo's Super Mario franchise."
   },
   {
-    "question": "In gaming, minecraft is most closely associated with which company or description?",
-    "answer": "Mojang",
+    "question": "What is the main resource needed to craft in Minecraft?",
+    "answer": "Wood",
     "choices": [
-      "Mojang",
-      "yellow maze character",
-      "psychological horror",
-      "Bungie"
+      "Wood",
+      "Stone",
+      "Iron",
+      "Coal"
     ],
-    "explanation": "Minecraft is associated with Mojang."
+    "explanation": "Wood (logs) is the first and most fundamental resource in Minecraft, needed to craft basic tools."
   },
   {
-    "question": "In gaming, which game features falling tetrominoes?",
-    "answer": "Tetris",
+    "question": "Which game series features a character named Commander Shepard?",
+    "answer": "Mass Effect",
     "choices": [
       "Mass Effect",
-      "Pac-Man",
-      "Tetris",
-      "Metroid"
+      "Star Wars: Knights of the Old Republic",
+      "Halo",
+      "Destiny"
     ],
-    "explanation": "falling tetrominoes is associated with Tetris."
+    "explanation": "Commander Shepard is the player-named protagonist of BioWare's Mass Effect trilogy."
   },
   {
-    "question": "In gaming, tetris is most closely associated with which character, place, or concept?",
-    "answer": "falling tetrominoes",
+    "question": "What was the first commercially available video game?",
+    "answer": "Pong",
     "choices": [
-      "falling tetrominoes",
-      "Nathan Drake",
-      "Ryu",
-      "Tom Nook"
+      "Pong",
+      "Space Invaders",
+      "Breakout",
+      "Asteroids"
     ],
-    "explanation": "Tetris is associated with falling tetrominoes."
+    "explanation": "Pong, released by Atari in 1972, is widely considered the first commercially successful video game."
   },
   {
-    "question": "In gaming, tetris is most closely associated with which company or description?",
-    "answer": "Alexey Pajitnov",
+    "question": "Which gaming peripheral allowed players to move physically to play games?",
+    "answer": "Nintendo Wii Remote",
     "choices": [
-      "yellow maze character",
-      "Lands Between",
-      "Alexey Pajitnov",
-      "Innersloth"
+      "Nintendo Wii Remote",
+      "PlayStation Move",
+      "Kinect",
+      "Power Glove"
     ],
-    "explanation": "Tetris is associated with Alexey Pajitnov."
+    "explanation": "The Nintendo Wii Remote (Wiimote) used motion controls to detect player movement for the Wii console."
   },
   {
-    "question": "In gaming, which game features Madeline?",
-    "answer": "Celeste",
+    "question": "What is the name of the main antagonist in the Super Mario series?",
+    "answer": "Bowser",
     "choices": [
-      "Pac-Man",
-      "Civilization VI",
-      "Celeste",
-      "StarCraft"
+      "Bowser",
+      "Wario",
+      "Donkey Kong",
+      "King Boo"
     ],
-    "explanation": "Madeline is associated with Celeste."
+    "explanation": "Bowser, the King of the Koopas, is the primary antagonist in the Super Mario franchise."
   },
   {
-    "question": "In gaming, celeste is most closely associated with which character, place, or concept?",
-    "answer": "Madeline",
+    "question": "Which game features a battle system called ATB (Active Time Battle)?",
+    "answer": "Final Fantasy",
     "choices": [
-      "Arthur Morgan",
-      "Nintendo 64",
-      "Ryu",
-      "Madeline"
+      "Final Fantasy",
+      "Dragon Quest",
+      "Chrono Trigger",
+      "Xenogears"
     ],
-    "explanation": "Celeste is associated with Madeline."
+    "explanation": "The Active Time Battle system was introduced in Final Fantasy IV (1991) and used throughout the series."
   },
   {
-    "question": "In gaming, celeste is most closely associated with which company or description?",
-    "answer": "indie platformer",
+    "question": "What company developed Overwatch?",
+    "answer": "Blizzard Entertainment",
+    "choices": [
+      "Blizzard Entertainment",
+      "Riot Games",
+      "Valve",
+      "Electronic Arts"
+    ],
+    "explanation": "Overwatch is a team-based shooter developed by Blizzard Entertainment, released in 2016."
+  },
+  {
+    "question": "Which game series features characters Geralt of Rivia?",
+    "answer": "The Witcher",
+    "choices": [
+      "The Witcher",
+      "Dragon Age",
+      "Dark Souls",
+      "Baldur's Gate"
+    ],
+    "explanation": "Geralt of Rivia is the main protagonist of CD Projekt Red's The Witcher series."
+  },
+  {
+    "question": "What is the name of Link's horse in The Legend of Zelda: Ocarina of Time?",
+    "answer": "Epona",
+    "choices": [
+      "Epona",
+      "Roach",
+      "Shadowmere",
+      "Agro"
+    ],
+    "explanation": "Epona is Link's horse in The Legend of Zelda: Ocarina of Time, first acquired at Lon Lon Ranch."
+  },
+  {
+    "question": "Which game developer created the Resident Evil franchise?",
+    "answer": "Capcom",
     "choices": [
       "Capcom",
-      "Rockstar Games",
-      "indie platformer",
-      "Firaxis"
+      "Konami",
+      "Square Enix",
+      "Bandai Namco"
     ],
-    "explanation": "Celeste is associated with indie platformer."
+    "explanation": "Resident Evil was created by Shinji Mikami and developed by Capcom, with the first game released in 1996."
   },
   {
-    "question": "In gaming, which game features Supergiant Games?",
+    "question": "What is the objective in League of Legends?",
+    "answer": "Destroy the enemy Nexus",
+    "choices": [
+      "Destroy the enemy Nexus",
+      "Kill the most champions",
+      "Capture all towers",
+      "Eliminate the enemy team 5 times"
+    ],
+    "explanation": "The main objective in League of Legends is to destroy the enemy team's Nexus in their base."
+  },
+  {
+    "question": "Which country is Nintendo originally from?",
+    "answer": "Japan",
+    "choices": [
+      "Japan",
+      "United States",
+      "South Korea",
+      "Germany"
+    ],
+    "explanation": "Nintendo was founded in Kyoto, Japan in 1889, originally as a playing card company."
+  },
+  {
+    "question": "What game features a character named Ellie?",
+    "answer": "The Last of Us",
+    "choices": [
+      "The Last of Us",
+      "Uncharted",
+      "Horizon Zero Dawn",
+      "Control"
+    ],
+    "explanation": "Ellie is a major character in Naughty Dog's The Last of Us, playable in the sequel The Last of Us Part II."
+  },
+  {
+    "question": "Which Valve game popularized the 'hero shooter' genre before Overwatch?",
+    "answer": "Team Fortress 2",
+    "choices": [
+      "Team Fortress 2",
+      "Counter-Strike",
+      "Left 4 Dead",
+      "Portal"
+    ],
+    "explanation": "Team Fortress 2 (2007) is a class-based shooter widely seen as popularizing the hero shooter genre."
+  },
+  {
+    "question": "What is the highest rank in Counter-Strike: Global Offensive?",
+    "answer": "Global Elite",
+    "choices": [
+      "Global Elite",
+      "Supreme Master First Class",
+      "Distinguished Master Guardian",
+      "Legendary Eagle Master"
+    ],
+    "explanation": "Global Elite is the highest competitive rank achievable in CS:GO."
+  },
+  {
+    "question": "Which game features a character called the Dragonborn?",
+    "answer": "The Elder Scrolls V: Skyrim",
+    "choices": [
+      "The Elder Scrolls V: Skyrim",
+      "Dragon Age Inquisition",
+      "Dragon's Dogma",
+      "Dark Souls III"
+    ],
+    "explanation": "The player character in Skyrim is the Dovahkiin (Dragonborn), with the power to absorb dragon souls."
+  },
+  {
+    "question": "What year was Grand Theft Auto V released?",
+    "answer": "2013",
+    "choices": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "explanation": "Grand Theft Auto V was released by Rockstar Games in September 2013 for PS3 and Xbox 360."
+  },
+  {
+    "question": "Which game introduced the concept of a 'sandbox open world'?",
+    "answer": "Grand Theft Auto III",
+    "choices": [
+      "Grand Theft Auto III",
+      "Minecraft",
+      "Oblivion",
+      "Just Cause"
+    ],
+    "explanation": "Grand Theft Auto III (2001) is widely credited with popularizing the 3D open-world sandbox genre."
+  },
+  {
+    "question": "What is the name of the main character in Cyberpunk 2077?",
+    "answer": "V",
+    "choices": [
+      "V",
+      "Johnny Silverhand",
+      "T-Bug",
+      "Jackie Welles"
+    ],
+    "explanation": "The player character in Cyberpunk 2077 is V, a mercenary in Night City."
+  },
+  {
+    "question": "Which game series features a character named Lara Croft?",
+    "answer": "Tomb Raider",
+    "choices": [
+      "Tomb Raider",
+      "Uncharted",
+      "Indiana Jones",
+      "Prince of Persia"
+    ],
+    "explanation": "Lara Croft is the protagonist of the Tomb Raider series, first appearing in the 1996 game."
+  },
+  {
+    "question": "What studio developed Hollow Knight?",
+    "answer": "Team Cherry",
+    "choices": [
+      "Team Cherry",
+      "Supergiant Games",
+      "Motion Twin",
+      "Playdead"
+    ],
+    "explanation": "Hollow Knight was developed by Australian indie studio Team Cherry and released in 2017."
+  },
+  {
+    "question": "Which classic arcade game features the character Q*bert?",
+    "answer": "Q*bert",
+    "choices": [
+      "Q*bert",
+      "Pac-Man",
+      "Frogger",
+      "Galaga"
+    ],
+    "explanation": "Q*bert, released by Gottlieb in 1982, features the orange character navigating a pyramid of cubes."
+  },
+  {
+    "question": "What is the setting of the game BioShock?",
+    "answer": "Rapture",
+    "choices": [
+      "Rapture",
+      "Columbia",
+      "Arcadia",
+      "Neptune's Bounty"
+    ],
+    "explanation": "BioShock (2007) is set in the underwater dystopian city of Rapture, built by Andrew Ryan."
+  },
+  {
+    "question": "Which game series features a protagonist named Master Chief who fights the Covenant?",
+    "answer": "Halo",
+    "choices": [
+      "Halo",
+      "Destiny",
+      "Gears of War",
+      "Titanfall"
+    ],
+    "explanation": "Halo, developed by Bungie (now 343 Industries), features Master Chief fighting alien enemies including the Covenant."
+  },
+  {
+    "question": "What was the name of Sega's mascot character?",
+    "answer": "Sonic the Hedgehog",
+    "choices": [
+      "Sonic the Hedgehog",
+      "Alex Kidd",
+      "NiGHTS",
+      "Knuckles"
+    ],
+    "explanation": "Sonic the Hedgehog became Sega's mascot when introduced in 1991 as a rival to Nintendo's Mario."
+  },
+  {
+    "question": "Which game features the battle cry 'HADOUKEN'?",
+    "answer": "Street Fighter",
+    "choices": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "Virtua Fighter"
+    ],
+    "explanation": "Hadouken is a projectile attack used by Ryu and Ken in the Street Fighter series."
+  },
+  {
+    "question": "What is the maximum level in the original Diablo game?",
+    "answer": "50",
+    "choices": [
+      "50",
+      "60",
+      "99",
+      "100"
+    ],
+    "explanation": "In the original Diablo (1996), the maximum character level is 50."
+  },
+  {
+    "question": "Which game developer made Celeste?",
+    "answer": "Maddy Thorson and Noel Berry",
+    "choices": [
+      "Maddy Thorson and Noel Berry",
+      "Team Cherry",
+      "Playdead",
+      "Devolver Digital"
+    ],
+    "explanation": "Celeste was developed by Maddy Thorson and Noel Berry of the studio Extremely OK Games."
+  },
+  {
+    "question": "What is the name of the map in PUBG: Battlegrounds where the game takes place?",
+    "answer": "Erangel",
+    "choices": [
+      "Erangel",
+      "Miramar",
+      "Sanhok",
+      "Vikendi"
+    ],
+    "explanation": "Erangel was the original and iconic map in PUBG, set on a fictional Eastern European island."
+  },
+  {
+    "question": "Which game series features a character called the Prince who can manipulate time?",
+    "answer": "Prince of Persia",
+    "choices": [
+      "Prince of Persia",
+      "Assassin's Creed",
+      "God of War",
+      "Legacy of Kain"
+    ],
+    "explanation": "The Prince in Prince of Persia: The Sands of Time can rewind time using the Dagger of Time."
+  },
+  {
+    "question": "What gaming genre does StarCraft belong to?",
+    "answer": "Real-time strategy",
+    "choices": [
+      "Real-time strategy",
+      "Turn-based strategy",
+      "MOBA",
+      "MMORPG"
+    ],
+    "explanation": "StarCraft, developed by Blizzard Entertainment, is a real-time strategy (RTS) game."
+  },
+  {
+    "question": "Which company developed the PlayStation?",
+    "answer": "Sony",
+    "choices": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Microsoft"
+    ],
+    "explanation": "Sony developed the PlayStation, first released in Japan in December 1994."
+  },
+  {
+    "question": "What is the name of the post-apocalyptic setting in Fallout?",
+    "answer": "The Wasteland",
+    "choices": [
+      "The Wasteland",
+      "The Divide",
+      "The Commonwealth",
+      "The Capital Wasteland"
+    ],
+    "explanation": "The Fallout series is set in a retro-futuristic post-apocalyptic American Wasteland."
+  },
+  {
+    "question": "Which classic game requires players to place blocks to complete lines?",
+    "answer": "Tetris",
+    "choices": [
+      "Tetris",
+      "Breakout",
+      "Bejeweled",
+      "Puyo Puyo"
+    ],
+    "explanation": "Tetris, created by Alexey Pajitnov in 1984, requires players to arrange falling blocks to complete horizontal lines."
+  },
+  {
+    "question": "What is the name of the game where players control a character named Joel?",
+    "answer": "The Last of Us",
+    "choices": [
+      "The Last of Us",
+      "Uncharted 4",
+      "Naughty Dog",
+      "Days Gone"
+    ],
+    "explanation": "Joel Miller is the main playable character in Naughty Dog's The Last of Us (2013)."
+  },
+  {
+    "question": "Which game features the tagline 'A space odyssey' and puts players in a Martian colony?",
+    "answer": "Mass Effect",
+    "choices": [
+      "Mass Effect",
+      "Dead Space",
+      "Alien: Isolation",
+      "Prey"
+    ],
+    "explanation": "Mass Effect is an epic space opera RPG set across the Milky Way galaxy."
+  },
+  {
+    "question": "What type of game is Animal Crossing?",
+    "answer": "Social simulation",
+    "choices": [
+      "Social simulation",
+      "RPG",
+      "Platformer",
+      "Puzzle"
+    ],
+    "explanation": "Animal Crossing is a social simulation game where players build and manage a community with anthropomorphic animals."
+  },
+  {
+    "question": "Which game studio developed Naughty Dog's Crash Bandicoot?",
+    "answer": "Naughty Dog",
+    "choices": [
+      "Naughty Dog",
+      "Insomniac Games",
+      "Sony Santa Monica",
+      "Crystal Dynamics"
+    ],
+    "explanation": "Crash Bandicoot was developed by Naughty Dog and published by Sony for the PlayStation in 1996."
+  },
+  {
+    "question": "Which game features portals as a core mechanic?",
+    "answer": "Portal",
+    "choices": [
+      "Portal",
+      "Mirror's Edge",
+      "Antichamber",
+      "The Witness"
+    ],
+    "explanation": "Portal, developed by Valve, features a gun that creates interconnected portals to solve puzzles."
+  },
+  {
+    "question": "What is the name of the dungeon in the first Legend of Zelda game?",
+    "answer": "Level 1: The Eagle",
+    "choices": [
+      "Level 1: The Eagle",
+      "The Temple of Time",
+      "Water Temple",
+      "Hyrule Castle"
+    ],
+    "explanation": "The first dungeon in The Legend of Zelda is Level 1, known as 'The Eagle,' named for its shape."
+  },
+  {
+    "question": "Which game company is known for making the FIFA and Madden franchises?",
+    "answer": "EA Sports",
+    "choices": [
+      "EA Sports",
+      "2K Games",
+      "Konami",
+      "Sega Sports"
+    ],
+    "explanation": "EA Sports, a division of Electronic Arts, publishes the FIFA and Madden NFL series."
+  },
+  {
+    "question": "What is the primary programming language used to develop many indie games in Unity?",
+    "answer": "C#",
+    "choices": [
+      "C#",
+      "C++",
+      "Python",
+      "JavaScript"
+    ],
+    "explanation": "Unity, one of the most popular indie game engines, uses C# as its primary scripting language."
+  },
+  {
+    "question": "Which Sonic game introduced Tails as a character?",
+    "answer": "Sonic the Hedgehog 2",
+    "choices": [
+      "Sonic the Hedgehog 2",
+      "Sonic CD",
+      "Sonic 3",
+      "Knuckles' Chaotix"
+    ],
+    "explanation": "Miles 'Tails' Prower first appeared as Sonic's sidekick in Sonic the Hedgehog 2 (1992)."
+  },
+  {
+    "question": "What was the name of Blizzard's first massively multiplayer online RPG?",
+    "answer": "World of Warcraft",
+    "choices": [
+      "World of Warcraft",
+      "Diablo",
+      "Warcraft III",
+      "StarCraft"
+    ],
+    "explanation": "World of Warcraft launched in 2004 and became the world's most popular MMORPG."
+  },
+  {
+    "question": "Which game features a merchant who famously says 'What are ya buyin'?",
+    "answer": "Resident Evil 4",
+    "choices": [
+      "Resident Evil 4",
+      "Resident Evil Village",
+      "Silent Hill 2",
+      "Dead Space"
+    ],
+    "explanation": "The unnamed Merchant in Resident Evil 4 greets Leon with the iconic phrase 'What are ya buyin'?'"
+  },
+  {
+    "question": "What controller introduced analog sticks to mainstream gaming?",
+    "answer": "Nintendo 64 controller",
+    "choices": [
+      "Nintendo 64 controller",
+      "PlayStation DualShock",
+      "Atari joystick",
+      "Sega Saturn controller"
+    ],
+    "explanation": "Nintendo introduced the first mainstream analog stick with the Nintendo 64 controller in 1996."
+  },
+  {
+    "question": "Which studio created BioShock?",
+    "answer": "Irrational Games",
+    "choices": [
+      "Irrational Games",
+      "2K Marin",
+      "Crystal Dynamics",
+      "Gearbox"
+    ],
+    "explanation": "BioShock was developed by Irrational Games, led by creative director Ken Levine, and published by 2K Games."
+  },
+  {
+    "question": "What year was Pac-Man released in arcades?",
+    "answer": "1980",
+    "choices": [
+      "1978",
+      "1979",
+      "1980",
+      "1981"
+    ],
+    "explanation": "Pac-Man was released by Namco in Japan on May 22, 1980, and became one of the most iconic arcade games."
+  },
+  {
+    "question": "Which game features protagonists named Drake Mallard and Launchpad McQuack?",
+    "answer": "DuckTales",
+    "choices": [
+      "DuckTales",
+      "Chip 'n Dale Rescue Rangers",
+      "Darkwing Duck",
+      "TaleSpin"
+    ],
+    "explanation": "DuckTales (1989 NES game) features Scrooge McDuck with those supporting characters from the cartoon."
+  },
+  {
+    "question": "What is the name of Mario's dinosaur companion?",
+    "answer": "Yoshi",
+    "choices": [
+      "Yoshi",
+      "Birdo",
+      "Rex",
+      "Koopa"
+    ],
+    "explanation": "Yoshi is a friendly dinosaur who serves as Mario's rideable companion, first appearing in Super Mario World (1990)."
+  },
+  {
+    "question": "Which action-adventure game features a character named Aloy?",
+    "answer": "Horizon Zero Dawn",
+    "choices": [
+      "Horizon Zero Dawn",
+      "NieR: Automata",
+      "Bayonetta",
+      "Tomb Raider"
+    ],
+    "explanation": "Aloy is the main protagonist of Guerrilla Games' Horizon Zero Dawn (2017)."
+  },
+  {
+    "question": "What developer made the Metroid series?",
+    "answer": "Nintendo/Retro Studios",
+    "choices": [
+      "Nintendo/Retro Studios",
+      "Capcom",
+      "Konami",
+      "HAL Laboratory"
+    ],
+    "explanation": "The Metroid series was created by Nintendo R&D1; the Prime trilogy was developed by Retro Studios."
+  },
+  {
+    "question": "Which game requires players to escape from Tartarus using gifts from the Gods?",
     "answer": "Hades",
     "choices": [
       "Hades",
-      "Portal",
-      "Resident Evil",
-      "Pac-Man"
+      "Bastion",
+      "Pyre",
+      "Transistor"
     ],
-    "explanation": "Supergiant Games is associated with Hades."
+    "explanation": "Hades, developed by Supergiant Games, is a roguelite in which Zagreus escapes the Underworld of Hades."
   },
   {
-    "question": "In gaming, hades is most closely associated with which character, place, or concept?",
-    "answer": "Supergiant Games",
+    "question": "What is the name of the main villain in the Borderlands series?",
+    "answer": "Handsome Jack",
     "choices": [
-      "Supergiant Games",
-      "Geralt of Rivia",
-      "Valve",
-      "Master Chief"
+      "Handsome Jack",
+      "General Knoxx",
+      "Dr. Ned",
+      "The Warrior"
     ],
-    "explanation": "Hades is associated with Supergiant Games."
+    "explanation": "Handsome Jack is the main antagonist of Borderlands 2 and Tales from the Borderlands."
   },
   {
-    "question": "In gaming, hades is most closely associated with which company or description?",
-    "answer": "roguelike",
+    "question": "Which game series lets players build rollercoasters and manage theme parks?",
+    "answer": "RollerCoaster Tycoon",
     "choices": [
-      "roguelike",
-      "indie platformer",
-      "Bungie",
-      "Naughty Dog"
+      "RollerCoaster Tycoon",
+      "Theme Hospital",
+      "SimCity",
+      "Planet Coaster"
     ],
-    "explanation": "Hades is associated with roguelike."
+    "explanation": "RollerCoaster Tycoon, designed by Chris Sawyer, lets players build and manage amusement parks."
   },
   {
-    "question": "In gaming, which game features crewmates and impostors?",
-    "answer": "Among Us",
-    "choices": [
-      "Tetris",
-      "Uncharted 2: Among Thieves",
-      "Portal",
-      "Among Us"
-    ],
-    "explanation": "crewmates and impostors is associated with Among Us."
-  },
-  {
-    "question": "In gaming, among Us is most closely associated with which character, place, or concept?",
-    "answer": "crewmates and impostors",
-    "choices": [
-      "Samus Aran",
-      "Nintendo 64",
-      "crewmates and impostors",
-      "James Sunderland"
-    ],
-    "explanation": "Among Us is associated with crewmates and impostors."
-  },
-  {
-    "question": "In gaming, among Us is most closely associated with which company or description?",
-    "answer": "Innersloth",
-    "choices": [
-      "Bungie",
-      "Square",
-      "Innersloth",
-      "Game Boy"
-    ],
-    "explanation": "Among Us is associated with Innersloth."
-  },
-  {
-    "question": "In gaming, which game features Pikachu?",
-    "answer": "Pokemon Red and Blue",
-    "choices": [
-      "Uncharted 2: Among Thieves",
-      "Pokemon Red and Blue",
-      "Minecraft",
-      "Metroid"
-    ],
-    "explanation": "Pikachu is associated with Pokemon Red and Blue."
-  },
-  {
-    "question": "In gaming, pokemon Red and Blue is most closely associated with which character, place, or concept?",
-    "answer": "Pikachu",
-    "choices": [
-      "Ryu",
-      "creepers",
-      "zombies and Umbrella",
-      "Pikachu"
-    ],
-    "explanation": "Pokemon Red and Blue is associated with Pikachu."
-  },
-  {
-    "question": "In gaming, pokemon Red and Blue is most closely associated with which company or description?",
+    "question": "What was the name of the handheld console Nintendo released in 1989?",
     "answer": "Game Boy",
     "choices": [
       "Game Boy",
-      "Valve",
-      "Naughty Dog",
-      "indie platformer"
+      "Game Gear",
+      "Lynx",
+      "TurboExpress"
     ],
-    "explanation": "Pokemon Red and Blue is associated with Game Boy."
+    "explanation": "Nintendo released the original Game Boy handheld console in 1989, which became hugely popular worldwide."
   },
   {
-    "question": "In gaming, which game features zombies and Umbrella?",
-    "answer": "Resident Evil",
+    "question": "Which game studio created the iconic game developer Miyamoto?",
+    "answer": "Nintendo",
     "choices": [
-      "Counter-Strike",
-      "The Legend of Zelda: Ocarina of Time",
-      "League of Legends",
-      "Resident Evil"
-    ],
-    "explanation": "zombies and Umbrella is associated with Resident Evil."
-  },
-  {
-    "question": "In gaming, resident Evil is most closely associated with which character, place, or concept?",
-    "answer": "zombies and Umbrella",
-    "choices": [
-      "zombies and Umbrella",
-      "terran, zerg, and protoss",
-      "FromSoftware",
-      "creepers"
-    ],
-    "explanation": "Resident Evil is associated with zombies and Umbrella."
-  },
-  {
-    "question": "In gaming, resident Evil is most closely associated with which company or description?",
-    "answer": "Capcom",
-    "choices": [
-      "Valve",
-      "Game Boy",
-      "yellow maze character",
-      "Capcom"
-    ],
-    "explanation": "Resident Evil is associated with Capcom."
-  },
-  {
-    "question": "In gaming, which game features James Sunderland?",
-    "answer": "Silent Hill 2",
-    "choices": [
-      "Civilization VI",
-      "Pac-Man",
-      "Uncharted 2: Among Thieves",
-      "Silent Hill 2"
-    ],
-    "explanation": "James Sunderland is associated with Silent Hill 2."
-  },
-  {
-    "question": "In gaming, silent Hill 2 is most closely associated with which character, place, or concept?",
-    "answer": "James Sunderland",
-    "choices": [
-      "James Sunderland",
-      "Tom Nook",
-      "Nintendo 64",
-      "Valve"
-    ],
-    "explanation": "Silent Hill 2 is associated with James Sunderland."
-  },
-  {
-    "question": "In gaming, silent Hill 2 is most closely associated with which company or description?",
-    "answer": "psychological horror",
-    "choices": [
-      "CD Projekt",
-      "Bungie",
-      "psychological horror",
-      "MOBA"
-    ],
-    "explanation": "Silent Hill 2 is associated with psychological horror."
-  },
-  {
-    "question": "In gaming, which game features Joel and Ellie?",
-    "answer": "The Last of Us",
-    "choices": [
-      "Silent Hill 2",
-      "The Legend of Zelda: Ocarina of Time",
-      "The Last of Us",
-      "League of Legends"
-    ],
-    "explanation": "Joel and Ellie is associated with The Last of Us."
-  },
-  {
-    "question": "In gaming, the Last of Us is most closely associated with which character, place, or concept?",
-    "answer": "Joel and Ellie",
-    "choices": [
-      "Commander Shepard",
-      "Gordon Freeman",
-      "Pikachu",
-      "Joel and Ellie"
-    ],
-    "explanation": "The Last of Us is associated with Joel and Ellie."
-  },
-  {
-    "question": "In gaming, the Last of Us is most closely associated with which company or description?",
-    "answer": "Naughty Dog",
-    "choices": [
-      "Naughty Dog",
-      "Firaxis",
-      "Link",
+      "Nintendo",
+      "Capcom",
+      "Konami",
       "Square"
     ],
-    "explanation": "The Last of Us is associated with Naughty Dog."
+    "explanation": "Shigeru Miyamoto is a legendary game designer who has worked at Nintendo, creating Mario, Zelda, and Donkey Kong."
   },
   {
-    "question": "In gaming, which game features Nathan Drake?",
-    "answer": "Uncharted 2: Among Thieves",
+    "question": "What does NPC stand for in gaming?",
+    "answer": "Non-Player Character",
     "choices": [
-      "The Legend of Zelda: Ocarina of Time",
-      "Pokemon Red and Blue",
-      "Uncharted 2: Among Thieves",
-      "Metroid"
+      "Non-Player Character",
+      "Network Protocol Command",
+      "Non-Playable Content",
+      "New Player Character"
     ],
-    "explanation": "Nathan Drake is associated with Uncharted 2: Among Thieves."
+    "explanation": "NPC stands for Non-Player Character, referring to characters in a game controlled by the computer."
   },
   {
-    "question": "In gaming, uncharted 2: Among Thieves is most closely associated with which character, place, or concept?",
-    "answer": "Nathan Drake",
+    "question": "Which MOBA was developed by Valve as a sequel to a Warcraft III mod?",
+    "answer": "Dota 2",
     "choices": [
-      "Nathan Drake",
-      "Master Chief",
-      "zombies and Umbrella",
-      "Valve"
+      "Dota 2",
+      "League of Legends",
+      "Heroes of the Storm",
+      "Smite"
     ],
-    "explanation": "Uncharted 2: Among Thieves is associated with Nathan Drake."
+    "explanation": "Dota 2 was developed by Valve and released in 2013, based on the Warcraft III mod Defense of the Ancients."
   },
   {
-    "question": "In gaming, uncharted 2: Among Thieves is most closely associated with which company or description?",
-    "answer": "Naughty Dog",
+    "question": "What type of game is Stardew Valley?",
+    "answer": "Farming simulation RPG",
     "choices": [
-      "Bungie",
-      "Blizzard",
-      "indie platformer",
+      "Farming simulation RPG",
+      "Action RPG",
+      "Turn-based strategy",
+      "Tower defense"
+    ],
+    "explanation": "Stardew Valley is a farming simulation RPG developed solo by Eric 'ConcernedApe' Barone, released in 2016."
+  },
+  {
+    "question": "Which game's protagonist's catchphrase is 'War. War never changes.'?",
+    "answer": "Fallout",
+    "choices": [
+      "Fallout",
+      "Wasteland",
+      "Metro 2033",
+      "This War of Mine"
+    ],
+    "explanation": "'War. War never changes.' is the iconic opening narration from the Fallout series."
+  },
+  {
+    "question": "What is the name of the spaceship in Dead Space?",
+    "answer": "USG Ishimura",
+    "choices": [
+      "USG Ishimura",
+      "Nostromo",
+      "Galactica",
+      "Normandy"
+    ],
+    "explanation": "The USG Ishimura is the massive planet-cracker spaceship in Dead Space (2008)."
+  },
+  {
+    "question": "Which game has a protagonist named Samus Aran?",
+    "answer": "Metroid",
+    "choices": [
+      "Metroid",
+      "Halo",
+      "Mass Effect",
+      "Horizon Zero Dawn"
+    ],
+    "explanation": "Samus Aran is the bounty hunter protagonist of Nintendo's Metroid franchise."
+  },
+  {
+    "question": "What is the name of the medieval combat game developed by Torn Banner Studios?",
+    "answer": "Chivalry",
+    "choices": [
+      "Chivalry",
+      "Kingdom Come: Deliverance",
+      "Mount & Blade",
+      "For Honor"
+    ],
+    "explanation": "Chivalry: Medieval Warfare (2012) is a first-person melee combat game developed by Torn Banner Studios."
+  },
+  {
+    "question": "Which game features a narrative about a father-son relationship in Norse mythology?",
+    "answer": "God of War (2018)",
+    "choices": [
+      "God of War (2018)",
+      "Assassin's Creed: Valhalla",
+      "Hellblade",
+      "Jotun"
+    ],
+    "explanation": "God of War (2018) follows Kratos and his son Atreus on a journey through Norse mythology."
+  },
+  {
+    "question": "What is the name of the competitive card game set in the Warcraft universe?",
+    "answer": "Hearthstone",
+    "choices": [
+      "Hearthstone",
+      "Magic: The Gathering Arena",
+      "Shadowverse",
+      "Gwent"
+    ],
+    "explanation": "Hearthstone is Blizzard Entertainment's free-to-play digital card game set in the Warcraft universe, released in 2014."
+  },
+  {
+    "question": "Which open-world RPG takes place in the Commonwealth?",
+    "answer": "Fallout 4",
+    "choices": [
+      "Fallout 4",
+      "Fallout 3",
+      "The Elder Scrolls V: Skyrim",
+      "Cyberpunk 2077"
+    ],
+    "explanation": "Fallout 4 (2015) is set in the post-apocalyptic Commonwealth, based on the Boston area."
+  },
+  {
+    "question": "What is the name of the Pok\u00e9mon associated with the number 25?",
+    "answer": "Pikachu",
+    "choices": [
+      "Pikachu",
+      "Raichu",
+      "Clefairy",
+      "Jigglypuff"
+    ],
+    "explanation": "Pikachu is Pok\u00e9mon #025 in the National Pok\u00e9dex and the franchise's most iconic character."
+  },
+  {
+    "question": "Which game is set on the planet Reach in its prequel story?",
+    "answer": "Halo: Reach",
+    "choices": [
+      "Halo: Reach",
+      "Halo 4",
+      "Halo: Combat Evolved",
+      "Halo 2"
+    ],
+    "explanation": "Halo: Reach (2010) is set on the human colony planet Reach and serves as a prequel to Halo: Combat Evolved."
+  },
+  {
+    "question": "What is the name of the survival horror game featuring Pyramid Head?",
+    "answer": "Silent Hill 2",
+    "choices": [
+      "Silent Hill 2",
+      "Resident Evil 7",
+      "Outlast",
+      "Fatal Frame"
+    ],
+    "explanation": "Pyramid Head is an iconic enemy introduced in Silent Hill 2 (2001), developed by Konami Team Silent."
+  },
+  {
+    "question": "Which game series features a white-haired monster hunter named Geralt?",
+    "answer": "The Witcher",
+    "choices": [
+      "The Witcher",
+      "Dragon's Dogma",
+      "Monster Hunter",
+      "Final Fantasy XIV"
+    ],
+    "explanation": "Geralt of Rivia, a white-haired Witcher, is the protagonist of CD Projekt Red's Witcher franchise."
+  },
+  {
+    "question": "What is the highest point total possible on a single word in Scrabble?",
+    "answer": "1,782 points",
+    "choices": [
+      "1,782 points",
+      "1,458 points",
+      "1,000 points",
+      "856 points"
+    ],
+    "explanation": "The highest theoretical Scrabble score for a single word is 1,782 points for 'OXYPHENBUTAZONE' under perfect conditions."
+  },
+  {
+    "question": "What is the term for a game that procedurally generates its levels?",
+    "answer": "Roguelike",
+    "choices": [
+      "Roguelike",
+      "Metroidvania",
+      "Soulslike",
+      "Sandbox"
+    ],
+    "explanation": "Roguelikes (and roguelites) feature procedurally generated levels, named after the 1980 game Rogue."
+  },
+  {
+    "question": "Which game features a mechanic where players die and lose all souls/runes if they die again?",
+    "answer": "Dark Souls / Elden Ring",
+    "choices": [
+      "Dark Souls / Elden Ring",
+      "Hollow Knight",
+      "Hades",
+      "Cuphead"
+    ],
+    "explanation": "Dark Souls and Elden Ring drop all collected Souls/Runes on death, which are lost if the player dies again before recovering them."
+  },
+  {
+    "question": "What is the name of the indie game where a small character must climb a mountain?",
+    "answer": "Celeste",
+    "choices": [
+      "Celeste",
+      "Hollow Knight",
+      "Shovel Knight",
+      "Cuphead"
+    ],
+    "explanation": "Celeste (2018), developed by Maddy Thorson and Noel Berry, is a platformer in which Madeline climbs Celeste Mountain."
+  },
+  {
+    "question": "Which studio developed Spider-Man (2018) for PlayStation 4?",
+    "answer": "Insomniac Games",
+    "choices": [
+      "Insomniac Games",
+      "Naughty Dog",
+      "Treyarch",
+      "Crystal Dynamics"
+    ],
+    "explanation": "Spider-Man (2018) and its sequels were developed by Insomniac Games and published by Sony Interactive Entertainment."
+  },
+  {
+    "question": "What year did Minecraft pass 1 billion mobile downloads?",
+    "answer": "2020",
+    "choices": [
+      "2017",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "explanation": "Minecraft surpassed 1 billion downloads on mobile platforms (iOS and Android) in 2020."
+  },
+  {
+    "question": "Which game series takes place on the continent of Tamriel?",
+    "answer": "The Elder Scrolls",
+    "choices": [
+      "The Elder Scrolls",
+      "Dragon Age",
+      "The Witcher",
+      "Dark Souls"
+    ],
+    "explanation": "The Elder Scrolls series, by Bethesda, is set on the fictional continent of Tamriel."
+  },
+  {
+    "question": "What does RPG stand for in gaming?",
+    "answer": "Role-Playing Game",
+    "choices": [
+      "Role-Playing Game",
+      "Random Procedural Game",
+      "Real-time Playing Game",
+      "Rapid Progression Game"
+    ],
+    "explanation": "RPG stands for Role-Playing Game, a genre in which players assume the role of a character."
+  },
+  {
+    "question": "Which game features a character who must use the Force?",
+    "answer": "Star Wars: Knights of the Old Republic",
+    "choices": [
+      "Star Wars: Knights of the Old Republic",
+      "Jedi: Fallen Order",
+      "The Force Unleashed",
+      "Battlefront II"
+    ],
+    "explanation": "Star Wars: Knights of the Old Republic (2003) by BioWare features Force-wielding Jedi characters."
+  },
+  {
+    "question": "What was the first game in the Souls series?",
+    "answer": "Demon's Souls",
+    "choices": [
+      "Demon's Souls",
+      "Dark Souls",
+      "Bloodborne",
+      "Sekiro"
+    ],
+    "explanation": "Demon's Souls (2009), developed by FromSoftware and published by Sony, was the first game in the Soulsborne series."
+  },
+  {
+    "question": "Which famous game designer created the Mario and Zelda franchises?",
+    "answer": "Shigeru Miyamoto",
+    "choices": [
+      "Shigeru Miyamoto",
+      "Hideo Kojima",
+      "Gabe Newell",
+      "Sid Meier"
+    ],
+    "explanation": "Shigeru Miyamoto, legendary Nintendo designer, is the creator of Mario, Donkey Kong, and The Legend of Zelda."
+  },
+  {
+    "question": "What type of game is Cities: Skylines?",
+    "answer": "City-building simulation",
+    "choices": [
+      "City-building simulation",
+      "Real-time strategy",
+      "Grand strategy",
+      "Survival game"
+    ],
+    "explanation": "Cities: Skylines (2015) is a city-building simulation game developed by Colossal Order."
+  },
+  {
+    "question": "Which game series features 'Pikmin' as collectible plant-like creatures?",
+    "answer": "Pikmin",
+    "choices": [
+      "Pikmin",
+      "Overlord",
+      "Rune Factory",
+      "Okami"
+    ],
+    "explanation": "Pikmin is a Nintendo franchise where players command ant-like plant creatures called Pikmin."
+  },
+  {
+    "question": "What is the full name of the studio behind the BioShock series?",
+    "answer": "Irrational Games",
+    "choices": [
+      "Irrational Games",
+      "2K Boston",
+      "Looking Glass Studios",
+      "Arkane Studios"
+    ],
+    "explanation": "Irrational Games (also known as 2K Boston) developed BioShock and BioShock Infinite."
+  },
+  {
+    "question": "Which game has players controlling a necromancer character in a dark fantasy world?",
+    "answer": "Diablo II",
+    "choices": [
+      "Diablo II",
+      "Path of Exile",
+      "Torchlight",
+      "Victor Vran"
+    ],
+    "explanation": "Diablo II (2000) featured the Necromancer as a playable class in Blizzard's dark fantasy ARPG."
+  },
+  {
+    "question": "What is the name of the alien enemy in the Space Invaders arcade game?",
+    "answer": "Space Invaders",
+    "choices": [
+      "Space Invaders",
+      "Galaga",
+      "Xevious",
+      "Galaxian"
+    ],
+    "explanation": "The unnamed alien invaders in Space Invaders (1978) by Taito are simply called Space Invaders."
+  },
+  {
+    "question": "Which gaming company is known for the Unreal Engine?",
+    "answer": "Epic Games",
+    "choices": [
+      "Epic Games",
+      "Unity Technologies",
+      "id Software",
+      "Crytek"
+    ],
+    "explanation": "Epic Games developed and licenses the Unreal Engine, one of the most widely used game engines."
+  },
+  {
+    "question": "What is the name of the main antagonist in The Legend of Zelda series?",
+    "answer": "Ganon / Ganondorf",
+    "choices": [
+      "Ganon / Ganondorf",
+      "Vaati",
+      "Demise",
+      "Majora"
+    ],
+    "explanation": "Ganon (also Ganondorf in human form) is the primary villain throughout most of The Legend of Zelda franchise."
+  },
+  {
+    "question": "Which game takes place in the fictional city of Vice City?",
+    "answer": "Grand Theft Auto: Vice City",
+    "choices": [
+      "Grand Theft Auto: Vice City",
+      "Grand Theft Auto: San Andreas",
+      "GTA IV",
+      "GTA V"
+    ],
+    "explanation": "Grand Theft Auto: Vice City (2002) is set in the fictional Vice City, based on Miami in the 1980s."
+  },
+  {
+    "question": "Which video game franchise features a character named Master Chief?",
+    "answer": "Halo",
+    "choices": [
+      "Halo",
+      "Call of Duty",
+      "Gears of War",
+      "Destiny"
+    ],
+    "explanation": "Master Chief Petty Officer John-117 is the protagonist of the Halo franchise, first appearing in Halo: Combat Evolved in 2001."
+  },
+  {
+    "question": "What is the name of the princess in Nintendo's Legend of Zelda series?",
+    "answer": "Princess Zelda",
+    "choices": [
+      "Princess Zelda",
+      "Princess Peach",
+      "Princess Daisy",
+      "Princess Rosalina"
+    ],
+    "explanation": "Princess Zelda is the titular character of the Legend of Zelda series, often the one Link must rescue or work alongside."
+  },
+  {
+    "question": "Which game studio created The Witcher series?",
+    "answer": "CD Projekt Red",
+    "choices": [
+      "CD Projekt Red",
+      "Bioware",
+      "Bethesda",
       "Naughty Dog"
     ],
-    "explanation": "Uncharted 2: Among Thieves is associated with Naughty Dog."
+    "explanation": "CD Projekt Red, a Polish studio, developed The Witcher series of action RPGs based on the novels by Andrzej Sapkowski."
   },
   {
-    "question": "In gaming, which game features turn-based strategy?",
-    "answer": "Civilization VI",
+    "question": "In Minecraft, what material is needed to craft a Nether portal?",
+    "answer": "Obsidian",
     "choices": [
-      "Halo: Combat Evolved",
-      "League of Legends",
-      "Civilization VI",
-      "Tetris"
+      "Obsidian",
+      "Bedrock",
+      "End Stone",
+      "Blackstone"
     ],
-    "explanation": "turn-based strategy is associated with Civilization VI."
+    "explanation": "A Nether portal in Minecraft requires a frame of obsidian, which is created when flowing water meets a lava source block."
   },
   {
-    "question": "In gaming, civilization VI is most closely associated with which character, place, or concept?",
-    "answer": "turn-based strategy",
+    "question": "Which fighting game franchise features characters like Ryu and Ken?",
+    "answer": "Street Fighter",
     "choices": [
-      "Blizzard",
-      "Riot Games",
-      "turn-based strategy",
-      "crewmates and impostors"
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "Dead or Alive"
     ],
-    "explanation": "Civilization VI is associated with turn-based strategy."
+    "explanation": "Ryu and Ken are the iconic main characters of Capcom's Street Fighter franchise, which began in 1987."
   },
   {
-    "question": "In gaming, civilization VI is most closely associated with which company or description?",
-    "answer": "Firaxis",
+    "question": "What is the name of the open world in The Legend of Zelda: Breath of the Wild?",
+    "answer": "Hyrule",
     "choices": [
-      "Firaxis",
-      "Nintendo Switch",
-      "GLaDOS",
-      "Valve"
+      "Hyrule",
+      "Termina",
+      "Lorule",
+      "Labrynna"
     ],
-    "explanation": "Civilization VI is associated with Firaxis."
+    "explanation": "Breath of the Wild takes place in a vast open-world version of Hyrule, the kingdom that has been the setting of most Zelda games."
   },
   {
-    "question": "In gaming, which game features terran, zerg, and protoss?",
-    "answer": "StarCraft",
+    "question": "Which game features the battle cry 'It's dangerous to go alone!'?",
+    "answer": "The Legend of Zelda",
     "choices": [
+      "The Legend of Zelda",
+      "Final Fantasy",
+      "Dragon Quest",
+      "Ultima"
+    ],
+    "explanation": "The famous quote 'It's dangerous to go alone! Take this.' is from the original Legend of Zelda (1986)."
+  },
+  {
+    "question": "What is the name of the protagonist in the Dark Souls series?",
+    "answer": "The Ashen One / Bearer of the Curse",
+    "choices": [
+      "The Ashen One / Bearer of the Curse",
+      "The Chosen Undead",
+      "The Hollow",
+      "The Unkindled"
+    ],
+    "explanation": "The player character has different names across entries, including the Chosen Undead (DS1), Bearer of the Curse (DS2), and Ashen One (DS3)."
+  },
+  {
+    "question": "What currency is used in Animal Crossing?",
+    "answer": "Bells",
+    "choices": [
+      "Bells",
+      "Coins",
+      "Rupees",
+      "Gold"
+    ],
+    "explanation": "Bells are the currency in Animal Crossing games, used to buy furniture, pay off mortgages, and trade with villagers."
+  },
+  {
+    "question": "In which game series do players control a 'Vault Dweller' in a post-apocalyptic world?",
+    "answer": "Fallout",
+    "choices": [
+      "Fallout",
+      "The Elder Scrolls",
+      "Metro",
+      "Wasteland"
+    ],
+    "explanation": "The Fallout series places players in a retro-futuristic post-nuclear-war America, often starting as a Vault Dweller emerging from an underground shelter."
+  },
+  {
+    "question": "What is the name of the main villain in the Super Mario franchise?",
+    "answer": "Bowser",
+    "choices": [
+      "Bowser",
+      "Wario",
+      "King Boo",
+      "Kamek"
+    ],
+    "explanation": "Bowser, the King of the Koopas, is the main antagonist of the Super Mario franchise and frequently kidnaps Princess Peach."
+  },
+  {
+    "question": "Which game is set in the fictional city of Los Santos?",
+    "answer": "Grand Theft Auto V",
+    "choices": [
+      "Grand Theft Auto V",
+      "Saints Row",
+      "Mafia III",
+      "Watch Dogs"
+    ],
+    "explanation": "Los Santos is the fictionalized version of Los Angeles that serves as the setting for GTA V and GTA Online."
+  },
+  {
+    "question": "Which game franchise features the catchphrase 'War. War never changes.'?",
+    "answer": "Fallout",
+    "choices": [
+      "Fallout",
+      "Halo",
+      "Call of Duty",
+      "Metal Gear Solid"
+    ],
+    "explanation": "'War. War never changes.' is the iconic opening line of the Fallout series, reflecting its post-apocalyptic Cold War themes."
+  },
+  {
+    "question": "In what year was the first PlayStation console released in Japan?",
+    "answer": "1994",
+    "choices": [
+      "1992",
+      "1993",
+      "1994",
+      "1995"
+    ],
+    "explanation": "Sony released the original PlayStation in Japan on December 3, 1994."
+  },
+  {
+    "question": "What is the main objective in a game of chess?",
+    "answer": "Checkmate the opponent's king",
+    "choices": [
+      "Checkmate the opponent's king",
+      "Capture all pieces",
+      "Reach the other side",
+      "Collect the most points"
+    ],
+    "explanation": "The objective of chess is to put the opponent's king in checkmate, a position where it cannot escape capture."
+  },
+  {
+    "question": "What is the name of the city in Batman: Arkham games?",
+    "answer": "Gotham City",
+    "choices": [
+      "Gotham City",
+      "Metropolis",
+      "Arkham City",
+      "Star City"
+    ],
+    "explanation": "The Batman: Arkham series is set in Gotham City, the fictional dark metropolis from DC Comics."
+  },
+  {
+    "question": "Which game is known for the phrase 'Stay a while and listen'?",
+    "answer": "Diablo II",
+    "choices": [
+      "Diablo II",
+      "World of Warcraft",
       "StarCraft",
-      "Resident Evil",
+      "Heroes of the Storm"
+    ],
+    "explanation": "Deckard Cain's catchphrase 'Stay a while and listen' became iconic from Diablo II, where he narrates lore to the player."
+  },
+  {
+    "question": "What board game involves buying properties and charging rent?",
+    "answer": "Monopoly",
+    "choices": [
+      "Monopoly",
+      "The Game of Life",
+      "Clue",
+      "Risk"
+    ],
+    "explanation": "Monopoly is a classic real-estate board game where players buy properties, build houses and hotels, and charge rent to bankrupt opponents."
+  },
+  {
+    "question": "In Pok\u00e9mon, what is the first Pok\u00e9mon in the National Pok\u00e9dex?",
+    "answer": "Bulbasaur",
+    "choices": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Caterpie"
+    ],
+    "explanation": "Bulbasaur is #001 in the National Pok\u00e9dex, making it the first Pok\u00e9mon listed."
+  },
+  {
+    "question": "Which game series is set in the 'Mushroom Kingdom'?",
+    "answer": "Super Mario",
+    "choices": [
+      "Super Mario",
+      "Kirby",
+      "Donkey Kong",
+      "Yoshi's Island"
+    ],
+    "explanation": "The Mushroom Kingdom is the fictional world where the Super Mario series primarily takes place."
+  },
+  {
+    "question": "Who created the game Tetris?",
+    "answer": "Alexei Pajitnov",
+    "choices": [
+      "Alexei Pajitnov",
+      "Shigeru Miyamoto",
+      "Yuji Naka",
+      "Sid Meier"
+    ],
+    "explanation": "Alexei Pajitnov, a Soviet software engineer, created Tetris in 1984 while working at the Soviet Academy of Sciences."
+  },
+  {
+    "question": "What game is played on a 19x19 grid with black and white stones?",
+    "answer": "Go",
+    "choices": [
+      "Go",
+      "Checkers",
+      "Reversi",
+      "Shogi"
+    ],
+    "explanation": "Go is an ancient board game originating in China, played on a 19\u00d719 grid with black and white stones."
+  },
+  {
+    "question": "In which game series does the protagonist use a hookshot or grappling hook to traverse environments?",
+    "answer": "The Legend of Zelda",
+    "choices": [
+      "The Legend of Zelda",
+      "Bionic Commando",
+      "Batman: Arkham",
+      "Just Cause"
+    ],
+    "explanation": "The hookshot is a recurring item in The Legend of Zelda series, allowing Link to grab distant objects or surfaces."
+  },
+  {
+    "question": "Which game features the Triforce as a central plot element?",
+    "answer": "The Legend of Zelda",
+    "choices": [
+      "The Legend of Zelda",
+      "Final Fantasy",
+      "Dragon Quest",
+      "Fire Emblem"
+    ],
+    "explanation": "The Triforce is a sacred relic in the Legend of Zelda universe, representing Power, Wisdom, and Courage."
+  },
+  {
+    "question": "What is the name of the dragon you can shout at in Skyrim?",
+    "answer": "Alduin",
+    "choices": [
+      "Alduin",
+      "Paarthurnax",
+      "Miraak",
+      "Odahviing"
+    ],
+    "explanation": "Alduin the World-Eater is the main antagonist of The Elder Scrolls V: Skyrim, a dragon prophesied to destroy the world."
+  },
+  {
+    "question": "In what game series do you play as Geralt of Rivia?",
+    "answer": "The Witcher",
+    "choices": [
+      "The Witcher",
+      "Dragon Age",
+      "Dark Souls",
+      "Kingdom Come: Deliverance"
+    ],
+    "explanation": "Geralt of Rivia is the protagonist of CD Projekt Red's The Witcher series, based on the books by Andrzej Sapkowski."
+  },
+  {
+    "question": "Which classic arcade game features a character eating pellets and avoiding ghosts?",
+    "answer": "Pac-Man",
+    "choices": [
+      "Pac-Man",
+      "Donkey Kong",
+      "Centipede",
+      "Galaga"
+    ],
+    "explanation": "Pac-Man, released by Namco in 1980, tasks the player with eating all the dots in a maze while avoiding ghosts."
+  },
+  {
+    "question": "What is the name of the spacefaring engineer in Dead Space?",
+    "answer": "Isaac Clarke",
+    "choices": [
+      "Isaac Clarke",
+      "John Carver",
+      "Gabriel Weller",
+      "Ellie Langford"
+    ],
+    "explanation": "Isaac Clarke is the protagonist of the Dead Space series, an engineer who battles necromorphs on a mining spacecraft."
+  },
+  {
+    "question": "Which strategy game series lets you build civilizations and advance through different ages?",
+    "answer": "Civilization",
+    "choices": [
+      "Civilization",
+      "Age of Empires",
+      "Crusader Kings",
+      "Total War"
+    ],
+    "explanation": "Sid Meier's Civilization series tasks players with building a civilization from prehistoric times through the space age."
+  },
+  {
+    "question": "What is the highest-grossing video game franchise of all time?",
+    "answer": "Pok\u00e9mon",
+    "choices": [
+      "Pok\u00e9mon",
+      "Mario",
+      "Call of Duty",
+      "Grand Theft Auto"
+    ],
+    "explanation": "The Pok\u00e9mon franchise, including games, merchandise, and the trading card game, is the highest-grossing media franchise ever."
+  },
+  {
+    "question": "In what game do players build and survive in a world made of blocks?",
+    "answer": "Minecraft",
+    "choices": [
+      "Minecraft",
+      "Roblox",
+      "Terraria",
+      "Fortnite"
+    ],
+    "explanation": "Minecraft by Mojang Studios is a sandbox game where players mine resources, craft items, and build structures in a blocky 3D world."
+  },
+  {
+    "question": "Who is the main character of the God of War series?",
+    "answer": "Kratos",
+    "choices": [
+      "Kratos",
+      "Atreus",
+      "Baldur",
+      "Thor"
+    ],
+    "explanation": "Kratos is the Spartan warrior and protagonist of the God of War series, known for his rage and battles against mythological deities."
+  },
+  {
+    "question": "What card game uses numbered cards and special action cards like Skip and Reverse?",
+    "answer": "Uno",
+    "choices": [
+      "Uno",
+      "Go Fish",
+      "Crazy Eights",
+      "War"
+    ],
+    "explanation": "Uno is a card game where players match cards by number or color, with special action cards like Skip, Reverse, and Draw Two."
+  },
+  {
+    "question": "Which video game is set on the planet Reach and is part of the Halo franchise?",
+    "answer": "Halo: Reach",
+    "choices": [
+      "Halo: Reach",
+      "Halo 3: ODST",
+      "Halo Wars",
+      "Halo 4"
+    ],
+    "explanation": "Halo: Reach (2010) is a prequel set on the planet Reach, depicting the fall of the UNSC's strongest fortress world."
+  },
+  {
+    "question": "What is the name of the popular battle royale game developed by Epic Games?",
+    "answer": "Fortnite",
+    "choices": [
+      "Fortnite",
+      "PUBG",
+      "Apex Legends",
+      "Warzone"
+    ],
+    "explanation": "Fortnite Battle Royale, developed by Epic Games, launched in 2017 and became a global phenomenon with its building mechanic and cultural crossovers."
+  },
+  {
+    "question": "Which video game franchise features the Covenant as the primary alien enemy?",
+    "answer": "Halo",
+    "choices": [
+      "Halo",
+      "Mass Effect",
+      "Gears of War",
+      "StarCraft"
+    ],
+    "explanation": "The Covenant is a theocratic alliance of alien species serving as the main antagonists in the Halo series."
+  },
+  {
+    "question": "In what year did the Nintendo Switch launch?",
+    "answer": "2017",
+    "choices": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "explanation": "The Nintendo Switch launched on March 3, 2017, featuring a hybrid design that works as both a home console and a portable device."
+  },
+  {
+    "question": "What is the game where players compete to survive on a shrinking island?",
+    "answer": "PlayerUnknown's Battlegrounds (PUBG)",
+    "choices": [
+      "PlayerUnknown's Battlegrounds (PUBG)",
+      "Fortnite",
+      "Apex Legends",
+      "Warzone"
+    ],
+    "explanation": "PUBG popularized the battle royale genre when it launched in 2017, placing 100 players on a shrinking island."
+  },
+  {
+    "question": "Which Pok\u00e9mon game introduced the concept of breeding?",
+    "answer": "Pok\u00e9mon Gold and Silver",
+    "choices": [
+      "Pok\u00e9mon Gold and Silver",
+      "Pok\u00e9mon Red and Blue",
+      "Pok\u00e9mon Ruby and Sapphire",
+      "Pok\u00e9mon X and Y"
+    ],
+    "explanation": "Pok\u00e9mon Gold and Silver (1999) introduced the Day Care breeding mechanic, allowing players to hatch Pok\u00e9mon from eggs."
+  },
+  {
+    "question": "What is the name of the main antagonist in the Portal series?",
+    "answer": "GLaDOS",
+    "choices": [
+      "GLaDOS",
+      "Wheatley",
+      "Cave Johnson",
+      "Atlas"
+    ],
+    "explanation": "GLaDOS (Genetic Lifeform and Disk Operating System) is the antagonistic AI managing the Aperture Science facility in Portal."
+  },
+  {
+    "question": "Which game series is famous for 'prestige' ranks and killstreaks?",
+    "answer": "Call of Duty",
+    "choices": [
+      "Call of Duty",
+      "Battlefield",
       "Counter-Strike",
-      "Pac-Man"
+      "Rainbow Six"
     ],
-    "explanation": "terran, zerg, and protoss is associated with StarCraft."
+    "explanation": "Call of Duty popularized the Prestige system and killstreak rewards in its multiplayer modes."
   },
   {
-    "question": "In gaming, starCraft is most closely associated with which character, place, or concept?",
-    "answer": "terran, zerg, and protoss",
+    "question": "What is the board game where players try to guess a murderer, weapon, and room?",
+    "answer": "Clue (Cluedo)",
     "choices": [
-      "crewmates and impostors",
-      "terran, zerg, and protoss",
-      "Blizzard",
-      "turn-based strategy"
+      "Clue (Cluedo)",
+      "Mastermind",
+      "Scrabble",
+      "Battleship"
     ],
-    "explanation": "StarCraft is associated with terran, zerg, and protoss."
+    "explanation": "Clue (known as Cluedo outside North America) is a mystery board game where players deduce who committed a murder, with what weapon, and in which room."
   },
   {
-    "question": "In gaming, starCraft is most closely associated with which company or description?",
-    "answer": "Blizzard",
+    "question": "In Overwatch, what is the name of the Egyptian healer character?",
+    "answer": "Ana",
     "choices": [
-      "roguelike",
-      "CD Projekt",
-      "MOBA",
-      "Blizzard"
+      "Ana",
+      "Mercy",
+      "Moira",
+      "Baptiste"
     ],
-    "explanation": "StarCraft is associated with Blizzard."
+    "explanation": "Ana Amari is a sniper support hero in Overwatch who can heal allies and damage enemies with her biotic rifle."
   },
   {
-    "question": "The Legend of Zelda: Ocarina of Time is most closely associated with which character, place, or concept?",
-    "answer": "Nintendo 64",
+    "question": "Which SEGA mascot is known for his speed and 'gotta go fast' attitude?",
+    "answer": "Sonic the Hedgehog",
     "choices": [
-      "Samus Aran",
-      "Nintendo 64",
-      "Valve",
-      "Riot Games"
+      "Sonic the Hedgehog",
+      "Tails",
+      "Knuckles",
+      "Shadow"
     ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Nintendo 64."
+    "explanation": "Sonic the Hedgehog, SEGA's mascot, debuted in 1991 and is famous for his incredible speed and attitude."
   },
   {
-    "question": "The Legend of Zelda: Ocarina of Time is most closely associated with which company or description?",
-    "answer": "Link",
+    "question": "What game involves removing blocks without toppling a tower?",
+    "answer": "Jenga",
     "choices": [
-      "Bungie",
-      "Link",
-      "Square",
-      "Mojang"
+      "Jenga",
+      "Kerplunk",
+      "Connect Four",
+      "Operation"
     ],
-    "explanation": "The Legend of Zelda: Ocarina of Time is associated with Link."
+    "explanation": "Jenga is a physical skill game where players take turns removing wooden blocks from a tower without causing it to fall."
   },
   {
-    "question": "Halo: Combat Evolved is most closely associated with which character, place, or concept?",
-    "answer": "Master Chief",
+    "question": "In what video game universe does the city of Rapture exist?",
+    "answer": "BioShock",
     "choices": [
-      "Arthur Morgan",
+      "BioShock",
+      "Fallout",
+      "System Shock",
+      "Prey"
+    ],
+    "explanation": "Rapture is the underwater dystopian city at the center of the original BioShock game, founded by Andrew Ryan as an objectivist utopia."
+  },
+  {
+    "question": "What is the name of the thieves' guild questline city in The Elder Scrolls V: Skyrim?",
+    "answer": "Riften",
+    "choices": [
+      "Riften",
+      "Solitude",
+      "Whiterun",
+      "Markarth"
+    ],
+    "explanation": "Riften is the home of the Thieves Guild in Skyrim, where the player can join the guild and pursue that questline."
+  },
+  {
+    "question": "Which game features the iconic quote 'The cake is a lie'?",
+    "answer": "Portal",
+    "choices": [
+      "Portal",
+      "Half-Life 2",
+      "Left 4 Dead",
+      "Mirror's Edge"
+    ],
+    "explanation": "'The cake is a lie' originated as graffiti in Portal (2007), suggesting that GLaDOS's promised reward was just manipulation."
+  },
+  {
+    "question": "What is the name of the mercenary organization in Metal Gear Solid V?",
+    "answer": "Diamond Dogs",
+    "choices": [
+      "Diamond Dogs",
+      "Foxhound",
+      "Militaires Sans Fronti\u00e8res",
+      "Cipher"
+    ],
+    "explanation": "Diamond Dogs is the private military company founded by Snake (Big Boss) in Metal Gear Solid V: The Phantom Pain."
+  },
+  {
+    "question": "Which board game involves players moving tokens around a track and buying properties?",
+    "answer": "Monopoly",
+    "choices": [
+      "Monopoly",
+      "Sorry!",
+      "Trouble",
+      "The Game of Life"
+    ],
+    "explanation": "Monopoly has players rolling dice to move around a track, buying properties and charging rent to accumulate wealth."
+  },
+  {
+    "question": "What role-playing game series features a 'Paragon' and 'Renegade' morality system?",
+    "answer": "Mass Effect",
+    "choices": [
+      "Mass Effect",
+      "Dragon Age",
+      "Star Wars: Knights of the Old Republic",
+      "Jade Empire"
+    ],
+    "explanation": "Mass Effect's Paragon/Renegade system tracks player choices, influencing Commander Shepard's dialogue and actions."
+  },
+  {
+    "question": "Which classic arcade game involves shooting descending rows of aliens?",
+    "answer": "Space Invaders",
+    "choices": [
+      "Space Invaders",
+      "Galaga",
+      "Asteroids",
+      "Centipede"
+    ],
+    "explanation": "Space Invaders, released by Taito in 1978, involves shooting wave after wave of descending alien invaders."
+  },
+  {
+    "question": "In which country was the original Nintendo company founded?",
+    "answer": "Japan",
+    "choices": [
+      "Japan",
+      "United States",
+      "South Korea",
+      "China"
+    ],
+    "explanation": "Nintendo was founded in Kyoto, Japan, in 1889, originally as a playing card company."
+  },
+  {
+    "question": "What is the name of the lovable robot in the Portal series?",
+    "answer": "Wheatley",
+    "choices": [
+      "Wheatley",
+      "Atlas",
+      "P-Body",
+      "GLaDOS"
+    ],
+    "explanation": "Wheatley is a bumbling Personality Core robot who guides Chell through Aperture Science in Portal 2."
+  },
+  {
+    "question": "Which game series features epic naval battles between pirates?",
+    "answer": "Assassin's Creed: Black Flag",
+    "choices": [
+      "Assassin's Creed: Black Flag",
+      "Sea of Thieves",
+      "Skull and Bones",
+      "Age of Pirates"
+    ],
+    "explanation": "Assassin's Creed IV: Black Flag is particularly acclaimed for its open-world naval combat and pirate setting in the Caribbean."
+  },
+  {
+    "question": "What is the name of the companion cube in Portal?",
+    "answer": "Weighted Companion Cube",
+    "choices": [
+      "Weighted Companion Cube",
+      "Storage Cube",
+      "Hardlight Bridge Cube",
+      "Edgeless Safety Cube"
+    ],
+    "explanation": "The Weighted Companion Cube is an inanimate cube in Portal that GLaDOS humorously encourages players to bond with."
+  },
+  {
+    "question": "In what game series do players explore procedurally generated dungeons called 'Dungeons' or 'Crypts'?",
+    "answer": "The Binding of Isaac",
+    "choices": [
+      "The Binding of Isaac",
+      "Enter the Gungeon",
+      "Hades",
+      "Dead Cells"
+    ],
+    "explanation": "The Binding of Isaac is a roguelike where players explore procedurally generated dungeon floors."
+  },
+  {
+    "question": "Which Nintendo franchise features a young hero named Link?",
+    "answer": "The Legend of Zelda",
+    "choices": [
+      "The Legend of Zelda",
+      "Fire Emblem",
+      "Xenoblade Chronicles",
+      "Kid Icarus"
+    ],
+    "explanation": "Link is the protagonist of the Legend of Zelda series, a young hero destined to battle evil in Hyrule."
+  },
+  {
+    "question": "What was the first commercially successful home video game console?",
+    "answer": "Atari 2600",
+    "choices": [
+      "Atari 2600",
+      "Magnavox Odyssey",
+      "ColecoVision",
+      "Intellivision"
+    ],
+    "explanation": "The Atari 2600, released in 1977, was the first commercially successful home video game console with interchangeable cartridges."
+  },
+  {
+    "question": "What is the currency used in The Legend of Zelda?",
+    "answer": "Rupees",
+    "choices": [
+      "Rupees",
+      "Bells",
+      "Gold",
+      "Coins"
+    ],
+    "explanation": "Rupees are the currency in the Legend of Zelda series, used to purchase items and services throughout Hyrule."
+  },
+  {
+    "question": "Which game features the fictional sport of Blitzball?",
+    "answer": "Final Fantasy X",
+    "choices": [
+      "Final Fantasy X",
+      "Final Fantasy XII",
+      "Final Fantasy VII",
+      "Final Fantasy VIII"
+    ],
+    "explanation": "Blitzball is a fictional underwater sport featured prominently in Final Fantasy X."
+  },
+  {
+    "question": "In what game series do players manage a theme park?",
+    "answer": "RollerCoaster Tycoon",
+    "choices": [
+      "RollerCoaster Tycoon",
+      "Theme Park",
+      "Planet Coaster",
+      "Thrillville"
+    ],
+    "explanation": "RollerCoaster Tycoon is a simulation game series where players design and manage amusement parks."
+  },
+  {
+    "question": "What is the name of the main enemy faction in Halo?",
+    "answer": "The Covenant",
+    "choices": [
+      "The Covenant",
+      "The Flood",
+      "The Prometheans",
+      "The Banished"
+    ],
+    "explanation": "The Covenant is the main enemy faction in the Halo series, a theocratic alliance of alien races."
+  },
+  {
+    "question": "Which game studio developed Red Dead Redemption?",
+    "answer": "Rockstar Games",
+    "choices": [
+      "Rockstar Games",
+      "Naughty Dog",
+      "CD Projekt Red",
+      "Bethesda"
+    ],
+    "explanation": "Red Dead Redemption and its sequel were developed by Rockstar Games, also known for the GTA series."
+  },
+  {
+    "question": "What is the name of the protagonist in the Tomb Raider series?",
+    "answer": "Lara Croft",
+    "choices": [
+      "Lara Croft",
+      "Elena Fisher",
+      "Jill Valentine",
+      "Samus Aran"
+    ],
+    "explanation": "Lara Croft is the iconic protagonist of the Tomb Raider series, an archaeologist and adventurer."
+  },
+  {
+    "question": "Which game involves drawing cards and avoiding the 'exploding kitten'?",
+    "answer": "Exploding Kittens",
+    "choices": [
+      "Exploding Kittens",
+      "Uno",
+      "Cards Against Humanity",
+      "Sushi Go"
+    ],
+    "explanation": "Exploding Kittens is a card game where players draw from a deck, trying to avoid the exploding kitten card while using action cards to survive."
+  },
+  {
+    "question": "In what game can players build a city and manage citizens' happiness and resources?",
+    "answer": "Cities: Skylines",
+    "choices": [
+      "Cities: Skylines",
+      "SimCity",
+      "Anno 1800",
+      "Tropico"
+    ],
+    "explanation": "Cities: Skylines is a modern city-building simulation game that became popular after the disappointment of the 2013 SimCity reboot."
+  },
+  {
+    "question": "What is the name of the red-hatted plumber in the Mario franchise?",
+    "answer": "Mario",
+    "choices": [
+      "Mario",
+      "Luigi",
+      "Wario",
+      "Waluigi"
+    ],
+    "explanation": "Mario, originally known as 'Jumpman' in Donkey Kong, is Nintendo's iconic red-hatted plumber and the main character of the Mario franchise."
+  },
+  {
+    "question": "Which game series features the battle between the Brotherhood of Steel and the Institute?",
+    "answer": "Fallout",
+    "choices": [
+      "Fallout",
+      "The Elder Scrolls",
+      "Dishonored",
+      "Deus Ex"
+    ],
+    "explanation": "In Fallout 4, the Brotherhood of Steel and the Institute are among the major factions the player can ally with or oppose."
+  },
+  {
+    "question": "What card game requires players to match cards by suit or rank?",
+    "answer": "Crazy Eights",
+    "choices": [
+      "Crazy Eights",
+      "Poker",
+      "Bridge",
+      "Blackjack"
+    ],
+    "explanation": "Crazy Eights is a shedding card game where players match the top card by suit or rank, with eights acting as wild cards."
+  },
+  {
+    "question": "Which game is known for its 'No Russian' mission that sparked controversy?",
+    "answer": "Call of Duty: Modern Warfare 2",
+    "choices": [
+      "Call of Duty: Modern Warfare 2",
+      "Spec Ops: The Line",
+      "Battlefield: Bad Company",
+      "Medal of Honor"
+    ],
+    "explanation": "The 'No Russian' mission in Modern Warfare 2 (2009) was controversial for allowing players to participate in a civilian airport massacre."
+  },
+  {
+    "question": "What is the name of the fictional sport played in Harry Potter's video game adaptations?",
+    "answer": "Quidditch",
+    "choices": [
+      "Quidditch",
+      "Wizardball",
+      "Bludger Bowl",
+      "Snitch Racing"
+    ],
+    "explanation": "Quidditch is the fictional sport from Harry Potter where players ride broomsticks and try to score goals while catching the Golden Snitch."
+  },
+  {
+    "question": "Which game series features Commander Shepard?",
+    "answer": "Mass Effect",
+    "choices": [
+      "Mass Effect",
+      "Halo",
+      "StarCraft",
+      "Destiny"
+    ],
+    "explanation": "Commander Shepard is the customizable protagonist of the Mass Effect trilogy, a soldier fighting to save the galaxy from the Reapers."
+  },
+  {
+    "question": "What is the 'kill screen' in classic arcade Pac-Man?",
+    "answer": "Level 256 where the screen glitches",
+    "choices": [
+      "Level 256 where the screen glitches",
+      "The final boss",
+      "A secret level",
+      "The last ghost pattern"
+    ],
+    "explanation": "On level 256, Pac-Man's level counter overflows, causing the right half of the screen to fill with random characters, making the level unbeatable."
+  },
+  {
+    "question": "In what game can players travel back in time using the Ocarina of Time?",
+    "answer": "The Legend of Zelda: Ocarina of Time",
+    "choices": [
+      "The Legend of Zelda: Ocarina of Time",
+      "Chrono Trigger",
+      "Time Splitters",
+      "Prince of Persia: Sands of Time"
+    ],
+    "explanation": "In Ocarina of Time, Link can play the 'Song of Time' on his Ocarina to travel between his childhood and adult forms."
+  },
+  {
+    "question": "What was Atari's first commercially successful arcade game?",
+    "answer": "Pong",
+    "choices": [
+      "Pong",
+      "Breakout",
+      "Asteroids",
+      "Missile Command"
+    ],
+    "explanation": "Pong, released in 1972, was Atari's first arcade game and became the first commercially successful video game."
+  },
+  {
+    "question": "Which game series has players collecting and battling monsters called 'Digimon'?",
+    "answer": "Digimon",
+    "choices": [
+      "Digimon",
+      "Pok\u00e9mon",
+      "Monster Hunter",
+      "Dragon Quest Monsters"
+    ],
+    "explanation": "Digimon (Digital Monsters) is a media franchise where players raise and battle digital creatures called Digimon."
+  },
+  {
+    "question": "What is the name of the witch in Left 4 Dead that players must avoid disturbing?",
+    "answer": "The Witch",
+    "choices": [
+      "The Witch",
+      "The Witch Doctor",
+      "The Banshee",
+      "The Siren"
+    ],
+    "explanation": "The Witch is a special infected in Left 4 Dead who sits crying; startling her causes a deadly frenzy attack."
+  },
+  {
+    "question": "In which year was the original Super Mario Bros. released?",
+    "answer": "1985",
+    "choices": [
+      "1983",
+      "1984",
+      "1985",
+      "1987"
+    ],
+    "explanation": "Super Mario Bros. was released for the Nintendo Entertainment System (NES) in Japan in 1985."
+  },
+  {
+    "question": "What board game involves players trying to sink their opponent's fleet of ships?",
+    "answer": "Battleship",
+    "choices": [
+      "Battleship",
+      "Risk",
+      "Stratego",
+      "Axis and Allies"
+    ],
+    "explanation": "Battleship is a strategy game where players try to locate and sink each other's hidden fleet of ships on a grid."
+  },
+  {
+    "question": "Which game features a character who uses a portal gun?",
+    "answer": "Portal",
+    "choices": [
+      "Portal",
+      "Half-Life",
+      "Mirror's Edge",
+      "The Talos Principle"
+    ],
+    "explanation": "Portal features Chell using a Handheld Portal Device (portal gun) to create linked portals and solve physics-based puzzles."
+  },
+  {
+    "question": "What is the name of the goblin hero in World of Warcraft's Horde faction?",
+    "answer": "There is no goblin hero; Goblins are a playable race",
+    "choices": [
+      "There is no goblin hero; Goblins are a playable race",
+      "Gazlowe",
+      "Trade Prince Gallywix",
+      "Noggenfogger"
+    ],
+    "explanation": "Goblins are a playable race in the Horde faction in WoW, not a single hero character; Gazlowe and Trade Prince Gallywix are notable goblin NPCs."
+  },
+  {
+    "question": "What is the name of the mythical sword that Link wields in Legend of Zelda?",
+    "answer": "The Master Sword",
+    "choices": [
+      "The Master Sword",
+      "The Sword of Light",
+      "Excalibur",
+      "The Golden Blade"
+    ],
+    "explanation": "The Master Sword is the legendary blade wielded by Link in most Legend of Zelda games, also called the Blade of Evil's Bane."
+  },
+  {
+    "question": "Which game developer created the Dark Souls series?",
+    "answer": "FromSoftware",
+    "choices": [
       "FromSoftware",
-      "Master Chief",
-      "Riot Games"
+      "Bandai Namco",
+      "CD Projekt Red",
+      "Bethesda"
     ],
-    "explanation": "Halo: Combat Evolved is associated with Master Chief."
+    "explanation": "FromSoftware, a Japanese game developer, created the Dark Souls series, as well as Bloodborne and Elden Ring."
   },
   {
-    "question": "Halo: Combat Evolved is most closely associated with which company or description?",
-    "answer": "Bungie",
+    "question": "In what franchise does the character Samus Aran appear?",
+    "answer": "Metroid",
     "choices": [
-      "Lands Between",
-      "Mojang",
-      "roguelike",
-      "Bungie"
+      "Metroid",
+      "Star Fox",
+      "F-Zero",
+      "Kid Icarus"
     ],
-    "explanation": "Halo: Combat Evolved is associated with Bungie."
+    "explanation": "Samus Aran is the bounty hunter protagonist of Nintendo's Metroid series, famous for the twist that she is a woman."
   },
   {
-    "question": "Animal Crossing: New Horizons is most closely associated with which character, place, or concept?",
-    "answer": "Tom Nook",
+    "question": "What is the name of the battle system used in Final Fantasy games where players wait for a gauge to fill?",
+    "answer": "Active Time Battle (ATB)",
     "choices": [
-      "terran, zerg, and protoss",
-      "turn-based strategy",
-      "Aperture Science",
-      "Tom Nook"
+      "Active Time Battle (ATB)",
+      "Turn-Based Combat",
+      "Real-Time Combat",
+      "Break system"
     ],
-    "explanation": "Animal Crossing: New Horizons is associated with Tom Nook."
+    "explanation": "The Active Time Battle (ATB) system was introduced in Final Fantasy IV and became a staple of the series, blending turn-based and real-time elements."
   },
   {
-    "question": "Animal Crossing: New Horizons is most closely associated with which company or description?",
-    "answer": "Nintendo Switch",
+    "question": "Which game series features the protagonist Arthur Morgan?",
+    "answer": "Red Dead Redemption 2",
     "choices": [
-      "roguelike",
-      "Nintendo Switch",
+      "Red Dead Redemption 2",
+      "Grand Theft Auto V",
+      "L.A. Noire",
+      "Mafia II"
+    ],
+    "explanation": "Arthur Morgan is the protagonist of Red Dead Redemption 2 (2018), a story-driven open world western."
+  },
+  {
+    "question": "What iconic sound does Mario make when he collects a coin?",
+    "answer": "A ding sound effect",
+    "choices": [
+      "A ding sound effect",
+      "A trumpet fanfare",
+      "A bell chime",
+      "A whistle"
+    ],
+    "explanation": "The classic Mario coin collect sound is a short, bright 'ding' sound effect that has been used in Mario games since the original."
+  },
+  {
+    "question": "In what year was the original Game Boy released?",
+    "answer": "1989",
+    "choices": [
+      "1987",
+      "1988",
+      "1989",
+      "1990"
+    ],
+    "explanation": "Nintendo's original Game Boy was released in Japan on April 21, 1989, and became one of the best-selling handheld consoles ever."
+  },
+  {
+    "question": "Which company created the Xbox console?",
+    "answer": "Microsoft",
+    "choices": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "explanation": "Microsoft released the original Xbox in 2001, entering the console gaming market to compete with PlayStation 2 and GameCube."
+  },
+  {
+    "question": "What is the name of the famous Konami cheat code?",
+    "answer": "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
+    "choices": [
+      "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
+      "Left, Right, Left, Right, Up, Down, B, A",
+      "A, B, A, B, Up, Down, Start, Select",
+      "Up, Down, Up, Down, Left, Right, B, A, Start"
+    ],
+    "explanation": "The Konami Code (Up, Up, Down, Down, Left, Right, Left, Right, B, A) was first used in Gradius (1986) and became one of gaming's most famous Easter eggs."
+  },
+  {
+    "question": "What game features a mechanic where the world resets if the player dies?",
+    "answer": "Roguelike games / The Binding of Isaac",
+    "choices": [
+      "Roguelike games / The Binding of Isaac",
+      "Minecraft",
+      "Dark Souls",
+      "Celeste"
+    ],
+    "explanation": "Roguelike games like The Binding of Isaac and Hades feature permadeath, where the player starts over if they die."
+  },
+  {
+    "question": "Which game is set in the fictional city of Midgar?",
+    "answer": "Final Fantasy VII",
+    "choices": [
+      "Final Fantasy VII",
+      "Final Fantasy X",
+      "Final Fantasy XV",
+      "Final Fantasy VI"
+    ],
+    "explanation": "Midgar is the dystopian city controlled by the Shinra Corporation in Final Fantasy VII."
+  },
+  {
+    "question": "What is the name of the dog companion in the Fallout 4 game?",
+    "answer": "Dogmeat",
+    "choices": [
+      "Dogmeat",
+      "Rex",
+      "Roach",
+      "Chip"
+    ],
+    "explanation": "Dogmeat is a recurring canine companion in the Fallout series, appearing in Fallout 1, 3, and 4."
+  },
+  {
+    "question": "Which trading card game features mana as its main resource?",
+    "answer": "Magic: The Gathering",
+    "choices": [
+      "Magic: The Gathering",
+      "Pok\u00e9mon TCG",
+      "Yu-Gi-Oh!",
+      "Hearthstone"
+    ],
+    "explanation": "Magic: The Gathering uses lands to generate mana, the resource used to cast spells and summon creatures."
+  },
+  {
+    "question": "In what game do players explore a spaceship called the Ishimura?",
+    "answer": "Dead Space",
+    "choices": [
+      "Dead Space",
+      "Alien: Isolation",
+      "Event Horizon",
+      "System Shock"
+    ],
+    "explanation": "The USG Ishimura is the massive mining ship at the center of the Dead Space horror game."
+  },
+  {
+    "question": "Which video game features the protagonist Link fighting to save Hyrule?",
+    "answer": "The Legend of Zelda",
+    "choices": [
+      "The Legend of Zelda",
+      "Final Fantasy",
+      "Fire Emblem",
+      "Xenoblade Chronicles"
+    ],
+    "explanation": "Link is the playable protagonist in The Legend of Zelda series, saving Princess Zelda and Hyrule from evil."
+  },
+  {
+    "question": "In which game can you 'Catch 'em all' by capturing creatures in balls?",
+    "answer": "Pok\u00e9mon",
+    "choices": [
+      "Pok\u00e9mon",
+      "Monster Hunter",
+      "Digimon",
+      "Temtem"
+    ],
+    "explanation": "The Pok\u00e9mon franchise's motto is 'Gotta Catch 'em All,' encouraging players to collect all available Pok\u00e9mon."
+  },
+  {
+    "question": "What is the name of the final boss in Super Mario Bros.?",
+    "answer": "Bowser",
+    "choices": [
+      "Bowser",
+      "Donkey Kong",
+      "Wario",
+      "Koopa Troopa"
+    ],
+    "explanation": "Bowser (King Koopa) is the recurring final boss of the Super Mario franchise."
+  },
+  {
+    "question": "In what game do players throw birds at pigs using a slingshot?",
+    "answer": "Angry Birds",
+    "choices": [
+      "Angry Birds",
+      "Cut the Rope",
+      "Plants vs. Zombies",
+      "Fruit Ninja"
+    ],
+    "explanation": "Angry Birds by Rovio Entertainment is a mobile game where players launch birds to destroy pig fortresses."
+  },
+  {
+    "question": "Which gaming console introduced motion controls with the Wii Remote?",
+    "answer": "Nintendo Wii",
+    "choices": [
+      "Nintendo Wii",
+      "PlayStation 3",
+      "Xbox 360",
+      "Sega Saturn"
+    ],
+    "explanation": "The Nintendo Wii (2006) introduced motion-sensing controllers, making physical gestures part of gameplay."
+  },
+  {
+    "question": "What game is known for the phrase 'Git Gud'?",
+    "answer": "Dark Souls",
+    "choices": [
+      "Dark Souls",
+      "FIFA",
+      "Madden",
+      "The Witcher"
+    ],
+    "explanation": "'Git Gud' (Get Good) became a popular phrase in the Dark Souls community, referencing the game's notoriously difficult combat."
+  },
+  {
+    "question": "In Fortnite, what building material is considered the strongest?",
+    "answer": "Metal",
+    "choices": [
+      "Metal",
+      "Wood",
+      "Brick",
+      "Stone"
+    ],
+    "explanation": "In Fortnite's building system, metal has the highest durability and damage per second, making it the strongest material."
+  },
+  {
+    "question": "Which classic game involves navigating a yellow character through a maze eating pellets?",
+    "answer": "Pac-Man",
+    "choices": [
+      "Pac-Man",
+      "Donkey Kong",
+      "Frogger",
+      "Centipede"
+    ],
+    "explanation": "Pac-Man (1980) by Namco has players navigate a yellow character eating all dots in a maze while avoiding ghosts."
+  },
+  {
+    "question": "What is the name of the village you start with in Animal Crossing?",
+    "answer": "The player names it themselves",
+    "choices": [
+      "The player names it themselves",
+      "Nook Town",
+      "Clover",
+      "Animal Village"
+    ],
+    "explanation": "In Animal Crossing, players name their own village (or island in New Horizons)."
+  },
+  {
+    "question": "Which game features a character who can craft items from wood, stone, and ore?",
+    "answer": "Minecraft",
+    "choices": [
+      "Minecraft",
+      "Valheim",
+      "Don't Starve",
+      "Terraria"
+    ],
+    "explanation": "Crafting is central to Minecraft \u2014 players gather resources like wood, stone, and ore to craft tools, weapons, and structures."
+  },
+  {
+    "question": "What is the highest rank in most competitive shooters?",
+    "answer": "Radiant/Immortal or Global Elite",
+    "choices": [
+      "Radiant/Immortal or Global Elite",
+      "Diamond",
+      "Platinum",
+      "Master"
+    ],
+    "explanation": "The highest ranks vary by game: Radiant (Valorant), Global Elite (CS:GO), Predator (Apex Legends), etc."
+  },
+  {
+    "question": "In what game does the player take on the role of a Dragonborn slaying dragons?",
+    "answer": "The Elder Scrolls V: Skyrim",
+    "choices": [
+      "The Elder Scrolls V: Skyrim",
+      "Dragon Age: Inquisition",
+      "Dragon's Dogma",
+      "Elden Ring"
+    ],
+    "explanation": "The Elder Scrolls V: Skyrim features a Dragonborn hero who can absorb dragon souls and use powerful Shouts."
+  },
+  {
+    "question": "What gaming company created Mario, Pok\u00e9mon, and Zelda?",
+    "answer": "Nintendo",
+    "choices": [
+      "Nintendo",
+      "Sega",
+      "Sony",
+      "Capcom"
+    ],
+    "explanation": "Nintendo is the Japanese company behind iconic franchises including Mario, Pok\u00e9mon, Zelda, and Donkey Kong."
+  },
+  {
+    "question": "What board game involves trying to trap the opponent with no legal moves?",
+    "answer": "Chess",
+    "choices": [
+      "Chess",
+      "Checkers",
+      "Go",
+      "Othello"
+    ],
+    "explanation": "In chess, the goal is checkmate \u2014 placing the opponent's king in a position where it cannot escape capture."
+  },
+  {
+    "question": "What is the name of the popular video game map editor in Minecraft?",
+    "answer": "There is no built-in map editor; players use third-party tools",
+    "choices": [
+      "There is no built-in map editor; players use third-party tools",
+      "WorldEdit",
+      "MCEdit",
+      "WorldPainter"
+    ],
+    "explanation": "Minecraft doesn't have a built-in map editor, but third-party tools like WorldEdit and MCEdit are popular for map creation."
+  },
+  {
+    "question": "Which fighting game series features a roster of Nintendo characters?",
+    "answer": "Super Smash Bros.",
+    "choices": [
+      "Super Smash Bros.",
+      "Kirby Fighters",
+      "Mario Kart",
+      "Nintendo All-Stars Battle Royale"
+    ],
+    "explanation": "Super Smash Bros. is a crossover fighting game featuring characters from various Nintendo franchises (and later third-party characters)."
+  },
+  {
+    "question": "In what game does a player manage a football team and call plays?",
+    "answer": "Madden NFL",
+    "choices": [
+      "Madden NFL",
+      "FIFA",
+      "NBA 2K",
+      "EA Sports FC"
+    ],
+    "explanation": "Madden NFL is EA's long-running football simulation series where players manage rosters, call plays, and compete in games."
+  },
+  {
+    "question": "What is the name of the iconic enemy in Doom?",
+    "answer": "Cacodemon / Imp / Cyberdemon",
+    "choices": [
+      "Cacodemon / Imp / Cyberdemon",
+      "Grunt",
+      "Covenant",
+      "Locust"
+    ],
+    "explanation": "Doom features many iconic enemy types including the Imp, Cacodemon, and Cyberdemon."
+  },
+  {
+    "question": "Which game features Vault 101 and a capital wasteland based on Washington D.C.?",
+    "answer": "Fallout 3",
+    "choices": [
+      "Fallout 3",
+      "Fallout 4",
+      "Fallout: New Vegas",
+      "Fallout 76"
+    ],
+    "explanation": "Fallout 3 (2008) is set in the post-apocalyptic Capital Wasteland around Washington D.C., with Vault 101 as the starting location."
+  },
+  {
+    "question": "In what game can players build roller coasters and manage a theme park?",
+    "answer": "RollerCoaster Tycoon",
+    "choices": [
+      "RollerCoaster Tycoon",
+      "Planet Coaster",
+      "Theme Hospital",
+      "Theme Park World"
+    ],
+    "explanation": "RollerCoaster Tycoon (1999) is a classic simulation game where players design and manage amusement parks."
+  },
+  {
+    "question": "What is the name of the special moves in Street Fighter that use combinations like down, forward + punch?",
+    "answer": "Special moves/hadouken inputs",
+    "choices": [
+      "Special moves/hadouken inputs",
+      "Combos",
+      "Finishers",
+      "Ultimates"
+    ],
+    "explanation": "Street Fighter uses quarter-circle joystick motions to execute special moves like the Hadouken (fireball) and Shoryuken (dragon punch)."
+  },
+  {
+    "question": "Which game features a post-apocalyptic world where survivors fight infected humans called Clickers?",
+    "answer": "The Last of Us",
+    "choices": [
+      "The Last of Us",
+      "Days Gone",
+      "I Am Legend",
+      "Dying Light"
+    ],
+    "explanation": "The Last of Us features Clickers, highly aggressive infected humans who have lost their sight and navigate using echolocation."
+  },
+  {
+    "question": "What is the name of the protagonist's horse in Red Dead Redemption 2?",
+    "answer": "Players can name their horse",
+    "choices": [
+      "Players can name their horse",
+      "Roach",
+      "Epona",
+      "Shadowmere"
+    ],
+    "explanation": "In Red Dead Redemption 2, players can bond with and rename their horse. (Roach is Geralt's horse in The Witcher 3.)"
+  },
+  {
+    "question": "In what game does a player shoot web and swing between buildings in New York?",
+    "answer": "Marvel's Spider-Man",
+    "choices": [
+      "Marvel's Spider-Man",
+      "Batman: Arkham Knight",
+      "Just Cause",
+      "Spider-Man: Miles Morales"
+    ],
+    "explanation": "Marvel's Spider-Man (2018) by Insomniac Games lets players web-swing through a faithfully recreated Manhattan."
+  },
+  {
+    "question": "What is the name of the popular esports game developed by Riot Games?",
+    "answer": "League of Legends",
+    "choices": [
+      "League of Legends",
+      "Dota 2",
+      "Heroes of the Storm",
+      "Smite"
+    ],
+    "explanation": "League of Legends (2009) by Riot Games is one of the most popular and highest-earning esports games ever."
+  },
+  {
+    "question": "Which classic arcade game involves a frog crossing roads and rivers?",
+    "answer": "Frogger",
+    "choices": [
+      "Frogger",
+      "Centipede",
+      "Donkey Kong",
+      "Galaga"
+    ],
+    "explanation": "Frogger (1981) by Konami challenges players to guide a frog across a busy road and hazardous river."
+  },
+  {
+    "question": "In what video game franchise do players live on a deserted island and collect resources?",
+    "answer": "Animal Crossing",
+    "choices": [
+      "Animal Crossing",
+      "Stardew Valley",
+      "Harvest Moon",
+      "The Sims"
+    ],
+    "explanation": "Animal Crossing: New Horizons (2020) has players starting life on a deserted island and building up their own paradise."
+  },
+  {
+    "question": "What is the name of the robot companion in Fallout 4?",
+    "answer": "Codsworth",
+    "choices": [
+      "Codsworth",
+      "AEDEN",
+      "Ada",
+      "Curie"
+    ],
+    "explanation": "Codsworth is a domestic Mr. Handy robot who waited for the Sole Survivor's return for 210 years in Fallout 4."
+  },
+  {
+    "question": "In which game series do players become a 'Vault Hunter' and collect guns with billions of variations?",
+    "answer": "Borderlands",
+    "choices": [
+      "Borderlands",
+      "Destiny",
+      "The Division",
+      "Warframe"
+    ],
+    "explanation": "Borderlands is famous for its procedurally generated weapon system that can produce billions of different guns."
+  },
+  {
+    "question": "What is the name of the iconic score-multiplier combo in Guitar Hero?",
+    "answer": "Star Power",
+    "choices": [
+      "Star Power",
+      "Overdrive",
+      "Super Mode",
+      "Multiplier Chain"
+    ],
+    "explanation": "Star Power is the power-up in Guitar Hero activated by hitting star-shaped notes, which doubles your score multiplier when activated."
+  },
+  {
+    "question": "Which game is set in the dystopian underwater city of Rapture?",
+    "answer": "BioShock",
+    "choices": [
+      "BioShock",
+      "System Shock",
+      "Soma",
+      "Subnautica"
+    ],
+    "explanation": "BioShock (2007) is set in Rapture, an underwater city built in the 1940s as an objectivist utopia that descended into chaos."
+  },
+  {
+    "question": "What card game begins with 'The Gathering'?",
+    "answer": "Magic: The Gathering",
+    "choices": [
+      "Magic: The Gathering",
+      "Legends of the Five Rings",
+      "KeyForge",
+      "Hearthstone"
+    ],
+    "explanation": "Magic: The Gathering (1993) is the world's most popular trading card game, created by Richard Garfield."
+  },
+  {
+    "question": "In Overwatch 2, who is the cyborg ninja character?",
+    "answer": "Genji",
+    "choices": [
+      "Genji",
+      "Hanzo",
+      "Symmetra",
+      "Reaper"
+    ],
+    "explanation": "Genji Shimada is the cybernetic ninja in Overwatch, a fast-moving damage hero who uses shurikens and a katana."
+  },
+  {
+    "question": "What is the name of the final zone in Fortnite's battle royale?",
+    "answer": "The Storm Eye",
+    "choices": [
+      "The Storm Eye",
+      "Safe Zone",
+      "Circle",
+      "Endgame"
+    ],
+    "explanation": "In Fortnite, the safe area is called the Storm Eye \u2014 as the game progresses, the safe zone shrinks, forcing players together."
+  },
+  {
+    "question": "Which legendary RPG series features the character Cloud Strife?",
+    "answer": "Final Fantasy VII",
+    "choices": [
+      "Final Fantasy VII",
+      "Kingdom Hearts",
+      "Crisis Core",
+      "Final Fantasy X"
+    ],
+    "explanation": "Cloud Strife is the spiky-haired, Buster Sword-wielding protagonist of Final Fantasy VII."
+  },
+  {
+    "question": "What is the name of the zombie-like creatures in The Legend of Zelda games?",
+    "answer": "Gibdos/Poes/ReDead",
+    "choices": [
+      "Gibdos/Poes/ReDead",
+      "Zombies",
+      "Stalchildren",
+      "Skulltulas"
+    ],
+    "explanation": "Zelda games feature various undead enemies including ReDead (which paralyze with a scream), Gibdos (mummy-like), and Poes (ghost lantern-bearers)."
+  },
+  {
+    "question": "In what game do players take on the role of an amnesiac assassin hunting down their targets?",
+    "answer": "Hitman",
+    "choices": [
+      "Hitman",
+      "Assassin's Creed",
+      "Dishonored",
+      "Splinter Cell"
+    ],
+    "explanation": "The Hitman series features Agent 47, a genetically enhanced assassin completing elaborate contracts around the world."
+  },
+  {
+    "question": "What is the collectible item in Super Mario Bros. that gives an extra life?",
+    "answer": "1-Up Mushroom",
+    "choices": [
+      "1-Up Mushroom",
+      "Star",
+      "Fire Flower",
+      "Coin"
+    ],
+    "explanation": "The green 1-Up Mushroom in Super Mario Bros. gives Mario an extra life when collected."
+  },
+  {
+    "question": "Which game requires players to avoid touching the ground in a competitive climbing game?",
+    "answer": "Getting Over It with Bennett Foddy",
+    "choices": [
+      "Getting Over It with Bennett Foddy",
+      "Pogostuck",
+      "Jump King",
+      "Only Up!"
+    ],
+    "explanation": "Getting Over It (2017) is an infamously challenging game where players move a man in a cauldron up a mountain using a hammer."
+  },
+  {
+    "question": "What is the name of the main antagonist in Borderlands 2?",
+    "answer": "Handsome Jack",
+    "choices": [
+      "Handsome Jack",
+      "Atlas",
+      "Lilith",
+      "The Warrior"
+    ],
+    "explanation": "Handsome Jack is the charismatic, narcissistic villain of Borderlands 2, CEO of the Hyperion Corporation."
+  },
+  {
+    "question": "What type of game is Settlers of Catan?",
+    "answer": "Strategy board game",
+    "choices": [
+      "Strategy board game",
+      "Card game",
+      "Role-playing game",
+      "Trivia game"
+    ],
+    "explanation": "Settlers of Catan (now simply 'Catan') is a strategy board game where players collect resources and build settlements on a modular island."
+  },
+  {
+    "question": "Which game studio is behind the Uncharted and The Last of Us series?",
+    "answer": "Naughty Dog",
+    "choices": [
+      "Naughty Dog",
+      "Guerrilla Games",
       "Santa Monica Studio",
-      "BioWare"
+      "Insomniac Games"
     ],
-    "explanation": "Animal Crossing: New Horizons is associated with Nintendo Switch."
+    "explanation": "Naughty Dog, a Sony first-party studio, developed the Uncharted series and The Last of Us."
+  },
+  {
+    "question": "What is the name of the recurring scientist character in the Half-Life series?",
+    "answer": "Gordon Freeman",
+    "choices": [
+      "Gordon Freeman",
+      "Dr. Kleiner",
+      "Eli Vance",
+      "Barney Calhoun"
+    ],
+    "explanation": "Gordon Freeman is the silent protagonist physicist in the Half-Life series, not just a scientist but the playable hero."
+  },
+  {
+    "question": "In what game do players build a civilization from scratch and advance through eras?",
+    "answer": "Civilization (Sid Meier's Civilization)",
+    "choices": [
+      "Civilization (Sid Meier's Civilization)",
+      "Age of Empires",
+      "Total War",
+      "Victoria 3"
+    ],
+    "explanation": "Sid Meier's Civilization series has players leading a civilization from 4000 BCE to the space age."
+  },
+  {
+    "question": "What game features a massive open world and was designed by Hideo Kojima?",
+    "answer": "Death Stranding",
+    "choices": [
+      "Death Stranding",
+      "Metal Gear Solid",
+      "Silent Hills",
+      "Zone of the Enders"
+    ],
+    "explanation": "Death Stranding (2019) by Hideo Kojima is an open-world game set in a post-apocalyptic America where the player is a delivery man."
+  },
+  {
+    "question": "What is the term for a player who intentionally irritates or taunts others online?",
+    "answer": "Troll",
+    "choices": [
+      "Troll",
+      "Griefer",
+      "Hacker",
+      "Booster"
+    ],
+    "explanation": "A troll in gaming deliberately provokes or irritates other players online, often through insults or disruptive behavior."
+  },
+  {
+    "question": "In what year did Minecraft officially release (after years of beta)?",
+    "answer": "2011",
+    "choices": [
+      "2011",
+      "2009",
+      "2012",
+      "2010"
+    ],
+    "explanation": "Minecraft officially released version 1.0 on November 18, 2011, at MINECON, after years in alpha and beta."
+  },
+  {
+    "question": "Which game has players manage survivors in a zombie apocalypse through strategic decisions?",
+    "answer": "This War of Mine",
+    "choices": [
+      "This War of Mine",
+      "State of Decay",
+      "Project Zomboid",
+      "Dying Light"
+    ],
+    "explanation": "This War of Mine (2014) is a survival game where players manage a group of civilians surviving a wartime siege."
+  },
+  {
+    "question": "What is the name of the notorious in-game market where players sell cosmetics?",
+    "answer": "Item Shop (Fortnite) / Marketplace",
+    "choices": [
+      "Item Shop (Fortnite) / Marketplace",
+      "Loot Box",
+      "Gacha",
+      "Store"
+    ],
+    "explanation": "The Item Shop in Fortnite (and similar systems in other games) is where players purchase cosmetic skins and items with in-game currency."
+  },
+  {
+    "question": "What video game series features a 'prestige' system that resets your rank?",
+    "answer": "Call of Duty",
+    "choices": [
+      "Call of Duty",
+      "Battlefield",
+      "Counter-Strike",
+      "Rainbow Six Siege"
+    ],
+    "explanation": "Call of Duty introduced the Prestige system where players can reset their level after reaching max rank to earn special rewards."
+  },
+  {
+    "question": "What indie game involves navigating through a series of increasingly difficult obstacle courses?",
+    "answer": "Geometry Dash",
+    "choices": [
+      "Geometry Dash",
+      "Super Meat Boy",
+      "Hollow Knight",
+      "Celeste"
+    ],
+    "explanation": "Geometry Dash (2013) is a rhythm-based action platformer with notoriously difficult obstacle courses synced to music."
+  },
+  {
+    "question": "In what game can players summon creatures called 'Eidolons' or 'Summons' to aid them?",
+    "answer": "Final Fantasy",
+    "choices": [
+      "Final Fantasy",
+      "Dragon Quest",
+      "Persona",
+      "Xenoblade Chronicles"
+    ],
+    "explanation": "The Final Fantasy series features powerful summoned creatures (called various names: Eidolons, Aeons, Espers, etc.) that characters can call upon in battle."
+  },
+  {
+    "question": "What is the name of the city hub in the game Deus Ex: Human Revolution?",
+    "answer": "Detroit",
+    "choices": [
+      "Detroit",
+      "Prague",
+      "Montreal",
+      "Dubai"
+    ],
+    "explanation": "Detroit is the main hub city in Deus Ex: Human Revolution (2011), alongside Hengsha."
+  },
+  {
+    "question": "Which series features the tagline 'Just Cause'?",
+    "answer": "Just Cause",
+    "choices": [
+      "Just Cause",
+      "Mercenaries",
+      "Saints Row",
+      "Prototype"
+    ],
+    "explanation": "Just Cause is an open-world action game series where players use a grappling hook and parachute to cause mayhem on tropical islands."
+  },
+  {
+    "question": "What card game involves eliminating opponents through deck depletion or life point reduction?",
+    "answer": "Yu-Gi-Oh!",
+    "choices": [
+      "Yu-Gi-Oh!",
+      "Magic: The Gathering",
+      "Pok\u00e9mon TCG",
+      "Hearthstone"
+    ],
+    "explanation": "Yu-Gi-Oh! has players reducing their opponent's Life Points from 8000 to 0 by summoning monsters and casting spells."
+  },
+  {
+    "question": "Which game features a 'nemesis system' where enemies remember and adapt to the player?",
+    "answer": "Middle-earth: Shadow of Mordor",
+    "choices": [
+      "Middle-earth: Shadow of Mordor",
+      "The Elder Scrolls V: Skyrim",
+      "Batman: Arkham Knight",
+      "The Witcher 3"
+    ],
+    "explanation": "The Nemesis System in Middle-earth: Shadow of Mordor (2014) allows orc enemies to remember encounters and grow stronger from defeating the player."
+  },
+  {
+    "question": "What is the name of the main character in the Mega Man series?",
+    "answer": "Mega Man (Rock)",
+    "choices": [
+      "Mega Man (Rock)",
+      "Roll",
+      "Proto Man",
+      "Bass"
+    ],
+    "explanation": "Mega Man, whose real name is Rock, is the blue robot created by Dr. Light in the classic Capcom action series."
+  },
+  {
+    "question": "In which platform game do players use a plunger and rocket to maneuver through levels?",
+    "answer": "Getting Over It",
+    "choices": [
+      "Getting Over It",
+      "VVVVVV",
+      "Celeste",
+      "Shovel Knight"
+    ],
+    "explanation": "Getting Over It with Bennett Foddy uses a large hammer (not a plunger) \u2014 players move a man in a cauldron by swinging the hammer."
+  },
+  {
+    "question": "What video game series features Nathan Drake searching for ancient treasures?",
+    "answer": "Uncharted",
+    "choices": [
+      "Uncharted",
+      "Tomb Raider",
+      "Indiana Jones",
+      "Jak and Daxter"
+    ],
+    "explanation": "Uncharted follows Nathan Drake, a treasure hunter and descendant of Francis Drake, on adventures around the world."
+  },
+  {
+    "question": "What is the name of the difficulty level in many games that represents the hardest challenge?",
+    "answer": "Ultra Nightmare / Legendary / Very Hard",
+    "choices": [
+      "Ultra Nightmare / Legendary / Very Hard",
+      "Normal",
+      "Casual",
+      "Arcade"
+    ],
+    "explanation": "Many games feature a highest difficulty level (e.g., 'Ultra Nightmare' in Doom Eternal or 'Legendary' in Halo) representing the greatest challenge."
+  },
+  {
+    "question": "In what game can players become a professional football manager and handle transfers?",
+    "answer": "Football Manager",
+    "choices": [
+      "Football Manager",
+      "FIFA",
+      "Pro Evolution Soccer",
+      "Premier League Stars"
+    ],
+    "explanation": "Football Manager (by Sports Interactive) is a strategy/management simulation where players manage real football clubs."
+  },
+  {
+    "question": "What is the term for exploring outside a game's intended boundaries?",
+    "answer": "Out-of-bounds / Sequence breaking",
+    "choices": [
+      "Out-of-bounds / Sequence breaking",
+      "Glitching",
+      "Speedrunning",
+      "Modding"
+    ],
+    "explanation": "Going out of bounds involves reaching areas outside the game's intended map; sequence breaking skips intended progression."
+  },
+  {
+    "question": "Which console war ended with Sega leaving the hardware market after the Dreamcast failed?",
+    "answer": "6th generation console war",
+    "choices": [
+      "6th generation console war",
+      "5th generation console war",
+      "4th generation console war",
+      "7th generation console war"
+    ],
+    "explanation": "After the Dreamcast underperformed against the PlayStation 2, Sega discontinued it in 2001 and exited the console hardware market."
+  },
+  {
+    "question": "What is the name of the iconic orange-haired Fortnite character?",
+    "answer": "Brite Bomber / various skins",
+    "choices": [
+      "Brite Bomber / various skins",
+      "Default Skin",
+      "Peely",
+      "Drift"
+    ],
+    "explanation": "Brite Bomber (rainbow unicorn skin) and Peely (banana character) are among Fortnite's most iconic cosmetic characters."
+  },
+  {
+    "question": "What strategy game lets players control tanks, planes, and infantry to conquer territories?",
+    "answer": "Risk",
+    "choices": [
+      "Risk",
+      "Axis & Allies",
+      "Warhammer",
+      "Flames of War"
+    ],
+    "explanation": "Risk is a classic board game where players command armies (infantry, cavalry, artillery) to conquer territories worldwide."
+  },
+  {
+    "question": "Which RPG series is set in the world of Tamriel?",
+    "answer": "The Elder Scrolls",
+    "choices": [
+      "The Elder Scrolls",
+      "Dragon Age",
+      "The Witcher",
+      "Baldur's Gate"
+    ],
+    "explanation": "The Elder Scrolls series by Bethesda is set in the continent of Tamriel, divided into provinces like Skyrim, Morrowind, and Cyrodiil."
+  },
+  {
+    "question": "What is the signature weapon of the character Kratos in older God of War games?",
+    "answer": "Blades of Chaos",
+    "choices": [
+      "Blades of Chaos",
+      "Leviathan Axe",
+      "Guardian Shield",
+      "Zeus's Lightning"
+    ],
+    "explanation": "The Blades of Chaos are chained blades that are Kratos's iconic weapons from the original God of War trilogy."
+  },
+  {
+    "question": "In what game can players design and race custom cars on tracks worldwide?",
+    "answer": "Trackmania",
+    "choices": [
+      "Trackmania",
+      "Forza Motorsport",
+      "Gran Turismo",
+      "Need for Speed"
+    ],
+    "explanation": "Trackmania is a racing game series famous for custom track building and extreme stunt-based racing."
+  },
+  {
+    "question": "What is the name of the ability in Halo where Master Chief can temporarily become invisible?",
+    "answer": "Active Camouflage",
+    "choices": [
+      "Active Camouflage",
+      "Ghost Mode",
+      "Stealth Field",
+      "Cloaking Device"
+    ],
+    "explanation": "Active Camouflage is a Forerunner-based armor ability in Halo that allows temporary near-invisibility."
+  },
+  {
+    "question": "In which game are players tasked with solving environmental puzzles to return light to a dark world?",
+    "answer": "Ori and the Blind Forest",
+    "choices": [
+      "Ori and the Blind Forest",
+      "Limbo",
+      "Inside",
+      "GRIS"
+    ],
+    "explanation": "Ori and the Blind Forest (2015) follows Ori, a guardian spirit, restoring light to a dying forest in a beautiful, emotional platformer."
+  },
+  {
+    "question": "What classic strategy game features workers, farms, and buildings to grow a civilization?",
+    "answer": "Age of Empires",
+    "choices": [
+      "Age of Empires",
+      "StarCraft",
+      "Warcraft",
+      "Command & Conquer"
+    ],
+    "explanation": "Age of Empires (1997) is an RTS where players build civilizations from the Stone Age through the Iron Age."
+  },
+  {
+    "question": "What is the name of the gun that fires portals in the Portal series?",
+    "answer": "Aperture Science Handheld Portal Device (ASHPD)",
+    "choices": [
+      "Aperture Science Handheld Portal Device (ASHPD)",
+      "Portal Gun",
+      "Wormhole Launcher",
+      "Space Gun"
+    ],
+    "explanation": "The portal gun's official name is the Aperture Science Handheld Portal Device, though it's universally called the 'portal gun.'"
+  },
+  {
+    "question": "In what game series does a Mandalorian-like character wear Beskar armor?",
+    "answer": "Star Wars Jedi / The Mandalorian game",
+    "choices": [
+      "Star Wars Jedi / The Mandalorian game",
+      "Halo",
+      "Mass Effect",
+      "Destiny"
+    ],
+    "explanation": "Beskar armor is most associated with The Mandalorian \u2014 in video games, Star Wars: Jedi Survivor and related titles feature similar lore."
+  },
+  {
+    "question": "What is the name of the weapon used by the hero in Elden Ring?",
+    "answer": "Various \u2014 the player chooses",
+    "choices": [
+      "Various \u2014 the player chooses",
+      "Greatsword",
+      "Tarnished Blade",
+      "Godslayer Greatsword"
+    ],
+    "explanation": "Elden Ring (2022) by FromSoftware gives players freedom to use many weapons; there's no single 'hero weapon.'"
+  },
+  {
+    "question": "Which studio developed the game Hollow Knight?",
+    "answer": "Team Cherry",
+    "choices": [
+      "Team Cherry",
+      "FromSoftware",
+      "Supergiant Games",
+      "Devolver Digital"
+    ],
+    "explanation": "Hollow Knight (2017) was developed by Team Cherry, an indie studio of three people from Adelaide, Australia."
+  },
+  {
+    "question": "What is the name of the protagonist in Celeste?",
+    "answer": "Madeline",
+    "choices": [
+      "Madeline",
+      "Celeste",
+      "Alex",
+      "Theo"
+    ],
+    "explanation": "Madeline is the determined young woman the player controls in Celeste (2018), climbing a mountain to confront her inner struggles."
+  },
+  {
+    "question": "Which game series features ancient gods fighting in an arena?",
+    "answer": "SMITE",
+    "choices": [
+      "SMITE",
+      "God of War",
+      "Immortals Fenyx Rising",
+      "Hades"
+    ],
+    "explanation": "SMITE (2014) is a third-person MOBA where players choose from gods of various mythologies to battle in arenas."
+  },
+  {
+    "question": "What is the name of the spaceship navigation game where players must manage oxygen and resources?",
+    "answer": "FTL: Faster Than Light",
+    "choices": [
+      "FTL: Faster Than Light",
+      "Elite Dangerous",
+      "No Man's Sky",
+      "Star Trek Online"
+    ],
+    "explanation": "FTL: Faster Than Light (2012) is a roguelike spaceship simulation where players manage their ship and crew while fleeing through space."
+  },
+  {
+    "question": "In what game can players customize a character known as a 'Guardian'?",
+    "answer": "Destiny 2",
+    "choices": [
+      "Destiny 2",
+      "Warframe",
+      "The Division",
+      "Mass Effect"
+    ],
+    "explanation": "In Destiny 2, players take on the role of a Guardian \u2014 a defender of the last city on Earth \u2014 and can fully customize their character."
+  },
+  {
+    "question": "What is the name of the hero in the game Hades who escapes the Underworld?",
+    "answer": "Zagreus",
+    "choices": [
+      "Zagreus",
+      "Hades",
+      "Theseus",
+      "Orpheus"
+    ],
+    "explanation": "Zagreus is the prince of the Underworld and the protagonist of Hades (2020) by Supergiant Games."
+  },
+  {
+    "question": "Which game features a rogue AI named SHODAN?",
+    "answer": "System Shock",
+    "choices": [
+      "System Shock",
+      "Deus Ex",
+      "Half-Life",
+      "Prey"
+    ],
+    "explanation": "SHODAN (Sentient Hyper-Optimized Data Access Network) is the terrifying rogue AI antagonist in the System Shock series."
+  },
+  {
+    "question": "In what classic game do players build cities and manage Sims?",
+    "answer": "SimCity",
+    "choices": [
+      "SimCity",
+      "Cities: Skylines",
+      "Tropico",
+      "Anno 1800"
+    ],
+    "explanation": "SimCity (1989) by Maxis let players build and manage cities, becoming one of the most influential games ever made."
+  },
+  {
+    "question": "What is the name of the power-up that makes Mario grow bigger?",
+    "answer": "Super Mushroom",
+    "choices": [
+      "Super Mushroom",
+      "1-Up Mushroom",
+      "Poison Mushroom",
+      "Power Mushroom"
+    ],
+    "explanation": "The Super Mushroom is the red-spotted mushroom that transforms Mario from Small Mario into Super Mario."
+  },
+  {
+    "question": "Which RPG features the 'Witcher Senses' mechanic used to track clues and enemies?",
+    "answer": "The Witcher 3: Wild Hunt",
+    "choices": [
+      "The Witcher 3: Wild Hunt",
+      "The Witcher 2",
+      "The Witcher",
+      "Cyberpunk 2077"
+    ],
+    "explanation": "Witcher Senses is a detective-like ability in The Witcher 3 that highlights objects of interest, footprints, and clues."
+  },
+  {
+    "question": "What is the name of the giant enemy in Shadow of the Colossus?",
+    "answer": "Colossus",
+    "choices": [
+      "Colossus",
+      "Titan",
+      "Goliath",
+      "Guardian"
+    ],
+    "explanation": "Shadow of the Colossus (2005) tasks players with defeating 16 massive creatures called Colossi across a vast empty land."
+  },
+  {
+    "question": "In what game can players solve crimes in a 1940s Los Angeles noir setting?",
+    "answer": "L.A. Noire",
+    "choices": [
+      "L.A. Noire",
+      "Mafia III",
+      "Chinatown",
+      "Murdered: Soul Suspect"
+    ],
+    "explanation": "L.A. Noire (2011) by Rockstar Games is set in 1947 Los Angeles where players solve crimes using evidence and interrogation."
+  },
+  {
+    "question": "What game features a story about a young girl in a post-apocalyptic world befriending a robot named D-Horse?",
+    "answer": "NieR: Automata",
+    "choices": [
+      "NieR: Automata",
+      "Horizon Zero Dawn",
+      "Detroit: Become Human",
+      "Control"
+    ],
+    "explanation": "NieR: Automata (2017) follows android warriors 2B and 9S fighting machines in a post-apocalyptic Earth."
+  },
+  {
+    "question": "Which video game is inspired by the Arthurian legend and features the sword Excalibur?",
+    "answer": "Dark Souls II (for Excalibur-type sword)",
+    "choices": [
+      "Dark Souls II (for Excalibur-type sword)",
+      "King Arthur: Knight's Tale",
+      "Fable",
+      "Medievil"
+    ],
+    "explanation": "Many games reference Arthurian legend; Fable and King Arthur: Knight's Tale are specifically built around the mythology."
+  },
+  {
+    "question": "What is the name of the redeemable enemy-turned-companion in Red Dead Redemption 2?",
+    "answer": "Sadie Adler",
+    "choices": [
+      "Sadie Adler",
+      "Dutch van der Linde",
+      "Micah Bell",
+      "Charles Smith"
+    ],
+    "explanation": "Sadie Adler starts as a widow saved by the gang and becomes one of Arthur Morgan's most trusted companions in RDR2."
+  },
+  {
+    "question": "In which game do players collect orbs and unlock new areas by defeating bosses?",
+    "answer": "Ori and the Will of the Wisps",
+    "choices": [
+      "Ori and the Will of the Wisps",
+      "Hollow Knight",
+      "Castlevania: Symphony of the Night",
+      "Metroid Prime"
+    ],
+    "explanation": "Metroid and Castlevania (Metroidvania games like Ori) feature exploration unlocked by defeating bosses and gaining new abilities."
+  },
+  {
+    "question": "What Nintendo game features amiibo scanning and crossover characters?",
+    "answer": "Super Smash Bros. Ultimate",
+    "choices": [
+      "Super Smash Bros. Ultimate",
+      "The Legend of Zelda: Breath of the Wild",
+      "Animal Crossing",
+      "Splatoon"
+    ],
+    "explanation": "Super Smash Bros. Ultimate and other Nintendo games support amiibo scanning to unlock figures, bonuses, or AI partners."
+  },
+  {
+    "question": "What is the name of the online multiplayer battle arena (MOBA) developed by Valve?",
+    "answer": "Dota 2",
+    "choices": [
+      "Dota 2",
+      "League of Legends",
+      "Heroes of the Storm",
+      "Smite"
+    ],
+    "explanation": "Dota 2 is Valve's MOBA, a sequel to Defense of the Ancients (DotA), one of the highest-earning esports titles ever."
+  },
+  {
+    "question": "Which game features a talking radio host named Three Dog?",
+    "answer": "Fallout 3",
+    "choices": [
+      "Fallout 3",
+      "Fallout 4",
+      "Fallout: New Vegas",
+      "Fallout 76"
+    ],
+    "explanation": "Three Dog is the charismatic DJ of Galaxy News Radio in Fallout 3, providing narration and commentary on the player's actions."
+  },
+  {
+    "question": "What is the name of the competitive mode in most modern multiplayer games?",
+    "answer": "Ranked mode",
+    "choices": [
+      "Ranked mode",
+      "Arcade mode",
+      "Classic mode",
+      "Battle mode"
+    ],
+    "explanation": "Ranked mode (or Competitive mode) in modern multiplayer games places players against opponents of similar skill and awards rank points."
+  },
+  {
+    "question": "In which country was the game Cyberpunk 2077 developed?",
+    "answer": "Poland",
+    "choices": [
+      "Poland",
+      "United States",
+      "Canada",
+      "Japan"
+    ],
+    "explanation": "Cyberpunk 2077 (2020) was developed by CD Projekt Red, a Warsaw, Poland-based studio."
+  },
+  {
+    "question": "Which game is known for its 'Battle Bus' dropping players onto an island?",
+    "answer": "Fortnite",
+    "choices": [
+      "Fortnite",
+      "PUBG",
+      "Apex Legends",
+      "Fall Guys"
+    ],
+    "explanation": "The Battle Bus is Fortnite's iconic blue school bus that drops players onto the island at the start of each match."
+  },
+  {
+    "question": "What is the name of the character who appears on every Game Boy screen?",
+    "answer": "There is no such character",
+    "choices": [
+      "There is no such character",
+      "Game Boy Face",
+      "Mr. Game & Watch",
+      "Game Boy Guy"
+    ],
+    "explanation": "There is no character that appears on every Game Boy screen; Mr. Game & Watch is a character from Nintendo's handheld Game & Watch games."
+  },
+  {
+    "question": "In what 1984 game do players control a character through a scrolling maze collecting dots?",
+    "answer": "Pac-Land",
+    "choices": [
+      "Pac-Land",
+      "Q*bert",
+      "Pitfall",
+      "Dig Dug"
+    ],
+    "explanation": "Pac-Land (1984) is a side-scrolling platform game featuring Pac-Man running through colorful levels."
+  },
+  {
+    "question": "Which game has players competing to be the last squad standing in a 100-player battle?",
+    "answer": "Apex Legends",
+    "choices": [
+      "Apex Legends",
+      "Fortnite",
+      "PUBG",
+      "Warzone"
+    ],
+    "explanation": "Apex Legends (2019) by Respawn Entertainment is a battle royale where squads of 3 compete to be the last team standing."
+  },
+  {
+    "question": "What is the name of the fictional sport in the game Rocket League?",
+    "answer": "Rocket-Powered Car Soccer",
+    "choices": [
+      "Rocket-Powered Car Soccer",
+      "Turbo Soccer",
+      "Jet Ball",
+      "Boost League"
+    ],
+    "explanation": "Rocket League is a game where players control rocket-powered cars to play a soccer-like game."
+  },
+  {
+    "question": "Which RPG series by Square Enix features a blue mage-like class?",
+    "answer": "Final Fantasy",
+    "choices": [
+      "Final Fantasy",
+      "Dragon Quest",
+      "Bravely Default",
+      "Octopath Traveler"
+    ],
+    "explanation": "Blue Mage is a recurring job class in Final Fantasy, learning abilities from monsters they've been hit by."
+  },
+  {
+    "question": "What is the name of the fictional organization that runs Overwatch?",
+    "answer": "Overwatch",
+    "choices": [
+      "Overwatch",
+      "Talon",
+      "Blackwatch",
+      "Vishkar Corporation"
+    ],
+    "explanation": "Overwatch is both the name of the game and the in-universe international task force assembled to fight the Omnic Crisis."
+  },
+  {
+    "question": "In what game do players collect and upgrade 'cards' to build a deck and defend a base?",
+    "answer": "Clash Royale",
+    "choices": [
+      "Clash Royale",
+      "Hearthstone",
+      "Slay the Spire",
+      "Gwent"
+    ],
+    "explanation": "Clash Royale by Supercell is a real-time strategy mobile game where players build card decks and battle to destroy their opponent's towers."
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "question": "Who sang 'Thriller' in 1982?",
-    "answer": "Michael Jackson",
-    "choices": [
-      "Michael Jackson",
-      "Prince",
-      "David Bowie",
-      "Stevie Wonder"
-    ],
-    "explanation": "Michael Jackson's 'Thriller' (1982) is one of the best-selling singles of all time."
-  },
-  {
     "question": "Which band performed 'Bohemian Rhapsody'?",
     "answer": "Queen",
     "choices": [
@@ -77,17 +66,6 @@
     "explanation": "Prince wrote and performed 'Purple Rain' (1984), which became his signature song and film."
   },
   {
-    "question": "What is the name of Taylor Swift's debut album?",
-    "answer": "Taylor Swift",
-    "choices": [
-      "Taylor Swift",
-      "Fearless",
-      "Speak Now",
-      "Red"
-    ],
-    "explanation": "Taylor Swift's self-titled debut album was released in October 2006."
-  },
-  {
     "question": "Which genre of music originated in African American communities in the 1970s?",
     "answer": "Hip-hop",
     "choices": [
@@ -108,17 +86,6 @@
       "Larry Mullen Jr."
     ],
     "explanation": "Bono (Paul Hewson) has been the lead vocalist of U2 since the band formed in Dublin in 1976."
-  },
-  {
-    "question": "Which song by Nirvana features the lyric 'Here we are now, entertain us'?",
-    "answer": "Smells Like Teen Spirit",
-    "choices": [
-      "Smells Like Teen Spirit",
-      "Come as You Are",
-      "In Bloom",
-      "Lithium"
-    ],
-    "explanation": "'Smells Like Teen Spirit' (1991) by Nirvana became the anthem of 1990s grunge music."
   },
   {
     "question": "What is the name of the music chart that ranks the most popular songs in the US?",
@@ -163,39 +130,6 @@
       "Yes"
     ],
     "explanation": "'The Dark Side of the Moon' by Pink Floyd spent 741 weeks on the Billboard albums chart."
-  },
-  {
-    "question": "What is the musical term for gradually getting louder?",
-    "answer": "Crescendo",
-    "choices": [
-      "Crescendo",
-      "Diminuendo",
-      "Forte",
-      "Allegro"
-    ],
-    "explanation": "A crescendo indicates a gradual increase in volume or intensity in music."
-  },
-  {
-    "question": "Who sang 'Lose Yourself' for the movie 8 Mile?",
-    "answer": "Eminem",
-    "choices": [
-      "Eminem",
-      "Jay-Z",
-      "50 Cent",
-      "Kanye West"
-    ],
-    "explanation": "Eminem's 'Lose Yourself' won the Academy Award for Best Original Song in 2003."
-  },
-  {
-    "question": "Which city is considered the birthplace of jazz?",
-    "answer": "New Orleans",
-    "choices": [
-      "New Orleans",
-      "Chicago",
-      "New York",
-      "Memphis"
-    ],
-    "explanation": "Jazz emerged in New Orleans, Louisiana, in the late 19th and early 20th centuries."
   },
   {
     "question": "What famous guitar solo is in the Eagles' 'Hotel California'?",
@@ -319,17 +253,6 @@
     "explanation": "Ska originated in Jamaica in the late 1950s and is considered the predecessor of reggae music."
   },
   {
-    "question": "Who wrote the classical piece 'F\u00fcr Elise'?",
-    "answer": "Ludwig van Beethoven",
-    "choices": [
-      "Ludwig van Beethoven",
-      "Wolfgang Amadeus Mozart",
-      "Fr\u00e9d\u00e9ric Chopin",
-      "Franz Schubert"
-    ],
-    "explanation": "'F\u00fcr Elise' (1810) is a famous piano composition by Ludwig van Beethoven."
-  },
-  {
     "question": "Which singer is nicknamed 'The Boss'?",
     "answer": "Bruce Springsteen",
     "choices": [
@@ -405,17 +328,6 @@
       "Maluma"
     ],
     "explanation": "'Despacito' by Luis Fonsi featuring Daddy Yankee broke the YouTube view record upon its release in 2017."
-  },
-  {
-    "question": "In music, how many semitones are in an octave?",
-    "answer": "12",
-    "choices": [
-      "12",
-      "8",
-      "10",
-      "7"
-    ],
-    "explanation": "Western music divides an octave into 12 equal semitones (half steps)."
   },
   {
     "question": "Which instrument does a trumpeter play?",
@@ -550,17 +462,6 @@
     "explanation": "James Brown earned the title 'Godfather of Soul' for his immense influence on funk, soul, and hip-hop."
   },
   {
-    "question": "What does the musical term 'forte' mean?",
-    "answer": "Loud",
-    "choices": [
-      "Loud",
-      "Soft",
-      "Fast",
-      "Slow"
-    ],
-    "explanation": "In music notation, 'forte' (f) indicates a passage should be played loudly."
-  },
-  {
     "question": "Which band released 'Smells Like Teen Spirit' in 1991?",
     "answer": "Nirvana",
     "choices": [
@@ -570,17 +471,6 @@
       "Alice in Chains"
     ],
     "explanation": "'Smells Like Teen Spirit' by Nirvana became the defining song of the grunge movement."
-  },
-  {
-    "question": "Who collaborated with Jay-Z on the album 'Watch the Throne'?",
-    "answer": "Kanye West",
-    "choices": [
-      "Kanye West",
-      "Drake",
-      "Nas",
-      "Lil Wayne"
-    ],
-    "explanation": "'Watch the Throne' (2011) was a collaborative album by Jay-Z and Kanye West."
   },
   {
     "question": "What is the term for the main melody of a song that listeners remember?",
@@ -737,17 +627,6 @@
     "explanation": "'Recuerdos de la Alhambra' (1896) by Francisco T\u00e1rrega is famous for its tremolo picking technique."
   },
   {
-    "question": "What does BPM stand for in music?",
-    "answer": "Beats per minute",
-    "choices": [
-      "Beats per minute",
-      "Bass per measure",
-      "Beat pitch modulation",
-      "Bar per measure"
-    ],
-    "explanation": "BPM (beats per minute) measures the tempo (speed) of a piece of music."
-  },
-  {
     "question": "Which female singer is known as 'Queen Bey'?",
     "answer": "Beyonc\u00e9",
     "choices": [
@@ -792,17 +671,6 @@
     "explanation": "Bob Marley and the Wailers are the most iconic artists in reggae music, popularizing it worldwide."
   },
   {
-    "question": "Which pop star released 'Shake It Off' in 2014?",
-    "answer": "Taylor Swift",
-    "choices": [
-      "Taylor Swift",
-      "Katy Perry",
-      "Selena Gomez",
-      "Miley Cyrus"
-    ],
-    "explanation": "'Shake It Off' was Taylor Swift's lead single from her 2014 album '1989.'"
-  },
-  {
     "question": "What is a cappella singing?",
     "answer": "Singing without musical instruments",
     "choices": [
@@ -812,28 +680,6 @@
       "Singing in rounds"
     ],
     "explanation": "A cappella (Italian for 'in the manner of the chapel') refers to vocal music without instrumental accompaniment."
-  },
-  {
-    "question": "Which rock band is known for the song 'Sweet Home Alabama'?",
-    "answer": "Lynyrd Skynyrd",
-    "choices": [
-      "Lynyrd Skynyrd",
-      "The Allman Brothers Band",
-      "ZZ Top",
-      "Creedence Clearwater Revival"
-    ],
-    "explanation": "'Sweet Home Alabama' (1974) by Lynyrd Skynyrd is an anthem of Southern rock music."
-  },
-  {
-    "question": "Who sang 'Someone Like You' in 2011?",
-    "answer": "Adele",
-    "choices": [
-      "Adele",
-      "Amy Winehouse",
-      "Lana Del Rey",
-      "Florence + the Machine"
-    ],
-    "explanation": "'Someone Like You' from Adele's album '21' topped charts around the world in 2011."
   },
   {
     "question": "What is the signature instrument of a mariachi band?",
@@ -856,17 +702,6 @@
       "21 Savage"
     ],
     "explanation": "'HUMBLE.' and 'DNA.' are tracks from Kendrick Lamar's 2017 Pulitzer Prize-winning album 'DAMN.'"
-  },
-  {
-    "question": "What is the name of the highest male singing voice?",
-    "answer": "Tenor",
-    "choices": [
-      "Tenor",
-      "Baritone",
-      "Bass",
-      "Countertenor"
-    ],
-    "explanation": "Tenor is the highest natural adult male singing voice in classical music."
   },
   {
     "question": "Which artist released 'Old Town Road' in 2019?",
@@ -913,17 +748,6 @@
     "explanation": "Spotify launched in Sweden in 2008 and became the world's most popular music streaming platform."
   },
   {
-    "question": "What is the term for two or more notes played simultaneously in harmony?",
-    "answer": "Chord",
-    "choices": [
-      "Chord",
-      "Melody",
-      "Harmony",
-      "Arpeggio"
-    ],
-    "explanation": "A chord is a combination of two or more notes played at the same time."
-  },
-  {
     "question": "Which rock band featured Freddie Mercury, Brian May, Roger Taylor, and John Deacon?",
     "answer": "Queen",
     "choices": [
@@ -944,28 +768,6 @@
       "Nina Simone"
     ],
     "explanation": "Aretha Franklin's version of 'Respect' (originally by Otis Redding) became a feminist and civil rights anthem."
-  },
-  {
-    "question": "What is a music 'key' in music theory?",
-    "answer": "A set of notes that a piece is based on",
-    "choices": [
-      "A set of notes that a piece is based on",
-      "A device for tuning instruments",
-      "The volume of a passage",
-      "The speed of a piece"
-    ],
-    "explanation": "A musical key defines the tonal center and scale of a composition."
-  },
-  {
-    "question": "Which musical instrument has 88 keys?",
-    "answer": "Piano",
-    "choices": [
-      "Piano",
-      "Organ",
-      "Harpsichord",
-      "Accordion"
-    ],
-    "explanation": "A standard piano has 88 keys \u2014 52 white and 36 black \u2014 spanning over 7 octaves."
   },
   {
     "question": "Who is considered the 'Father of Rock and Roll'?",
@@ -1089,17 +891,6 @@
     "explanation": "Rihanna (Robyn Fenty) launched Fenty Beauty in 2017, known for its inclusive shade range."
   },
   {
-    "question": "Which rapper is known for the hit 'God's Plan'?",
-    "answer": "Drake",
-    "choices": [
-      "Drake",
-      "Future",
-      "Travis Scott",
-      "Lil Baby"
-    ],
-    "explanation": "Drake's 'God's Plan' (2018) stayed at #1 on the Billboard Hot 100 for 11 weeks."
-  },
-  {
     "question": "What musical scale has 7 notes per octave in Western music?",
     "answer": "Diatonic scale",
     "choices": [
@@ -1142,17 +933,6 @@
       "The Kinks"
     ],
     "explanation": "The Beatles (John, Paul, George, and Ringo) formed in Liverpool and revolutionized popular music globally."
-  },
-  {
-    "question": "What is the Italian word for 'fast' used as a musical tempo marking?",
-    "answer": "Allegro",
-    "choices": [
-      "Allegro",
-      "Adagio",
-      "Presto",
-      "Andante"
-    ],
-    "explanation": "Allegro is a tempo marking indicating a brisk, fast pace in music."
   },
   {
     "question": "Which R&B singer released 'Crazy in Love' with Jay-Z in 2003?",
@@ -1298,17 +1078,6 @@
     "explanation": "Post Malone and Swae Lee released the hit song \"Sunflower,\" which shares its title with Van Gogh\u2019s famous Sunflowers paintings."
   },
   {
-    "question": "Who sang 'Waterloo' and won the Eurovision Song Contest in 1974?",
-    "answer": "ABBA",
-    "choices": [
-      "ABBA",
-      "C\u00e9line Dion",
-      "Lulu",
-      "Brotherhood of Man"
-    ],
-    "explanation": "ABBA's 'Waterloo' won Eurovision 1974 and launched their global career."
-  },
-  {
     "question": "Which rapper is known for the phrase 'Bling bling'?",
     "answer": "Lil Wayne / Cash Money Records",
     "choices": [
@@ -1353,17 +1122,6 @@
     "explanation": "'Gangnam Style' by South Korean artist PSY became the first YouTube video to reach 1 billion views in 2012."
   },
   {
-    "question": "Which classical composer wrote the 'Moonlight Sonata'?",
-    "answer": "Ludwig van Beethoven",
-    "choices": [
-      "Ludwig van Beethoven",
-      "Franz Schubert",
-      "Robert Schumann",
-      "Fr\u00e9d\u00e9ric Chopin"
-    ],
-    "explanation": "Beethoven composed Piano Sonata No. 14, nicknamed 'Moonlight Sonata,' in 1801."
-  },
-  {
     "question": "What is the name of Taylor Swift's re-recording project?",
     "answer": "Taylor's Version",
     "choices": [
@@ -1373,17 +1131,6 @@
       "Album Redemption"
     ],
     "explanation": "Taylor Swift began re-recording her albums as 'Taylor's Version' to regain ownership of her music catalog."
-  },
-  {
-    "question": "Which band performed 'Hotel California' in 1977?",
-    "answer": "Eagles",
-    "choices": [
-      "Eagles",
-      "Fleetwood Mac",
-      "Steely Dan",
-      "Doobie Brothers"
-    ],
-    "explanation": "'Hotel California' is Eagles' signature song from their 1977 album of the same name."
   },
   {
     "question": "What instrument did Jimi Hendrix play?",
@@ -1573,17 +1320,6 @@
     "explanation": "BTS (Bangtan Sonyeondan) is a South Korean boy band that became a global phenomenon in the 2010s."
   },
   {
-    "question": "Who released 'Born to Run' in 1975?",
-    "answer": "Bruce Springsteen",
-    "choices": [
-      "Bruce Springsteen",
-      "Tom Petty",
-      "Bob Seger",
-      "John Mellencamp"
-    ],
-    "explanation": "'Born to Run' (1975) is Bruce Springsteen's breakthrough album and signature song."
-  },
-  {
     "question": "What is the name of the oldest surviving opera?",
     "answer": "L'Orfeo by Monteverdi (1607)",
     "choices": [
@@ -1593,17 +1329,6 @@
       "Don Giovanni"
     ],
     "explanation": "Claudio Monteverdi's L'Orfeo (1607) is considered the oldest opera still regularly performed today."
-  },
-  {
-    "question": "Which female artist holds the record for most Billboard Hot 100 #1 singles (solo)?",
-    "answer": "Mariah Carey",
-    "choices": [
-      "Mariah Carey",
-      "Whitney Houston",
-      "Beyonc\u00e9",
-      "Madonna"
-    ],
-    "explanation": "Mariah Carey has 19 Billboard Hot 100 #1 singles, the most for any solo artist."
   },
   {
     "question": "What music genre is associated with New Orleans and characterized by improvisation?",
@@ -1637,17 +1362,6 @@
       "Village People"
     ],
     "explanation": "ABBA, the Swedish pop group (Agnetha, Bj\u00f6rn, Benny, Anni-Frid), dominated global pop music in the 1970s."
-  },
-  {
-    "question": "What is the largest music market in the world?",
-    "answer": "United States",
-    "choices": [
-      "United States",
-      "United Kingdom",
-      "Japan",
-      "Germany"
-    ],
-    "explanation": "The United States is the world's largest recorded music market by revenue."
   },
   {
     "question": "Who wrote 'Rocket Man' performed by Elton John?",
@@ -1760,17 +1474,6 @@
     "explanation": "A conductor uses a thin tapered stick called a baton to direct tempo, dynamics, and cues for orchestra members."
   },
   {
-    "question": "Which musician is most widely known as the \"King of Pop\"?",
-    "answer": "Michael Jackson",
-    "choices": [
-      "Michael Jackson",
-      "Justin Timberlake",
-      "John Mayer",
-      "Harry Styles"
-    ],
-    "explanation": "Michael Jackson is the performer most widely known as the \"King of Pop.\""
-  },
-  {
     "question": "Which 1990s alternative band had Courtney Love as its lead singer?",
     "answer": "Hole",
     "choices": [
@@ -1802,17 +1505,6 @@
       "Mary J. Blige"
     ],
     "explanation": "'Halo' is a powerful ballad released on Beyonc\u00e9's third studio album, 'I Am... Sasha Fierce' (2008)."
-  },
-  {
-    "question": "Which musical genre combines hip-hop and singing?",
-    "answer": "R&B (Rhythm and Blues)",
-    "choices": [
-      "R&B (Rhythm and Blues)",
-      "Soul",
-      "Neo-soul",
-      "All of the above at times"
-    ],
-    "explanation": "Contemporary R&B often blends singing with hip-hop production and rap elements."
   },
   {
     "question": "Which artist released 'One Dance' featuring Wizkid and Kyla?",
@@ -2066,17 +1758,6 @@
       "Lana Del Rey"
     ],
     "explanation": "Both 'Hello' (2015) and 'Someone Like You' (2011) are power ballads by British soul singer Adele."
-  },
-  {
-    "question": "What is the term for the lowest-pitched male singing voice?",
-    "answer": "Bass",
-    "choices": [
-      "Bass",
-      "Baritone",
-      "Tenor",
-      "Countertenor"
-    ],
-    "explanation": "Bass is the lowest male vocal range, typically singing notes from E2 to E4."
   },
   {
     "question": "Which American singer-songwriter is known as 'The Voice'?",
@@ -2398,1917 +2079,3666 @@
     "explanation": "Both 'Rolling in the Deep' and 'Set Fire to the Rain' are from Adele's Grammy-winning album '21' (2011)."
   },
   {
-    "question": "Who released the album Abbey Road?",
+    "question": "Which artist released the album 'Thriller'?",
+    "answer": "Michael Jackson",
+    "choices": [
+      "Michael Jackson",
+      "Prince",
+      "David Bowie",
+      "Madonna"
+    ],
+    "explanation": "Michael Jackson's Thriller (1982) is the best-selling album of all time, with over 70 million copies sold worldwide."
+  },
+  {
+    "question": "What band was Freddie Mercury the lead singer of?",
+    "answer": "Queen",
+    "choices": [
+      "Queen",
+      "Aerosmith",
+      "Led Zeppelin",
+      "The Rolling Stones"
+    ],
+    "explanation": "Freddie Mercury was the lead vocalist and co-founder of the British rock band Queen."
+  },
+  {
+    "question": "Which singer is known as the 'Queen of Pop'?",
+    "answer": "Madonna",
+    "choices": [
+      "Madonna",
+      "Whitney Houston",
+      "Mariah Carey",
+      "Janet Jackson"
+    ],
+    "explanation": "Madonna has been dubbed the 'Queen of Pop' for her influence on popular music and culture since the early 1980s."
+  },
+  {
+    "question": "What instrument does Carlos Santana play?",
+    "answer": "Guitar",
+    "choices": [
+      "Guitar",
+      "Bass",
+      "Drums",
+      "Keyboards"
+    ],
+    "explanation": "Carlos Santana is a legendary Mexican-American rock guitarist, known for his distinctive guitar tone."
+  },
+  {
+    "question": "Which band released the album 'Abbey Road'?",
     "answer": "The Beatles",
     "choices": [
-      "Guns N' Roses",
-      "AC/DC",
-      "Michael Jackson",
-      "The Beatles"
+      "The Beatles",
+      "The Rolling Stones",
+      "The Doors",
+      "The Who"
     ],
-    "explanation": "Abbey Road was released by The Beatles."
+    "explanation": "Abbey Road (1969) was the final album recorded by The Beatles and includes songs like 'Come Together' and 'Here Comes the Sun.'"
   },
   {
-    "question": "In what year was the album Abbey Road originally released?",
-    "answer": "1969",
+    "question": "Which female artist released the album 'Lemonade' in 2016?",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "1984",
-      "1969",
-      "1980",
-      "2012"
+      "Beyonc\u00e9",
+      "Rihanna",
+      "Adele",
+      "Taylor Swift"
     ],
-    "explanation": "Abbey Road was originally released in 1969."
+    "explanation": "Beyonc\u00e9 released the visual album Lemonade in 2016, receiving critical acclaim and addressing themes of infidelity and race."
   },
   {
-    "question": "Which album is by The Beatles?",
-    "answer": "Abbey Road",
+    "question": "What is the best-selling single of all time?",
+    "answer": "White Christmas by Bing Crosby",
     "choices": [
-      "The Fame",
-      "Hotel California",
-      "Abbey Road",
-      "Appetite for Destruction"
+      "White Christmas by Bing Crosby",
+      "Candle in the Wind by Elton John",
+      "Silent Night",
+      "Something by The Beatles"
     ],
-    "explanation": "Abbey Road is an album by The Beatles."
+    "explanation": "'White Christmas' (1942) by Bing Crosby is widely considered the best-selling single of all time, with estimated sales of over 50 million."
   },
   {
-    "question": "Who released the album Purple Rain?",
-    "answer": "Prince",
+    "question": "Which rapper released the album 'The Marshall Mathers LP'?",
+    "answer": "Eminem",
     "choices": [
-      "Alanis Morissette",
-      "Miles Davis",
-      "AC/DC",
-      "Prince"
+      "Eminem",
+      "Jay-Z",
+      "Kanye West",
+      "Dr. Dre"
     ],
-    "explanation": "Purple Rain was released by Prince."
+    "explanation": "Eminem released The Marshall Mathers LP in 2000, which became one of the fastest-selling rap albums in history."
   },
   {
-    "question": "In what year was the album Purple Rain originally released?",
-    "answer": "1984",
+    "question": "What band was formed in Manchester, England, featuring Liam and Noel Gallagher?",
+    "answer": "Oasis",
     "choices": [
-      "2013",
-      "1995",
-      "1977",
-      "1984"
+      "Oasis",
+      "The Stone Roses",
+      "Radiohead",
+      "The Verve"
     ],
-    "explanation": "Purple Rain was originally released in 1984."
+    "explanation": "Oasis was a Britpop band formed in Manchester in 1991, fronted by brothers Liam and Noel Gallagher."
   },
   {
-    "question": "Which album is by Prince?",
-    "answer": "Purple Rain",
+    "question": "Which singing group consists of Beyonc\u00e9, Kelly Rowland, and Michelle Williams?",
+    "answer": "Destiny's Child",
     "choices": [
-      "Purple Rain",
-      "Thriller",
-      "Future Nostalgia",
-      "Good Kid, M.A.A.D City"
+      "Destiny's Child",
+      "TLC",
+      "En Vogue",
+      "Spice Girls"
     ],
-    "explanation": "Purple Rain is an album by Prince."
+    "explanation": "Destiny's Child is the R&B group featuring Beyonc\u00e9, Kelly Rowland, and Michelle Williams, one of the best-selling girl groups ever."
   },
   {
-    "question": "Who released the album Nevermind?",
-    "answer": "Nirvana",
+    "question": "What is the name of Taylor Swift's debut album?",
+    "answer": "Taylor Swift",
     "choices": [
-      "AC/DC",
-      "Michael Jackson",
-      "Miles Davis",
-      "Nirvana"
-    ],
-    "explanation": "Nevermind was released by Nirvana."
-  },
-  {
-    "question": "In what year was the album Nevermind originally released?",
-    "answer": "1991",
-    "choices": [
-      "1975",
-      "1993",
-      "2016",
-      "1991"
-    ],
-    "explanation": "Nevermind was originally released in 1991."
-  },
-  {
-    "question": "Which album is by Nirvana?",
-    "answer": "Nevermind",
-    "choices": [
-      "The Fame",
-      "Random Access Memories",
-      "Nevermind",
-      "Jagged Little Pill"
-    ],
-    "explanation": "Nevermind is an album by Nirvana."
-  },
-  {
-    "question": "Who released the album Rumours?",
-    "answer": "Fleetwood Mac",
-    "choices": [
-      "Alanis Morissette",
-      "Fleetwood Mac",
       "Taylor Swift",
-      "The Beatles"
+      "Fearless",
+      "Speak Now",
+      "Red"
     ],
-    "explanation": "Rumours was released by Fleetwood Mac."
+    "explanation": "Taylor Swift's self-titled debut album was released in 2006, featuring the single 'Tim McGraw.'"
   },
   {
-    "question": "In what year was the album Rumours originally released?",
-    "answer": "1977",
+    "question": "Which guitarist is famous for the song 'Johnny B. Goode'?",
+    "answer": "Chuck Berry",
     "choices": [
-      "2012",
-      "1998",
-      "1977",
-      "2012"
+      "Chuck Berry",
+      "Bo Diddley",
+      "Little Richard",
+      "Buddy Holly"
     ],
-    "explanation": "Rumours was originally released in 1977."
+    "explanation": "Chuck Berry wrote and recorded 'Johnny B. Goode' in 1958, which became an iconic rock and roll song."
   },
   {
-    "question": "Which album is by Fleetwood Mac?",
+    "question": "What genre of music features 808 drums, heavy bass, and rapping?",
+    "answer": "Hip-hop",
+    "choices": [
+      "Hip-hop",
+      "R&B",
+      "Soul",
+      "Funk"
+    ],
+    "explanation": "Hip-hop music originated in the Bronx in the 1970s and is characterized by rhythmic beats, bass, and rapping."
+  },
+  {
+    "question": "Which band released the album 'Dark Side of the Moon'?",
+    "answer": "Pink Floyd",
+    "choices": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "Yes",
+      "Genesis"
+    ],
+    "explanation": "Pink Floyd's The Dark Side of the Moon (1973) is one of the best-selling albums ever and spent 741 weeks on the Billboard charts."
+  },
+  {
+    "question": "Who is the best-selling music artist of all time?",
+    "answer": "The Beatles",
+    "choices": [
+      "The Beatles",
+      "Michael Jackson",
+      "Elvis Presley",
+      "Madonna"
+    ],
+    "explanation": "The Beatles are the best-selling music artists of all time, with estimated sales of 600 million units worldwide."
+  },
+  {
+    "question": "Which American singer is known for 'Sweet Home Alabama'?",
+    "answer": "Lynyrd Skynyrd",
+    "choices": [
+      "Lynyrd Skynyrd",
+      "The Allman Brothers Band",
+      "ZZ Top",
+      "CCR"
+    ],
+    "explanation": "'Sweet Home Alabama' is a 1974 song by Lynyrd Skynyrd, a Southern rock band from Jacksonville, Florida."
+  },
+  {
+    "question": "What instrument is Yo-Yo Ma famous for playing?",
+    "answer": "Cello",
+    "choices": [
+      "Cello",
+      "Violin",
+      "Viola",
+      "Double bass"
+    ],
+    "explanation": "Yo-Yo Ma is one of the world's most acclaimed cellists, known for his interpretations of Bach's cello suites."
+  },
+  {
+    "question": "Who released the 2011 album '21'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Sam Smith",
+      "Ed Sheeran",
+      "Amy Winehouse"
+    ],
+    "explanation": "Adele's 21 (2011) became one of the best-selling albums of all time, featuring 'Rolling in the Deep' and 'Someone Like You.'"
+  },
+  {
+    "question": "Which artist is known as 'The Boss'?",
+    "answer": "Bruce Springsteen",
+    "choices": [
+      "Bruce Springsteen",
+      "Jon Bon Jovi",
+      "Billy Joel",
+      "John Mellencamp"
+    ],
+    "explanation": "Bruce Springsteen earned the nickname 'The Boss' early in his career when he collected and distributed band pay."
+  },
+  {
+    "question": "What duo consists of Simon and Garfunkel?",
+    "answer": "A folk rock duo",
+    "choices": [
+      "A folk rock duo",
+      "A country duo",
+      "An R&B duo",
+      "A classical duo"
+    ],
+    "explanation": "Simon & Garfunkel are an American folk rock duo known for songs like 'The Sound of Silence' and 'Mrs. Robinson.'"
+  },
+  {
+    "question": "What is the name of Eminem's alter ego rapper?",
+    "answer": "Slim Shady",
+    "choices": [
+      "Slim Shady",
+      "Marshall Mathers",
+      "Rabbit",
+      "Detroit"
+    ],
+    "explanation": "Slim Shady is Eminem's controversial alter ego, featured on The Slim Shady LP (1999)."
+  },
+  {
+    "question": "Which classical composer went deaf but continued to compose?",
+    "answer": "Ludwig van Beethoven",
+    "choices": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Franz Schubert"
+    ],
+    "explanation": "Beethoven began losing his hearing in his mid-20s and was almost completely deaf by 1814, yet continued composing masterworks."
+  },
+  {
+    "question": "Who sang 'I Will Always Love You' for the Bodyguard soundtrack?",
+    "answer": "Whitney Houston",
+    "choices": [
+      "Whitney Houston",
+      "Dolly Parton",
+      "Celine Dion",
+      "Mariah Carey"
+    ],
+    "explanation": "Whitney Houston's version of 'I Will Always Love You' (originally by Dolly Parton) was recorded for The Bodyguard (1992) and became the best-selling single by a woman ever."
+  },
+  {
+    "question": "What band featured John, Paul, George, and Ringo?",
+    "answer": "The Beatles",
+    "choices": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks"
+    ],
+    "explanation": "The Beatles \u2014 John Lennon, Paul McCartney, George Harrison, and Ringo Starr \u2014 are the most commercially successful band in history."
+  },
+  {
+    "question": "Which genre of music originated in Jamaica and features artists like Bob Marley?",
+    "answer": "Reggae",
+    "choices": [
+      "Reggae",
+      "Ska",
+      "Calypso",
+      "Dancehall"
+    ],
+    "explanation": "Reggae originated in Jamaica in the late 1960s; Bob Marley is its most iconic figure, bringing reggae to global audiences."
+  },
+  {
+    "question": "What instrument did Jimi Hendrix famously play?",
+    "answer": "Electric guitar",
+    "choices": [
+      "Electric guitar",
+      "Bass guitar",
+      "Drums",
+      "Keyboard"
+    ],
+    "explanation": "Jimi Hendrix is widely considered one of the greatest electric guitarists in rock history, known for his innovative style."
+  },
+  {
+    "question": "Who was the lead singer of Nirvana?",
+    "answer": "Kurt Cobain",
+    "choices": [
+      "Kurt Cobain",
+      "Dave Grohl",
+      "Krist Novoselic",
+      "Pat Smear"
+    ],
+    "explanation": "Kurt Cobain was the lead vocalist, guitarist, and primary songwriter for Nirvana."
+  },
+  {
+    "question": "What city is considered the birthplace of jazz?",
+    "answer": "New Orleans",
+    "choices": [
+      "New Orleans",
+      "Chicago",
+      "New York City",
+      "Kansas City"
+    ],
+    "explanation": "New Orleans is widely considered the birthplace of jazz, where the genre emerged in the late 19th and early 20th centuries."
+  },
+  {
+    "question": "Which artist released the album 'Born in the U.S.A.'?",
+    "answer": "Bruce Springsteen",
+    "choices": [
+      "Bruce Springsteen",
+      "John Mellencamp",
+      "Tom Petty",
+      "Don Henley"
+    ],
+    "explanation": "Bruce Springsteen's Born in the U.S.A. (1984) became one of the best-selling albums in history."
+  },
+  {
+    "question": "What is the musical term for gradually getting louder?",
+    "answer": "Crescendo",
+    "choices": [
+      "Crescendo",
+      "Diminuendo",
+      "Fortissimo",
+      "Piano"
+    ],
+    "explanation": "Crescendo is a musical direction indicating a gradual increase in volume."
+  },
+  {
+    "question": "Which rapper is known as 'Biggie Smalls' or 'The Notorious B.I.G.'?",
+    "answer": "Christopher Wallace",
+    "choices": [
+      "Christopher Wallace",
+      "Shawn Carter",
+      "Curtis Jackson",
+      "Calvin Broadus"
+    ],
+    "explanation": "Christopher Wallace, known as Biggie Smalls or The Notorious B.I.G., was one of the greatest rappers of all time before his murder in 1997."
+  },
+  {
+    "question": "Who played guitar in the band Metallica from its founding?",
+    "answer": "James Hetfield and Lars Ulrich",
+    "choices": [
+      "James Hetfield and Lars Ulrich",
+      "Kirk Hammett",
+      "Cliff Burton",
+      "Jason Newsted"
+    ],
+    "explanation": "James Hetfield (rhythm guitar/vocals) and Lars Ulrich (drums) co-founded Metallica in 1981; Kirk Hammett joined shortly after as lead guitarist."
+  },
+  {
+    "question": "What is the name of Rihanna's cosmetics and fashion brand?",
+    "answer": "Fenty Beauty",
+    "choices": [
+      "Fenty Beauty",
+      "Savage X Fenty",
+      "RiRi Hearts MAC",
+      "SZA Beauty"
+    ],
+    "explanation": "Rihanna launched Fenty Beauty in 2017, celebrated for its inclusive range of 40 foundation shades."
+  },
+  {
+    "question": "Which artist is known for the song 'Rolling in the Deep'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Duffy",
+      "Paloma Faith"
+    ],
+    "explanation": "'Rolling in the Deep' was the lead single from Adele's album 21, released in 2010."
+  },
+  {
+    "question": "What band is Mick Jagger the lead singer of?",
+    "answer": "The Rolling Stones",
+    "choices": [
+      "The Rolling Stones",
+      "Aerosmith",
+      "The Kinks",
+      "The Who"
+    ],
+    "explanation": "Mick Jagger has been the lead vocalist of the Rolling Stones since the band formed in London in 1962."
+  },
+  {
+    "question": "Which music festival held in 1969 drew nearly half a million people?",
+    "answer": "Woodstock",
+    "choices": [
+      "Woodstock",
+      "Altamont",
+      "Newport Folk Festival",
+      "Isle of Wight Festival"
+    ],
+    "explanation": "The Woodstock Music Festival (August 1969) in upstate New York drew approximately 400,000 attendees and became a symbol of the 1960s counterculture."
+  },
+  {
+    "question": "What artist is known as the 'Godfather of Soul'?",
+    "answer": "James Brown",
+    "choices": [
+      "James Brown",
+      "Otis Redding",
+      "Marvin Gaye",
+      "Ray Charles"
+    ],
+    "explanation": "James Brown earned the title 'Godfather of Soul' for his innovative, energetic performances and influence on soul, funk, and R&B."
+  },
+  {
+    "question": "Which band featured Bono as their lead singer?",
+    "answer": "U2",
+    "choices": [
+      "U2",
+      "INXS",
+      "Depeche Mode",
+      "The Police"
+    ],
+    "explanation": "Bono (Paul David Hewson) is the lead vocalist and primary lyricist of U2, the Irish rock band formed in Dublin in 1976."
+  },
+  {
+    "question": "Who released the debut album 'Frank' in 2003?",
+    "answer": "Amy Winehouse",
+    "choices": [
+      "Amy Winehouse",
+      "Adele",
+      "Duffy",
+      "Lily Allen"
+    ],
+    "explanation": "Amy Winehouse released her debut album Frank in 2003, earning her first BRIT Award nomination."
+  },
+  {
+    "question": "Which artist popularized hip-hop on the West Coast with albums like 'The Chronic'?",
+    "answer": "Dr. Dre",
+    "choices": [
+      "Dr. Dre",
+      "Snoop Dogg",
+      "Tupac Shakur",
+      "Ice Cube"
+    ],
+    "explanation": "Dr. Dre's The Chronic (1992) defined West Coast hip-hop and introduced gangsta rap to mainstream audiences."
+  },
+  {
+    "question": "What key musical innovation did Les Paul contribute to rock music?",
+    "answer": "The solid body electric guitar",
+    "choices": [
+      "The solid body electric guitar",
+      "Multi-track recording",
+      "The whammy bar",
+      "Distortion pedal"
+    ],
+    "explanation": "Les Paul is credited with developing the solid body electric guitar and pioneering multitrack recording."
+  },
+  {
+    "question": "Which Fleetwood Mac album is among the best-selling of all time?",
     "answer": "Rumours",
     "choices": [
       "Rumours",
-      "Lemonade",
-      "Kind of Blue",
-      "Born to Run"
+      "Tango in the Night",
+      "Mirage",
+      "The Dance"
     ],
-    "explanation": "Rumours is an album by Fleetwood Mac."
+    "explanation": "Fleetwood Mac's Rumours (1977) has sold over 40 million copies, making it one of the best-selling albums ever."
   },
   {
-    "question": "Who released the album Back in Black?",
-    "answer": "AC/DC",
+    "question": "What does 'BPM' stand for in music?",
+    "answer": "Beats per minute",
     "choices": [
-      "Taylor Swift",
-      "Lady Gaga",
-      "The Beatles",
-      "AC/DC"
+      "Beats per minute",
+      "Bass pitch modulation",
+      "Bass per measure",
+      "Bars per minute"
     ],
-    "explanation": "Back in Black was released by AC/DC."
+    "explanation": "BPM stands for beats per minute, measuring the tempo of a piece of music."
   },
   {
-    "question": "In what year was the album Back in Black originally released?",
-    "answer": "1980",
+    "question": "Which female artist is known for 'Crazy in Love' and 'Single Ladies'?",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "1979",
-      "1975",
-      "1980",
-      "1984"
+      "Beyonc\u00e9",
+      "Rihanna",
+      "Alicia Keys",
+      "Mary J. Blige"
     ],
-    "explanation": "Back in Black was originally released in 1980."
+    "explanation": "'Crazy in Love' (2003) and 'Single Ladies' (2008) are among Beyonc\u00e9's most iconic hit songs."
   },
   {
-    "question": "Which album is by AC/DC?",
-    "answer": "Back in Black",
+    "question": "What record label did Jay-Z found in 1996?",
+    "answer": "Roc-A-Fella Records",
     "choices": [
-      "The Wall",
-      "Ctrl",
-      "Kind of Blue",
-      "Back in Black"
+      "Roc-A-Fella Records",
+      "Def Jam",
+      "Roc Nation",
+      "Atlantic Records"
     ],
-    "explanation": "Back in Black is an album by AC/DC."
+    "explanation": "Jay-Z co-founded Roc-A-Fella Records in 1996; he later founded Roc Nation in 2008."
   },
   {
-    "question": "Who released the album The Wall?",
-    "answer": "Pink Floyd",
+    "question": "Which instrument is a 'six-stringed' traditional guitar variant common in flamenco music?",
+    "answer": "Classical (nylon-string) guitar",
     "choices": [
-      "Prince",
-      "Lauryn Hill",
-      "The Beatles",
-      "Pink Floyd"
+      "Classical (nylon-string) guitar",
+      "Ukulele",
+      "Balalaika",
+      "Mandolin"
     ],
-    "explanation": "The Wall was released by Pink Floyd."
+    "explanation": "Flamenco music is traditionally played on a classical guitar (nylon-string), which has a lighter, brighter tone than a steel-string guitar."
   },
   {
-    "question": "In what year was the album The Wall originally released?",
-    "answer": "1979",
+    "question": "Which Australian pop singer had a hit with 'Toxic' in 2004?",
+    "answer": "Britney Spears",
     "choices": [
-      "1979",
-      "2016",
-      "2017",
-      "1976"
+      "Britney Spears",
+      "Kylie Minogue",
+      "Natalie Imbruglia",
+      "Delta Goodrem"
     ],
-    "explanation": "The Wall was originally released in 1979."
+    "explanation": "'Toxic' was released by Britney Spears (American, not Australian) in 2004, winning a Grammy for Best Dance Recording."
   },
   {
-    "question": "Which album is by Pink Floyd?",
-    "answer": "The Wall",
+    "question": "Who was the lead singer of The Doors?",
+    "answer": "Jim Morrison",
     "choices": [
-      "Hotel California",
-      "The Wall",
-      "Future Nostalgia",
-      "Kind of Blue"
+      "Jim Morrison",
+      "Ray Manzarek",
+      "Robby Krieger",
+      "John Densmore"
     ],
-    "explanation": "The Wall is an album by Pink Floyd."
+    "explanation": "Jim Morrison was the charismatic lead vocalist of The Doors, known for his poetic lyrics and wild stage presence."
   },
   {
-    "question": "Who released the album Hotel California?",
-    "answer": "Eagles",
+    "question": "What genre combines country and rock music?",
+    "answer": "Country rock",
     "choices": [
-      "Daft Punk",
-      "Pink Floyd",
+      "Country rock",
+      "Rockabilly",
+      "Bluegrass",
+      "Alt-country"
+    ],
+    "explanation": "Country rock blends elements of country music and rock music, pioneered by artists like the Eagles and the Flying Burrito Brothers."
+  },
+  {
+    "question": "Which UK artist released 'Bad Guy' and won multiple Grammys at age 18?",
+    "answer": "Billie Eilish",
+    "choices": [
+      "Billie Eilish",
       "Dua Lipa",
-      "Eagles"
+      "Charli XCX",
+      "Olivia Rodrigo"
     ],
-    "explanation": "Hotel California was released by Eagles."
+    "explanation": "Billie Eilish released 'Bad Guy' from her debut album 'When We All Fall Asleep, Where Do We Go?' and won 5 Grammy Awards in 2020 at age 18."
   },
   {
-    "question": "In what year was the album Hotel California originally released?",
-    "answer": "1976",
+    "question": "What is the name of the music video channel that launched in 1981?",
+    "answer": "MTV",
     "choices": [
-      "2008",
-      "1976",
-      "1980",
-      "1995"
+      "MTV",
+      "VH1",
+      "BET",
+      "CMT"
     ],
-    "explanation": "Hotel California was originally released in 1976."
+    "explanation": "MTV (Music Television) launched on August 1, 1981, with the first video 'Video Killed the Radio Star' by The Buggles."
   },
   {
-    "question": "Which album is by Eagles?",
-    "answer": "Hotel California",
+    "question": "Which pop star is known by the nickname 'The Weeknd'?",
+    "answer": "Abel Tesfaye",
     "choices": [
-      "Hotel California",
-      "Appetite for Destruction",
-      "1989",
-      "A Night at the Opera"
-    ],
-    "explanation": "Hotel California is an album by Eagles."
-  },
-  {
-    "question": "Who released the album 21?",
-    "answer": "Adele",
-    "choices": [
-      "Guns N' Roses",
-      "Pink Floyd",
-      "Daft Punk",
-      "Adele"
-    ],
-    "explanation": "21 was released by Adele."
-  },
-  {
-    "question": "In what year was the album 21 originally released?",
-    "answer": "2011",
-    "choices": [
-      "1959",
-      "1987",
-      "2011",
-      "1992"
-    ],
-    "explanation": "21 was originally released in 2011."
-  },
-  {
-    "question": "Which album is by Adele?",
-    "answer": "21",
-    "choices": [
-      "1989",
-      "Doggystyle",
-      "The Chronic",
-      "21"
-    ],
-    "explanation": "21 is an album by Adele."
-  },
-  {
-    "question": "Who released the album 1989?",
-    "answer": "Taylor Swift",
-    "choices": [
-      "Beyonce",
-      "Taylor Swift",
-      "Pink Floyd",
-      "Lady Gaga"
-    ],
-    "explanation": "1989 was released by Taylor Swift."
-  },
-  {
-    "question": "In what year was the album 1989 originally released?",
-    "answer": "2014",
-    "choices": [
-      "2014",
-      "1975",
-      "2008",
-      "2011"
-    ],
-    "explanation": "1989 was originally released in 2014."
-  },
-  {
-    "question": "Which album is by Taylor Swift?",
-    "answer": "1989",
-    "choices": [
-      "Renaissance",
-      "1989",
-      "Appetite for Destruction",
-      "21"
-    ],
-    "explanation": "1989 is an album by Taylor Swift."
-  },
-  {
-    "question": "Who released the album Future Nostalgia?",
-    "answer": "Dua Lipa",
-    "choices": [
-      "Adele",
-      "Dua Lipa",
-      "Kendrick Lamar",
-      "The Beatles"
-    ],
-    "explanation": "Future Nostalgia was released by Dua Lipa."
-  },
-  {
-    "question": "In what year was the album Future Nostalgia originally released?",
-    "answer": "2020",
-    "choices": [
-      "1969",
-      "1992",
-      "2012",
-      "2020"
-    ],
-    "explanation": "Future Nostalgia was originally released in 2020."
-  },
-  {
-    "question": "Which album is by Dua Lipa?",
-    "answer": "Future Nostalgia",
-    "choices": [
-      "A Night at the Opera",
-      "Purple Rain",
-      "Doggystyle",
-      "Future Nostalgia"
-    ],
-    "explanation": "Future Nostalgia is an album by Dua Lipa."
-  },
-  {
-    "question": "Who released the album The Miseducation of Lauryn Hill?",
-    "answer": "Lauryn Hill",
-    "choices": [
-      "SZA",
-      "Kendrick Lamar",
-      "Guns N' Roses",
-      "Lauryn Hill"
-    ],
-    "explanation": "The Miseducation of Lauryn Hill was released by Lauryn Hill."
-  },
-  {
-    "question": "In what year was the album The Miseducation of Lauryn Hill originally released?",
-    "answer": "1998",
-    "choices": [
-      "2014",
-      "1998",
-      "2020",
-      "2017"
-    ],
-    "explanation": "The Miseducation of Lauryn Hill was originally released in 1998."
-  },
-  {
-    "question": "Which album is by Lauryn Hill?",
-    "answer": "The Miseducation of Lauryn Hill",
-    "choices": [
-      "Nevermind",
-      "The Miseducation of Lauryn Hill",
-      "Doggystyle",
-      "Future Nostalgia"
-    ],
-    "explanation": "The Miseducation of Lauryn Hill is an album by Lauryn Hill."
-  },
-  {
-    "question": "Who released the album Kind of Blue?",
-    "answer": "Miles Davis",
-    "choices": [
-      "AC/DC",
-      "Adele",
-      "Alanis Morissette",
-      "Miles Davis"
-    ],
-    "explanation": "Kind of Blue was released by Miles Davis."
-  },
-  {
-    "question": "In what year was the album Kind of Blue originally released?",
-    "answer": "1959",
-    "choices": [
-      "1977",
-      "1959",
-      "1976",
-      "1984"
-    ],
-    "explanation": "Kind of Blue was originally released in 1959."
-  },
-  {
-    "question": "Which album is by Miles Davis?",
-    "answer": "Kind of Blue",
-    "choices": [
-      "21",
-      "Blue",
-      "The Wall",
-      "Kind of Blue"
-    ],
-    "explanation": "Kind of Blue is an album by Miles Davis."
-  },
-  {
-    "question": "Who released the album Blue?",
-    "answer": "Joni Mitchell",
-    "choices": [
-      "Adele",
-      "Dua Lipa",
-      "Snoop Doggy Dogg",
-      "Joni Mitchell"
-    ],
-    "explanation": "Blue was released by Joni Mitchell."
-  },
-  {
-    "question": "In what year was the album Blue originally released?",
-    "answer": "1971",
-    "choices": [
-      "2022",
-      "2013",
-      "1971",
-      "2017"
-    ],
-    "explanation": "Blue was originally released in 1971."
-  },
-  {
-    "question": "Which album is by Joni Mitchell?",
-    "answer": "Blue",
-    "choices": [
-      "The Fame",
-      "Random Access Memories",
-      "Renaissance",
-      "Blue"
-    ],
-    "explanation": "Blue is an album by Joni Mitchell."
-  },
-  {
-    "question": "Who released the album Thriller?",
-    "answer": "Michael Jackson",
-    "choices": [
-      "Lauryn Hill",
-      "Michael Jackson",
-      "Dua Lipa",
-      "Lady Gaga"
-    ],
-    "explanation": "Thriller was released by Michael Jackson."
-  },
-  {
-    "question": "In what year was the album Thriller originally released?",
-    "answer": "1982",
-    "choices": [
-      "1991",
-      "1995",
-      "1982",
-      "2022"
-    ],
-    "explanation": "Thriller was originally released in 1982."
-  },
-  {
-    "question": "Which album is by Michael Jackson?",
-    "answer": "Thriller",
-    "choices": [
-      "Thriller",
-      "21",
-      "Abbey Road",
-      "Doggystyle"
-    ],
-    "explanation": "Thriller is an album by Michael Jackson."
-  },
-  {
-    "question": "Who released the album Lemonade?",
-    "answer": "Beyonce",
-    "choices": [
-      "Taylor Swift",
-      "Pink Floyd",
-      "Dua Lipa",
-      "Beyonce"
-    ],
-    "explanation": "Lemonade was released by Beyonce."
-  },
-  {
-    "question": "In what year was the album Lemonade originally released?",
-    "answer": "2016",
-    "choices": [
-      "1976",
-      "1991",
-      "2016",
-      "2013"
-    ],
-    "explanation": "Lemonade was originally released in 2016."
-  },
-  {
-    "question": "Which album is by Beyonce?",
-    "answer": "Lemonade",
-    "choices": [
-      "Like a Virgin",
-      "Hotel California",
-      "Lemonade",
-      "Appetite for Destruction"
-    ],
-    "explanation": "Lemonade is an album by Beyonce."
-  },
-  {
-    "question": "Who released the album Good Kid, M.A.A.D City?",
-    "answer": "Kendrick Lamar",
-    "choices": [
+      "Abel Tesfaye",
+      "Drake",
       "Frank Ocean",
-      "Miles Davis",
-      "Kendrick Lamar",
-      "Joni Mitchell"
+      "Bryson Tiller"
     ],
-    "explanation": "Good Kid, M.A.A.D City was released by Kendrick Lamar."
+    "explanation": "The Weeknd is the stage name of Canadian singer-songwriter Abel Tesfaye, known for hits like 'Blinding Lights.'"
   },
   {
-    "question": "In what year was the album Good Kid, M.A.A.D City originally released?",
-    "answer": "2012",
+    "question": "What classic rock band featured Robert Plant as the vocalist?",
+    "answer": "Led Zeppelin",
     "choices": [
-      "1984",
-      "2008",
-      "1976",
-      "2012"
+      "Led Zeppelin",
+      "The Who",
+      "Cream",
+      "Deep Purple"
     ],
-    "explanation": "Good Kid, M.A.A.D City was originally released in 2012."
+    "explanation": "Robert Plant was the iconic vocalist of Led Zeppelin, one of the most influential rock bands of the 1970s."
   },
   {
-    "question": "Which album is by Kendrick Lamar?",
-    "answer": "Good Kid, M.A.A.D City",
+    "question": "Who composed the Four Seasons?",
+    "answer": "Antonio Vivaldi",
     "choices": [
-      "The Miseducation of Lauryn Hill",
-      "Blue",
-      "Good Kid, M.A.A.D City",
-      "Hotel California"
+      "Antonio Vivaldi",
+      "Johann Sebastian Bach",
+      "George Frideric Handel",
+      "Giuseppe Verdi"
     ],
-    "explanation": "Good Kid, M.A.A.D City is an album by Kendrick Lamar."
+    "explanation": "Antonio Vivaldi composed The Four Seasons (Le quattro stagioni), a set of four violin concertos written around 1720."
   },
   {
-    "question": "Who released the album Born to Run?",
-    "answer": "Bruce Springsteen",
+    "question": "What pop group performed 'Bye Bye Bye' and 'It's Gonna Be Me'?",
+    "answer": "*NSYNC",
     "choices": [
-      "SZA",
-      "Joni Mitchell",
-      "Beyonce",
-      "Bruce Springsteen"
+      "*NSYNC",
+      "Backstreet Boys",
+      "98 Degrees",
+      "New Kids on the Block"
     ],
-    "explanation": "Born to Run was released by Bruce Springsteen."
+    "explanation": "*NSYNC performed 'Bye Bye Bye' and 'It's Gonna Be Me,' two of the biggest pop hits of the early 2000s."
   },
   {
-    "question": "In what year was the album Born to Run originally released?",
-    "answer": "1975",
+    "question": "Which singer is known for her role in the Eurovision-winning song 'Waterloo'?",
+    "answer": "ABBA",
     "choices": [
-      "2012",
-      "2008",
-      "1975",
-      "1992"
+      "ABBA",
+      "Celine Dion",
+      "Dana International",
+      "Lulu"
     ],
-    "explanation": "Born to Run was originally released in 1975."
+    "explanation": "ABBA won the Eurovision Song Contest in 1974 with 'Waterloo,' launching their international career."
   },
   {
-    "question": "Which album is by Bruce Springsteen?",
-    "answer": "Born to Run",
+    "question": "Who wrote the national anthem 'The Star-Spangled Banner'?",
+    "answer": "Francis Scott Key",
     "choices": [
-      "Born to Run",
-      "The Fame",
-      "Blue",
-      "Random Access Memories"
+      "Francis Scott Key",
+      "John Philip Sousa",
+      "Irving Berlin",
+      "Stephen Foster"
     ],
-    "explanation": "Born to Run is an album by Bruce Springsteen."
+    "explanation": "Francis Scott Key wrote 'The Star-Spangled Banner' in 1814 after witnessing the bombardment of Fort McHenry."
   },
   {
-    "question": "Who released the album Jagged Little Pill?",
-    "answer": "Alanis Morissette",
-    "choices": [
-      "Bruce Springsteen",
-      "Beyonce",
-      "Alanis Morissette",
-      "Prince"
-    ],
-    "explanation": "Jagged Little Pill was released by Alanis Morissette."
-  },
-  {
-    "question": "In what year was the album Jagged Little Pill originally released?",
-    "answer": "1995",
-    "choices": [
-      "1979",
-      "1995",
-      "2016",
-      "2008"
-    ],
-    "explanation": "Jagged Little Pill was originally released in 1995."
-  },
-  {
-    "question": "Which album is by Alanis Morissette?",
-    "answer": "Jagged Little Pill",
-    "choices": [
-      "A Night at the Opera",
-      "Future Nostalgia",
-      "Jagged Little Pill",
-      "Ctrl"
-    ],
-    "explanation": "Jagged Little Pill is an album by Alanis Morissette."
-  },
-  {
-    "question": "Who released the album A Night at the Opera?",
-    "answer": "Queen",
-    "choices": [
-      "Kendrick Lamar",
-      "Daft Punk",
-      "The Beatles",
-      "Queen"
-    ],
-    "explanation": "A Night at the Opera was released by Queen."
-  },
-  {
-    "question": "In what year was the album A Night at the Opera originally released?",
-    "answer": "1975",
-    "choices": [
-      "1967",
-      "2014",
-      "1993",
-      "1975"
-    ],
-    "explanation": "A Night at the Opera was originally released in 1975."
-  },
-  {
-    "question": "Which album is by Queen?",
-    "answer": "A Night at the Opera",
-    "choices": [
-      "Jagged Little Pill",
-      "Sgt. Pepper's Lonely Hearts Club Band",
-      "Channel Orange",
-      "A Night at the Opera"
-    ],
-    "explanation": "A Night at the Opera is an album by Queen."
-  },
-  {
-    "question": "Who released the album Sgt. Pepper's Lonely Hearts Club Band?",
-    "answer": "The Beatles",
-    "choices": [
-      "The Beatles",
-      "Michael Jackson",
-      "Madonna",
-      "Adele"
-    ],
-    "explanation": "Sgt. Pepper's Lonely Hearts Club Band was released by The Beatles."
-  },
-  {
-    "question": "In what year was the album Sgt. Pepper's Lonely Hearts Club Band originally released?",
-    "answer": "1967",
-    "choices": [
-      "2013",
-      "1967",
-      "2014",
-      "1975"
-    ],
-    "explanation": "Sgt. Pepper's Lonely Hearts Club Band was originally released in 1967."
-  },
-  {
-    "question": "Who released the album Random Access Memories?",
-    "answer": "Daft Punk",
-    "choices": [
-      "The Beatles",
-      "Beyonce",
-      "Daft Punk",
-      "Nirvana"
-    ],
-    "explanation": "Random Access Memories was released by Daft Punk."
-  },
-  {
-    "question": "In what year was the album Random Access Memories originally released?",
-    "answer": "2013",
-    "choices": [
-      "2012",
-      "1992",
-      "2013",
-      "1976"
-    ],
-    "explanation": "Random Access Memories was originally released in 2013."
-  },
-  {
-    "question": "Which album is by Daft Punk?",
-    "answer": "Random Access Memories",
-    "choices": [
-      "Channel Orange",
-      "Purple Rain",
-      "Random Access Memories",
-      "Renaissance"
-    ],
-    "explanation": "Random Access Memories is an album by Daft Punk."
-  },
-  {
-    "question": "Who released the album Fearless?",
-    "answer": "Taylor Swift",
-    "choices": [
-      "Miles Davis",
-      "Frank Ocean",
-      "Pink Floyd",
-      "Taylor Swift"
-    ],
-    "explanation": "Fearless was released by Taylor Swift."
-  },
-  {
-    "question": "In what year was the album Fearless originally released?",
-    "answer": "2008",
-    "choices": [
-      "1976",
-      "1982",
-      "1993",
-      "2008"
-    ],
-    "explanation": "Fearless was originally released in 2008."
-  },
-  {
-    "question": "Who released the album The Fame?",
-    "answer": "Lady Gaga",
-    "choices": [
-      "Alanis Morissette",
-      "Lady Gaga",
-      "Eagles",
-      "Queen"
-    ],
-    "explanation": "The Fame was released by Lady Gaga."
-  },
-  {
-    "question": "In what year was the album The Fame originally released?",
-    "answer": "2008",
-    "choices": [
-      "2022",
-      "2008",
-      "1979",
-      "2017"
-    ],
-    "explanation": "The Fame was originally released in 2008."
-  },
-  {
-    "question": "Which album is by Lady Gaga?",
-    "answer": "The Fame",
-    "choices": [
-      "Abbey Road",
-      "The Fame",
-      "Doggystyle",
-      "A Night at the Opera"
-    ],
-    "explanation": "The Fame is an album by Lady Gaga."
-  },
-  {
-    "question": "Who released the album Channel Orange?",
-    "answer": "Frank Ocean",
-    "choices": [
-      "Snoop Doggy Dogg",
-      "Frank Ocean",
-      "Eagles",
-      "Nirvana"
-    ],
-    "explanation": "Channel Orange was released by Frank Ocean."
-  },
-  {
-    "question": "In what year was the album Channel Orange originally released?",
-    "answer": "2012",
-    "choices": [
-      "1995",
-      "2014",
-      "1979",
-      "2012"
-    ],
-    "explanation": "Channel Orange was originally released in 2012."
-  },
-  {
-    "question": "Which album is by Frank Ocean?",
-    "answer": "Channel Orange",
-    "choices": [
-      "Jagged Little Pill",
-      "Channel Orange",
-      "Hotel California",
-      "A Night at the Opera"
-    ],
-    "explanation": "Channel Orange is an album by Frank Ocean."
-  },
-  {
-    "question": "Who released the album Ctrl?",
-    "answer": "SZA",
-    "choices": [
-      "Frank Ocean",
-      "Dua Lipa",
-      "SZA",
-      "Queen"
-    ],
-    "explanation": "Ctrl was released by SZA."
-  },
-  {
-    "question": "In what year was the album Ctrl originally released?",
-    "answer": "2017",
-    "choices": [
-      "1993",
-      "2014",
-      "2017",
-      "1969"
-    ],
-    "explanation": "Ctrl was originally released in 2017."
-  },
-  {
-    "question": "Which album is by SZA?",
-    "answer": "Ctrl",
-    "choices": [
-      "Ctrl",
-      "Hotel California",
-      "Jagged Little Pill",
-      "The Chronic"
-    ],
-    "explanation": "Ctrl is an album by SZA."
-  },
-  {
-    "question": "Who released the album Appetite for Destruction?",
-    "answer": "Guns N' Roses",
-    "choices": [
-      "The Beatles",
-      "Kendrick Lamar",
-      "Madonna",
-      "Guns N' Roses"
-    ],
-    "explanation": "Appetite for Destruction was released by Guns N' Roses."
-  },
-  {
-    "question": "In what year was the album Appetite for Destruction originally released?",
-    "answer": "1987",
-    "choices": [
-      "2014",
-      "2016",
-      "2012",
-      "1987"
-    ],
-    "explanation": "Appetite for Destruction was originally released in 1987."
-  },
-  {
-    "question": "Which album is by Guns N' Roses?",
-    "answer": "Appetite for Destruction",
-    "choices": [
-      "Abbey Road",
-      "Appetite for Destruction",
-      "The Fame",
-      "Good Kid, M.A.A.D City"
-    ],
-    "explanation": "Appetite for Destruction is an album by Guns N' Roses."
-  },
-  {
-    "question": "Who released the album Like a Virgin?",
-    "answer": "Madonna",
-    "choices": [
-      "Joni Mitchell",
-      "Fleetwood Mac",
-      "Madonna",
-      "Prince"
-    ],
-    "explanation": "Like a Virgin was released by Madonna."
-  },
-  {
-    "question": "In what year was the album Like a Virgin originally released?",
-    "answer": "1984",
-    "choices": [
-      "1980",
-      "1971",
-      "2013",
-      "1984"
-    ],
-    "explanation": "Like a Virgin was originally released in 1984."
-  },
-  {
-    "question": "Which album is by Madonna?",
-    "answer": "Like a Virgin",
-    "choices": [
-      "Back in Black",
-      "Like a Virgin",
-      "Renaissance",
-      "Channel Orange"
-    ],
-    "explanation": "Like a Virgin is an album by Madonna."
-  },
-  {
-    "question": "Who released the album Doggystyle?",
-    "answer": "Snoop Doggy Dogg",
-    "choices": [
-      "Kendrick Lamar",
-      "Snoop Doggy Dogg",
-      "Prince",
-      "Michael Jackson"
-    ],
-    "explanation": "Doggystyle was released by Snoop Doggy Dogg."
-  },
-  {
-    "question": "In what year was the album Doggystyle originally released?",
-    "answer": "1993",
-    "choices": [
-      "1993",
-      "1998",
-      "1969",
-      "2013"
-    ],
-    "explanation": "Doggystyle was originally released in 1993."
-  },
-  {
-    "question": "Which album is by Snoop Doggy Dogg?",
-    "answer": "Doggystyle",
-    "choices": [
-      "Lemonade",
-      "Doggystyle",
-      "Purple Rain",
-      "Channel Orange"
-    ],
-    "explanation": "Doggystyle is an album by Snoop Doggy Dogg."
-  },
-  {
-    "question": "Who released the album The Chronic?",
-    "answer": "Dr. Dre",
-    "choices": [
-      "Miles Davis",
-      "Taylor Swift",
-      "Dr. Dre",
-      "Pink Floyd"
-    ],
-    "explanation": "The Chronic was released by Dr. Dre."
-  },
-  {
-    "question": "In what year was the album The Chronic originally released?",
-    "answer": "1992",
-    "choices": [
-      "1992",
-      "1967",
-      "2008",
-      "1998"
-    ],
-    "explanation": "The Chronic was originally released in 1992."
-  },
-  {
-    "question": "Which album is by Dr. Dre?",
-    "answer": "The Chronic",
-    "choices": [
-      "The Miseducation of Lauryn Hill",
-      "The Chronic",
-      "Ctrl",
-      "Born to Run"
-    ],
-    "explanation": "The Chronic is an album by Dr. Dre."
-  },
-  {
-    "question": "Who released the album Renaissance?",
-    "answer": "Beyonce",
-    "choices": [
-      "Michael Jackson",
-      "Eagles",
-      "Beyonce",
-      "Daft Punk"
-    ],
-    "explanation": "Renaissance was released by Beyonce."
-  },
-  {
-    "question": "In what year was the album Renaissance originally released?",
-    "answer": "2022",
-    "choices": [
-      "1992",
-      "1979",
-      "1969",
-      "2022"
-    ],
-    "explanation": "Renaissance was originally released in 2022."
-  },
-  {
-    "question": "In music, who released the album Abbey Road?",
-    "answer": "The Beatles",
-    "choices": [
-      "Guns N' Roses",
-      "AC/DC",
-      "Michael Jackson",
-      "The Beatles"
-    ],
-    "explanation": "Abbey Road was released by The Beatles."
-  },
-  {
-    "question": "In music, in what year was the album Abbey Road originally released?",
-    "answer": "1969",
-    "choices": [
-      "1984",
-      "1969",
-      "1980",
-      "2012"
-    ],
-    "explanation": "Abbey Road was originally released in 1969."
-  },
-  {
-    "question": "In music, which album is by The Beatles?",
-    "answer": "Abbey Road",
-    "choices": [
-      "The Fame",
-      "Hotel California",
-      "Abbey Road",
-      "Appetite for Destruction"
-    ],
-    "explanation": "Abbey Road is an album by The Beatles."
-  },
-  {
-    "question": "In music, who released the album Purple Rain?",
-    "answer": "Prince",
-    "choices": [
-      "Alanis Morissette",
-      "Miles Davis",
-      "AC/DC",
-      "Prince"
-    ],
-    "explanation": "Purple Rain was released by Prince."
-  },
-  {
-    "question": "In music, in what year was the album Purple Rain originally released?",
-    "answer": "1984",
-    "choices": [
-      "2013",
-      "1995",
-      "1977",
-      "1984"
-    ],
-    "explanation": "Purple Rain was originally released in 1984."
-  },
-  {
-    "question": "In music, which album is by Prince?",
-    "answer": "Purple Rain",
-    "choices": [
-      "Purple Rain",
-      "Thriller",
-      "Future Nostalgia",
-      "Good Kid, M.A.A.D City"
-    ],
-    "explanation": "Purple Rain is an album by Prince."
-  },
-  {
-    "question": "In music, who released the album Nevermind?",
-    "answer": "Nirvana",
-    "choices": [
-      "AC/DC",
-      "Michael Jackson",
-      "Miles Davis",
-      "Nirvana"
-    ],
-    "explanation": "Nevermind was released by Nirvana."
-  },
-  {
-    "question": "In music, in what year was the album Nevermind originally released?",
-    "answer": "1991",
-    "choices": [
-      "1975",
-      "1993",
-      "2016",
-      "1991"
-    ],
-    "explanation": "Nevermind was originally released in 1991."
-  },
-  {
-    "question": "In music, which album is by Nirvana?",
+    "question": "What Nirvana album featured 'Smells Like Teen Spirit'?",
     "answer": "Nevermind",
     "choices": [
-      "The Fame",
-      "Random Access Memories",
       "Nevermind",
-      "Jagged Little Pill"
+      "Bleach",
+      "In Utero",
+      "Incesticide"
     ],
-    "explanation": "Nevermind is an album by Nirvana."
+    "explanation": "'Smells Like Teen Spirit' was the lead single from Nirvana's breakthrough album Nevermind (1991)."
   },
   {
-    "question": "In music, who released the album Rumours?",
-    "answer": "Fleetwood Mac",
+    "question": "Which solo artist has the most Grammy Awards ever?",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Alanis Morissette",
-      "Fleetwood Mac",
+      "Beyonc\u00e9",
+      "Jay-Z",
       "Taylor Swift",
-      "The Beatles"
-    ],
-    "explanation": "Rumours was released by Fleetwood Mac."
-  },
-  {
-    "question": "In music, in what year was the album Rumours originally released?",
-    "answer": "1977",
-    "choices": [
-      "2012",
-      "1998",
-      "1977",
-      "2012"
-    ],
-    "explanation": "Rumours was originally released in 1977."
-  },
-  {
-    "question": "In music, which album is by Fleetwood Mac?",
-    "answer": "Rumours",
-    "choices": [
-      "Rumours",
-      "Lemonade",
-      "Kind of Blue",
-      "Born to Run"
-    ],
-    "explanation": "Rumours is an album by Fleetwood Mac."
-  },
-  {
-    "question": "In music, who released the album Back in Black?",
-    "answer": "AC/DC",
-    "choices": [
-      "Taylor Swift",
-      "Lady Gaga",
-      "The Beatles",
-      "AC/DC"
-    ],
-    "explanation": "Back in Black was released by AC/DC."
-  },
-  {
-    "question": "In music, in what year was the album Back in Black originally released?",
-    "answer": "1980",
-    "choices": [
-      "1979",
-      "1975",
-      "1980",
-      "1984"
-    ],
-    "explanation": "Back in Black was originally released in 1980."
-  },
-  {
-    "question": "In music, which album is by AC/DC?",
-    "answer": "Back in Black",
-    "choices": [
-      "The Wall",
-      "Ctrl",
-      "Kind of Blue",
-      "Back in Black"
-    ],
-    "explanation": "Back in Black is an album by AC/DC."
-  },
-  {
-    "question": "In music, who released the album The Wall?",
-    "answer": "Pink Floyd",
-    "choices": [
-      "Prince",
-      "Lauryn Hill",
-      "The Beatles",
-      "Pink Floyd"
-    ],
-    "explanation": "The Wall was released by Pink Floyd."
-  },
-  {
-    "question": "In music, in what year was the album The Wall originally released?",
-    "answer": "1979",
-    "choices": [
-      "1979",
-      "2016",
-      "2017",
-      "1976"
-    ],
-    "explanation": "The Wall was originally released in 1979."
-  },
-  {
-    "question": "In music, which album is by Pink Floyd?",
-    "answer": "The Wall",
-    "choices": [
-      "Hotel California",
-      "The Wall",
-      "Future Nostalgia",
-      "Kind of Blue"
-    ],
-    "explanation": "The Wall is an album by Pink Floyd."
-  },
-  {
-    "question": "In music, who released the album Hotel California?",
-    "answer": "Eagles",
-    "choices": [
-      "Daft Punk",
-      "Pink Floyd",
-      "Dua Lipa",
-      "Eagles"
-    ],
-    "explanation": "Hotel California was released by Eagles."
-  },
-  {
-    "question": "In music, in what year was the album Hotel California originally released?",
-    "answer": "1976",
-    "choices": [
-      "2008",
-      "1976",
-      "1980",
-      "1995"
-    ],
-    "explanation": "Hotel California was originally released in 1976."
-  },
-  {
-    "question": "In music, which album is by Eagles?",
-    "answer": "Hotel California",
-    "choices": [
-      "Hotel California",
-      "Appetite for Destruction",
-      "1989",
-      "A Night at the Opera"
-    ],
-    "explanation": "Hotel California is an album by Eagles."
-  },
-  {
-    "question": "In music, who released the album 21?",
-    "answer": "Adele",
-    "choices": [
-      "Guns N' Roses",
-      "Pink Floyd",
-      "Daft Punk",
       "Adele"
     ],
-    "explanation": "21 was released by Adele."
+    "explanation": "Beyonc\u00e9 holds the record for the most Grammy wins by any artist, surpassing 30 wins as of 2023."
   },
   {
-    "question": "In music, in what year was the album 21 originally released?",
-    "answer": "2011",
+    "question": "What does the term 'a cappella' mean in music?",
+    "answer": "Without instrumental accompaniment",
     "choices": [
-      "1959",
-      "1987",
-      "2011",
-      "1992"
+      "Without instrumental accompaniment",
+      "With a piano only",
+      "Using only percussion",
+      "Sung in Italian"
     ],
-    "explanation": "21 was originally released in 2011."
+    "explanation": "A cappella refers to singing without instrumental accompaniment, from the Italian phrase meaning 'in the style of the chapel.'"
   },
   {
-    "question": "In music, which album is by Adele?",
-    "answer": "21",
+    "question": "Who played lead guitar in the band Guns N' Roses?",
+    "answer": "Slash",
     "choices": [
-      "1989",
-      "Doggystyle",
-      "The Chronic",
-      "21"
+      "Slash",
+      "Axl Rose",
+      "Duff McKagan",
+      "Izzy Stradlin"
     ],
-    "explanation": "21 is an album by Adele."
+    "explanation": "Slash (Saul Hudson) is the iconic lead guitarist of Guns N' Roses, known for his top hat and curly hair."
   },
   {
-    "question": "In music, who released the album 1989?",
-    "answer": "Taylor Swift",
+    "question": "What 1970s disco song by Gloria Gaynor became an empowerment anthem?",
+    "answer": "I Will Survive",
     "choices": [
-      "Beyonce",
-      "Taylor Swift",
-      "Pink Floyd",
+      "I Will Survive",
+      "Stayin' Alive",
+      "Boogie Wonderland",
+      "Le Freak"
+    ],
+    "explanation": "'I Will Survive' (1978) by Gloria Gaynor became a disco classic and has endured as an empowerment anthem."
+  },
+  {
+    "question": "Which rapper had a feud with Notorious B.I.G. in the 1990s?",
+    "answer": "Tupac Shakur",
+    "choices": [
+      "Tupac Shakur",
+      "Ice Cube",
+      "Snoop Dogg",
+      "Jay-Z"
+    ],
+    "explanation": "Tupac Shakur and The Notorious B.I.G. had a high-profile East Coast\u2013West Coast hip-hop rivalry in the mid-1990s; both were murdered in 1996\u20131997."
+  },
+  {
+    "question": "What is the name of the famous music festival held annually in Glastonbury, England?",
+    "answer": "Glastonbury Festival",
+    "choices": [
+      "Glastonbury Festival",
+      "Reading Festival",
+      "Download Festival",
+      "Isle of Wight Festival"
+    ],
+    "explanation": "Glastonbury Festival of Contemporary Performing Arts is held annually in Somerset, England, and is one of the world's most famous music festivals."
+  },
+  {
+    "question": "Who sang the James Bond theme 'Skyfall'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Shirley Bassey",
+      "Tom Jones",
+      "Duran Duran"
+    ],
+    "explanation": "Adele performed the theme song 'Skyfall' for the James Bond film of the same name in 2012, winning an Oscar and Grammy."
+  },
+  {
+    "question": "Which classical composer wrote Symphony No. 5 with its famous four-note opening?",
+    "answer": "Ludwig van Beethoven",
+    "choices": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johannes Brahms",
+      "Franz Joseph Haydn"
+    ],
+    "explanation": "Beethoven's Symphony No. 5 in C minor opens with a famous four-note motif (short-short-short-long) often described as 'fate knocking at the door.'"
+  },
+  {
+    "question": "Which British band is known for 'Wonderwall' and '(What's the Story) Morning Glory?'?",
+    "answer": "Oasis",
+    "choices": [
+      "Oasis",
+      "Blur",
+      "Pulp",
+      "The Verve"
+    ],
+    "explanation": "Oasis released '(What's the Story) Morning Glory?' in 1995, featuring the iconic ballad 'Wonderwall.'"
+  },
+  {
+    "question": "What music streaming service was founded in Sweden in 2006?",
+    "answer": "Spotify",
+    "choices": [
+      "Spotify",
+      "Apple Music",
+      "Tidal",
+      "Deezer"
+    ],
+    "explanation": "Spotify was founded in Stockholm, Sweden, in 2006 and launched publicly in 2008."
+  },
+  {
+    "question": "Which female rapper is known for the song 'Anaconda'?",
+    "answer": "Nicki Minaj",
+    "choices": [
+      "Nicki Minaj",
+      "Cardi B",
+      "Megan Thee Stallion",
+      "Iggy Azalea"
+    ],
+    "explanation": "'Anaconda' (2014) is a single by Nicki Minaj that sampled Sir Mix-a-Lot's 'Baby Got Back.'"
+  },
+  {
+    "question": "What decade is most associated with the birth of rock and roll?",
+    "answer": "1950s",
+    "choices": [
+      "1950s",
+      "1940s",
+      "1960s",
+      "1970s"
+    ],
+    "explanation": "Rock and roll emerged in the United States in the 1950s, blending rhythm and blues, gospel, and country music."
+  },
+  {
+    "question": "Who is the guitarist and co-founder of the band AC/DC?",
+    "answer": "Angus Young",
+    "choices": [
+      "Angus Young",
+      "Malcolm Young",
+      "Bon Scott",
+      "Brian Johnson"
+    ],
+    "explanation": "Angus Young is the co-founder and lead guitarist of AC/DC, known for his schoolboy uniform stage outfit."
+  },
+  {
+    "question": "What artist performed 'Lose Yourself' for the film 8 Mile?",
+    "answer": "Eminem",
+    "choices": [
+      "Eminem",
+      "50 Cent",
+      "Jay-Z",
+      "Snoop Dogg"
+    ],
+    "explanation": "'Lose Yourself' by Eminem won the Academy Award for Best Original Song in 2003 for the film 8 Mile."
+  },
+  {
+    "question": "Which reggae artist is famous for the song 'No Woman, No Cry'?",
+    "answer": "Bob Marley",
+    "choices": [
+      "Bob Marley",
+      "Peter Tosh",
+      "Bunny Wailer",
+      "Jimmy Cliff"
+    ],
+    "explanation": "'No Woman, No Cry' is a classic song by Bob Marley, recorded live at the Lyceum Theatre in London in 1975."
+  },
+  {
+    "question": "What is the musical term for playing at a slow, stately tempo?",
+    "answer": "Largo",
+    "choices": [
+      "Largo",
+      "Adagio",
+      "Andante",
+      "Allegro"
+    ],
+    "explanation": "Largo is an Italian musical term meaning broad/wide, indicating a very slow and dignified tempo."
+  },
+  {
+    "question": "Who co-wrote and performed 'We Are the World' in 1985?",
+    "answer": "Michael Jackson and Lionel Richie",
+    "choices": [
+      "Michael Jackson and Lionel Richie",
+      "Paul McCartney and Stevie Wonder",
+      "Tina Turner and Bette Midler",
+      "Whitney Houston and Dionne Warwick"
+    ],
+    "explanation": "'We Are the World' was co-written by Michael Jackson and Lionel Richie and recorded by USA for Africa in 1985 to raise money for African famine relief."
+  },
+  {
+    "question": "Which British singer had a hit with 'Rehab' in 2006?",
+    "answer": "Amy Winehouse",
+    "choices": [
+      "Amy Winehouse",
+      "Adele",
+      "Duffy",
+      "Lily Allen"
+    ],
+    "explanation": "'Rehab' was the lead single from Amy Winehouse's album Back to Black (2006), earning three Grammy Awards."
+  },
+  {
+    "question": "What pop star is known as 'Sasha Fierce'?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Rihanna",
+      "Nicki Minaj",
       "Lady Gaga"
     ],
-    "explanation": "1989 was released by Taylor Swift."
+    "explanation": "Beyonc\u00e9 used 'Sasha Fierce' as an alter ego for her more aggressive, confident stage performances."
   },
   {
-    "question": "In music, in what year was the album 1989 originally released?",
-    "answer": "2014",
+    "question": "Which Beatles song features a string quartet and was one of their most innovative recordings?",
+    "answer": "Yesterday",
     "choices": [
-      "2014",
-      "1975",
-      "2008",
-      "2011"
+      "Yesterday",
+      "Eleanor Rigby",
+      "Strawberry Fields Forever",
+      "In My Life"
     ],
-    "explanation": "1989 was originally released in 2014."
+    "explanation": "'Yesterday' (1965) was notable for Paul McCartney performing with a string quartet, marking a new direction for the Beatles."
   },
   {
-    "question": "In music, which album is by Taylor Swift?",
-    "answer": "1989",
+    "question": "What 1975 album by Fleetwood Mac marked their commercial breakthrough?",
+    "answer": "Fleetwood Mac (White Album)",
     "choices": [
-      "Renaissance",
-      "1989",
-      "Appetite for Destruction",
-      "21"
+      "Fleetwood Mac (White Album)",
+      "Rumours",
+      "Tango in the Night",
+      "Tusk"
     ],
-    "explanation": "1989 is an album by Taylor Swift."
+    "explanation": "The 1975 self-titled 'White Album' by Fleetwood Mac (with Lindsey Buckingham and Stevie Nicks) began their commercial breakthrough, followed by Rumours."
   },
   {
-    "question": "In music, who released the album Future Nostalgia?",
-    "answer": "Dua Lipa",
+    "question": "Which artist is known for wearing a meat dress at the 2010 MTV VMAs?",
+    "answer": "Lady Gaga",
     "choices": [
-      "Adele",
-      "Dua Lipa",
-      "Kendrick Lamar",
-      "The Beatles"
+      "Lady Gaga",
+      "Katy Perry",
+      "Nicki Minaj",
+      "Bj\u00f6rk"
     ],
-    "explanation": "Future Nostalgia was released by Dua Lipa."
+    "explanation": "Lady Gaga famously wore a dress made of raw meat to the 2010 MTV Video Music Awards, making a statement about individualism."
   },
   {
-    "question": "In music, in what year was the album Future Nostalgia originally released?",
-    "answer": "2020",
+    "question": "What recording studio in Memphis, Tennessee, produced many early rock and roll hits?",
+    "answer": "Sun Studio",
     "choices": [
-      "1969",
-      "1992",
-      "2012",
-      "2020"
+      "Sun Studio",
+      "Stax Records",
+      "Fame Studios",
+      "Chess Records"
     ],
-    "explanation": "Future Nostalgia was originally released in 2020."
+    "explanation": "Sun Studio in Memphis is where Elvis Presley, Johnny Cash, Jerry Lee Lewis, and others recorded some of the earliest rock and roll songs."
   },
   {
-    "question": "In music, which album is by Dua Lipa?",
-    "answer": "Future Nostalgia",
+    "question": "Which boy band featured Harry Styles, Niall Horan, and Louis Tomlinson?",
+    "answer": "One Direction",
     "choices": [
-      "A Night at the Opera",
-      "Purple Rain",
-      "Doggystyle",
-      "Future Nostalgia"
+      "One Direction",
+      "*NSYNC",
+      "Backstreet Boys",
+      "New Kids on the Block"
     ],
-    "explanation": "Future Nostalgia is an album by Dua Lipa."
+    "explanation": "One Direction was a British-Irish boy band formed on The X Factor in 2010, featuring Harry Styles, Niall Horan, Liam Payne, Louis Tomlinson, and Zayn Malik."
   },
   {
-    "question": "In music, who released the album The Miseducation of Lauryn Hill?",
-    "answer": "Lauryn Hill",
+    "question": "What Elton John song was written in tribute to Marilyn Monroe and later re-recorded for Princess Diana?",
+    "answer": "Candle in the Wind",
     "choices": [
-      "SZA",
-      "Kendrick Lamar",
-      "Guns N' Roses",
-      "Lauryn Hill"
+      "Candle in the Wind",
+      "Tiny Dancer",
+      "Rocket Man",
+      "Crocodile Rock"
     ],
-    "explanation": "The Miseducation of Lauryn Hill was released by Lauryn Hill."
+    "explanation": "'Candle in the Wind' was originally written for Marilyn Monroe (1973) and re-recorded for Princess Diana in 1997, becoming one of the best-selling singles ever."
   },
   {
-    "question": "In music, in what year was the album The Miseducation of Lauryn Hill originally released?",
-    "answer": "1998",
-    "choices": [
-      "2014",
-      "1998",
-      "2020",
-      "2017"
-    ],
-    "explanation": "The Miseducation of Lauryn Hill was originally released in 1998."
-  },
-  {
-    "question": "In music, which album is by Lauryn Hill?",
-    "answer": "The Miseducation of Lauryn Hill",
-    "choices": [
-      "Nevermind",
-      "The Miseducation of Lauryn Hill",
-      "Doggystyle",
-      "Future Nostalgia"
-    ],
-    "explanation": "The Miseducation of Lauryn Hill is an album by Lauryn Hill."
-  },
-  {
-    "question": "In music, who released the album Kind of Blue?",
-    "answer": "Miles Davis",
-    "choices": [
-      "AC/DC",
-      "Adele",
-      "Alanis Morissette",
-      "Miles Davis"
-    ],
-    "explanation": "Kind of Blue was released by Miles Davis."
-  },
-  {
-    "question": "In music, in what year was the album Kind of Blue originally released?",
-    "answer": "1959",
-    "choices": [
-      "1977",
-      "1959",
-      "1976",
-      "1984"
-    ],
-    "explanation": "Kind of Blue was originally released in 1959."
-  },
-  {
-    "question": "In music, which album is by Miles Davis?",
-    "answer": "Kind of Blue",
-    "choices": [
-      "21",
-      "Blue",
-      "The Wall",
-      "Kind of Blue"
-    ],
-    "explanation": "Kind of Blue is an album by Miles Davis."
-  },
-  {
-    "question": "In music, who released the album Blue?",
-    "answer": "Joni Mitchell",
-    "choices": [
-      "Adele",
-      "Dua Lipa",
-      "Snoop Doggy Dogg",
-      "Joni Mitchell"
-    ],
-    "explanation": "Blue was released by Joni Mitchell."
-  },
-  {
-    "question": "In music, in what year was the album Blue originally released?",
-    "answer": "1971",
-    "choices": [
-      "2022",
-      "2013",
-      "1971",
-      "2017"
-    ],
-    "explanation": "Blue was originally released in 1971."
-  },
-  {
-    "question": "In music, which album is by Joni Mitchell?",
-    "answer": "Blue",
-    "choices": [
-      "The Fame",
-      "Random Access Memories",
-      "Renaissance",
-      "Blue"
-    ],
-    "explanation": "Blue is an album by Joni Mitchell."
-  },
-  {
-    "question": "In music, who released the album Thriller?",
-    "answer": "Michael Jackson",
-    "choices": [
-      "Lauryn Hill",
-      "Michael Jackson",
-      "Dua Lipa",
-      "Lady Gaga"
-    ],
-    "explanation": "Thriller was released by Michael Jackson."
-  },
-  {
-    "question": "In music, in what year was the album Thriller originally released?",
-    "answer": "1982",
-    "choices": [
-      "1991",
-      "1995",
-      "1982",
-      "2022"
-    ],
-    "explanation": "Thriller was originally released in 1982."
-  },
-  {
-    "question": "In music, which album is by Michael Jackson?",
-    "answer": "Thriller",
-    "choices": [
-      "Thriller",
-      "21",
-      "Abbey Road",
-      "Doggystyle"
-    ],
-    "explanation": "Thriller is an album by Michael Jackson."
-  },
-  {
-    "question": "In music, who released the album Lemonade?",
-    "answer": "Beyonce",
-    "choices": [
-      "Taylor Swift",
-      "Pink Floyd",
-      "Dua Lipa",
-      "Beyonce"
-    ],
-    "explanation": "Lemonade was released by Beyonce."
-  },
-  {
-    "question": "In music, in what year was the album Lemonade originally released?",
-    "answer": "2016",
-    "choices": [
-      "1976",
-      "1991",
-      "2016",
-      "2013"
-    ],
-    "explanation": "Lemonade was originally released in 2016."
-  },
-  {
-    "question": "In music, which album is by Beyonce?",
-    "answer": "Lemonade",
-    "choices": [
-      "Like a Virgin",
-      "Hotel California",
-      "Lemonade",
-      "Appetite for Destruction"
-    ],
-    "explanation": "Lemonade is an album by Beyonce."
-  },
-  {
-    "question": "In music, who released the album Good Kid, M.A.A.D City?",
-    "answer": "Kendrick Lamar",
-    "choices": [
-      "Frank Ocean",
-      "Miles Davis",
-      "Kendrick Lamar",
-      "Joni Mitchell"
-    ],
-    "explanation": "Good Kid, M.A.A.D City was released by Kendrick Lamar."
-  },
-  {
-    "question": "In music, in what year was the album Good Kid, M.A.A.D City originally released?",
-    "answer": "2012",
-    "choices": [
-      "1984",
-      "2008",
-      "1976",
-      "2012"
-    ],
-    "explanation": "Good Kid, M.A.A.D City was originally released in 2012."
-  },
-  {
-    "question": "In music, which album is by Kendrick Lamar?",
-    "answer": "Good Kid, M.A.A.D City",
-    "choices": [
-      "The Miseducation of Lauryn Hill",
-      "Blue",
-      "Good Kid, M.A.A.D City",
-      "Hotel California"
-    ],
-    "explanation": "Good Kid, M.A.A.D City is an album by Kendrick Lamar."
-  },
-  {
-    "question": "In music, who released the album Born to Run?",
-    "answer": "Bruce Springsteen",
-    "choices": [
-      "SZA",
-      "Joni Mitchell",
-      "Beyonce",
-      "Bruce Springsteen"
-    ],
-    "explanation": "Born to Run was released by Bruce Springsteen."
-  },
-  {
-    "question": "In music, in what year was the album Born to Run originally released?",
-    "answer": "1975",
-    "choices": [
-      "2012",
-      "2008",
-      "1975",
-      "1992"
-    ],
-    "explanation": "Born to Run was originally released in 1975."
-  },
-  {
-    "question": "In music, which album is by Bruce Springsteen?",
-    "answer": "Born to Run",
-    "choices": [
-      "Born to Run",
-      "The Fame",
-      "Blue",
-      "Random Access Memories"
-    ],
-    "explanation": "Born to Run is an album by Bruce Springsteen."
-  },
-  {
-    "question": "In music, who released the album Jagged Little Pill?",
-    "answer": "Alanis Morissette",
-    "choices": [
-      "Bruce Springsteen",
-      "Beyonce",
-      "Alanis Morissette",
-      "Prince"
-    ],
-    "explanation": "Jagged Little Pill was released by Alanis Morissette."
-  },
-  {
-    "question": "In music, in what year was the album Jagged Little Pill originally released?",
-    "answer": "1995",
-    "choices": [
-      "1979",
-      "1995",
-      "2016",
-      "2008"
-    ],
-    "explanation": "Jagged Little Pill was originally released in 1995."
-  },
-  {
-    "question": "In music, which album is by Alanis Morissette?",
-    "answer": "Jagged Little Pill",
-    "choices": [
-      "A Night at the Opera",
-      "Future Nostalgia",
-      "Jagged Little Pill",
-      "Ctrl"
-    ],
-    "explanation": "Jagged Little Pill is an album by Alanis Morissette."
-  },
-  {
-    "question": "In music, who released the album A Night at the Opera?",
+    "question": "Who sang 'Bohemian Rhapsody'?",
     "answer": "Queen",
     "choices": [
-      "Kendrick Lamar",
+      "Queen",
+      "Led Zeppelin",
+      "The Rolling Stones",
+      "David Bowie"
+    ],
+    "explanation": "'Bohemian Rhapsody' (1975) is an iconic rock opera by Queen, written by Freddie Mercury."
+  },
+  {
+    "question": "What is the name of Taylor Swift's 2023 re-recorded album originally released in 2008?",
+    "answer": "Fearless (Taylor's Version)",
+    "choices": [
+      "Fearless (Taylor's Version)",
+      "Speak Now (Taylor's Version)",
+      "Red (Taylor's Version)",
+      "1989 (Taylor's Version)"
+    ],
+    "explanation": "As part of her re-recording project, Taylor Swift released Fearless (Taylor's Version) in 2021."
+  },
+  {
+    "question": "Which rapper's real name is Aubrey Drake Graham?",
+    "answer": "Drake",
+    "choices": [
+      "Drake",
+      "Lil Wayne",
+      "Future",
+      "The Weeknd"
+    ],
+    "explanation": "Drake's full birth name is Aubrey Drake Graham; he was born in Toronto, Canada."
+  },
+  {
+    "question": "What band is famous for the song 'Hotel California'?",
+    "answer": "Eagles",
+    "choices": [
+      "Eagles",
+      "Fleetwood Mac",
+      "The Doors",
+      "Steely Dan"
+    ],
+    "explanation": "'Hotel California' (1977) is the signature song of the Eagles, one of the best-selling albums of all time."
+  },
+  {
+    "question": "Which music video was the first to reach 1 billion views on YouTube?",
+    "answer": "Gangnam Style by PSY",
+    "choices": [
+      "Gangnam Style by PSY",
+      "Baby by Justin Bieber",
+      "Shake It Off by Taylor Swift",
+      "Despacito by Luis Fonsi"
+    ],
+    "explanation": "PSY's 'Gangnam Style' (2012) was the first YouTube video to reach 1 billion, then 2 billion, then 3 billion views."
+  },
+  {
+    "question": "Who is known as the 'Queen of Soul'?",
+    "answer": "Aretha Franklin",
+    "choices": [
+      "Aretha Franklin",
+      "Patti LaBelle",
+      "Diana Ross",
+      "Tina Turner"
+    ],
+    "explanation": "Aretha Franklin earned the title 'Queen of Soul' for her powerful voice and career spanning more than five decades."
+  },
+  {
+    "question": "What is the name of Jay-Z's wife who is also a superstar in her own right?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Rihanna",
+      "Alicia Keys",
+      "Nicki Minaj"
+    ],
+    "explanation": "Jay-Z (Shawn Carter) married Beyonc\u00e9 Knowles in 2008."
+  },
+  {
+    "question": "Which British band released 'Creep' as their debut single?",
+    "answer": "Radiohead",
+    "choices": [
+      "Radiohead",
+      "Blur",
+      "Suede",
+      "Pulp"
+    ],
+    "explanation": "'Creep' (1992) was Radiohead's debut single, a grunge-inflected song that became a worldwide hit."
+  },
+  {
+    "question": "What singer's real name is Stefani Joanne Angelina Germanotta?",
+    "answer": "Lady Gaga",
+    "choices": [
+      "Lady Gaga",
+      "Katy Perry",
+      "Pink",
+      "Sia"
+    ],
+    "explanation": "Lady Gaga was born Stefani Joanne Angelina Germanotta on March 28, 1986, in New York City."
+  },
+  {
+    "question": "Which classic country song begins 'I walk the line'?",
+    "answer": "I Walk the Line by Johnny Cash",
+    "choices": [
+      "I Walk the Line by Johnny Cash",
+      "Ring of Fire by Johnny Cash",
+      "Folsom Prison Blues by Johnny Cash",
+      "Man in Black by Johnny Cash"
+    ],
+    "explanation": "'I Walk the Line' (1956) was recorded by Johnny Cash and became one of his signature songs."
+  },
+  {
+    "question": "What decade did hip-hop emerge as a music genre?",
+    "answer": "1970s",
+    "choices": [
+      "1970s",
+      "1960s",
+      "1980s",
+      "1990s"
+    ],
+    "explanation": "Hip-hop originated in the Bronx, New York City, in the early-to-mid 1970s through DJs like DJ Kool Herc."
+  },
+  {
+    "question": "Who recorded the hit song 'Smells Like Teen Spirit'?",
+    "answer": "Nirvana",
+    "choices": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "explanation": "'Smells Like Teen Spirit' (1991) by Nirvana became the anthem of the grunge generation and made the band international stars."
+  },
+  {
+    "question": "Which British singer had hits with 'Someone Like You' and 'Hello'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Duffy",
+      "Florence and the Machine"
+    ],
+    "explanation": "Adele's 'Someone Like You' (2011) and 'Hello' (2015) are among the biggest-selling singles of the 21st century."
+  },
+  {
+    "question": "What is the name of Rihanna's iconic 2007 hit about a weather forecast?",
+    "answer": "Umbrella",
+    "choices": [
+      "Umbrella",
+      "Rude Boy",
+      "We Found Love",
+      "Stay"
+    ],
+    "explanation": "'Umbrella' (2007) by Rihanna topped charts worldwide and is considered one of her signature songs."
+  },
+  {
+    "question": "Who is the lead vocalist of the band Muse?",
+    "answer": "Matt Bellamy",
+    "choices": [
+      "Matt Bellamy",
+      "Thom Yorke",
+      "Chris Martin",
+      "Dominic Howard"
+    ],
+    "explanation": "Matt Bellamy is the vocalist, guitarist, and primary songwriter for the British rock band Muse."
+  },
+  {
+    "question": "What hip-hop duo released 'Hey Ya!'?",
+    "answer": "OutKast",
+    "choices": [
+      "OutKast",
+      "Outkast",
+      "Lil Jon & the East Side Boyz",
+      "UGK"
+    ],
+    "explanation": "'Hey Ya!' (2003) was released by the Atlanta duo OutKast (Andr\u00e9 3000 and Big Boi) from their double album Speakerboxxx/The Love Below."
+  },
+  {
+    "question": "Which musician pioneered 'psychedelic soul' and is known for 'Purple Rain'?",
+    "answer": "Prince",
+    "choices": [
+      "Prince",
+      "Stevie Wonder",
+      "George Clinton",
+      "Sly Stone"
+    ],
+    "explanation": "Prince blended multiple genres including funk, rock, soul, and psychedelia, with Purple Rain (1984) being his crowning achievement."
+  },
+  {
+    "question": "Which famous jazz musician was known as 'Satchmo'?",
+    "answer": "Louis Armstrong",
+    "choices": [
+      "Louis Armstrong",
+      "Duke Ellington",
+      "Miles Davis",
+      "Charlie Parker"
+    ],
+    "explanation": "Louis Armstrong was nicknamed 'Satchmo' (short for Satchel Mouth) and is considered one of the most influential figures in jazz history."
+  },
+  {
+    "question": "What girl group had the hit 'Wannabe' in 1996?",
+    "answer": "Spice Girls",
+    "choices": [
+      "Spice Girls",
+      "Destiny's Child",
+      "TLC",
+      "En Vogue"
+    ],
+    "explanation": "'Wannabe' (1996) was the debut single of the Spice Girls, spending 7 weeks at #1 in the UK."
+  },
+  {
+    "question": "Who is known as the King of Country Music?",
+    "answer": "George Strait",
+    "choices": [
+      "George Strait",
+      "Garth Brooks",
+      "Johnny Cash",
+      "Hank Williams"
+    ],
+    "explanation": "George Strait is often called the 'King of Country Music' for his record-breaking number-one hits and classic country style."
+  },
+  {
+    "question": "Which album by Drake featured the hit 'God's Plan'?",
+    "answer": "Scorpion",
+    "choices": [
+      "Scorpion",
+      "Views",
+      "More Life",
+      "Take Care"
+    ],
+    "explanation": "'God's Plan' was released in 2018 as a standalone single and later included on Drake's album Scorpion."
+  },
+  {
+    "question": "What is the name of the record label co-founded by Dr. Dre and Suge Knight?",
+    "answer": "Death Row Records",
+    "choices": [
+      "Death Row Records",
+      "Aftermath Entertainment",
+      "Interscope Records",
+      "Bad Boy Records"
+    ],
+    "explanation": "Death Row Records was co-founded by Dr. Dre and Suge Knight in 1991, home to Tupac Shakur and Snoop Dogg."
+  },
+  {
+    "question": "Which band wrote and performed 'Stairway to Heaven'?",
+    "answer": "Led Zeppelin",
+    "choices": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "Yes"
+    ],
+    "explanation": "'Stairway to Heaven' (1971) by Led Zeppelin is one of the most celebrated rock songs ever written."
+  },
+  {
+    "question": "What is the name of Beyonc\u00e9's 2022 dance album?",
+    "answer": "Renaissance",
+    "choices": [
+      "Renaissance",
+      "Lemonade",
+      "Beyonc\u00e9",
+      "4"
+    ],
+    "explanation": "Renaissance (2022) is Beyonc\u00e9's seventh studio album, a house and dance-influenced work celebrating Black LGBTQ+ culture."
+  },
+  {
+    "question": "Which country singer had a hit with 'Before He Cheats'?",
+    "answer": "Carrie Underwood",
+    "choices": [
+      "Carrie Underwood",
+      "Miranda Lambert",
+      "Taylor Swift",
+      "Reba McEntire"
+    ],
+    "explanation": "'Before He Cheats' (2005) was Carrie Underwood's breakthrough hit from her debut album Some Hearts."
+  },
+  {
+    "question": "What is the musical term for the speed of a piece of music?",
+    "answer": "Tempo",
+    "choices": [
+      "Tempo",
+      "Rhythm",
+      "Meter",
+      "Dynamics"
+    ],
+    "explanation": "Tempo refers to the speed at which a piece of music is played, typically measured in beats per minute."
+  },
+  {
+    "question": "Which band released the album 'The Joshua Tree'?",
+    "answer": "U2",
+    "choices": [
+      "U2",
+      "Coldplay",
+      "Radiohead",
+      "R.E.M."
+    ],
+    "explanation": "U2's The Joshua Tree (1987) became one of the best-selling albums in history and won the Grammy for Album of the Year."
+  },
+  {
+    "question": "What city is known as the birthplace of the blues?",
+    "answer": "Mississippi Delta",
+    "choices": [
+      "Mississippi Delta",
+      "Chicago",
+      "Memphis",
+      "Detroit"
+    ],
+    "explanation": "The Mississippi Delta region of the Deep South is widely considered the birthplace of the blues, with Chicago later becoming its urban hub."
+  },
+  {
+    "question": "Who released the 1991 grunge album 'Ten'?",
+    "answer": "Pearl Jam",
+    "choices": [
+      "Pearl Jam",
+      "Nirvana",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "explanation": "Pearl Jam's debut album Ten (1991) became one of the best-selling albums of the 1990s."
+  },
+  {
+    "question": "Which pop star released the album 'Folklore' in 2020?",
+    "answer": "Taylor Swift",
+    "choices": [
+      "Taylor Swift",
+      "Billie Eilish",
+      "Olivia Rodrigo",
+      "Ariana Grande"
+    ],
+    "explanation": "Taylor Swift released Folklore as a surprise album in July 2020, an indie folk/alternative shift from her pop sound."
+  },
+  {
+    "question": "Which artist performed a halftime show while pregnant with twins at the 2017 Super Bowl?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Lady Gaga",
+      "Madonna",
+      "Katy Perry"
+    ],
+    "explanation": "Beyonc\u00e9 performed at the 2017 Grammys while visibly pregnant with twins, not the Super Bowl \u2014 Lady Gaga headlined Super Bowl LI."
+  },
+  {
+    "question": "What hip-hop classic by Tupac features samples of 'How Do U Want It'?",
+    "answer": "How Do U Want It / California Love",
+    "choices": [
+      "How Do U Want It / California Love",
+      "Dear Mama",
+      "Keep Ya Head Up",
+      "Changes"
+    ],
+    "explanation": "'How Do U Want It' and 'California Love' are iconic 1996 singles by Tupac Shakur featuring Dr. Dre."
+  },
+  {
+    "question": "Which band has been nicknamed 'The World's Greatest Rock and Roll Band'?",
+    "answer": "The Rolling Stones",
+    "choices": [
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "U2",
+      "Aerosmith"
+    ],
+    "explanation": "The Rolling Stones have called themselves 'The Greatest Rock and Roll Band in the World' since the 1970s."
+  },
+  {
+    "question": "What is the name of the traditional Irish genre that features fiddles and acoustic guitars?",
+    "answer": "Traditional Irish folk music (c\u00e9il\u00ed music)",
+    "choices": [
+      "Traditional Irish folk music (c\u00e9il\u00ed music)",
+      "Bluegrass",
+      "Jig Rock",
+      "Gaelic Soul"
+    ],
+    "explanation": "Traditional Irish music (trad) features fiddles, uilleann pipes, tin whistles, and guitars, often played at c\u00e9il\u00ed dances."
+  },
+  {
+    "question": "Who sang 'Killing Me Softly With His Song'?",
+    "answer": "Roberta Flack (original), covered by Fugees",
+    "choices": [
+      "Roberta Flack (original), covered by Fugees",
+      "Aretha Franklin",
+      "Diana Ross",
+      "Marvin Gaye"
+    ],
+    "explanation": "'Killing Me Softly' was originally recorded by Roberta Flack (1973) and later became a major hit for the Fugees (1996)."
+  },
+  {
+    "question": "Which artist was known as 'The Man in Black'?",
+    "answer": "Johnny Cash",
+    "choices": [
+      "Johnny Cash",
+      "Roy Orbison",
+      "Elvis Presley",
+      "Glen Campbell"
+    ],
+    "explanation": "Johnny Cash earned the nickname 'The Man in Black' for his habit of wearing all-black outfits on stage."
+  },
+  {
+    "question": "What is the name of the musical scale with no sharps or flats?",
+    "answer": "C major",
+    "choices": [
+      "C major",
+      "A minor",
+      "G major",
+      "D major"
+    ],
+    "explanation": "The C major scale contains no sharps or flats, making it the simplest major scale to play on piano (all white keys)."
+  },
+  {
+    "question": "Which pop star released the album 'Thank U, Next' in 2019?",
+    "answer": "Ariana Grande",
+    "choices": [
+      "Ariana Grande",
+      "Selena Gomez",
+      "Demi Lovato",
+      "Camila Cabello"
+    ],
+    "explanation": "Thank U, Next (2019) is Ariana Grande's fifth studio album, released just six months after Sweetener."
+  },
+  {
+    "question": "What band had hits with 'Basket Case' and 'American Idiot'?",
+    "answer": "Green Day",
+    "choices": [
+      "Green Day",
+      "The Offspring",
+      "Weezer",
+      "Sum 41"
+    ],
+    "explanation": "Green Day is the California punk rock band behind 'Basket Case' (1994) and the album American Idiot (2004)."
+  },
+  {
+    "question": "Which artist is known for the nickname 'Ye'?",
+    "answer": "Kanye West",
+    "choices": [
+      "Kanye West",
+      "Childish Gambino",
+      "Jay Electronica",
+      "Kid Cudi"
+    ],
+    "explanation": "Kanye West legally changed his name to just 'Ye' in 2021, his longtime nickname since his debut album."
+  },
+  {
+    "question": "What instrument is typically used to play a walking bass line in jazz?",
+    "answer": "Double bass (upright bass)",
+    "choices": [
+      "Double bass (upright bass)",
+      "Electric bass",
+      "Tuba",
+      "Cello"
+    ],
+    "explanation": "The walking bass line is a jazz technique typically played on the double bass (upright bass), providing harmonic and rhythmic foundation."
+  },
+  {
+    "question": "Which artist had a 2013 hit with 'Get Lucky' featuring Pharrell Williams?",
+    "answer": "Daft Punk",
+    "choices": [
       "Daft Punk",
+      "Nile Rodgers",
+      "Robin Thicke",
+      "Justin Timberlake"
+    ],
+    "explanation": "'Get Lucky' (2013) by Daft Punk featuring Pharrell Williams and Nile Rodgers became one of the biggest hits of that year."
+  },
+  {
+    "question": "What is the name of the style of music combining R&B with hip-hop vocals?",
+    "answer": "Neo-soul",
+    "choices": [
+      "Neo-soul",
+      "Gospel",
+      "Trap",
+      "Alternative R&B"
+    ],
+    "explanation": "Neo-soul blends elements of 1970s soul, R&B, hip-hop, and jazz, with artists like D'Angelo, Erykah Badu, and Lauryn Hill."
+  },
+  {
+    "question": "Who released the influential 1969 album 'Whole Lotta Love'?",
+    "answer": "Led Zeppelin",
+    "choices": [
+      "Led Zeppelin",
+      "Cream",
+      "The Who",
+      "Deep Purple"
+    ],
+    "explanation": "'Whole Lotta Love' is a track on Led Zeppelin's second album (1969), with its distinctive guitar riff by Jimmy Page."
+  },
+  {
+    "question": "What is the name of the music award presented at the Billboard Music Awards for best-selling artist?",
+    "answer": "Top Artist",
+    "choices": [
+      "Top Artist",
+      "Artist of the Year",
+      "Best Overall Artist",
+      "Chart-Topper Award"
+    ],
+    "explanation": "The Billboard Music Awards give a 'Top Artist' award to recognize the overall chart-dominating artist of the year."
+  },
+  {
+    "question": "Which pop singer was born in Barbados in 1988?",
+    "answer": "Rihanna",
+    "choices": [
+      "Rihanna",
+      "Nicki Minaj",
+      "Cardi B",
+      "Lauryn Hill"
+    ],
+    "explanation": "Robyn Rihanna Fenty was born on February 20, 1988, in Saint Michael, Barbados."
+  },
+  {
+    "question": "What is the name of the longest-running music chart in the US?",
+    "answer": "Billboard Hot 100",
+    "choices": [
+      "Billboard Hot 100",
+      "Rolling Stone Top 100",
+      "USA Today Pop Chart",
+      "Top 40 Hits"
+    ],
+    "explanation": "The Billboard Hot 100 has been ranking the most popular songs in the US since 1958."
+  },
+  {
+    "question": "Which artist released the 2017 album 'Damn.'?",
+    "answer": "Kendrick Lamar",
+    "choices": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Drake",
+      "Travis Scott"
+    ],
+    "explanation": "Kendrick Lamar's DAMN. (2017) became the first non-classical, non-jazz album to win the Pulitzer Prize for Music."
+  },
+  {
+    "question": "What is the musical term for a composition for two performers?",
+    "answer": "Duet",
+    "choices": [
+      "Duet",
+      "Trio",
+      "Quartet",
+      "Solo"
+    ],
+    "explanation": "A duet is a musical composition written for two performers, whether vocals, instruments, or a combination."
+  },
+  {
+    "question": "Which 1980s pop star was known as 'The Material Girl'?",
+    "answer": "Madonna",
+    "choices": [
+      "Madonna",
+      "Whitney Houston",
+      "Cyndi Lauper",
+      "Tina Turner"
+    ],
+    "explanation": "Madonna's 'Material Girl' (1984) and its music video earned her the nickname 'The Material Girl.'"
+  },
+  {
+    "question": "Who performed the song 'Lose Yourself' for the 8 Mile soundtrack?",
+    "answer": "Eminem",
+    "choices": [
+      "Eminem",
+      "50 Cent",
+      "Dr. Dre",
+      "Snoop Dogg"
+    ],
+    "explanation": "'Lose Yourself' (2002) by Eminem won the Academy Award for Best Original Song for the film 8 Mile."
+  },
+  {
+    "question": "What is the name of the music chart that ranks the most popular albums?",
+    "answer": "Billboard 200",
+    "choices": [
+      "Billboard 200",
+      "Billboard Hot 100",
+      "Album Chart",
+      "Top 200 Albums"
+    ],
+    "explanation": "The Billboard 200 is the primary American albums chart, ranking the 200 most popular albums each week."
+  },
+  {
+    "question": "Which singer is known for wearing outrageous costumes and wigs?",
+    "answer": "Lady Gaga",
+    "choices": [
+      "Lady Gaga",
+      "Nicki Minaj",
+      "Cardi B",
+      "Katy Perry"
+    ],
+    "explanation": "Lady Gaga is renowned for her avant-garde fashion choices, elaborate stage costumes, and artistic persona."
+  },
+  {
+    "question": "What rock band had hits with 'Under the Bridge' and 'Californication'?",
+    "answer": "Red Hot Chili Peppers",
+    "choices": [
+      "Red Hot Chili Peppers",
+      "Foo Fighters",
+      "Rage Against the Machine",
+      "Stone Temple Pilots"
+    ],
+    "explanation": "The Red Hot Chili Peppers are a Los Angeles funk-rock band whose hits include 'Under the Bridge' (1991) and 'Californication' (1999)."
+  },
+  {
+    "question": "Which country singer performs 'Friends in Low Places'?",
+    "answer": "Garth Brooks",
+    "choices": [
+      "Garth Brooks",
+      "George Strait",
+      "Alan Jackson",
+      "Toby Keith"
+    ],
+    "explanation": "'Friends in Low Places' (1990) is one of Garth Brooks's signature songs and one of the best-selling country singles ever."
+  },
+  {
+    "question": "What is the name of the Grammy award for best new artist?",
+    "answer": "Best New Artist",
+    "choices": [
+      "Best New Artist",
+      "Rising Star",
+      "Newcomer of the Year",
+      "Most Promising Artist"
+    ],
+    "explanation": "The Grammy Award for Best New Artist has been presented since 1959, honoring a recording artist who releases their first notable recording."
+  },
+  {
+    "question": "Which band's lead singer is Billie Joe Armstrong?",
+    "answer": "Green Day",
+    "choices": [
+      "Green Day",
+      "The Offspring",
+      "Blink-182",
+      "Sum 41"
+    ],
+    "explanation": "Billie Joe Armstrong is the co-founder and lead vocalist of Green Day."
+  },
+  {
+    "question": "What singer released the classic soul album 'What's Going On' in 1971?",
+    "answer": "Marvin Gaye",
+    "choices": [
+      "Marvin Gaye",
+      "Al Green",
+      "Otis Redding",
+      "Curtis Mayfield"
+    ],
+    "explanation": "What's Going On (1971) by Marvin Gaye addressed social issues including poverty, drug abuse, and the Vietnam War, becoming one of the greatest albums ever."
+  },
+  {
+    "question": "What is the style of music combining elements of electronic, hip-hop, and pop?",
+    "answer": "Trap music",
+    "choices": [
+      "Trap music",
+      "EDM",
+      "Dance-pop",
+      "Future bass"
+    ],
+    "explanation": "Trap music is a hip-hop subgenre originating in Atlanta, characterized by heavy 808 bass drums, hi-hats, and dark atmospheres."
+  },
+  {
+    "question": "Which 1977 Fleetwood Mac song is about heartbreak after a breakup?",
+    "answer": "Go Your Own Way",
+    "choices": [
+      "Go Your Own Way",
+      "Dreams",
+      "The Chain",
+      "Gold Dust Woman"
+    ],
+    "explanation": "'Go Your Own Way' (1977) was written by Lindsey Buckingham about his breakup with Stevie Nicks."
+  },
+  {
+    "question": "Who sang 'Beat It' and 'Billie Jean' on the Thriller album?",
+    "answer": "Michael Jackson",
+    "choices": [
+      "Michael Jackson",
+      "Prince",
+      "Rick James",
+      "Janet Jackson"
+    ],
+    "explanation": "'Billie Jean' and 'Beat It' are both tracks on Michael Jackson's Thriller (1982), two of the album's many iconic hits."
+  },
+  {
+    "question": "Which indie artist released the album 'Immunity' in 2019?",
+    "answer": "Clairo",
+    "choices": [
+      "Clairo",
+      "Billie Eilish",
+      "Soccer Mommy",
+      "Rex Orange County"
+    ],
+    "explanation": "Clairo released her debut album Immunity in 2019 after gaining fame with her DIY bedroom pop recordings."
+  },
+  {
+    "question": "Who sang 'Halo' and 'Run the World (Girls)'?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Alicia Keys",
+      "Rihanna",
+      "Mariah Carey"
+    ],
+    "explanation": "'Halo' (2008) and 'Run the World (Girls)' (2011) are Beyonc\u00e9 songs from her albums I Am... Sasha Fierce and 4, respectively."
+  },
+  {
+    "question": "Which artist released the viral 2021 hit 'drivers license'?",
+    "answer": "Olivia Rodrigo",
+    "choices": [
+      "Olivia Rodrigo",
+      "Taylor Swift",
+      "Billie Eilish",
+      "Sabrina Carpenter"
+    ],
+    "explanation": "'drivers license' by Olivia Rodrigo debuted at #1 and broke streaming records when released in January 2021."
+  },
+  {
+    "question": "What term describes music that blends jazz and rock?",
+    "answer": "Jazz fusion",
+    "choices": [
+      "Jazz fusion",
+      "Smooth jazz",
+      "Acid jazz",
+      "Nu jazz"
+    ],
+    "explanation": "Jazz fusion emerged in the late 1960s, blending jazz with funk, rock, and electronic music; key artists include Miles Davis and Herbie Hancock."
+  },
+  {
+    "question": "Which rock band's drummer was known as 'The Madman' and died in 1980?",
+    "answer": "Led Zeppelin (John Bonham)",
+    "choices": [
+      "Led Zeppelin (John Bonham)",
+      "The Who (Keith Moon)",
+      "Mot\u00f6rhead (Philthy Animal Taylor)",
+      "AC/DC (Phil Rudd)"
+    ],
+    "explanation": "John Bonham of Led Zeppelin died in 1980; Keith Moon of The Who (also called 'The Loon' or 'Moon the Loon') died in 1978."
+  },
+  {
+    "question": "What is the name of the Beastie Boys' debut album from 1986?",
+    "answer": "Licensed to Ill",
+    "choices": [
+      "Licensed to Ill",
+      "Paul's Boutique",
+      "Check Your Head",
+      "Ill Communication"
+    ],
+    "explanation": "Licensed to Ill (1986) by the Beastie Boys was the first rap album to top the Billboard 200 chart."
+  },
+  {
+    "question": "Which singer performed at both the 2016 and 2023 Super Bowl halftime shows?",
+    "answer": "Beyonc\u00e9 (2016) and Rihanna (2023)",
+    "choices": [
+      "Beyonc\u00e9 (2016) and Rihanna (2023)",
+      "Lady Gaga",
+      "Coldplay",
+      "Bruno Mars"
+    ],
+    "explanation": "Beyonc\u00e9 headlined Super Bowl 50 in 2016, and Rihanna made a comeback at Super Bowl LVII in 2023."
+  },
+  {
+    "question": "What is the term for the main recurring musical theme in a film score?",
+    "answer": "Leitmotif",
+    "choices": [
+      "Leitmotif",
+      "Main theme",
+      "Overture",
+      "Score"
+    ],
+    "explanation": "A leitmotif is a recurring musical phrase associated with a particular character, place, or idea in a film or opera score."
+  },
+  {
+    "question": "Which pop duo performed 'Wake Me Up Before You Go-Go'?",
+    "answer": "Wham!",
+    "choices": [
+      "Wham!",
+      "Hall & Oates",
+      "Pet Shop Boys",
+      "Culture Club"
+    ],
+    "explanation": "'Wake Me Up Before You Go-Go' (1984) was a #1 hit for Wham!, the British pop duo of George Michael and Andrew Ridgeley."
+  },
+  {
+    "question": "What hip-hop group included Ice Cube, Dr. Dre, and Eazy-E?",
+    "answer": "N.W.A",
+    "choices": [
+      "N.W.A",
+      "Wu-Tang Clan",
+      "A Tribe Called Quest",
+      "Public Enemy"
+    ],
+    "explanation": "N.W.A (Niggaz Wit Attitudes) was a pioneering gangsta rap group from Compton, California, that included Ice Cube, Dr. Dre, Eazy-E, MC Ren, and DJ Yella."
+  },
+  {
+    "question": "Who was the original lead singer of the band Van Halen?",
+    "answer": "David Lee Roth",
+    "choices": [
+      "David Lee Roth",
+      "Sammy Hagar",
+      "Gary Cherone",
+      "Alex Van Halen"
+    ],
+    "explanation": "David Lee Roth was the original flamboyant lead singer of Van Halen before leaving in 1985."
+  },
+  {
+    "question": "What pop artist is known for the album 'Born This Way'?",
+    "answer": "Lady Gaga",
+    "choices": [
+      "Lady Gaga",
+      "Katy Perry",
+      "Christina Aguilera",
+      "Demi Lovato"
+    ],
+    "explanation": "Born This Way (2011) by Lady Gaga is an album that champions LGBTQ+ rights and personal identity."
+  },
+  {
+    "question": "Which legendary guitarist was known for playing his instrument behind his head?",
+    "answer": "Jimi Hendrix",
+    "choices": [
+      "Jimi Hendrix",
+      "Chuck Berry",
+      "Eddie Van Halen",
+      "Pete Townshend"
+    ],
+    "explanation": "Jimi Hendrix amazed audiences with guitar tricks including playing behind his head and with his teeth."
+  },
+  {
+    "question": "What country-pop singer won the Grammy for Song of the Year for 'We Are Never Ever Getting Back Together'?",
+    "answer": "Taylor Swift",
+    "choices": [
+      "Taylor Swift",
+      "Kacey Musgraves",
+      "Carrie Underwood",
+      "Miranda Lambert"
+    ],
+    "explanation": "Taylor Swift has won multiple Grammy Song of the Year awards, though 'We Are Never Ever Getting Back Together' did not win Song of the Year \u2014 'Mean' was her Grammy winner."
+  },
+  {
+    "question": "Which R&B singer is known as the 'Songbird Supreme' for her vocal range?",
+    "answer": "Mariah Carey",
+    "choices": [
+      "Mariah Carey",
+      "Whitney Houston",
+      "C\u00e9line Dion",
+      "Ariana Grande"
+    ],
+    "explanation": "Mariah Carey is called the 'Songbird Supreme' by Guinness World Records for her five-octave vocal range."
+  },
+  {
+    "question": "Who founded the record label Def Jam Recordings?",
+    "answer": "Russell Simmons and Rick Rubin",
+    "choices": [
+      "Russell Simmons and Rick Rubin",
+      "Jay-Z",
+      "P Diddy",
+      "L.A. Reid"
+    ],
+    "explanation": "Def Jam Recordings was co-founded by Russell Simmons and Rick Rubin in New York City in 1983."
+  },
+  {
+    "question": "What is the name of Taylor Swift's 2019 colorful pop album?",
+    "answer": "Lover",
+    "choices": [
+      "Lover",
+      "1989",
+      "Reputation",
+      "Midnights"
+    ],
+    "explanation": "Lover (2019) is Taylor Swift's seventh studio album, with a pastel-colored aesthetic and romantic themes."
+  },
+  {
+    "question": "Which artist popularized the 'drop' in electronic dance music?",
+    "answer": "Various EDM artists (e.g., Skrillex, Deadmau5)",
+    "choices": [
+      "Various EDM artists (e.g., Skrillex, Deadmau5)",
+      "Michael Jackson",
+      "Daft Punk",
+      "Kraftwerk"
+    ],
+    "explanation": "The 'drop' \u2014 the point in an EDM track where tension releases into a heavy beat \u2014 was popularized by producers like Skrillex and Deadmau5 in the late 2000s."
+  },
+  {
+    "question": "What artist is known as 'The Purple One'?",
+    "answer": "Prince",
+    "choices": [
+      "Prince",
+      "Jimi Hendrix",
+      "George Clinton",
+      "Lenny Kravitz"
+    ],
+    "explanation": "Prince is called 'The Purple One' because of his signature color purple and the iconic Purple Rain album and film."
+  },
+  {
+    "question": "Which band performs the iconic opening riff in 'Smoke on the Water'?",
+    "answer": "Deep Purple",
+    "choices": [
+      "Deep Purple",
+      "Black Sabbath",
+      "Led Zeppelin",
+      "Cream"
+    ],
+    "explanation": "'Smoke on the Water' (1972) by Deep Purple has one of the most recognizable guitar riffs in rock history."
+  },
+  {
+    "question": "Which 1990s pop star was known for the hit 'Baby One More Time'?",
+    "answer": "Britney Spears",
+    "choices": [
+      "Britney Spears",
+      "Christina Aguilera",
+      "Mandy Moore",
+      "Jessica Simpson"
+    ],
+    "explanation": "'...Baby One More Time' (1998) was Britney Spears's debut single, launching one of pop music's biggest careers."
+  },
+  {
+    "question": "What is the name of the music notation symbol that raises a note by a half step?",
+    "answer": "Sharp (#)",
+    "choices": [
+      "Sharp (#)",
+      "Flat (\u266d)",
+      "Natural (\u266e)",
+      "Double sharp"
+    ],
+    "explanation": "A sharp (\u266f) in music notation raises a note by a semitone (half step)."
+  },
+  {
+    "question": "Who released the seminal soul album 'Songs in the Key of Life'?",
+    "answer": "Stevie Wonder",
+    "choices": [
+      "Stevie Wonder",
+      "Marvin Gaye",
+      "Al Green",
+      "Michael Jackson"
+    ],
+    "explanation": "Songs in the Key of Life (1976) by Stevie Wonder is a double album widely considered one of the greatest albums of all time."
+  },
+  {
+    "question": "Which female country duo had the hit 'Wide Open Spaces'?",
+    "answer": "Dixie Chicks (The Chicks)",
+    "choices": [
+      "Dixie Chicks (The Chicks)",
+      "Sugarland",
+      "Lady Antebellum",
+      "Florida Georgia Line"
+    ],
+    "explanation": "'Wide Open Spaces' (1998) was the debut single of the Dixie Chicks (now The Chicks), winning a Grammy for Best Country Album."
+  },
+  {
+    "question": "What is the name of the iconic drum machine used in 1980s hip-hop and pop?",
+    "answer": "Roland TR-808",
+    "choices": [
+      "Roland TR-808",
+      "Boss DR-110",
+      "Akai MPC",
+      "Linn LM-1"
+    ],
+    "explanation": "The Roland TR-808 is a legendary drum machine whose booming bass drum and distinctive sounds defined hip-hop and electro pop."
+  },
+  {
+    "question": "Which pop star collaborated with Jay-Z on the album 'Watch the Throne'?",
+    "answer": "Kanye West",
+    "choices": [
+      "Kanye West",
+      "Drake",
+      "Eminem",
+      "Justin Timberlake"
+    ],
+    "explanation": "Watch the Throne (2011) is a collaborative album by Jay-Z and Kanye West featuring hits like 'Niggas in Paris.'"
+  },
+  {
+    "question": "What artist released the 2013 album 'Yeezus'?",
+    "answer": "Kanye West",
+    "choices": [
+      "Kanye West",
+      "Jay-Z",
+      "Drake",
+      "Kendrick Lamar"
+    ],
+    "explanation": "Yeezus (2013) is Kanye West's sixth studio album, known for its industrial and experimental sound."
+  },
+  {
+    "question": "What is the name of the song by Billie Eilish that opens with 'I'm the bad guy'?",
+    "answer": "Bad Guy",
+    "choices": [
+      "Bad Guy",
+      "Bury a Friend",
+      "When the Party's Over",
+      "Ocean Eyes"
+    ],
+    "explanation": "'Bad Guy' is the lead single from Billie Eilish's debut album 'When We All Fall Asleep, Where Do We Go?' (2019)."
+  },
+  {
+    "question": "Who sang 'What's Love Got to Do with It'?",
+    "answer": "Tina Turner",
+    "choices": [
+      "Tina Turner",
+      "Aretha Franklin",
+      "Diana Ross",
+      "Patti LaBelle"
+    ],
+    "explanation": "'What's Love Got to Do with It' (1984) was Tina Turner's comeback solo hit, winning three Grammy Awards."
+  },
+  {
+    "question": "What band was known for the concept album 'The Wall' about a rock star's mental breakdown?",
+    "answer": "Pink Floyd",
+    "choices": [
+      "Pink Floyd",
+      "The Who",
+      "Yes",
+      "Genesis"
+    ],
+    "explanation": "The Wall (1979) by Pink Floyd is a rock opera about a musician named Pink who builds a metaphorical wall around himself."
+  },
+  {
+    "question": "Which artist is known for the 'Lil' prefix and the album 'Drip Season'?",
+    "answer": "Gunna",
+    "choices": [
+      "Gunna",
+      "Lil Baby",
+      "Future",
+      "Young Thug"
+    ],
+    "explanation": "Gunna is an Atlanta-based rapper known for his melodic trap style and albums like Drip Season."
+  },
+  {
+    "question": "What is the name of the Australian rock band known for 'Down Under'?",
+    "answer": "Men at Work",
+    "choices": [
+      "Men at Work",
+      "INXS",
+      "Midnight Oil",
+      "AC/DC"
+    ],
+    "explanation": "'Down Under' (1981) by Men at Work is an iconic Australian song celebrating the country's culture and geography."
+  },
+  {
+    "question": "Who wrote and performed the anthem 'Born to Run'?",
+    "answer": "Bruce Springsteen",
+    "choices": [
+      "Bruce Springsteen",
+      "Tom Petty",
+      "John Mellencamp",
+      "Bob Seger"
+    ],
+    "explanation": "'Born to Run' (1975) is Bruce Springsteen's breakthrough single, a celebration of escape and freedom that became his signature song."
+  },
+  {
+    "question": "What is the name of the music style developed in Jamaica that influenced hip-hop?",
+    "answer": "Dancehall",
+    "choices": [
+      "Dancehall",
+      "Ska",
+      "Reggaeton",
+      "Dub"
+    ],
+    "explanation": "Dancehall emerged in Jamaica in the late 1970s and heavily influenced the development of hip-hop through its use of toasting (rapping) over rhythm tracks."
+  },
+  {
+    "question": "Who sang the 1985 hit 'Material Girl'?",
+    "answer": "Madonna",
+    "choices": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Pat Benatar",
+      "Kim Wilde"
+    ],
+    "explanation": "'Material Girl' (1985) is one of Madonna's signature songs, cementing her image as a pop icon."
+  },
+  {
+    "question": "What is the name of The Weeknd's 2020 hit that topped charts worldwide?",
+    "answer": "Blinding Lights",
+    "choices": [
+      "Blinding Lights",
+      "Save Your Tears",
+      "Starboy",
+      "Can't Feel My Face"
+    ],
+    "explanation": "'Blinding Lights' (2019\u20132020) by The Weeknd broke numerous chart records including most weeks in the Top 10 of the Billboard Hot 100."
+  },
+  {
+    "question": "What rock group performed 'More Than a Feeling' in 1976?",
+    "answer": "Boston",
+    "choices": [
+      "Boston",
+      "Journey",
+      "Foreigner",
+      "Kansas"
+    ],
+    "explanation": "'More Than a Feeling' (1976) is the debut single by the rock band Boston, featuring Tom Scholz's guitar work."
+  },
+  {
+    "question": "Which artist is known as 'The Piano Man'?",
+    "answer": "Billy Joel",
+    "choices": [
+      "Billy Joel",
+      "Elton John",
+      "Ben Folds",
+      "Tori Amos"
+    ],
+    "explanation": "Billy Joel's signature song 'Piano Man' (1973) earned him the nickname 'The Piano Man.'"
+  },
+  {
+    "question": "What hip-hop artist is known for 'SICKO MODE' and 'Goosebumps'?",
+    "answer": "Travis Scott",
+    "choices": [
+      "Travis Scott",
+      "Drake",
+      "Migos",
+      "Roddy Ricch"
+    ],
+    "explanation": "Travis Scott (Jacques Webster) is a Houston-based rapper known for his energetic concerts and hits like 'SICKO MODE' (2018)."
+  },
+  {
+    "question": "Which country artist sang 'Jolene' and 'I Will Always Love You'?",
+    "answer": "Dolly Parton",
+    "choices": [
+      "Dolly Parton",
+      "Loretta Lynn",
+      "Tammy Wynette",
+      "Wynonna Judd"
+    ],
+    "explanation": "Dolly Parton wrote and recorded both 'Jolene' and 'I Will Always Love You' in 1973."
+  },
+  {
+    "question": "What is the genre of music that emerged in the UK in the mid-1970s, characterized by fast tempos and aggressive performances?",
+    "answer": "Punk rock",
+    "choices": [
+      "Punk rock",
+      "New wave",
+      "Glam rock",
+      "Post-punk"
+    ],
+    "explanation": "Punk rock emerged in the mid-1970s with bands like the Sex Pistols and The Clash, featuring raw energy and a DIY ethos."
+  },
+  {
+    "question": "Who is the lead singer of Maroon 5?",
+    "answer": "Adam Levine",
+    "choices": [
+      "Adam Levine",
+      "John Mayer",
+      "Gavin DeGraw",
+      "Jason Mraz"
+    ],
+    "explanation": "Adam Levine is the co-founder and lead vocalist of Maroon 5, known for songs like 'This Love,' 'She Will Be Loved,' and 'Moves Like Jagger.'"
+  },
+  {
+    "question": "What R&B singer released the album 'Lemonade'?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Rihanna",
+      "SZA",
+      "Solange"
+    ],
+    "explanation": "Lemonade (2016) is Beyonc\u00e9's visual album addressing themes of infidelity, race, and empowerment."
+  },
+  {
+    "question": "Which band released the album 'Appetite for Destruction' in 1987?",
+    "answer": "Guns N' Roses",
+    "choices": [
+      "Guns N' Roses",
+      "M\u00f6tley Cr\u00fce",
+      "Poison",
+      "Def Leppard"
+    ],
+    "explanation": "Guns N' Roses' debut album Appetite for Destruction (1987) is the best-selling debut album of all time in the US."
+  },
+  {
+    "question": "What is the name of rapper Jay-Z's charitable foundation?",
+    "answer": "Shawn Carter Foundation",
+    "choices": [
+      "Shawn Carter Foundation",
+      "Roc Nation Foundation",
+      "4:44 Foundation",
+      "Carter Family Fund"
+    ],
+    "explanation": "Jay-Z (Shawn Carter) established the Shawn Carter Foundation in 2003 to provide scholarship assistance to youth facing economic hardships."
+  },
+  {
+    "question": "Which pop artist famously shaved her head in 2007?",
+    "answer": "Britney Spears",
+    "choices": [
+      "Britney Spears",
+      "Pink",
+      "Sin\u00e9ad O'Connor",
+      "Miley Cyrus"
+    ],
+    "explanation": "Britney Spears shaved her head at a hair salon in Tarzana, California, in February 2007 during a public breakdown."
+  },
+  {
+    "question": "What is the name of the iconic Woodstock generation song by Joni Mitchell?",
+    "answer": "Woodstock",
+    "choices": [
+      "Woodstock",
+      "Big Yellow Taxi",
+      "Both Sides Now",
+      "A Case of You"
+    ],
+    "explanation": "Joni Mitchell wrote 'Woodstock' (1970) about the 1969 festival even though she didn't attend it; the song was most famously covered by Crosby, Stills, Nash & Young."
+  },
+  {
+    "question": "Who released the iconic 1979 disco album 'Off the Wall'?",
+    "answer": "Michael Jackson",
+    "choices": [
+      "Michael Jackson",
+      "Earth, Wind & Fire",
+      "Donna Summer",
+      "Gloria Gaynor"
+    ],
+    "explanation": "Off the Wall (1979) was Michael Jackson's breakthrough solo album as an adult artist, produced by Quincy Jones."
+  },
+  {
+    "question": "What is the name of the Brazilian music style known for its laid-back rhythm?",
+    "answer": "Bossa nova",
+    "choices": [
+      "Bossa nova",
+      "Samba",
+      "Forr\u00f3",
+      "Bai\u00e3o"
+    ],
+    "explanation": "Bossa nova emerged in Brazil in the late 1950s, blending samba rhythms with jazz harmonies; 'The Girl from Ipanema' is its most famous song."
+  },
+  {
+    "question": "Which artist had a 2013 hit with 'Wrecking Ball'?",
+    "answer": "Miley Cyrus",
+    "choices": [
+      "Miley Cyrus",
+      "Katy Perry",
+      "Demi Lovato",
+      "Selena Gomez"
+    ],
+    "explanation": "'Wrecking Ball' was released from Miley Cyrus's album Bangerz (2013), known for its controversial music video."
+  },
+  {
+    "question": "What band performed at Super Bowl XLVII halftime show in 2013?",
+    "answer": "Beyonc\u00e9 (with Destiny's Child reunion)",
+    "choices": [
+      "Beyonc\u00e9 (with Destiny's Child reunion)",
+      "Bruno Mars",
+      "Katy Perry",
+      "Madonna"
+    ],
+    "explanation": "Beyonc\u00e9 headlined the Super Bowl XLVII halftime show in 2013, reuniting with Destiny's Child members Kelly Rowland and Michelle Williams."
+  },
+  {
+    "question": "Who released the 2010 album 'My Beautiful Dark Twisted Fantasy'?",
+    "answer": "Kanye West",
+    "choices": [
+      "Kanye West",
+      "Jay-Z",
+      "Kendrick Lamar",
+      "Childish Gambino"
+    ],
+    "explanation": "My Beautiful Dark Twisted Fantasy (2010) by Kanye West received widespread critical acclaim as one of the greatest albums of the decade."
+  },
+  {
+    "question": "What is the name of the music award show that airs in January?",
+    "answer": "Grammy Awards",
+    "choices": [
+      "Grammy Awards",
+      "American Music Awards",
+      "MTV VMAs",
+      "Billboard Music Awards"
+    ],
+    "explanation": "The Grammy Awards (Recording Academy Grammy Awards) typically air in January or February, recognizing achievements in the music industry."
+  },
+  {
+    "question": "Which female vocalist is known for the song 'Roar' and 'Firework'?",
+    "answer": "Katy Perry",
+    "choices": [
+      "Katy Perry",
+      "Lady Gaga",
+      "Nicki Minaj",
+      "Ariana Grande"
+    ],
+    "explanation": "Katy Perry's empowerment anthems 'Firework' (2010) and 'Roar' (2013) are among her biggest hits."
+  },
+  {
+    "question": "What decade did electronic dance music (EDM) become mainstream?",
+    "answer": "2010s",
+    "choices": [
+      "2010s",
+      "1990s",
+      "2000s",
+      "1980s"
+    ],
+    "explanation": "While electronic music existed for decades, EDM became mainstream popular music in the early 2010s with artists like Skrillex, David Guetta, and Calvin Harris."
+  },
+  {
+    "question": "What Scottish band had a hit with 'Don't You (Forget About Me)'?",
+    "answer": "Simple Minds",
+    "choices": [
+      "Simple Minds",
+      "Tears for Fears",
+      "The Alarm",
+      "Big Country"
+    ],
+    "explanation": "'Don't You (Forget About Me)' (1985) by Simple Minds became the theme song for The Breakfast Club."
+  },
+  {
+    "question": "What is the name of the hip-hop collective that includes Kendrick Lamar?",
+    "answer": "Black Hippy / Top Dawg Entertainment (TDE)",
+    "choices": [
+      "Black Hippy / Top Dawg Entertainment (TDE)",
+      "Odd Future",
+      "A$AP Mob",
+      "Young Money"
+    ],
+    "explanation": "Kendrick Lamar is a founding member of Black Hippy (with ScHoolboy Q, Jay Rock, Ab-Soul) and a flagship artist of TDE."
+  },
+  {
+    "question": "Which rock band's frontman is Dave Grohl?",
+    "answer": "Foo Fighters",
+    "choices": [
+      "Foo Fighters",
+      "Queens of the Stone Age",
+      "Stone Temple Pilots",
+      "Pearl Jam"
+    ],
+    "explanation": "Dave Grohl, formerly the drummer for Nirvana, founded Foo Fighters in 1994 and serves as the lead vocalist and guitarist."
+  },
+  {
+    "question": "What is the name of the song Ed Sheeran wrote for Beyonc\u00e9?",
+    "answer": "Perfect Duet",
+    "choices": [
+      "Perfect Duet",
+      "Thinking Out Loud",
+      "Photograph",
+      "Don't"
+    ],
+    "explanation": "Ed Sheeran released 'Perfect Duet' with Beyonc\u00e9 in 2017, a version of his song 'Perfect' from the Divide album."
+  },
+  {
+    "question": "Which rock musician was nicknamed 'Slowhand'?",
+    "answer": "Eric Clapton",
+    "choices": [
+      "Eric Clapton",
+      "Mark Knopfler",
+      "David Gilmour",
+      "Jeff Beck"
+    ],
+    "explanation": "Eric Clapton earned the nickname 'Slowhand' reportedly because audiences would slowly clap while waiting for him to restring his guitar."
+  },
+  {
+    "question": "What rapper's debut album was 'Section.80'?",
+    "answer": "Kendrick Lamar",
+    "choices": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Big K.R.I.T.",
+      "ScHoolboy Q"
+    ],
+    "explanation": "Section.80 (2011) was Kendrick Lamar's major-label debut, a concept album addressing the crack epidemic and its effects on Generation Y."
+  },
+  {
+    "question": "What is the name of the Spanish music style featuring guitar, percussion, and passionate vocals?",
+    "answer": "Flamenco",
+    "choices": [
+      "Flamenco",
+      "Salsa",
+      "Tango",
+      "Rumba"
+    ],
+    "explanation": "Flamenco is a Spanish art form from Andalusia, combining guitar playing (toque), song (cante), and dance (baile)."
+  },
+  {
+    "question": "Who released the 2016 album '4:44'?",
+    "answer": "Jay-Z",
+    "choices": [
+      "Jay-Z",
+      "Kanye West",
+      "Drake",
+      "Kendrick Lamar"
+    ],
+    "explanation": "4:44 (2017) is Jay-Z's 13th studio album, addressing themes of infidelity, family, and Black empowerment."
+  },
+  {
+    "question": "Which singer is known for the dramatic piano ballad 'Piano Man' (1973)?",
+    "answer": "Billy Joel",
+    "choices": [
+      "Billy Joel",
+      "Elton John",
+      "Stevie Wonder",
+      "Paul McCartney"
+    ],
+    "explanation": "'Piano Man' (1973) is Billy Joel's signature song, written about his experiences playing at a bar in Los Angeles."
+  },
+  {
+    "question": "What is the name of the Australian singer known for 'Somebody That I Used to Know'?",
+    "answer": "Gotye",
+    "choices": [
+      "Gotye",
+      "Passenger",
+      "Vance Joy",
+      "The Temper Trap"
+    ],
+    "explanation": "'Somebody That I Used to Know' (2011) by Gotye (featuring Kimbra) became one of the best-selling singles of all time."
+  },
+  {
+    "question": "Who sang 'Empire State of Mind' with Alicia Keys?",
+    "answer": "Jay-Z",
+    "choices": [
+      "Jay-Z",
+      "Kanye West",
+      "Drake",
+      "Nas"
+    ],
+    "explanation": "'Empire State of Mind' (2009) is a collaboration between Jay-Z and Alicia Keys, a tribute to New York City."
+  },
+  {
+    "question": "What is the name of the British electronic duo known for 'One More Time'?",
+    "answer": "Daft Punk",
+    "choices": [
+      "Daft Punk",
+      "Chemical Brothers",
+      "Underworld",
+      "Prodigy"
+    ],
+    "explanation": "'One More Time' (2000) is a hit by the French electronic duo Daft Punk (not British), featuring sampling of soul music."
+  },
+  {
+    "question": "Which singer had a No. 1 hit in 2021 with 'Levitating'?",
+    "answer": "Dua Lipa",
+    "choices": [
+      "Dua Lipa",
+      "Doja Cat",
+      "Olivia Rodrigo",
+      "Ariana Grande"
+    ],
+    "explanation": "'Levitating' by Dua Lipa (from Future Nostalgia, 2020) became one of the biggest hits of 2021."
+  },
+  {
+    "question": "What iconic British punk band recorded 'Anarchy in the U.K.'?",
+    "answer": "Sex Pistols",
+    "choices": [
+      "Sex Pistols",
+      "The Clash",
+      "The Damned",
+      "Buzzcocks"
+    ],
+    "explanation": "'Anarchy in the U.K.' (1976) was the debut single of the Sex Pistols, one of punk rock's defining songs."
+  },
+  {
+    "question": "Who is the rapper behind the 2018 hit 'Rockstar'?",
+    "answer": "Post Malone",
+    "choices": [
+      "Post Malone",
+      "Travis Scott",
+      "Machine Gun Kelly",
+      "Lil Uzi Vert"
+    ],
+    "explanation": "'Rockstar' (2017) by Post Malone featuring 21 Savage became a #1 hit and one of the year's biggest songs."
+  },
+  {
+    "question": "What genre of music blends traditional African instruments with Western pop?",
+    "answer": "Afrobeats",
+    "choices": [
+      "Afrobeats",
+      "Highlife",
+      "Juju",
+      "Afropop"
+    ],
+    "explanation": "Afrobeats is a broad term for contemporary West African pop music, blending traditional rhythms with pop, hip-hop, and R&B influences."
+  },
+  {
+    "question": "Which rock singer is known for elaborate theatrical stage performances with costumes and props?",
+    "answer": "Alice Cooper",
+    "choices": [
+      "Alice Cooper",
+      "David Bowie",
+      "KISS",
+      "Marilyn Manson"
+    ],
+    "explanation": "Alice Cooper is a rock musician known for pioneering shock rock with theatrical performances featuring guillotines and coffins."
+  },
+  {
+    "question": "What is the name of Childish Gambino's musical alter ego?",
+    "answer": "Donald Glover",
+    "choices": [
+      "Donald Glover",
+      "Gambino",
+      "Glover",
+      "Childish"
+    ],
+    "explanation": "Childish Gambino is the musical alias of Donald Glover, the actor/comedian/writer, known for 'This Is America' and 'Redbone.'"
+  },
+  {
+    "question": "Which singer performed 'Titanium' with David Guetta?",
+    "answer": "Sia",
+    "choices": [
+      "Sia",
+      "Ellie Goulding",
+      "Birdy",
+      "Lana Del Rey"
+    ],
+    "explanation": "Sia performed 'Titanium' (2011) with David Guetta, which became a global dance hit."
+  },
+  {
+    "question": "What hip-hop group released the influential album 'Enter the Wu-Tang (36 Chambers)'?",
+    "answer": "Wu-Tang Clan",
+    "choices": [
+      "Wu-Tang Clan",
+      "A Tribe Called Quest",
+      "De La Soul",
+      "Cypress Hill"
+    ],
+    "explanation": "Wu-Tang Clan's debut album Enter the Wu-Tang (36 Chambers) (1993) was a pioneering East Coast hip-hop record."
+  },
+  {
+    "question": "Who wrote the Broadway musical and film 'Hamilton'?",
+    "answer": "Lin-Manuel Miranda",
+    "choices": [
+      "Lin-Manuel Miranda",
+      "Andrew Lloyd Webber",
+      "Stephen Sondheim",
+      "Stephen Schwartz"
+    ],
+    "explanation": "Lin-Manuel Miranda wrote and originally starred in Hamilton (2015), a hip-hop musical about Founding Father Alexander Hamilton."
+  },
+  {
+    "question": "What is the name of the 1998 Lauryn Hill album considered one of the greatest ever?",
+    "answer": "The Miseducation of Lauryn Hill",
+    "choices": [
+      "The Miseducation of Lauryn Hill",
+      "The Score",
+      "Fugees",
+      "Ready to Die"
+    ],
+    "explanation": "The Miseducation of Lauryn Hill (1998) debuted at #1 and won five Grammy Awards, including Album of the Year."
+  },
+  {
+    "question": "What is the name of the term for a guitarist who plays both rhythm and lead guitar?",
+    "answer": "Lead guitarist or rhythm guitarist (dual-role)",
+    "choices": [
+      "Lead guitarist or rhythm guitarist (dual-role)",
+      "Fingerstyle guitarist",
+      "Shredder",
+      "Slide guitarist"
+    ],
+    "explanation": "Some guitarists play both rhythm (chords/groove) and lead (solos/melody) guitar, though in many bands these roles are split between two guitarists."
+  },
+  {
+    "question": "What is the name of the music genre that combines reggae with dancehall influences from Latin America?",
+    "answer": "Reggaeton",
+    "choices": [
+      "Reggaeton",
+      "Cumbia",
+      "Merengue",
+      "Salsa"
+    ],
+    "explanation": "Reggaeton is a music genre that originated in Puerto Rico, blending reggae, dancehall, and hip-hop with Latin rhythms."
+  },
+  {
+    "question": "What classic rock band features members Mick Jagger and Keith Richards?",
+    "answer": "The Rolling Stones",
+    "choices": [
+      "The Rolling Stones",
+      "Aerosmith",
+      "Led Zeppelin",
+      "The Who"
+    ],
+    "explanation": "Mick Jagger (vocals) and Keith Richards (guitar) are the primary songwriting partnership of The Rolling Stones, formed in 1962."
+  },
+  {
+    "question": "Who released the 2008 album 'Lil Wayne: Tha Carter III'?",
+    "answer": "Lil Wayne",
+    "choices": [
+      "Lil Wayne",
+      "Young Jeezy",
+      "T.I.",
+      "Rick Ross"
+    ],
+    "explanation": "Tha Carter III (2008) by Lil Wayne is one of the best-selling rap albums ever, featuring 'Lollipop' and 'A Milli.'"
+  },
+  {
+    "question": "What is the name of the genre of music associated with the late 1990s teen pop era?",
+    "answer": "Teen pop (bubblegum pop)",
+    "choices": [
+      "Teen pop (bubblegum pop)",
+      "New jack swing",
+      "Contemporary R&B",
+      "Adult contemporary"
+    ],
+    "explanation": "Teen pop (or bubblegum pop) of the late 1990s\u2013early 2000s was characterized by upbeat, radio-friendly songs by young artists like Britney Spears, *NSYNC, and BSB."
+  },
+  {
+    "question": "Which singer is known for the hit 'Rolling in the Deep' and her powerful mezzo-soprano voice?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Florence Welch",
+      "Joss Stone"
+    ],
+    "explanation": "Adele is celebrated for her powerful voice and emotional delivery, with 'Rolling in the Deep' (2010) being among her signature songs."
+  },
+  {
+    "question": "What iconic bass riff opens the song 'Come Together' by The Beatles?",
+    "answer": "Paul McCartney's bass guitar intro",
+    "choices": [
+      "Paul McCartney's bass guitar intro",
+      "John Lennon's guitar",
+      "George Harrison's guitar",
+      "Ringo Starr's drums"
+    ],
+    "explanation": "'Come Together' (1969) opens with Paul McCartney's distinctive bass guitar riff, one of rock's most recognizable bass lines."
+  },
+  {
+    "question": "Who sang the James Bond theme 'Live and Let Die'?",
+    "answer": "Paul McCartney and Wings",
+    "choices": [
+      "Paul McCartney and Wings",
+      "Shirley Bassey",
+      "Tom Jones",
+      "Carly Simon"
+    ],
+    "explanation": "'Live and Let Die' (1973) was performed by Paul McCartney and Wings for the Bond film of the same name."
+  },
+  {
+    "question": "What is the name of the style of electronic music associated with Daft Punk and French artists in the late 1990s?",
+    "answer": "French house (Filter house)",
+    "choices": [
+      "French house (Filter house)",
+      "Acid house",
+      "Deep house",
+      "Techno"
+    ],
+    "explanation": "French house (or filter house) emerged in the late 1990s with Daft Punk and other French producers using filtering techniques."
+  },
+  {
+    "question": "Who performed 'We Found Love' featuring Calvin Harris?",
+    "answer": "Rihanna",
+    "choices": [
+      "Rihanna",
+      "Dua Lipa",
+      "Ellie Goulding",
+      "Ke$ha"
+    ],
+    "explanation": "'We Found Love' (2011) by Rihanna featuring Calvin Harris became one of the best-selling singles of all time."
+  },
+  {
+    "question": "What is the term for vocal improvisation in jazz?",
+    "answer": "Scat singing",
+    "choices": [
+      "Scat singing",
+      "Bebop",
+      "Vocalization",
+      "Jazz riffing"
+    ],
+    "explanation": "Scat singing is a form of jazz vocal improvisation using nonsense syllables, popularized by Louis Armstrong and Ella Fitzgerald."
+  },
+  {
+    "question": "Which hip-hop artist released the concept album 'To Pimp a Butterfly' in 2015?",
+    "answer": "Kendrick Lamar",
+    "choices": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Kanye West",
+      "Childish Gambino"
+    ],
+    "explanation": "To Pimp a Butterfly (2015) by Kendrick Lamar is a critically acclaimed fusion of hip-hop, jazz, and funk that addresses Black identity and systemic racism."
+  },
+  {
+    "question": "What is the name of the stadium where many major music tours perform?",
+    "answer": "Various (Madison Square Garden, O2 Arena, etc.)",
+    "choices": [
+      "Various (Madison Square Garden, O2 Arena, etc.)",
+      "The Globe",
+      "The Big House",
+      "The Colosseum"
+    ],
+    "explanation": "Major concert tours perform at large arenas and stadiums like Madison Square Garden (NYC), the O2 Arena (London), and MetLife Stadium (NJ)."
+  },
+  {
+    "question": "Which singer is known for the 'I Have a Dream' speech-sampled hit 'Changes'?",
+    "answer": "Tupac Shakur",
+    "choices": [
+      "Tupac Shakur",
+      "Nas",
+      "Jay-Z",
+      "Biggie Smalls"
+    ],
+    "explanation": "'Changes' by Tupac Shakur (released posthumously in 1998) samples Bruce Hornsby's 'The Way It Is' and addresses racial and social inequality."
+  },
+  {
+    "question": "What music style is characterized by a steady four-on-the-floor bass drum beat?",
+    "answer": "House music",
+    "choices": [
+      "House music",
+      "Techno",
+      "Drum and bass",
+      "Dubstep"
+    ],
+    "explanation": "House music is an electronic dance music genre characterized by a steady kick drum on every beat, synthesizer bass lines, and soulful vocals."
+  },
+  {
+    "question": "What band had a hit with 'Smells Like Teen Spirit' in 1991?",
+    "answer": "Nirvana",
+    "choices": [
+      "Nirvana",
+      "Soundgarden",
+      "Pearl Jam",
+      "Alice in Chains"
+    ],
+    "explanation": "'Smells Like Teen Spirit' by Nirvana was released in 1991 and became the defining song of the grunge movement."
+  },
+  {
+    "question": "Which artist released the critically acclaimed album 'Norman Fucking Rockwell!' in 2019?",
+    "answer": "Lana Del Rey",
+    "choices": [
+      "Lana Del Rey",
+      "Lorde",
+      "Billie Eilish",
+      "Halsey"
+    ],
+    "explanation": "Norman Fucking Rockwell! (2019) by Lana Del Rey received widespread acclaim for its cinematic sound and lyrical depth."
+  },
+  {
+    "question": "What is the name of the instrument associated with flamenco music and Spanish culture?",
+    "answer": "Classical guitar",
+    "choices": [
+      "Classical guitar",
+      "Ukulele",
+      "Mandolin",
+      "Lute"
+    ],
+    "explanation": "The classical guitar is central to Spanish music, particularly flamenco, which features intricate fingerpicking and rhythmic strumming."
+  },
+  {
+    "question": "Who wrote 'Piano Man,' 'It's Still Rock and Roll to Me,' and 'We Didn't Start the Fire'?",
+    "answer": "Billy Joel",
+    "choices": [
+      "Billy Joel",
+      "Elton John",
+      "Paul Simon",
+      "James Taylor"
+    ],
+    "explanation": "Billy Joel is the singer-songwriter behind 'Piano Man' (1973), 'It's Still Rock and Roll to Me' (1980), and 'We Didn't Start the Fire' (1989)."
+  },
+  {
+    "question": "What is the name of the Swedish pop supergroup known for 'Dancing Queen'?",
+    "answer": "ABBA",
+    "choices": [
+      "ABBA",
+      "Europe",
+      "Roxette",
+      "Ace of Base"
+    ],
+    "explanation": "ABBA is a Swedish pop group formed in Stockholm in 1972, one of the best-selling music acts of all time."
+  },
+  {
+    "question": "Which rapper's real name is Curtis James Jackson III?",
+    "answer": "50 Cent",
+    "choices": [
+      "50 Cent",
+      "Fat Joe",
+      "The Game",
+      "Young Buck"
+    ],
+    "explanation": "50 Cent (Curtis James Jackson III) rose to fame with the album 'Get Rich or Die Tryin'' (2003)."
+  },
+  {
+    "question": "What 1984 album by Bruce Springsteen featured multiple #1 hits and sold 30 million copies?",
+    "answer": "Born in the U.S.A.",
+    "choices": [
+      "Born in the U.S.A.",
+      "Nebraska",
+      "Tunnel of Love",
+      "The River"
+    ],
+    "explanation": "Born in the U.S.A. (1984) by Bruce Springsteen produced seven Top 10 singles and is one of the best-selling albums of all time."
+  },
+  {
+    "question": "What is the name of the annual music festival held in the Nevada desert?",
+    "answer": "Burning Man",
+    "choices": [
+      "Burning Man",
+      "Coachella",
+      "Lollapalooza",
+      "Burning Festival"
+    ],
+    "explanation": "Burning Man is an annual art and music festival held in the Black Rock Desert of Nevada, known for its temporary 'Black Rock City.'"
+  },
+  {
+    "question": "Who sang the classic Motown hit 'I Heard It Through the Grapevine'?",
+    "answer": "Marvin Gaye",
+    "choices": [
+      "Marvin Gaye",
+      "Smokey Robinson",
+      "The Four Tops",
+      "The Temptations"
+    ],
+    "explanation": "Marvin Gaye's version of 'I Heard It Through the Grapevine' (1968) became Motown's best-selling single of the 1960s."
+  },
+  {
+    "question": "What genre is associated with artists like Doja Cat and Nicki Minaj?",
+    "answer": "Hip-hop/rap",
+    "choices": [
+      "Hip-hop/rap",
+      "Pop",
+      "R&B",
+      "Dance"
+    ],
+    "explanation": "Both Doja Cat and Nicki Minaj are primarily hip-hop/rap artists who also incorporate pop and R&B elements."
+  },
+  {
+    "question": "What is the name of the famous jazz venue in Harlem, New York?",
+    "answer": "Apollo Theater",
+    "choices": [
+      "Apollo Theater",
+      "Carnegie Hall",
+      "Madison Square Garden",
+      "Birdland"
+    ],
+    "explanation": "The Apollo Theater in Harlem has been a legendary venue for Black performers since the 1930s, featuring jazz, soul, and hip-hop."
+  },
+  {
+    "question": "Who performed at the first Woodstock festival in 1969?",
+    "answer": "Jimi Hendrix (and many others)",
+    "choices": [
+      "Jimi Hendrix (and many others)",
       "The Beatles",
-      "Queen"
+      "Led Zeppelin",
+      "The Rolling Stones"
     ],
-    "explanation": "A Night at the Opera was released by Queen."
+    "explanation": "Woodstock (1969) featured Jimi Hendrix, Janis Joplin, Jefferson Airplane, Creedence Clearwater Revival, and many others."
   },
   {
-    "question": "In music, in what year was the album A Night at the Opera originally released?",
-    "answer": "1975",
+    "question": "What is the term for the section of a pop song that repeats and is usually the most memorable part?",
+    "answer": "Chorus",
     "choices": [
-      "1967",
-      "2014",
-      "1993",
-      "1975"
+      "Chorus",
+      "Verse",
+      "Bridge",
+      "Pre-chorus"
     ],
-    "explanation": "A Night at the Opera was originally released in 1975."
+    "explanation": "The chorus is the repeated, most memorable section of a pop song, typically containing the hook and title."
   },
   {
-    "question": "In music, which album is by Queen?",
-    "answer": "A Night at the Opera",
+    "question": "What is the name of the singer known for 'Stay' (2021)?",
+    "answer": "The Kid LAROI (with Justin Bieber)",
     "choices": [
-      "Jagged Little Pill",
-      "Sgt. Pepper's Lonely Hearts Club Band",
-      "Channel Orange",
-      "A Night at the Opera"
+      "The Kid LAROI (with Justin Bieber)",
+      "Olivia Rodrigo",
+      "Lil Nas X",
+      "Dua Lipa"
     ],
-    "explanation": "A Night at the Opera is an album by Queen."
+    "explanation": "'Stay' (2021) by The Kid LAROI and Justin Bieber was one of the biggest global hits of 2021."
   },
   {
-    "question": "In music, who released the album Sgt. Pepper's Lonely Hearts Club Band?",
+    "question": "What is the name of the singing competition that crowned Carrie Underwood and Jennifer Hudson?",
+    "answer": "American Idol",
+    "choices": [
+      "American Idol",
+      "The Voice",
+      "The X Factor",
+      "America's Got Talent"
+    ],
+    "explanation": "American Idol crowned Carrie Underwood (Season 4, 2005); Jennifer Hudson was eliminated 7th but went on to win an Oscar."
+  },
+  {
+    "question": "Which group released the iconic doo-wop song 'Earth Angel'?",
+    "answer": "The Penguins",
+    "choices": [
+      "The Penguins",
+      "The Platters",
+      "The Drifters",
+      "The Coasters"
+    ],
+    "explanation": "'Earth Angel' (1954) by The Penguins was a foundational doo-wop song and one of the first R&B songs to cross over to mainstream pop."
+  },
+  {
+    "question": "What is the name of the music notation system created for pop/rock guitarists?",
+    "answer": "Guitar tablature (tabs)",
+    "choices": [
+      "Guitar tablature (tabs)",
+      "Standard notation",
+      "Lead sheet",
+      "Chord chart"
+    ],
+    "explanation": "Guitar tablature (tabs) is a simplified notation showing string and fret positions, widely used for learning pop and rock guitar."
+  },
+  {
+    "question": "Which pop star released the 2022 album 'Harry's House'?",
+    "answer": "Harry Styles",
+    "choices": [
+      "Harry Styles",
+      "Shawn Mendes",
+      "Niall Horan",
+      "Zayn Malik"
+    ],
+    "explanation": "Harry Styles released Harry's House in May 2022, featuring the hit 'As It Was.'"
+  },
+  {
+    "question": "Which country music legend was known as 'The Man in Black'?",
+    "answer": "Johnny Cash",
+    "choices": [
+      "Johnny Cash",
+      "Waylon Jennings",
+      "Willie Nelson",
+      "Merle Haggard"
+    ],
+    "explanation": "Johnny Cash was nicknamed 'The Man in Black' for his signature all-black stage attire, and wrote a song explaining his choice."
+  },
+  {
+    "question": "Which band is famous for the album 'Dark Side of the Moon'?",
+    "answer": "Pink Floyd",
+    "choices": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "The Who",
+      "Genesis"
+    ],
+    "explanation": "Pink Floyd's Dark Side of the Moon (1973) spent 741 weeks on the Billboard charts, one of the longest chart runs in history."
+  },
+  {
+    "question": "Which musician is nicknamed 'The Boss'?",
+    "answer": "Bruce Springsteen",
+    "choices": [
+      "Bruce Springsteen",
+      "Billy Joel",
+      "Tom Petty",
+      "John Mellencamp"
+    ],
+    "explanation": "Bruce Springsteen earned the nickname 'The Boss' early in his career when he collected his bandmates' pay and distributed it."
+  },
+  {
+    "question": "Which pop star is known as 'Queen B' or 'Bey'?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Britney Spears",
+      "Mariah Carey",
+      "Janet Jackson"
+    ],
+    "explanation": "Beyonc\u00e9 Knowles-Carter is widely known by the nicknames 'Queen Bey' and 'Bey', reflecting her status as a pop icon."
+  },
+  {
+    "question": "What band was Kurt Cobain the lead singer of?",
+    "answer": "Nirvana",
+    "choices": [
+      "Nirvana",
+      "Soundgarden",
+      "Pearl Jam",
+      "Alice in Chains"
+    ],
+    "explanation": "Kurt Cobain was the lead vocalist, guitarist, and primary songwriter of Nirvana until his death in 1994."
+  },
+  {
+    "question": "Which music genre originated in Jamaica in the 1960s?",
+    "answer": "Reggae",
+    "choices": [
+      "Reggae",
+      "Ska",
+      "Dancehall",
+      "Calypso"
+    ],
+    "explanation": "Reggae music originated in Jamaica in the late 1960s, developing from earlier styles including ska and rocksteady."
+  },
+  {
+    "question": "Which female artist released 'Like a Prayer' in 1989?",
+    "answer": "Madonna",
+    "choices": [
+      "Madonna",
+      "Whitney Houston",
+      "Cyndi Lauper",
+      "Janet Jackson"
+    ],
+    "explanation": "'Like a Prayer' is one of Madonna's most iconic songs, released in March 1989 from her album of the same name."
+  },
+  {
+    "question": "What is the name of the guitarist who pioneered the electric blues in Chicago?",
+    "answer": "Muddy Waters",
+    "choices": [
+      "Muddy Waters",
+      "Robert Johnson",
+      "BB King",
+      "Buddy Guy"
+    ],
+    "explanation": "Muddy Waters (McKinley Morganfield) helped develop Chicago blues and the electric blues style in the 1940s-50s."
+  },
+  {
+    "question": "Which band released 'Hotel California'?",
+    "answer": "Eagles",
+    "choices": [
+      "Eagles",
+      "Fleetwood Mac",
+      "Steely Dan",
+      "Crosby, Stills & Nash"
+    ],
+    "explanation": "'Hotel California' (1977) is the signature song of the Eagles, released on their album of the same name."
+  },
+  {
+    "question": "Which rapper is known as 'The God MC' and pioneered hip-hop?",
+    "answer": "Rakim",
+    "choices": [
+      "Rakim",
+      "Grandmaster Flash",
+      "Afrika Bambaataa",
+      "KRS-One"
+    ],
+    "explanation": "Rakim (William Griffin Jr.) is widely considered one of the greatest and most influential rappers in hip-hop history."
+  },
+  {
+    "question": "What band featured John Lennon and Paul McCartney?",
     "answer": "The Beatles",
     "choices": [
       "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks"
+    ],
+    "explanation": "The Beatles featured John Lennon, Paul McCartney, George Harrison, and Ringo Starr, revolutionizing popular music in the 1960s."
+  },
+  {
+    "question": "Which singer released 'Purple Rain' in 1984?",
+    "answer": "Prince",
+    "choices": [
+      "Prince",
       "Michael Jackson",
-      "Madonna",
-      "Adele"
+      "David Bowie",
+      "Stevie Wonder"
     ],
-    "explanation": "Sgt. Pepper's Lonely Hearts Club Band was released by The Beatles."
+    "explanation": "Purple Rain (1984) was both an album and film by Prince, featuring the iconic title track and 'When Doves Cry'."
   },
   {
-    "question": "In music, in what year was the album Sgt. Pepper's Lonely Hearts Club Band originally released?",
-    "answer": "1967",
+    "question": "Who is the lead vocalist of U2?",
+    "answer": "Bono",
     "choices": [
-      "2013",
-      "1967",
-      "2014",
-      "1975"
+      "Bono",
+      "The Edge",
+      "Adam Clayton",
+      "Larry Mullen Jr."
     ],
-    "explanation": "Sgt. Pepper's Lonely Hearts Club Band was originally released in 1967."
+    "explanation": "Bono (Paul Hewson) is the lead vocalist and primary lyricist of the Irish rock band U2, formed in Dublin in 1976."
   },
   {
-    "question": "In music, who released the album Random Access Memories?",
-    "answer": "Daft Punk",
+    "question": "Which classical composer was deaf when he wrote his 9th Symphony?",
+    "answer": "Ludwig van Beethoven",
     "choices": [
-      "The Beatles",
-      "Beyonce",
-      "Daft Punk",
-      "Nirvana"
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert",
+      "Johannes Brahms"
     ],
-    "explanation": "Random Access Memories was released by Daft Punk."
+    "explanation": "Beethoven completed his 9th Symphony in 1824 while almost completely deaf, never hearing it performed."
   },
   {
-    "question": "In music, in what year was the album Random Access Memories originally released?",
-    "answer": "2013",
+    "question": "What music format became popular in the 1980s, replacing vinyl records?",
+    "answer": "Compact Disc (CD)",
     "choices": [
-      "2012",
-      "1992",
-      "2013",
-      "1976"
+      "Compact Disc (CD)",
+      "8-track tape",
+      "Cassette tape",
+      "DAT tape"
     ],
-    "explanation": "Random Access Memories was originally released in 2013."
+    "explanation": "The Compact Disc (CD) was introduced in 1982 and became the dominant music format through the 1980s and 1990s."
   },
   {
-    "question": "In music, which album is by Daft Punk?",
-    "answer": "Random Access Memories",
+    "question": "Which artist is known as the 'Queen of Soul'?",
+    "answer": "Aretha Franklin",
     "choices": [
-      "Channel Orange",
-      "Purple Rain",
-      "Random Access Memories",
-      "Renaissance"
+      "Aretha Franklin",
+      "Tina Turner",
+      "Diana Ross",
+      "Patti LaBelle"
     ],
-    "explanation": "Random Access Memories is an album by Daft Punk."
+    "explanation": "Aretha Franklin earned the title 'Queen of Soul' for her powerful gospel-influenced vocal style and influential R&B recordings."
   },
   {
-    "question": "In music, who released the album Fearless?",
-    "answer": "Taylor Swift",
+    "question": "Who sang 'Stairway to Heaven'?",
+    "answer": "Led Zeppelin",
     "choices": [
-      "Miles Davis",
-      "Frank Ocean",
-      "Pink Floyd",
-      "Taylor Swift"
+      "Led Zeppelin",
+      "Black Sabbath",
+      "Deep Purple",
+      "The Who"
     ],
-    "explanation": "Fearless was released by Taylor Swift."
+    "explanation": "'Stairway to Heaven' (1971) by Led Zeppelin is widely considered one of the greatest rock songs ever recorded."
   },
   {
-    "question": "In music, in what year was the album Fearless originally released?",
-    "answer": "2008",
+    "question": "What genre of music combines country and rock?",
+    "answer": "Country rock",
     "choices": [
-      "1976",
-      "1982",
-      "1993",
-      "2008"
+      "Country rock",
+      "Rockabilly",
+      "Alt-country",
+      "Southern rock"
     ],
-    "explanation": "Fearless was originally released in 2008."
+    "explanation": "Country rock blends country music with rock elements, popularized by artists like Eagles, Poco, and Gram Parsons in the late 1960s-70s."
   },
   {
-    "question": "In music, who released the album The Fame?",
+    "question": "Which musician was nicknamed 'Ziggy Stardust'?",
+    "answer": "David Bowie",
+    "choices": [
+      "David Bowie",
+      "Elton John",
+      "Marc Bolan",
+      "Alice Cooper"
+    ],
+    "explanation": "David Bowie created the fictional rock star persona Ziggy Stardust for his 1972 concept album."
+  },
+  {
+    "question": "What instrument does Yo-Yo Ma play?",
+    "answer": "Cello",
+    "choices": [
+      "Cello",
+      "Violin",
+      "Viola",
+      "Double bass"
+    ],
+    "explanation": "Yo-Yo Ma is a world-renowned cellist known for his interpretations of classical compositions and cross-genre collaborations."
+  },
+  {
+    "question": "Which pop star is known for elaborate tours and the alter ego 'Sasha Fierce'?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Lady Gaga",
+      "Rihanna",
+      "Nicki Minaj"
+    ],
+    "explanation": "Beyonc\u00e9 introduced her alter ego 'Sasha Fierce' with her 2008 double album 'I Am... Sasha Fierce'."
+  },
+  {
+    "question": "Which artist released 'Born This Way' in 2011?",
     "answer": "Lady Gaga",
     "choices": [
-      "Alanis Morissette",
       "Lady Gaga",
-      "Eagles",
-      "Queen"
+      "Katy Perry",
+      "Ke$ha",
+      "Miley Cyrus"
     ],
-    "explanation": "The Fame was released by Lady Gaga."
+    "explanation": "'Born This Way' was the lead single from Lady Gaga's second album, released in 2011 as an LGBTQ+ anthem."
   },
   {
-    "question": "In music, in what year was the album The Fame originally released?",
-    "answer": "2008",
+    "question": "Which classical music period did Bach compose in?",
+    "answer": "Baroque",
     "choices": [
-      "2022",
-      "2008",
-      "1979",
-      "2017"
+      "Baroque",
+      "Classical",
+      "Romantic",
+      "Renaissance"
     ],
-    "explanation": "The Fame was originally released in 2008."
+    "explanation": "Johann Sebastian Bach (1685-1750) is one of the greatest composers of the Baroque period, known for his complex counterpoint."
   },
   {
-    "question": "In music, which album is by Lady Gaga?",
-    "answer": "The Fame",
+    "question": "What band is Thom Yorke the lead singer of?",
+    "answer": "Radiohead",
     "choices": [
-      "Abbey Road",
-      "The Fame",
-      "Doggystyle",
-      "A Night at the Opera"
+      "Radiohead",
+      "Blur",
+      "Muse",
+      "Portishead"
     ],
-    "explanation": "The Fame is an album by Lady Gaga."
+    "explanation": "Thom Yorke is the lead vocalist and co-founder of the English alternative rock band Radiohead."
   },
   {
-    "question": "In music, who released the album Channel Orange?",
-    "answer": "Frank Ocean",
+    "question": "Which singer is known for 'Halo' and 'Crazy in Love'?",
+    "answer": "Beyonc\u00e9",
     "choices": [
-      "Snoop Doggy Dogg",
-      "Frank Ocean",
-      "Eagles",
-      "Nirvana"
+      "Beyonc\u00e9",
+      "Alicia Keys",
+      "Rihanna",
+      "Mariah Carey"
     ],
-    "explanation": "Channel Orange was released by Frank Ocean."
+    "explanation": "'Halo' (2008) and 'Crazy in Love' (2003) are among Beyonc\u00e9's most acclaimed solo songs."
   },
   {
-    "question": "In music, in what year was the album Channel Orange originally released?",
-    "answer": "2012",
+    "question": "What American city is famous as the birthplace of jazz?",
+    "answer": "New Orleans",
     "choices": [
-      "1995",
-      "2014",
-      "1979",
-      "2012"
+      "New Orleans",
+      "Chicago",
+      "New York",
+      "Memphis"
     ],
-    "explanation": "Channel Orange was originally released in 2012."
+    "explanation": "New Orleans, Louisiana is widely considered the birthplace of jazz, which emerged in the late 19th century from African American communities."
   },
   {
-    "question": "In music, which album is by Frank Ocean?",
-    "answer": "Channel Orange",
+    "question": "Which band released the album 'Rumours' in 1977?",
+    "answer": "Fleetwood Mac",
     "choices": [
-      "Jagged Little Pill",
-      "Channel Orange",
-      "Hotel California",
-      "A Night at the Opera"
-    ],
-    "explanation": "Channel Orange is an album by Frank Ocean."
-  },
-  {
-    "question": "In music, who released the album Ctrl?",
-    "answer": "SZA",
-    "choices": [
-      "Frank Ocean",
-      "Dua Lipa",
-      "SZA",
-      "Queen"
-    ],
-    "explanation": "Ctrl was released by SZA."
-  },
-  {
-    "question": "In music, in what year was the album Ctrl originally released?",
-    "answer": "2017",
-    "choices": [
-      "1993",
-      "2014",
-      "2017",
-      "1969"
-    ],
-    "explanation": "Ctrl was originally released in 2017."
-  },
-  {
-    "question": "In music, which album is by SZA?",
-    "answer": "Ctrl",
-    "choices": [
-      "Ctrl",
-      "Hotel California",
-      "Jagged Little Pill",
-      "The Chronic"
-    ],
-    "explanation": "Ctrl is an album by SZA."
-  },
-  {
-    "question": "In music, who released the album Appetite for Destruction?",
-    "answer": "Guns N' Roses",
-    "choices": [
-      "The Beatles",
-      "Kendrick Lamar",
-      "Madonna",
-      "Guns N' Roses"
-    ],
-    "explanation": "Appetite for Destruction was released by Guns N' Roses."
-  },
-  {
-    "question": "In music, in what year was the album Appetite for Destruction originally released?",
-    "answer": "1987",
-    "choices": [
-      "2014",
-      "2016",
-      "2012",
-      "1987"
-    ],
-    "explanation": "Appetite for Destruction was originally released in 1987."
-  },
-  {
-    "question": "In music, which album is by Guns N' Roses?",
-    "answer": "Appetite for Destruction",
-    "choices": [
-      "Abbey Road",
-      "Appetite for Destruction",
-      "The Fame",
-      "Good Kid, M.A.A.D City"
-    ],
-    "explanation": "Appetite for Destruction is an album by Guns N' Roses."
-  },
-  {
-    "question": "In music, who released the album Like a Virgin?",
-    "answer": "Madonna",
-    "choices": [
-      "Joni Mitchell",
       "Fleetwood Mac",
-      "Madonna",
-      "Prince"
+      "Eagles",
+      "ABBA",
+      "Bee Gees"
     ],
-    "explanation": "Like a Virgin was released by Madonna."
+    "explanation": "Fleetwood Mac's Rumours (1977) has sold over 40 million copies, becoming one of the best-selling albums of all time."
   },
   {
-    "question": "In music, in what year was the album Like a Virgin originally released?",
-    "answer": "1984",
+    "question": "Who sang 'What's Going On' in 1971?",
+    "answer": "Marvin Gaye",
     "choices": [
-      "1980",
-      "1971",
-      "2013",
-      "1984"
+      "Marvin Gaye",
+      "Stevie Wonder",
+      "Al Green",
+      "Curtis Mayfield"
     ],
-    "explanation": "Like a Virgin was originally released in 1984."
+    "explanation": "Marvin Gaye's 'What's Going On' (1971) addressed Vietnam, drug abuse, and poverty, becoming one of soul music's finest albums."
   },
   {
-    "question": "In music, which album is by Madonna?",
-    "answer": "Like a Virgin",
-    "choices": [
-      "Back in Black",
-      "Like a Virgin",
-      "Renaissance",
-      "Channel Orange"
-    ],
-    "explanation": "Like a Virgin is an album by Madonna."
-  },
-  {
-    "question": "In music, who released the album Doggystyle?",
-    "answer": "Snoop Doggy Dogg",
-    "choices": [
-      "Kendrick Lamar",
-      "Snoop Doggy Dogg",
-      "Prince",
-      "Michael Jackson"
-    ],
-    "explanation": "Doggystyle was released by Snoop Doggy Dogg."
-  },
-  {
-    "question": "In music, in what year was the album Doggystyle originally released?",
-    "answer": "1993",
-    "choices": [
-      "1993",
-      "1998",
-      "1969",
-      "2013"
-    ],
-    "explanation": "Doggystyle was originally released in 1993."
-  },
-  {
-    "question": "In music, which album is by Snoop Doggy Dogg?",
-    "answer": "Doggystyle",
-    "choices": [
-      "Lemonade",
-      "Doggystyle",
-      "Purple Rain",
-      "Channel Orange"
-    ],
-    "explanation": "Doggystyle is an album by Snoop Doggy Dogg."
-  },
-  {
-    "question": "In music, who released the album The Chronic?",
-    "answer": "Dr. Dre",
+    "question": "Which artist recorded the iconic 'Kind of Blue' jazz album?",
+    "answer": "Miles Davis",
     "choices": [
       "Miles Davis",
+      "John Coltrane",
+      "Dave Brubeck",
+      "Bill Evans"
+    ],
+    "explanation": "Miles Davis recorded Kind of Blue in 1959, the best-selling jazz album of all time and a milestone in modal jazz."
+  },
+  {
+    "question": "What band featured Freddie Mercury as its lead singer?",
+    "answer": "Queen",
+    "choices": [
+      "Queen",
+      "Led Zeppelin",
+      "Aerosmith",
+      "Journey"
+    ],
+    "explanation": "Freddie Mercury (Farrokh Bulsara) was the flamboyant lead vocalist of Queen from the band's formation in 1970 until his death in 1991."
+  },
+  {
+    "question": "Which country singer is known for 'Friends in Low Places'?",
+    "answer": "Garth Brooks",
+    "choices": [
+      "Garth Brooks",
+      "Alan Jackson",
+      "Toby Keith",
+      "Travis Tritt"
+    ],
+    "explanation": "'Friends in Low Places' (1990) is one of Garth Brooks' signature songs and became a country anthem."
+  },
+  {
+    "question": "Who is the lead singer of Metallica?",
+    "answer": "James Hetfield",
+    "choices": [
+      "James Hetfield",
+      "Lars Ulrich",
+      "Kirk Hammett",
+      "Dave Mustaine"
+    ],
+    "explanation": "James Hetfield co-founded Metallica and has served as the band's rhythm guitarist and lead vocalist since 1981."
+  },
+  {
+    "question": "Which pop duo was famous for hits like 'Wake Me Up Before You Go-Go'?",
+    "answer": "Wham!",
+    "choices": [
+      "Wham!",
+      "Hall & Oates",
+      "Simon & Garfunkel",
+      "Eurythmics"
+    ],
+    "explanation": "Wham! (George Michael and Andrew Ridgeley) had major hits in the 1980s including 'Wake Me Up Before You Go-Go' and 'Careless Whisper'."
+  },
+  {
+    "question": "Which legendary guitarist was known as 'Slowhand'?",
+    "answer": "Eric Clapton",
+    "choices": [
+      "Eric Clapton",
+      "BB King",
+      "Jimi Hendrix",
+      "Carlos Santana"
+    ],
+    "explanation": "Eric Clapton earned the nickname 'Slowhand' reportedly because he often broke strings during performances at The Marquee Club."
+  },
+  {
+    "question": "Which singer released 'Rolling in the Deep'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Duffy",
+      "Florence Welch"
+    ],
+    "explanation": "'Rolling in the Deep' (2010) is Adele's breakthrough hit from her album '21', winning three Grammy Awards."
+  },
+  {
+    "question": "Which rapper's real name is Shawn Carter?",
+    "answer": "Jay-Z",
+    "choices": [
+      "Jay-Z",
+      "Kanye West",
+      "Eminem",
+      "Lil Wayne"
+    ],
+    "explanation": "Shawn Corey Carter is known professionally as Jay-Z, one of the best-selling music artists and successful business moguls."
+  },
+  {
+    "question": "What genre of music did Bob Marley popularize internationally?",
+    "answer": "Reggae",
+    "choices": [
+      "Reggae",
+      "Ska",
+      "Dancehall",
+      "Dub"
+    ],
+    "explanation": "Bob Marley was the most prominent artist in bringing reggae music and Rastafarian culture to international attention."
+  },
+  {
+    "question": "Which band recorded 'Bohemian Rhapsody' in 1975?",
+    "answer": "Queen",
+    "choices": [
+      "Queen",
+      "The Who",
+      "Yes",
+      "Genesis"
+    ],
+    "explanation": "'Bohemian Rhapsody' by Queen was recorded in 1975 and is widely regarded as one of the greatest songs ever recorded."
+  },
+  {
+    "question": "Which country music star is known for 'Jolene' and '9 to 5'?",
+    "answer": "Dolly Parton",
+    "choices": [
+      "Dolly Parton",
+      "Loretta Lynn",
+      "Tammy Wynette",
+      "Reba McEntire"
+    ],
+    "explanation": "Dolly Parton recorded 'Jolene' and '9 to 5' in the same session on the same day, both becoming massive hits."
+  },
+  {
+    "question": "Who is the lead vocalist of Green Day?",
+    "answer": "Billie Joe Armstrong",
+    "choices": [
+      "Billie Joe Armstrong",
+      "Tre Cool",
+      "Mike Dirnt",
+      "Tony Kanal"
+    ],
+    "explanation": "Billie Joe Armstrong is the co-founder, lead vocalist, and primary guitarist of the punk rock band Green Day."
+  },
+  {
+    "question": "Which music streaming service was founded in Sweden in 2006?",
+    "answer": "Spotify",
+    "choices": [
+      "Spotify",
+      "Apple Music",
+      "Tidal",
+      "Deezer"
+    ],
+    "explanation": "Spotify was founded in Stockholm, Sweden in 2006 by Daniel Ek and Martin Lorentzon, launching publicly in 2008."
+  },
+  {
+    "question": "Which musician is famous for the 'Jimi Hendrix Experience'?",
+    "answer": "Jimi Hendrix",
+    "choices": [
+      "Jimi Hendrix",
+      "Eric Clapton",
+      "Carlos Santana",
+      "Pete Townshend"
+    ],
+    "explanation": "Jimi Hendrix formed the Jimi Hendrix Experience in 1966, revolutionizing electric guitar technique and psychedelic rock."
+  },
+  {
+    "question": "Who sang 'I Will Always Love You' in the Bodyguard soundtrack?",
+    "answer": "Whitney Houston",
+    "choices": [
+      "Whitney Houston",
+      "Mariah Carey",
+      "Celine Dion",
+      "Dolly Parton"
+    ],
+    "explanation": "Whitney Houston's version of 'I Will Always Love You' in The Bodyguard (1992) became one of the best-selling singles of all time."
+  },
+  {
+    "question": "Which rapper released the album 'To Pimp a Butterfly'?",
+    "answer": "Kendrick Lamar",
+    "choices": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Drake",
+      "Kanye West"
+    ],
+    "explanation": "Kendrick Lamar's 'To Pimp a Butterfly' (2015) is a critically acclaimed album blending rap, jazz, and funk with social commentary."
+  },
+  {
+    "question": "What band features Bono, The Edge, Adam Clayton, and Larry Mullen Jr.?",
+    "answer": "U2",
+    "choices": [
+      "U2",
+      "Coldplay",
+      "Radiohead",
+      "The Killers"
+    ],
+    "explanation": "U2 has maintained the same lineup since forming in Dublin in 1976: Bono, The Edge, Adam Clayton, and Larry Mullen Jr."
+  },
+  {
+    "question": "Which pop star released the album 'Lemonade' in 2016?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Rihanna",
+      "Adele",
+      "Taylor Swift"
+    ],
+    "explanation": "Beyonc\u00e9's visual album 'Lemonade' was released in 2016, exploring themes of infidelity, black womanhood, and Southern culture."
+  },
+  {
+    "question": "Which classical composer is known as the 'Poet of the Piano'?",
+    "answer": "Fr\u00e9d\u00e9ric Chopin",
+    "choices": [
+      "Fr\u00e9d\u00e9ric Chopin",
+      "Franz Liszt",
+      "Robert Schumann",
+      "Sergei Rachmaninoff"
+    ],
+    "explanation": "Fr\u00e9d\u00e9ric Chopin earned the nickname 'Poet of the Piano' for his expressive, romantic piano compositions."
+  },
+  {
+    "question": "Who sang 'Lose Yourself' for the film 8 Mile?",
+    "answer": "Eminem",
+    "choices": [
+      "Eminem",
+      "Jay-Z",
+      "50 Cent",
+      "D12"
+    ],
+    "explanation": "Eminem wrote and recorded 'Lose Yourself' for his 2002 semi-autobiographical film 8 Mile, winning the Academy Award for Best Original Song."
+  },
+  {
+    "question": "Which group's debut album was 'Please Please Me'?",
+    "answer": "The Beatles",
+    "choices": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Kinks",
+      "The Who"
+    ],
+    "explanation": "The Beatles' debut album 'Please Please Me' was released in March 1963, recorded in a single day at EMI Studios."
+  },
+  {
+    "question": "Which singer is known for the 'Eras Tour' world tour?",
+    "answer": "Taylor Swift",
+    "choices": [
       "Taylor Swift",
-      "Dr. Dre",
-      "Pink Floyd"
+      "Beyonc\u00e9",
+      "Billie Eilish",
+      "Olivia Rodrigo"
     ],
-    "explanation": "The Chronic was released by Dr. Dre."
+    "explanation": "Taylor Swift's 'Eras Tour' began in 2023, celebrating her musical eras; it became the highest-grossing concert tour ever."
   },
   {
-    "question": "In music, in what year was the album The Chronic originally released?",
-    "answer": "1992",
+    "question": "Who wrote the opera 'La Traviata'?",
+    "answer": "Giuseppe Verdi",
     "choices": [
-      "1992",
-      "1967",
-      "2008",
-      "1998"
+      "Giuseppe Verdi",
+      "Giacomo Puccini",
+      "Wolfgang Mozart",
+      "Gaetano Donizetti"
     ],
-    "explanation": "The Chronic was originally released in 1992."
+    "explanation": "La Traviata was composed by Giuseppe Verdi, premiering in Venice in 1853 and becoming one of the most performed operas."
   },
   {
-    "question": "In music, which album is by Dr. Dre?",
-    "answer": "The Chronic",
+    "question": "Which 1980s band is known for 'Sweet Child O' Mine' and 'Welcome to the Jungle'?",
+    "answer": "Guns N' Roses",
     "choices": [
-      "The Miseducation of Lauryn Hill",
-      "The Chronic",
-      "Ctrl",
-      "Born to Run"
+      "Guns N' Roses",
+      "Aerosmith",
+      "Def Leppard",
+      "Bon Jovi"
     ],
-    "explanation": "The Chronic is an album by Dr. Dre."
+    "explanation": "Guns N' Roses released 'Sweet Child O' Mine' and 'Welcome to the Jungle' on their debut album 'Appetite for Destruction' in 1987."
   },
   {
-    "question": "In music, who released the album Renaissance?",
-    "answer": "Beyonce",
+    "question": "What is the name of Drake's record label?",
+    "answer": "OVO Sound",
     "choices": [
-      "Michael Jackson",
-      "Eagles",
-      "Beyonce",
-      "Daft Punk"
+      "OVO Sound",
+      "Cash Money Records",
+      "Young Money",
+      "Republic Records"
     ],
-    "explanation": "Renaissance was released by Beyonce."
+    "explanation": "Drake co-founded OVO Sound (October's Very Own Sound) in 2012 with Oliver El-Khatib and producer Noah '40' Shebib."
   },
   {
-    "question": "In music, in what year was the album Renaissance originally released?",
-    "answer": "2022",
+    "question": "Which singer popularized the Electric Slide?",
+    "answer": "Marcia Griffiths",
     "choices": [
-      "1992",
-      "1979",
-      "1969",
-      "2022"
+      "Marcia Griffiths",
+      "Chic",
+      "Gloria Gaynor",
+      "Donna Summer"
     ],
-    "explanation": "Renaissance was originally released in 2022."
+    "explanation": "The Electric Slide was choreographed to Marcia Griffiths' 1976 reggae song 'Electric Boogie', becoming one of the most popular line dances."
+  },
+  {
+    "question": "Which band released 'Under the Bridge' in 1992?",
+    "answer": "Red Hot Chili Peppers",
+    "choices": [
+      "Red Hot Chili Peppers",
+      "Soundgarden",
+      "R.E.M.",
+      "Jane's Addiction"
+    ],
+    "explanation": "'Under the Bridge' was released by the Red Hot Chili Peppers from their album 'Blood Sugar Sex Magik' in 1992."
+  },
+  {
+    "question": "Who is the lead singer of The Weeknd?",
+    "answer": "Abel Tesfaye",
+    "choices": [
+      "Abel Tesfaye",
+      "Frank Ocean",
+      "Miguel",
+      "The Weeknd is a solo artist named Abel Tesfaye"
+    ],
+    "explanation": "The Weeknd is the stage name of Abel Makkonen Tesfaye, a Canadian singer known for hit albums like 'After Hours'."
+  },
+  {
+    "question": "Which music awards show is the oldest in the United States?",
+    "answer": "Grammy Awards",
+    "choices": [
+      "Grammy Awards",
+      "American Music Awards",
+      "MTV Video Music Awards",
+      "Billboard Music Awards"
+    ],
+    "explanation": "The Grammy Awards, presented by the Recording Academy, were first held in 1959, making them the oldest major US music awards."
+  },
+  {
+    "question": "Which rock band features Dave Grohl as its leader after he was the drummer for Nirvana?",
+    "answer": "Foo Fighters",
+    "choices": [
+      "Foo Fighters",
+      "Queens of the Stone Age",
+      "Them Crooked Vultures",
+      "Tenacious D"
+    ],
+    "explanation": "Dave Grohl founded Foo Fighters in 1994 after Nirvana dissolved following Kurt Cobain's death, transitioning from drummer to frontman."
+  },
+  {
+    "question": "What famous venue in Nashville, Tennessee is known as the home of country music?",
+    "answer": "Grand Ole Opry",
+    "choices": [
+      "Grand Ole Opry",
+      "Ryman Auditorium",
+      "Bluebird Cafe",
+      "Exit/In"
+    ],
+    "explanation": "The Grand Ole Opry is a weekly country music stage concert and radio program in Nashville, the world's longest-running radio broadcast."
+  },
+  {
+    "question": "Which singer is known as 'The Material Girl'?",
+    "answer": "Madonna",
+    "choices": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Debbie Harry",
+      "Pat Benatar"
+    ],
+    "explanation": "Madonna earned the nickname 'The Material Girl' from her 1984 song and video, symbolizing 1980s pop culture excess."
+  },
+  {
+    "question": "Which hip-hop duo consisted of Andre 3000 and Big Boi?",
+    "answer": "OutKast",
+    "choices": [
+      "OutKast",
+      "UGK",
+      "Mobb Deep",
+      "Gang Starr"
+    ],
+    "explanation": "OutKast, formed in Atlanta in 1992, consists of Andr\u00e9 3000 (Andr\u00e9 Benjamin) and Big Boi (Antwan Patton)."
+  },
+  {
+    "question": "What instrument is Yo-Yo Ma most associated with?",
+    "answer": "Cello",
+    "choices": [
+      "Cello",
+      "Violin",
+      "Piano",
+      "Guitar"
+    ],
+    "explanation": "Yo-Yo Ma is one of the world's most celebrated classical cellists, known for his interpretations and cross-genre collaborations."
+  },
+  {
+    "question": "Which legendary rock band features members Jimmy Page, Robert Plant, John Paul Jones, and John Bonham?",
+    "answer": "Led Zeppelin",
+    "choices": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "The Who"
+    ],
+    "explanation": "Led Zeppelin was formed in 1968 with Jimmy Page (guitar), Robert Plant (vocals), John Paul Jones (bass), and John Bonham (drums)."
+  },
+  {
+    "question": "Which musical artist is known for wearing a meat dress at the 2010 MTV VMAs?",
+    "answer": "Lady Gaga",
+    "choices": [
+      "Lady Gaga",
+      "Madonna",
+      "Miley Cyrus",
+      "Nicki Minaj"
+    ],
+    "explanation": "Lady Gaga wore a dress made of raw meat at the 2010 MTV Video Music Awards, calling it a statement about rights and freedoms."
+  },
+  {
+    "question": "What genre of music originated in the South Bronx in the 1970s?",
+    "answer": "Hip-hop",
+    "choices": [
+      "Hip-hop",
+      "Funk",
+      "Soul",
+      "R&B"
+    ],
+    "explanation": "Hip-hop music originated in the South Bronx, New York City in the early 1970s, developed by African American and Latino communities."
+  },
+  {
+    "question": "Which artist is known for the album 'Nevermind'?",
+    "answer": "Nirvana",
+    "choices": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Stone Temple Pilots"
+    ],
+    "explanation": "Nirvana's 'Nevermind' (1991) features the iconic cover of a swimming baby and brought grunge to mainstream attention."
+  },
+  {
+    "question": "What is the name of Kanye West's mother who passed away in 2007?",
+    "answer": "Donda West",
+    "choices": [
+      "Donda West",
+      "Janet West",
+      "Gloria West",
+      "Sandra West"
+    ],
+    "explanation": "Donda West, Kanye's mother and inspiration, passed away in November 2007 following complications from surgery."
+  },
+  {
+    "question": "Which music producer is known for the 'Wall of Sound' production technique?",
+    "answer": "Phil Spector",
+    "choices": [
+      "Phil Spector",
+      "Quincy Jones",
+      "Rick Rubin",
+      "Berry Gordy"
+    ],
+    "explanation": "Phil Spector developed the 'Wall of Sound' recording technique in the 1960s, using massive orchestration and echo effects."
+  },
+  {
+    "question": "Which band is associated with the song 'Don't Stop Believin''?",
+    "answer": "Journey",
+    "choices": [
+      "Journey",
+      "REO Speedwagon",
+      "Foreigner",
+      "Styx"
+    ],
+    "explanation": "'Don't Stop Believin'' (1981) by Journey is one of the best-selling digital singles in history and a karaoke staple."
+  },
+  {
+    "question": "Who released 'Shape of You' which became a massive global hit?",
+    "answer": "Ed Sheeran",
+    "choices": [
+      "Ed Sheeran",
+      "Sam Smith",
+      "Harry Styles",
+      "Niall Horan"
+    ],
+    "explanation": "Ed Sheeran's 'Shape of You' from his 2017 album '\u00f7' became one of the best-selling singles of all time."
+  },
+  {
+    "question": "Which Motown singer is known as 'The Temptation'?",
+    "answer": "The Temptations (group)",
+    "choices": [
+      "The Temptations (group)",
+      "Stevie Wonder",
+      "Marvin Gaye",
+      "The Four Tops"
+    ],
+    "explanation": "The Temptations are a legendary Motown group known for hits like 'My Girl' and 'Papa Was a Rollin' Stone'."
+  },
+  {
+    "question": "What is the signature instrument of Jimi Hendrix?",
+    "answer": "Electric guitar",
+    "choices": [
+      "Electric guitar",
+      "Bass guitar",
+      "Drums",
+      "Keyboards"
+    ],
+    "explanation": "Jimi Hendrix was a revolutionary electric guitarist known for his innovative technique and use of feedback and distortion."
+  },
+  {
+    "question": "Which band released 'Purple Haze' and 'All Along the Watchtower'?",
+    "answer": "Jimi Hendrix Experience",
+    "choices": [
+      "Jimi Hendrix Experience",
+      "The Doors",
+      "Jefferson Airplane",
+      "Cream"
+    ],
+    "explanation": "The Jimi Hendrix Experience recorded 'Purple Haze' and a famous cover of 'All Along the Watchtower' in 1967-1968."
+  },
+  {
+    "question": "Which Brazilian artist is known as the 'Girl from Ipanema'?",
+    "answer": "Astrud Gilberto (performed it)",
+    "choices": [
+      "Astrud Gilberto (performed it)",
+      "S\u00e9rgio Mendes",
+      "Elis Regina",
+      "Caetano Veloso"
+    ],
+    "explanation": "'The Girl from Ipanema' was composed by Ant\u00f4nio Carlos Jobim and sung by Astrud Gilberto in 1962, becoming a bossa nova standard."
+  },
+  {
+    "question": "Which rap group released 'Straight Outta Compton'?",
+    "answer": "N.W.A",
+    "choices": [
+      "N.W.A",
+      "Public Enemy",
+      "Run-D.M.C.",
+      "Wu-Tang Clan"
+    ],
+    "explanation": "N.W.A (Niggaz Wit Attitudes) released 'Straight Outta Compton' in 1988, pioneering gangsta rap and West Coast hip-hop."
+  },
+  {
+    "question": "Which singer is known for 'Someone Like You' and '21'?",
+    "answer": "Adele",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Sam Smith",
+      "Duffy"
+    ],
+    "explanation": "Adele's '21' (2011) featuring 'Someone Like You' and 'Rolling in the Deep' became the best-selling album of the 2010s."
+  },
+  {
+    "question": "Who composed 'Symphony No. 5 in C minor'?",
+    "answer": "Ludwig van Beethoven",
+    "choices": [
+      "Ludwig van Beethoven",
+      "Wolfgang Mozart",
+      "Franz Haydn",
+      "Johannes Brahms"
+    ],
+    "explanation": "Beethoven's Symphony No. 5 (1808), with its famous four-note opening motif, is one of the best-known compositions in classical music."
+  },
+  {
+    "question": "Which band is famous for 'Mr. Brightside'?",
+    "answer": "The Killers",
+    "choices": [
+      "The Killers",
+      "Interpol",
+      "Franz Ferdinand",
+      "The Strokes"
+    ],
+    "explanation": "'Mr. Brightside' (2003) by The Killers from Las Vegas has never left the UK charts since its release, a remarkable chart record."
+  },
+  {
+    "question": "What does 'A cappella' mean in music?",
+    "answer": "Singing without instrumental accompaniment",
+    "choices": [
+      "Singing without instrumental accompaniment",
+      "Singing very quietly",
+      "Singing in Italian",
+      "Singing in a group"
+    ],
+    "explanation": "'A cappella' is an Italian phrase meaning 'in the style of the chapel', referring to unaccompanied choral or solo singing."
   }
 ]

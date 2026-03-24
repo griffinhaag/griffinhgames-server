@@ -4948,5 +4948,2843 @@
       "Natalie Dormer"
     ],
     "explanation": "British actress Emilia Clarke portrayed Daenerys Targaryen, the 'Mother of Dragons,' throughout all eight seasons of HBO's 'Game of Thrones,' receiving multiple Emmy nominations for the role."
+  },
+  {
+    "question": "What year did the iPhone first launch?",
+    "answer": "2007",
+    "choices": [
+      "2005",
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "explanation": "Apple introduced the original iPhone on January 9, 2007, at Macworld Expo, revolutionizing the smartphone market."
+  },
+  {
+    "question": "Which TV show features the character Walter White?",
+    "answer": "Breaking Bad",
+    "choices": [
+      "Breaking Bad",
+      "Better Call Saul",
+      "Ozark",
+      "The Wire"
+    ],
+    "explanation": "Walter White is the protagonist of Breaking Bad, a high school chemistry teacher turned drug manufacturer."
+  },
+  {
+    "question": "What social media platform is known for short video clips?",
+    "answer": "TikTok",
+    "choices": [
+      "TikTok",
+      "Instagram",
+      "Vine",
+      "YouTube"
+    ],
+    "explanation": "TikTok is a short-form video platform launched internationally in 2018, known for viral challenges and trends."
+  },
+  {
+    "question": "Who is the fictional wizard in Harry Potter?",
+    "answer": "Harry Potter",
+    "choices": [
+      "Harry Potter",
+      "Ron Weasley",
+      "Neville Longbottom",
+      "Draco Malfoy"
+    ],
+    "explanation": "Harry Potter is the main protagonist of J.K. Rowling's series, a wizard who discovers he is famous in the magical world."
+  },
+  {
+    "question": "What is the name of the AI assistant created by Apple?",
+    "answer": "Siri",
+    "choices": [
+      "Siri",
+      "Alexa",
+      "Cortana",
+      "Google Assistant"
+    ],
+    "explanation": "Siri is Apple's virtual assistant, introduced with the iPhone 4S in 2011."
+  },
+  {
+    "question": "Which Netflix show features a group of teenagers fighting monsters in Hawkins, Indiana?",
+    "answer": "Stranger Things",
+    "choices": [
+      "Stranger Things",
+      "Dark",
+      "The OA",
+      "Locke & Key"
+    ],
+    "explanation": "Stranger Things premiered on Netflix in 2016 and follows kids in Hawkins, Indiana, fighting creatures from the Upside Down."
+  },
+  {
+    "question": "What movie franchise features the character Jack Sparrow?",
+    "answer": "Pirates of the Caribbean",
+    "choices": [
+      "Pirates of the Caribbean",
+      "Hook",
+      "Master and Commander",
+      "Cutthroat Island"
+    ],
+    "explanation": "Jack Sparrow is Captain Jack Sparrow, the swashbuckling pirate protagonist played by Johnny Depp in Pirates of the Caribbean."
+  },
+  {
+    "question": "What is the name of the famous duck character owned by Disney?",
+    "answer": "Donald Duck",
+    "choices": [
+      "Donald Duck",
+      "Daffy Duck",
+      "Scrooge McDuck",
+      "Howard the Duck"
+    ],
+    "explanation": "Donald Duck is a Disney character who debuted in 1934, known for his sailor suit and irascible personality."
+  },
+  {
+    "question": "Which famous boxer was known as 'The Greatest'?",
+    "answer": "Muhammad Ali",
+    "choices": [
+      "Muhammad Ali",
+      "Mike Tyson",
+      "Joe Louis",
+      "Sugar Ray Leonard"
+    ],
+    "explanation": "Muhammad Ali, born Cassius Clay, famously proclaimed himself 'The Greatest' and is widely regarded as the greatest heavyweight boxer of all time."
+  },
+  {
+    "question": "What streaming service is known for the shows 'Ozark' and 'Squid Game'?",
+    "answer": "Netflix",
+    "choices": [
+      "Netflix",
+      "HBO Max",
+      "Disney+",
+      "Amazon Prime Video"
+    ],
+    "explanation": "Netflix is the streaming platform behind original series like Ozark, Squid Game, and Stranger Things."
+  },
+  {
+    "question": "Which celebrity couple was nicknamed 'Brangelina'?",
+    "answer": "Brad Pitt and Angelina Jolie",
+    "choices": [
+      "Brad Pitt and Angelina Jolie",
+      "Ben Affleck and Jennifer Lopez",
+      "Justin Bieber and Hailey Baldwin",
+      "Blake Lively and Ryan Reynolds"
+    ],
+    "explanation": "Brad Pitt and Angelina Jolie were nicknamed 'Brangelina' by the media during their relationship (2005\u20132019)."
+  },
+  {
+    "question": "What is the name of the royal family drama on Netflix?",
+    "answer": "The Crown",
+    "choices": [
+      "The Crown",
+      "Reign",
+      "Victoria",
+      "Downton Abbey"
+    ],
+    "explanation": "The Crown is a Netflix drama series following the reign of Queen Elizabeth II, from her ascension to modern times."
+  },
+  {
+    "question": "Which character does Dwayne Johnson often play?",
+    "answer": "Heroic tough guys and action heroes",
+    "choices": [
+      "Heroic tough guys and action heroes",
+      "Romantic leads",
+      "Villains",
+      "Horror characters"
+    ],
+    "explanation": "Dwayne 'The Rock' Johnson is known for playing heroic, muscular action heroes in films like Fast & Furious, Jumanji, and Black Adam."
+  },
+  {
+    "question": "What is the name of the iconic yellow cartoon family from Springfield?",
+    "answer": "The Simpsons",
+    "choices": [
+      "The Simpsons",
+      "The Griffins",
+      "The Hills",
+      "The Belchers"
+    ],
+    "explanation": "The Simpsons \u2014 Homer, Marge, Bart, Lisa, and Maggie \u2014 have lived in the fictional town of Springfield since 1989."
+  },
+  {
+    "question": "Which actress is known for her roles in Legally Blonde and Cruel Intentions?",
+    "answer": "Reese Witherspoon",
+    "choices": [
+      "Reese Witherspoon",
+      "Sarah Michelle Gellar",
+      "Cameron Diaz",
+      "Drew Barrymore"
+    ],
+    "explanation": "Reese Witherspoon starred in Legally Blonde (2001), while Sarah Michelle Gellar was in Cruel Intentions (1999)."
+  },
+  {
+    "question": "What is the name of the famous meme featuring a dog sitting in a burning room?",
+    "answer": "This is Fine",
+    "choices": [
+      "This is Fine",
+      "Doge",
+      "Distracted Boyfriend",
+      "Side-Eye Chloe"
+    ],
+    "explanation": "The 'This is Fine' meme features a dog calmly sipping coffee while its house burns, created by KC Green in 2013."
+  },
+  {
+    "question": "Which decade is associated with the 'grunge' music movement and bands like Nirvana?",
+    "answer": "1990s",
+    "choices": [
+      "1990s",
+      "1980s",
+      "2000s",
+      "1970s"
+    ],
+    "explanation": "Grunge originated in Seattle in the late 1980s and reached mainstream popularity in the early 1990s with bands like Nirvana and Pearl Jam."
+  },
+  {
+    "question": "What famous catchphrase is associated with the TV show Survivor?",
+    "answer": "The tribe has spoken",
+    "choices": [
+      "The tribe has spoken",
+      "You are the weakest link",
+      "I'm fired",
+      "Deal or no deal"
+    ],
+    "explanation": "'The tribe has spoken' is the phrase said by host Jeff Probst after a contestant is voted off in Survivor."
+  },
+  {
+    "question": "Which pop star was formerly known as 'Destiny's Child' member before going solo?",
+    "answer": "Beyonc\u00e9",
+    "choices": [
+      "Beyonc\u00e9",
+      "Kelly Rowland",
+      "Michelle Williams",
+      "LeToya Luckett"
+    ],
+    "explanation": "Beyonc\u00e9 launched her solo career after Destiny's Child went on hiatus, releasing her debut album 'Dangerously in Love' in 2003."
+  },
+  {
+    "question": "What is the name of the fictional school in Harry Potter?",
+    "answer": "Hogwarts School of Witchcraft and Wizardry",
+    "choices": [
+      "Hogwarts School of Witchcraft and Wizardry",
+      "Beauxbatons Academy",
+      "Durmstrang Institute",
+      "The Salem Witches' Institute"
+    ],
+    "explanation": "Hogwarts is the fictional British school of magic attended by Harry Potter and his friends."
+  },
+  {
+    "question": "Which 2020 Netflix documentary series is about big cat owners?",
+    "answer": "Tiger King",
+    "choices": [
+      "Tiger King",
+      "The Last Dance",
+      "Making a Murderer",
+      "Wild Wild Country"
+    ],
+    "explanation": "Tiger King: Murder, Mayhem and Madness (2020) followed Joe Exotic and other big cat owners in a bizarre true-crime story."
+  },
+  {
+    "question": "What technology company is headquartered in Cupertino, California?",
+    "answer": "Apple",
+    "choices": [
+      "Apple",
+      "Google",
+      "Facebook",
+      "Netflix"
+    ],
+    "explanation": "Apple Inc. is headquartered at Apple Park in Cupertino, California, having moved from One Infinite Loop in 2017."
+  },
+  {
+    "question": "Which famous fashion designer is known for the 'LBD' (Little Black Dress)?",
+    "answer": "Coco Chanel",
+    "choices": [
+      "Coco Chanel",
+      "Christian Dior",
+      "Yves Saint Laurent",
+      "Gianni Versace"
+    ],
+    "explanation": "Coco Chanel popularized the 'Little Black Dress' in 1926, making black a fashionable color for everyday wear."
+  },
+  {
+    "question": "What is the name of the cat emoji that became a popular internet meme?",
+    "answer": "Nyan Cat",
+    "choices": [
+      "Nyan Cat",
+      "Grumpy Cat",
+      "Lil Bub",
+      "Keyboard Cat"
+    ],
+    "explanation": "Nyan Cat is an animated internet meme featuring a cat with a Pop-Tart body flying through space, created in 2011."
+  },
+  {
+    "question": "Which actor played Iron Man in the Marvel Cinematic Universe?",
+    "answer": "Robert Downey Jr.",
+    "choices": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ],
+    "explanation": "Robert Downey Jr. played Tony Stark/Iron Man in the MCU from 2008 to 2019."
+  },
+  {
+    "question": "What social media platform did Twitter rebrand to in 2023?",
+    "answer": "X",
+    "choices": [
+      "X",
+      "Twitter 2.0",
+      "Twit",
+      "Blue"
+    ],
+    "explanation": "Elon Musk rebranded Twitter to 'X' in July 2023, replacing the iconic bird logo with an X."
+  },
+  {
+    "question": "Which fictional wizarding sport involves players on broomsticks trying to catch a golden snitch?",
+    "answer": "Quidditch",
+    "choices": [
+      "Quidditch",
+      "Bludger Ball",
+      "Seeker's Chase",
+      "Broomball"
+    ],
+    "explanation": "Quidditch is the fictional sport from Harry Potter where players ride broomsticks and try to score goals while the Seeker catches the Golden Snitch."
+  },
+  {
+    "question": "Which celebrity couple was referred to as 'J.Lo and A-Rod'?",
+    "answer": "Jennifer Lopez and Alex Rodriguez",
+    "choices": [
+      "Jennifer Lopez and Alex Rodriguez",
+      "Jennifer Aniston and Brad Pitt",
+      "Kourtney Kardashian and Travis Barker",
+      "Kim Kardashian and Kanye West"
+    ],
+    "explanation": "Jennifer Lopez and Alex Rodriguez were in a relationship from 2017 to 2021, frequently referred to as 'J.Lo and A-Rod.'"
+  },
+  {
+    "question": "What 2014 viral challenge involved dumping ice water on oneself?",
+    "answer": "Ice Bucket Challenge",
+    "choices": [
+      "Ice Bucket Challenge",
+      "Mannequin Challenge",
+      "Harlem Shake",
+      "Cinnamon Challenge"
+    ],
+    "explanation": "The Ice Bucket Challenge went viral in 2014 to raise awareness for ALS (amyotrophic lateral sclerosis) and raised over $115 million."
+  },
+  {
+    "question": "Which animated character is associated with the phrase 'D'oh!'?",
+    "answer": "Homer Simpson",
+    "choices": [
+      "Homer Simpson",
+      "Peter Griffin",
+      "Stewie Griffin",
+      "Bob Belcher"
+    ],
+    "explanation": "Homer Simpson's frustrated exclamation 'D'oh!' became so iconic that it was added to the Oxford English Dictionary."
+  },
+  {
+    "question": "What is the name of the fictional land in The Wizard of Oz?",
+    "answer": "Oz",
+    "choices": [
+      "Oz",
+      "Neverland",
+      "Narnia",
+      "Wonderland"
+    ],
+    "explanation": "Oz is the magical land Dorothy travels to after a tornado in The Wizard of Oz, ruled over by the Wizard."
+  },
+  {
+    "question": "Which former child star is known for the Hannah Montana Disney Channel show?",
+    "answer": "Miley Cyrus",
+    "choices": [
+      "Miley Cyrus",
+      "Hilary Duff",
+      "Selena Gomez",
+      "Demi Lovato"
+    ],
+    "explanation": "Miley Cyrus starred as Miley Stewart/Hannah Montana in the Disney Channel series Hannah Montana (2006\u20132011)."
+  },
+  {
+    "question": "What is the name of the Kardashian family's reality TV show?",
+    "answer": "Keeping Up with the Kardashians",
+    "choices": [
+      "Keeping Up with the Kardashians",
+      "The Simple Life",
+      "The Real Housewives",
+      "Growing Up Kardashian"
+    ],
+    "explanation": "Keeping Up with the Kardashians ran on E! from 2007 to 2021, following Kim Kardashian and her family."
+  },
+  {
+    "question": "Which actor is known for playing the character Jack Bauer?",
+    "answer": "Kiefer Sutherland",
+    "choices": [
+      "Kiefer Sutherland",
+      "Dennis Haysbert",
+      "James Badge Dale",
+      "Kim Raver"
+    ],
+    "explanation": "Kiefer Sutherland played counter-terrorism agent Jack Bauer in the TV series 24, which ran from 2001 to 2010."
+  },
+  {
+    "question": "What famous line does Forrest Gump say about his mother's wisdom?",
+    "answer": "Life is like a box of chocolates",
+    "choices": [
+      "Life is like a box of chocolates",
+      "Run, Forrest, run",
+      "Stupid is as stupid does",
+      "We're like peas and carrots"
+    ],
+    "explanation": "'Mama always said life was like a box of chocolates. You never know what you're gonna get.' is the iconic Forrest Gump quote."
+  },
+  {
+    "question": "Which rapper had the viral 2017 hit 'Humble'?",
+    "answer": "Kendrick Lamar",
+    "choices": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Drake",
+      "Chance the Rapper"
+    ],
+    "explanation": "'Humble' was a hit single from Kendrick Lamar's Grammy-winning album DAMN. (2017)."
+  },
+  {
+    "question": "What is the name of the ride-sharing app founded in 2009?",
+    "answer": "Uber",
+    "choices": [
+      "Uber",
+      "Lyft",
+      "Grab",
+      "Didi"
+    ],
+    "explanation": "Uber was founded in 2009 by Travis Kalanick and Garrett Camp, revolutionizing personal transportation."
+  },
+  {
+    "question": "Which fashion brand is known for its iconic red-soled shoes?",
+    "answer": "Christian Louboutin",
+    "choices": [
+      "Christian Louboutin",
+      "Manolo Blahnik",
+      "Jimmy Choo",
+      "Valentino"
+    ],
+    "explanation": "Christian Louboutin is the French luxury fashion brand famous for its women's shoes with distinctive red lacquered soles."
+  },
+  {
+    "question": "What is the name of the fictional bar in How I Met Your Mother?",
+    "answer": "MacLaren's Pub",
+    "choices": [
+      "MacLaren's Pub",
+      "The Central Perk",
+      "Cheers",
+      "Paddy's Pub"
+    ],
+    "explanation": "MacLaren's Pub is the fictional bar beneath Ted Mosby's apartment where the gang hangs out in How I Met Your Mother."
+  },
+  {
+    "question": "Which 2019 Disney+ show features the character 'The Mandalorian'?",
+    "answer": "The Mandalorian",
+    "choices": [
+      "The Mandalorian",
+      "Loki",
+      "WandaVision",
+      "Obi-Wan Kenobi"
+    ],
+    "explanation": "The Mandalorian (2019\u2013) is a Disney+ Star Wars series following a bounty hunter (Mando) and The Child (Baby Yoda/Grogu)."
+  },
+  {
+    "question": "What is the name of the baby alien character nicknamed 'Baby Yoda'?",
+    "answer": "Grogu",
+    "choices": [
+      "Grogu",
+      "The Child",
+      "Yoda Junior",
+      "Mandalorian Baby"
+    ],
+    "explanation": "The character nicknamed 'Baby Yoda' was officially revealed to be named Grogu in Season 2 of The Mandalorian."
+  },
+  {
+    "question": "Which reality show sends contestants to live on an island and compete for $1 million?",
+    "answer": "Survivor",
+    "choices": [
+      "Survivor",
+      "Big Brother",
+      "The Amazing Race",
+      "The Bachelor"
+    ],
+    "explanation": "Survivor has been airing since 2000, stranding contestants in remote locations where they compete and vote each other off."
+  },
+  {
+    "question": "What film franchise features the family called 'The Incredibles'?",
+    "answer": "The Incredibles",
+    "choices": [
+      "The Incredibles",
+      "Big Hero 6",
+      "Spy Kids",
+      "Zoom"
+    ],
+    "explanation": "The Incredibles (2004) and Incredibles 2 (2018) follow a family of superheroes living in a world where supers are outlawed."
+  },
+  {
+    "question": "Who is known as 'The Queen of Christmas' for her hit 'All I Want for Christmas Is You'?",
+    "answer": "Mariah Carey",
+    "choices": [
+      "Mariah Carey",
+      "Celine Dion",
+      "Whitney Houston",
+      "Dolly Parton"
+    ],
+    "explanation": "Mariah Carey is often called 'The Queen of Christmas' for her 1994 hit 'All I Want for Christmas Is You.'"
+  },
+  {
+    "question": "Which Kanye West album features the songs 'Gold Digger' and 'Diamonds from Sierra Leone'?",
+    "answer": "Late Registration",
+    "choices": [
+      "Late Registration",
+      "The College Dropout",
+      "Graduation",
+      "My Beautiful Dark Twisted Fantasy"
+    ],
+    "explanation": "Late Registration (2005) is Kanye West's second studio album, featuring 'Gold Digger' and 'Diamonds from Sierra Leone.'"
+  },
+  {
+    "question": "What is the name of the fictional country in Coming to America?",
+    "answer": "Zamunda",
+    "choices": [
+      "Zamunda",
+      "Wakanda",
+      "Genovia",
+      "Florin"
+    ],
+    "explanation": "Zamunda is the fictional African kingdom in Coming to America (1988), where Prince Akeem (Eddie Murphy) is from."
+  },
+  {
+    "question": "Which talk show host gave away cars to her entire audience?",
+    "answer": "Oprah Winfrey",
+    "choices": [
+      "Oprah Winfrey",
+      "Ellen DeGeneres",
+      "Wendy Williams",
+      "Kelly Clarkson"
+    ],
+    "explanation": "Oprah Winfrey famously gave a Pontiac G6 to every member of her studio audience in 2004, sparking the 'You get a car!' meme."
+  },
+  {
+    "question": "What movie features the quote 'I see dead people'?",
+    "answer": "The Sixth Sense",
+    "choices": [
+      "The Sixth Sense",
+      "Ghost",
+      "Beetlejuice",
+      "Poltergeist"
+    ],
+    "explanation": "'I see dead people' is the iconic line from The Sixth Sense (1999), delivered by Haley Joel Osment's character Cole."
+  },
+  {
+    "question": "Which fashion trend defined the 1980s look?",
+    "answer": "Shoulder pads",
+    "choices": [
+      "Shoulder pads",
+      "Bell-bottoms",
+      "Frosted tips",
+      "Skinny jeans"
+    ],
+    "explanation": "Exaggerated shoulder pads were a defining fashion trend of the 1980s, appearing in both menswear and womenswear."
+  },
+  {
+    "question": "What is the name of the fictional robot toy in the movie Toy Story?",
+    "answer": "Buzz Lightyear",
+    "choices": [
+      "Buzz Lightyear",
+      "Woody",
+      "Rex",
+      "Mr. Potato Head"
+    ],
+    "explanation": "Buzz Lightyear is the Space Ranger action figure and Woody's best friend in the Toy Story franchise."
+  },
+  {
+    "question": "Which celebrity is known for the phrase 'I'm not here to make friends' on reality TV?",
+    "answer": "A common reality TV trope",
+    "choices": [
+      "A common reality TV trope",
+      "Kim Kardashian",
+      "Paris Hilton",
+      "Spencer Pratt"
+    ],
+    "explanation": "'I'm not here to make friends' is a notorious reality TV clich\u00e9, frequently said by contestants on competition shows."
+  },
+  {
+    "question": "What is the name of the fictional world in Avatar (2009)?",
+    "answer": "Pandora",
+    "choices": [
+      "Pandora",
+      "Oa",
+      "Ego",
+      "Xandar"
+    ],
+    "explanation": "Pandora is the habitable moon in James Cameron's Avatar (2009), home to the Na'vi people and the mineral unobtanium."
+  },
+  {
+    "question": "Which singer released 'Old Town Road' featuring Billy Ray Cyrus?",
+    "answer": "Lil Nas X",
+    "choices": [
+      "Lil Nas X",
+      "Post Malone",
+      "Travis Scott",
+      "Young Thug"
+    ],
+    "explanation": "Lil Nas X's 'Old Town Road' (remix featuring Billy Ray Cyrus) broke the record for most weeks at #1 on the Billboard Hot 100 in 2019."
+  },
+  {
+    "question": "What is the name of the competition show where chefs are eliminated after each episode?",
+    "answer": "Top Chef",
+    "choices": [
+      "Top Chef",
+      "Chopped",
+      "Hell's Kitchen",
+      "MasterChef"
+    ],
+    "explanation": "Top Chef (and Chopped) are cooking competition shows where contestants are eliminated each round for their dishes."
+  },
+  {
+    "question": "Which superhero is known as the 'Merc with a Mouth'?",
+    "answer": "Deadpool",
+    "choices": [
+      "Deadpool",
+      "Spider-Man",
+      "Hawkeye",
+      "Wolverine"
+    ],
+    "explanation": "Deadpool (Wade Wilson) is Marvel's 'Merc with a Mouth,' known for his dark humor, constant talking, and breaking the fourth wall."
+  },
+  {
+    "question": "What viral 2012 song by PSY included a horseback-riding dance?",
+    "answer": "Gangnam Style",
+    "choices": [
+      "Gangnam Style",
+      "Harlem Shake",
+      "What Does the Fox Say",
+      "Friday"
+    ],
+    "explanation": "'Gangnam Style' by Korean artist PSY was released in 2012 and became the first YouTube video to reach 1 billion views."
+  },
+  {
+    "question": "Which actress plays Katniss Everdeen in The Hunger Games?",
+    "answer": "Jennifer Lawrence",
+    "choices": [
+      "Jennifer Lawrence",
+      "Shailene Woodley",
+      "Emma Watson",
+      "Chloe Grace Moretz"
+    ],
+    "explanation": "Jennifer Lawrence played Katniss Everdeen in all four Hunger Games films (2012\u20132015)."
+  },
+  {
+    "question": "What is the name of the coffee shop in the TV show Friends?",
+    "answer": "Central Perk",
+    "choices": [
+      "Central Perk",
+      "The Coffee Bean",
+      "Java Joe's",
+      "The Brew"
+    ],
+    "explanation": "Central Perk is the iconic fictional coffeehouse where the six friends in Friends frequently gather."
+  },
+  {
+    "question": "Which famous couple got married in a ceremony widely covered by the media in July 2011?",
+    "answer": "Prince William and Kate Middleton",
+    "choices": [
+      "Prince William and Kate Middleton",
+      "Kim Kardashian and Kris Humphries",
+      "Nick Carter and Lauren Kitt",
+      "Justin Bieber and Selena Gomez"
+    ],
+    "explanation": "Prince William and Catherine Middleton were married on April 29, 2011 (not July), watched by an estimated 2 billion people worldwide."
+  },
+  {
+    "question": "What is the name of the recurring character in SNL played by Eddie Murphy?",
+    "answer": "Buckwheat",
+    "choices": [
+      "Buckwheat",
+      "Stuart Smalley",
+      "Matt Foley",
+      "Wayne Campbell"
+    ],
+    "explanation": "Buckwheat was one of Eddie Murphy's most popular recurring SNL characters, a parody of the Little Rascals character."
+  },
+  {
+    "question": "Which reality TV family stars in 'The Real Housewives of Atlanta'?",
+    "answer": "The Leakes, Zolciak-Biermanns, and others",
+    "choices": [
+      "The Leakes, Zolciak-Biermanns, and others",
+      "The Kardashians",
+      "The Osbournes",
+      "The Hiltons"
+    ],
+    "explanation": "The Real Housewives of Atlanta (2008\u2013) features various Atlanta-based women including NeNe Leakes and Kim Zolciak-Biermann."
+  },
+  {
+    "question": "What social media platform is known for its disappearing photo messages?",
+    "answer": "Snapchat",
+    "choices": [
+      "Snapchat",
+      "Instagram",
+      "BeReal",
+      "WhatsApp"
+    ],
+    "explanation": "Snapchat, launched in 2011, popularized disappearing messages and stories that vanish after 24 hours."
+  },
+  {
+    "question": "Which celebrity is known for the catchphrase 'YOLO'?",
+    "answer": "Drake",
+    "choices": [
+      "Drake",
+      "Lil Wayne",
+      "Nicki Minaj",
+      "Kanye West"
+    ],
+    "explanation": "Drake popularized 'YOLO' (You Only Live Once) in his 2011 song 'The Motto.'"
+  },
+  {
+    "question": "What show features office workers led by Michael Scott?",
+    "answer": "The Office (US)",
+    "choices": [
+      "The Office (US)",
+      "Parks and Recreation",
+      "Brooklyn Nine-Nine",
+      "30 Rock"
+    ],
+    "explanation": "The US Office is set at Dunder Mifflin paper company in Scranton, PA, with Michael Scott (Steve Carell) as the bumbling regional manager."
+  },
+  {
+    "question": "Which film features the character Clarice Starling investigating a serial killer with help from Hannibal Lecter?",
+    "answer": "The Silence of the Lambs",
+    "choices": [
+      "The Silence of the Lambs",
+      "Seven",
+      "Zodiac",
+      "Red Dragon"
+    ],
+    "explanation": "The Silence of the Lambs (1991) follows FBI trainee Clarice Starling, who seeks help from imprisoned cannibal Hannibal Lecter to catch 'Buffalo Bill.'"
+  },
+  {
+    "question": "What is the name of the famous internet cat known for having a perpetually grumpy facial expression?",
+    "answer": "Grumpy Cat",
+    "choices": [
+      "Grumpy Cat",
+      "Lil Bub",
+      "Nyan Cat",
+      "Keyboard Cat"
+    ],
+    "explanation": "Grumpy Cat (real name Tardar Sauce) became a viral internet sensation in 2012 due to her permanently grumpy-looking face."
+  },
+  {
+    "question": "Which 2020 Netflix show became a global phenomenon and features deadly children's games?",
+    "answer": "Squid Game",
+    "choices": [
+      "Squid Game",
+      "Money Heist",
+      "Dark",
+      "Alice in Borderland"
+    ],
+    "explanation": "Squid Game (2021) is a South Korean survival thriller that became Netflix's most-watched series of all time."
+  },
+  {
+    "question": "What year did Instagram launch?",
+    "answer": "2010",
+    "choices": [
+      "2010",
+      "2009",
+      "2011",
+      "2012"
+    ],
+    "explanation": "Instagram was launched on October 6, 2010, and was acquired by Facebook (Meta) in 2012."
+  },
+  {
+    "question": "Which Marvel hero is a master archer known as 'Hawkeye'?",
+    "answer": "Clint Barton",
+    "choices": [
+      "Clint Barton",
+      "Kate Bishop",
+      "Oliver Queen",
+      "Roy Harper"
+    ],
+    "explanation": "Clint Barton is the original Hawkeye in Marvel, a skilled archer and founding Avenger without superhuman powers."
+  },
+  {
+    "question": "What is the name of Will Smith's character in The Fresh Prince of Bel-Air?",
+    "answer": "Will Smith",
+    "choices": [
+      "Will Smith",
+      "Carlton Banks",
+      "Geoffrey Butler",
+      "Philip Banks"
+    ],
+    "explanation": "Will Smith played a fictionalized version of himself named Will Smith in The Fresh Prince of Bel-Air (1990\u20131996)."
+  },
+  {
+    "question": "Which 2017 horror film about a clown broke box office records?",
+    "answer": "It",
+    "choices": [
+      "It",
+      "Annabelle: Creation",
+      "Saw: Legacy",
+      "Happy Death Day"
+    ],
+    "explanation": "It (2017), based on Stephen King's novel, broke the record for the highest-grossing R-rated horror film at the time."
+  },
+  {
+    "question": "What is the name of the famous lip sync competition show hosted by LL Cool J?",
+    "answer": "Lip Sync Battle",
+    "choices": [
+      "Lip Sync Battle",
+      "Lip Sync Champion",
+      "Battle of the Lip",
+      "Sing That Song"
+    ],
+    "explanation": "Lip Sync Battle aired on Paramount Network from 2015\u20132019, hosted by LL Cool J and Chrissy Teigen."
+  },
+  {
+    "question": "Which pop star is known for her song 'Poker Face'?",
+    "answer": "Lady Gaga",
+    "choices": [
+      "Lady Gaga",
+      "Katy Perry",
+      "Kesha",
+      "Britney Spears"
+    ],
+    "explanation": "'Poker Face' (2008) is one of Lady Gaga's signature songs from her debut album The Fame."
+  },
+  {
+    "question": "What is the full name of the character known as 'The Joker' in DC Comics?",
+    "answer": "Unknown (his true name is never revealed)",
+    "choices": [
+      "Unknown (his true name is never revealed)",
+      "Jack Napier",
+      "Arthur Fleck",
+      "Jerome Valeska"
+    ],
+    "explanation": "The Joker's real name is intentionally left unknown in most DC Comics canon; different adaptations give him different origin names."
+  },
+  {
+    "question": "Which fictional family does the Netflix show 'Succession' follow?",
+    "answer": "The Roys",
+    "choices": [
+      "The Roys",
+      "The Whites",
+      "The Bluths",
+      "The Underwoods"
+    ],
+    "explanation": "Succession follows the Roy family, a fictional media dynasty loosely inspired by the Murdochs."
+  },
+  {
+    "question": "What does the 'K' in 'K-pop' stand for?",
+    "answer": "Korean",
+    "choices": [
+      "Korean",
+      "Kawaii",
+      "Kyoto",
+      "Karaoke"
+    ],
+    "explanation": "K-pop stands for Korean pop music, a genre that has gained massive global popularity through groups like BTS and BLACKPINK."
+  },
+  {
+    "question": "Which Grammy-winning group performed the halftime show at Super Bowl XLIX?",
+    "answer": "Katy Perry",
+    "choices": [
+      "Katy Perry",
+      "Beyonc\u00e9",
+      "Lady Gaga",
+      "Bruno Mars"
+    ],
+    "explanation": "Katy Perry headlined the halftime show at Super Bowl XLIX (2015), featuring Left Shark, who became a viral sensation."
+  },
+  {
+    "question": "What is the name of the main character in the anime series Naruto?",
+    "answer": "Naruto Uzumaki",
+    "choices": [
+      "Naruto Uzumaki",
+      "Sasuke Uchiha",
+      "Kakashi Hatake",
+      "Rock Lee"
+    ],
+    "explanation": "Naruto Uzumaki is the titular protagonist of the Naruto anime/manga series, a young ninja seeking recognition."
+  },
+  {
+    "question": "Which actress starred in both Legally Blonde and Walk the Line?",
+    "answer": "Reese Witherspoon",
+    "choices": [
+      "Reese Witherspoon",
+      "Sandra Bullock",
+      "Ren\u00e9e Zellweger",
+      "Nicole Kidman"
+    ],
+    "explanation": "Reese Witherspoon starred in Legally Blonde (2001) as Elle Woods and Walk the Line (2005) as June Carter Cash."
+  },
+  {
+    "question": "What is the name of the fictional city in the TV show Gotham?",
+    "answer": "Gotham City",
+    "choices": [
+      "Gotham City",
+      "Metropolis",
+      "Star City",
+      "Central City"
+    ],
+    "explanation": "Gotham is a Fox TV series (2014\u20132019) set in Gotham City before Bruce Wayne becomes Batman."
+  },
+  {
+    "question": "Which K-pop group performed at the White House Correspondents' Dinner and met President Biden?",
+    "answer": "BTS",
+    "choices": [
+      "BTS",
+      "BLACKPINK",
+      "EXO",
+      "TWICE"
+    ],
+    "explanation": "BTS visited the White House in May 2022 to meet with President Biden and discuss anti-Asian hate crimes, and later attended the Correspondents' Dinner."
+  },
+  {
+    "question": "What is the name of Beyonc\u00e9's 2016 visual album?",
+    "answer": "Lemonade",
+    "choices": [
+      "Lemonade",
+      "Renaissance",
+      "4",
+      "Beyonc\u00e9"
+    ],
+    "explanation": "Lemonade (2016) is Beyonc\u00e9's sixth studio album, released simultaneously with a visual companion film on HBO."
+  },
+  {
+    "question": "Which superhero franchise features the 'Avengers'?",
+    "answer": "Marvel",
+    "choices": [
+      "Marvel",
+      "DC",
+      "Dark Horse",
+      "Image Comics"
+    ],
+    "explanation": "The Avengers are a team of superheroes in the Marvel Comics universe, brought to the MCU in The Avengers (2012)."
+  },
+  {
+    "question": "What is the name of the fictional drug in the TV show Breaking Bad?",
+    "answer": "Blue Sky (blue meth)",
+    "choices": [
+      "Blue Sky (blue meth)",
+      "Yellow Fever",
+      "White Lightning",
+      "Crystal Clear"
+    ],
+    "explanation": "Walter White's product is known as 'Blue Sky' due to its distinctive blue color and extremely high purity."
+  },
+  {
+    "question": "Which celebrity is known for the catchphrase 'That's hot'?",
+    "answer": "Paris Hilton",
+    "choices": [
+      "Paris Hilton",
+      "Nicole Richie",
+      "Kim Kardashian",
+      "Lindsay Lohan"
+    ],
+    "explanation": "Paris Hilton popularized 'That's hot' as her trademark saying during The Simple Life (2003\u20132007)."
+  },
+  {
+    "question": "What animated series features the characters Stewie and Brian Griffin?",
+    "answer": "Family Guy",
+    "choices": [
+      "Family Guy",
+      "American Dad",
+      "The Simpsons",
+      "Futurama"
+    ],
+    "explanation": "Stewie (the diabolical baby) and Brian (the talking dog) are standout characters in Seth MacFarlane's Family Guy."
+  },
+  {
+    "question": "Which show features the fictional law firm Pearson Hardman?",
+    "answer": "Suits",
+    "choices": [
+      "Suits",
+      "The Good Wife",
+      "Boston Legal",
+      "Better Call Saul"
+    ],
+    "explanation": "Suits (2011\u20132019) is set at the fictional law firm Pearson Hardman (later Pearson Specter Litt) in New York City."
+  },
+  {
+    "question": "What is the name of the world's most followed person on Instagram as of 2023?",
+    "answer": "Cristiano Ronaldo",
+    "choices": [
+      "Cristiano Ronaldo",
+      "Kylie Jenner",
+      "Selena Gomez",
+      "Leo Messi"
+    ],
+    "explanation": "Cristiano Ronaldo is the most followed person on Instagram, with over 600 million followers."
+  },
+  {
+    "question": "Who won the first season of American Idol?",
+    "answer": "Kelly Clarkson",
+    "choices": [
+      "Kelly Clarkson",
+      "Justin Guarini",
+      "Ruben Studdard",
+      "Clay Aiken"
+    ],
+    "explanation": "Kelly Clarkson won the first season of American Idol in 2002 and went on to become a successful pop star."
+  },
+  {
+    "question": "What is the name of Harry Potter's pet owl?",
+    "answer": "Hedwig",
+    "choices": [
+      "Hedwig",
+      "Errol",
+      "Pig",
+      "Hermes"
+    ],
+    "explanation": "Hedwig is Harry Potter's faithful snowy owl, a birthday gift from Hagrid."
+  },
+  {
+    "question": "What show follows a chemistry teacher named Walter who makes methamphetamine?",
+    "answer": "Breaking Bad",
+    "choices": [
+      "Breaking Bad",
+      "Ozark",
+      "Narcos",
+      "The Wire"
+    ],
+    "explanation": "Breaking Bad (2008\u20132013) follows Walter White, a high school chemistry teacher who becomes a drug manufacturer."
+  },
+  {
+    "question": "Which celebrity chef is known for his UK show 'The Great British Bake Off'?",
+    "answer": "Paul Hollywood and Prue Leith (judges)",
+    "choices": [
+      "Paul Hollywood and Prue Leith (judges)",
+      "Gordon Ramsay",
+      "Jamie Oliver",
+      "Nigella Lawson"
+    ],
+    "explanation": "The Great British Bake Off is judged by Paul Hollywood and Prue Leith (previously Mary Berry)."
+  },
+  {
+    "question": "What is the name of the fictional world in the Game of Thrones universe?",
+    "answer": "Westeros and Essos",
+    "choices": [
+      "Westeros and Essos",
+      "Middle-earth",
+      "Azeroth",
+      "Tamriel"
+    ],
+    "explanation": "Game of Thrones is set primarily in Westeros, with storylines also taking place across the sea in Essos."
+  },
+  {
+    "question": "Which pop star is known for the 'Eras Tour'?",
+    "answer": "Taylor Swift",
+    "choices": [
+      "Taylor Swift",
+      "Beyonc\u00e9",
+      "Madonna",
+      "Lady Gaga"
+    ],
+    "explanation": "Taylor Swift's Eras Tour (2023\u20132024) is one of the highest-grossing concert tours in history, celebrating her different musical eras."
+  },
+  {
+    "question": "What is the name of the reality competition show where people try to win a 'Rose'?",
+    "answer": "The Bachelor",
+    "choices": [
+      "The Bachelor",
+      "Survivor",
+      "Big Brother",
+      "Love Island"
+    ],
+    "explanation": "The Bachelor (2002\u2013) is a dating reality show where contestants compete for a rose from the bachelor as a symbol of being kept in the competition."
+  },
+  {
+    "question": "Which streaming service created the show Squid Game?",
+    "answer": "Netflix",
+    "choices": [
+      "Netflix",
+      "Disney+",
+      "HBO Max",
+      "Hulu"
+    ],
+    "explanation": "Squid Game is a Netflix original South Korean series that became the platform's most-watched show ever in 2021."
+  },
+  {
+    "question": "Who is the actress known for playing Katniss in The Hunger Games and winning an Oscar for Silver Linings Playbook?",
+    "answer": "Jennifer Lawrence",
+    "choices": [
+      "Jennifer Lawrence",
+      "Emma Stone",
+      "Shailene Woodley",
+      "Brie Larson"
+    ],
+    "explanation": "Jennifer Lawrence won the Academy Award for Best Actress for Silver Linings Playbook (2012) and played Katniss in The Hunger Games."
+  },
+  {
+    "question": "What does the term 'binge-watching' refer to?",
+    "answer": "Watching multiple episodes of a show in one sitting",
+    "choices": [
+      "Watching multiple episodes of a show in one sitting",
+      "Watching on a big screen",
+      "Watching with subtitles",
+      "Watching in HD quality"
+    ],
+    "explanation": "Binge-watching refers to watching many episodes of a TV show in rapid succession, made popular by streaming services."
+  },
+  {
+    "question": "Which talk show host is famous for saying 'You get a car!'?",
+    "answer": "Oprah Winfrey",
+    "choices": [
+      "Oprah Winfrey",
+      "Ellen DeGeneres",
+      "Jimmy Fallon",
+      "Jay Leno"
+    ],
+    "explanation": "Oprah Winfrey famously gave a car to every audience member in her 'Favorite Things' episode in 2004."
+  },
+  {
+    "question": "What is the name of the famous shark in the movie Jaws?",
+    "answer": "Bruce",
+    "choices": [
+      "Bruce",
+      "Jaws",
+      "Sharky",
+      "White Death"
+    ],
+    "explanation": "The mechanical shark used in Jaws (1975) was nicknamed 'Bruce' by the crew, after director Spielberg's lawyer Bruce Ramer."
+  },
+  {
+    "question": "Which celebrity is known for the phrase 'Keep up with the Kardashians'?",
+    "answer": "Kim Kardashian",
+    "choices": [
+      "Kim Kardashian",
+      "Khloe Kardashian",
+      "Kourtney Kardashian",
+      "Kris Jenner"
+    ],
+    "explanation": "Keeping Up with the Kardashians follows the Kardashian-Jenner family; Kim Kardashian is the most recognized member."
+  },
+  {
+    "question": "Who plays the role of Michael Scott in The Office (US)?",
+    "answer": "Steve Carell",
+    "choices": [
+      "Steve Carell",
+      "Rainn Wilson",
+      "John Krasinski",
+      "Ed Helms"
+    ],
+    "explanation": "Steve Carell plays Michael Scott, the often oblivious and cringe-worthy regional manager of Dunder Mifflin Scranton."
+  },
+  {
+    "question": "What Marvel Phase 1 film launched the MCU?",
+    "answer": "Iron Man (2008)",
+    "choices": [
+      "Iron Man (2008)",
+      "The Incredible Hulk",
+      "Thor",
+      "Captain America: The First Avenger"
+    ],
+    "explanation": "Iron Man (2008) starring Robert Downey Jr. was the first film of the Marvel Cinematic Universe."
+  },
+  {
+    "question": "What is the name of the technology billionaire who started SpaceX and Tesla?",
+    "answer": "Elon Musk",
+    "choices": [
+      "Elon Musk",
+      "Jeff Bezos",
+      "Bill Gates",
+      "Mark Zuckerberg"
+    ],
+    "explanation": "Elon Musk founded SpaceX (2002) and co-founded Tesla (2003), becoming one of the world's wealthiest people."
+  },
+  {
+    "question": "Which animated movie features the song 'Remember Me' and a Day of the Dead setting?",
+    "answer": "Coco",
+    "choices": [
+      "Coco",
+      "The Book of Life",
+      "Encanto",
+      "Soul"
+    ],
+    "explanation": "'Remember Me' is a central song in Pixar's Coco (2017), about a boy who travels to the Land of the Dead during D\u00eda de los Muertos."
+  },
+  {
+    "question": "What is the name of the most famous fictional wizard school?",
+    "answer": "Hogwarts",
+    "choices": [
+      "Hogwarts",
+      "Brakebills",
+      "Ilvermorny",
+      "Beauxbatons"
+    ],
+    "explanation": "Hogwarts School of Witchcraft and Wizardry from Harry Potter is the most famous fictional magic school in pop culture."
+  },
+  {
+    "question": "Which female talk show host had a show from 2003\u20132022?",
+    "answer": "Ellen DeGeneres",
+    "choices": [
+      "Ellen DeGeneres",
+      "Oprah Winfrey",
+      "Wendy Williams",
+      "Kelly Clarkson"
+    ],
+    "explanation": "The Ellen DeGeneres Show aired from 2003 to 2022, running for 19 seasons."
+  },
+  {
+    "question": "What is the name of the villain in the Disney film The Lion King?",
+    "answer": "Scar",
+    "choices": [
+      "Scar",
+      "Mufasa",
+      "Zira",
+      "Banzai"
+    ],
+    "explanation": "Scar (Taka) is the jealous brother of Mufasa and the primary villain in The Lion King (1994)."
+  },
+  {
+    "question": "Which streaming service is home to the show The Boys?",
+    "answer": "Amazon Prime Video",
+    "choices": [
+      "Amazon Prime Video",
+      "Netflix",
+      "Hulu",
+      "HBO Max"
+    ],
+    "explanation": "The Boys (2019\u2013) is an Amazon Prime Video original series about a group fighting corrupt superheroes."
+  },
+  {
+    "question": "What is the name of the dating reality show filmed on a tropical island?",
+    "answer": "Love Island",
+    "choices": [
+      "Love Island",
+      "The Bachelor",
+      "Paradise Hotel",
+      "Temptation Island"
+    ],
+    "explanation": "Love Island is a British reality dating show where contestants (Islanders) couple up to avoid elimination, filmed in a villa."
+  },
+  {
+    "question": "Who plays Jack Pearson in the series This Is Us?",
+    "answer": "Milo Ventimiglia",
+    "choices": [
+      "Milo Ventimiglia",
+      "Sterling K. Brown",
+      "Justin Hartley",
+      "Chrissy Metz"
+    ],
+    "explanation": "Milo Ventimiglia plays Jack Pearson, the patriarch of the Pearson family, in NBC's This Is Us."
+  },
+  {
+    "question": "What is the name of the technology company behind the social media platform Instagram?",
+    "answer": "Meta (formerly Facebook)",
+    "choices": [
+      "Meta (formerly Facebook)",
+      "Google",
+      "Twitter",
+      "Snap Inc."
+    ],
+    "explanation": "Instagram was acquired by Facebook (now Meta) in 2012 for approximately $1 billion."
+  },
+  {
+    "question": "What animated movie features the song 'How Far I'll Go'?",
+    "answer": "Moana",
+    "choices": [
+      "Moana",
+      "Brave",
+      "Encanto",
+      "Raya and the Last Dragon"
+    ],
+    "explanation": "'How Far I'll Go' is the signature song from Disney's Moana (2016), sung by the title character."
+  },
+  {
+    "question": "Who is the fashion designer behind the brand Versace?",
+    "answer": "Gianni Versace (founded), now Donatella Versace",
+    "choices": [
+      "Gianni Versace (founded), now Donatella Versace",
+      "Giorgio Armani",
+      "Roberto Cavalli",
+      "Valentino Garavani"
+    ],
+    "explanation": "Gianni Versace founded Versace in 1978; after his murder in 1997, his sister Donatella became creative director."
+  },
+  {
+    "question": "Which comedian and actor starred in Anchorman and Step Brothers?",
+    "answer": "Will Ferrell",
+    "choices": [
+      "Will Ferrell",
+      "Steve Carell",
+      "John C. Reilly",
+      "Adam McKay"
+    ],
+    "explanation": "Will Ferrell starred in Anchorman: The Legend of Ron Burgundy (2004) and Step Brothers (2008), both directed by Adam McKay."
+  },
+  {
+    "question": "What is the name of the website where fans post fan fiction and creative writing?",
+    "answer": "Archive of Our Own (AO3)",
+    "choices": [
+      "Archive of Our Own (AO3)",
+      "FanFiction.net",
+      "Wattpad",
+      "Tumblr"
+    ],
+    "explanation": "Archive of Our Own (AO3) is a popular nonprofit fan fiction archive that won a Hugo Award in 2019."
+  },
+  {
+    "question": "Which pop duo had hits with 'I Want It That Way'?",
+    "answer": "Backstreet Boys",
+    "choices": [
+      "Backstreet Boys",
+      "*NSYNC",
+      "New Kids on the Block",
+      "Boyz II Men"
+    ],
+    "explanation": "'I Want It That Way' (1999) is one of the Backstreet Boys' most iconic songs."
+  },
+  {
+    "question": "What is the name of the fictional robot character E.T. the Extra-Terrestrial?",
+    "answer": "E.T. is an alien, not a robot",
+    "choices": [
+      "E.T. is an alien, not a robot",
+      "E.T.",
+      "ET-1000",
+      "Elliot's Friend"
+    ],
+    "explanation": "E.T. (the Extra-Terrestrial) is an alien in Steven Spielberg's 1982 film, not a robot."
+  },
+  {
+    "question": "Which actress won multiple Oscars and is known as 'the Meryl Streep of her generation'?",
+    "answer": "Cate Blanchett",
+    "choices": [
+      "Cate Blanchett",
+      "Natalie Portman",
+      "Nicole Kidman",
+      "Julianne Moore"
+    ],
+    "explanation": "Cate Blanchett has won two Academy Awards and is often described as one of the greatest actresses of her generation."
+  },
+  {
+    "question": "What viral phrase came from the 2019 Area 51 raid meme?",
+    "answer": "They can't stop all of us",
+    "choices": [
+      "They can't stop all of us",
+      "Storm Area 51",
+      "Let's see them aliens",
+      "Naruto Run into Area 51"
+    ],
+    "explanation": "The Storm Area 51 meme spawned many viral phrases, including 'They can't stop all of us' and the 'Naruto Run' reference."
+  },
+  {
+    "question": "Which show features the fictional newspaper The Daily Planet?",
+    "answer": "Smallville / Superman & Lois",
+    "choices": [
+      "Smallville / Superman & Lois",
+      "Gotham",
+      "Arrow",
+      "The Flash"
+    ],
+    "explanation": "The Daily Planet is a fictional newspaper in the Superman universe, appearing in Smallville, Superman & Lois, and other adaptations."
+  },
+  {
+    "question": "Who is the host of the podcast and commentary show 'Hot Ones'?",
+    "answer": "Sean Evans",
+    "choices": [
+      "Sean Evans",
+      "Joe Rogan",
+      "Conan O'Brien",
+      "Jimmy Fallon"
+    ],
+    "explanation": "Sean Evans is the host of Hot Ones, a YouTube interview series where celebrities eat increasingly spicy chicken wings."
+  },
+  {
+    "question": "What is the name of the phenomenon where fans ship two characters together?",
+    "answer": "Shipping",
+    "choices": [
+      "Shipping",
+      "Stanning",
+      "Fandom",
+      "Headcanon"
+    ],
+    "explanation": "Shipping is the practice of fans imagining or wanting two characters (or real people) to be in a romantic relationship."
+  },
+  {
+    "question": "Which award show airs in September and honors achievements in television?",
+    "answer": "Emmy Awards",
+    "choices": [
+      "Emmy Awards",
+      "Tony Awards",
+      "Golden Globes",
+      "SAG Awards"
+    ],
+    "explanation": "The Emmy Awards, officially the Primetime Emmy Awards, honor excellence in American prime-time television."
+  },
+  {
+    "question": "What show features the character Leslie Knope?",
+    "answer": "Parks and Recreation",
+    "choices": [
+      "Parks and Recreation",
+      "The Office",
+      "Community",
+      "Brooklyn Nine-Nine"
+    ],
+    "explanation": "Leslie Knope, played by Amy Poehler, is the optimistic deputy director of the Pawnee Parks and Recreation department."
+  },
+  {
+    "question": "Who created the social media platform Twitter?",
+    "answer": "Jack Dorsey, Biz Stone, Evan Williams, and Noah Glass",
+    "choices": [
+      "Jack Dorsey, Biz Stone, Evan Williams, and Noah Glass",
+      "Mark Zuckerberg",
+      "Elon Musk",
+      "Kevin Systrom"
+    ],
+    "explanation": "Twitter was created in 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams."
+  },
+  {
+    "question": "What is the name of the iconic green monster in classic horror films?",
+    "answer": "Frankenstein's Monster",
+    "choices": [
+      "Frankenstein's Monster",
+      "The Creature from the Black Lagoon",
+      "The Mummy",
+      "The Blob"
+    ],
+    "explanation": "Frankenstein's monster, as depicted in the 1931 film with green-tinged skin, is one of horror's most iconic creatures."
+  },
+  {
+    "question": "Which reality TV show involves contestants singing to win a record deal?",
+    "answer": "American Idol",
+    "choices": [
+      "American Idol",
+      "The Voice",
+      "The X Factor",
+      "America's Got Talent"
+    ],
+    "explanation": "American Idol (2002\u2013) is a singing competition where contestants compete for a recording contract and a cash prize."
+  },
+  {
+    "question": "What is the name of the fictional school in Saved by the Bell?",
+    "answer": "Bayside High School",
+    "choices": [
+      "Bayside High School",
+      "James K. Polk Middle School",
+      "West Beverly Hills High",
+      "Jefferson High School"
+    ],
+    "explanation": "Bayside High School is the fictional California high school in Saved by the Bell (1989\u20131993)."
+  },
+  {
+    "question": "Which 2021 K-pop group performed at the Grammy Awards?",
+    "answer": "BTS",
+    "choices": [
+      "BTS",
+      "BLACKPINK",
+      "EXO",
+      "TWICE"
+    ],
+    "explanation": "BTS performed 'Butter' at the 2021 Grammy Awards (the 63rd Grammy Awards held in 2021)."
+  },
+  {
+    "question": "What is the name of the competition format where teams compete in physical and mental challenges?",
+    "answer": "The Amazing Race",
+    "choices": [
+      "The Amazing Race",
+      "Survivor",
+      "Big Brother",
+      "The Apprentice"
+    ],
+    "explanation": "The Amazing Race (2001\u2013) is a reality competition show where teams race around the world completing challenges."
+  },
+  {
+    "question": "Which actress plays Black Widow in the Marvel Cinematic Universe?",
+    "answer": "Scarlett Johansson",
+    "choices": [
+      "Scarlett Johansson",
+      "Jessica Alba",
+      "Halle Berry",
+      "Gal Gadot"
+    ],
+    "explanation": "Scarlett Johansson has played Natasha Romanoff/Black Widow in the MCU since Iron Man 2 (2010)."
+  },
+  {
+    "question": "What is the name of the company founded by Kylie Jenner that became a billion-dollar business?",
+    "answer": "Kylie Cosmetics",
+    "choices": [
+      "Kylie Cosmetics",
+      "SKIMS",
+      "Good American",
+      "Fenty Beauty"
+    ],
+    "explanation": "Kylie Jenner founded Kylie Cosmetics in 2015, which sold a 51% stake to Coty Inc. in 2020."
+  },
+  {
+    "question": "Which show features the characters Michael, Jim, Dwight, and Pam?",
+    "answer": "The Office",
+    "choices": [
+      "The Office",
+      "Parks and Recreation",
+      "Brooklyn Nine-Nine",
+      "Community"
+    ],
+    "explanation": "Michael Scott (Steve Carell), Jim Halpert (John Krasinski), Dwight Schrute (Rainn Wilson), and Pam Beesly (Jenna Fischer) are The Office's main characters."
+  },
+  {
+    "question": "What famous meme features a man looking back at another woman while his girlfriend looks angry?",
+    "answer": "Distracted Boyfriend",
+    "choices": [
+      "Distracted Boyfriend",
+      "Side Eye Chloe",
+      "This Is Fine",
+      "Surprised Pikachu"
+    ],
+    "explanation": "The 'Distracted Boyfriend' meme is a stock photo by Antonio Guillem that went viral in 2017 as a template for countless jokes."
+  },
+  {
+    "question": "What is the name of the most-followed TikTok account as of 2023?",
+    "answer": "Khaby Lame",
+    "choices": [
+      "Khaby Lame",
+      "Charli D'Amelio",
+      "Addison Rae",
+      "MrBeast"
+    ],
+    "explanation": "Khaby Lame (Khabane Lame) became the most-followed creator on TikTok in 2022, surpassing Charli D'Amelio."
+  },
+  {
+    "question": "Which reality show made Snooki and J-Woww famous?",
+    "answer": "Jersey Shore",
+    "choices": [
+      "Jersey Shore",
+      "The Real World",
+      "Big Brother",
+      "Road Rules"
+    ],
+    "explanation": "Jersey Shore (2009\u20132012) made cast members including Nicole 'Snooki' Polizzi and Jenni 'J-Woww' Farley famous."
+  },
+  {
+    "question": "What 2020 documentary about a big cat owner featured Joe Exotic?",
+    "answer": "Tiger King",
+    "choices": [
+      "Tiger King",
+      "The Tiger Whisperer",
+      "Exotic Animals",
+      "Big Cat Rescue"
+    ],
+    "explanation": "Tiger King: Murder, Mayhem and Madness (2020) follows Joe Exotic and other exotic animal owners."
+  },
+  {
+    "question": "Which streaming service launched Disney+?",
+    "answer": "Disney",
+    "choices": [
+      "Disney",
+      "Comcast",
+      "Sony",
+      "NBCUniversal"
+    ],
+    "explanation": "Disney launched its own streaming service, Disney+, in November 2019."
+  },
+  {
+    "question": "What is the name of the fictional town in Schitt's Creek?",
+    "answer": "Schitt's Creek",
+    "choices": [
+      "Schitt's Creek",
+      "Pawnee",
+      "Bluebell",
+      "Cicely"
+    ],
+    "explanation": "Schitt's Creek is both the name of the show and the fictional small town purchased as a joke by the Rose family."
+  },
+  {
+    "question": "Who plays Lorelai Gilmore in Gilmore Girls?",
+    "answer": "Lauren Graham",
+    "choices": [
+      "Lauren Graham",
+      "Alexis Bledel",
+      "Kelly Bishop",
+      "Melissa McCarthy"
+    ],
+    "explanation": "Lauren Graham plays Lorelai Gilmore, the witty, fast-talking mother who runs the Independence Inn in Gilmore Girls."
+  },
+  {
+    "question": "What 2019 documentary featured Leaving Neverland?",
+    "answer": "Leaving Neverland",
+    "choices": [
+      "Leaving Neverland",
+      "Finding Neverland",
+      "This Is It",
+      "Michael Jackson: Chase the Truth"
+    ],
+    "explanation": "Leaving Neverland (2019) is an HBO documentary featuring accounts from Wade Robson and James Safechuck alleging abuse by Michael Jackson."
+  },
+  {
+    "question": "Which HBO show features a fictional broadcast news team?",
+    "answer": "The Newsroom",
+    "choices": [
+      "The Newsroom",
+      "Succession",
+      "Veep",
+      "Silicon Valley"
+    ],
+    "explanation": "The Newsroom (2012\u20132014), created by Aaron Sorkin, follows the staff of a fictional cable news channel."
+  },
+  {
+    "question": "What is the name of the device in Get Out that the villain uses to control people?",
+    "answer": "The Sunken Place",
+    "choices": [
+      "The Sunken Place",
+      "The Hypnosis Chair",
+      "The Coagula Procedure",
+      "The Deer Trap"
+    ],
+    "explanation": "In Get Out (2017), 'The Sunken Place' is the psychological state Rose's mother sends victims into during hypnosis."
+  },
+  {
+    "question": "Which singer is known as 'Old Blue Eyes'?",
+    "answer": "Frank Sinatra",
+    "choices": [
+      "Frank Sinatra",
+      "Dean Martin",
+      "Sammy Davis Jr.",
+      "Bing Crosby"
+    ],
+    "explanation": "Frank Sinatra was nicknamed 'Ol' Blue Eyes' for his striking blue eyes and was one of the most popular entertainers of the 20th century."
+  },
+  {
+    "question": "What is the name of the actress known for the Pitch Perfect film series?",
+    "answer": "Anna Kendrick",
+    "choices": [
+      "Anna Kendrick",
+      "Rebel Wilson",
+      "Brittany Snow",
+      "Skylar Astin"
+    ],
+    "explanation": "Anna Kendrick plays Beca Mitchell, the lead character in the Pitch Perfect film series (2012\u20132017)."
+  },
+  {
+    "question": "Which superhero movie franchise features Wonder Woman?",
+    "answer": "DC Extended Universe (DCEU)",
+    "choices": [
+      "DC Extended Universe (DCEU)",
+      "Marvel Cinematic Universe",
+      "Dark Universe",
+      "X-Men Universe"
+    ],
+    "explanation": "Wonder Woman (Diana Prince) is a DC Comics hero featured in the DCEU, played by Gal Gadot."
+  },
+  {
+    "question": "What is the name of the famous fictional high school in Beverly Hills, 90210?",
+    "answer": "West Beverly Hills High School",
+    "choices": [
+      "West Beverly Hills High School",
+      "Bayside High",
+      "Degrassi Community School",
+      "Lakeview High"
+    ],
+    "explanation": "West Beverly Hills High School is the fictional high school in the teen drama Beverly Hills, 90210 (1990\u20132000)."
+  },
+  {
+    "question": "Which award show features the 'EGOT' achievement?",
+    "answer": "Emmy, Grammy, Oscar, and Tony Awards",
+    "choices": [
+      "Emmy, Grammy, Oscar, and Tony Awards",
+      "People's Choice Awards",
+      "Billboard Music Awards",
+      "MTV VMAs"
+    ],
+    "explanation": "An EGOT is winning all four major American entertainment awards: Emmy (TV), Grammy (music), Oscar (film), and Tony (theater)."
+  },
+  {
+    "question": "What is the name of the popular British baking competition?",
+    "answer": "The Great British Bake Off",
+    "choices": [
+      "The Great British Bake Off",
+      "MasterChef UK",
+      "Junior Bake Off",
+      "Great British Menu"
+    ],
+    "explanation": "The Great British Bake Off (known as The Great British Baking Show in the US) is a beloved baking competition show on BBC/Channel 4."
+  },
+  {
+    "question": "Which actress plays Serena van der Woodsen in Gossip Girl?",
+    "answer": "Blake Lively",
+    "choices": [
+      "Blake Lively",
+      "Leighton Meester",
+      "Taylor Momsen",
+      "Penn Badgley"
+    ],
+    "explanation": "Blake Lively plays Serena van der Woodsen, the 'it girl' of the Upper East Side, in Gossip Girl (2007\u20132012)."
+  },
+  {
+    "question": "What is the name of the mysterious device in Lost that the survivors must push a button in?",
+    "answer": "The Swan station button",
+    "choices": [
+      "The Swan station button",
+      "The Hatch",
+      "The Dharma machine",
+      "The Numbers machine"
+    ],
+    "explanation": "In Lost, survivors of Oceanic 815 discover 'The Hatch' containing the Swan station, where a button must be pressed every 108 minutes."
+  },
+  {
+    "question": "Who plays Shrek in the animated Shrek films?",
+    "answer": "Mike Myers",
+    "choices": [
+      "Mike Myers",
+      "Eddie Murphy",
+      "John Lithgow",
+      "Cameron Diaz"
+    ],
+    "explanation": "Mike Myers provides the voice of Shrek the ogre in the Shrek film franchise."
+  },
+  {
+    "question": "What is the name of the fictional superhero group in The Incredibles?",
+    "answer": "The Incredibles (Parr family)",
+    "choices": [
+      "The Incredibles (Parr family)",
+      "The Avengers",
+      "The Fantastic Four",
+      "The Justice League"
+    ],
+    "explanation": "The Incredibles follows the Parr family: Mr. Incredible, Elastigirl, Violet, Dash, and Jack-Jack."
+  },
+  {
+    "question": "Who is the co-creator and star of the HBO show Girls?",
+    "answer": "Lena Dunham",
+    "choices": [
+      "Lena Dunham",
+      "Amy Schumer",
+      "Mindy Kaling",
+      "Tina Fey"
+    ],
+    "explanation": "Lena Dunham created, wrote, directed, and starred in Girls (2012\u20132017), an HBO comedy-drama about young women in New York."
+  },
+  {
+    "question": "What is the name of the superhero who can shrink to the size of an ant?",
+    "answer": "Ant-Man",
+    "choices": [
+      "Ant-Man",
+      "The Wasp",
+      "Giant-Man",
+      "Yellow Jacket"
+    ],
+    "explanation": "Ant-Man (Scott Lang, played by Paul Rudd) is a Marvel hero who can shrink using a special suit."
+  },
+  {
+    "question": "Which celebrity couple's wedding was called 'the wedding of the century' in 2011?",
+    "answer": "Prince William and Catherine Middleton",
+    "choices": [
+      "Prince William and Catherine Middleton",
+      "Kim Kardashian and Kris Humphries",
+      "Justin Bieber and Hailey Baldwin",
+      "Nick Jonas and Priyanka Chopra"
+    ],
+    "explanation": "Prince William and Catherine (Kate) Middleton's wedding on April 29, 2011, was watched by an estimated 2 billion people worldwide."
+  },
+  {
+    "question": "What is the name of the popular animated franchise featuring transforming robots?",
+    "answer": "Transformers",
+    "choices": [
+      "Transformers",
+      "Voltron",
+      "Power Rangers",
+      "Gundam"
+    ],
+    "explanation": "Transformers is a media franchise featuring robots that can transform into vehicles, starting as a Hasbro toy line in 1984."
+  },
+  {
+    "question": "Which show features the fictional 'Dunder Mifflin Infinity' website?",
+    "answer": "The Office",
+    "choices": [
+      "The Office",
+      "Parks and Recreation",
+      "Silicon Valley",
+      "Halt and Catch Fire"
+    ],
+    "explanation": "In The Office, Ryan Howard creates the Dunder Mifflin Infinity website as a major plot point in Season 4."
+  },
+  {
+    "question": "Who is the host of the NPR show 'Wait Wait... Don't Tell Me!'?",
+    "answer": "Peter Sagal",
+    "choices": [
+      "Peter Sagal",
+      "Ira Glass",
+      "Terry Gross",
+      "Robert Siegel"
+    ],
+    "explanation": "Peter Sagal has hosted the NPR news quiz show 'Wait Wait... Don't Tell Me!' since 1998."
+  },
+  {
+    "question": "What 2021 film by the Coen Brothers (Joel only) is a psychological Western?",
+    "answer": "The Power of the Dog",
+    "choices": [
+      "The Power of the Dog",
+      "Nightmare Alley",
+      "No Country for Old Men",
+      "True Grit"
+    ],
+    "explanation": "The Power of the Dog (2021) was directed by Jane Campion (not the Coen Brothers) and won Best Director at the Oscars."
+  },
+  {
+    "question": "Which actress won an Oscar for her role in Monster (2003)?",
+    "answer": "Charlize Theron",
+    "choices": [
+      "Charlize Theron",
+      "Halle Berry",
+      "Hilary Swank",
+      "Nicole Kidman"
+    ],
+    "explanation": "Charlize Theron won the Academy Award for Best Actress for her portrayal of serial killer Aileen Wuornos in Monster (2003)."
+  },
+  {
+    "question": "What is the name of the villain in the animated film Megamind?",
+    "answer": "Metroman (hero) vs. Megamind (villain turned hero)",
+    "choices": [
+      "Metroman (hero) vs. Megamind (villain turned hero)",
+      "Titan",
+      "Overlord",
+      "Black Manta"
+    ],
+    "explanation": "In Megamind (2010), Megamind is the antagonist-turned-protagonist, while Metro Man is the hero and later Titan becomes the real villain."
+  },
+  {
+    "question": "What is the catchphrase of Barney Stinson in How I Met Your Mother?",
+    "answer": "Legendary (and 'Have you met Ted?')",
+    "choices": [
+      "Legendary (and 'Have you met Ted?')",
+      "Wait for it",
+      "Suit up",
+      "Legen... dairy!"
+    ],
+    "explanation": "Barney Stinson's most famous catchphrases include 'Legendary,' 'Suit up,' and 'Legen-wait for it-dary!'"
+  },
+  {
+    "question": "Which YouTube video format where creator opens mystery boxes became a trend?",
+    "answer": "Unboxing",
+    "choices": [
+      "Unboxing",
+      "Haul",
+      "Try-on",
+      "Review"
+    ],
+    "explanation": "Unboxing videos became a major YouTube trend in the early 2010s, with creators filming themselves opening product packages."
+  },
+  {
+    "question": "What Netflix show stars the comedian Ali Wong in a modern Cyrano de Bergerac plot?",
+    "answer": "Always Be My Maybe",
+    "choices": [
+      "Always Be My Maybe",
+      "Never Have I Ever",
+      "Ginny and Georgia",
+      "Emily in Paris"
+    ],
+    "explanation": "Always Be My Maybe (2019) is a Netflix romantic comedy starring Ali Wong and Randall Park as childhood friends who reconnect."
+  },
+  {
+    "question": "Who plays the fictional hitman Barry Berkman in the HBO show Barry?",
+    "answer": "Bill Hader",
+    "choices": [
+      "Bill Hader",
+      "Anthony Carrigan",
+      "Henry Winkler",
+      "Stephen Root"
+    ],
+    "explanation": "Bill Hader (who also co-created and often directs the show) stars as Barry Berkman/Barry Block in HBO's Barry."
+  },
+  {
+    "question": "What is the name of the fictional drug in the TV show Euphoria?",
+    "answer": "Various substances (fentanyl, MDMA, etc.)",
+    "choices": [
+      "Various substances (fentanyl, MDMA, etc.)",
+      "Blue Sky",
+      "Trank",
+      "Cheese"
+    ],
+    "explanation": "Euphoria depicts real-world drug use including fentanyl, MDMA, and other substances as part of its portrayal of teen addiction."
+  },
+  {
+    "question": "Which fictional podcast is central to the plot of the TV show Serial?",
+    "answer": "Serial is a real podcast, not a TV show",
+    "choices": [
+      "Serial is a real podcast, not a TV show",
+      "Crimetown",
+      "Criminal",
+      "My Favorite Murder"
+    ],
+    "explanation": "Serial is an actual true-crime podcast by Sarah Koenig, not a TV show; it spawned a podcast phenomenon starting in 2014."
+  },
+  {
+    "question": "What is the name of the AI voice assistant developed by Amazon?",
+    "answer": "Alexa",
+    "choices": [
+      "Alexa",
+      "Siri",
+      "Cortana",
+      "Echo"
+    ],
+    "explanation": "Alexa is Amazon's cloud-based AI voice assistant, launched in 2014 alongside the Amazon Echo smart speaker."
+  },
+  {
+    "question": "Who plays the role of Jax Teller in Sons of Anarchy?",
+    "answer": "Charlie Hunnam",
+    "choices": [
+      "Charlie Hunnam",
+      "Ryan Hurst",
+      "Ron Perlman",
+      "Tommy Flanagan"
+    ],
+    "explanation": "Charlie Hunnam plays Jackson 'Jax' Teller, the vice president of the Sons of Anarchy motorcycle club, in the FX series."
+  },
+  {
+    "question": "What reality show follows families with many children?",
+    "answer": "19 Kids and Counting (now Counting On)",
+    "choices": [
+      "19 Kids and Counting (now Counting On)",
+      "Jon & Kate Plus 8",
+      "The Real Housewives",
+      "Sister Wives"
+    ],
+    "explanation": "19 Kids and Counting (2008\u20132015) and its spinoff Counting On follow the Duggar family."
+  },
+  {
+    "question": "Which TV show features the character Andy Dwyer, played by Chris Pratt?",
+    "answer": "Parks and Recreation",
+    "choices": [
+      "Parks and Recreation",
+      "The Office",
+      "Community",
+      "Brooklyn Nine-Nine"
+    ],
+    "explanation": "Chris Pratt plays Andy Dwyer, an endearingly naive shoeshine worker, in Parks and Recreation."
+  },
+  {
+    "question": "What is the name of the famous online meme featuring a confused-looking Nick Young?",
+    "answer": "Confused Nick Young (?)",
+    "choices": [
+      "Confused Nick Young (?)",
+      "Surprised Pikachu",
+      "Side Eye Chloe",
+      "Shrug emoji meme"
+    ],
+    "explanation": "The Nick Young meme features basketball player Nick Young with question marks over his head, used for expressing confusion."
+  },
+  {
+    "question": "Who played the lead in the 2016 Disney film Moana?",
+    "answer": "Auli'i Cravalho",
+    "choices": [
+      "Auli'i Cravalho",
+      "Dwayne Johnson",
+      "Temuera Morrison",
+      "Nicole Scherzinger"
+    ],
+    "explanation": "Hawaiian actress Auli'i Cravalho made her acting debut voicing the title character in Moana (2016)."
+  },
+  {
+    "question": "What is the name of the fictional town in the show Stranger Things?",
+    "answer": "Hawkins, Indiana",
+    "choices": [
+      "Hawkins, Indiana",
+      "Gravity Falls, Oregon",
+      "Derry, Maine",
+      "Castle Rock, Maine"
+    ],
+    "explanation": "Stranger Things is set in Hawkins, Indiana, a small fictional town with a U.S. Department of Energy laboratory nearby."
+  },
+  {
+    "question": "Which celebrity is the host of the reality show 'Running Wild with Bear Grylls'?",
+    "answer": "Bear Grylls",
+    "choices": [
+      "Bear Grylls",
+      "Les Stroud",
+      "Ray Mears",
+      "Cody Lundin"
+    ],
+    "explanation": "Bear Grylls hosts Running Wild, where he takes celebrities on survival adventures in the wild."
+  },
+  {
+    "question": "What is the name of the fictional planet in the movie Avatar?",
+    "answer": "Pandora (a moon of the gas giant Polyphemus)",
+    "choices": [
+      "Pandora (a moon of the gas giant Polyphemus)",
+      "Ego",
+      "Vormir",
+      "Xandar"
+    ],
+    "explanation": "In Avatar, Pandora is technically a habitable moon orbiting the gas giant Polyphemus in the Alpha Centauri star system."
+  },
+  {
+    "question": "Which pop star was briefly married to Kevin Federline?",
+    "answer": "Britney Spears",
+    "choices": [
+      "Britney Spears",
+      "Christina Aguilera",
+      "Mariah Carey",
+      "Jennifer Lopez"
+    ],
+    "explanation": "Britney Spears married backup dancer Kevin Federline in 2004; they divorced in 2007."
+  },
+  {
+    "question": "What is the name of the documentary series following people with extreme hoarding?",
+    "answer": "Hoarders",
+    "choices": [
+      "Hoarders",
+      "Hoarding: Buried Alive",
+      "Clean House",
+      "Marie Kondo"
+    ],
+    "explanation": "Hoarders (2009\u2013) is an A&E documentary series following individuals with compulsive hoarding disorder."
+  },
+  {
+    "question": "Which show follows the inner workings of a fictional news show anchored by Will McAvoy?",
+    "answer": "The Newsroom",
+    "choices": [
+      "The Newsroom",
+      "Broadcast News",
+      "Anchorman",
+      "Morning Glory"
+    ],
+    "explanation": "The Newsroom (2012\u20132014) by Aaron Sorkin follows fictional ACN anchor Will McAvoy (Jeff Daniels) and his news team."
+  },
+  {
+    "question": "What is the name of the app that lets users post 280-character messages?",
+    "answer": "Twitter (X)",
+    "choices": [
+      "Twitter (X)",
+      "Facebook",
+      "Instagram",
+      "Snapchat"
+    ],
+    "explanation": "Twitter (now rebranded as X) limits posts to 280 characters (doubled from the original 140-character limit)."
+  },
+  {
+    "question": "What famous family has been the focus of a popular reality show since 2007?",
+    "answer": "The Kardashian-Jenner family",
+    "choices": [
+      "The Kardashian-Jenner family",
+      "The Osbournes",
+      "The Hiltons",
+      "The Duggars"
+    ],
+    "explanation": "Keeping Up with the Kardashians (2007\u20132021) focused on Kim, Kourtney, Khlo\u00e9 Kardashian, Kylie and Kendall Jenner, and Kris Jenner."
+  },
+  {
+    "question": "Which comedian created the show Seinfeld?",
+    "answer": "Jerry Seinfeld and Larry David",
+    "choices": [
+      "Jerry Seinfeld and Larry David",
+      "Jerry Seinfeld alone",
+      "Larry David alone",
+      "Michael Richards"
+    ],
+    "explanation": "Seinfeld was co-created by Jerry Seinfeld and Larry David, based on Jerry Seinfeld's stand-up comedy."
+  },
+  {
+    "question": "What is the name of the popular photo-sharing app launched in 2010?",
+    "answer": "Instagram",
+    "choices": [
+      "Instagram",
+      "Snapchat",
+      "Pinterest",
+      "VSCO"
+    ],
+    "explanation": "Instagram was launched on October 6, 2010, by Kevin Systrom and Mike Krieger, originally for iOS only."
+  },
+  {
+    "question": "Who plays Leslie Knope in Parks and Recreation?",
+    "answer": "Amy Poehler",
+    "choices": [
+      "Amy Poehler",
+      "Tina Fey",
+      "Maya Rudolph",
+      "Kristen Wiig"
+    ],
+    "explanation": "Amy Poehler plays Leslie Knope, the eternally optimistic deputy director of the Pawnee Parks Department, in Parks and Recreation."
+  },
+  {
+    "question": "What viral video format features people dancing to the song 'Git Up'?",
+    "answer": "The Git Up Challenge",
+    "choices": [
+      "The Git Up Challenge",
+      "Renegade",
+      "Savage",
+      "Toosie Slide"
+    ],
+    "explanation": "The Git Up Challenge is a line dance challenge based on Blanco Brown's 2019 country-trap song 'The Git Up.'"
+  },
+  {
+    "question": "Which actor is known for playing Pennywise in the 2017 film It?",
+    "answer": "Bill Skarsg\u00e5rd",
+    "choices": [
+      "Bill Skarsg\u00e5rd",
+      "Tim Curry",
+      "Finn Wolfhard",
+      "Jaeden Martell"
+    ],
+    "explanation": "Bill Skarsg\u00e5rd played Pennywise the Dancing Clown in It (2017) and It Chapter Two (2019)."
+  },
+  {
+    "question": "What is the name of the competition TV show featuring designers who make clothes?",
+    "answer": "Project Runway",
+    "choices": [
+      "Project Runway",
+      "America's Next Top Model",
+      "The Fashion Show",
+      "Design Star"
+    ],
+    "explanation": "Project Runway (2004\u2013) is a fashion reality competition where designers create outfits to impress judges and avoid elimination."
+  },
+  {
+    "question": "Which superhero goes by the name 'The Caped Crusader'?",
+    "answer": "Batman",
+    "choices": [
+      "Batman",
+      "Superman",
+      "Captain America",
+      "Thor"
+    ],
+    "explanation": "Batman is known as the Caped Crusader, as well as 'The Dark Knight' and 'The World's Greatest Detective.'"
+  },
+  {
+    "question": "What is the name of the character who says 'I am inevitable' in Avengers: Endgame?",
+    "answer": "Thanos",
+    "choices": [
+      "Thanos",
+      "Iron Man",
+      "Hawkeye",
+      "Captain America"
+    ],
+    "explanation": "Thanos says 'I am inevitable' before snapping his fingers (ineffectively, because Tony Stark had taken the stones)."
+  },
+  {
+    "question": "Who is the fictional character associated with the phrase 'With great power comes great responsibility'?",
+    "answer": "Spider-Man (Peter Parker's Uncle Ben)",
+    "choices": [
+      "Spider-Man (Peter Parker's Uncle Ben)",
+      "Superman",
+      "Captain America",
+      "Batman"
+    ],
+    "explanation": "'With great power comes great responsibility' is the lesson taught to Peter Parker by his Uncle Ben in the Spider-Man stories."
+  },
+  {
+    "question": "What is the name of the famous Hollywood film awards ceremony held each February?",
+    "answer": "Academy Awards (Oscars)",
+    "choices": [
+      "Academy Awards (Oscars)",
+      "Golden Globes",
+      "BAFTA Awards",
+      "SAG Awards"
+    ],
+    "explanation": "The Academy Awards (Oscars) are presented annually by the Academy of Motion Picture Arts and Sciences."
+  },
+  {
+    "question": "Which animated character is known for saying 'D'oh!'?",
+    "answer": "Homer Simpson",
+    "choices": [
+      "Homer Simpson",
+      "Peter Griffin",
+      "Bob Belcher",
+      "Hank Hill"
+    ],
+    "explanation": "Homer Simpson's frustrated exclamation 'D'oh!' was added to the Oxford English Dictionary and is one of pop culture's most recognized catchphrases."
+  },
+  {
+    "question": "What is the name of the streaming service owned by NBC Universal?",
+    "answer": "Peacock",
+    "choices": [
+      "Peacock",
+      "Hulu",
+      "Apple TV+",
+      "Paramount+"
+    ],
+    "explanation": "Peacock is NBCUniversal's streaming service, launched in 2020."
+  },
+  {
+    "question": "Which 2021 Netflix series became the most-watched show in the platform's history?",
+    "answer": "Squid Game",
+    "choices": [
+      "Squid Game",
+      "Bridgerton",
+      "Tiger King",
+      "Money Heist"
+    ],
+    "explanation": "Squid Game (2021) became Netflix's most-watched series ever, watched by 111 million accounts in its first 28 days."
+  },
+  {
+    "question": "What is the name of the fictional family in the cartoon Bob's Burgers?",
+    "answer": "The Belcher family",
+    "choices": [
+      "The Belcher family",
+      "The Griffin family",
+      "The Hill family",
+      "The Levenstein family"
+    ],
+    "explanation": "Bob's Burgers follows the Belcher family: Bob, Linda, Tina, Gene, and Louise."
+  },
+  {
+    "question": "Which actor voices Donkey in the Shrek film series?",
+    "answer": "Eddie Murphy",
+    "choices": [
+      "Eddie Murphy",
+      "Chris Rock",
+      "Martin Lawrence",
+      "Kevin Hart"
+    ],
+    "explanation": "Eddie Murphy voices Donkey in all four Shrek films (2001\u20132010), providing much of the movie's comic relief."
+  },
+  {
+    "question": "What is the name of the fictional theme park in the Westworld TV show?",
+    "answer": "Westworld",
+    "choices": [
+      "Westworld",
+      "Jurassic Park",
+      "Dolores",
+      "Delos Park"
+    ],
+    "explanation": "Westworld (and later other themed parks like Shogunworld) are the artificial consciousness theme parks in the HBO series Westworld."
+  },
+  {
+    "question": "Which actress played Mia in the 2016 film La La Land?",
+    "answer": "Emma Stone",
+    "choices": [
+      "Emma Stone",
+      "Natalie Portman",
+      "Margot Robbie",
+      "Saoirse Ronan"
+    ],
+    "explanation": "Emma Stone plays Mia Dolan, an aspiring actress who falls in love with jazz musician Sebastian (Ryan Gosling), in La La Land."
+  },
+  {
+    "question": "What is the name of the superhero in the DC Comics who can run at super speed?",
+    "answer": "The Flash",
+    "choices": [
+      "The Flash",
+      "Quicksilver",
+      "Superman",
+      "Sonic the Hedgehog"
+    ],
+    "explanation": "The Flash (Barry Allen or Wally West) is the DC Comics superhero known as 'The Fastest Man Alive.'"
+  },
+  {
+    "question": "Who stars as the lead in the HBO series Succession?",
+    "answer": "Brian Cox",
+    "choices": [
+      "Brian Cox",
+      "Jeremy Strong",
+      "Kieran Culkin",
+      "Matthew Macfadyen"
+    ],
+    "explanation": "Brian Cox plays Logan Roy, the aging media mogul at the center of the power struggle in Succession."
+  },
+  {
+    "question": "What is the name of the streaming platform where most anime fans watch shows?",
+    "answer": "Crunchyroll",
+    "choices": [
+      "Crunchyroll",
+      "Funimation",
+      "Netflix",
+      "Hulu"
+    ],
+    "explanation": "Crunchyroll is the leading streaming service for anime and manga, offering thousands of shows in multiple languages."
+  },
+  {
+    "question": "Which British royal couple announced their 'Megxit' from the royal family in 2020?",
+    "answer": "Prince Harry and Meghan Markle",
+    "choices": [
+      "Prince Harry and Meghan Markle",
+      "Prince William and Kate Middleton",
+      "Prince Charles and Camilla",
+      "Prince Andrew and Sarah Ferguson"
+    ],
+    "explanation": "Prince Harry (now just 'Harry') and Meghan Markle announced in January 2020 that they would step back from their roles as senior royals."
+  },
+  {
+    "question": "What is the name of the Netflix series about a group of money heist specialists?",
+    "answer": "Money Heist (La Casa de Papel)",
+    "choices": [
+      "Money Heist (La Casa de Papel)",
+      "Ozark",
+      "Breaking Bad",
+      "The Italian Job"
+    ],
+    "explanation": "Money Heist (La Casa de Papel) is a Spanish crime drama about a group of robbers who plan elaborate heists."
+  },
+  {
+    "question": "What fictional robot character helps the Avengers in the MCU?",
+    "answer": "Iron Man's JARVIS/FRIDAY (Tony Stark's AI)",
+    "choices": [
+      "Iron Man's JARVIS/FRIDAY (Tony Stark's AI)",
+      "Ultron",
+      "Vision",
+      "AIDEN"
+    ],
+    "explanation": "Tony Stark's AI assistant is called JARVIS (J.A.R.V.I.S.) and later FRIDAY after Ultron destroys JARVIS."
+  },
+  {
+    "question": "Who is known as the 'Queen of Reality TV'?",
+    "answer": "Kris Jenner",
+    "choices": [
+      "Kris Jenner",
+      "Kim Kardashian",
+      "Paris Hilton",
+      "NeNe Leakes"
+    ],
+    "explanation": "Kris Jenner, the Kardashian family matriarch and manager, is often called the 'Queen of Reality TV' for orchestrating the family's media empire."
+  },
+  {
+    "question": "What is the name of the TV show where contestants renovate and flip houses?",
+    "answer": "Flip or Flop",
+    "choices": [
+      "Flip or Flop",
+      "Property Brothers",
+      "Love It or List It",
+      "Fixer Upper"
+    ],
+    "explanation": "Flip or Flop (2013\u20132022) on HGTV followed Tarek and Christina El Moussa buying, renovating, and selling homes."
+  },
+  {
+    "question": "Which action movie franchise features the character John Wick?",
+    "answer": "John Wick franchise",
+    "choices": [
+      "John Wick franchise",
+      "Taken",
+      "The Expendables",
+      "Mission: Impossible"
+    ],
+    "explanation": "John Wick (2014, 2017, 2019, 2023) features Keanu Reeves as a retired hitman seeking vengeance after personal tragedies."
+  },
+  {
+    "question": "What is the name of the fictional town in the show One Tree Hill?",
+    "answer": "Tree Hill",
+    "choices": [
+      "Tree Hill",
+      "Mystic Falls",
+      "Rosewood",
+      "Greendale"
+    ],
+    "explanation": "One Tree Hill (2003\u20132012) is set in the fictional small town of Tree Hill, North Carolina."
+  },
+  {
+    "question": "Which actor played Iron Fist in the Netflix Marvel series?",
+    "answer": "Finn Jones",
+    "choices": [
+      "Finn Jones",
+      "Charlie Cox",
+      "Krysten Ritter",
+      "Mike Colter"
+    ],
+    "explanation": "Finn Jones plays Danny Rand/Iron Fist in the Netflix Marvel series Iron Fist (2017\u20132018)."
+  },
+  {
+    "question": "What is the name of the character in Disney's Tangled who is imprisoned in a tower?",
+    "answer": "Rapunzel",
+    "choices": [
+      "Rapunzel",
+      "Merida",
+      "Moana",
+      "Tiana"
+    ],
+    "explanation": "Tangled (2010) is the Disney adaptation of the fairy tale Rapunzel, who has magical long hair and is kept locked in a tower by Mother Gothel."
+  },
+  {
+    "question": "What is the name of the popular video sharing and meme platform often associated with dank memes?",
+    "answer": "Reddit",
+    "choices": [
+      "Reddit",
+      "9GAG",
+      "Imgur",
+      "Tumblr"
+    ],
+    "explanation": "Reddit is a forum/social media platform with subreddits for every interest, known as a major source of internet memes and viral content."
+  },
+  {
+    "question": "Which actress played the title role in the 2005 film Pride & Prejudice?",
+    "answer": "Keira Knightley",
+    "choices": [
+      "Keira Knightley",
+      "Rosamund Pike",
+      "Carey Mulligan",
+      "Mia Wasikowska"
+    ],
+    "explanation": "Keira Knightley played Elizabeth Bennet in the 2005 film adaptation of Jane Austen's Pride & Prejudice."
+  },
+  {
+    "question": "What is the name of the dating show where contestants are chosen based on their personalities in the dark?",
+    "answer": "Love Is Blind",
+    "choices": [
+      "Love Is Blind",
+      "Married at First Sight",
+      "The Bachelor",
+      "Are You the One?"
+    ],
+    "explanation": "Love Is Blind (2020\u2013) is a Netflix reality show where singles date in pods without seeing each other, then decide whether to get engaged."
+  },
+  {
+    "question": "Which superhero team fights threats in the Marvel Netflix universe?",
+    "answer": "The Defenders",
+    "choices": [
+      "The Defenders",
+      "S.H.I.E.L.D.",
+      "The Avengers",
+      "The New Warriors"
+    ],
+    "explanation": "The Defenders is a Marvel Netflix mini-series (2017) bringing together Daredevil, Jessica Jones, Luke Cage, and Iron Fist."
+  },
+  {
+    "question": "What is the name of the Pixar film about a monster who scares children?",
+    "answer": "Monsters, Inc.",
+    "choices": [
+      "Monsters, Inc.",
+      "Monsters University",
+      "A Bug's Life",
+      "The Incredibles"
+    ],
+    "explanation": "Monsters, Inc. (2001) follows Sully and Mike, monsters whose job is to scare children to power their city of Monstropolis."
+  },
+  {
+    "question": "Who plays the lead character in the show Killing Eve?",
+    "answer": "Sandra Oh",
+    "choices": [
+      "Sandra Oh",
+      "Jodie Comer",
+      "Fiona Shaw",
+      "Harriet Walter"
+    ],
+    "explanation": "Sandra Oh plays Eve Polastri, an MI5 intelligence officer obsessed with catching a female assassin named Villanelle, in Killing Eve."
+  },
+  {
+    "question": "What Netflix show features the fictional criminal mastermind 'The Professor'?",
+    "answer": "Money Heist (La Casa de Papel)",
+    "choices": [
+      "Money Heist (La Casa de Papel)",
+      "Lupin",
+      "Sherlock",
+      "Elementary"
+    ],
+    "explanation": "In Money Heist, \u00c1lvaro Morte plays 'The Professor,' the genius mastermind who plans the heists."
+  },
+  {
+    "question": "Which reality show features makeovers of people's homes using a small budget?",
+    "answer": "Queer Eye",
+    "choices": [
+      "Queer Eye",
+      "Property Brothers",
+      "Extreme Makeover: Home Edition",
+      "The Great Interior Design Challenge"
+    ],
+    "explanation": "Queer Eye (2018\u2013) features the 'Fab Five' giving participants life makeovers including home d\u00e9cor, grooming, and personal development."
+  },
+  {
+    "question": "What is the name of the comedian who stars in the show Louie?",
+    "answer": "Louis C.K.",
+    "choices": [
+      "Louis C.K.",
+      "Dave Chappelle",
+      "Jerry Seinfeld",
+      "Larry David"
+    ],
+    "explanation": "Louis C.K. created, wrote, directed, and starred in Louie (2010\u20132015), a semi-autobiographical comedy on FX."
+  },
+  {
+    "question": "Which Marvel superhero duo wears matching quantum suits and uses technology to shrink?",
+    "answer": "Ant-Man and the Wasp",
+    "choices": [
+      "Ant-Man and the Wasp",
+      "Iron Man and War Machine",
+      "Captain America and Black Widow",
+      "Hawkeye and Kate Bishop"
+    ],
+    "explanation": "Ant-Man (Scott Lang) and the Wasp (Hope van Dyne) are a superhero duo who use Pym particle technology to change size."
+  },
+  {
+    "question": "What is the name of the cultural phenomenon where fans create content about their favorite media?",
+    "answer": "Fandom",
+    "choices": [
+      "Fandom",
+      "Stanning",
+      "Shipping",
+      "Headcanon"
+    ],
+    "explanation": "Fandom refers to the community of dedicated fans of a particular franchise who create fan art, fan fiction, cosplay, and more."
+  },
+  {
+    "question": "Which actress voiced Moana in the 2016 Disney film?",
+    "answer": "Auli'i Cravalho",
+    "choices": [
+      "Auli'i Cravalho",
+      "Demi Lovato",
+      "Selena Gomez",
+      "Zendaya"
+    ],
+    "explanation": "Auli'i Cravalho, a Hawaiian teenager, was selected from 400 auditions to voice Moana in Disney's 2016 film."
+  },
+  {
+    "question": "What is the name of the famous cartoon horse featured in a popular Netflix adult animated series?",
+    "answer": "BoJack Horseman",
+    "choices": [
+      "BoJack Horseman",
+      "Horseland",
+      "My Little Pony",
+      "Spirit"
+    ],
+    "explanation": "BoJack Horseman (2014\u20132020) on Netflix is an adult animated series about a washed-up celebrity horse navigating Hollywood."
+  },
+  {
+    "question": "Which celebrity is known for dancing the 'Floss' dance?",
+    "answer": "The Backpack Kid (Russell Horning)",
+    "choices": [
+      "The Backpack Kid (Russell Horning)",
+      "Charli D'Amelio",
+      "Billie Eilish",
+      "Ed Sheeran"
+    ],
+    "explanation": "The Floss dance was popularized by teenage dancer Russell Horning (The Backpack Kid) who performed it behind Katy Perry at the 2017 SNL performance."
+  },
+  {
+    "question": "What show features a father who creates music and his quirky family in a fictional world?",
+    "answer": "Bob's Burgers",
+    "choices": [
+      "Bob's Burgers",
+      "King of the Hill",
+      "Archer",
+      "Futurama"
+    ],
+    "explanation": "Bob's Burgers follows Bob Belcher, a passionate burger chef, and his family running their restaurant."
+  },
+  {
+    "question": "What is the name of the competition show where designers build haute couture on a budget?",
+    "answer": "Project Runway",
+    "choices": [
+      "Project Runway",
+      "Next in Fashion",
+      "Making the Cut",
+      "The Great British Sewing Bee"
+    ],
+    "explanation": "Project Runway (2004\u2013) challenges fashion designers to create garments under time and budget constraints."
+  },
+  {
+    "question": "Which actor plays Nick Fury in the MCU?",
+    "answer": "Samuel L. Jackson",
+    "choices": [
+      "Samuel L. Jackson",
+      "Idris Elba",
+      "Don Cheadle",
+      "Anthony Mackie"
+    ],
+    "explanation": "Samuel L. Jackson has played S.H.I.E.L.D. director Nick Fury throughout the MCU, starting with Iron Man (2008)."
+  },
+  {
+    "question": "What is the name of the viral song challenge where people recorded themselves dancing?",
+    "answer": "Renegade challenge",
+    "choices": [
+      "Renegade challenge",
+      "Ice Bucket Challenge",
+      "Mannequin Challenge",
+      "Harlem Shake"
+    ],
+    "explanation": "The Renegade challenge went viral on TikTok in 2019\u20132020, featuring a specific dance routine created by 14-year-old Jalaiah Harmon."
+  },
+  {
+    "question": "Who plays Tony Soprano's psychiatrist in The Sopranos?",
+    "answer": "Lorraine Bracco",
+    "choices": [
+      "Lorraine Bracco",
+      "Edie Falco",
+      "Drea de Matteo",
+      "Aida Turturro"
+    ],
+    "explanation": "Lorraine Bracco plays Dr. Jennifer Melfi, Tony Soprano's therapist, throughout The Sopranos."
+  },
+  {
+    "question": "What is the term for when a show's viewership dramatically declines in quality over time?",
+    "answer": "Jumping the shark",
+    "choices": [
+      "Jumping the shark",
+      "Falling off a cliff",
+      "Series decay",
+      "Flanderization"
+    ],
+    "explanation": "'Jumping the shark' describes the moment a TV series passes its peak quality and begins to decline, originating from a Happy Days scene."
+  },
+  {
+    "question": "Which streaming service is home to the show House of Cards?",
+    "answer": "Netflix",
+    "choices": [
+      "Netflix",
+      "HBO Max",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "explanation": "House of Cards (2013\u20132018) was one of Netflix's first major original series."
+  },
+  {
+    "question": "What is the name of the dog in the animated show Bluey?",
+    "answer": "Bluey is a dog herself; her dog dad is Bandit",
+    "choices": [
+      "Bluey is a dog herself; her dog dad is Bandit",
+      "Bluey",
+      "Bingo",
+      "Judo"
+    ],
+    "explanation": "Bluey is an Australian animated show about a Blue Heeler puppy named Bluey and her family; her parents are Bandit and Chilli."
+  },
+  {
+    "question": "Who plays Rosa Diaz in Brooklyn Nine-Nine?",
+    "answer": "Stephanie Beatriz",
+    "choices": [
+      "Stephanie Beatriz",
+      "Melissa Fumero",
+      "Chelsea Peretti",
+      "Gina Rodriguez"
+    ],
+    "explanation": "Stephanie Beatriz plays Detective Rosa Diaz, the intensely intimidating detective, in Brooklyn Nine-Nine."
+  },
+  {
+    "question": "What TV show features medical students at Seattle Grace Mercy West Hospital?",
+    "answer": "Grey's Anatomy",
+    "choices": [
+      "Grey's Anatomy",
+      "Scrubs",
+      "ER",
+      "House M.D."
+    ],
+    "explanation": "Grey's Anatomy (2005\u2013) follows Meredith Grey and other medical residents/doctors at the fictional Grey Sloan Memorial Hospital."
+  },
+  {
+    "question": "What is the name of the character played by Zendaya in Euphoria?",
+    "answer": "Rue Bennett",
+    "choices": [
+      "Rue Bennett",
+      "Jules Vaughn",
+      "Cassie Howard",
+      "Nate Jacobs"
+    ],
+    "explanation": "Zendaya plays Rue Bennett, a teenage girl struggling with addiction and identity, in HBO's Euphoria."
+  },
+  {
+    "question": "What is the name of the fictional neighborhood where Sesame Street is set?",
+    "answer": "Sesame Street (in New York City)",
+    "choices": [
+      "Sesame Street (in New York City)",
+      "Mr. Rogers' Neighborhood",
+      "Muppet Town",
+      "Elmo's World"
+    ],
+    "explanation": "Sesame Street is set on the fictional Sesame Street in New York City, a multicultural urban neighborhood."
+  },
+  {
+    "question": "What is the name of the award given at Cannes for Best Film?",
+    "answer": "Palme d'Or",
+    "choices": [
+      "Palme d'Or",
+      "Golden Lion",
+      "Golden Bear",
+      "Golden Globe"
+    ],
+    "explanation": "The Palme d'Or ('Golden Palm') is the highest prize awarded at the Cannes Film Festival."
+  },
+  {
+    "question": "Which 2022 pop culture event saw Will Smith slap Chris Rock at the Oscars?",
+    "answer": "2022 Academy Awards (94th Oscars)",
+    "choices": [
+      "2022 Academy Awards (94th Oscars)",
+      "2022 Golden Globes",
+      "2022 Grammy Awards",
+      "2022 SAG Awards"
+    ],
+    "explanation": "At the 94th Academy Awards on March 27, 2022, Will Smith walked on stage and slapped presenter Chris Rock after a joke about Jada Pinkett Smith's alopecia."
+  },
+  {
+    "question": "What is the name of the fictional school principal in The Simpsons?",
+    "answer": "Principal Seymour Skinner",
+    "choices": [
+      "Principal Seymour Skinner",
+      "Principal Skinner",
+      "Principal Burns",
+      "Principal Wiggle"
+    ],
+    "explanation": "Principal Seymour Skinner (n\u00e9e Armin Tamzarian) is the long-suffering principal of Springfield Elementary School in The Simpsons."
+  },
+  {
+    "question": "Who created and starred in the comedy series Curb Your Enthusiasm?",
+    "answer": "Larry David",
+    "choices": [
+      "Larry David",
+      "Jerry Seinfeld",
+      "Albert Brooks",
+      "Billy Crystal"
+    ],
+    "explanation": "Larry David created and stars as a fictionalized version of himself in Curb Your Enthusiasm (2000\u2013), which he also wrote and directed."
+  },
+  {
+    "question": "What social platform is known for short-form video created by ByteDance?",
+    "answer": "TikTok",
+    "choices": [
+      "TikTok",
+      "YouTube Shorts",
+      "Instagram Reels",
+      "Vine"
+    ],
+    "explanation": "TikTok is a short-form video platform created by Chinese company ByteDance, launched globally in 2018."
+  },
+  {
+    "question": "What is the name of the fictional island nation in the show The Mandalorian?",
+    "answer": "Mandalore (and the wider Star Wars galaxy)",
+    "choices": [
+      "Mandalore (and the wider Star Wars galaxy)",
+      "Pandora",
+      "Asgard",
+      "Wakanda"
+    ],
+    "explanation": "Mandalorians come from Mandalore in the Star Wars universe; The Mandalorian features Din Djarin, a lone Mandalorian bounty hunter."
+  },
+  {
+    "question": "Who hosts the late night show that follows The Tonight Show on NBC?",
+    "answer": "Seth Meyers (Late Night)",
+    "choices": [
+      "Seth Meyers (Late Night)",
+      "Stephen Colbert",
+      "Jimmy Kimmel",
+      "Conan O'Brien"
+    ],
+    "explanation": "Seth Meyers hosts Late Night with Seth Meyers on NBC, which airs after The Tonight Show Starring Jimmy Fallon."
+  },
+  {
+    "question": "What is the name of the dance challenge that went viral in 2015 to the song 'Watch Me'?",
+    "answer": "Whip/Nae Nae",
+    "choices": [
+      "Whip/Nae Nae",
+      "The Floss",
+      "Renegade",
+      "Griddy"
+    ],
+    "explanation": "The Whip/Nae Nae is a dance popularized by Silent\u00f3's 2015 song 'Watch Me (Whip/Nae Nae),' which became a viral craze."
+  },
+  {
+    "question": "Which streaming platform launched in April 2020 and then shut down in 2020 due to low subscriptions?",
+    "answer": "Quibi",
+    "choices": [
+      "Quibi",
+      "Facebook Watch",
+      "IGTV",
+      "Vine"
+    ],
+    "explanation": "Quibi was a short-form mobile streaming service launched in April 2020 by Jeffrey Katzenberg and Meg Whitman; it shut down in December 2020."
+  },
+  {
+    "question": "Who plays the title character in the TV show Atlanta?",
+    "answer": "Donald Glover",
+    "choices": [
+      "Donald Glover",
+      "Lakeith Stanfield",
+      "Brian Tyree Henry",
+      "Zazie Beetz"
+    ],
+    "explanation": "Donald Glover plays Earnest 'Earn' Marks, a Princeton dropout trying to manage his cousin's rap career, in Atlanta."
+  },
+  {
+    "question": "What is the name of the popular Japanese animated TV show about a boy named Ash catching monsters?",
+    "answer": "Pok\u00e9mon",
+    "choices": [
+      "Pok\u00e9mon",
+      "Digimon",
+      "Dragon Ball Z",
+      "Naruto"
+    ],
+    "explanation": "The Pok\u00e9mon anime (1997\u2013) follows Ash Ketchum (known as Satoshi in Japan) on his journey to become a Pok\u00e9mon master."
+  },
+  {
+    "question": "Which actress stars in the Hulu series Dollface?",
+    "answer": "Kat Dennings",
+    "choices": [
+      "Kat Dennings",
+      "Alison Brie",
+      "Zoe Kravitz",
+      "Haley Lu Richardson"
+    ],
+    "explanation": "Kat Dennings plays Jules, a woman navigating female friendships after a breakup, in Dollface (2019\u20132022)."
+  },
+  {
+    "question": "What is the name of the fictional coffee shop in Gilmore Girls?",
+    "answer": "Luke's Diner",
+    "choices": [
+      "Luke's Diner",
+      "Central Perk",
+      "The Dragonfly Inn",
+      "Doose's Market"
+    ],
+    "explanation": "Luke's Diner is the cozy diner in Stars Hollow where Lorelai and Rory Gilmore get their coffee, run by Luke Danes."
+  },
+  {
+    "question": "What music streaming platform is associated with Tidal and was co-owned by Jay-Z?",
+    "answer": "Tidal",
+    "choices": [
+      "Tidal",
+      "Spotify",
+      "Apple Music",
+      "Deezer"
+    ],
+    "explanation": "Tidal is a music streaming service co-owned by artists including Jay-Z, Beyonc\u00e9, Kanye West, and others, focusing on high-fidelity audio."
+  },
+  {
+    "question": "Which actress stars as the main character in Fleabag?",
+    "answer": "Phoebe Waller-Bridge",
+    "choices": [
+      "Phoebe Waller-Bridge",
+      "Olivia Colman",
+      "Billie Piper",
+      "Suranne Jones"
+    ],
+    "explanation": "Phoebe Waller-Bridge created and stars as 'Fleabag' in the BBC/Amazon series Fleabag (2016\u20132019), breaking the fourth wall throughout."
+  },
+  {
+    "question": "What is the name of the TV show set in a fictional Colorado mountain town featuring an elementary school?",
+    "answer": "South Park",
+    "choices": [
+      "South Park",
+      "Big Mouth",
+      "Beavis and Butt-Head",
+      "Recess"
+    ],
+    "explanation": "South Park (1997\u2013) is an adult animated series set in the fictional South Park, Colorado, following four foul-mouthed elementary school boys."
+  },
+  {
+    "question": "Which actress plays Viola Davis's character in How to Get Away with Murder?",
+    "answer": "Viola Davis (as Annalise Keating)",
+    "choices": [
+      "Viola Davis (as Annalise Keating)",
+      "Kerry Washington",
+      "Shonda Rhimes",
+      "Taraji P. Henson"
+    ],
+    "explanation": "Viola Davis plays Annalise Keating, a brilliant criminal defense attorney and law professor, in How to Get Away with Murder."
+  },
+  {
+    "question": "What is the name of the fake news show hosted by John Oliver?",
+    "answer": "Last Week Tonight with John Oliver",
+    "choices": [
+      "Last Week Tonight with John Oliver",
+      "The Daily Show",
+      "Full Frontal",
+      "The Colbert Report"
+    ],
+    "explanation": "Last Week Tonight with John Oliver (2014\u2013) is an HBO weekly comedy show that provides in-depth satirical news coverage."
+  },
+  {
+    "question": "Which movie features the fictional nation Zamunda?",
+    "answer": "Coming to America",
+    "choices": [
+      "Coming to America",
+      "Black Panther",
+      "The Lion King",
+      "Roots"
+    ],
+    "explanation": "Zamunda is the fictional African kingdom from which Prince Akeem (Eddie Murphy) travels to New York in Coming to America (1988)."
+  },
+  {
+    "question": "What is the name of the fictional superhero group in the Big Bang Theory universe?",
+    "answer": "There is no superhero group; the Big Bang Theory features real comics",
+    "choices": [
+      "There is no superhero group; the Big Bang Theory features real comics",
+      "The Justice League",
+      "The Avengers",
+      "Sheldon Force"
+    ],
+    "explanation": "The Big Bang Theory features real comic book superheroes; the show's characters are fans of established Marvel and DC comics."
   }
 ]

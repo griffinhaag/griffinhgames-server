@@ -2200,105 +2200,6 @@
     "explanation": "Sophocles wrote Oedipus Rex (Oedipus the King) around 429 BC, telling the tragic story of Oedipus who unknowingly kills his father and marries his mother. Aristotle considered it a near-perfect tragedy in his Poetics, and it remains one of the most studied and performed plays in world literature."
   },
   {
-    "question": "In what year did the Battle of Hastings occur?",
-    "answer": "1066",
-    "choices": [
-      "1947",
-      "1989",
-      "1066",
-      "1945"
-    ],
-    "explanation": "The Battle of Hastings took place in 1066."
-  },
-  {
-    "question": "The Battle of Hastings is most closely associated with which person, place, or idea?",
-    "answer": "William the Conqueror",
-    "choices": [
-      "Protestant Reformation",
-      "Great Depression",
-      "Atlantic Ocean",
-      "William the Conqueror"
-    ],
-    "explanation": "The Battle of Hastings is closely associated with William the Conqueror."
-  },
-  {
-    "question": "In what year did the Magna Carta occur?",
-    "answer": "1215",
-    "choices": [
-      "1917",
-      "1961",
-      "1215",
-      "1588"
-    ],
-    "explanation": "The Magna Carta took place in 1215."
-  },
-  {
-    "question": "The Magna Carta is most closely associated with which person, place, or idea?",
-    "answer": "England",
-    "choices": [
-      "United States",
-      "Japan",
-      "World War I",
-      "England"
-    ],
-    "explanation": "The Magna Carta is closely associated with England."
-  },
-  {
-    "question": "In what year did the Fall of Constantinople occur?",
-    "answer": "1453",
-    "choices": [
-      "1961",
-      "1688",
-      "1453",
-      "1994"
-    ],
-    "explanation": "The Fall of Constantinople took place in 1453."
-  },
-  {
-    "question": "The Fall of Constantinople is most closely associated with which person, place, or idea?",
-    "answer": "Ottoman Empire",
-    "choices": [
-      "England",
-      "Ottoman Empire",
-      "Parliament vs. King Charles I",
-      "William and Mary"
-    ],
-    "explanation": "The Fall of Constantinople is closely associated with Ottoman Empire."
-  },
-  {
-    "question": "In what year did the Columbus first voyage occur?",
-    "answer": "1492",
-    "choices": [
-      "1492",
-      "1989",
-      "1215",
-      "1917"
-    ],
-    "explanation": "The Columbus first voyage took place in 1492."
-  },
-  {
-    "question": "The Columbus first voyage is most closely associated with which person, place, or idea?",
-    "answer": "Atlantic Ocean",
-    "choices": [
-      "United States",
-      "William and Mary",
-      "Cold War",
-      "Atlantic Ocean"
-    ],
-    "explanation": "The Columbus first voyage is closely associated with Atlantic Ocean."
-  },
-  {
-    "question": "In what year did the Martin Luther's Ninety-Five Theses occur?",
-    "answer": "1517",
-    "choices": [
-      "1517",
-      "1969",
-      "1998",
-      "1944"
-    ],
-    "explanation": "The Martin Luther's Ninety-Five Theses took place in 1517."
-  },
-  {
     "question": "The Martin Luther's Ninety-Five Theses is most closely associated with which person, place, or idea?",
     "answer": "Protestant Reformation",
     "choices": [
@@ -2308,39 +2209,6 @@
       "Protestant Reformation"
     ],
     "explanation": "The Martin Luther's Ninety-Five Theses is closely associated with Protestant Reformation."
-  },
-  {
-    "question": "In what year did the Spanish Armada defeated occur?",
-    "answer": "1588",
-    "choices": [
-      "1588",
-      "1688",
-      "1642",
-      "1994"
-    ],
-    "explanation": "The Spanish Armada defeated took place in 1588."
-  },
-  {
-    "question": "The Spanish Armada defeated is most closely associated with which person, place, or idea?",
-    "answer": "England",
-    "choices": [
-      "England",
-      "India and Pakistan",
-      "Nelson Mandela",
-      "Napoleon"
-    ],
-    "explanation": "The Spanish Armada defeated is closely associated with England."
-  },
-  {
-    "question": "In what year did the English Civil War began occur?",
-    "answer": "1642",
-    "choices": [
-      "1642",
-      "1688",
-      "1215",
-      "1868"
-    ],
-    "explanation": "The English Civil War began took place in 1642."
   },
   {
     "question": "The English Civil War began is most closely associated with which person, place, or idea?",
@@ -2354,347 +2222,6 @@
     "explanation": "The English Civil War began is closely associated with Parliament vs. King Charles I."
   },
   {
-    "question": "In what year did the Glorious Revolution occur?",
-    "answer": "1688",
-    "choices": [
-      "1688",
-      "1998",
-      "1868",
-      "1919"
-    ],
-    "explanation": "The Glorious Revolution took place in 1688."
-  },
-  {
-    "question": "The Glorious Revolution is most closely associated with which person, place, or idea?",
-    "answer": "William and Mary",
-    "choices": [
-      "England",
-      "international cooperation",
-      "William and Mary",
-      "World War I"
-    ],
-    "explanation": "The Glorious Revolution is closely associated with William and Mary."
-  },
-  {
-    "question": "In what year did the American Declaration of Independence occur?",
-    "answer": "1776",
-    "choices": [
-      "1969",
-      "1215",
-      "1776",
-      "1642"
-    ],
-    "explanation": "The American Declaration of Independence took place in 1776."
-  },
-  {
-    "question": "The American Declaration of Independence is most closely associated with which person, place, or idea?",
-    "answer": "United States",
-    "choices": [
-      "United States",
-      "India and Pakistan",
-      "Normandy",
-      "England"
-    ],
-    "explanation": "The American Declaration of Independence is closely associated with United States."
-  },
-  {
-    "question": "In what year did the French Revolution began occur?",
-    "answer": "1789",
-    "choices": [
-      "1789",
-      "1066",
-      "1969",
-      "1588"
-    ],
-    "explanation": "The French Revolution began took place in 1789."
-  },
-  {
-    "question": "The French Revolution began is most closely associated with which person, place, or idea?",
-    "answer": "Bastille",
-    "choices": [
-      "Great Depression",
-      "Nelson Mandela",
-      "Bastille",
-      "Cold War"
-    ],
-    "explanation": "The French Revolution began is closely associated with Bastille."
-  },
-  {
-    "question": "In what year did the Battle of Waterloo occur?",
-    "answer": "1815",
-    "choices": [
-      "1815",
-      "1066",
-      "1919",
-      "1989"
-    ],
-    "explanation": "The Battle of Waterloo took place in 1815."
-  },
-  {
-    "question": "The Battle of Waterloo is most closely associated with which person, place, or idea?",
-    "answer": "Napoleon",
-    "choices": [
-      "United States",
-      "Napoleon",
-      "Ottoman Empire",
-      "World War I"
-    ],
-    "explanation": "The Battle of Waterloo is closely associated with Napoleon."
-  },
-  {
-    "question": "In what year did the Emancipation Proclamation occur?",
-    "answer": "1863",
-    "choices": [
-      "1989",
-      "1998",
-      "1215",
-      "1863"
-    ],
-    "explanation": "The Emancipation Proclamation took place in 1863."
-  },
-  {
-    "question": "The Emancipation Proclamation is most closely associated with which person, place, or idea?",
-    "answer": "Abraham Lincoln",
-    "choices": [
-      "Abraham Lincoln",
-      "William and Mary",
-      "England",
-      "Neil Armstrong"
-    ],
-    "explanation": "The Emancipation Proclamation is closely associated with Abraham Lincoln."
-  },
-  {
-    "question": "In what year did the Meiji Restoration occur?",
-    "answer": "1868",
-    "choices": [
-      "1868",
-      "1642",
-      "1066",
-      "1492"
-    ],
-    "explanation": "The Meiji Restoration took place in 1868."
-  },
-  {
-    "question": "The Meiji Restoration is most closely associated with which person, place, or idea?",
-    "answer": "Japan",
-    "choices": [
-      "Japan",
-      "Protestant Reformation",
-      "Northern Ireland",
-      "Atlantic Ocean"
-    ],
-    "explanation": "The Meiji Restoration is closely associated with Japan."
-  },
-  {
-    "question": "In what year did the Russian Revolution occur?",
-    "answer": "1917",
-    "choices": [
-      "1215",
-      "1815",
-      "1917",
-      "1998"
-    ],
-    "explanation": "The Russian Revolution took place in 1917."
-  },
-  {
-    "question": "The Russian Revolution is most closely associated with which person, place, or idea?",
-    "answer": "Bolsheviks",
-    "choices": [
-      "Bolsheviks",
-      "East Germany",
-      "England",
-      "William and Mary"
-    ],
-    "explanation": "The Russian Revolution is closely associated with Bolsheviks."
-  },
-  {
-    "question": "In what year did the Treaty of Versailles signed occur?",
-    "answer": "1919",
-    "choices": [
-      "1919",
-      "1961",
-      "1944",
-      "1989"
-    ],
-    "explanation": "The Treaty of Versailles signed took place in 1919."
-  },
-  {
-    "question": "The Treaty of Versailles signed is most closely associated with which person, place, or idea?",
-    "answer": "World War I",
-    "choices": [
-      "Atlantic Ocean",
-      "Cold War",
-      "World War I",
-      "India and Pakistan"
-    ],
-    "explanation": "The Treaty of Versailles signed is closely associated with World War I."
-  },
-  {
-    "question": "In what year did the Stock Market Crash occur?",
-    "answer": "1929",
-    "choices": [
-      "1929",
-      "1945",
-      "1969",
-      "1588"
-    ],
-    "explanation": "The Stock Market Crash took place in 1929."
-  },
-  {
-    "question": "The Stock Market Crash is most closely associated with which person, place, or idea?",
-    "answer": "Great Depression",
-    "choices": [
-      "William and Mary",
-      "Japan",
-      "Great Depression",
-      "England"
-    ],
-    "explanation": "The Stock Market Crash is closely associated with Great Depression."
-  },
-  {
-    "question": "In what year did the D-Day occur?",
-    "answer": "1944",
-    "choices": [
-      "1688",
-      "1944",
-      "1517",
-      "1642"
-    ],
-    "explanation": "The D-Day took place in 1944."
-  },
-  {
-    "question": "The D-Day is most closely associated with which person, place, or idea?",
-    "answer": "Normandy",
-    "choices": [
-      "Ottoman Empire",
-      "Northern Ireland",
-      "Normandy",
-      "Cold War"
-    ],
-    "explanation": "The D-Day is closely associated with Normandy."
-  },
-  {
-    "question": "In what year did the United Nations founded occur?",
-    "answer": "1945",
-    "choices": [
-      "1066",
-      "1945",
-      "1517",
-      "1868"
-    ],
-    "explanation": "The United Nations founded took place in 1945."
-  },
-  {
-    "question": "The United Nations founded is most closely associated with which person, place, or idea?",
-    "answer": "international cooperation",
-    "choices": [
-      "international cooperation",
-      "Neil Armstrong",
-      "England",
-      "Atlantic Ocean"
-    ],
-    "explanation": "The United Nations founded is closely associated with international cooperation."
-  },
-  {
-    "question": "In what year did the Partition of India occur?",
-    "answer": "1947",
-    "choices": [
-      "1789",
-      "1688",
-      "1947",
-      "1588"
-    ],
-    "explanation": "The Partition of India took place in 1947."
-  },
-  {
-    "question": "The Partition of India is most closely associated with which person, place, or idea?",
-    "answer": "India and Pakistan",
-    "choices": [
-      "India and Pakistan",
-      "United States",
-      "Neil Armstrong",
-      "Normandy"
-    ],
-    "explanation": "The Partition of India is closely associated with India and Pakistan."
-  },
-  {
-    "question": "In what year did the Berlin Wall built occur?",
-    "answer": "1961",
-    "choices": [
-      "1994",
-      "1989",
-      "1961",
-      "1517"
-    ],
-    "explanation": "The Berlin Wall built took place in 1961."
-  },
-  {
-    "question": "The Berlin Wall built is most closely associated with which person, place, or idea?",
-    "answer": "East Germany",
-    "choices": [
-      "Protestant Reformation",
-      "Cold War",
-      "international cooperation",
-      "East Germany"
-    ],
-    "explanation": "The Berlin Wall built is closely associated with East Germany."
-  },
-  {
-    "question": "In what year did the Apollo 11 Moon landing occur?",
-    "answer": "1969",
-    "choices": [
-      "1998",
-      "1588",
-      "1945",
-      "1969"
-    ],
-    "explanation": "The Apollo 11 Moon landing took place in 1969."
-  },
-  {
-    "question": "The Apollo 11 Moon landing is most closely associated with which person, place, or idea?",
-    "answer": "Neil Armstrong",
-    "choices": [
-      "East Germany",
-      "Neil Armstrong",
-      "England",
-      "international cooperation"
-    ],
-    "explanation": "The Apollo 11 Moon landing is closely associated with Neil Armstrong."
-  },
-  {
-    "question": "In what year did the Fall of the Berlin Wall occur?",
-    "answer": "1989",
-    "choices": [
-      "1989",
-      "1994",
-      "1642",
-      "1998"
-    ],
-    "explanation": "The Fall of the Berlin Wall took place in 1989."
-  },
-  {
-    "question": "The Fall of the Berlin Wall is most closely associated with which person, place, or idea?",
-    "answer": "Cold War",
-    "choices": [
-      "William and Mary",
-      "Protestant Reformation",
-      "Cold War",
-      "Nelson Mandela"
-    ],
-    "explanation": "The Fall of the Berlin Wall is closely associated with Cold War."
-  },
-  {
-    "question": "In what year did the South Africa's first democratic election occur?",
-    "answer": "1994",
-    "choices": [
-      "1688",
-      "1994",
-      "1919",
-      "1868"
-    ],
-    "explanation": "The South Africa's first democratic election took place in 1994."
-  },
-  {
     "question": "The South Africa's first democratic election is most closely associated with which person, place, or idea?",
     "answer": "Nelson Mandela",
     "choices": [
@@ -2706,553 +2233,4876 @@
     "explanation": "The South Africa's first democratic election is closely associated with Nelson Mandela."
   },
   {
-    "question": "In what year did the Good Friday Agreement occur?",
-    "answer": "1998",
+    "question": "Who was the first Roman Emperor?",
+    "answer": "Augustus",
     "choices": [
-      "1998",
-      "1215",
-      "1969",
-      "1492"
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Caligula"
     ],
-    "explanation": "The Good Friday Agreement took place in 1998."
+    "explanation": "Augustus (formerly Octavian) became the first Roman Emperor in 27 BC after defeating Mark Antony."
   },
   {
-    "question": "The Good Friday Agreement is most closely associated with which person, place, or idea?",
-    "answer": "Northern Ireland",
+    "question": "In what year did World War I begin?",
+    "answer": "1914",
     "choices": [
-      "Abraham Lincoln",
-      "Parliament vs. King Charles I",
-      "Northern Ireland",
-      "William and Mary"
+      "1912",
+      "1913",
+      "1914",
+      "1916"
     ],
-    "explanation": "The Good Friday Agreement is closely associated with Northern Ireland."
+    "explanation": "World War I began in 1914 following the assassination of Archduke Franz Ferdinand."
   },
   {
-    "question": "In what year did the Battle of Hastings occur?",
-    "answer": "1066",
+    "question": "Which empire built the Colosseum in Rome?",
+    "answer": "Roman Empire",
     "choices": [
-      "1947",
-      "1989",
-      "1066",
-      "1945"
+      "Roman Empire",
+      "Byzantine Empire",
+      "Ottoman Empire",
+      "Greek Empire"
     ],
-    "explanation": "The Battle of Hastings took place in 1066."
+    "explanation": "The Colosseum was built by the Roman Empire, completed around 80 AD under Emperor Titus."
   },
   {
-    "question": "The Battle of Hastings is most closely associated with which person, place, or idea?",
-    "answer": "William the Conqueror",
+    "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+    "answer": "Mayflower",
     "choices": [
-      "Protestant Reformation",
-      "Great Depression",
-      "Atlantic Ocean",
-      "William the Conqueror"
+      "Mayflower",
+      "Santa Maria",
+      "Endeavour",
+      "Beagle"
     ],
-    "explanation": "The Battle of Hastings is closely associated with William the Conqueror."
+    "explanation": "The Mayflower carried 102 Pilgrims from England to Plymouth, Massachusetts in 1620."
   },
   {
-    "question": "In what year did the Magna Carta occur?",
-    "answer": "1215",
+    "question": "Who was the Egyptian queen who allied with Julius Caesar and Mark Antony?",
+    "answer": "Cleopatra",
     "choices": [
-      "1917",
-      "1961",
-      "1215",
-      "1588"
+      "Cleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Isis"
     ],
-    "explanation": "The Magna Carta took place in 1215."
+    "explanation": "Cleopatra VII formed political and romantic alliances with both Julius Caesar and Mark Antony."
   },
   {
-    "question": "The Magna Carta is most closely associated with which person, place, or idea?",
-    "answer": "England",
+    "question": "In what year did the French Revolution begin?",
+    "answer": "1789",
     "choices": [
+      "1776",
+      "1789",
+      "1793",
+      "1799"
+    ],
+    "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14."
+  },
+  {
+    "question": "Who led the Mongol Empire at its greatest extent?",
+    "answer": "Kublai Khan",
+    "choices": [
+      "Kublai Khan",
+      "Genghis Khan",
+      "Timur",
+      "Attila"
+    ],
+    "explanation": "Kublai Khan, grandson of Genghis Khan, ruled the Mongol Empire at its largest territorial extent around 1279."
+  },
+  {
+    "question": "What ancient civilization built Machu Picchu?",
+    "answer": "Inca",
+    "choices": [
+      "Inca",
+      "Aztec",
+      "Maya",
+      "Olmec"
+    ],
+    "explanation": "Machu Picchu was built by the Inca civilization in Peru, likely during the 15th century."
+  },
+  {
+    "question": "Which battle ended Napoleon's rule in 1815?",
+    "answer": "Battle of Waterloo",
+    "choices": [
+      "Battle of Waterloo",
+      "Battle of Trafalgar",
+      "Battle of Leipzig",
+      "Battle of Austerlitz"
+    ],
+    "explanation": "Napoleon was decisively defeated at the Battle of Waterloo on June 18, 1815."
+  },
+  {
+    "question": "Which pharaoh built the Great Pyramid of Giza?",
+    "answer": "Khufu",
+    "choices": [
+      "Khufu",
+      "Ramesses II",
+      "Tutankhamun",
+      "Akhenaten"
+    ],
+    "explanation": "The Great Pyramid of Giza was built for Pharaoh Khufu (Cheops) around 2560 BC."
+  },
+  {
+    "question": "What year did the United States declare independence?",
+    "answer": "1776",
+    "choices": [
+      "1774",
+      "1775",
+      "1776",
+      "1777"
+    ],
+    "explanation": "The United States declared independence on July 4, 1776, adopting the Declaration of Independence."
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answer": "Marie Curie",
+    "choices": [
+      "Marie Curie",
+      "Florence Nightingale",
+      "Rosalind Franklin",
+      "Ada Lovelace"
+    ],
+    "explanation": "Marie Curie won the Nobel Prize in Physics in 1903 and Nobel Prize in Chemistry in 1911."
+  },
+  {
+    "question": "Which war was fought between the North and South of the United States?",
+    "answer": "Civil War",
+    "choices": [
+      "Civil War",
+      "Revolutionary War",
+      "War of 1812",
+      "Spanish-American War"
+    ],
+    "explanation": "The American Civil War (1861\u20131865) was fought between the Union (North) and the Confederacy (South)."
+  },
+  {
+    "question": "Who was the leader of the Soviet Union during most of World War II?",
+    "answer": "Joseph Stalin",
+    "choices": [
+      "Joseph Stalin",
+      "Vladimir Lenin",
+      "Leon Trotsky",
+      "Nikita Khrushchev"
+    ],
+    "explanation": "Joseph Stalin led the Soviet Union from 1924 until his death in 1953, including throughout WWII."
+  },
+  {
+    "question": "What ancient wonder stood at the entrance to the harbor of Rhodes?",
+    "answer": "Colossus of Rhodes",
+    "choices": [
+      "Colossus of Rhodes",
+      "Lighthouse of Alexandria",
+      "Temple of Artemis",
+      "Statue of Zeus"
+    ],
+    "explanation": "The Colossus of Rhodes, a giant statue of the sun god Helios, stood at the harbor of Rhodes around 280 BC."
+  },
+  {
+    "question": "In which city was Archduke Franz Ferdinand assassinated in 1914?",
+    "answer": "Sarajevo",
+    "choices": [
+      "Sarajevo",
+      "Vienna",
+      "Prague",
+      "Budapest"
+    ],
+    "explanation": "Archduke Franz Ferdinand was assassinated in Sarajevo, Bosnia, on June 28, 1914, triggering WWI."
+  },
+  {
+    "question": "Who founded the Mongol Empire?",
+    "answer": "Genghis Khan",
+    "choices": [
+      "Genghis Khan",
+      "Kublai Khan",
+      "Timur",
+      "Attila the Hun"
+    ],
+    "explanation": "Genghis Khan united the Mongol tribes and founded the Mongol Empire in 1206."
+  },
+  {
+    "question": "What was the name of the first artificial satellite launched into space?",
+    "answer": "Sputnik",
+    "choices": [
+      "Sputnik",
+      "Explorer 1",
+      "Vostok 1",
+      "Apollo 1"
+    ],
+    "explanation": "The Soviet Union launched Sputnik, the first artificial satellite, on October 4, 1957."
+  },
+  {
+    "question": "Which country was the first to grant women the right to vote?",
+    "answer": "New Zealand",
+    "choices": [
+      "New Zealand",
+      "Australia",
       "United States",
-      "Japan",
-      "World War I",
-      "England"
+      "United Kingdom"
     ],
-    "explanation": "The Magna Carta is closely associated with England."
+    "explanation": "New Zealand became the first self-governing country to grant women the right to vote in 1893."
   },
   {
-    "question": "In what year did the Fall of Constantinople occur?",
-    "answer": "1453",
-    "choices": [
-      "1961",
-      "1688",
-      "1453",
-      "1994"
-    ],
-    "explanation": "The Fall of Constantinople took place in 1453."
-  },
-  {
-    "question": "The Fall of Constantinople is most closely associated with which person, place, or idea?",
+    "question": "What empire was ruled by Suleiman the Magnificent?",
     "answer": "Ottoman Empire",
     "choices": [
-      "England",
       "Ottoman Empire",
-      "Parliament vs. King Charles I",
-      "William and Mary"
+      "Persian Empire",
+      "Byzantine Empire",
+      "Mughal Empire"
     ],
-    "explanation": "The Fall of Constantinople is closely associated with Ottoman Empire."
+    "explanation": "Suleiman the Magnificent ruled the Ottoman Empire at its peak from 1520 to 1566."
   },
   {
-    "question": "In what year did the Columbus first voyage occur?",
-    "answer": "1492",
+    "question": "In what year did the Titanic sink?",
+    "answer": "1912",
     "choices": [
-      "1492",
-      "1989",
-      "1215",
-      "1917"
+      "1910",
+      "1911",
+      "1912",
+      "1913"
     ],
-    "explanation": "The Columbus first voyage took place in 1492."
+    "explanation": "The Titanic sank on April 15, 1912, after striking an iceberg in the North Atlantic."
   },
   {
-    "question": "The Columbus first voyage is most closely associated with which person, place, or idea?",
-    "answer": "Atlantic Ocean",
+    "question": "Which document ended World War I?",
+    "answer": "Treaty of Versailles",
     "choices": [
-      "United States",
-      "William and Mary",
-      "Cold War",
-      "Atlantic Ocean"
+      "Treaty of Versailles",
+      "Treaty of Paris",
+      "Armistice of Compi\u00e8gne",
+      "Treaty of Brest-Litovsk"
     ],
-    "explanation": "The Columbus first voyage is closely associated with Atlantic Ocean."
+    "explanation": "The Treaty of Versailles, signed in 1919, officially ended World War I."
   },
   {
-    "question": "In what year did the Martin Luther's Ninety-Five Theses occur?",
-    "answer": "1517",
+    "question": "What civilization built Stonehenge?",
+    "answer": "Neolithic peoples",
     "choices": [
-      "1517",
-      "1969",
-      "1998",
-      "1944"
+      "Neolithic peoples",
+      "Romans",
+      "Celts",
+      "Druids"
     ],
-    "explanation": "The Martin Luther's Ninety-Five Theses took place in 1517."
+    "explanation": "Stonehenge was built by Neolithic and Bronze Age peoples between approximately 3000 and 1500 BC."
   },
   {
-    "question": "The Martin Luther's Ninety-Five Theses is most closely associated with which person, place, or idea?",
-    "answer": "Protestant Reformation",
+    "question": "Who wrote the Communist Manifesto?",
+    "answer": "Karl Marx and Friedrich Engels",
     "choices": [
-      "Atlantic Ocean",
-      "Bolsheviks",
-      "international cooperation",
-      "Protestant Reformation"
+      "Karl Marx and Friedrich Engels",
+      "Vladimir Lenin",
+      "Leon Trotsky",
+      "Joseph Stalin"
     ],
-    "explanation": "The Martin Luther's Ninety-Five Theses is closely associated with Protestant Reformation."
+    "explanation": "Karl Marx and Friedrich Engels co-authored The Communist Manifesto, published in 1848."
   },
   {
-    "question": "In what year did the Spanish Armada defeated occur?",
-    "answer": "1588",
+    "question": "What was the name of the Russian revolution that brought the Bolsheviks to power?",
+    "answer": "October Revolution",
     "choices": [
-      "1588",
-      "1688",
-      "1642",
+      "October Revolution",
+      "February Revolution",
+      "Decembrist Revolt",
+      "Russian Civil War"
+    ],
+    "explanation": "The October Revolution of 1917 brought the Bolsheviks under Lenin to power in Russia."
+  },
+  {
+    "question": "Which Greek city-state was known for its military culture?",
+    "answer": "Sparta",
+    "choices": [
+      "Sparta",
+      "Athens",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Sparta was renowned for its militaristic society, training citizens as warriors from childhood."
+  },
+  {
+    "question": "In what year did World War II end?",
+    "answer": "1945",
+    "choices": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "explanation": "World War II ended in 1945 with Germany surrendering in May and Japan in September."
+  },
+  {
+    "question": "Which war was fought between Britain and the American colonies?",
+    "answer": "American Revolutionary War",
+    "choices": [
+      "American Revolutionary War",
+      "War of 1812",
+      "French and Indian War",
+      "Seven Years War"
+    ],
+    "explanation": "The American Revolutionary War (1775\u20131783) resulted in American independence from Britain."
+  },
+  {
+    "question": "What ancient city was destroyed by the eruption of Mount Vesuvius?",
+    "answer": "Pompeii",
+    "choices": [
+      "Pompeii",
+      "Herculaneum",
+      "Rome",
+      "Naples"
+    ],
+    "explanation": "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 AD."
+  },
+  {
+    "question": "Who was the first person to circumnavigate the globe?",
+    "answer": "Ferdinand Magellan",
+    "choices": [
+      "Ferdinand Magellan",
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Francis Drake"
+    ],
+    "explanation": "Ferdinand Magellan led the first circumnavigation expedition, though he died before its completion in 1522."
+  },
+  {
+    "question": "Which country did Hitler invade to start World War II?",
+    "answer": "Poland",
+    "choices": [
+      "Poland",
+      "France",
+      "Czechoslovakia",
+      "Austria"
+    ],
+    "explanation": "Germany invaded Poland on September 1, 1939, triggering the start of World War II."
+  },
+  {
+    "question": "What was the name of the Cold War arms race agreement between the US and USSR?",
+    "answer": "SALT",
+    "choices": [
+      "SALT",
+      "NATO",
+      "SEATO",
+      "Warsaw Pact"
+    ],
+    "explanation": "The Strategic Arms Limitation Talks (SALT) produced treaties limiting nuclear weapons between the US and USSR."
+  },
+  {
+    "question": "Who led the Cuban Revolution of 1959?",
+    "answer": "Fidel Castro",
+    "choices": [
+      "Fidel Castro",
+      "Che Guevara",
+      "Ra\u00fal Castro",
+      "Fulgencio Batista"
+    ],
+    "explanation": "Fidel Castro led the Cuban Revolution that overthrew Batista's government on January 1, 1959."
+  },
+  {
+    "question": "In which year did India gain independence from Britain?",
+    "answer": "1947",
+    "choices": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "explanation": "India gained independence from British rule on August 15, 1947."
+  },
+  {
+    "question": "Who was the last Tsar of Russia?",
+    "answer": "Nicholas II",
+    "choices": [
+      "Nicholas II",
+      "Alexander III",
+      "Alexander II",
+      "Nicholas I"
+    ],
+    "explanation": "Nicholas II was the last Tsar of Russia, who abdicated in 1917 during the Russian Revolution."
+  },
+  {
+    "question": "What was the name of the Nazi secret police?",
+    "answer": "Gestapo",
+    "choices": [
+      "Gestapo",
+      "SS",
+      "Wehrmacht",
+      "SA"
+    ],
+    "explanation": "The Gestapo was the secret police of Nazi Germany, established in 1933."
+  },
+  {
+    "question": "Which empire ruled most of the Indian subcontinent for 200 years?",
+    "answer": "British Empire",
+    "choices": [
+      "British Empire",
+      "Mughal Empire",
+      "Portuguese Empire",
+      "Dutch Empire"
+    ],
+    "explanation": "The British ruled most of the Indian subcontinent from the mid-18th century until 1947."
+  },
+  {
+    "question": "Who was the leader of Nazi Germany?",
+    "answer": "Adolf Hitler",
+    "choices": [
+      "Adolf Hitler",
+      "Heinrich Himmler",
+      "Joseph Goebbels",
+      "Hermann G\u00f6ring"
+    ],
+    "explanation": "Adolf Hitler was the leader of Nazi Germany from 1933 until his death in 1945."
+  },
+  {
+    "question": "What was the name of the economic crisis that began in 1929?",
+    "answer": "Great Depression",
+    "choices": [
+      "Great Depression",
+      "Black Tuesday",
+      "Wall Street Crash",
+      "Bank Panic"
+    ],
+    "explanation": "The Great Depression began with the Wall Street Crash in October 1929 and lasted through the 1930s."
+  },
+  {
+    "question": "In which year did Nelson Mandela become President of South Africa?",
+    "answer": "1994",
+    "choices": [
+      "1990",
+      "1992",
+      "1993",
       "1994"
     ],
-    "explanation": "The Spanish Armada defeated took place in 1588."
+    "explanation": "Nelson Mandela became South Africa's first Black president following the 1994 democratic elections."
   },
   {
-    "question": "The Spanish Armada defeated is most closely associated with which person, place, or idea?",
-    "answer": "England",
-    "choices": [
-      "England",
-      "India and Pakistan",
-      "Nelson Mandela",
-      "Napoleon"
-    ],
-    "explanation": "The Spanish Armada defeated is closely associated with England."
-  },
-  {
-    "question": "In what year did the English Civil War began occur?",
-    "answer": "1642",
-    "choices": [
-      "1642",
-      "1688",
-      "1215",
-      "1868"
-    ],
-    "explanation": "The English Civil War began took place in 1642."
-  },
-  {
-    "question": "The English Civil War began is most closely associated with which person, place, or idea?",
-    "answer": "Parliament vs. King Charles I",
+    "question": "What was the name of the fortress stormed at the start of the French Revolution?",
+    "answer": "Bastille",
     "choices": [
       "Bastille",
-      "Great Depression",
-      "Parliament vs. King Charles I",
-      "Northern Ireland"
+      "Versailles",
+      "Louvre",
+      "Tuileries"
     ],
-    "explanation": "The English Civil War began is closely associated with Parliament vs. King Charles I."
+    "explanation": "The storming of the Bastille prison on July 14, 1789 is considered the start of the French Revolution."
   },
   {
-    "question": "In what year did the Glorious Revolution occur?",
-    "answer": "1688",
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "answer": "Margaret Thatcher",
     "choices": [
-      "1688",
-      "1998",
-      "1868",
-      "1919"
+      "Margaret Thatcher",
+      "Theresa May",
+      "Indira Gandhi",
+      "Golda Meir"
     ],
-    "explanation": "The Glorious Revolution took place in 1688."
+    "explanation": "Margaret Thatcher served as UK Prime Minister from 1979 to 1990, the first woman to hold the office."
   },
   {
-    "question": "The Glorious Revolution is most closely associated with which person, place, or idea?",
-    "answer": "William and Mary",
+    "question": "What was the significance of the D-Day landings in 1944?",
+    "answer": "Allied invasion of Normandy",
     "choices": [
+      "Allied invasion of Normandy",
+      "Liberation of Paris",
+      "Fall of Berlin",
+      "Battle of the Bulge"
+    ],
+    "explanation": "D-Day (June 6, 1944) was the Allied amphibious invasion of Normandy, France, turning the tide of WWII in Europe."
+  },
+  {
+    "question": "Which dynasty built the Great Wall of China?",
+    "answer": "Qin Dynasty",
+    "choices": [
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Ming Dynasty",
+      "Tang Dynasty"
+    ],
+    "explanation": "The first unified Great Wall was built during the Qin Dynasty (221\u2013206 BC) under Emperor Qin Shi Huang."
+  },
+  {
+    "question": "Who assassinated President Abraham Lincoln?",
+    "answer": "John Wilkes Booth",
+    "choices": [
+      "John Wilkes Booth",
+      "Charles Guiteau",
+      "Leon Czolgosz",
+      "Lee Harvey Oswald"
+    ],
+    "explanation": "John Wilkes Booth assassinated President Lincoln at Ford's Theatre on April 14, 1865."
+  },
+  {
+    "question": "In what year did the Cuban Missile Crisis occur?",
+    "answer": "1962",
+    "choices": [
+      "1960",
+      "1961",
+      "1962",
+      "1963"
+    ],
+    "explanation": "The Cuban Missile Crisis occurred in October 1962, bringing the US and USSR to the brink of nuclear war."
+  },
+  {
+    "question": "Who was the military leader who crossed the Rubicon in 49 BC?",
+    "answer": "Julius Caesar",
+    "choices": [
+      "Julius Caesar",
+      "Pompey",
+      "Crassus",
+      "Mark Antony"
+    ],
+    "explanation": "Julius Caesar crossed the Rubicon river with his army in 49 BC, starting a Roman civil war."
+  },
+  {
+    "question": "What name was given to the period of European exploration from the 15th to 17th centuries?",
+    "answer": "Age of Discovery",
+    "choices": [
+      "Age of Discovery",
+      "Renaissance",
+      "Reformation",
+      "Enlightenment"
+    ],
+    "explanation": "The Age of Discovery (15th\u201317th centuries) saw European explorers chart new sea routes and continents."
+  },
+  {
+    "question": "Which country suffered the most casualties in World War II?",
+    "answer": "Soviet Union",
+    "choices": [
+      "Soviet Union",
+      "Germany",
+      "China",
+      "United States"
+    ],
+    "explanation": "The Soviet Union suffered an estimated 27 million deaths in World War II, the highest of any nation."
+  },
+  {
+    "question": "Who invented the printing press in the 1440s?",
+    "answer": "Johannes Gutenberg",
+    "choices": [
+      "Johannes Gutenberg",
+      "Leonardo da Vinci",
+      "Nikola Tesla",
+      "Benjamin Franklin"
+    ],
+    "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440, revolutionizing the spread of information."
+  },
+  {
+    "question": "What was the name of the plan to rebuild Europe after World War II?",
+    "answer": "Marshall Plan",
+    "choices": [
+      "Marshall Plan",
+      "Truman Doctrine",
+      "Lend-Lease",
+      "New Deal"
+    ],
+    "explanation": "The Marshall Plan (1948\u20131952) provided over $12 billion in economic aid to rebuild Western European economies after WWII."
+  },
+  {
+    "question": "Which civilization created the first known writing system?",
+    "answer": "Sumerians",
+    "choices": [
+      "Sumerians",
+      "Egyptians",
+      "Chinese",
+      "Phoenicians"
+    ],
+    "explanation": "The Sumerians of Mesopotamia created cuneiform, widely considered the earliest writing system, around 3200 BC."
+  },
+  {
+    "question": "In what year did Columbus first reach the Americas?",
+    "answer": "1492",
+    "choices": [
+      "1488",
+      "1490",
+      "1492",
+      "1498"
+    ],
+    "explanation": "Christopher Columbus first reached the Americas on October 12, 1492, landing in the Bahamas."
+  },
+  {
+    "question": "What empire did Alexander the Great build?",
+    "answer": "Macedonian Empire",
+    "choices": [
+      "Macedonian Empire",
+      "Persian Empire",
+      "Roman Empire",
+      "Greek City-States"
+    ],
+    "explanation": "Alexander the Great created the Macedonian Empire, stretching from Greece to northwestern India by 323 BC."
+  },
+  {
+    "question": "Who was the leader of the Indian independence movement against British rule?",
+    "answer": "Mahatma Gandhi",
+    "choices": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose",
+      "B. R. Ambedkar"
+    ],
+    "explanation": "Mahatma Gandhi led the Indian independence movement through nonviolent civil disobedience against British rule."
+  },
+  {
+    "question": "What was the name of the 1919 treaty that ended World War I?",
+    "answer": "Treaty of Versailles",
+    "choices": [
+      "Treaty of Versailles",
+      "Treaty of Ghent",
+      "Congress of Vienna",
+      "Peace of Westphalia"
+    ],
+    "explanation": "The Treaty of Versailles (1919) formally ended WWI and imposed harsh penalties on Germany."
+  },
+  {
+    "question": "Which Roman general and statesman was assassinated on the Ides of March?",
+    "answer": "Julius Caesar",
+    "choices": [
+      "Julius Caesar",
+      "Pompey",
+      "Cicero",
+      "Brutus"
+    ],
+    "explanation": "Julius Caesar was assassinated on March 15, 44 BC, by a group of senators led by Brutus and Cassius."
+  },
+  {
+    "question": "What was the name of the British warship whose sinking in 1915 increased US anger at Germany?",
+    "answer": "Lusitania",
+    "choices": [
+      "Lusitania",
+      "Titanic",
+      "Bismarck",
+      "Hood"
+    ],
+    "explanation": "The German sinking of the British passenger liner Lusitania in May 1915, killing 1,198 people, inflamed American opinion."
+  },
+  {
+    "question": "Who was the first person to fly solo across the Atlantic Ocean?",
+    "answer": "Charles Lindbergh",
+    "choices": [
+      "Charles Lindbergh",
+      "Amelia Earhart",
+      "Howard Hughes",
+      "Wiley Post"
+    ],
+    "explanation": "Charles Lindbergh made the first nonstop solo transatlantic flight in 1927 in the Spirit of St. Louis."
+  },
+  {
+    "question": "What was the name of the policy of racial segregation in South Africa?",
+    "answer": "Apartheid",
+    "choices": [
+      "Apartheid",
+      "Jim Crow",
+      "Segregation",
+      "Colonialism"
+    ],
+    "explanation": "Apartheid was the system of institutionalized racial segregation in South Africa from 1948 to 1994."
+  },
+  {
+    "question": "In which year did the Soviet Union launch the first human into space?",
+    "answer": "1961",
+    "choices": [
+      "1957",
+      "1959",
+      "1961",
+      "1963"
+    ],
+    "explanation": "Yuri Gagarin became the first human in space on April 12, 1961, aboard Vostok 1."
+  },
+  {
+    "question": "Who was the Emperor of France during the Napoleonic Wars?",
+    "answer": "Napoleon Bonaparte",
+    "choices": [
+      "Napoleon Bonaparte",
+      "Louis XVI",
+      "Louis XVIII",
+      "Charles X"
+    ],
+    "explanation": "Napoleon Bonaparte was Emperor of France from 1804 to 1814/1815 during the Napoleonic Wars."
+  },
+  {
+    "question": "What was the name of the allied military alliance formed after World War II?",
+    "answer": "NATO",
+    "choices": [
+      "NATO",
+      "Warsaw Pact",
+      "League of Nations",
+      "United Nations"
+    ],
+    "explanation": "NATO (North Atlantic Treaty Organization) was formed in 1949 as a military alliance among Western nations."
+  },
+  {
+    "question": "Which ancient city was the center of the Persian Empire?",
+    "answer": "Persepolis",
+    "choices": [
+      "Persepolis",
+      "Babylon",
+      "Nineveh",
+      "Susa"
+    ],
+    "explanation": "Persepolis was the ceremonial capital of the Achaemenid Persian Empire, built by Darius the Great."
+  },
+  {
+    "question": "Who was the first person to reach the South Pole?",
+    "answer": "Roald Amundsen",
+    "choices": [
+      "Roald Amundsen",
+      "Robert Falcon Scott",
+      "Ernest Shackleton",
+      "Richard Byrd"
+    ],
+    "explanation": "Norwegian explorer Roald Amundsen and his team first reached the South Pole on December 14, 1911."
+  },
+  {
+    "question": "What name was given to the medieval epidemic that killed one-third of Europe's population?",
+    "answer": "Black Death",
+    "choices": [
+      "Black Death",
+      "Plague of Justinian",
+      "Spanish Flu",
+      "Smallpox Epidemic"
+    ],
+    "explanation": "The Black Death (1347\u20131351) was a bubonic plague pandemic that killed an estimated 30\u201360% of Europe's population."
+  },
+  {
+    "question": "In which year did the Korean War end?",
+    "answer": "1953",
+    "choices": [
+      "1950",
+      "1951",
+      "1953",
+      "1955"
+    ],
+    "explanation": "The Korean War ended with the Korean Armistice Agreement signed on July 27, 1953."
+  },
+  {
+    "question": "Who was the Carthaginian general who crossed the Alps with elephants?",
+    "answer": "Hannibal",
+    "choices": [
+      "Hannibal",
+      "Hasdrubal",
+      "Scipio",
+      "Hamilcar"
+    ],
+    "explanation": "Hannibal Barca crossed the Alps with his army and war elephants to invade Italy during the Second Punic War."
+  },
+  {
+    "question": "What event triggered the start of the Vietnam War for US involvement?",
+    "answer": "Gulf of Tonkin incident",
+    "choices": [
+      "Gulf of Tonkin incident",
+      "Fall of Saigon",
+      "Tet Offensive",
+      "Ho Chi Minh's declaration"
+    ],
+    "explanation": "The Gulf of Tonkin incident in 1964 led to Congressional authorization for expanded US military involvement in Vietnam."
+  },
+  {
+    "question": "Which pharaoh is associated with the Exodus story in the Bible?",
+    "answer": "Ramesses II",
+    "choices": [
+      "Ramesses II",
+      "Akhenaten",
+      "Tutankhamun",
+      "Thutmose III"
+    ],
+    "explanation": "Ramesses II is the pharaoh most commonly associated with the biblical Exodus story."
+  },
+  {
+    "question": "What was the name of the resistance movement in France during World War II?",
+    "answer": "French Resistance",
+    "choices": [
+      "French Resistance",
+      "Free French Forces",
+      "Maquis",
+      "Vichy Resistance"
+    ],
+    "explanation": "The French Resistance was a collection of movements that fought against Nazi Germany during the occupation of France."
+  },
+  {
+    "question": "In what year did the United States drop atomic bombs on Japan?",
+    "answer": "1945",
+    "choices": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "explanation": "The US dropped atomic bombs on Hiroshima on August 6 and Nagasaki on August 9, 1945."
+  },
+  {
+    "question": "Who was the first woman to lead a major European nation in the modern era?",
+    "answer": "Margaret Thatcher",
+    "choices": [
+      "Margaret Thatcher",
+      "Angela Merkel",
+      "Indira Gandhi",
+      "Benazir Bhutto"
+    ],
+    "explanation": "Margaret Thatcher became Britain's first female Prime Minister in 1979."
+  },
+  {
+    "question": "What ancient Greek historian is known as the Father of History?",
+    "answer": "Herodotus",
+    "choices": [
+      "Herodotus",
+      "Thucydides",
+      "Xenophon",
+      "Polybius"
+    ],
+    "explanation": "Herodotus, who wrote about the Greco-Persian Wars, is called the Father of History."
+  },
+  {
+    "question": "Which event marked the beginning of the Space Age?",
+    "answer": "Launch of Sputnik",
+    "choices": [
+      "Launch of Sputnik",
+      "Apollo 11 moon landing",
+      "Yuri Gagarin's spaceflight",
+      "First US satellite"
+    ],
+    "explanation": "The Soviet launch of Sputnik on October 4, 1957 marked the beginning of the Space Age."
+  },
+  {
+    "question": "Who was the leader of the Nazi SS and architect of the Holocaust?",
+    "answer": "Heinrich Himmler",
+    "choices": [
+      "Heinrich Himmler",
+      "Joseph Goebbels",
+      "Hermann G\u00f6ring",
+      "Rudolf Hess"
+    ],
+    "explanation": "Heinrich Himmler headed the SS and was the primary architect of the Holocaust."
+  },
+  {
+    "question": "What was the name of Japan's military leader during most of World War II?",
+    "answer": "Hideki Tojo",
+    "choices": [
+      "Hideki Tojo",
+      "Hirohito",
+      "Isoroku Yamamoto",
+      "Shigenori Togo"
+    ],
+    "explanation": "Hideki Tojo served as Prime Minister of Japan from 1941 to 1944, overseeing Japan's war effort."
+  },
+  {
+    "question": "In what year did the Roman Empire fall in the West?",
+    "answer": "476 AD",
+    "choices": [
+      "410 AD",
+      "455 AD",
+      "476 AD",
+      "500 AD"
+    ],
+    "explanation": "The Western Roman Empire is traditionally said to have fallen in 476 AD when Romulus Augustulus was deposed."
+  },
+  {
+    "question": "What was the name of the agreement that divided post-WWII Europe between East and West?",
+    "answer": "Yalta Conference",
+    "choices": [
+      "Yalta Conference",
+      "Potsdam Conference",
+      "Tehran Conference",
+      "Paris Peace Conference"
+    ],
+    "explanation": "The Yalta Conference (1945) between Roosevelt, Churchill, and Stalin shaped the post-war division of Europe."
+  },
+  {
+    "question": "Which ancient Greek city-state won the Battle of Marathon in 490 BC?",
+    "answer": "Athens",
+    "choices": [
+      "Athens",
+      "Sparta",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Athens defeated the Persian army at the Battle of Marathon in 490 BC, stopping the first Persian invasion."
+  },
+  {
+    "question": "Who was the last Emperor of the Roman Empire?",
+    "answer": "Romulus Augustulus",
+    "choices": [
+      "Romulus Augustulus",
+      "Constantine XI",
+      "Justinian I",
+      "Theodosius I"
+    ],
+    "explanation": "Romulus Augustulus was the last Western Roman Emperor, deposed in 476 AD by Odoacer."
+  },
+  {
+    "question": "What was the primary cause of World War I?",
+    "answer": "Assassination of Archduke Franz Ferdinand",
+    "choices": [
+      "Assassination of Archduke Franz Ferdinand",
+      "German invasion of France",
+      "Sinking of the Lusitania",
+      "Austria-Hungary's ultimatum to Serbia"
+    ],
+    "explanation": "The assassination of Archduke Franz Ferdinand in Sarajevo on June 28, 1914 triggered the chain of events leading to WWI."
+  },
+  {
+    "question": "In which city did the Congress of Vienna take place?",
+    "answer": "Vienna",
+    "choices": [
+      "Vienna",
+      "Paris",
+      "Berlin",
+      "London"
+    ],
+    "explanation": "The Congress of Vienna (1814\u20131815) met in Vienna to reorganize Europe after the Napoleonic Wars."
+  },
+  {
+    "question": "What was the name of the ancient trade network linking China to the Mediterranean?",
+    "answer": "Silk Road",
+    "choices": [
+      "Silk Road",
+      "Spice Route",
+      "Amber Road",
+      "Incense Road"
+    ],
+    "explanation": "The Silk Road was a network of trade routes connecting East Asia to the Mediterranean world."
+  },
+  {
+    "question": "Who was the President of the United States during the Cuban Missile Crisis?",
+    "answer": "John F. Kennedy",
+    "choices": [
+      "John F. Kennedy",
+      "Dwight D. Eisenhower",
+      "Lyndon B. Johnson",
+      "Richard Nixon"
+    ],
+    "explanation": "President John F. Kennedy successfully navigated the Cuban Missile Crisis in October 1962."
+  },
+  {
+    "question": "What was the name of the British scientific voyage led by Charles Darwin?",
+    "answer": "HMS Beagle",
+    "choices": [
+      "HMS Beagle",
+      "HMS Endeavour",
+      "HMS Victory",
+      "HMS Bounty"
+    ],
+    "explanation": "Charles Darwin traveled aboard HMS Beagle (1831\u20131836), observations from which led to his theory of evolution."
+  },
+  {
+    "question": "In which year was the United Nations founded?",
+    "answer": "1945",
+    "choices": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "explanation": "The United Nations was founded on October 24, 1945, following the end of World War II."
+  },
+  {
+    "question": "Who was the leader of the Chinese Communist Revolution?",
+    "answer": "Mao Zedong",
+    "choices": [
+      "Mao Zedong",
+      "Chiang Kai-shek",
+      "Zhou Enlai",
+      "Deng Xiaoping"
+    ],
+    "explanation": "Mao Zedong led the Chinese Communist Party to victory in the Chinese Civil War, founding the PRC in 1949."
+  },
+  {
+    "question": "What year did the Soviet Union dissolve?",
+    "answer": "1991",
+    "choices": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "explanation": "The Soviet Union formally dissolved on December 25, 1991, breaking into 15 independent republics."
+  },
+  {
+    "question": "Which country was the first to industrialize?",
+    "answer": "United Kingdom",
+    "choices": [
+      "United Kingdom",
+      "France",
+      "Germany",
+      "United States"
+    ],
+    "explanation": "Britain was the birthplace of the Industrial Revolution, beginning in the late 18th century."
+  },
+  {
+    "question": "Who was the Aztec ruler when Hern\u00e1n Cort\u00e9s arrived in Mexico?",
+    "answer": "Montezuma II",
+    "choices": [
+      "Montezuma II",
+      "Cuauht\u00e9moc",
+      "Itzcoatl",
+      "Ahuitzotl"
+    ],
+    "explanation": "Montezuma II was the Aztec emperor when Spanish conquistador Hern\u00e1n Cort\u00e9s arrived in 1519."
+  },
+  {
+    "question": "What was the name of the failed US-backed invasion of Cuba in 1961?",
+    "answer": "Bay of Pigs invasion",
+    "choices": [
+      "Bay of Pigs invasion",
+      "Cuban Missile Crisis",
+      "Operation Mongoose",
+      "Operation Northwoods"
+    ],
+    "explanation": "The Bay of Pigs invasion in April 1961 was a failed CIA-sponsored attempt to overthrow Fidel Castro."
+  },
+  {
+    "question": "Which ancient wonder was located in Babylon?",
+    "answer": "Hanging Gardens of Babylon",
+    "choices": [
+      "Hanging Gardens of Babylon",
+      "Temple of Artemis",
+      "Mausoleum at Halicarnassus",
+      "Lighthouse of Alexandria"
+    ],
+    "explanation": "The Hanging Gardens of Babylon were said to be built in ancient Babylon in modern-day Iraq."
+  },
+  {
+    "question": "Who was the Incan ruler captured and executed by Francisco Pizarro?",
+    "answer": "Atahualpa",
+    "choices": [
+      "Atahualpa",
+      "Huayna Capac",
+      "Tupac Inca",
+      "Manco Inca"
+    ],
+    "explanation": "Atahualpa, the last Inca Emperor, was captured by Pizarro in 1532 and executed in 1533."
+  },
+  {
+    "question": "In what year did Adolf Hitler come to power in Germany?",
+    "answer": "1933",
+    "choices": [
+      "1930",
+      "1931",
+      "1933",
+      "1935"
+    ],
+    "explanation": "Adolf Hitler became Chancellor of Germany on January 30, 1933."
+  },
+  {
+    "question": "What was the name of the first permanent English settlement in America?",
+    "answer": "Jamestown",
+    "choices": [
+      "Jamestown",
+      "Plymouth",
+      "Roanoke",
+      "Boston"
+    ],
+    "explanation": "Jamestown, Virginia, founded in 1607, was the first permanent English settlement in America."
+  },
+  {
+    "question": "Who led the Allied forces on D-Day?",
+    "answer": "Dwight D. Eisenhower",
+    "choices": [
+      "Dwight D. Eisenhower",
+      "Bernard Montgomery",
+      "George Patton",
+      "Omar Bradley"
+    ],
+    "explanation": "General Dwight D. Eisenhower served as Supreme Allied Commander, overseeing the D-Day invasion on June 6, 1944."
+  },
+  {
+    "question": "What was the name of the period of relative peace within the Roman Empire?",
+    "answer": "Pax Romana",
+    "choices": [
+      "Pax Romana",
+      "Golden Age",
+      "Roman Peace",
+      "Augustan Age"
+    ],
+    "explanation": "The Pax Romana (27 BC \u2013 180 AD) was a period of relative peace and stability within the Roman Empire."
+  },
+  {
+    "question": "In which country did the Protestant Reformation begin?",
+    "answer": "Germany",
+    "choices": [
+      "Germany",
       "England",
-      "international cooperation",
-      "William and Mary",
-      "World War I"
+      "Switzerland",
+      "France"
     ],
-    "explanation": "The Glorious Revolution is closely associated with William and Mary."
+    "explanation": "Martin Luther launched the Protestant Reformation in Germany with his 95 Theses in 1517."
   },
   {
-    "question": "In what year did the American Declaration of Independence occur?",
-    "answer": "1776",
+    "question": "Who was the first European to reach the southern tip of Africa?",
+    "answer": "Bartolomeu Dias",
     "choices": [
-      "1969",
-      "1215",
-      "1776",
-      "1642"
+      "Bartolomeu Dias",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Henry the Navigator"
     ],
-    "explanation": "The American Declaration of Independence took place in 1776."
+    "explanation": "Bartolomeu Dias became the first European to round the Cape of Good Hope in 1488."
   },
   {
-    "question": "The American Declaration of Independence is most closely associated with which person, place, or idea?",
+    "question": "What was the name of the Soviet space program that put the first satellite in orbit?",
+    "answer": "Sputnik program",
+    "choices": [
+      "Sputnik program",
+      "Vostok program",
+      "Luna program",
+      "Mir program"
+    ],
+    "explanation": "The Soviet Sputnik program launched Sputnik 1, the first artificial satellite, in October 1957."
+  },
+  {
+    "question": "Which Japanese city was the first to be hit by an atomic bomb?",
+    "answer": "Hiroshima",
+    "choices": [
+      "Hiroshima",
+      "Nagasaki",
+      "Tokyo",
+      "Osaka"
+    ],
+    "explanation": "Hiroshima was struck by the first atomic bomb, 'Little Boy,' on August 6, 1945."
+  },
+  {
+    "question": "Who was the last Aztec emperor?",
+    "answer": "Cuauht\u00e9moc",
+    "choices": [
+      "Cuauht\u00e9moc",
+      "Montezuma II",
+      "Cuitl\u00e1huac",
+      "Itzcoatl"
+    ],
+    "explanation": "Cuauht\u00e9moc was the last Aztec emperor, captured and later executed by Hern\u00e1n Cort\u00e9s."
+  },
+  {
+    "question": "What was the name of the policy of non-aggression adopted by Britain and France toward Hitler?",
+    "answer": "Appeasement",
+    "choices": [
+      "Appeasement",
+      "D\u00e9tente",
+      "Containment",
+      "Neutrality"
+    ],
+    "explanation": "Appeasement, exemplified by the Munich Agreement of 1938, was the policy of making concessions to Hitler to avoid war."
+  },
+  {
+    "question": "In which year was the Eiffel Tower built?",
+    "answer": "1889",
+    "choices": [
+      "1879",
+      "1882",
+      "1886",
+      "1889"
+    ],
+    "explanation": "The Eiffel Tower was built for the 1889 World's Fair in Paris, designed by Gustave Eiffel."
+  },
+  {
+    "question": "Who was the American abolitionist who led the raid on Harpers Ferry?",
+    "answer": "John Brown",
+    "choices": [
+      "John Brown",
+      "Frederick Douglass",
+      "William Lloyd Garrison",
+      "Harriet Tubman"
+    ],
+    "explanation": "John Brown led a raid on the federal armory at Harpers Ferry, Virginia in 1859, hoping to start a slave rebellion."
+  },
+  {
+    "question": "What was the name of the economic policy in the Soviet Union under Stalin?",
+    "answer": "Five-Year Plan",
+    "choices": [
+      "Five-Year Plan",
+      "New Economic Policy",
+      "Collectivization",
+      "Glasnost"
+    ],
+    "explanation": "Stalin's Five-Year Plans were a series of nationwide economic plans that rapidly industrialized the Soviet Union."
+  },
+  {
+    "question": "Which empire controlled Egypt before Alexander the Great conquered it?",
+    "answer": "Persian Empire",
+    "choices": [
+      "Persian Empire",
+      "Babylonian Empire",
+      "Assyrian Empire",
+      "Hittite Empire"
+    ],
+    "explanation": "The Persian Achaemenid Empire controlled Egypt before Alexander the Great conquered it in 332 BC."
+  },
+  {
+    "question": "In what year was the Magna Carta signed?",
+    "answer": "1215",
+    "choices": [
+      "1199",
+      "1207",
+      "1215",
+      "1225"
+    ],
+    "explanation": "King John of England sealed the Magna Carta on June 15, 1215, limiting royal power."
+  },
+  {
+    "question": "Who was the French military leader who saved France during the Hundred Years' War?",
+    "answer": "Joan of Arc",
+    "choices": [
+      "Joan of Arc",
+      "Charles VII",
+      "Philip VI",
+      "Edward III"
+    ],
+    "explanation": "Joan of Arc led French forces to several victories during the Hundred Years' War before being captured and burned at the stake in 1431."
+  },
+  {
+    "question": "What was the name of the doctrine that justified US involvement in foreign conflicts to prevent communist spread?",
+    "answer": "Truman Doctrine",
+    "choices": [
+      "Truman Doctrine",
+      "Monroe Doctrine",
+      "Eisenhower Doctrine",
+      "Nixon Doctrine"
+    ],
+    "explanation": "The Truman Doctrine (1947) committed the US to supporting countries threatened by Soviet expansion."
+  },
+  {
+    "question": "Which ancient Greek philosopher was the teacher of Alexander the Great?",
+    "answer": "Aristotle",
+    "choices": [
+      "Aristotle",
+      "Plato",
+      "Socrates",
+      "Pythagoras"
+    ],
+    "explanation": "Aristotle tutored Alexander the Great from age 13, instilling a love of learning and philosophy."
+  },
+  {
+    "question": "What was the name of the wall built by the Romans across northern England?",
+    "answer": "Hadrian's Wall",
+    "choices": [
+      "Hadrian's Wall",
+      "Antonine Wall",
+      "Limes Britannicus",
+      "Offa's Dyke"
+    ],
+    "explanation": "Hadrian's Wall was built by Emperor Hadrian starting in 122 AD to mark the northern boundary of Roman Britain."
+  },
+  {
+    "question": "In which year was Israel founded?",
+    "answer": "1948",
+    "choices": [
+      "1945",
+      "1946",
+      "1947",
+      "1948"
+    ],
+    "explanation": "The State of Israel was declared on May 14, 1948, following the British withdrawal from Palestine."
+  },
+  {
+    "question": "Who was the Greek god of the sea whose name inspired the name for Neptune?",
+    "answer": "Poseidon",
+    "choices": [
+      "Poseidon",
+      "Zeus",
+      "Hades",
+      "Ares"
+    ],
+    "explanation": "Poseidon was the Greek god of the sea, whose Roman equivalent was Neptune."
+  },
+  {
+    "question": "What was the name of the notorious Nazi concentration and extermination camp in Poland?",
+    "answer": "Auschwitz",
+    "choices": [
+      "Auschwitz",
+      "Dachau",
+      "Buchenwald",
+      "Treblinka"
+    ],
+    "explanation": "Auschwitz was the largest Nazi concentration and extermination camp, where an estimated 1.1 million people were killed."
+  },
+  {
+    "question": "Who commanded the Confederate forces in the American Civil War?",
+    "answer": "Robert E. Lee",
+    "choices": [
+      "Robert E. Lee",
+      "Ulysses S. Grant",
+      "Stonewall Jackson",
+      "Jefferson Davis"
+    ],
+    "explanation": "General Robert E. Lee commanded the Confederate Army of Northern Virginia during the Civil War."
+  },
+  {
+    "question": "What was the name of the 1954 Supreme Court case that ruled racial segregation in schools unconstitutional?",
+    "answer": "Brown v. Board of Education",
+    "choices": [
+      "Brown v. Board of Education",
+      "Plessy v. Ferguson",
+      "Dred Scott v. Sandford",
+      "Marbury v. Madison"
+    ],
+    "explanation": "Brown v. Board of Education (1954) overturned the 'separate but equal' doctrine in public education."
+  },
+  {
+    "question": "Which country launched the first moon landing mission?",
     "answer": "United States",
     "choices": [
       "United States",
-      "India and Pakistan",
-      "Normandy",
-      "England"
+      "Soviet Union",
+      "China",
+      "France"
     ],
-    "explanation": "The American Declaration of Independence is closely associated with United States."
+    "explanation": "The United States landed the first humans on the moon with Apollo 11 in July 1969."
   },
   {
-    "question": "In what year did the French Revolution began occur?",
-    "answer": "1789",
+    "question": "Who was the Spartan king who died at the Battle of Thermopylae?",
+    "answer": "Leonidas",
     "choices": [
-      "1789",
-      "1066",
-      "1969",
-      "1588"
+      "Leonidas",
+      "Themistocles",
+      "Miltiades",
+      "Pausanias"
     ],
-    "explanation": "The French Revolution began took place in 1789."
+    "explanation": "King Leonidas I of Sparta died defending the pass at Thermopylae against the Persian army in 480 BC."
   },
   {
-    "question": "The French Revolution began is most closely associated with which person, place, or idea?",
-    "answer": "Bastille",
+    "question": "What year did the Chinese Communist Party officially take power?",
+    "answer": "1949",
     "choices": [
-      "Great Depression",
+      "1945",
+      "1947",
+      "1949",
+      "1950"
+    ],
+    "explanation": "The People's Republic of China was officially proclaimed by Mao Zedong on October 1, 1949."
+  },
+  {
+    "question": "What was the name of the famous wartime speech by Winston Churchill about fighting on the beaches?",
+    "answer": "We Shall Fight on the Beaches",
+    "choices": [
+      "We Shall Fight on the Beaches",
+      "Their Finest Hour",
+      "Blood Toil Tears and Sweat",
+      "The Iron Curtain"
+    ],
+    "explanation": "Churchill's 'We Shall Fight on the Beaches' speech was delivered to the House of Commons on June 4, 1940."
+  },
+  {
+    "question": "Which ancient civilization built Teotihuacan?",
+    "answer": "Teotihuacan civilization",
+    "choices": [
+      "Teotihuacan civilization",
+      "Aztec",
+      "Maya",
+      "Olmec"
+    ],
+    "explanation": "Teotihuacan was built by a pre-Aztec civilization around 100 BC\u2013250 AD in central Mexico."
+  },
+  {
+    "question": "What was the name of the international organization formed after World War I?",
+    "answer": "League of Nations",
+    "choices": [
+      "League of Nations",
+      "United Nations",
+      "International Court",
+      "World Court"
+    ],
+    "explanation": "The League of Nations was founded in 1920 following WWI to maintain world peace, though the US never joined."
+  },
+  {
+    "question": "Who was the Roman emperor who converted to Christianity?",
+    "answer": "Constantine I",
+    "choices": [
+      "Constantine I",
+      "Nero",
+      "Marcus Aurelius",
+      "Diocletian"
+    ],
+    "explanation": "Constantine I issued the Edict of Milan in 313 AD and converted to Christianity, transforming the Roman Empire."
+  },
+  {
+    "question": "What was the name of the South African activist who spent 27 years in prison?",
+    "answer": "Nelson Mandela",
+    "choices": [
       "Nelson Mandela",
-      "Bastille",
-      "Cold War"
+      "Desmond Tutu",
+      "Steve Biko",
+      "Walter Sisulu"
     ],
-    "explanation": "The French Revolution began is closely associated with Bastille."
+    "explanation": "Nelson Mandela was imprisoned on Robben Island from 1964 to 1990 for his anti-apartheid activities."
   },
   {
-    "question": "In what year did the Battle of Waterloo occur?",
-    "answer": "1815",
+    "question": "In which year did the Persian Wars between Greece and Persia end?",
+    "answer": "449 BC",
     "choices": [
-      "1815",
-      "1066",
-      "1919",
-      "1989"
+      "479 BC",
+      "469 BC",
+      "449 BC",
+      "431 BC"
     ],
-    "explanation": "The Battle of Waterloo took place in 1815."
+    "explanation": "The Greco-Persian Wars ended with the Peace of Callias around 449 BC, following years of Greek victories."
   },
   {
-    "question": "The Battle of Waterloo is most closely associated with which person, place, or idea?",
-    "answer": "Napoleon",
+    "question": "Who was the famous Mongol ruler known as Tamerlane?",
+    "answer": "Timur",
     "choices": [
-      "United States",
-      "Napoleon",
+      "Timur",
+      "Kublai Khan",
+      "Genghis Khan",
+      "\u00d6gedei Khan"
+    ],
+    "explanation": "Timur (Tamerlane) was a 14th-century Central Asian conqueror who built a vast empire from his base in Samarkand."
+  },
+  {
+    "question": "What was the name of the economic policy introduced by Lenin after the Russian Civil War?",
+    "answer": "New Economic Policy",
+    "choices": [
+      "New Economic Policy",
+      "Five-Year Plan",
+      "War Communism",
+      "Collectivization"
+    ],
+    "explanation": "Lenin introduced the New Economic Policy (NEP) in 1921, allowing limited private enterprise to revive the economy."
+  },
+  {
+    "question": "Which country did Napoleon invade in 1812, leading to his downfall?",
+    "answer": "Russia",
+    "choices": [
+      "Russia",
+      "Prussia",
+      "Austria",
+      "Spain"
+    ],
+    "explanation": "Napoleon's invasion of Russia in 1812 ended in catastrophic defeat, costing him over 400,000 soldiers."
+  },
+  {
+    "question": "Who was the Roman emperor who ordered the Colosseum to be built?",
+    "answer": "Vespasian",
+    "choices": [
+      "Vespasian",
+      "Nero",
+      "Augustus",
+      "Trajan"
+    ],
+    "explanation": "Emperor Vespasian began construction of the Colosseum around 70 AD; it was completed under his son Titus."
+  },
+  {
+    "question": "What was the name of the 1905 uprising in Russia that preceded the Revolution?",
+    "answer": "1905 Revolution",
+    "choices": [
+      "1905 Revolution",
+      "Bloody Sunday",
+      "Decembrist Revolt",
+      "February Revolution"
+    ],
+    "explanation": "The 1905 Revolution began with Bloody Sunday and forced Tsar Nicholas II to grant a constitutional parliament."
+  },
+  {
+    "question": "Which ancient Greek city-state was known for its democracy?",
+    "answer": "Athens",
+    "choices": [
+      "Athens",
+      "Sparta",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Athens is credited with developing the world's first democracy in the 5th century BC under Cleisthenes."
+  },
+  {
+    "question": "What was the name of the Islamic empire that controlled much of the Middle East from the 7th century?",
+    "answer": "Umayyad Caliphate",
+    "choices": [
+      "Umayyad Caliphate",
+      "Abbasid Caliphate",
       "Ottoman Empire",
-      "World War I"
+      "Safavid Empire"
     ],
-    "explanation": "The Battle of Waterloo is closely associated with Napoleon."
+    "explanation": "The Umayyad Caliphate (661\u2013750 AD) was the second of four Islamic caliphates, controlling a vast territory."
   },
   {
-    "question": "In what year did the Emancipation Proclamation occur?",
-    "answer": "1863",
+    "question": "Who led the Bolshevik Revolution?",
+    "answer": "Vladimir Lenin",
     "choices": [
-      "1989",
-      "1998",
-      "1215",
-      "1863"
+      "Vladimir Lenin",
+      "Leon Trotsky",
+      "Joseph Stalin",
+      "Nikolai Bukharin"
     ],
-    "explanation": "The Emancipation Proclamation took place in 1863."
+    "explanation": "Vladimir Lenin led the Bolshevik Party in seizing power during the October Revolution of 1917."
   },
   {
-    "question": "The Emancipation Proclamation is most closely associated with which person, place, or idea?",
+    "question": "What was the name of the famous Aztec calendar stone?",
+    "answer": "Sun Stone",
+    "choices": [
+      "Sun Stone",
+      "Moon Stone",
+      "Star Calendar",
+      "Aztec Calendar"
+    ],
+    "explanation": "The Aztec Sun Stone, carved in the 15th century, depicts the Aztec cosmological beliefs."
+  },
+  {
+    "question": "Which emperor unified China for the first time?",
+    "answer": "Qin Shi Huang",
+    "choices": [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Tang Taizong",
+      "Kublai Khan"
+    ],
+    "explanation": "Qin Shi Huang became the first Emperor of a unified China in 221 BC."
+  },
+  {
+    "question": "What was the name of the treaty that ended the Thirty Years' War?",
+    "answer": "Peace of Westphalia",
+    "choices": [
+      "Peace of Westphalia",
+      "Treaty of Utrecht",
+      "Treaty of Paris",
+      "Congress of Vienna"
+    ],
+    "explanation": "The Peace of Westphalia (1648) ended the Thirty Years' War and established principles of national sovereignty."
+  },
+  {
+    "question": "Who was the South American liberator who freed Venezuela, Colombia, and Ecuador?",
+    "answer": "Sim\u00f3n Bol\u00edvar",
+    "choices": [
+      "Sim\u00f3n Bol\u00edvar",
+      "Jos\u00e9 de San Mart\u00edn",
+      "Bernardo O'Higgins",
+      "Francisco de Miranda"
+    ],
+    "explanation": "Sim\u00f3n Bol\u00edvar led independence movements across northern South America in the early 19th century."
+  },
+  {
+    "question": "What was the name of the program that sent American astronauts to the moon?",
+    "answer": "Apollo program",
+    "choices": [
+      "Apollo program",
+      "Mercury program",
+      "Gemini program",
+      "Skylab program"
+    ],
+    "explanation": "NASA's Apollo program successfully landed humans on the moon six times between 1969 and 1972."
+  },
+  {
+    "question": "Which ancient wonder was a temple for the goddess Artemis?",
+    "answer": "Temple of Artemis at Ephesus",
+    "choices": [
+      "Temple of Artemis at Ephesus",
+      "Parthenon",
+      "Temple of Zeus",
+      "Temple of Apollo"
+    ],
+    "explanation": "The Temple of Artemis at Ephesus, one of the Seven Wonders of the Ancient World, was rebuilt multiple times."
+  },
+  {
+    "question": "In what year did the Wall Street Crash occur?",
+    "answer": "1929",
+    "choices": [
+      "1927",
+      "1928",
+      "1929",
+      "1930"
+    ],
+    "explanation": "The Wall Street Crash occurred in October 1929, beginning with Black Thursday on October 24."
+  },
+  {
+    "question": "Who was the US President during World War I?",
+    "answer": "Woodrow Wilson",
+    "choices": [
+      "Woodrow Wilson",
+      "William Howard Taft",
+      "Theodore Roosevelt",
+      "Warren G. Harding"
+    ],
+    "explanation": "Woodrow Wilson was US President from 1913 to 1921, leading America into WWI in 1917."
+  },
+  {
+    "question": "What was the name of the French code of law established by Napoleon?",
+    "answer": "Napoleonic Code",
+    "choices": [
+      "Napoleonic Code",
+      "Code Civil",
+      "Justinian Code",
+      "Magna Carta"
+    ],
+    "explanation": "The Napoleonic Code (1804) was a comprehensive civil code that influenced legal systems across Europe and beyond."
+  },
+  {
+    "question": "Who was the leader of the Khmer Rouge in Cambodia?",
+    "answer": "Pol Pot",
+    "choices": [
+      "Pol Pot",
+      "Hun Sen",
+      "Norodom Sihanouk",
+      "Lon Nol"
+    ],
+    "explanation": "Pol Pot led the Khmer Rouge, which ruled Cambodia 1975\u20131979 and was responsible for the Cambodian genocide."
+  },
+  {
+    "question": "What was the name of the Japanese attack that brought the US into WWII?",
+    "answer": "Attack on Pearl Harbor",
+    "choices": [
+      "Attack on Pearl Harbor",
+      "Battle of Midway",
+      "Battle of the Coral Sea",
+      "Bombing of Tokyo"
+    ],
+    "explanation": "Japan's surprise attack on Pearl Harbor on December 7, 1941 prompted the US to declare war on Japan."
+  },
+  {
+    "question": "Who was the first Chancellor of unified Germany in 1871?",
+    "answer": "Otto von Bismarck",
+    "choices": [
+      "Otto von Bismarck",
+      "Wilhelm I",
+      "Wilhelm II",
+      "Helmut Kohl"
+    ],
+    "explanation": "Otto von Bismarck became the first Chancellor of the German Empire when it was unified in 1871."
+  },
+  {
+    "question": "What year was the Suez Canal opened?",
+    "answer": "1869",
+    "choices": [
+      "1855",
+      "1862",
+      "1869",
+      "1875"
+    ],
+    "explanation": "The Suez Canal opened on November 17, 1869, connecting the Mediterranean and Red Seas."
+  },
+  {
+    "question": "Which country gained independence from France in 1954 after the Battle of Dien Bien Phu?",
+    "answer": "Vietnam",
+    "choices": [
+      "Vietnam",
+      "Cambodia",
+      "Laos",
+      "Algeria"
+    ],
+    "explanation": "Vietnam gained independence from France following the French defeat at Dien Bien Phu in 1954."
+  },
+  {
+    "question": "What was the name of the trade organization founded in 1995?",
+    "answer": "World Trade Organization",
+    "choices": [
+      "World Trade Organization",
+      "General Agreement on Tariffs",
+      "International Trade Commission",
+      "NAFTA"
+    ],
+    "explanation": "The World Trade Organization (WTO) was established on January 1, 1995, replacing the GATT."
+  },
+  {
+    "question": "Who was the Byzantine Emperor who codified Roman law?",
+    "answer": "Justinian I",
+    "choices": [
+      "Justinian I",
+      "Theodosius I",
+      "Constantine I",
+      "Heraclius"
+    ],
+    "explanation": "Emperor Justinian I compiled and codified Roman law in the Corpus Juris Civilis around 529\u2013534 AD."
+  },
+  {
+    "question": "What was the name of the ship on which Charles Darwin sailed during his famous voyage?",
+    "answer": "HMS Beagle",
+    "choices": [
+      "HMS Beagle",
+      "HMS Endeavour",
+      "HMS Resolution",
+      "HMS Discovery"
+    ],
+    "explanation": "Charles Darwin's formative voyage took place on HMS Beagle from 1831 to 1836."
+  },
+  {
+    "question": "In what year did the partition of India occur?",
+    "answer": "1947",
+    "choices": [
+      "1945",
+      "1946",
+      "1947",
+      "1948"
+    ],
+    "explanation": "The Partition of India occurred in August 1947, creating two independent nations: India and Pakistan."
+  },
+  {
+    "question": "Who was the Macedonian general who became Pharaoh of Egypt after Alexander's death?",
+    "answer": "Ptolemy I",
+    "choices": [
+      "Ptolemy I",
+      "Seleucus I",
+      "Antigonus I",
+      "Lysimachus"
+    ],
+    "explanation": "Ptolemy I, one of Alexander's generals, established the Ptolemaic Kingdom of Egypt, ruling from 305 BC."
+  },
+  {
+    "question": "What was the primary religion of the Byzantine Empire?",
+    "answer": "Eastern Orthodox Christianity",
+    "choices": [
+      "Eastern Orthodox Christianity",
+      "Roman Catholicism",
+      "Islam",
+      "Judaism"
+    ],
+    "explanation": "The Byzantine Empire was primarily Eastern Orthodox Christian, with the Patriarch of Constantinople as its spiritual leader."
+  },
+  {
+    "question": "Which US President issued the Emancipation Proclamation?",
     "answer": "Abraham Lincoln",
     "choices": [
       "Abraham Lincoln",
-      "William and Mary",
-      "England",
-      "Neil Armstrong"
+      "Ulysses S. Grant",
+      "Andrew Johnson",
+      "James Buchanan"
     ],
-    "explanation": "The Emancipation Proclamation is closely associated with Abraham Lincoln."
+    "explanation": "President Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, freeing enslaved people in Confederate states."
   },
   {
-    "question": "In what year did the Meiji Restoration occur?",
-    "answer": "1868",
+    "question": "What was the name of the famous Viking explorer who reached North America around 1000 AD?",
+    "answer": "Leif Erikson",
     "choices": [
-      "1868",
-      "1642",
-      "1066",
-      "1492"
+      "Leif Erikson",
+      "Bjorn Ironside",
+      "Erik the Red",
+      "Ragnar Lothbrok"
     ],
-    "explanation": "The Meiji Restoration took place in 1868."
+    "explanation": "Leif Erikson, son of Erik the Red, is believed to have reached North America (Vinland) around 1000 AD."
   },
   {
-    "question": "The Meiji Restoration is most closely associated with which person, place, or idea?",
+    "question": "In which city was Martin Luther King Jr. assassinated?",
+    "answer": "Memphis",
+    "choices": [
+      "Memphis",
+      "Birmingham",
+      "Atlanta",
+      "Washington D.C."
+    ],
+    "explanation": "Martin Luther King Jr. was assassinated at the Lorraine Motel in Memphis, Tennessee on April 4, 1968."
+  },
+  {
+    "question": "What was the name of the first nuclear reactor built by Enrico Fermi?",
+    "answer": "Chicago Pile-1",
+    "choices": [
+      "Chicago Pile-1",
+      "Manhattan Project Reactor",
+      "Oak Ridge Reactor",
+      "Trinity Site"
+    ],
+    "explanation": "Enrico Fermi achieved the first self-sustaining nuclear chain reaction at Chicago Pile-1 on December 2, 1942."
+  },
+  {
+    "question": "Who was the Chinese navigator who led massive treasure voyages in the early 15th century?",
+    "answer": "Zheng He",
+    "choices": [
+      "Zheng He",
+      "Kublai Khan",
+      "Yongle Emperor",
+      "Li Si"
+    ],
+    "explanation": "Zheng He commanded seven voyages from 1405 to 1433, reaching Southeast Asia, India, Arabia, and East Africa."
+  },
+  {
+    "question": "What was the name of the treaty that ended the American Revolutionary War?",
+    "answer": "Treaty of Paris",
+    "choices": [
+      "Treaty of Paris",
+      "Treaty of Ghent",
+      "Peace of Versailles",
+      "Treaty of Amiens"
+    ],
+    "explanation": "The Treaty of Paris (1783) formally ended the American Revolutionary War, recognizing US independence."
+  },
+  {
+    "question": "Which Roman emperor built the Pantheon in Rome?",
+    "answer": "Hadrian",
+    "choices": [
+      "Hadrian",
+      "Augustus",
+      "Nero",
+      "Trajan"
+    ],
+    "explanation": "The current Pantheon in Rome was built by Emperor Hadrian around 125 AD."
+  },
+  {
+    "question": "What was the name of the policy introduced by Gorbachev that allowed greater political freedom?",
+    "answer": "Glasnost",
+    "choices": [
+      "Glasnost",
+      "Perestroika",
+      "D\u00e9tente",
+      "Ostpolitik"
+    ],
+    "explanation": "Glasnost (openness) was Mikhail Gorbachev's policy of greater freedom of expression in the Soviet Union."
+  },
+  {
+    "question": "Who was the Ottoman sultan who conquered Constantinople in 1453?",
+    "answer": "Mehmed II",
+    "choices": [
+      "Mehmed II",
+      "Suleiman the Magnificent",
+      "Selim I",
+      "Bayezid II"
+    ],
+    "explanation": "Mehmed II (Mehmed the Conqueror) captured Constantinople in 1453, ending the Byzantine Empire."
+  },
+  {
+    "question": "Which ancient wonder was located in Alexandria, Egypt?",
+    "answer": "The Lighthouse of Alexandria",
+    "choices": [
+      "The Lighthouse of Alexandria",
+      "The Hanging Gardens",
+      "The Colossus of Rhodes",
+      "The Temple of Artemis"
+    ],
+    "explanation": "The Lighthouse of Alexandria stood on the island of Pharos near Alexandria."
+  },
+  {
+    "question": "What empire did Genghis Khan found?",
+    "answer": "The Mongol Empire",
+    "choices": [
+      "The Mongol Empire",
+      "The Ottoman Empire",
+      "The Persian Empire",
+      "The Roman Empire"
+    ],
+    "explanation": "Genghis Khan founded the Mongol Empire in 1206, which became the largest contiguous empire in history."
+  },
+  {
+    "question": "What was the name of the ship that sank on its maiden voyage in 1912?",
+    "answer": "RMS Titanic",
+    "choices": [
+      "RMS Titanic",
+      "SS Lusitania",
+      "SS Britannic",
+      "RMS Olympic"
+    ],
+    "explanation": "The RMS Titanic sank on April 15, 1912, after hitting an iceberg."
+  },
+  {
+    "question": "Which civilization built Machu Picchu?",
+    "answer": "The Inca",
+    "choices": [
+      "The Inca",
+      "The Aztec",
+      "The Maya",
+      "The Olmec"
+    ],
+    "explanation": "Machu Picchu was built by the Inca Empire in the 15th century in present-day Peru."
+  },
+  {
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989",
+    "choices": [
+      "1985",
+      "1987",
+      "1989",
+      "1991"
+    ],
+    "explanation": "The Berlin Wall fell on November 9, 1989, marking a key moment in the end of the Cold War."
+  },
+  {
+    "question": "Which treaty ended World War I?",
+    "answer": "Treaty of Versailles",
+    "choices": [
+      "Treaty of Versailles",
+      "Treaty of Paris",
+      "Treaty of Utrecht",
+      "Treaty of Ghent"
+    ],
+    "explanation": "The Treaty of Versailles was signed on June 28, 1919, officially ending World War I."
+  },
+  {
+    "question": "In which country did the Industrial Revolution begin?",
+    "answer": "England",
+    "choices": [
+      "England",
+      "France",
+      "Germany",
+      "United States"
+    ],
+    "explanation": "The Industrial Revolution began in England in the mid-18th century, revolutionizing manufacturing and society."
+  },
+  {
+    "question": "Who led the Cuban Revolution?",
+    "answer": "Fidel Castro",
+    "choices": [
+      "Fidel Castro",
+      "Che Guevara",
+      "Ra\u00fal Castro",
+      "Fulgencio Batista"
+    ],
+    "explanation": "Fidel Castro led the Cuban Revolution that overthrew Batista's government in 1959."
+  },
+  {
+    "question": "Which empire was ruled by Julius Caesar?",
+    "answer": "The Roman Republic",
+    "choices": [
+      "The Roman Republic",
+      "The Byzantine Empire",
+      "The Carthaginian Empire",
+      "The Greek Empire"
+    ],
+    "explanation": "Julius Caesar was a leader of the Roman Republic and was assassinated in 44 BCE before becoming emperor."
+  },
+  {
+    "question": "What was the name of the Allied operation to liberate Western Europe in 1944?",
+    "answer": "Operation Overlord",
+    "choices": [
+      "Operation Overlord",
+      "Operation Barbarossa",
+      "Operation Market Garden",
+      "Operation Torch"
+    ],
+    "explanation": "Operation Overlord, launched on D-Day (June 6, 1944), was the Allied invasion of Nazi-occupied Western Europe."
+  },
+  {
+    "question": "Which ancient philosopher taught Alexander the Great?",
+    "answer": "Aristotle",
+    "choices": [
+      "Aristotle",
+      "Plato",
+      "Socrates",
+      "Pythagoras"
+    ],
+    "explanation": "Aristotle tutored Alexander the Great from age 13, teaching him philosophy, science, and the arts."
+  },
+  {
+    "question": "Where was Napoleon Bonaparte exiled after his final defeat?",
+    "answer": "Saint Helena",
+    "choices": [
+      "Saint Helena",
+      "Elba",
+      "Corsica",
+      "Sardinia"
+    ],
+    "explanation": "Napoleon was exiled to the remote island of Saint Helena in the South Atlantic after the Battle of Waterloo."
+  },
+  {
+    "question": "What was the name of the first moon landing mission?",
+    "answer": "Apollo 11",
+    "choices": [
+      "Apollo 11",
+      "Apollo 8",
+      "Apollo 13",
+      "Apollo 12"
+    ],
+    "explanation": "Apollo 11 landed on the Moon on July 20, 1969, with Neil Armstrong and Buzz Aldrin walking on its surface."
+  },
+  {
+    "question": "Who was the first Emperor of China?",
+    "answer": "Qin Shi Huang",
+    "choices": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Emperor Wu",
+      "Liu Bang"
+    ],
+    "explanation": "Qin Shi Huang unified China in 221 BCE and became its first emperor, also ordering the construction of the Great Wall."
+  },
+  {
+    "question": "What war was fought between the North and South of the United States from 1861\u20131865?",
+    "answer": "The Civil War",
+    "choices": [
+      "The Civil War",
+      "The Revolutionary War",
+      "The War of 1812",
+      "The Mexican-American War"
+    ],
+    "explanation": "The American Civil War was fought over slavery and states' rights, resulting in the abolition of slavery."
+  },
+  {
+    "question": "Which country was formerly known as Persia?",
+    "answer": "Iran",
+    "choices": [
+      "Iran",
+      "Iraq",
+      "Turkey",
+      "Afghanistan"
+    ],
+    "explanation": "The country known historically as Persia officially changed its name to Iran in 1935."
+  },
+  {
+    "question": "What was the name of the first successful powered airplane flight?",
+    "answer": "The Wright Flyer",
+    "choices": [
+      "The Wright Flyer",
+      "The Spirit of St. Louis",
+      "The Kitty Hawk",
+      "The Silver Dart"
+    ],
+    "explanation": "The Wright Brothers' Wright Flyer made the first successful powered flight on December 17, 1903."
+  },
+  {
+    "question": "Which Renaissance artist painted the Sistine Chapel ceiling?",
+    "answer": "Michelangelo",
+    "choices": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Botticelli"
+    ],
+    "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512 at the request of Pope Julius II."
+  },
+  {
+    "question": "What disease caused the Black Death pandemic in medieval Europe?",
+    "answer": "Bubonic plague",
+    "choices": [
+      "Bubonic plague",
+      "Smallpox",
+      "Cholera",
+      "Typhus"
+    ],
+    "explanation": "The Black Death, caused by the bacterium Yersinia pestis, killed an estimated 30\u201360% of Europe's population in the 14th century."
+  },
+  {
+    "question": "Which country did the United States fight during the Vietnam War?",
+    "answer": "North Vietnam",
+    "choices": [
+      "North Vietnam",
+      "South Vietnam",
+      "China",
+      "Cambodia"
+    ],
+    "explanation": "The U.S. fought to prevent communist North Vietnam from taking over South Vietnam during the Vietnam War (1955\u20131975)."
+  },
+  {
+    "question": "What year did Christopher Columbus first reach the Americas?",
+    "answer": "1492",
+    "choices": [
+      "1488",
+      "1490",
+      "1492",
+      "1498"
+    ],
+    "explanation": "Columbus first reached the Caribbean on October 12, 1492, during his first transatlantic voyage."
+  },
+  {
+    "question": "Who was the leader of Nazi Germany during World War II?",
+    "answer": "Adolf Hitler",
+    "choices": [
+      "Adolf Hitler",
+      "Heinrich Himmler",
+      "Joseph Goebbels",
+      "Hermann G\u00f6ring"
+    ],
+    "explanation": "Adolf Hitler served as the F\u00fchrer and Chancellor of Nazi Germany from 1933 until his death in 1945."
+  },
+  {
+    "question": "In what city was John F. Kennedy assassinated?",
+    "answer": "Dallas",
+    "choices": [
+      "Dallas",
+      "Washington D.C.",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "explanation": "President Kennedy was assassinated on November 22, 1963, while riding in a motorcade in Dallas, Texas."
+  },
+  {
+    "question": "Which empire was ruled by Attila the Hun?",
+    "answer": "The Hunnic Empire",
+    "choices": [
+      "The Hunnic Empire",
+      "The Roman Empire",
+      "The Mongol Empire",
+      "The Visigoth Kingdom"
+    ],
+    "explanation": "Attila ruled the Hunnic Empire from 434 until his death in 453, terrorizing both the Western and Eastern Roman Empires."
+  },
+  {
+    "question": "Which country launched the first human into space?",
+    "answer": "Soviet Union",
+    "choices": [
+      "Soviet Union",
+      "United States",
+      "China",
+      "Germany"
+    ],
+    "explanation": "The Soviet Union launched Yuri Gagarin into space on April 12, 1961, making him the first human in space."
+  },
+  {
+    "question": "Who was the first female Pharaoh of ancient Egypt?",
+    "answer": "Hatshepsut",
+    "choices": [
+      "Hatshepsut",
+      "Cleopatra",
+      "Nefertiti",
+      "Nefertari"
+    ],
+    "explanation": "Hatshepsut ruled Egypt as Pharaoh from around 1478 to 1458 BCE, making her one of the first female rulers in history."
+  },
+  {
+    "question": "What famous wall separated East and West Berlin?",
+    "answer": "The Berlin Wall",
+    "choices": [
+      "The Berlin Wall",
+      "The Iron Curtain",
+      "The Maginot Line",
+      "The Siegfried Line"
+    ],
+    "explanation": "The Berlin Wall was constructed in 1961 by East Germany to prevent citizens from fleeing to West Berlin."
+  },
+  {
+    "question": "Which country was apartheid practiced in?",
+    "answer": "South Africa",
+    "choices": [
+      "South Africa",
+      "Zimbabwe",
+      "Namibia",
+      "Mozambique"
+    ],
+    "explanation": "Apartheid was a system of institutionalized racial segregation practiced in South Africa from 1948 to 1994."
+  },
+  {
+    "question": "What was the name of the first European to reach the tip of Africa?",
+    "answer": "Bartolomeu Dias",
+    "choices": [
+      "Bartolomeu Dias",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Henry the Navigator"
+    ],
+    "explanation": "Bartolomeu Dias was the first European to round the Cape of Good Hope in 1488."
+  },
+  {
+    "question": "In what century did the Renaissance begin?",
+    "answer": "14th century",
+    "choices": [
+      "12th century",
+      "13th century",
+      "14th century",
+      "15th century"
+    ],
+    "explanation": "The Renaissance began in Italy in the 14th century, marked by renewed interest in classical art and learning."
+  },
+  {
+    "question": "Which country controlled India before its independence in 1947?",
+    "answer": "Britain",
+    "choices": [
+      "Britain",
+      "France",
+      "Portugal",
+      "Netherlands"
+    ],
+    "explanation": "India was under British colonial rule as the British Raj from 1858 until its independence on August 15, 1947."
+  },
+  {
+    "question": "Who was the first ruler to unite the Arab world under Islam?",
+    "answer": "Muhammad",
+    "choices": [
+      "Muhammad",
+      "Abu Bakr",
+      "Omar ibn al-Khattab",
+      "Ali ibn Abi Talib"
+    ],
+    "explanation": "The Prophet Muhammad united the Arabian Peninsula under Islam before his death in 632 CE."
+  },
+  {
+    "question": "What was the main cause of the First World War?",
+    "answer": "The assassination of Archduke Franz Ferdinand",
+    "choices": [
+      "The assassination of Archduke Franz Ferdinand",
+      "The invasion of Poland",
+      "The sinking of the Lusitania",
+      "The bombing of Pearl Harbor"
+    ],
+    "explanation": "The assassination of Austro-Hungarian Archduke Franz Ferdinand in Sarajevo on June 28, 1914, triggered the chain of events leading to WWI."
+  },
+  {
+    "question": "Which ancient Greek city-state was known for its military prowess?",
+    "answer": "Sparta",
+    "choices": [
+      "Sparta",
+      "Athens",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Sparta was famous for its disciplined military society, with boys beginning military training at age 7."
+  },
+  {
+    "question": "What river do ancient Egyptian civilization develop along?",
+    "answer": "The Nile",
+    "choices": [
+      "The Nile",
+      "The Euphrates",
+      "The Tigris",
+      "The Indus"
+    ],
+    "explanation": "Ancient Egyptian civilization developed along the Nile River, which provided fertile land and a transportation route."
+  },
+  {
+    "question": "Who was the first European explorer to reach India by sea?",
+    "answer": "Vasco da Gama",
+    "choices": [
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Christopher Columbus",
+      "Amerigo Vespucci"
+    ],
+    "explanation": "Vasco da Gama reached India in 1498, establishing the first direct sea route from Europe to Asia."
+  },
+  {
+    "question": "Which city served as the capital of the Byzantine Empire?",
+    "answer": "Constantinople",
+    "choices": [
+      "Constantinople",
+      "Athens",
+      "Antioch",
+      "Alexandria"
+    ],
+    "explanation": "Constantinople (modern Istanbul) was the capital of the Byzantine Empire from 330 CE until its fall in 1453."
+  },
+  {
+    "question": "What Native American leader defeated U.S. forces at the Battle of Little Bighorn?",
+    "answer": "Sitting Bull and Crazy Horse",
+    "choices": [
+      "Sitting Bull and Crazy Horse",
+      "Geronimo",
+      "Chief Joseph",
+      "Red Cloud"
+    ],
+    "explanation": "Sitting Bull and Crazy Horse led Lakota and Cheyenne warriors to defeat General Custer's forces at Little Bighorn in 1876."
+  },
+  {
+    "question": "Who was the Roman general who crossed the Rubicon and sparked a civil war?",
+    "answer": "Julius Caesar",
+    "choices": [
+      "Julius Caesar",
+      "Pompey",
+      "Mark Antony",
+      "Augustus"
+    ],
+    "explanation": "Julius Caesar crossed the Rubicon river in 49 BCE, an illegal act of war that triggered a Roman civil war."
+  },
+  {
+    "question": "What year did the Soviet Union collapse?",
+    "answer": "1991",
+    "choices": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "explanation": "The Soviet Union officially dissolved on December 25, 1991, when Mikhail Gorbachev resigned as its last leader."
+  },
+  {
+    "question": "Which civilization built the city of Tenochtitlan?",
+    "answer": "The Aztec",
+    "choices": [
+      "The Aztec",
+      "The Maya",
+      "The Inca",
+      "The Olmec"
+    ],
+    "explanation": "The Aztec Empire built Tenochtitlan (present-day Mexico City) on an island in Lake Texcoco around 1325 CE."
+  },
+  {
+    "question": "Who was the first to propose that Earth orbits the Sun?",
+    "answer": "Nicolaus Copernicus",
+    "choices": [
+      "Nicolaus Copernicus",
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Tycho Brahe"
+    ],
+    "explanation": "Nicolaus Copernicus proposed the heliocentric model of the solar system in his 1543 work 'De revolutionibus orbium coelestium.'"
+  },
+  {
+    "question": "What were the Crusades?",
+    "answer": "Medieval Christian military campaigns to reclaim the Holy Land",
+    "choices": [
+      "Medieval Christian military campaigns to reclaim the Holy Land",
+      "Trade expeditions to Asia",
+      "Viking raids on Europe",
+      "Roman conquests of North Africa"
+    ],
+    "explanation": "The Crusades (1096\u20131291) were a series of religious wars sanctioned by the Latin Church to recover the Holy Land from Muslim rule."
+  },
+  {
+    "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+    "answer": "Nikita Khrushchev",
+    "choices": [
+      "Nikita Khrushchev",
+      "Joseph Stalin",
+      "Leonid Brezhnev",
+      "Mikhail Gorbachev"
+    ],
+    "explanation": "Nikita Khrushchev led the Soviet Union during the Cuban Missile Crisis of October 1962."
+  },
+  {
+    "question": "What year did Japan attack Pearl Harbor?",
+    "answer": "1941",
+    "choices": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "explanation": "Japan launched a surprise attack on the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941."
+  },
+  {
+    "question": "Which Chinese dynasty built the majority of the Great Wall?",
+    "answer": "Ming Dynasty",
+    "choices": [
+      "Ming Dynasty",
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Tang Dynasty"
+    ],
+    "explanation": "Although the Great Wall was begun during the Qin Dynasty, the majority of the existing wall was built during the Ming Dynasty (1368\u20131644)."
+  },
+  {
+    "question": "Who discovered the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "choices": [
+      "Charles Darwin",
+      "Alfred Russel Wallace",
+      "Gregor Mendel",
+      "Jean-Baptiste Lamarck"
+    ],
+    "explanation": "Charles Darwin published 'On the Origin of Species' in 1859, introducing the theory of evolution by natural selection."
+  },
+  {
+    "question": "What ancient trade route connected China to the Mediterranean?",
+    "answer": "The Silk Road",
+    "choices": [
+      "The Silk Road",
+      "The Spice Route",
+      "The Amber Road",
+      "The Incense Route"
+    ],
+    "explanation": "The Silk Road was a network of trade routes connecting East Asia and Southeast Asia with South Asia, the Middle East, and Europe."
+  },
+  {
+    "question": "Who led India's independence movement through nonviolent resistance?",
+    "answer": "Mahatma Gandhi",
+    "choices": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose",
+      "Bhagat Singh"
+    ],
+    "explanation": "Mahatma Gandhi led India's independence movement using nonviolent civil disobedience, leading to independence in 1947."
+  },
+  {
+    "question": "Which war was fought between Great Britain and the United States from 1812 to 1815?",
+    "answer": "The War of 1812",
+    "choices": [
+      "The War of 1812",
+      "The Revolutionary War",
+      "The French and Indian War",
+      "King Philip's War"
+    ],
+    "explanation": "The War of 1812 was fought between the U.S. and Britain over trade restrictions, impressment of American sailors, and British support for Native American tribes."
+  },
+  {
+    "question": "Who was the first Holy Roman Emperor?",
+    "answer": "Charlemagne",
+    "choices": [
+      "Charlemagne",
+      "Otto I",
+      "Frederick Barbarossa",
+      "Henry IV"
+    ],
+    "explanation": "Charlemagne was crowned as the first Holy Roman Emperor on Christmas Day, 800 CE, by Pope Leo III."
+  },
+  {
+    "question": "What was the name of the battle in which Napoleon was finally defeated?",
+    "answer": "Battle of Waterloo",
+    "choices": [
+      "Battle of Waterloo",
+      "Battle of Trafalgar",
+      "Battle of Leipzig",
+      "Battle of Austerlitz"
+    ],
+    "explanation": "The Battle of Waterloo on June 18, 1815, ended Napoleon's rule and his Hundred Days campaign."
+  },
+  {
+    "question": "Which U.S. President issued the Emancipation Proclamation?",
+    "answer": "Abraham Lincoln",
+    "choices": [
+      "Abraham Lincoln",
+      "Ulysses S. Grant",
+      "Andrew Johnson",
+      "James Buchanan"
+    ],
+    "explanation": "President Lincoln issued the Emancipation Proclamation on January 1, 1863, freeing enslaved people in Confederate states."
+  },
+  {
+    "question": "What was the significance of the Magna Carta (1215)?",
+    "answer": "It limited the power of the English king",
+    "choices": [
+      "It limited the power of the English king",
+      "It ended the Hundred Years' War",
+      "It established Parliament",
+      "It abolished serfdom"
+    ],
+    "explanation": "The Magna Carta, signed by King John in 1215, established for the first time that the king was subject to the rule of law."
+  },
+  {
+    "question": "Which South African leader fought against apartheid and became president?",
+    "answer": "Nelson Mandela",
+    "choices": [
+      "Nelson Mandela",
+      "Desmond Tutu",
+      "Walter Sisulu",
+      "Oliver Tambo"
+    ],
+    "explanation": "Nelson Mandela was imprisoned for 27 years for his fight against apartheid and became South Africa's first democratically elected president in 1994."
+  },
+  {
+    "question": "Who was the Greek god of war?",
+    "answer": "Ares",
+    "choices": [
+      "Ares",
+      "Zeus",
+      "Hephaestus",
+      "Hades"
+    ],
+    "explanation": "Ares was the Greek god of war, representing the brutal and violent aspects of battle."
+  },
+  {
+    "question": "In what country did the Protestant Reformation begin?",
+    "answer": "Germany",
+    "choices": [
+      "Germany",
+      "England",
+      "Switzerland",
+      "France"
+    ],
+    "explanation": "The Protestant Reformation began in Germany when Martin Luther posted his 95 Theses in 1517."
+  },
+  {
+    "question": "What major event triggered the start of the Great Depression?",
+    "answer": "The stock market crash of 1929",
+    "choices": [
+      "The stock market crash of 1929",
+      "The Dust Bowl",
+      "World War I reparations",
+      "Bank failures in Europe"
+    ],
+    "explanation": "The U.S. stock market crashed on Black Tuesday (October 29, 1929), triggering the Great Depression."
+  },
+  {
+    "question": "Who built the Taj Mahal?",
+    "answer": "Shah Jahan",
+    "choices": [
+      "Shah Jahan",
+      "Akbar the Great",
+      "Aurangzeb",
+      "Humayun"
+    ],
+    "explanation": "Mughal Emperor Shah Jahan commissioned the Taj Mahal as a mausoleum for his wife Mumtaz Mahal, completed in 1643."
+  },
+  {
+    "question": "Which Greek historian is often called the 'Father of History'?",
+    "answer": "Herodotus",
+    "choices": [
+      "Herodotus",
+      "Thucydides",
+      "Xenophon",
+      "Polybius"
+    ],
+    "explanation": "Herodotus is called the 'Father of History' for his work 'Histories,' one of the earliest accounts of historical events."
+  },
+  {
+    "question": "What was the name of the first successful transatlantic flight?",
+    "answer": "The Spirit of St. Louis",
+    "choices": [
+      "The Spirit of St. Louis",
+      "The Friendship",
+      "Winnie Mae",
+      "The Columbia"
+    ],
+    "explanation": "Charles Lindbergh flew the Spirit of St. Louis nonstop from New York to Paris on May 20\u201321, 1927."
+  },
+  {
+    "question": "In what country did the Khmer Rouge commit genocide in the 1970s?",
+    "answer": "Cambodia",
+    "choices": [
+      "Cambodia",
+      "Vietnam",
+      "Laos",
+      "Myanmar"
+    ],
+    "explanation": "The Khmer Rouge, led by Pol Pot, ruled Cambodia from 1975 to 1979 and was responsible for the deaths of 1.5\u20132 million people."
+  },
+  {
+    "question": "What was the name of the first successful vaccine?",
+    "answer": "Smallpox vaccine",
+    "choices": [
+      "Smallpox vaccine",
+      "Polio vaccine",
+      "Rabies vaccine",
+      "Cholera vaccine"
+    ],
+    "explanation": "Edward Jenner developed the first smallpox vaccine in 1796, making it the world's first successful vaccine."
+  },
+  {
+    "question": "Which Roman Emperor converted to Christianity?",
+    "answer": "Constantine the Great",
+    "choices": [
+      "Constantine the Great",
+      "Marcus Aurelius",
+      "Nero",
+      "Diocletian"
+    ],
+    "explanation": "Constantine I converted to Christianity and issued the Edict of Milan in 313 CE, legalizing Christianity in the Roman Empire."
+  },
+  {
+    "question": "What ancient library was one of the largest in the ancient world?",
+    "answer": "Library of Alexandria",
+    "choices": [
+      "Library of Alexandria",
+      "Library of Nineveh",
+      "Library of Pergamon",
+      "Library of Antioch"
+    ],
+    "explanation": "The Library of Alexandria in Egypt was one of the largest and most significant libraries of the ancient world."
+  },
+  {
+    "question": "In which year did World War II end?",
+    "answer": "1945",
+    "choices": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "explanation": "World War II ended in 1945 with Germany surrendering in May and Japan surrendering in September."
+  },
+  {
+    "question": "Who was the first Aztec Emperor?",
+    "answer": "Acamapichtli",
+    "choices": [
+      "Acamapichtli",
+      "Montezuma II",
+      "Itzcoatl",
+      "Huitzilihuitl"
+    ],
+    "explanation": "Acamapichtli became the first tlatoani (ruler) of Tenochtitlan and the Aztec Empire in 1376."
+  },
+  {
+    "question": "Which country was the first to grant universal suffrage?",
+    "answer": "New Zealand",
+    "choices": [
+      "New Zealand",
+      "Australia",
+      "Finland",
+      "Norway"
+    ],
+    "explanation": "New Zealand was the first country to grant universal suffrage, giving all adult citizens (including women) the right to vote in 1893."
+  },
+  {
+    "question": "What was the primary cause of the Peloponnesian War?",
+    "answer": "Rivalry between Athens and Sparta",
+    "choices": [
+      "Rivalry between Athens and Sparta",
+      "Persian invasion of Greece",
+      "Macedonian conquest",
+      "Trade disputes with Corinth"
+    ],
+    "explanation": "The Peloponnesian War (431\u2013404 BCE) was primarily caused by the rivalry between Athens and Sparta for dominance of Greece."
+  },
+  {
+    "question": "Who was the Emperor of France known for his military campaigns across Europe?",
+    "answer": "Napoleon Bonaparte",
+    "choices": [
+      "Napoleon Bonaparte",
+      "Louis XVI",
+      "Louis XIV",
+      "Charles X"
+    ],
+    "explanation": "Napoleon Bonaparte became Emperor of France in 1804 and led numerous military campaigns that reshaped Europe."
+  },
+  {
+    "question": "What was the name of the first voyage to successfully land on the Moon?",
+    "answer": "Apollo 11",
+    "choices": [
+      "Apollo 11",
+      "Apollo 8",
+      "Apollo 9",
+      "Gemini 11"
+    ],
+    "explanation": "Apollo 11 was the first crewed mission to land on the Moon on July 20, 1969."
+  },
+  {
+    "question": "Which country was split into North and South after World War II?",
+    "answer": "Korea",
+    "choices": [
+      "Korea",
+      "Vietnam",
+      "Germany",
+      "China"
+    ],
+    "explanation": "Korea was divided along the 38th parallel into North Korea (Soviet-backed) and South Korea (U.S.-backed) after WWII."
+  },
+  {
+    "question": "What was the name of the uprising against British rule in India in 1857?",
+    "answer": "The Indian Rebellion of 1857",
+    "choices": [
+      "The Indian Rebellion of 1857",
+      "The Sepoy Mutiny",
+      "The Bengal Uprising",
+      "The Mysore War"
+    ],
+    "explanation": "Known variously as the Indian Rebellion, the Sepoy Mutiny, or India's First War of Independence, the 1857 uprising was a major revolt against British rule."
+  },
+  {
+    "question": "Who was the founder of the Mongol Empire?",
+    "answer": "Genghis Khan",
+    "choices": [
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane",
+      "\u00d6gedei Khan"
+    ],
+    "explanation": "Genghis Khan founded the Mongol Empire in 1206 and led its initial expansion across Central Asia and China."
+  },
+  {
+    "question": "What historical event is remembered on November 11th?",
+    "answer": "Armistice Day / Veterans Day",
+    "choices": [
+      "Armistice Day / Veterans Day",
+      "D-Day",
+      "V-E Day",
+      "Pearl Harbor Day"
+    ],
+    "explanation": "November 11th marks the armistice signed at 11 AM in 1918 that ended World War I, now observed as Veterans Day in the U.S. and Remembrance Day elsewhere."
+  },
+  {
+    "question": "Which city was the capital of the Aztec Empire?",
+    "answer": "Tenochtitlan",
+    "choices": [
+      "Tenochtitlan",
+      "Chichen Itza",
+      "Tula",
+      "Cholula"
+    ],
+    "explanation": "Tenochtitlan was the capital of the Aztec Empire, located on an island in Lake Texcoco in central Mexico."
+  },
+  {
+    "question": "In which country is the ancient site of Stonehenge located?",
+    "answer": "England",
+    "choices": [
+      "England",
+      "France",
+      "Ireland",
+      "Scotland"
+    ],
+    "explanation": "Stonehenge is located on Salisbury Plain in Wiltshire, England, and was constructed between 3000 and 1500 BCE."
+  },
+  {
+    "question": "Who was the first ruler of the Roman Empire?",
+    "answer": "Augustus",
+    "choices": [
+      "Augustus",
+      "Julius Caesar",
+      "Caligula",
+      "Tiberius"
+    ],
+    "explanation": "Augustus, formerly known as Octavian, became the first Roman Emperor in 27 BCE, ending the period of the Roman Republic."
+  },
+  {
+    "question": "What was the name of the secret police of Nazi Germany?",
+    "answer": "Gestapo",
+    "choices": [
+      "Gestapo",
+      "SS",
+      "Wehrmacht",
+      "Luftwaffe"
+    ],
+    "explanation": "The Gestapo (Geheime Staatspolizei) was the official secret police of Nazi Germany, responsible for persecuting political opponents."
+  },
+  {
+    "question": "Which conflict is known as 'The War to End All Wars'?",
+    "answer": "World War I",
+    "choices": [
+      "World War I",
+      "World War II",
+      "The Napoleonic Wars",
+      "The Crimean War"
+    ],
+    "explanation": "World War I was called 'The War to End All Wars' due to its unprecedented scale and destruction."
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "choices": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Alan Shepard"
+    ],
+    "explanation": "Neil Armstrong became the first person to walk on the Moon on July 20, 1969, during the Apollo 11 mission."
+  },
+  {
+    "question": "What Roman structure in Rome could seat approximately 50,000 spectators?",
+    "answer": "The Colosseum",
+    "choices": [
+      "The Colosseum",
+      "The Pantheon",
+      "The Forum",
+      "The Circus Maximus"
+    ],
+    "explanation": "The Roman Colosseum, built between 70\u201380 CE, could hold between 50,000 and 80,000 spectators for gladiatorial contests."
+  },
+  {
+    "question": "Which country did Germany invade to trigger the start of World War II?",
+    "answer": "Poland",
+    "choices": [
+      "Poland",
+      "France",
+      "Austria",
+      "Czechoslovakia"
+    ],
+    "explanation": "Germany's invasion of Poland on September 1, 1939, caused Britain and France to declare war, starting World War II."
+  },
+  {
+    "question": "What was the name of the island where Napoleon was first exiled?",
+    "answer": "Elba",
+    "choices": [
+      "Elba",
+      "Saint Helena",
+      "Corsica",
+      "Sicily"
+    ],
+    "explanation": "Napoleon was exiled to the island of Elba in 1814 after his first abdication, before his escape and final defeat at Waterloo."
+  },
+  {
+    "question": "What was the name of the ancient city founded by Alexander the Great in Egypt?",
+    "answer": "Alexandria",
+    "choices": [
+      "Alexandria",
+      "Carthage",
+      "Memphis",
+      "Thebes"
+    ],
+    "explanation": "Alexander the Great founded the city of Alexandria in Egypt in 331 BCE, which became a great center of learning."
+  },
+  {
+    "question": "In what year did the Roman Empire officially fall in the West?",
+    "answer": "476 CE",
+    "choices": [
+      "476 CE",
+      "410 CE",
+      "455 CE",
+      "500 CE"
+    ],
+    "explanation": "The Western Roman Empire fell in 476 CE when the Germanic chieftain Odoacer deposed the last emperor, Romulus Augustulus."
+  },
+  {
+    "question": "Who was the French military leader who ruled France after the Revolution?",
+    "answer": "Napoleon Bonaparte",
+    "choices": [
+      "Napoleon Bonaparte",
+      "Maximilien Robespierre",
+      "Jacques Necker",
+      "Louis XVI"
+    ],
+    "explanation": "Napoleon Bonaparte rose to power during the French Revolution and became Emperor of France in 1804."
+  },
+  {
+    "question": "What was the name of the ancient Aztec sun god?",
+    "answer": "Huitzilopochtli",
+    "choices": [
+      "Huitzilopochtli",
+      "Quetzalc\u00f3atl",
+      "Tlaloc",
+      "Tezcatlipoca"
+    ],
+    "explanation": "Huitzilopochtli was the Aztec god of the sun and war, to whom human sacrifices were dedicated."
+  },
+  {
+    "question": "In which country did the Bolshevik Revolution take place?",
+    "answer": "Russia",
+    "choices": [
+      "Russia",
+      "Germany",
+      "France",
+      "Austria"
+    ],
+    "explanation": "The Bolshevik Revolution of 1917 in Russia brought Vladimir Lenin and the Communist Party to power."
+  },
+  {
+    "question": "What was the name of the British policy of appeasing Hitler before World War II?",
+    "answer": "Appeasement",
+    "choices": [
+      "Appeasement",
+      "Containment",
+      "D\u00e9tente",
+      "Neutrality"
+    ],
+    "explanation": "Appeasement was the British policy of making concessions to Hitler in hopes of avoiding war; it culminated in the Munich Agreement of 1938."
+  },
+  {
+    "question": "Which empire built the famous Colosseum in Rome?",
+    "answer": "The Roman Empire",
+    "choices": [
+      "The Roman Empire",
+      "The Byzantine Empire",
+      "The Carthaginian Empire",
+      "The Greek Empire"
+    ],
+    "explanation": "The Roman Colosseum (Flavian Amphitheatre) was built between 70\u201380 CE during the reign of Emperors Vespasian and Titus."
+  },
+  {
+    "question": "What was the significance of the Battle of Hastings in 1066?",
+    "answer": "The Norman conquest of England",
+    "choices": [
+      "The Norman conquest of England",
+      "The defeat of the Vikings",
+      "The unification of Britain",
+      "A Viking invasion"
+    ],
+    "explanation": "The Battle of Hastings (1066) resulted in William the Conqueror's defeat of King Harold II, leading to the Norman conquest of England."
+  },
+  {
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "answer": "Amelia Earhart",
+    "choices": [
+      "Amelia Earhart",
+      "Harriet Quimby",
+      "Bessie Coleman",
+      "Jacqueline Cochran"
+    ],
+    "explanation": "Amelia Earhart became the first woman to fly solo nonstop across the Atlantic Ocean on May 20\u201321, 1932."
+  },
+  {
+    "question": "Which U.S. President served the longest term?",
+    "answer": "Franklin D. Roosevelt",
+    "choices": [
+      "Franklin D. Roosevelt",
+      "George Washington",
+      "Abraham Lincoln",
+      "Ronald Reagan"
+    ],
+    "explanation": "Franklin D. Roosevelt served four terms (1933\u20131945), the longest of any U.S. president; the 22nd Amendment later limited presidents to two terms."
+  },
+  {
+    "question": "Which Roman Emperor issued the Edict of Milan, granting religious tolerance?",
+    "answer": "Constantine I",
+    "choices": [
+      "Constantine I",
+      "Diocletian",
+      "Nero",
+      "Augustus"
+    ],
+    "explanation": "Constantine I and Licinius issued the Edict of Milan in 313 CE, granting religious tolerance throughout the Roman Empire."
+  },
+  {
+    "question": "What was the primary reason for the fall of the Western Roman Empire?",
+    "answer": "Multiple causes including invasions, economic troubles, and political instability",
+    "choices": [
+      "Multiple causes including invasions, economic troubles, and political instability",
+      "Volcanic eruption",
+      "Plague",
+      "Naval defeat"
+    ],
+    "explanation": "The fall of Rome was caused by a combination of Germanic invasions, economic decline, political instability, and overexpansion."
+  },
+  {
+    "question": "What was the name of the ancient Egyptian god of the dead?",
+    "answer": "Osiris",
+    "choices": [
+      "Osiris",
+      "Ra",
+      "Anubis",
+      "Horus"
+    ],
+    "explanation": "Osiris was the Egyptian god of the underworld and the dead, while Anubis was the god who guided souls."
+  },
+  {
+    "question": "Which historical figure is known for saying 'I think, therefore I am'?",
+    "answer": "Ren\u00e9 Descartes",
+    "choices": [
+      "Ren\u00e9 Descartes",
+      "Plato",
+      "Immanuel Kant",
+      "John Locke"
+    ],
+    "explanation": "The Latin phrase 'Cogito, ergo sum' ('I think, therefore I am') was formulated by French philosopher Ren\u00e9 Descartes in 1637."
+  },
+  {
+    "question": "What was the name of the first democratically elected leader of South Africa?",
+    "answer": "Nelson Mandela",
+    "choices": [
+      "Nelson Mandela",
+      "F.W. de Klerk",
+      "Thabo Mbeki",
+      "Cyril Ramaphosa"
+    ],
+    "explanation": "Nelson Mandela became South Africa's first democratically elected president on May 10, 1994."
+  },
+  {
+    "question": "In what year did the United States enter World War I?",
+    "answer": "1917",
+    "choices": [
+      "1914",
+      "1915",
+      "1917",
+      "1916"
+    ],
+    "explanation": "The United States entered World War I in April 1917, after Germany resumed unrestricted submarine warfare."
+  },
+  {
+    "question": "Which ancient civilization is credited with inventing writing?",
+    "answer": "The Sumerians",
+    "choices": [
+      "The Sumerians",
+      "The Egyptians",
+      "The Chinese",
+      "The Phoenicians"
+    ],
+    "explanation": "The Sumerians of ancient Mesopotamia developed cuneiform writing around 3500\u20133000 BCE, one of the earliest writing systems."
+  },
+  {
+    "question": "Who was the leader of the French Resistance during World War II?",
+    "answer": "Charles de Gaulle",
+    "choices": [
+      "Charles de Gaulle",
+      "Philippe P\u00e9tain",
+      "Henri Giraud",
+      "Jean Moulin"
+    ],
+    "explanation": "Charles de Gaulle led the Free French Forces from London and became the leader of the French Resistance during WWII."
+  },
+  {
+    "question": "What was the name of the treaty that ended the American Revolution?",
+    "answer": "Treaty of Paris (1783)",
+    "choices": [
+      "Treaty of Paris (1783)",
+      "Treaty of Versailles",
+      "Treaty of Utrecht",
+      "Treaty of Ghent"
+    ],
+    "explanation": "The Treaty of Paris (1783) ended the American Revolutionary War and recognized American independence."
+  },
+  {
+    "question": "Which Chinese philosopher founded Confucianism?",
+    "answer": "Confucius",
+    "choices": [
+      "Confucius",
+      "Laozi",
+      "Zhuangzi",
+      "Mencius"
+    ],
+    "explanation": "Confucius (551\u2013479 BCE) was the founder of Confucianism, emphasizing social harmony, family, and ethical governance."
+  },
+  {
+    "question": "What was the name of the military camp where Allied forces trained and launched D-Day?",
+    "answer": "There were multiple camps across England",
+    "choices": [
+      "There were multiple camps across England",
+      "Fort Knox",
+      "Camp Pendleton",
+      "Military Training Center"
+    ],
+    "explanation": "Allied forces were stationed across southern England, including in areas like Devon and Dorset, before the D-Day invasion."
+  },
+  {
+    "question": "Who was the last Aztec emperor before the Spanish conquest?",
+    "answer": "Cuauht\u00e9moc",
+    "choices": [
+      "Cuauht\u00e9moc",
+      "Montezuma II",
+      "Cuitl\u00e1huac",
+      "Itzcoatl"
+    ],
+    "explanation": "Cuauht\u00e9moc was the last Aztec emperor, who surrendered to Hern\u00e1n Cort\u00e9s in 1521."
+  },
+  {
+    "question": "What was the name of the famous Byzantine emperor who reconquered parts of the Roman Empire?",
+    "answer": "Justinian I",
+    "choices": [
+      "Justinian I",
+      "Constantine I",
+      "Basil II",
+      "Heraclius"
+    ],
+    "explanation": "Emperor Justinian I (527\u2013565 CE) reconquered North Africa, Italy, and parts of Spain, temporarily restoring much of the Roman Empire."
+  },
+  {
+    "question": "In what country did the Meiji Restoration take place?",
     "answer": "Japan",
     "choices": [
       "Japan",
-      "Protestant Reformation",
-      "Northern Ireland",
-      "Atlantic Ocean"
+      "China",
+      "Korea",
+      "Vietnam"
     ],
-    "explanation": "The Meiji Restoration is closely associated with Japan."
+    "explanation": "The Meiji Restoration (1868) in Japan ended feudalism, restored imperial rule, and modernized Japan to become a major power."
   },
   {
-    "question": "In what year did the Russian Revolution occur?",
-    "answer": "1917",
+    "question": "Which explorer first mapped the coast of Australia?",
+    "answer": "James Cook",
     "choices": [
-      "1215",
-      "1815",
-      "1917",
-      "1998"
+      "James Cook",
+      "Abel Tasman",
+      "Francis Drake",
+      "Vasco N\u00fa\u00f1ez de Balboa"
     ],
-    "explanation": "The Russian Revolution took place in 1917."
+    "explanation": "Captain James Cook mapped the eastern coast of Australia on his first voyage (1769\u20131771) aboard HMS Endeavour."
   },
   {
-    "question": "The Russian Revolution is most closely associated with which person, place, or idea?",
-    "answer": "Bolsheviks",
+    "question": "What was the name of the Cold War alliance formed by Soviet-bloc countries?",
+    "answer": "Warsaw Pact",
     "choices": [
-      "Bolsheviks",
-      "East Germany",
-      "England",
-      "William and Mary"
+      "Warsaw Pact",
+      "NATO",
+      "SEATO",
+      "Comintern"
     ],
-    "explanation": "The Russian Revolution is closely associated with Bolsheviks."
+    "explanation": "The Warsaw Pact (1955) was a collective defense treaty among Soviet-bloc nations in Eastern Europe, formed in response to NATO."
   },
   {
-    "question": "In what year did the Treaty of Versailles signed occur?",
-    "answer": "1919",
+    "question": "Who was the founder of the Ottoman Empire?",
+    "answer": "Osman I",
     "choices": [
-      "1919",
-      "1961",
-      "1944",
-      "1989"
+      "Osman I",
+      "Mehmed II",
+      "Suleiman I",
+      "Selim I"
     ],
-    "explanation": "The Treaty of Versailles signed took place in 1919."
+    "explanation": "Osman I (1299\u20131326) was the founder of the Ottoman Empire, which grew from a small Anatolian principality into a major power."
   },
   {
-    "question": "The Treaty of Versailles signed is most closely associated with which person, place, or idea?",
-    "answer": "World War I",
+    "question": "What was the name of the last stand of Texan defenders against the Mexican army?",
+    "answer": "Battle of the Alamo",
     "choices": [
-      "Atlantic Ocean",
-      "Cold War",
-      "World War I",
-      "India and Pakistan"
+      "Battle of the Alamo",
+      "Battle of San Jacinto",
+      "Battle of Goliad",
+      "Battle of Gonzales"
     ],
-    "explanation": "The Treaty of Versailles signed is closely associated with World War I."
+    "explanation": "The Battle of the Alamo (February\u2013March 1836) was a pivotal battle in the Texas Revolution where a small Texan force held out against Mexico before being defeated."
   },
   {
-    "question": "In what year did the Stock Market Crash occur?",
-    "answer": "1929",
+    "question": "Which German philosopher wrote 'Thus Spoke Zarathustra'?",
+    "answer": "Friedrich Nietzsche",
     "choices": [
-      "1929",
-      "1945",
-      "1969",
-      "1588"
+      "Friedrich Nietzsche",
+      "Karl Marx",
+      "Georg Wilhelm Friedrich Hegel",
+      "Arthur Schopenhauer"
     ],
-    "explanation": "The Stock Market Crash took place in 1929."
+    "explanation": "Friedrich Nietzsche wrote Thus Spoke Zarathustra (1883\u20131885), introducing concepts like the \u00dcbermensch and eternal recurrence."
   },
   {
-    "question": "The Stock Market Crash is most closely associated with which person, place, or idea?",
-    "answer": "Great Depression",
+    "question": "What was the name of the ship sailed by Charles Darwin during his voyage of discovery?",
+    "answer": "HMS Beagle",
     "choices": [
-      "William and Mary",
-      "Japan",
-      "Great Depression",
-      "England"
+      "HMS Beagle",
+      "HMS Endeavour",
+      "HMS Victory",
+      "HMS Bounty"
     ],
-    "explanation": "The Stock Market Crash is closely associated with Great Depression."
+    "explanation": "Charles Darwin sailed aboard HMS Beagle (1831\u20131836), a voyage that led to his theory of evolution by natural selection."
   },
   {
-    "question": "In what year did the D-Day occur?",
-    "answer": "1944",
+    "question": "Which Roman general crossed the Alps with war elephants to invade Rome?",
+    "answer": "Hannibal",
     "choices": [
-      "1688",
-      "1944",
-      "1517",
-      "1642"
+      "Hannibal",
+      "Scipio Africanus",
+      "Pyrrhus",
+      "Antiochus III"
     ],
-    "explanation": "The D-Day took place in 1944."
+    "explanation": "The Carthaginian general Hannibal Barca famously crossed the Alps with war elephants in 218 BCE during the Second Punic War."
   },
   {
-    "question": "The D-Day is most closely associated with which person, place, or idea?",
-    "answer": "Normandy",
+    "question": "What was the first country to industrialize?",
+    "answer": "Britain",
     "choices": [
-      "Ottoman Empire",
-      "Northern Ireland",
-      "Normandy",
-      "Cold War"
+      "Britain",
+      "France",
+      "Germany",
+      "United States"
     ],
-    "explanation": "The D-Day is closely associated with Normandy."
+    "explanation": "Britain was the world's first industrialized nation, with the Industrial Revolution beginning in the mid-18th century."
   },
   {
-    "question": "In what year did the United Nations founded occur?",
+    "question": "In what year was the United Nations founded?",
     "answer": "1945",
     "choices": [
-      "1066",
+      "1943",
+      "1944",
       "1945",
-      "1517",
-      "1868"
+      "1946"
     ],
-    "explanation": "The United Nations founded took place in 1945."
+    "explanation": "The United Nations was founded on October 24, 1945, after World War II, to maintain international peace and security."
   },
   {
-    "question": "The United Nations founded is most closely associated with which person, place, or idea?",
-    "answer": "international cooperation",
+    "question": "Which empress ruled the Austro-Hungarian Empire during much of the 19th century?",
+    "answer": "Empress Elisabeth (Sisi)",
     "choices": [
-      "international cooperation",
-      "Neil Armstrong",
-      "England",
-      "Atlantic Ocean"
+      "Empress Elisabeth (Sisi)",
+      "Maria Theresa",
+      "Catherine the Great",
+      "Victoria"
     ],
-    "explanation": "The United Nations founded is closely associated with international cooperation."
+    "explanation": "Empress Elisabeth of Austria (known as Sisi) was a beloved but tragic figure who was queen consort of the Austro-Hungarian Empire."
   },
   {
-    "question": "In what year did the Partition of India occur?",
+    "question": "What was the name of the famous British admiral who defeated Napoleon's fleet at Trafalgar?",
+    "answer": "Admiral Horatio Nelson",
+    "choices": [
+      "Admiral Horatio Nelson",
+      "Duke of Wellington",
+      "Admiral William Cornwallis",
+      "Admiral John Jervis"
+    ],
+    "explanation": "Admiral Lord Horatio Nelson defeated the French and Spanish fleets at the Battle of Trafalgar (1805), dying during the battle."
+  },
+  {
+    "question": "Which Native American leader was chief of the Sioux during the Battle of the Little Bighorn?",
+    "answer": "Sitting Bull",
+    "choices": [
+      "Sitting Bull",
+      "Crazy Horse",
+      "Red Cloud",
+      "Geronimo"
+    ],
+    "explanation": "Sitting Bull was the spiritual and military leader of the Sioux during the Battle of the Little Bighorn (1876)."
+  },
+  {
+    "question": "What event marked the beginning of the Space Race?",
+    "answer": "Soviet launch of Sputnik 1",
+    "choices": [
+      "Soviet launch of Sputnik 1",
+      "American launch of Explorer 1",
+      "Yuri Gagarin's spaceflight",
+      "Neil Armstrong landing on the Moon"
+    ],
+    "explanation": "The Space Race began when the Soviet Union launched Sputnik 1 on October 4, 1957, the first artificial satellite."
+  },
+  {
+    "question": "What was the name of the legislative body in ancient Athens?",
+    "answer": "The Ekklesia (Assembly)",
+    "choices": [
+      "The Ekklesia (Assembly)",
+      "The Senate",
+      "The Boule",
+      "The Agora"
+    ],
+    "explanation": "The Ekklesia (Assembly) was the principal governing body of ancient Athens, composed of all male citizens."
+  },
+  {
+    "question": "In which year was the Eiffel Tower completed?",
+    "answer": "1889",
+    "choices": [
+      "1885",
+      "1887",
+      "1889",
+      "1891"
+    ],
+    "explanation": "The Eiffel Tower was completed on March 31, 1889, built for the 1889 World's Fair in Paris."
+  },
+  {
+    "question": "Who was the first person to run the sub-4-minute mile?",
+    "answer": "Roger Bannister",
+    "choices": [
+      "Roger Bannister",
+      "Jim Ryun",
+      "Sebastian Coe",
+      "Herb Elliott"
+    ],
+    "explanation": "Roger Bannister ran the first sub-4-minute mile on May 6, 1954, with a time of 3:59.4."
+  },
+  {
+    "question": "What was the name of the ancient trade routes through the Middle East and Central Asia?",
+    "answer": "The Silk Road",
+    "choices": [
+      "The Silk Road",
+      "The Spice Route",
+      "The Royal Road",
+      "The Amber Route"
+    ],
+    "explanation": "The Silk Road was a vast network of trade routes linking China and East Asia with the Mediterranean, Central Asia, and the Middle East."
+  },
+  {
+    "question": "Which empire conquered most of the Indian subcontinent in the 1500s?",
+    "answer": "The Mughal Empire",
+    "choices": [
+      "The Mughal Empire",
+      "The Delhi Sultanate",
+      "The Maurya Empire",
+      "The Gupta Empire"
+    ],
+    "explanation": "The Mughal Empire (1526\u20131857) ruled most of the Indian subcontinent at its peak under Akbar the Great."
+  },
+  {
+    "question": "What was the name of the famous ancient queen of Nubia and Egypt?",
+    "answer": "Cleopatra",
+    "choices": [
+      "Cleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Ankhesenamun"
+    ],
+    "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, famed for her relationships with Julius Caesar and Mark Antony."
+  },
+  {
+    "question": "What was the name of the US program that helped rebuild Europe after World War II?",
+    "answer": "The Marshall Plan",
+    "choices": [
+      "The Marshall Plan",
+      "The New Deal",
+      "The Truman Doctrine",
+      "The Lend-Lease Program"
+    ],
+    "explanation": "The Marshall Plan (1948\u20131952) provided over $12 billion (about $130 billion today) to rebuild Western European economies after WWII."
+  },
+  {
+    "question": "Who was the first Secretary-General of the United Nations?",
+    "answer": "Trygve Lie",
+    "choices": [
+      "Trygve Lie",
+      "Dag Hammarskj\u00f6ld",
+      "U Thant",
+      "Kurt Waldheim"
+    ],
+    "explanation": "Trygve Lie of Norway was the first Secretary-General of the United Nations, serving from 1946 to 1953."
+  },
+  {
+    "question": "Which ancient wonder stood at the entrance to the harbor of Rhodes?",
+    "answer": "The Colossus of Rhodes",
+    "choices": [
+      "The Colossus of Rhodes",
+      "The Lighthouse of Alexandria",
+      "The Temple of Artemis",
+      "The Mausoleum at Halicarnassus"
+    ],
+    "explanation": "The Colossus of Rhodes was a giant bronze statue of the Greek god Helios that straddled the harbor entrance."
+  },
+  {
+    "question": "What was the name of the German air force during World War II?",
+    "answer": "Luftwaffe",
+    "choices": [
+      "Luftwaffe",
+      "Wehrmacht",
+      "Kriegsmarine",
+      "SS"
+    ],
+    "explanation": "The Luftwaffe was the air force of Nazi Germany during World War II."
+  },
+  {
+    "question": "In what year did the Korean War begin?",
+    "answer": "1950",
+    "choices": [
+      "1948",
+      "1950",
+      "1952",
+      "1945"
+    ],
+    "explanation": "The Korean War began on June 25, 1950, when North Korean forces crossed the 38th parallel into South Korea."
+  },
+  {
+    "question": "Which Egyptian pharaoh attempted to establish monotheism?",
+    "answer": "Akhenaten",
+    "choices": [
+      "Akhenaten",
+      "Tutankhamun",
+      "Ramesses II",
+      "Thutmose III"
+    ],
+    "explanation": "Pharaoh Akhenaten introduced the worship of Aten (the sun disk) as the sole god, disrupting Egypt's polytheistic religion."
+  },
+  {
+    "question": "What was the name of the ancient Greek marketplace and civic center?",
+    "answer": "Agora",
+    "choices": [
+      "Agora",
+      "Forum",
+      "Acropolis",
+      "Stoa"
+    ],
+    "explanation": "The agora was the central public space in ancient Greek city-states, serving as a marketplace, gathering place, and political center."
+  },
+  {
+    "question": "What was the name of Cleopatra's Roman lover who was also a general?",
+    "answer": "Mark Antony",
+    "choices": [
+      "Mark Antony",
+      "Julius Caesar",
+      "Augustus",
+      "Marcus Crassus"
+    ],
+    "explanation": "Cleopatra had romantic relationships with both Julius Caesar and later Mark Antony."
+  },
+  {
+    "question": "Which war was fought between Spain and the United States in 1898?",
+    "answer": "Spanish-American War",
+    "choices": [
+      "Spanish-American War",
+      "Mexican-American War",
+      "Philippine-American War",
+      "Cuban Revolution"
+    ],
+    "explanation": "The Spanish-American War (1898) resulted in Spain ceding Cuba, Puerto Rico, Guam, and the Philippines to the United States."
+  },
+  {
+    "question": "What was the name of the British queen who ruled for 63 years in the 1800s?",
+    "answer": "Queen Victoria",
+    "choices": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Queen Mary I",
+      "Queen Anne"
+    ],
+    "explanation": "Queen Victoria reigned from 1837 to 1901, the second-longest reign in British history, giving her name to the Victorian Era."
+  },
+  {
+    "question": "Who invented the printing press?",
+    "answer": "Johannes Gutenberg",
+    "choices": [
+      "Johannes Gutenberg",
+      "Bi Sheng",
+      "William Caxton",
+      "Lorenzo Valla"
+    ],
+    "explanation": "Johannes Gutenberg invented the printing press with movable type in Europe around 1440, revolutionizing information dissemination."
+  },
+  {
+    "question": "What was the name of the first successful steamboat?",
+    "answer": "Clermont",
+    "choices": [
+      "Clermont",
+      "Savannah",
+      "Great Western",
+      "Phoenix"
+    ],
+    "explanation": "The Clermont, designed by Robert Fulton, made its first successful trip on the Hudson River in 1807."
+  },
+  {
+    "question": "Which civilization developed the first known code of laws?",
+    "answer": "The Sumerians/Babylonians (Code of Hammurabi)",
+    "choices": [
+      "The Sumerians/Babylonians (Code of Hammurabi)",
+      "The Greeks",
+      "The Romans",
+      "The Egyptians"
+    ],
+    "explanation": "The Code of Hammurabi (circa 1754 BCE) was one of the earliest and most complete written legal codes, created by the Babylonian king Hammurabi."
+  },
+  {
+    "question": "What was the name of the ancient Greek games held in honor of Zeus?",
+    "answer": "Olympic Games",
+    "choices": [
+      "Olympic Games",
+      "Pythian Games",
+      "Nemean Games",
+      "Isthmian Games"
+    ],
+    "explanation": "The ancient Olympic Games were held every four years at Olympia in honor of Zeus, first recorded in 776 BCE."
+  },
+  {
+    "question": "In what year was India divided into the independent nations of India and Pakistan?",
     "answer": "1947",
     "choices": [
-      "1789",
-      "1688",
-      "1947",
-      "1588"
-    ],
-    "explanation": "The Partition of India took place in 1947."
-  },
-  {
-    "question": "The Partition of India is most closely associated with which person, place, or idea?",
-    "answer": "India and Pakistan",
-    "choices": [
-      "India and Pakistan",
-      "United States",
-      "Neil Armstrong",
-      "Normandy"
-    ],
-    "explanation": "The Partition of India is closely associated with India and Pakistan."
-  },
-  {
-    "question": "In what year did the Berlin Wall built occur?",
-    "answer": "1961",
-    "choices": [
-      "1994",
-      "1989",
-      "1961",
-      "1517"
-    ],
-    "explanation": "The Berlin Wall built took place in 1961."
-  },
-  {
-    "question": "The Berlin Wall built is most closely associated with which person, place, or idea?",
-    "answer": "East Germany",
-    "choices": [
-      "Protestant Reformation",
-      "Cold War",
-      "international cooperation",
-      "East Germany"
-    ],
-    "explanation": "The Berlin Wall built is closely associated with East Germany."
-  },
-  {
-    "question": "In what year did the Apollo 11 Moon landing occur?",
-    "answer": "1969",
-    "choices": [
-      "1998",
-      "1588",
       "1945",
-      "1969"
+      "1946",
+      "1947",
+      "1950"
     ],
-    "explanation": "The Apollo 11 Moon landing took place in 1969."
+    "explanation": "The Partition of India in 1947 created the independent nations of India and Pakistan when British India gained independence."
   },
   {
-    "question": "The Apollo 11 Moon landing is most closely associated with which person, place, or idea?",
-    "answer": "Neil Armstrong",
+    "question": "Who led the Haitian Revolution, the only successful slave revolution in history?",
+    "answer": "Toussaint Louverture",
     "choices": [
-      "East Germany",
-      "Neil Armstrong",
-      "England",
-      "international cooperation"
+      "Toussaint Louverture",
+      "Jean-Jacques Dessalines",
+      "Henri Christophe",
+      "Alexandre P\u00e9tion"
     ],
-    "explanation": "The Apollo 11 Moon landing is closely associated with Neil Armstrong."
+    "explanation": "Toussaint Louverture was the dominant leader of the Haitian Revolution (1791\u20131804), which freed enslaved people and established Haiti as the first Black republic."
   },
   {
-    "question": "In what year did the Fall of the Berlin Wall occur?",
+    "question": "What is the name of the document that established self-rule in England?",
+    "answer": "Magna Carta",
+    "choices": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Petition of Right",
+      "Act of Settlement"
+    ],
+    "explanation": "The Magna Carta (1215) was the first document to establish the principle that the king was subject to the rule of law."
+  },
+  {
+    "question": "What empire conquered Constantinople in 1453?",
+    "answer": "Ottoman Empire",
+    "choices": [
+      "Ottoman Empire",
+      "Mongol Empire",
+      "Byzantine Empire",
+      "Persian Empire"
+    ],
+    "explanation": "The Ottoman Empire under Sultan Mehmed II captured Constantinople in 1453, ending the Byzantine Empire."
+  },
+  {
+    "question": "Which country was the first to develop nuclear weapons?",
+    "answer": "United States",
+    "choices": [
+      "United States",
+      "Soviet Union",
+      "Germany",
+      "Japan"
+    ],
+    "explanation": "The United States developed the first nuclear weapons through the Manhattan Project, testing the first bomb on July 16, 1945."
+  },
+  {
+    "question": "What was the name of the secret network that helped enslaved people escape in the United States?",
+    "answer": "The Underground Railroad",
+    "choices": [
+      "The Underground Railroad",
+      "The Freedom Trail",
+      "The Liberty Network",
+      "The Abolition Line"
+    ],
+    "explanation": "The Underground Railroad was a network of secret routes and safe houses used by enslaved people to escape to free states and Canada before the Civil War."
+  },
+  {
+    "question": "Which medieval disease killed approximately one-third of Europe's population?",
+    "answer": "The Black Death",
+    "choices": [
+      "The Black Death",
+      "Smallpox",
+      "Cholera",
+      "Typhus"
+    ],
+    "explanation": "The Black Death (1347\u20131351) was a bubonic plague pandemic that killed an estimated 30\u201360% of Europe's population."
+  },
+  {
+    "question": "Who was the first Emperor of Japan?",
+    "answer": "Emperor Jimmu",
+    "choices": [
+      "Emperor Jimmu",
+      "Emperor Meiji",
+      "Emperor Hirohito",
+      "Emperor Akihito"
+    ],
+    "explanation": "According to Japanese mythology, Emperor Jimmu was the first Emperor of Japan, reportedly ascending to the throne in 660 BCE."
+  },
+  {
+    "question": "What was the name of the UN military operation in Korea after North Korea's invasion?",
+    "answer": "The Korean War / Operation Chromite",
+    "choices": [
+      "The Korean War / Operation Chromite",
+      "Operation Desert Shield",
+      "Operation Rolling Thunder",
+      "Operation Linebacker"
+    ],
+    "explanation": "The UN authorized military action in Korea in 1950; General MacArthur's amphibious Operation Chromite at Inchon was a key turning point."
+  },
+  {
+    "question": "Which ancient civilization built the Parthenon?",
+    "answer": "Ancient Greeks (Athenians)",
+    "choices": [
+      "Ancient Greeks (Athenians)",
+      "Romans",
+      "Persians",
+      "Spartans"
+    ],
+    "explanation": "The Parthenon was built by the ancient Athenians on the Acropolis between 447 and 432 BCE, dedicated to the goddess Athena."
+  },
+  {
+    "question": "In what year was the Emancipation Proclamation issued?",
+    "answer": "1863",
+    "choices": [
+      "1861",
+      "1862",
+      "1863",
+      "1865"
+    ],
+    "explanation": "President Lincoln issued the Emancipation Proclamation on January 1, 1863, freeing enslaved people in Confederate states."
+  },
+  {
+    "question": "Which historical figure is associated with the phrase 'veni, vidi, vici' (I came, I saw, I conquered)?",
+    "answer": "Julius Caesar",
+    "choices": [
+      "Julius Caesar",
+      "Alexander the Great",
+      "Augustus",
+      "Scipio Africanus"
+    ],
+    "explanation": "Julius Caesar reportedly sent a message to the Roman Senate after a swift victory reading 'Veni, vidi, vici' in 47 BCE."
+  },
+  {
+    "question": "What was the name of the civil war that led to the establishment of Communist China?",
+    "answer": "Chinese Civil War",
+    "choices": [
+      "Chinese Civil War",
+      "Korean War",
+      "Sino-Japanese War",
+      "Cultural Revolution"
+    ],
+    "explanation": "The Chinese Civil War (1927\u20131949) between the Communists (Mao Zedong) and Nationalists (Chiang Kai-shek) ended with Communist victory."
+  },
+  {
+    "question": "Which American president ordered the atomic bombing of Hiroshima?",
+    "answer": "Harry S. Truman",
+    "choices": [
+      "Harry S. Truman",
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower",
+      "Herbert Hoover"
+    ],
+    "explanation": "President Harry S. Truman authorized the atomic bombings of Hiroshima (August 6) and Nagasaki (August 9) in 1945."
+  },
+  {
+    "question": "What was the name of the powerful Greek city-state famous for democracy?",
+    "answer": "Athens",
+    "choices": [
+      "Athens",
+      "Sparta",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Athens is credited with developing the world's first democracy in the 5th century BCE under leaders like Cleisthenes and Pericles."
+  },
+  {
+    "question": "Who was the American general known as 'Old Blood and Guts' in World War II?",
+    "answer": "George S. Patton",
+    "choices": [
+      "George S. Patton",
+      "Dwight D. Eisenhower",
+      "Omar Bradley",
+      "Douglas MacArthur"
+    ],
+    "explanation": "General George S. Patton earned the nickname 'Old Blood and Guts' for his aggressive military tactics in WWII."
+  },
+  {
+    "question": "What was the name of the ancient city that was the center of the Persian Empire?",
+    "answer": "Persepolis",
+    "choices": [
+      "Persepolis",
+      "Babylon",
+      "Susa",
+      "Ecbatana"
+    ],
+    "explanation": "Persepolis (meaning 'City of Persians') was the ceremonial capital of the Achaemenid Persian Empire, built by Darius the Great."
+  },
+  {
+    "question": "What was the largest contiguous empire in world history?",
+    "answer": "Mongol Empire",
+    "choices": [
+      "Mongol Empire",
+      "British Empire",
+      "Roman Empire",
+      "Alexander's Empire"
+    ],
+    "explanation": "The Mongol Empire (13th\u201314th centuries) was the largest contiguous land empire in history, covering about 24 million square kilometers."
+  },
+  {
+    "question": "In what year was the United States Constitution signed?",
+    "answer": "1787",
+    "choices": [
+      "1776",
+      "1781",
+      "1787",
+      "1789"
+    ],
+    "explanation": "The U.S. Constitution was signed on September 17, 1787, at the Constitutional Convention in Philadelphia."
+  },
+  {
+    "question": "Who was the first elected female head of government in the world?",
+    "answer": "Sirimavo Bandaranaike of Ceylon (Sri Lanka)",
+    "choices": [
+      "Sirimavo Bandaranaike of Ceylon (Sri Lanka)",
+      "Indira Gandhi",
+      "Golda Meir",
+      "Margaret Thatcher"
+    ],
+    "explanation": "Sirimavo Bandaranaike became the world's first female prime minister when she was elected in Ceylon (now Sri Lanka) in 1960."
+  },
+  {
+    "question": "What ancient monument served as a temple and later an Islamic mosque in Istanbul?",
+    "answer": "Hagia Sophia",
+    "choices": [
+      "Hagia Sophia",
+      "Blue Mosque",
+      "Topkapi Palace",
+      "Chora Church"
+    ],
+    "explanation": "Hagia Sophia was built as a Christian cathedral in 537 CE, converted to a mosque in 1453, and became a museum in 1934 before being reconverted to a mosque in 2020."
+  },
+  {
+    "question": "What is the name of the world's first known empire?",
+    "answer": "The Akkadian Empire",
+    "choices": [
+      "The Akkadian Empire",
+      "The Egyptian Empire",
+      "The Sumerian Empire",
+      "The Assyrian Empire"
+    ],
+    "explanation": "The Akkadian Empire (c. 2334\u20132154 BCE), founded by Sargon of Akkad, is considered the world's first empire."
+  },
+  {
+    "question": "Who was the Japanese emperor during World War II?",
+    "answer": "Emperor Hirohito",
+    "choices": [
+      "Emperor Hirohito",
+      "Emperor Meiji",
+      "Emperor Taisho",
+      "Emperor Showa"
+    ],
+    "explanation": "Emperor Hirohito (posthumously known as Emperor Showa) was the Emperor of Japan during WWII; he announced Japan's surrender on August 15, 1945."
+  },
+  {
+    "question": "What was the name of the period of political stability and prosperity in the Roman Empire?",
+    "answer": "Pax Romana",
+    "choices": [
+      "Pax Romana",
+      "Pax Mongolica",
+      "Golden Age",
+      "Age of Augustus"
+    ],
+    "explanation": "The Pax Romana ('Roman Peace') was a period of relative peace and stability lasting approximately 206 years (27 BCE \u2013 180 CE)."
+  },
+  {
+    "question": "Which French king was known as 'The Sun King'?",
+    "answer": "Louis XIV",
+    "choices": [
+      "Louis XIV",
+      "Louis XVI",
+      "Francis I",
+      "Napoleon I"
+    ],
+    "explanation": "Louis XIV (1638\u20131715) was called 'Le Roi Soleil' (The Sun King) and built the Palace of Versailles as the center of his absolute monarchy."
+  },
+  {
+    "question": "What was the name of the economic system in medieval Europe based on land and labor?",
+    "answer": "Feudalism",
+    "choices": [
+      "Feudalism",
+      "Mercantilism",
+      "Capitalism",
+      "Manorialism"
+    ],
+    "explanation": "Feudalism was the dominant social and economic system in medieval Europe, based on the exchange of land (fiefs) for military service."
+  },
+  {
+    "question": "What ancient wonder was a mausoleum built for Mausolus of Caria?",
+    "answer": "Mausoleum at Halicarnassus",
+    "choices": [
+      "Mausoleum at Halicarnassus",
+      "The Colossus of Rhodes",
+      "The Lighthouse of Alexandria",
+      "The Temple of Zeus"
+    ],
+    "explanation": "The Mausoleum at Halicarnassus was an elaborate tomb built for the satrap Mausolus in what is now Bodrum, Turkey."
+  },
+  {
+    "question": "In what city was the first United States Constitution signed?",
+    "answer": "Philadelphia",
+    "choices": [
+      "Philadelphia",
+      "New York City",
+      "Washington D.C.",
+      "Boston"
+    ],
+    "explanation": "The U.S. Constitution was drafted and signed at the Constitutional Convention held in Philadelphia, Pennsylvania, in 1787."
+  },
+  {
+    "question": "Who was the last Inca emperor?",
+    "answer": "Atahualpa",
+    "choices": [
+      "Atahualpa",
+      "Hu\u00e1scar",
+      "Manco Inca",
+      "Tupac Inca Yupanqui"
+    ],
+    "explanation": "Atahualpa was the last reigning Sapa Inca of the Inca Empire before the Spanish conquest; he was captured and executed by Francisco Pizarro in 1533."
+  },
+  {
+    "question": "What country was home to the ancient Phoenician civilization?",
+    "answer": "Present-day Lebanon",
+    "choices": [
+      "Present-day Lebanon",
+      "Present-day Greece",
+      "Present-day Turkey",
+      "Present-day Israel"
+    ],
+    "explanation": "Phoenicia was an ancient civilization in the Eastern Mediterranean, centered in modern-day Lebanon, known for their alphabet and seafaring."
+  },
+  {
+    "question": "What was the name of the British prison hulk (floating prison) system used in the late 18th century?",
+    "answer": "Prison hulks",
+    "choices": [
+      "Prison hulks",
+      "Alcatraz",
+      "Devil's Island",
+      "The Rock"
+    ],
+    "explanation": "Prison hulks were decommissioned ships used as floating prisons in Britain and its colonies in the late 18th and early 19th centuries."
+  },
+  {
+    "question": "Which historical figure unified the feudal clans of Japan in the late 1500s?",
+    "answer": "Toyotomi Hideyoshi",
+    "choices": [
+      "Toyotomi Hideyoshi",
+      "Oda Nobunaga",
+      "Tokugawa Ieyasu",
+      "Date Masamune"
+    ],
+    "explanation": "Toyotomi Hideyoshi completed the unification of Japan in 1590, following the unfinished work of Oda Nobunaga."
+  },
+  {
+    "question": "What country did Germany invade to start its Eastern Front campaign in WWII?",
+    "answer": "Soviet Union",
+    "choices": [
+      "Soviet Union",
+      "Poland",
+      "France",
+      "Yugoslavia"
+    ],
+    "explanation": "Germany launched Operation Barbarossa against the Soviet Union on June 22, 1941, opening the Eastern Front \u2014 the largest military operation in history."
+  },
+  {
+    "question": "What was the name of the Chinese Communist leader who established the People's Republic of China?",
+    "answer": "Mao Zedong",
+    "choices": [
+      "Mao Zedong",
+      "Chiang Kai-shek",
+      "Zhou Enlai",
+      "Deng Xiaoping"
+    ],
+    "explanation": "Mao Zedong proclaimed the People's Republic of China on October 1, 1949, after the Communist victory in the Chinese Civil War."
+  },
+  {
+    "question": "In what city did Martin Luther King Jr. deliver his 'I Have a Dream' speech?",
+    "answer": "Washington D.C.",
+    "choices": [
+      "Washington D.C.",
+      "Birmingham",
+      "Atlanta",
+      "Memphis"
+    ],
+    "explanation": "Martin Luther King Jr. delivered his famous 'I Have a Dream' speech on August 28, 1963, during the March on Washington."
+  },
+  {
+    "question": "What name was given to the network of concentration camps in Nazi Germany?",
+    "answer": "The Holocaust (concentration camp system)",
+    "choices": [
+      "The Holocaust (concentration camp system)",
+      "The Final Solution",
+      "The Death Camps",
+      "The Nazi Gulag"
+    ],
+    "explanation": "The Nazi concentration camp system was established by the SS; the systematic genocide became known as the Holocaust, killing 6 million Jews and millions of others."
+  },
+  {
+    "question": "What was the name of the US president when the atom bomb was first tested?",
+    "answer": "Harry S. Truman",
+    "choices": [
+      "Harry S. Truman",
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower",
+      "Herbert Hoover"
+    ],
+    "explanation": "Harry S. Truman was president when the first atomic bomb was successfully tested at Trinity Site, New Mexico, on July 16, 1945."
+  },
+  {
+    "question": "What was the name of the famous Greek philosopher who was forced to drink hemlock?",
+    "answer": "Socrates",
+    "choices": [
+      "Socrates",
+      "Plato",
+      "Aristotle",
+      "Pythagoras"
+    ],
+    "explanation": "Socrates was sentenced to death in 399 BCE and executed by drinking hemlock for corrupting the youth of Athens and impiety."
+  },
+  {
+    "question": "In what city did the assassination of Archduke Franz Ferdinand occur in 1914?",
+    "answer": "Sarajevo",
+    "choices": [
+      "Sarajevo",
+      "Vienna",
+      "Berlin",
+      "Prague"
+    ],
+    "explanation": "Archduke Franz Ferdinand of Austria was assassinated in Sarajevo (modern Bosnia and Herzegovina) by Gavrilo Princip on June 28, 1914."
+  },
+  {
+    "question": "What was the name of the British colony that became the United States?",
+    "answer": "The Thirteen Colonies",
+    "choices": [
+      "The Thirteen Colonies",
+      "British America",
+      "The New World",
+      "The Atlantic Colonies"
+    ],
+    "explanation": "The Thirteen Colonies that declared independence from Britain in 1776 became the original United States of America."
+  },
+  {
+    "question": "What was the name of the famous library that Julius Caesar allegedly burned in Egypt?",
+    "answer": "Library of Alexandria",
+    "choices": [
+      "Library of Alexandria",
+      "Royal Library of Ashurbanipal",
+      "Library of Pergamon",
+      "Imperial Library of Constantinople"
+    ],
+    "explanation": "The Library of Alexandria was one of the greatest libraries of antiquity; its destruction was a gradual process attributed to various events including Julius Caesar's accidental fire."
+  },
+  {
+    "question": "Which Russian Tsar was known for 'Westernizing' Russia?",
+    "answer": "Peter the Great",
+    "choices": [
+      "Peter the Great",
+      "Catherine the Great",
+      "Alexander II",
+      "Nicholas I"
+    ],
+    "explanation": "Peter the Great (1682\u20131725) modernized and Westernized Russia, founding St. Petersburg and transforming Russia into a major European power."
+  },
+  {
+    "question": "What was the name of the war fought between Iran and Iraq in the 1980s?",
+    "answer": "The Iran-Iraq War",
+    "choices": [
+      "The Iran-Iraq War",
+      "The Gulf War",
+      "Operation Desert Storm",
+      "The First Persian Gulf War"
+    ],
+    "explanation": "The Iran-Iraq War (1980\u20131988) was triggered by Iraq's invasion of Iran; it resulted in approximately 1 million casualties."
+  },
+  {
+    "question": "Who was the leader of the British suffragette movement?",
+    "answer": "Emmeline Pankhurst",
+    "choices": [
+      "Emmeline Pankhurst",
+      "Emily Davison",
+      "Millicent Fawcett",
+      "Christabel Pankhurst"
+    ],
+    "explanation": "Emmeline Pankhurst co-founded the Women's Social and Political Union (WSPU) in 1903 and led the militant suffragette movement in Britain."
+  },
+  {
+    "question": "What was the name of the medieval city that was the capital of the Mali Empire?",
+    "answer": "Timbuktu",
+    "choices": [
+      "Timbuktu",
+      "Kumbi Saleh",
+      "Djenn\u00e9",
+      "Gao"
+    ],
+    "explanation": "Timbuktu (in present-day Mali) was a major city and learning center in the Mali Empire, famous for its Islamic scholarship."
+  },
+  {
+    "question": "What was the name of the Soviet policy of greater political openness introduced by Gorbachev?",
+    "answer": "Glasnost",
+    "choices": [
+      "Glasnost",
+      "Perestroika",
+      "D\u00e9tente",
+      "Ostpolitik"
+    ],
+    "explanation": "Glasnost (meaning 'openness') was Gorbachev's policy of greater political transparency, alongside perestroika (economic restructuring)."
+  },
+  {
+    "question": "Which US president gave a speech at the Brandenburg Gate saying 'Tear down this wall!'?",
+    "answer": "Ronald Reagan",
+    "choices": [
+      "Ronald Reagan",
+      "John F. Kennedy",
+      "Richard Nixon",
+      "George H.W. Bush"
+    ],
+    "explanation": "President Reagan delivered his famous 'Tear down this wall!' speech at the Brandenburg Gate in West Berlin on June 12, 1987."
+  },
+  {
+    "question": "What was the name of the ancient Greek epic poem attributed to Homer?",
+    "answer": "The Iliad and the Odyssey",
+    "choices": [
+      "The Iliad and the Odyssey",
+      "The Aeneid",
+      "The Metamorphoses",
+      "Theogony"
+    ],
+    "explanation": "Homer is traditionally credited with composing the Iliad (about the Trojan War) and the Odyssey (about Odysseus's journey home)."
+  },
+  {
+    "question": "What was the name of the process by which European nations divided Africa among themselves?",
+    "answer": "The Scramble for Africa",
+    "choices": [
+      "The Scramble for Africa",
+      "The Berlin Conference",
+      "Colonialism",
+      "The White Man's Burden"
+    ],
+    "explanation": "The Scramble for Africa (c. 1880\u20131914) was the rapid colonization of Africa by European powers, formalized at the Berlin Conference of 1884\u201385."
+  },
+  {
+    "question": "Who founded the Indian independence movement and led the Salt March?",
+    "answer": "Mahatma Gandhi",
+    "choices": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose",
+      "Bal Gangadhar Tilak"
+    ],
+    "explanation": "Mahatma Gandhi led the 241-mile Salt March in 1930 to protest British salt taxes, a key moment in India's independence movement."
+  },
+  {
+    "question": "What was the original name of New York City before the British captured it from the Dutch?",
+    "answer": "New Amsterdam",
+    "choices": [
+      "New Amsterdam",
+      "New Antwerp",
+      "Fort Orange",
+      "New Netherland"
+    ],
+    "explanation": "New York City was originally called New Amsterdam (Nieuw Amsterdam) when it was a Dutch colonial settlement on Manhattan Island."
+  },
+  {
+    "question": "Which ancient wonder of the world was located in Alexandria, Egypt?",
+    "answer": "The Lighthouse of Alexandria",
+    "choices": [
+      "The Lighthouse of Alexandria",
+      "The Colossus of Rhodes",
+      "The Hanging Gardens",
+      "The Temple of Artemis"
+    ],
+    "explanation": "The Lighthouse of Alexandria stood on the island of Pharos and was one of the tallest structures in the ancient world."
+  },
+  {
+    "question": "The Great Fire of London occurred in which year?",
+    "answer": "1666",
+    "choices": [
+      "1666",
+      "1588",
+      "1605",
+      "1707"
+    ],
+    "explanation": "The Great Fire of London burned for three days starting on September 2, 1666, destroying much of the medieval city."
+  },
+  {
+    "question": "Which empire was ruled by Genghis Khan?",
+    "answer": "Mongol Empire",
+    "choices": [
+      "Mongol Empire",
+      "Ottoman Empire",
+      "Roman Empire",
+      "Persian Empire"
+    ],
+    "explanation": "Genghis Khan founded and ruled the Mongol Empire, which became the largest contiguous land empire in history."
+  },
+  {
+    "question": "The Battle of Thermopylae was fought between the Greeks and which empire?",
+    "answer": "Persian Empire",
+    "choices": [
+      "Persian Empire",
+      "Roman Empire",
+      "Macedonian Empire",
+      "Ottoman Empire"
+    ],
+    "explanation": "In 480 BC, a small Greek force famously held off the massive Persian army at the pass of Thermopylae."
+  },
+  {
+    "question": "The Berlin Wall fell in which year?",
     "answer": "1989",
     "choices": [
       "1989",
-      "1994",
-      "1642",
-      "1998"
+      "1991",
+      "1985",
+      "1987"
     ],
-    "explanation": "The Fall of the Berlin Wall took place in 1989."
+    "explanation": "The Berlin Wall fell on November 9, 1989, marking a pivotal moment in the end of the Cold War."
   },
   {
-    "question": "The Fall of the Berlin Wall is most closely associated with which person, place, or idea?",
-    "answer": "Cold War",
+    "question": "Which ancient civilization built the city of Machu Picchu?",
+    "answer": "Inca",
     "choices": [
-      "William and Mary",
-      "Protestant Reformation",
-      "Cold War",
-      "Nelson Mandela"
+      "Inca",
+      "Aztec",
+      "Maya",
+      "Olmec"
     ],
-    "explanation": "The Fall of the Berlin Wall is closely associated with Cold War."
+    "explanation": "Machu Picchu was built by the Inca Empire in the 15th century and is located in the Andes Mountains of Peru."
   },
   {
-    "question": "In what year did the South Africa's first democratic election occur?",
-    "answer": "1994",
+    "question": "The Titanic sank in which year?",
+    "answer": "1912",
     "choices": [
-      "1688",
-      "1994",
-      "1919",
-      "1868"
+      "1912",
+      "1914",
+      "1910",
+      "1908"
     ],
-    "explanation": "The South Africa's first democratic election took place in 1994."
+    "explanation": "The RMS Titanic sank on April 15, 1912, after striking an iceberg during its maiden voyage."
   },
   {
-    "question": "The South Africa's first democratic election is most closely associated with which person, place, or idea?",
+    "question": "Which war was triggered by the assassination of Archduke Franz Ferdinand?",
+    "answer": "World War I",
+    "choices": [
+      "World War I",
+      "World War II",
+      "The Crimean War",
+      "The Boer War"
+    ],
+    "explanation": "The assassination of Archduke Franz Ferdinand of Austria in 1914 set off the chain of events leading to World War I."
+  },
+  {
+    "question": "The Magna Carta was signed in which year?",
+    "answer": "1215",
+    "choices": [
+      "1215",
+      "1066",
+      "1348",
+      "1381"
+    ],
+    "explanation": "King John of England sealed the Magna Carta at Runnymede on June 15, 1215, limiting royal power."
+  },
+  {
+    "question": "Which explorer is credited with first circumnavigating the globe?",
+    "answer": "Ferdinand Magellan",
+    "choices": [
+      "Ferdinand Magellan",
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Francis Drake"
+    ],
+    "explanation": "Magellan led the first expedition to circumnavigate Earth (1519\u20131522), though he died before completing the journey."
+  },
+  {
+    "question": "The French Revolution began in which year?",
+    "answer": "1789",
+    "choices": [
+      "1789",
+      "1776",
+      "1804",
+      "1815"
+    ],
+    "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14."
+  },
+  {
+    "question": "Who was the Egyptian queen who allied with Julius Caesar?",
+    "answer": "Cleopatra",
+    "choices": [
+      "Cleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Ankhesenamun"
+    ],
+    "explanation": "Cleopatra VII formed powerful political and romantic alliances with both Julius Caesar and Mark Antony."
+  },
+  {
+    "question": "The Hundred Years' War was fought between England and which country?",
+    "answer": "France",
+    "choices": [
+      "France",
+      "Spain",
+      "Germany",
+      "Scotland"
+    ],
+    "explanation": "The Hundred Years' War (1337\u20131453) was a series of conflicts between England and France over the French throne."
+  },
+  {
+    "question": "Which Native American leader defeated Custer at the Battle of Little Bighorn?",
+    "answer": "Sitting Bull",
+    "choices": [
+      "Sitting Bull",
+      "Crazy Horse",
+      "Geronimo",
+      "Red Cloud"
+    ],
+    "explanation": "Sitting Bull led the Lakota Sioux coalition that defeated Custer's 7th Cavalry at Little Bighorn in 1876."
+  },
+  {
+    "question": "The ancient city of Carthage was located in modern-day which country?",
+    "answer": "Tunisia",
+    "choices": [
+      "Tunisia",
+      "Libya",
+      "Morocco",
+      "Algeria"
+    ],
+    "explanation": "Carthage was a powerful ancient city-state located in what is now northeastern Tunisia."
+  },
+  {
+    "question": "The Maya civilization was centered in which region?",
+    "answer": "Mesoamerica",
+    "choices": [
+      "Mesoamerica",
+      "South America",
+      "North America",
+      "Caribbean"
+    ],
+    "explanation": "The Maya civilization flourished in Mesoamerica, covering modern-day Mexico, Guatemala, Belize, Honduras, and El Salvador."
+  },
+  {
+    "question": "The Aztec Empire was conquered by which Spanish explorer?",
+    "answer": "Hern\u00e1n Cort\u00e9s",
+    "choices": [
+      "Hern\u00e1n Cort\u00e9s",
+      "Francisco Pizarro",
+      "Juan Ponce de Le\u00f3n",
+      "Hernando de Soto"
+    ],
+    "explanation": "Hern\u00e1n Cort\u00e9s conquered the Aztec Empire between 1519 and 1521, ending Aztec dominance in Mesoamerica."
+  },
+  {
+    "question": "The Peloponnesian War was fought between Athens and which city-state?",
+    "answer": "Sparta",
+    "choices": [
+      "Sparta",
+      "Corinth",
+      "Thebes",
+      "Syracuse"
+    ],
+    "explanation": "The Peloponnesian War (431\u2013404 BC) was primarily fought between Athens and Sparta and their respective allies."
+  },
+  {
+    "question": "Who led the Cuban Revolution that overthrew Fulgencio Batista?",
+    "answer": "Fidel Castro",
+    "choices": [
+      "Fidel Castro",
+      "Che Guevara",
+      "Ra\u00fal Castro",
+      "Jos\u00e9 Mart\u00ed"
+    ],
+    "explanation": "Fidel Castro led the Cuban Revolution, taking power on January 1, 1959, after Batista fled the country."
+  },
+  {
+    "question": "Which empire built the road system known as the 'All Roads Lead to Rome'?",
+    "answer": "Roman Empire",
+    "choices": [
+      "Roman Empire",
+      "Byzantine Empire",
+      "Greek Empire",
+      "Persian Empire"
+    ],
+    "explanation": "The Roman Empire built an extensive road network of over 250,000 miles connecting its territories."
+  },
+  {
+    "question": "The Suez Canal connects which two bodies of water?",
+    "answer": "Mediterranean Sea and Red Sea",
+    "choices": [
+      "Mediterranean Sea and Red Sea",
+      "Atlantic Ocean and Pacific Ocean",
+      "Black Sea and Caspian Sea",
+      "Persian Gulf and Arabian Sea"
+    ],
+    "explanation": "The Suez Canal, opened in 1869, connects the Mediterranean Sea to the Red Sea through Egypt."
+  },
+  {
+    "question": "The ancient Olympics were held in which city?",
+    "answer": "Olympia",
+    "choices": [
+      "Olympia",
+      "Athens",
+      "Sparta",
+      "Corinth"
+    ],
+    "explanation": "The ancient Olympic Games were held at Olympia, Greece, every four years in honor of Zeus."
+  },
+  {
+    "question": "Which African leader became the first president of a free South Africa?",
     "answer": "Nelson Mandela",
     "choices": [
-      "Ottoman Empire",
-      "England",
-      "Atlantic Ocean",
-      "Nelson Mandela"
+      "Nelson Mandela",
+      "Desmond Tutu",
+      "Oliver Tambo",
+      "F.W. de Klerk"
     ],
-    "explanation": "The South Africa's first democratic election is closely associated with Nelson Mandela."
+    "explanation": "Nelson Mandela became South Africa's first Black president in 1994 after decades of apartheid rule ended."
   },
   {
-    "question": "In what year did the Good Friday Agreement occur?",
-    "answer": "1998",
+    "question": "The D-Day invasion during WWII took place in which French region?",
+    "answer": "Normandy",
     "choices": [
-      "1998",
-      "1215",
-      "1969",
-      "1492"
+      "Normandy",
+      "Brittany",
+      "Burgundy",
+      "Alsace"
     ],
-    "explanation": "The Good Friday Agreement took place in 1998."
+    "explanation": "Operation Overlord's D-Day landings took place on the beaches of Normandy on June 6, 1944."
   },
   {
-    "question": "The Good Friday Agreement is most closely associated with which person, place, or idea?",
-    "answer": "Northern Ireland",
+    "question": "Which ancient wonder stood at the harbor of the Greek island of Rhodes?",
+    "answer": "Colossus of Rhodes",
+    "choices": [
+      "Colossus of Rhodes",
+      "Temple of Artemis",
+      "Hanging Gardens",
+      "Mausoleum at Halicarnassus"
+    ],
+    "explanation": "The Colossus of Rhodes was a giant bronze statue of the sun god Helios, built around 280 BC."
+  },
+  {
+    "question": "Who was the first Tsar of Russia?",
+    "answer": "Ivan the Terrible",
+    "choices": [
+      "Ivan the Terrible",
+      "Peter the Great",
+      "Catherine the Great",
+      "Nicholas I"
+    ],
+    "explanation": "Ivan IV, known as Ivan the Terrible, became the first ruler to be crowned Tsar of All Russia in 1547."
+  },
+  {
+    "question": "The partition of India in 1947 created which two nations?",
+    "answer": "India and Pakistan",
+    "choices": [
+      "India and Pakistan",
+      "India and Bangladesh",
+      "India and Sri Lanka",
+      "Pakistan and Bangladesh"
+    ],
+    "explanation": "The British India partition in 1947 created the independent nations of India and Pakistan."
+  },
+  {
+    "question": "Which US president ordered the atomic bombs to be dropped on Japan?",
+    "answer": "Harry Truman",
+    "choices": [
+      "Harry Truman",
+      "Franklin Roosevelt",
+      "Dwight Eisenhower",
+      "Herbert Hoover"
+    ],
+    "explanation": "President Harry Truman authorized the atomic bombings of Hiroshima and Nagasaki in August 1945."
+  },
+  {
+    "question": "The ancient Persian Empire was founded by which ruler?",
+    "answer": "Cyrus the Great",
+    "choices": [
+      "Cyrus the Great",
+      "Darius I",
+      "Xerxes I",
+      "Cambyses II"
+    ],
+    "explanation": "Cyrus the Great founded the Achaemenid Persian Empire around 550 BC by conquering the Median, Lydian, and Babylonian empires."
+  },
+  {
+    "question": "Which battle marked Napoleon's final defeat?",
+    "answer": "Battle of Waterloo",
+    "choices": [
+      "Battle of Waterloo",
+      "Battle of Borodino",
+      "Battle of Leipzig",
+      "Battle of Austerlitz"
+    ],
+    "explanation": "Napoleon was decisively defeated at the Battle of Waterloo on June 18, 1815, ending his rule permanently."
+  },
+  {
+    "question": "The Meiji Restoration in Japan occurred in which century?",
+    "answer": "19th century",
+    "choices": [
+      "19th century",
+      "18th century",
+      "20th century",
+      "17th century"
+    ],
+    "explanation": "The Meiji Restoration began in 1868, transforming Japan from a feudal to a modern industrialized nation in the 19th century."
+  },
+  {
+    "question": "Which civilization created the cuneiform writing system?",
+    "answer": "Sumerian",
+    "choices": [
+      "Sumerian",
+      "Egyptian",
+      "Phoenician",
+      "Chinese"
+    ],
+    "explanation": "The Sumerians of ancient Mesopotamia developed cuneiform, one of the earliest known writing systems, around 3200 BC."
+  },
+  {
+    "question": "The Scramble for Africa by European powers occurred primarily in which century?",
+    "answer": "19th century",
+    "choices": [
+      "19th century",
+      "18th century",
+      "20th century",
+      "17th century"
+    ],
+    "explanation": "The Scramble for Africa, or the Partition of Africa, occurred primarily in the late 19th century (1880s\u20131914)."
+  },
+  {
+    "question": "Which US President survived an assassination attempt by John Hinckley Jr.?",
+    "answer": "Ronald Reagan",
+    "choices": [
+      "Ronald Reagan",
+      "Gerald Ford",
+      "Richard Nixon",
+      "Jimmy Carter"
+    ],
+    "explanation": "President Ronald Reagan was shot by John Hinckley Jr. on March 30, 1981, but survived the assassination attempt."
+  },
+  {
+    "question": "The Crusades were primarily a series of religious wars between which groups?",
+    "answer": "Christians and Muslims",
+    "choices": [
+      "Christians and Muslims",
+      "Christians and Jews",
+      "Catholics and Protestants",
+      "Romans and Barbarians"
+    ],
+    "explanation": "The Crusades (1095\u20131291) were a series of religious wars between European Christians and Muslims over control of the Holy Land."
+  },
+  {
+    "question": "Which emperor oversaw the construction of the Colosseum in Rome?",
+    "answer": "Vespasian",
+    "choices": [
+      "Vespasian",
+      "Nero",
+      "Augustus",
+      "Trajan"
+    ],
+    "explanation": "Emperor Vespasian began construction of the Colosseum in 72 AD; it was completed under his son Titus in 80 AD."
+  },
+  {
+    "question": "The Korean War ended with an armistice in which year?",
+    "answer": "1953",
+    "choices": [
+      "1953",
+      "1950",
+      "1955",
+      "1945"
+    ],
+    "explanation": "The Korean War armistice was signed on July 27, 1953, creating the Demilitarized Zone still in place today."
+  },
+  {
+    "question": "Which explorer was the first European to reach the southern tip of Africa?",
+    "answer": "Bartolomeu Dias",
+    "choices": [
+      "Bartolomeu Dias",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Henry the Navigator"
+    ],
+    "explanation": "Bartolomeu Dias rounded the Cape of Good Hope in 1488, becoming the first European explorer to do so."
+  },
+  {
+    "question": "The Bolshevik Revolution in Russia occurred in which year?",
+    "answer": "1917",
+    "choices": [
+      "1917",
+      "1905",
+      "1921",
+      "1914"
+    ],
+    "explanation": "The Bolshevik Revolution in October 1917 led by Lenin overthrew the Russian Provisional Government."
+  },
+  {
+    "question": "Which ancient Greek city-state was known for its military culture?",
+    "answer": "Sparta",
+    "choices": [
+      "Sparta",
+      "Athens",
+      "Corinth",
+      "Thebes"
+    ],
+    "explanation": "Sparta was renowned for its militaristic society, where citizens underwent rigorous military training from childhood."
+  },
+  {
+    "question": "The Battle of Hastings in 1066 was fought between England and which invading force?",
+    "answer": "Normans",
+    "choices": [
+      "Normans",
+      "Vikings",
+      "Danes",
+      "Visigoths"
+    ],
+    "explanation": "The Battle of Hastings on October 14, 1066 saw William the Conqueror's Norman forces defeat King Harold II of England."
+  },
+  {
+    "question": "Which pharaoh is believed to have reigned during the Exodus described in the Bible?",
+    "answer": "Ramesses II",
+    "choices": [
+      "Ramesses II",
+      "Tutankhamun",
+      "Akhenaten",
+      "Thutmose III"
+    ],
+    "explanation": "Many historians believe Ramesses II (the Great) was the pharaoh of the Exodus, ruling Egypt from 1279 to 1213 BC."
+  },
+  {
+    "question": "The Vietnam War ended with the fall of which city?",
+    "answer": "Saigon",
+    "choices": [
+      "Saigon",
+      "Hanoi",
+      "Hue",
+      "Da Nang"
+    ],
+    "explanation": "The fall of Saigon on April 30, 1975, marked the end of the Vietnam War and the reunification of Vietnam under communist rule."
+  },
+  {
+    "question": "Which medieval Islamic scholar is considered the father of sociology?",
+    "answer": "Ibn Khaldun",
+    "choices": [
+      "Ibn Khaldun",
+      "Avicenna",
+      "Al-Ghazali",
+      "Ibn Rushd"
+    ],
+    "explanation": "Ibn Khaldun (1332\u20131406) wrote the Muqaddimah, pioneering the study of social cohesion and historical analysis."
+  },
+  {
+    "question": "The Spanish Armada was defeated by which country in 1588?",
+    "answer": "England",
+    "choices": [
+      "England",
+      "France",
+      "Portugal",
+      "Netherlands"
+    ],
+    "explanation": "England's naval forces defeated the Spanish Armada in 1588, ending Spain's plans to invade England."
+  },
+  {
+    "question": "Which US President purchased the Louisiana Territory from France?",
+    "answer": "Thomas Jefferson",
+    "choices": [
+      "Thomas Jefferson",
+      "James Madison",
+      "John Adams",
+      "James Monroe"
+    ],
+    "explanation": "President Thomas Jefferson authorized the Louisiana Purchase in 1803, doubling the size of the United States."
+  },
+  {
+    "question": "The Punic Wars were fought between Rome and which ancient city?",
+    "answer": "Carthage",
+    "choices": [
+      "Carthage",
+      "Corinth",
+      "Syracuse",
+      "Alexandria"
+    ],
+    "explanation": "The three Punic Wars (264\u2013146 BC) between Rome and Carthage resulted in Rome's dominance over the western Mediterranean."
+  },
+  {
+    "question": "The Black Death pandemic killed approximately what fraction of Europe's population in the 14th century?",
+    "answer": "One third",
+    "choices": [
+      "One third",
+      "One half",
+      "One quarter",
+      "Two thirds"
+    ],
+    "explanation": "The Black Death (1347\u20131351) killed approximately one third of Europe's population, devastating medieval society."
+  },
+  {
+    "question": "Which civilization constructed Stonehenge?",
+    "answer": "Neolithic Britons",
+    "choices": [
+      "Neolithic Britons",
+      "Celts",
+      "Romans",
+      "Druids"
+    ],
+    "explanation": "Stonehenge was built by Neolithic and Bronze Age peoples between 3000 and 1500 BC, long before Celts or Romans arrived."
+  },
+  {
+    "question": "The League of Nations was established after which war?",
+    "answer": "World War I",
+    "choices": [
+      "World War I",
+      "World War II",
+      "The Crimean War",
+      "The Boer War"
+    ],
+    "explanation": "The League of Nations was established in 1920 after World War I as the first intergovernmental organization to maintain peace."
+  },
+  {
+    "question": "Which treaty ended the Seven Years' War?",
+    "answer": "Treaty of Paris (1763)",
+    "choices": [
+      "Treaty of Paris (1763)",
+      "Treaty of Westphalia",
+      "Treaty of Versailles",
+      "Treaty of Utrecht"
+    ],
+    "explanation": "The Seven Years' War ended with the 1763 Treaty of Paris, reshaping colonial empires worldwide."
+  },
+  {
+    "question": "Who was the last Byzantine Emperor?",
+    "answer": "Constantine XI",
+    "choices": [
+      "Constantine XI",
+      "Justinian I",
+      "Constantine I",
+      "Basil II"
+    ],
+    "explanation": "Constantine XI Palaiologos was the last Byzantine Emperor, dying in 1453 when Constantinople fell to Ottoman forces."
+  },
+  {
+    "question": "The Indian Mutiny of 1857 was a rebellion against which colonial power?",
+    "answer": "British Empire",
+    "choices": [
+      "British Empire",
+      "French Empire",
+      "Portuguese Empire",
+      "Dutch Empire"
+    ],
+    "explanation": "The Indian Mutiny (or First War of Independence) of 1857 was a major uprising against British rule in India."
+  },
+  {
+    "question": "The Opium Wars were fought between which two nations?",
+    "answer": "China and Britain",
+    "choices": [
+      "China and Britain",
+      "China and France",
+      "India and Britain",
+      "China and Portugal"
+    ],
+    "explanation": "The Opium Wars (1839\u20131842 and 1856\u20131860) were fought between China and Britain over trade and sovereignty."
+  },
+  {
+    "question": "Which African country was never colonized by a European power?",
+    "answer": "Ethiopia",
+    "choices": [
+      "Ethiopia",
+      "Liberia",
+      "Egypt",
+      "Morocco"
+    ],
+    "explanation": "Ethiopia remained independent throughout the Scramble for Africa, defeating Italy at the Battle of Adwa in 1896."
+  },
+  {
+    "question": "The Thirty Years' War primarily affected which region?",
+    "answer": "Central Europe",
+    "choices": [
+      "Central Europe",
+      "Western Europe",
+      "Eastern Europe",
+      "Southern Europe"
+    ],
+    "explanation": "The Thirty Years' War (1618\u20131648) devastated Central Europe, particularly the Holy Roman Empire."
+  },
+  {
+    "question": "The Rosetta Stone helped scholars decode which ancient writing system?",
+    "answer": "Egyptian hieroglyphics",
+    "choices": [
+      "Egyptian hieroglyphics",
+      "Sumerian cuneiform",
+      "Linear B",
+      "Phoenician alphabet"
+    ],
+    "explanation": "The Rosetta Stone, discovered in 1799, enabled scholars to decipher ancient Egyptian hieroglyphics."
+  },
+  {
+    "question": "Which event triggered the start of the US Civil War?",
+    "answer": "Confederate attack on Fort Sumter",
+    "choices": [
+      "Confederate attack on Fort Sumter",
+      "John Brown's raid",
+      "Lincoln's election",
+      "Dred Scott decision"
+    ],
+    "explanation": "Confederate forces attacked Fort Sumter in South Carolina on April 12, 1861, beginning the US Civil War."
+  },
+  {
+    "question": "The Silk Road connected China to which western region?",
+    "answer": "The Mediterranean",
+    "choices": [
+      "The Mediterranean",
+      "Scandinavia",
+      "Sub-Saharan Africa",
+      "The British Isles"
+    ],
+    "explanation": "The Silk Road was an ancient trade route connecting China to the Mediterranean world, facilitating cultural exchange."
+  },
+  {
+    "question": "Which Greek general won the Battle of Marathon against the Persians?",
+    "answer": "Miltiades",
+    "choices": [
+      "Miltiades",
+      "Themistocles",
+      "Leonidas",
+      "Pericles"
+    ],
+    "explanation": "Miltiades commanded the Athenian forces that defeated the Persian army at Marathon in 490 BC."
+  },
+  {
+    "question": "The Rwandan Genocide occurred in which year?",
+    "answer": "1994",
+    "choices": [
+      "1994",
+      "1990",
+      "1998",
+      "1992"
+    ],
+    "explanation": "The Rwandan Genocide took place over approximately 100 days in 1994, killing an estimated 500,000 to 800,000 Tutsis."
+  },
+  {
+    "question": "Which US President gave the 'Gettysburg Address'?",
+    "answer": "Abraham Lincoln",
     "choices": [
       "Abraham Lincoln",
-      "Parliament vs. King Charles I",
-      "Northern Ireland",
-      "William and Mary"
+      "Ulysses Grant",
+      "Andrew Johnson",
+      "Jefferson Davis"
     ],
-    "explanation": "The Good Friday Agreement is closely associated with Northern Ireland."
+    "explanation": "President Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of a soldiers' cemetery."
+  },
+  {
+    "question": "The Ottoman Empire dissolved and Turkey became a republic under which leader?",
+    "answer": "Mustafa Kemal Atat\u00fcrk",
+    "choices": [
+      "Mustafa Kemal Atat\u00fcrk",
+      "Enver Pasha",
+      "Abdul Hamid II",
+      "Mehmed VI"
+    ],
+    "explanation": "Mustafa Kemal Atat\u00fcrk founded the Republic of Turkey in 1923 after abolishing the Ottoman sultanate."
+  },
+  {
+    "question": "Which civilization built the city of Teotihuacan?",
+    "answer": "Teotihuacan peoples",
+    "choices": [
+      "Teotihuacan peoples",
+      "Aztecs",
+      "Maya",
+      "Olmecs"
+    ],
+    "explanation": "Teotihuacan was built by an unknown Pre-Columbian civilization and was one of the largest cities in the ancient world."
+  },
+  {
+    "question": "The Haitian Revolution resulted in Haiti becoming which type of state?",
+    "answer": "The first Black republic",
+    "choices": [
+      "The first Black republic",
+      "A French colony",
+      "A Spanish territory",
+      "A British protectorate"
+    ],
+    "explanation": "Haiti became the first Black republic and the first free Black state in the western hemisphere after its 1804 revolution."
+  },
+  {
+    "question": "Which Roman general crossed the Rubicon river, triggering a civil war?",
+    "answer": "Julius Caesar",
+    "choices": [
+      "Julius Caesar",
+      "Pompey",
+      "Mark Antony",
+      "Scipio"
+    ],
+    "explanation": "Julius Caesar crossed the Rubicon in 49 BC, an act of war against the Roman Senate that began a civil war."
+  },
+  {
+    "question": "The Battle of Lepanto in 1571 was fought between the Holy League and which empire?",
+    "answer": "Ottoman Empire",
+    "choices": [
+      "Ottoman Empire",
+      "Persian Empire",
+      "Spanish Empire",
+      "Venetian Empire"
+    ],
+    "explanation": "The Battle of Lepanto saw the Holy League defeat the Ottoman fleet, ending Ottoman naval dominance in the Mediterranean."
+  },
+  {
+    "question": "The Perestroika reforms in the Soviet Union were introduced by which leader?",
+    "answer": "Mikhail Gorbachev",
+    "choices": [
+      "Mikhail Gorbachev",
+      "Leonid Brezhnev",
+      "Yuri Andropov",
+      "Boris Yeltsin"
+    ],
+    "explanation": "Mikhail Gorbachev introduced perestroika (restructuring) and glasnost (openness) reforms in 1985\u20131991."
+  },
+  {
+    "question": "Which ancient wonder of the world was located in modern-day Iraq?",
+    "answer": "Hanging Gardens of Babylon",
+    "choices": [
+      "Hanging Gardens of Babylon",
+      "Colossus of Rhodes",
+      "Temple of Artemis",
+      "Mausoleum at Halicarnassus"
+    ],
+    "explanation": "The Hanging Gardens of Babylon were said to be located in ancient Babylon, near modern-day Hillah, Iraq."
+  },
+  {
+    "question": "The first successful powered airplane flight was made in which year?",
+    "answer": "1903",
+    "choices": [
+      "1903",
+      "1905",
+      "1899",
+      "1910"
+    ],
+    "explanation": "The Wright Brothers made the first successful powered airplane flight at Kitty Hawk, North Carolina on December 17, 1903."
+  },
+  {
+    "question": "The Protestant Reformation was initiated by which figure?",
+    "answer": "Martin Luther",
+    "choices": [
+      "Martin Luther",
+      "John Calvin",
+      "Henry VIII",
+      "Ulrich Zwingli"
+    ],
+    "explanation": "Martin Luther ignited the Protestant Reformation in 1517 when he published his 95 Theses against Catholic practices."
+  },
+  {
+    "question": "Which two nations fought the Falklands War?",
+    "answer": "Argentina and United Kingdom",
+    "choices": [
+      "Argentina and United Kingdom",
+      "Chile and Argentina",
+      "Brazil and United Kingdom",
+      "Spain and United Kingdom"
+    ],
+    "explanation": "The Falklands War in 1982 was fought between Argentina and the United Kingdom over the Falkland Islands."
+  },
+  {
+    "question": "The Battle of Midway was a turning point in which theater of World War II?",
+    "answer": "Pacific Theater",
+    "choices": [
+      "Pacific Theater",
+      "European Theater",
+      "North African Campaign",
+      "Eastern Front"
+    ],
+    "explanation": "The Battle of Midway in June 1942 was a decisive US victory that turned the tide of the war in the Pacific."
+  },
+  {
+    "question": "Which Greek historian is known as the 'Father of History'?",
+    "answer": "Herodotus",
+    "choices": [
+      "Herodotus",
+      "Thucydides",
+      "Plutarch",
+      "Xenophon"
+    ],
+    "explanation": "Herodotus (c. 484\u2013425 BC) wrote extensively about the Greco-Persian Wars and is called the Father of History."
+  },
+  {
+    "question": "The Six-Day War in 1967 was fought by Israel against which group of nations?",
+    "answer": "Egypt, Jordan, and Syria",
+    "choices": [
+      "Egypt, Jordan, and Syria",
+      "Egypt and Saudi Arabia",
+      "Lebanon, Syria, and Jordan",
+      "Egypt and Libya"
+    ],
+    "explanation": "In June 1967, Israel fought and defeated Egypt, Jordan, and Syria in six days, capturing significant territory."
+  },
+  {
+    "question": "Which civilization built the city of Babylon?",
+    "answer": "Babylonian (Akkadian)",
+    "choices": [
+      "Babylonian (Akkadian)",
+      "Sumerian",
+      "Assyrian",
+      "Persian"
+    ],
+    "explanation": "Babylon was the capital of the ancient Babylonian Empire and one of the great cities of the ancient world."
+  },
+  {
+    "question": "The Cultural Revolution in China was launched by which leader?",
+    "answer": "Mao Zedong",
+    "choices": [
+      "Mao Zedong",
+      "Deng Xiaoping",
+      "Zhou Enlai",
+      "Jiang Zemin"
+    ],
+    "explanation": "Mao Zedong launched the Cultural Revolution in 1966 to reassert communist ideology and eliminate political rivals."
+  },
+  {
+    "question": "Which US territory was attacked on December 7, 1941, drawing America into WWII?",
+    "answer": "Pearl Harbor, Hawaii",
+    "choices": [
+      "Pearl Harbor, Hawaii",
+      "Guam",
+      "Philippines",
+      "Wake Island"
+    ],
+    "explanation": "Japan's surprise attack on the Pearl Harbor naval base in Hawaii on December 7, 1941 prompted US entry into WWII."
+  },
+  {
+    "question": "The Congress of Vienna in 1815 was called to resolve the aftermath of which conflicts?",
+    "answer": "Napoleonic Wars",
+    "choices": [
+      "Napoleonic Wars",
+      "Seven Years' War",
+      "Thirty Years' War",
+      "French Revolution only"
+    ],
+    "explanation": "The Congress of Vienna (1814\u20131815) redrew Europe's political map after the Napoleonic Wars."
+  },
+  {
+    "question": "Which ancient Greek scientist first calculated the circumference of the Earth?",
+    "answer": "Eratosthenes",
+    "choices": [
+      "Eratosthenes",
+      "Archimedes",
+      "Pythagoras",
+      "Ptolemy"
+    ],
+    "explanation": "Eratosthenes calculated Earth's circumference around 240 BC using the angles of shadows in different Egyptian cities."
+  },
+  {
+    "question": "The Glorious Revolution of 1688 took place in which country?",
+    "answer": "England",
+    "choices": [
+      "England",
+      "France",
+      "Netherlands",
+      "Scotland"
+    ],
+    "explanation": "England's Glorious Revolution of 1688 saw William III of Orange replace King James II without armed conflict."
+  },
+  {
+    "question": "Which medieval explorer described his travels to China in a famous book?",
+    "answer": "Marco Polo",
+    "choices": [
+      "Marco Polo",
+      "Ibn Battuta",
+      "Zheng He",
+      "Vasco da Gama"
+    ],
+    "explanation": "Marco Polo's book 'The Travels of Marco Polo' described his journeys to China and the court of Kublai Khan."
+  },
+  {
+    "question": "The Trail of Tears was the forced relocation of which Native American tribe?",
+    "answer": "Cherokee",
+    "choices": [
+      "Cherokee",
+      "Sioux",
+      "Apache",
+      "Navajo"
+    ],
+    "explanation": "The Trail of Tears (1838\u20131839) was the forced relocation of the Cherokee Nation, resulting in thousands of deaths."
+  },
+  {
+    "question": "Which civilization is credited with inventing democracy?",
+    "answer": "Ancient Athens",
+    "choices": [
+      "Ancient Athens",
+      "Roman Republic",
+      "Ancient Sparta",
+      "Carthage"
+    ],
+    "explanation": "Democracy originated in ancient Athens under Cleisthenes around 508 BC, establishing the concept of citizen governance."
+  },
+  {
+    "question": "The Warsaw Pact was a military alliance of which bloc of nations?",
+    "answer": "Soviet-led Eastern Bloc",
+    "choices": [
+      "Soviet-led Eastern Bloc",
+      "Western NATO nations",
+      "Non-aligned nations",
+      "Arab League nations"
+    ],
+    "explanation": "The Warsaw Pact (1955\u20131991) was a collective defense treaty among the Soviet Union and its Eastern European satellite states."
+  },
+  {
+    "question": "Which Mongol ruler sacked Baghdad in 1258, ending the Abbasid Caliphate?",
+    "answer": "Hulagu Khan",
+    "choices": [
+      "Hulagu Khan",
+      "Genghis Khan",
+      "Kublai Khan",
+      "\u00d6gedei Khan"
+    ],
+    "explanation": "Hulagu Khan, grandson of Genghis Khan, sacked Baghdad in 1258 and executed the Abbasid Caliph, ending 500 years of caliphate rule."
+  },
+  {
+    "question": "The Reformation Parliament in England was associated with which monarch?",
+    "answer": "Henry VIII",
+    "choices": [
+      "Henry VIII",
+      "Edward VI",
+      "Mary I",
+      "Elizabeth I"
+    ],
+    "explanation": "Henry VIII's Reformation Parliament (1529\u20131536) passed laws separating the Church of England from papal authority."
   }
 ]
