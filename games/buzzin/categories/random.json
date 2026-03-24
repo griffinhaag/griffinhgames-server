@@ -8,7 +8,7 @@
       "12",
       "15"
     ],
-    "explanation": "A decathlon has 10 track-and-field events spread over two days. It adds context beyond the answer itself."
+    "explanation": "A decathlon has 10 track-and-field events spread over two days."
   },
   {
     "question": "What is the most-visited museum in the world?",
@@ -52,7 +52,7 @@
       "Arctic Ocean",
       "Pacific Ocean"
     ],
-    "explanation": "The Pacific Ocean is the largest and deepest of Earth's five oceans. It adds context beyond the answer itself."
+    "explanation": "The Pacific Ocean is the largest and deepest of Earth's five oceans."
   },
   {
     "question": "Which chess piece can move in an L-shape?",
@@ -217,7 +217,7 @@
       "William Shakespeare",
       "John Webster"
     ],
-    "explanation": "William Shakespeare wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "William Shakespeare wrote Romeo and Juliet around 1594–1596. It remains the most performed play in history and defined the romantic tragedy genre."
   },
   {
     "question": "Which element has the atomic number 1?",
@@ -514,7 +514,7 @@
       "Harold Pinter",
       "Tom Stoppard"
     ],
-    "explanation": "Samuel Beckett wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Samuel Beckett wrote Waiting for Godot in French in 1948 and translated it himself in 1954. Its two acts of circular waiting made it the defining work of Theatre of the Absurd."
   },
   {
     "question": "Who wrote 'The Count of Monte Cristo'?",
@@ -536,7 +536,7 @@
       "Victor Hugo",
       "Stendhal"
     ],
-    "explanation": "Gustave Flaubert wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Gustave Flaubert published Madame Bovary in 1857. Its meticulous prose style and unflinching portrayal of provincial adultery sparked a landmark obscenity trial in France."
   },
   {
     "question": "Who wrote 'The Three Musketeers'?",
@@ -558,7 +558,7 @@
       "Guy de Maupassant",
       "Gustave Flaubert"
     ],
-    "explanation": "Victor Hugo wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Victor Hugo published The Hunchback of Notre-Dame in 1831. Set in 15th-century Paris, it helped spur the restoration movement that saved the cathedral's Gothic architecture."
   },
   {
     "question": "Who wrote 'Journey to the Center of the Earth'?",
@@ -569,7 +569,7 @@
       "Robert Louis Stevenson",
       "Arthur Conan Doyle"
     ],
-    "explanation": "Jules Verne wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Jules Verne published Journey to the Center of the Earth in 1864. It is one of the founding works of science fiction, inspiring the genre for generations."
   },
   {
     "question": "Who wrote 'The Time Machine'?",
@@ -580,7 +580,7 @@
       "Arthur C. Clarke",
       "Ray Bradbury"
     ],
-    "explanation": "H. G. Wells wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "H. G. Wells published The Time Machine in 1895, one of the first works to use a vehicle explicitly for traveling through time. Wells coined the term 'time machine.'"
   },
   {
     "question": "Who wrote 'Treasure Island'?",
@@ -591,7 +591,7 @@
       "Rudyard Kipling",
       "Jack London"
     ],
-    "explanation": "Robert Louis Stevenson wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Robert Louis Stevenson published Treasure Island in 1883, originally serialised in a boys' magazine. It created many of piracy's enduring tropes: treasure maps, 'X marks the spot,' and Long John Silver."
   },
   {
     "question": "Who wrote 'Dracula'?",
@@ -602,7 +602,7 @@
       "Bramwell Brontë",
       "Oscar Wilde"
     ],
-    "explanation": "Bram Stoker wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Bram Stoker published Dracula in 1897. Though not a bestseller in his lifetime, the epistolary novel spawned an enduring genre and made Dracula the most famous vampire in fiction."
   },
   {
     "question": "Who wrote 'The Picture of Dorian Gray'?",
@@ -613,7 +613,7 @@
       "George Bernard Shaw",
       "Thomas Hardy"
     ],
-    "explanation": "Oscar Wilde wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Oscar Wilde wrote The Picture of Dorian Gray (1890) and The Importance of Being Earnest (1895), cementing his reputation as the wittiest voice of the Victorian era."
   },
   {
     "question": "Who wrote 'The Wonderful Wizard of Oz'?",
@@ -624,7 +624,7 @@
       "J. M. Barrie",
       "Kenneth Grahame"
     ],
-    "explanation": "L. Frank Baum wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "L. Frank Baum published The Wonderful Wizard of Oz in 1900. The 1939 MGM film adaptation starring Judy Garland became one of the most-watched films in history."
   },
   {
     "question": "Who wrote 'The Wind in the Willows'?",
@@ -635,7 +635,7 @@
       "Beatrix Potter",
       "L. Frank Baum"
     ],
-    "explanation": "Kenneth Grahame wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Kenneth Grahame published The Wind in the Willows in 1908. The story of Mole, Rat, and Toad began as bedtime tales Grahame told his son."
   },
   {
     "question": "Who wrote 'Anne of Green Gables'?",
@@ -646,7 +646,7 @@
       "Frances Hodgson Burnett",
       "Kate Douglas Wiggin"
     ],
-    "explanation": "L. M. Montgomery wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "L. M. Montgomery published Anne of Green Gables in 1908. The novel was rejected five times before publication and has since sold over 50 million copies worldwide."
   },
   {
     "question": "Who wrote 'Little Women'?",
@@ -657,7 +657,7 @@
       "George Eliot",
       "Edith Wharton"
     ],
-    "explanation": "Louisa May Alcott wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Louisa May Alcott published Little Women in two parts in 1868–1869. Based loosely on her own childhood, it became one of the first American novels to feature a young woman as the central moral force."
   },
   {
     "question": "Who wrote 'The Secret Garden'?",
@@ -668,7 +668,7 @@
       "Louisa May Alcott",
       "Beatrix Potter"
     ],
-    "explanation": "Frances Hodgson Burnett wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Frances Hodgson Burnett published The Secret Garden in 1911. The novel's themes of nature, neglect, and healing have made it one of the best-loved children's books of the 20th century."
   },
   {
     "question": "Who wrote 'Walden'?",
@@ -679,7 +679,7 @@
       "Walt Whitman",
       "Nathaniel Hawthorne"
     ],
-    "explanation": "Henry David Thoreau wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Henry David Thoreau published Walden in 1854, reflecting on two years he spent living simply in a cabin near Walden Pond in Massachusetts. It became a foundational text of American transcendentalism."
   },
   {
     "question": "Who wrote 'The Scarlet Letter'?",
@@ -690,7 +690,7 @@
       "Ralph Waldo Emerson",
       "Washington Irving"
     ],
-    "explanation": "Nathaniel Hawthorne wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Nathaniel Hawthorne published The Scarlet Letter in 1850. Set in Puritan Boston, it explores guilt, sin, and redemption, and is considered the first American psychological novel."
   },
   {
     "question": "Who wrote 'The Age of Innocence'?",
@@ -701,7 +701,7 @@
       "Kate Chopin",
       "Pearl S. Buck"
     ],
-    "explanation": "Edith Wharton wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Edith Wharton published The Age of Innocence in 1920. She became the first woman to win the Pulitzer Prize for Fiction, recognised for her sharp portraits of New York society."
   },
   {
     "question": "Who wrote 'The House on Mango Street'?",
@@ -712,7 +712,7 @@
       "Isabel Allende",
       "Ana Castillo"
     ],
-    "explanation": "Sandra Cisneros wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Sandra Cisneros published The House on Mango Street in 1984. Written in vignettes, it follows a young Chicana girl growing up in Chicago and is widely taught in American schools."
   },
   {
     "question": "Who wrote 'The Unbearable Lightness of Being'?",
@@ -723,7 +723,7 @@
       "Bohumil Hrabal",
       "Jaroslav Hašek"
     ],
-    "explanation": "Milan Kundera wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Milan Kundera published The Unbearable Lightness of Being in 1984 while living in exile in France. The novel uses the 1968 Prague Spring as a backdrop to explore love, politics, and existence."
   },
   {
     "question": "Who wrote 'Doctor Zhivago'?",
@@ -734,7 +734,7 @@
       "Mikhail Bulgakov",
       "Leo Tolstoy"
     ],
-    "explanation": "Boris Pasternak wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Boris Pasternak completed Doctor Zhivago in 1957 but could not publish it in the Soviet Union. It was smuggled to Italy and published there, leading to his Nobel Prize — which Soviet authorities forced him to decline."
   },
   {
     "question": "Who wrote 'Norwegian Wood'?",
@@ -745,7 +745,7 @@
       "Kenzaburō Ōe",
       "Banana Yoshimoto"
     ],
-    "explanation": "Haruki Murakami wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Haruki Murakami published Norwegian Wood in 1987. Named after the Beatles song, it sold over 4 million copies in Japan within months and made Murakami an international literary star."
   },
   {
     "question": "Who wrote 'The Tale of Genji'?",
@@ -756,7 +756,7 @@
       "Yasunari Kawabata",
       "Haruki Murakami"
     ],
-    "explanation": "Murasaki Shikibu wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Murasaki Shikibu wrote The Tale of Genji around 1008 AD. Written at the Japanese imperial court, it is widely considered the world's first novel and an unparalleled portrait of Heian aristocratic life."
   },
   {
     "question": "Who wrote 'The Pillow Book'?",
@@ -767,7 +767,7 @@
       "Akiko Yosano",
       "Yoko Ogawa"
     ],
-    "explanation": "Sei Shōnagon wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Sei Shōnagon wrote The Pillow Book around 1002 AD at the Japanese imperial court. The witty collection of observations, lists, and reflections is a landmark of Japanese prose literature."
   },
   {
     "question": "Who wrote 'Midnight's Children'?",
@@ -778,7 +778,7 @@
       "R. K. Narayan",
       "V. S. Naipaul"
     ],
-    "explanation": "Salman Rushdie wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Salman Rushdie published Midnight's Children in 1981. The novel won the Booker Prize and was later voted the 'Booker of Bookers' — the best novel among all Booker Prize winners."
   },
   {
     "question": "Who wrote 'The God of Small Things'?",
@@ -789,7 +789,7 @@
       "Anita Desai",
       "Kiran Desai"
     ],
-    "explanation": "Arundhati Roy wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Arundhati Roy published The God of Small Things in 1997. The novel won the Booker Prize and sold over 6 million copies, making Roy the first Indian woman to win the award."
   },
   {
     "question": "Who wrote 'Season of Migration to the North'?",
@@ -800,7 +800,7 @@
       "Amin Maalouf",
       "Chinua Achebe"
     ],
-    "explanation": "Tayeb Salih wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Tayeb Salih published Season of Migration to the North in 1966. The Arabic novel, often called the most important Arabic novel of the 20th century, inverts the narrative of Conrad's Heart of Darkness."
   },
   {
     "question": "Who wrote 'My Name Is Red'?",
@@ -811,7 +811,7 @@
       "Yaşar Kemal",
       "Naguib Mahfouz"
     ],
-    "explanation": "Orhan Pamuk wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Orhan Pamuk published My Name Is Red in 1998. Set in 16th-century Ottoman Istanbul, the multi-voiced murder mystery won the International Booker Prize and led to his Nobel Prize in 2006."
   },
   {
     "question": "Who wrote 'The Leopard'?",
@@ -822,7 +822,7 @@
       "Italo Calvino",
       "Primo Levi"
     ],
-    "explanation": "Giuseppe Tomasi di Lampedusa wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Giuseppe Tomasi di Lampedusa wrote The Leopard as his only novel, published posthumously in 1958. Set during the Risorgimento, it is considered the greatest Italian novel of the 20th century."
   },
   {
     "question": "Who wrote 'If on a winter's night a traveler'?",
@@ -833,7 +833,7 @@
       "Primo Levi",
       "Dino Buzzati"
     ],
-    "explanation": "Italo Calvino wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Italo Calvino published If on a winter's night a traveler in 1979. The postmodern novel is written in the second person and consists of the beginnings of ten different books, never completed."
   },
   {
     "question": "Who wrote 'The Tin Drum'?",
@@ -844,7 +844,7 @@
       "Heinrich Böll",
       "Hermann Hesse"
     ],
-    "explanation": "Günter Grass wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Günter Grass published The Tin Drum in 1959 as part of his Danzig Trilogy. The surrealist novel about Nazi Germany and post-war guilt won the Nobel Prize in Literature in 1999."
   },
   {
     "question": "Who wrote 'Steppenwolf'?",
@@ -855,7 +855,7 @@
       "Hermann Hesse",
       "Heinrich Böll"
     ],
-    "explanation": "Hermann Hesse wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Hermann Hesse published Steppenwolf in 1927. The novel explores alienation and the duality of human nature, and became enormously influential in the 1960s counterculture movement."
   },
   {
     "question": "Who wrote 'The Good Earth'?",
@@ -866,7 +866,7 @@
       "Edith Wharton",
       "Anzia Yezierska"
     ],
-    "explanation": "Pearl S. Buck wrote the work, which became a widely taught classic in its genre and era."
+    "explanation": "Pearl S. Buck published The Good Earth in 1931, depicting rural life in China before and after the revolution. It won the Pulitzer Prize in 1932 and contributed to her Nobel Prize in 1938."
   },
   {
     "question": "Which fictional detective lives at 221B Baker Street?",
@@ -1108,7 +1108,7 @@
       "white beans",
       "fava beans"
     ],
-    "explanation": "Chickpeas provide hummus with its creamy base and mild, nutty flavor. It adds context beyond the answer itself."
+    "explanation": "Chickpeas provide hummus with its creamy base and mild, nutty flavor."
   },
   {
     "question": "Which spice is made from dried stigmas of a crocus flower?",
@@ -1317,7 +1317,7 @@
       "strudel",
       "baklava"
     ],
-    "explanation": "madeleine is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "A madeleine is a small French sponge cake baked in a shell-shaped mold. It was immortalised by Marcel Proust in In Search of Lost Time as a trigger for involuntary memory."
   },
   {
     "question": "Which sweetener is made by bees?",
@@ -1328,7 +1328,7 @@
       "honey",
       "agave"
     ],
-    "explanation": "honey is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Honey is produced by bees from flower nectar. It has been used as a sweetener for at least 8,000 years and never spoils — edible honey has been found in ancient Egyptian tombs."
   },
   {
     "question": "Which fruit is dried to make prunes?",
@@ -1339,7 +1339,7 @@
       "date",
       "fig"
     ],
-    "explanation": "plum is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Prunes are dried plums, most commonly made from the European plum (Prunus domestica). The drying concentrates the sugars and gives prunes their distinctive wrinkled texture."
   },
   {
     "question": "Which nut is the key ingredient in marzipan?",
@@ -1350,7 +1350,7 @@
       "cashew",
       "pecan"
     ],
-    "explanation": "almond is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Almonds are the key ingredient in marzipan, ground into a paste with sugar. Botanically, almonds are seeds of a drupe fruit, making them technically not nuts."
   },
   {
     "question": "Which seed paste is commonly used in hummus?",
@@ -1361,7 +1361,7 @@
       "harissa",
       "gochujang"
     ],
-    "explanation": "tahini is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Tahini is a paste made from ground sesame seeds, essential to hummus and baba ganoush. It is rich in calcium and healthy fats and is a staple of Middle Eastern cooking."
   },
   {
     "question": "Which chili paste is central to many Korean dishes?",
@@ -1372,7 +1372,7 @@
       "sambal",
       "doubanjiang"
     ],
-    "explanation": "gochujang is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Gochujang is a fermented Korean chili paste made from red chili peppers, glutinous rice, and fermented soybeans. Fermentation gives it a deep umami flavour alongside its heat."
   },
   {
     "question": "Which North African condiment is a spicy paste made from chili peppers?",
@@ -1383,7 +1383,7 @@
       "chermoula",
       "dukkah"
     ],
-    "explanation": "harissa is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Harissa is a North African chili paste originating in Tunisia, made from roasted chili peppers, garlic, olive oil, and spices like coriander and cumin. It is a staple condiment across the Maghreb."
   },
   {
     "question": "Which spice blend commonly includes sesame, thyme, and sumac in Levantine cooking?",
@@ -1394,7 +1394,7 @@
       "garam masala",
       "five-spice powder"
     ],
-    "explanation": "za'atar is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Za'atar is a Levantine spice blend typically containing dried thyme, sesame seeds, sumac, and salt. It is used as a seasoning, dip, and condiment across Middle Eastern cooking."
   },
   {
     "question": "Which dish features raw fish marinated in citrus in Peruvian cuisine?",
@@ -1416,7 +1416,7 @@
       "adobo",
       "sofrito"
     ],
-    "explanation": "mole is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Mole is a complex Mexican sauce with pre-Columbian roots. Mole negro, the most famous variety, can contain over 30 ingredients including multiple dried chilis, spices, and dark chocolate."
   },
   {
     "question": "Which bread is typically split to make a Middle Eastern pocket sandwich?",
@@ -1460,7 +1460,7 @@
       "tarte tatin",
       "churro"
     ],
-    "explanation": "pastel de nata is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Pastel de nata is a Portuguese custard tart originating in the Jerónimos Monastery in Lisbon in the 18th century. The recipe was commercialised after the monastery closed in 1834."
   },
   {
     "question": "Which West African rice dish is widely associated with festive cooking in Nigeria and Ghana?",
@@ -1471,7 +1471,7 @@
       "pilau",
       "risotto"
     ],
-    "explanation": "jollof rice is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Jollof rice is a West African one-pot rice dish cooked in a tomato-based sauce. Its origins are hotly debated between Nigeria, Ghana, and Senegal in what fans call the 'Jollof Wars.'"
   },
   {
     "question": "Which South Asian rice dish is layered and spiced, often with meat or vegetables?",
@@ -1482,7 +1482,7 @@
       "risotto",
       "congee"
     ],
-    "explanation": "biryani is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Biryani is a layered South Asian rice dish cooked with spiced meat, vegetables, and aromatic rice. It traces its origins to the Mughal Empire, with distinct regional variations across India."
   },
   {
     "question": "Which Greek pie is typically filled with spinach and feta?",
@@ -1493,7 +1493,7 @@
       "moussaka",
       "pastitsio"
     ],
-    "explanation": "spanakopita is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Spanakopita is a Greek savoury pastry filled with spinach and feta cheese wrapped in phyllo dough. It is a staple of Greek meze and is eaten as a snack or main course."
   },
   {
     "question": "Which cooking method uses dry heat in an oven without added liquid?",
@@ -1504,7 +1504,7 @@
       "roasting",
       "braising"
     ],
-    "explanation": "roasting is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Roasting uses dry oven heat to cook food, developing a browned crust through the Maillard reaction. It differs from baking mainly by convention — meats are roasted, pastries are baked."
   },
   {
     "question": "Which cooking method gently cooks food in liquid below a full boil?",
@@ -1515,7 +1515,7 @@
       "grilling",
       "roasting"
     ],
-    "explanation": "poaching is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Poaching cooks food gently in liquid between 70–80°C (160–180°F), below a simmer. It is ideal for delicate proteins like eggs and fish, preserving moisture and texture."
   },
   {
     "question": "Which process means cooking pasta until it still has a little bite?",
@@ -1526,7 +1526,7 @@
       "en papillote",
       "mise en place"
     ],
-    "explanation": "al dente is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Al dente is Italian for 'to the tooth.' Pasta cooked al dente has a slightly firm bite, retains its shape better, and has a lower glycaemic index than overcooked pasta."
   },
   {
     "question": "Which kitchen term means preparing and arranging ingredients before cooking begins?",
@@ -1537,7 +1537,7 @@
       "roux",
       "confit"
     ],
-    "explanation": "mise en place is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Mise en place is French for 'everything in its place.' The professional kitchen practice of prepping all ingredients before cooking reduces errors and speeds up service."
   },
   {
     "question": "Which sculptor created 'The Thinker'?",
@@ -1548,7 +1548,7 @@
       "Donatello",
       "Gian Lorenzo Bernini"
     ],
-    "explanation": "Auguste Rodin is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Auguste Rodin created The Thinker in 1882 as part of his monumental Gates of Hell. Originally titled The Poet, it has become the world's most recognisable sculpture."
   },
   {
     "question": "Which architect designed Fallingwater in Pennsylvania?",
@@ -1559,7 +1559,7 @@
       "Mies van der Rohe",
       "Philip Johnson"
     ],
-    "explanation": "Frank Lloyd Wright is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Frank Lloyd Wright designed Fallingwater in 1935 as a weekend home for the Kaufmann family over a waterfall in Pennsylvania. It is the most famous private residence in architectural history."
   },
   {
     "question": "Which architect coined the phrase 'Less is more'?",
@@ -1570,7 +1570,7 @@
       "Frank Lloyd Wright",
       "Louis Sullivan"
     ],
-    "explanation": "Mies van der Rohe is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Ludwig Mies van der Rohe championed minimalist Modernism with the phrase 'Less is more.' His Barcelona Pavilion (1929) and Seagram Building (1958) defined 20th-century architecture."
   },
   {
     "question": "Which architect designed the Sydney Opera House?",
@@ -1581,7 +1581,7 @@
       "I. M. Pei",
       "Santiago Calatrava"
     ],
-    "explanation": "Jørn Utzon is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Danish architect Jørn Utzon won the commission to design the Sydney Opera House in 1957. He resigned from the project in 1966 but was awarded the Pritzker Prize in 2003 — architecture's highest honour."
   },
   {
     "question": "Which architect designed the glass pyramid at the Louvre?",
@@ -1592,7 +1592,7 @@
       "Norman Foster",
       "César Pelli"
     ],
-    "explanation": "I. M. Pei is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "I. M. Pei's glass Louvre Pyramid was unveiled in 1989 and became one of Paris's most visited landmarks, despite initial public outrage over its modern design beside a Renaissance palace."
   },
   {
     "question": "Which painting technique mixes pigment with wet plaster?",
@@ -1603,7 +1603,7 @@
       "encaustic",
       "watercolor"
     ],
-    "explanation": "fresco is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Fresco is a wall-painting technique where pigment is applied to wet plaster. As the plaster dries it chemically bonds the colour to the wall. Michelangelo's Sistine Chapel ceiling is the most famous fresco."
   },
   {
     "question": "Which printmaking method uses a carved wooden block?",
@@ -1614,7 +1614,7 @@
       "woodcut",
       "screenprint"
     ],
-    "explanation": "woodcut is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Woodcut is the oldest printmaking technique, used since antiquity in Asia. Hokusai's The Great Wave is one of the most famous woodcut prints, made around 1831."
   },
   {
     "question": "Which style features bright unnatural color associated with Matisse?",
@@ -1625,7 +1625,7 @@
       "Suprematism",
       "Neoclassicism"
     ],
-    "explanation": "Fauvism is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Fauvism was launched in 1905 when Henri Matisse and others showed wildly colourful paintings at the Salon d'Automne. A critic called them 'fauves' (wild beasts), and the name stuck."
   },
   {
     "question": "Which movement used chance, collage, and anti-art gestures during World War I?",
@@ -1636,7 +1636,7 @@
       "Romanticism",
       "Mannerism"
     ],
-    "explanation": "Dada is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Dada began in Zurich in 1916 as a protest against the nationalism and rationalism that Dadaists blamed for World War I. Key figures included Marcel Duchamp, whose Fountain (1917) — a urinal — became iconic."
   },
   {
     "question": "Which museum in Madrid is best known for works by Velázquez and Goya?",
@@ -1647,7 +1647,7 @@
       "Rijksmuseum",
       "Musée d'Orsay"
     ],
-    "explanation": "Museo del Prado is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "The Museo del Prado in Madrid opened in 1819 and holds one of the world's finest collections of European art, including major works by Velázquez, Goya, El Greco, and Rubens."
   },
   {
     "question": "Which museum in Amsterdam is famous for Dutch Golden Age masters including Rembrandt?",
@@ -1658,7 +1658,7 @@
       "Louvre",
       "Tate Britain"
     ],
-    "explanation": "Rijksmuseum is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "The Rijksmuseum in Amsterdam reopened after a decade-long renovation in 2013. It houses Rembrandt's The Night Watch (1642), the largest and most famous Dutch Golden Age painting."
   },
   {
     "question": "Which museum in Florence houses Botticelli's 'The Birth of Venus'?",
@@ -1669,7 +1669,7 @@
       "Accademia",
       "Prado"
     ],
-    "explanation": "Uffizi Gallery is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "The Uffizi Gallery in Florence was built in 1560 and opened to the public in 1765. It houses the world's finest collection of Italian Renaissance art, including Botticelli's The Birth of Venus."
   },
   {
     "question": "Which museum in Paris specializes in art from 1848 to 1914 and is housed in a former railway station?",
@@ -1680,7 +1680,7 @@
       "Louvre",
       "Petit Palais"
     ],
-    "explanation": "Musée d'Orsay is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "The Musée d'Orsay opened in 1986 in a Beaux-Arts railway station built for the 1900 Paris Exposition. It houses the world's largest collection of Impressionist and Post-Impressionist masterpieces."
   },
   {
     "question": "Which museum in New York is often abbreviated as MoMA?",
@@ -1691,7 +1691,7 @@
       "Whitney Museum",
       "Guggenheim Museum"
     ],
-    "explanation": "Museum of Modern Art is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "MoMA (Museum of Modern Art) in New York opened in 1929. Its collection includes Picasso's Les Demoiselles d'Avignon, Van Gogh's The Starry Night, and Warhol's Campbell's Soup Cans."
   },
   {
     "question": "Which artist painted 'The Calling of Saint Matthew'?",
@@ -1702,7 +1702,7 @@
       "Titian",
       "Tintoretto"
     ],
-    "explanation": "Caravaggio is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Caravaggio painted The Calling of Saint Matthew in 1600 for the Contarelli Chapel in Rome. His dramatic use of chiaroscuro — extreme contrast of light and dark — defined the Baroque style."
   },
   {
     "question": "Which artist is known for drip paintings and action painting?",
@@ -1713,7 +1713,7 @@
       "Barnett Newman",
       "Willem de Kooning"
     ],
-    "explanation": "Jackson Pollock is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Jackson Pollock pioneered action painting and the drip technique in the late 1940s. His No. 5, 1948 sold for $140 million in 2006, one of the highest prices ever paid for a painting."
   },
   {
     "question": "Which artist is known for giant balloon-animal sculptures in polished metal?",
@@ -1724,7 +1724,7 @@
       "Takashi Murakami",
       "Banksy"
     ],
-    "explanation": "Jeff Koons is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Jeff Koons created his Balloon Dog series in polished mirror-finished stainless steel in the 1990s. His Orange Balloon Dog sold for $58.4 million in 2013, a record for a living artist at the time."
   },
   {
     "question": "Which street artist is best known under an anonymous pseudonym associated with stencil work?",
@@ -1735,7 +1735,7 @@
       "Shepard Fairey",
       "Invader"
     ],
-    "explanation": "Banksy is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Banksy is an anonymous British street artist whose satirical stencil works appear on walls worldwide. In 2018 his Girl with Balloon shredded itself seconds after selling for £1 million at Sotheby's."
   },
   {
     "question": "Which artist designed the 'LOVE' sculpture with stacked letters?",
@@ -1746,7 +1746,7 @@
       "Keith Haring",
       "Roy Lichtenstein"
     ],
-    "explanation": "Robert Indiana is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Robert Indiana created the iconic LOVE sculpture in 1970, with its tilted O. It was first designed as a Museum of Modern Art Christmas card in 1964 and has been reproduced worldwide."
   },
   {
     "question": "Which artist is associated with black-and-white striped interventions in public space?",
@@ -1757,7 +1757,7 @@
       "Olafur Eliasson",
       "Ai Weiwei"
     ],
-    "explanation": "Daniel Buren is the answer named in the clue, based on a standard fact or calculation."
+    "explanation": "Daniel Buren has used alternating 8.7cm vertical stripes as his signature motif since 1965. His in-situ installations transform architectural spaces and challenge the boundaries between art and environment."
   },
   {
     "question": "Which term means a word formed from the first letters of a phrase and pronounced as a word, like NASA?",
@@ -2241,7 +2241,7 @@
       "1760",
       "2000"
     ],
-    "explanation": "1760 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "One mile contains 1,760 yards. The mile derives from the Roman mille passuum (1,000 paces of two steps each), and the yard was standardised in England in the 13th century."
   },
   {
     "question": "How many days are there in a fortnight?",
@@ -2252,7 +2252,7 @@
       "14",
       "21"
     ],
-    "explanation": "14 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "A fortnight is 14 days — two full weeks. The word comes from the Old English 'fēowertyne niht,' meaning fourteen nights. It remains in common use in British and Australian English."
   },
   {
     "question": "How many hours are in two weeks?",
@@ -2263,7 +2263,7 @@
       "336",
       "360"
     ],
-    "explanation": "336 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "Two weeks contain 336 hours: 14 days × 24 hours. This is a useful figure for time-management planning and contract durations."
   },
   {
     "question": "How many months have exactly 30 days?",
@@ -2285,7 +2285,7 @@
       "12",
       "13"
     ],
-    "explanation": "A dodecagon has 12 sides, making it a 12-sided polygon. It adds context beyond the answer itself."
+    "explanation": "A dodecagon has 12 sides, making it a 12-sided polygon."
   },
   {
     "question": "How many faces does a cube have?",
@@ -2296,7 +2296,7 @@
       "6",
       "8"
     ],
-    "explanation": "6 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "A cube has 6 faces, all of which are identical squares. Along with 8 vertices and 12 edges, it is one of the five Platonic solids."
   },
   {
     "question": "How many edges does a cube have?",
@@ -2318,7 +2318,7 @@
       "10",
       "12"
     ],
-    "explanation": "A cube has 8 vertices, one at each corner. It adds context beyond the answer itself."
+    "explanation": "A cube has 8 vertices, one at each corner."
   },
   {
     "question": "How many faces does a pentagonal prism have?",
@@ -2329,7 +2329,7 @@
       "7",
       "8"
     ],
-    "explanation": "7 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "A pentagonal prism has 7 faces: 2 pentagonal bases and 5 rectangular lateral faces. It also has 15 edges and 10 vertices."
   },
   {
     "question": "How many faces does a triangular prism have?",
@@ -2373,7 +2373,7 @@
       "30",
       "31"
     ],
-    "explanation": "30 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "September has 30 days. The mnemonic 'Thirty days hath September, April, June, and November' has been used to remember the shorter months since at least the 16th century."
   },
   {
     "question": "How many seconds are in one hour?",
@@ -2384,7 +2384,7 @@
       "3600",
       "7200"
     ],
-    "explanation": "3600 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "One hour contains 3,600 seconds: 60 minutes × 60 seconds. The 60-base system for time comes from ancient Babylonian mathematics."
   },
   {
     "question": "How many minutes are in a day?",
@@ -2395,7 +2395,7 @@
       "1440",
       "2880"
     ],
-    "explanation": "1440 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "One day contains 1,440 minutes: 24 hours × 60 minutes. The figure is used in medical dosing, data rate calculations, and productivity tracking."
   },
   {
     "question": "How many months are in three years?",
@@ -2406,7 +2406,7 @@
       "36",
       "48"
     ],
-    "explanation": "36 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "Three years contain 36 months. The Gregorian calendar divides each year into 12 months regardless of length, giving exactly 36 in three years."
   },
   {
     "question": "How many quarters are in five years?",
@@ -2428,7 +2428,7 @@
       "4",
       "5"
     ],
-    "explanation": "A trilogy has 3 books, usually linked as a three-part story. It adds context beyond the answer itself."
+    "explanation": "A trilogy has 3 books, usually linked as a three-part story."
   },
   {
     "question": "How many books are in a tetralogy?",
@@ -2439,7 +2439,7 @@
       "5",
       "6"
     ],
-    "explanation": "A tetralogy has 4 books, making it a four-part series. It adds context beyond the answer itself."
+    "explanation": "A tetralogy has 4 books, making it a four-part series."
   },
   {
     "question": "How many players make up a string quartet?",
@@ -2461,7 +2461,7 @@
       "4",
       "5"
     ],
-    "explanation": "A tercet has 3 lines and is a common poetic stanza form. It adds context beyond the answer itself."
+    "explanation": "A tercet has 3 lines and is a common poetic stanza form."
   },
   {
     "question": "How many lines are in an octave stanza?",
@@ -2472,7 +2472,7 @@
       "8",
       "10"
     ],
-    "explanation": "An octave stanza has 8 lines, often used in poetry and song forms. It adds context beyond the answer itself."
+    "explanation": "An octave stanza has 8 lines, often used in poetry and song forms."
   },
   {
     "question": "How many stars are on the flag of the European Union?",
@@ -2494,7 +2494,7 @@
       "14",
       "15"
     ],
-    "explanation": "13 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "Each suit in a standard 52-card deck has 13 cards: Ace, 2–10, Jack, Queen, and King. The 52-card deck originated in France in the 15th century and spread globally with trade."
   },
   {
     "question": "How many face cards are in a standard deck without jokers?",
@@ -2516,7 +2516,7 @@
       "26",
       "27"
     ],
-    "explanation": "26 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "The English alphabet has 26 letters, derived from the Latin alphabet. It is the most widely used alphabet in the world and reached its current form in the mid-19th century."
   },
   {
     "question": "How many vowels are commonly counted in the English alphabet?",
@@ -2527,7 +2527,7 @@
       "6",
       "7"
     ],
-    "explanation": "English is usually counted with 5 vowels: A, E, I, O, and U. It adds context beyond the answer itself."
+    "explanation": "English is usually counted with 5 vowels: A, E, I, O, and U."
   },
   {
     "question": "How many millimeters are in one meter?",
@@ -2549,7 +2549,7 @@
       "1000",
       "10000"
     ],
-    "explanation": "One kilogram contains 1000 grams, the standard metric conversion. It adds context beyond the answer itself."
+    "explanation": "One kilogram contains 1000 grams, the standard metric conversion."
   },
   {
     "question": "How many liters are in one kiloliter?",
@@ -2560,7 +2560,7 @@
       "1000",
       "10000"
     ],
-    "explanation": "One kiloliter contains 1000 liters, following metric prefix rules. It adds context beyond the answer itself."
+    "explanation": "One kiloliter contains 1000 liters, following metric prefix rules."
   },
   {
     "question": "How many kilobytes are in one megabyte under the common binary convention?",
@@ -2571,7 +2571,7 @@
       "2048",
       "4096"
     ],
-    "explanation": "1024 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "Under the binary (IEC) convention, 1 megabyte equals 1,024 kilobytes because 2¹⁰ = 1,024. Hard drive manufacturers often use the decimal convention (1,000 KB), which causes the apparent size discrepancy."
   },
   {
     "question": "How many bits are in one byte?",
@@ -2615,7 +2615,7 @@
       "52",
       "54"
     ],
-    "explanation": "52 is the count asked for in the clue, and it comes from a basic rule or definition."
+    "explanation": "364 days divided by 7 gives exactly 52 weeks with no remainder. A standard calendar year (365 days) has 52 weeks plus one extra day, or two extra days in a leap year."
   },
   {
     "question": "How many millennia are in 5000 years?",
@@ -2626,7 +2626,7 @@
       "6",
       "10"
     ],
-    "explanation": "Five millennia equal 5000 years, since one millennium is 1000 years. It adds context beyond the answer itself."
+    "explanation": "Five millennia equal 5000 years, since one millennium is 1000 years."
   },
   {
     "question": "How many decades are in a century?",
@@ -2637,7 +2637,7 @@
       "12",
       "20"
     ],
-    "explanation": "A century contains 10 decades, because each decade is 10 years. It adds context beyond the answer itself."
+    "explanation": "A century contains 10 decades, because each decade is 10 years."
   },
   {
     "question": "How many centuries are in a millennium?",
@@ -2659,963 +2659,6 @@
       "6",
       "7"
     ],
-    "explanation": "Half a year is 6 months, since a year is split into two equal halves. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 201 + 38?",
-    "answer": "239",
-    "choices": [
-      "239",
-      "240",
-      "238",
-      "249"
-    ],
-    "explanation": "201 + 38 = 239, so the sum is 239. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 202 + 39?",
-    "answer": "241",
-    "choices": [
-      "241",
-      "242",
-      "240",
-      "251"
-    ],
-    "explanation": "202 + 39 = 241, so the sum is 241. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 203 + 40?",
-    "answer": "243",
-    "choices": [
-      "243",
-      "244",
-      "242",
-      "253"
-    ],
-    "explanation": "203 + 40 = 243, so the sum is 243. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 204 + 41?",
-    "answer": "245",
-    "choices": [
-      "245",
-      "246",
-      "244",
-      "255"
-    ],
-    "explanation": "204 + 41 = 245, so the sum is 245. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 205 + 42?",
-    "answer": "247",
-    "choices": [
-      "247",
-      "248",
-      "246",
-      "257"
-    ],
-    "explanation": "205 + 42 = 247, so the sum is 247. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 206 + 43?",
-    "answer": "249",
-    "choices": [
-      "249",
-      "250",
-      "248",
-      "259"
-    ],
-    "explanation": "206 + 43 = 249, so the sum is 249. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 207 + 44?",
-    "answer": "251",
-    "choices": [
-      "251",
-      "252",
-      "250",
-      "261"
-    ],
-    "explanation": "207 + 44 = 251, so the sum is 251. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 208 + 45?",
-    "answer": "253",
-    "choices": [
-      "253",
-      "254",
-      "252",
-      "263"
-    ],
-    "explanation": "208 + 45 = 253, so the sum is 253. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 209 + 46?",
-    "answer": "255",
-    "choices": [
-      "255",
-      "256",
-      "254",
-      "265"
-    ],
-    "explanation": "209 + 46 = 255, so the sum is 255. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 210 + 47?",
-    "answer": "257",
-    "choices": [
-      "257",
-      "258",
-      "256",
-      "267"
-    ],
-    "explanation": "210 + 47 = 257, so the sum is 257. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 211 + 48?",
-    "answer": "259",
-    "choices": [
-      "259",
-      "260",
-      "258",
-      "269"
-    ],
-    "explanation": "211 + 48 = 259, so the sum is 259. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 212 + 49?",
-    "answer": "261",
-    "choices": [
-      "261",
-      "262",
-      "260",
-      "271"
-    ],
-    "explanation": "212 + 49 = 261, so the sum is 261. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 213 + 50?",
-    "answer": "263",
-    "choices": [
-      "263",
-      "264",
-      "262",
-      "273"
-    ],
-    "explanation": "213 + 50 = 263, so the sum is 263. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 214 + 51?",
-    "answer": "265",
-    "choices": [
-      "265",
-      "266",
-      "264",
-      "275"
-    ],
-    "explanation": "214 + 51 = 265, so the sum is 265. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 215 + 52?",
-    "answer": "267",
-    "choices": [
-      "267",
-      "268",
-      "266",
-      "277"
-    ],
-    "explanation": "215 + 52 = 267, so the sum is 267. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 216 + 53?",
-    "answer": "269",
-    "choices": [
-      "269",
-      "270",
-      "268",
-      "279"
-    ],
-    "explanation": "216 + 53 = 269, so the sum is 269. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 217 + 54?",
-    "answer": "271",
-    "choices": [
-      "271",
-      "272",
-      "270",
-      "281"
-    ],
-    "explanation": "217 + 54 = 271, so the sum is 271. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 218 + 55?",
-    "answer": "273",
-    "choices": [
-      "273",
-      "274",
-      "272",
-      "283"
-    ],
-    "explanation": "218 + 55 = 273, so the sum is 273. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 219 + 56?",
-    "answer": "275",
-    "choices": [
-      "275",
-      "276",
-      "274",
-      "285"
-    ],
-    "explanation": "219 + 56 = 275, so the sum is 275. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 220 + 57?",
-    "answer": "277",
-    "choices": [
-      "277",
-      "278",
-      "276",
-      "287"
-    ],
-    "explanation": "220 + 57 = 277, so the sum is 277. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 221 + 58?",
-    "answer": "279",
-    "choices": [
-      "279",
-      "280",
-      "278",
-      "289"
-    ],
-    "explanation": "221 + 58 = 279, so the sum is 279. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 222 + 59?",
-    "answer": "281",
-    "choices": [
-      "281",
-      "282",
-      "280",
-      "291"
-    ],
-    "explanation": "222 + 59 = 281, so the sum is 281. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 223 + 60?",
-    "answer": "283",
-    "choices": [
-      "283",
-      "284",
-      "282",
-      "293"
-    ],
-    "explanation": "223 + 60 = 283, so the sum is 283. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 224 + 61?",
-    "answer": "285",
-    "choices": [
-      "285",
-      "286",
-      "284",
-      "295"
-    ],
-    "explanation": "224 + 61 = 285, so the sum is 285. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 225 + 62?",
-    "answer": "287",
-    "choices": [
-      "287",
-      "288",
-      "286",
-      "297"
-    ],
-    "explanation": "225 + 62 = 287, so the sum is 287. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 226 + 63?",
-    "answer": "289",
-    "choices": [
-      "289",
-      "290",
-      "288",
-      "299"
-    ],
-    "explanation": "226 + 63 = 289, so the sum is 289. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 227 + 64?",
-    "answer": "291",
-    "choices": [
-      "291",
-      "292",
-      "290",
-      "301"
-    ],
-    "explanation": "227 + 64 = 291, so the sum is 291. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 228 + 65?",
-    "answer": "293",
-    "choices": [
-      "293",
-      "294",
-      "292",
-      "303"
-    ],
-    "explanation": "228 + 65 = 293, so the sum is 293. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 229 + 66?",
-    "answer": "295",
-    "choices": [
-      "295",
-      "296",
-      "294",
-      "305"
-    ],
-    "explanation": "229 + 66 = 295, so the sum is 295. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 230 + 67?",
-    "answer": "297",
-    "choices": [
-      "297",
-      "298",
-      "296",
-      "307"
-    ],
-    "explanation": "230 + 67 = 297, so the sum is 297. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 231 + 68?",
-    "answer": "299",
-    "choices": [
-      "299",
-      "300",
-      "298",
-      "309"
-    ],
-    "explanation": "231 + 68 = 299, so the sum is 299. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 232 + 69?",
-    "answer": "301",
-    "choices": [
-      "301",
-      "302",
-      "300",
-      "311"
-    ],
-    "explanation": "232 + 69 = 301, so the sum is 301. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 233 + 70?",
-    "answer": "303",
-    "choices": [
-      "303",
-      "304",
-      "302",
-      "313"
-    ],
-    "explanation": "233 + 70 = 303, so the sum is 303. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 234 + 71?",
-    "answer": "305",
-    "choices": [
-      "305",
-      "306",
-      "304",
-      "315"
-    ],
-    "explanation": "234 + 71 = 305, so the sum is 305. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 235 + 72?",
-    "answer": "307",
-    "choices": [
-      "307",
-      "308",
-      "306",
-      "317"
-    ],
-    "explanation": "235 + 72 = 307, so the sum is 307. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 236 + 73?",
-    "answer": "309",
-    "choices": [
-      "309",
-      "310",
-      "308",
-      "319"
-    ],
-    "explanation": "236 + 73 = 309, so the sum is 309. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 237 + 74?",
-    "answer": "311",
-    "choices": [
-      "311",
-      "312",
-      "310",
-      "321"
-    ],
-    "explanation": "237 + 74 = 311, so the sum is 311. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 238 + 75?",
-    "answer": "313",
-    "choices": [
-      "313",
-      "314",
-      "312",
-      "323"
-    ],
-    "explanation": "238 + 75 = 313, so the sum is 313. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 239 + 76?",
-    "answer": "315",
-    "choices": [
-      "315",
-      "316",
-      "314",
-      "325"
-    ],
-    "explanation": "239 + 76 = 315, so the sum is 315. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 240 + 77?",
-    "answer": "317",
-    "choices": [
-      "317",
-      "318",
-      "316",
-      "327"
-    ],
-    "explanation": "240 + 77 = 317, so the sum is 317. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 241 + 78?",
-    "answer": "319",
-    "choices": [
-      "319",
-      "320",
-      "318",
-      "329"
-    ],
-    "explanation": "241 + 78 = 319, so the sum is 319. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 242 + 79?",
-    "answer": "321",
-    "choices": [
-      "321",
-      "322",
-      "320",
-      "331"
-    ],
-    "explanation": "242 + 79 = 321, so the sum is 321. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 243 + 80?",
-    "answer": "323",
-    "choices": [
-      "323",
-      "324",
-      "322",
-      "333"
-    ],
-    "explanation": "243 + 80 = 323, so the sum is 323. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 244 + 81?",
-    "answer": "325",
-    "choices": [
-      "325",
-      "326",
-      "324",
-      "335"
-    ],
-    "explanation": "244 + 81 = 325, so the sum is 325. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 245 + 82?",
-    "answer": "327",
-    "choices": [
-      "327",
-      "328",
-      "326",
-      "337"
-    ],
-    "explanation": "245 + 82 = 327, so the sum is 327. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 246 + 83?",
-    "answer": "329",
-    "choices": [
-      "329",
-      "330",
-      "328",
-      "339"
-    ],
-    "explanation": "246 + 83 = 329, so the sum is 329. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 247 + 84?",
-    "answer": "331",
-    "choices": [
-      "331",
-      "332",
-      "330",
-      "341"
-    ],
-    "explanation": "247 + 84 = 331, so the sum is 331. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 248 + 85?",
-    "answer": "333",
-    "choices": [
-      "333",
-      "334",
-      "332",
-      "343"
-    ],
-    "explanation": "248 + 85 = 333, so the sum is 333. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 249 + 86?",
-    "answer": "335",
-    "choices": [
-      "335",
-      "336",
-      "334",
-      "345"
-    ],
-    "explanation": "249 + 86 = 335, so the sum is 335. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 250 + 87?",
-    "answer": "337",
-    "choices": [
-      "337",
-      "338",
-      "336",
-      "347"
-    ],
-    "explanation": "250 + 87 = 337, so the sum is 337. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 251 + 88?",
-    "answer": "339",
-    "choices": [
-      "339",
-      "340",
-      "338",
-      "349"
-    ],
-    "explanation": "251 + 88 = 339, so the sum is 339. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 252 + 89?",
-    "answer": "341",
-    "choices": [
-      "341",
-      "342",
-      "340",
-      "351"
-    ],
-    "explanation": "252 + 89 = 341, so the sum is 341. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 253 + 90?",
-    "answer": "343",
-    "choices": [
-      "343",
-      "344",
-      "342",
-      "353"
-    ],
-    "explanation": "253 + 90 = 343, so the sum is 343. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 254 + 91?",
-    "answer": "345",
-    "choices": [
-      "345",
-      "346",
-      "344",
-      "355"
-    ],
-    "explanation": "254 + 91 = 345, so the sum is 345. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 255 + 92?",
-    "answer": "347",
-    "choices": [
-      "347",
-      "348",
-      "346",
-      "357"
-    ],
-    "explanation": "255 + 92 = 347, so the sum is 347. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 256 + 93?",
-    "answer": "349",
-    "choices": [
-      "349",
-      "350",
-      "348",
-      "359"
-    ],
-    "explanation": "256 + 93 = 349, so the sum is 349. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 257 + 94?",
-    "answer": "351",
-    "choices": [
-      "351",
-      "352",
-      "350",
-      "361"
-    ],
-    "explanation": "257 + 94 = 351, so the sum is 351. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 258 + 95?",
-    "answer": "353",
-    "choices": [
-      "353",
-      "354",
-      "352",
-      "363"
-    ],
-    "explanation": "258 + 95 = 353, so the sum is 353. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 259 + 96?",
-    "answer": "355",
-    "choices": [
-      "355",
-      "356",
-      "354",
-      "365"
-    ],
-    "explanation": "259 + 96 = 355, so the sum is 355. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 260 + 97?",
-    "answer": "357",
-    "choices": [
-      "357",
-      "358",
-      "356",
-      "367"
-    ],
-    "explanation": "260 + 97 = 357, so the sum is 357. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 261 + 98?",
-    "answer": "359",
-    "choices": [
-      "359",
-      "360",
-      "358",
-      "369"
-    ],
-    "explanation": "261 + 98 = 359, so the sum is 359. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 262 + 99?",
-    "answer": "361",
-    "choices": [
-      "361",
-      "362",
-      "360",
-      "371"
-    ],
-    "explanation": "262 + 99 = 361, so the sum is 361. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 263 + 100?",
-    "answer": "363",
-    "choices": [
-      "363",
-      "364",
-      "362",
-      "373"
-    ],
-    "explanation": "263 + 100 = 363, so the sum is 363. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 264 + 101?",
-    "answer": "365",
-    "choices": [
-      "365",
-      "366",
-      "364",
-      "375"
-    ],
-    "explanation": "264 + 101 = 365, so the sum is 365. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 265 + 102?",
-    "answer": "367",
-    "choices": [
-      "367",
-      "368",
-      "366",
-      "377"
-    ],
-    "explanation": "265 + 102 = 367, so the sum is 367. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 266 + 103?",
-    "answer": "369",
-    "choices": [
-      "369",
-      "370",
-      "368",
-      "379"
-    ],
-    "explanation": "266 + 103 = 369, so the sum is 369. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 267 + 104?",
-    "answer": "371",
-    "choices": [
-      "371",
-      "372",
-      "370",
-      "381"
-    ],
-    "explanation": "267 + 104 = 371, so the sum is 371. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 268 + 105?",
-    "answer": "373",
-    "choices": [
-      "373",
-      "374",
-      "372",
-      "383"
-    ],
-    "explanation": "268 + 105 = 373, so the sum is 373. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 269 + 106?",
-    "answer": "375",
-    "choices": [
-      "375",
-      "376",
-      "374",
-      "385"
-    ],
-    "explanation": "269 + 106 = 375, so the sum is 375. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 270 + 107?",
-    "answer": "377",
-    "choices": [
-      "377",
-      "378",
-      "376",
-      "387"
-    ],
-    "explanation": "270 + 107 = 377, so the sum is 377. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 271 + 108?",
-    "answer": "379",
-    "choices": [
-      "379",
-      "380",
-      "378",
-      "389"
-    ],
-    "explanation": "271 + 108 = 379, so the sum is 379. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 272 + 109?",
-    "answer": "381",
-    "choices": [
-      "381",
-      "382",
-      "380",
-      "391"
-    ],
-    "explanation": "272 + 109 = 381, so the sum is 381. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 273 + 110?",
-    "answer": "383",
-    "choices": [
-      "383",
-      "384",
-      "382",
-      "393"
-    ],
-    "explanation": "273 + 110 = 383, so the sum is 383. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 274 + 111?",
-    "answer": "385",
-    "choices": [
-      "385",
-      "386",
-      "384",
-      "395"
-    ],
-    "explanation": "274 + 111 = 385, so the sum is 385. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 275 + 112?",
-    "answer": "387",
-    "choices": [
-      "387",
-      "388",
-      "386",
-      "397"
-    ],
-    "explanation": "275 + 112 = 387, so the sum is 387. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 276 + 113?",
-    "answer": "389",
-    "choices": [
-      "389",
-      "390",
-      "388",
-      "399"
-    ],
-    "explanation": "276 + 113 = 389, so the sum is 389. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 277 + 114?",
-    "answer": "391",
-    "choices": [
-      "391",
-      "392",
-      "390",
-      "401"
-    ],
-    "explanation": "277 + 114 = 391, so the sum is 391. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 278 + 115?",
-    "answer": "393",
-    "choices": [
-      "393",
-      "394",
-      "392",
-      "403"
-    ],
-    "explanation": "278 + 115 = 393, so the sum is 393. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 279 + 116?",
-    "answer": "395",
-    "choices": [
-      "395",
-      "396",
-      "394",
-      "405"
-    ],
-    "explanation": "279 + 116 = 395, so the sum is 395. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 280 + 117?",
-    "answer": "397",
-    "choices": [
-      "397",
-      "398",
-      "396",
-      "407"
-    ],
-    "explanation": "280 + 117 = 397, so the sum is 397. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 281 + 118?",
-    "answer": "399",
-    "choices": [
-      "399",
-      "400",
-      "398",
-      "409"
-    ],
-    "explanation": "281 + 118 = 399, so the sum is 399. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 282 + 119?",
-    "answer": "401",
-    "choices": [
-      "401",
-      "402",
-      "400",
-      "411"
-    ],
-    "explanation": "282 + 119 = 401, so the sum is 401. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 283 + 120?",
-    "answer": "403",
-    "choices": [
-      "403",
-      "404",
-      "402",
-      "413"
-    ],
-    "explanation": "283 + 120 = 403, so the sum is 403. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 284 + 121?",
-    "answer": "405",
-    "choices": [
-      "405",
-      "406",
-      "404",
-      "415"
-    ],
-    "explanation": "284 + 121 = 405, so the sum is 405. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 285 + 122?",
-    "answer": "407",
-    "choices": [
-      "407",
-      "408",
-      "406",
-      "417"
-    ],
-    "explanation": "285 + 122 = 407, so the sum is 407. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 286 + 123?",
-    "answer": "409",
-    "choices": [
-      "409",
-      "410",
-      "408",
-      "419"
-    ],
-    "explanation": "286 + 123 = 409, so the sum is 409. It adds context beyond the answer itself."
-  },
-  {
-    "question": "What is the value of 287 + 124?",
-    "answer": "411",
-    "choices": [
-      "411",
-      "412",
-      "410",
-      "421"
-    ],
-    "explanation": "287 + 124 = 411, so the sum is 411. It adds context beyond the answer itself."
+    "explanation": "Half a year is 6 months, since a year is split into two equal halves."
   }
 ]
