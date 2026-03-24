@@ -621,6 +621,11 @@ export default {
       timerRemaining = startRemaining;
 
       questionTimer = setInterval(async () => {
+        if (phase !== "question" && phase !== "paused") {
+          clearInterval(questionTimer);
+          questionTimer = null;
+          return;
+        }
         timerRemaining = Math.max(0, activeTimerDuration - Math.floor((Date.now() - questionStartTime) / 1000));
         broadcastState();
 

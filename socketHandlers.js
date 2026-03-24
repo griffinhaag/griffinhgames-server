@@ -234,10 +234,11 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         });
       }
 
-      // If this reconnecting player reclaimed host, notify them explicitly.
+      // If this reconnecting player reclaimed host during an active game, notify them explicitly.
       // The room:state already reflects the change, but the explicit event
       // ensures a reliable UI update even if room:state arrives first.
-      if (joinResult.isReconnecting && joinResult.wasHost) {
+      // Only emit during in-progress games — navigating from setup to lobby should not trigger this.
+      if (joinResult.isReconnecting && joinResult.wasHost && roomState.phase === 'in-progress') {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
