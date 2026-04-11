@@ -41,7 +41,12 @@
       "Apex Legends",
       "PUBG"
     ],
-    "explanation": "Fortnite's Battle Royale mode launched in 2017 and popularized the 100-player last-man-standing format."
+    "explanation": "Fortnite's Battle Royale mode launched in 2017 and popularized the 100-player last-man-standing format.",
+    "alternateAnswers": [
+      "PUBG",
+      "PUBG: Battlegrounds",
+      "PlayerUnknown's Battlegrounds"
+    ]
   },
   {
     "question": "What classic puzzle game involves falling tetrominoes?",

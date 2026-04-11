@@ -1405,7 +1405,7 @@
       "tiradito",
       "aguachile"
     ],
-    "explanation": "ceviche is the dish or ingredient described in the clue, and it is a staple in that cuisine or technique."
+    "explanation": "ceviche is the dish or ingredient."
   },
   {
     "question": "Which Mexican sauce is famous for containing many ingredients including chocolate and chiles?",
@@ -1427,7 +1427,7 @@
       "focaccia",
       "ciabatta"
     ],
-    "explanation": "pita is the dish or ingredient described in the clue, and it is a staple in that cuisine or technique."
+    "explanation": "pita is the dish or ingredient."
   },
   {
     "question": "Which bread is a long, narrow loaf closely associated with France?",
@@ -1438,7 +1438,7 @@
       "sourdough",
       "brioche"
     ],
-    "explanation": "baguette is the dish or ingredient described in the clue, and it is a staple in that cuisine or technique."
+    "explanation": "baguette is the dish or ingredient."
   },
   {
     "question": "Which dessert is made from meringue shells with a soft interior and often topped with fruit and cream?",
@@ -1449,7 +1449,7 @@
       "mille-feuille",
       "clafoutis"
     ],
-    "explanation": "pavlova is the dish or ingredient described in the clue, and it is a staple in that cuisine or technique."
+    "explanation": "pavlova is the dish or ingredient."
   },
   {
     "question": "Which Portuguese dessert is a baked custard tart?",
@@ -1768,7 +1768,7 @@
       "anagram",
       "palindrome"
     ],
-    "explanation": "acronym is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "acronym is the standard literary term."
   },
   {
     "question": "Which term means a set expression whose meaning is not literal, such as 'spill the beans'?",
@@ -1779,7 +1779,7 @@
       "anagram",
       "epithet"
     ],
-    "explanation": "idiom is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "idiom is the standard literary term."
   },
   {
     "question": "Which term means a mild expression used in place of a harsher one?",
@@ -1790,7 +1790,7 @@
       "metaphor",
       "paradox"
     ],
-    "explanation": "euphemism is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "euphemism is the standard literary term."
   },
   {
     "question": "Which term means a statement that appears self-contradictory but may reveal a truth?",
@@ -1801,7 +1801,7 @@
       "euphemism",
       "anaphora"
     ],
-    "explanation": "paradox is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "paradox is the standard literary term."
   },
   {
     "question": "Which term means a pair of contradictory words used together, such as 'deafening silence'?",
@@ -1812,7 +1812,7 @@
       "metonymy",
       "synecdoche"
     ],
-    "explanation": "oxymoron is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "oxymoron is the standard literary term."
   },
   {
     "question": "Which term means repeating a word or phrase at the beginning of successive clauses?",
@@ -1823,7 +1823,7 @@
       "allusion",
       "assonance"
     ],
-    "explanation": "anaphora is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "anaphora is the standard literary term."
   },
   {
     "question": "Which term means repeating a word or phrase at the end of successive clauses?",
@@ -1834,7 +1834,7 @@
       "alliteration",
       "metaphor"
     ],
-    "explanation": "epistrophe is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "epistrophe is the standard literary term."
   },
   {
     "question": "Which term means a reference to another text, person, or event?",
@@ -1845,7 +1845,7 @@
       "alliteration",
       "allegory"
     ],
-    "explanation": "allusion is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "allusion is the standard literary term."
   },
   {
     "question": "Which term means a longer story that operates on both literal and symbolic levels?",
@@ -1856,7 +1856,7 @@
       "aphorism",
       "litotes"
     ],
-    "explanation": "allegory is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "allegory is the standard literary term."
   },
   {
     "question": "Which term means understatements made by using a negative, such as 'not bad'?",
@@ -1867,7 +1867,7 @@
       "paradox",
       "metonymy"
     ],
-    "explanation": "litotes is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "litotes is the standard literary term."
   },
   {
     "question": "Which term means naming one thing by a closely associated thing, such as 'the crown' for monarchy?",
@@ -1878,7 +1878,7 @@
       "simile",
       "zeugma"
     ],
-    "explanation": "metonymy is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "metonymy is the standard literary term."
   },
   {
     "question": "Which term means using a part to refer to the whole, such as 'all hands on deck'?",
@@ -1889,7 +1889,7 @@
       "allusion",
       "alliteration"
     ],
-    "explanation": "synecdoche is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "synecdoche is the standard literary term."
   },
   {
     "question": "Which term means a brief, clever, memorable saying?",
@@ -1900,7 +1900,7 @@
       "ode",
       "ballad"
     ],
-    "explanation": "epigram is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "epigram is the standard literary term."
   },
   {
     "question": "Which term means a short statement expressing a general truth or observation?",
@@ -1911,7 +1911,7 @@
       "couplet",
       "trope"
     ],
-    "explanation": "aphorism is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "aphorism is the standard literary term."
   },
   {
     "question": "Which term means a comparison that continues through several linked descriptions?",
@@ -1922,7 +1922,7 @@
       "epitaph",
       "metonymy"
     ],
-    "explanation": "extended metaphor is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "extended metaphor is the standard literary term."
   },
   {
     "question": "Which term means a stressed and unstressed syllable pattern in a line of verse?",
@@ -1933,7 +1933,7 @@
       "caesura",
       "diction"
     ],
-    "explanation": "meter is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "meter is the standard literary term."
   },
   {
     "question": "Which term means a pause within a line of poetry?",
@@ -1944,7 +1944,7 @@
       "enjambment",
       "allusion"
     ],
-    "explanation": "caesura is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "caesura is the standard literary term."
   },
   {
     "question": "Which term means the continuation of a sentence beyond the end of a poetic line?",
@@ -1955,7 +1955,7 @@
       "meter",
       "couplet"
     ],
-    "explanation": "enjambment is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "enjambment is the standard literary term."
   },
   {
     "question": "Which term means a two-line stanza?",
@@ -1966,7 +1966,7 @@
       "tercet",
       "octave"
     ],
-    "explanation": "couplet is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "couplet is the standard literary term."
   },
   {
     "question": "Which term means a four-line stanza?",
@@ -1977,7 +1977,7 @@
       "sestet",
       "tercet"
     ],
-    "explanation": "quatrain is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "quatrain is the standard literary term."
   },
   {
     "question": "Which term means a six-line stanza?",
@@ -1988,7 +1988,7 @@
       "tercet",
       "quatrain"
     ],
-    "explanation": "sestet is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "sestet is the standard literary term."
   },
   {
     "question": "Which term means a rhyme scheme of ABABCDCDEFEFGG, common in Shakespeare?",
@@ -1999,7 +1999,7 @@
       "villanelle",
       "pantoum"
     ],
-    "explanation": "Shakespearean sonnet is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "Shakespearean sonnet is the standard literary term."
   },
   {
     "question": "Which term means a 14-line poem often written in iambic pentameter?",
@@ -2010,7 +2010,7 @@
       "ode",
       "eclogue"
     ],
-    "explanation": "sonnet is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "sonnet is the standard literary term."
   },
   {
     "question": "Which term means a three-line poem with a 5-7-5 syllable pattern in English adaptation?",
@@ -2021,7 +2021,7 @@
       "ode",
       "ballade"
     ],
-    "explanation": "haiku is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "haiku is the standard literary term."
   },
   {
     "question": "Which term means a humorous five-line poem with an AABBA rhyme scheme?",
@@ -2032,7 +2032,7 @@
       "ballad",
       "sonnet"
     ],
-    "explanation": "limerick is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "limerick is the standard literary term."
   },
   {
     "question": "Which term means the choice and use of words in speech or writing?",
@@ -2043,7 +2043,7 @@
       "meter",
       "rhyme"
     ],
-    "explanation": "diction is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "diction is the standard literary term."
   },
   {
     "question": "Which term means the arrangement of words and phrases to create sentences?",
@@ -2054,7 +2054,7 @@
       "morphology",
       "phonetics"
     ],
-    "explanation": "syntax is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "syntax is the standard literary term."
   },
   {
     "question": "Which term means the study of speech sounds?",
@@ -2065,7 +2065,7 @@
       "semantics",
       "rhetoric"
     ],
-    "explanation": "phonetics is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "phonetics is the standard literary term."
   },
   {
     "question": "Which term means the study of meaning in language?",
@@ -2076,7 +2076,7 @@
       "phonetics",
       "syntax"
     ],
-    "explanation": "semantics is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "semantics is the standard literary term."
   },
   {
     "question": "Which term means the practical study of language in context and use?",
@@ -2087,7 +2087,7 @@
       "morphology",
       "phonology"
     ],
-    "explanation": "pragmatics is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "pragmatics is the standard literary term."
   },
   {
     "question": "Which term means the smallest meaningful unit in a language?",
@@ -2098,7 +2098,7 @@
       "lexeme",
       "syllable"
     ],
-    "explanation": "morpheme is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "morpheme is the standard literary term."
   },
   {
     "question": "Which term means the smallest distinctive sound unit in a language?",
@@ -2109,7 +2109,7 @@
       "grapheme",
       "syllable"
     ],
-    "explanation": "phoneme is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "phoneme is the standard literary term."
   },
   {
     "question": "Which term means a word that imitates a sound, such as 'buzz' or 'clang'?",
@@ -2120,7 +2120,7 @@
       "acronym",
       "idiom"
     ],
-    "explanation": "onomatopoeia is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "onomatopoeia is the standard literary term."
   },
   {
     "question": "Which term means words that sound alike but differ in meaning and often spelling?",
@@ -2131,7 +2131,7 @@
       "antonyms",
       "oxymorons"
     ],
-    "explanation": "homophones is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "homophones is the standard literary term."
   },
   {
     "question": "Which term means words spelled the same but with different meanings or pronunciations in some cases?",
@@ -2142,7 +2142,7 @@
       "synonyms",
       "palindromes"
     ],
-    "explanation": "homographs is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "homographs is the standard literary term."
   },
   {
     "question": "Which term means a word formed from the names of people or places, such as 'sandwich'?",
@@ -2153,7 +2153,7 @@
       "anagram",
       "portmanteau"
     ],
-    "explanation": "eponym is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "eponym is the standard literary term."
   },
   {
     "question": "Which term means a word formed by blending parts of two words, like 'smog'?",
@@ -2164,7 +2164,7 @@
       "acronym",
       "neologism"
     ],
-    "explanation": "portmanteau is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "portmanteau is the standard literary term."
   },
   {
     "question": "Which term means a newly coined word or expression?",
@@ -2175,7 +2175,7 @@
       "epithet",
       "metonymy"
     ],
-    "explanation": "neologism is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "neologism is the standard literary term."
   },
   {
     "question": "Which term means a fixed expression translated word-for-word from another language?",
@@ -2186,7 +2186,7 @@
       "idiom",
       "acronym"
     ],
-    "explanation": "calque is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "calque is the standard literary term."
   },
   {
     "question": "Which term means the omission of a word understood from context, as in 'She likes coffee; he, tea'?",
@@ -2197,7 +2197,7 @@
       "metaphor",
       "zeugma"
     ],
-    "explanation": "ellipsis is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "ellipsis is the standard literary term."
   },
   {
     "question": "Which term means a construction in which one word governs two others in different senses?",
@@ -2208,7 +2208,7 @@
       "epigram",
       "caesura"
     ],
-    "explanation": "zeugma is the standard literary term named in the clue, used for that specific style or device."
+    "explanation": "zeugma is the standard literary term."
   },
   {
     "question": "How many inches are in one foot?",
