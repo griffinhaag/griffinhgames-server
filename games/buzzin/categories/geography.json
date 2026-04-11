@@ -52,7 +52,10 @@
       "San Marino",
       "Liechtenstein"
     ],
-    "explanation": "Vatican City covers just 0.44 sq km and is an independent city-state within Rome."
+    "explanation": "Vatican City covers just 0.44 sq km and is an independent city-state within Rome.",
+    "alternateAnswers": [
+      "Monaco"
+    ]
   },
   {
     "question": "Which country has the most natural lakes?",
@@ -3957,7 +3960,10 @@
       "Vatican City",
       "San Marino"
     ],
-    "explanation": "Vatican City, an independent city-state within Rome, is the world's smallest country at just 0.44 square kilometers."
+    "explanation": "Vatican City, an independent city-state within Rome, is the world's smallest country at just 0.44 square kilometers.",
+    "alternateAnswers": [
+      "Monaco"
+    ]
   },
   {
     "question": "Which desert is the largest in the world?",
@@ -9512,7 +9518,7 @@
       "Egypt",
       "Algeria"
     ],
-    "explanation": "Marrakesh is a major city in Morocco, which is why Morocco is the country named in the clue."
+    "explanation": "Marrakesh is a major city in Morocco, which is why Morocco is the country."
   },
   {
     "question": "Which country contains the city of Cusco?",
@@ -9523,7 +9529,7 @@
       "Peru",
       "Chile"
     ],
-    "explanation": "Cusco is a major city in Peru, which is why Peru is the country named in the clue."
+    "explanation": "Cusco is a major city in Peru, which is why Peru is the country."
   },
   {
     "question": "Which country contains the city of Dubrovnik?",
@@ -9534,7 +9540,7 @@
       "Slovenia",
       "Greece"
     ],
-    "explanation": "Dubrovnik is a major city in Croatia, which is why Croatia is the country named in the clue."
+    "explanation": "Dubrovnik is a major city in Croatia, which is why Croatia is the country."
   },
   {
     "question": "Which country contains the city of Kraków?",
@@ -9545,7 +9551,7 @@
       "Czech Republic",
       "Poland"
     ],
-    "explanation": "Kraków is a major city in Poland, which is why Poland is the country named in the clue."
+    "explanation": "Kraków is a major city in Poland, which is why Poland is the country."
   },
   {
     "question": "Which country contains the city of Bergen?",
@@ -9556,7 +9562,7 @@
       "Norway",
       "Sweden"
     ],
-    "explanation": "Bergen is a major city in Norway, which is why Norway is the country named in the clue."
+    "explanation": "Bergen is a major city in Norway, which is why Norway is the country."
   },
   {
     "question": "Which country contains the city of Medellín?",
@@ -9567,7 +9573,7 @@
       "Ecuador",
       "Venezuela"
     ],
-    "explanation": "Medellín is a major city in Colombia, which is why Colombia is the country named in the clue."
+    "explanation": "Medellín is a major city in Colombia, which is why Colombia is the country."
   },
   {
     "question": "Which country contains the city of Fez?",
@@ -9578,7 +9584,7 @@
       "Tunisia",
       "Jordan"
     ],
-    "explanation": "Fez is a major city in Morocco, which is why Morocco is the country named in the clue."
+    "explanation": "Fez is a major city in Morocco, which is why Morocco is the country."
   },
   {
     "question": "Which country contains the city of Porto?",
@@ -9589,7 +9595,7 @@
       "Italy",
       "Spain"
     ],
-    "explanation": "Porto is a major city in Portugal, which is why Portugal is the country named in the clue."
+    "explanation": "Porto is Portugal's second-largest city, known for its historic Ribeira district and the production of port wine."
   },
   {
     "question": "Which country contains the city of Salzburg?",
@@ -9600,7 +9606,7 @@
       "Hungary",
       "Austria"
     ],
-    "explanation": "Salzburg is a major city in Austria, which is why Austria is the country named in the clue."
+    "explanation": "Salzburg is a major city in Austria, which is why Austria is the country."
   },
   {
     "question": "Which country contains the city of Busan?",
@@ -9611,7 +9617,7 @@
       "China",
       "Taiwan"
     ],
-    "explanation": "Busan is a major city in South Korea, which is why South Korea is the country named in the clue."
+    "explanation": "Busan is a major city in South Korea, which is why South Korea is the country."
   },
   {
     "question": "Which country contains the city of Jaipur?",
@@ -9622,7 +9628,7 @@
       "Nepal",
       "Bangladesh"
     ],
-    "explanation": "Jaipur is a major city in India, which is why India is the country named in the clue."
+    "explanation": "Jaipur is a major city in India, which is why India is the country."
   },
   {
     "question": "Which country contains the city of Split?",
@@ -9633,7 +9639,7 @@
       "Croatia",
       "Greece"
     ],
-    "explanation": "Split is a major city in Croatia, which is why Croatia is the country named in the clue."
+    "explanation": "Split is a major city in Croatia, which is why Croatia is the country."
   },
   {
     "question": "Which country contains the city of Valparaíso?",
@@ -9644,7 +9650,7 @@
       "Chile",
       "Peru"
     ],
-    "explanation": "Valparaíso is a major city in Chile, which is why Chile is the country named in the clue."
+    "explanation": "Valparaíso is a major city in Chile, which is why Chile is the country."
   },
   {
     "question": "Which country contains the city of Malmö?",
@@ -9655,7 +9661,7 @@
       "Norway",
       "Denmark"
     ],
-    "explanation": "Malmö is a major city in Sweden, which is why Sweden is the country named in the clue."
+    "explanation": "Malmö is a major city in Sweden, which is why Sweden is the country."
   },
   {
     "question": "Which country contains the city of Cebu?",
@@ -9666,7 +9672,7 @@
       "Indonesia",
       "Philippines"
     ],
-    "explanation": "Cebu is a major city in Philippines, which is why Philippines is the country named in the clue."
+    "explanation": "Cebu is a major city in Philippines, which is why Philippines is the country."
   },
   {
     "question": "Which country contains the city of Luang Prabang?",
@@ -9677,7 +9683,7 @@
       "Laos",
       "Thailand"
     ],
-    "explanation": "Luang Prabang is a major city in Laos, which is why Laos is the country named in the clue."
+    "explanation": "Luang Prabang is a major city in Laos, which is why Laos is the country."
   },
   {
     "question": "Which country contains the city of Alexandria?",
@@ -9688,7 +9694,7 @@
       "Turkey",
       "Lebanon"
     ],
-    "explanation": "Alexandria is a major city in Egypt, which is why Egypt is the country named in the clue."
+    "explanation": "Alexandria is a major city in Egypt, which is why Egypt is the country."
   },
   {
     "question": "Which country contains the city of Samarkand?",
@@ -9699,7 +9705,7 @@
       "Turkmenistan",
       "Kazakhstan"
     ],
-    "explanation": "Samarkand is a major city in Uzbekistan, which is why Uzbekistan is the country named in the clue."
+    "explanation": "Samarkand is a major city in Uzbekistan, which is why Uzbekistan is the country."
   },
   {
     "question": "Which country contains the city of Tbilisi?",
@@ -9710,7 +9716,7 @@
       "Georgia",
       "Turkey"
     ],
-    "explanation": "Tbilisi is a major city in Georgia, which is why Georgia is the country named in the clue."
+    "explanation": "Tbilisi is a major city in Georgia, which is why Georgia is the country."
   },
   {
     "question": "Which country contains the city of Lviv?",
@@ -9721,7 +9727,7 @@
       "Ukraine",
       "Belarus"
     ],
-    "explanation": "Lviv is a major city in Ukraine, which is why Ukraine is the country named in the clue."
+    "explanation": "Lviv is a major city in Ukraine, which is why Ukraine is the country."
   },
   {
     "question": "Which river flows through Budapest?",
@@ -9864,7 +9870,7 @@
       "Atlas Mountains",
       "Andes"
     ],
-    "explanation": "Himalayas is the place named in the clue and a standard geographic reference point."
+    "explanation": "Himalayas is the place and a standard geographic reference point."
   },
   {
     "question": "Which mountain range is associated with western South America?",
@@ -9875,7 +9881,7 @@
       "Rockies",
       "Atlas Mountains"
     ],
-    "explanation": "Andes is the place named in the clue and a standard geographic reference point."
+    "explanation": "Andes is the place and a standard geographic reference point."
   },
   {
     "question": "Which mountain range stretches across Morocco, Algeria, and Tunisia?",
@@ -9886,7 +9892,7 @@
       "Alps",
       "Andes"
     ],
-    "explanation": "Atlas Mountains is the place named in the clue and a standard geographic reference point."
+    "explanation": "Atlas Mountains is the place and a standard geographic reference point."
   },
   {
     "question": "Which mountain range forms a major arc across central Europe including Switzerland and Austria?",
@@ -9897,7 +9903,7 @@
       "Carpathians",
       "Alps"
     ],
-    "explanation": "Alps is the place named in the clue and a standard geographic reference point."
+    "explanation": "Alps is the place and a standard geographic reference point."
   },
   {
     "question": "Which desert covers much of Botswana and Namibia?",
@@ -9908,7 +9914,7 @@
       "Kalahari",
       "Gobi"
     ],
-    "explanation": "Kalahari is the place named in the clue and a standard geographic reference point."
+    "explanation": "Kalahari is the place and a standard geographic reference point."
   },
   {
     "question": "Which desert lies mainly along the coast of Namibia?",
@@ -9919,7 +9925,7 @@
       "Sahara",
       "Namib"
     ],
-    "explanation": "Namib is the place named in the clue and a standard geographic reference point."
+    "explanation": "Namib is the place and a standard geographic reference point."
   },
   {
     "question": "Which desert spans northern China and southern Mongolia?",
@@ -9930,7 +9936,7 @@
       "Gobi",
       "Arabian Desert"
     ],
-    "explanation": "Gobi is the place named in the clue and a standard geographic reference point."
+    "explanation": "Gobi is the place and a standard geographic reference point."
   },
   {
     "question": "Which desert occupies much of the Arabian Peninsula?",
@@ -9941,7 +9947,7 @@
       "Gobi",
       "Syrian Desert"
     ],
-    "explanation": "Arabian Desert is the place named in the clue and a standard geographic reference point."
+    "explanation": "Arabian Desert is the place and a standard geographic reference point."
   },
   {
     "question": "Which sea lies between Saudi Arabia and northeast Africa?",
@@ -9985,7 +9991,7 @@
       "Persian Gulf",
       "Red Sea"
     ],
-    "explanation": "Persian Gulf is the place named in the clue and a standard geographic reference point."
+    "explanation": "Persian Gulf is the place and a standard geographic reference point."
   },
   {
     "question": "Which strait links the Mediterranean Sea to the Atlantic Ocean?",
@@ -10007,7 +10013,7 @@
       "Davis Strait",
       "Bering Strait"
     ],
-    "explanation": "Bering Strait is the place named in the clue and a standard geographic reference point."
+    "explanation": "Bering Strait is the place and a standard geographic reference point."
   },
   {
     "question": "Which canal links the Mediterranean Sea and the Red Sea?",
@@ -10040,7 +10046,7 @@
       "Hispaniola",
       "Cuba"
     ],
-    "explanation": "Hispaniola is the place named in the clue and a standard geographic reference point."
+    "explanation": "Hispaniola is the place and a standard geographic reference point."
   },
   {
     "question": "Which island nation lies southeast of India and is known for Ceylon tea?",
@@ -10051,7 +10057,7 @@
       "Mauritius",
       "Sri Lanka"
     ],
-    "explanation": "Sri Lanka is the place named in the clue and a standard geographic reference point."
+    "explanation": "Sri Lanka is the place and a standard geographic reference point."
   },
   {
     "question": "Which island is the largest in the Mediterranean Sea?",
@@ -10073,7 +10079,7 @@
       "Iceland",
       "Faroe Islands"
     ],
-    "explanation": "Greenland is the place named in the clue and a standard geographic reference point."
+    "explanation": "Greenland is the place and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains Norway and Sweden?",
@@ -10084,7 +10090,7 @@
       "Iberian Peninsula",
       "Jutland Peninsula"
     ],
-    "explanation": "Scandinavian Peninsula is the place named in the clue and a standard geographic reference point."
+    "explanation": "Scandinavian Peninsula is the place and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains Spain and Portugal?",
@@ -10095,7 +10101,7 @@
       "Iberian Peninsula",
       "Balkan Peninsula"
     ],
-    "explanation": "Iberian Peninsula is the place named in the clue and a standard geographic reference point."
+    "explanation": "Iberian Peninsula is the place and a standard geographic reference point."
   },
   {
     "question": "Which peninsula contains most of Greece and nearby southeastern Europe?",
@@ -10106,7 +10112,7 @@
       "Balkan Peninsula",
       "Scandinavian Peninsula"
     ],
-    "explanation": "Balkan Peninsula is the place named in the clue and a standard geographic reference point."
+    "explanation": "Balkan Peninsula is the place and a standard geographic reference point."
   },
   {
     "question": "Which peninsula is occupied mainly by Denmark and part of Germany?",
@@ -10117,7 +10123,7 @@
       "Iberian Peninsula",
       "Balkan Peninsula"
     ],
-    "explanation": "Jutland Peninsula is the place named in the clue and a standard geographic reference point."
+    "explanation": "Jutland Peninsula is the place and a standard geographic reference point."
   },
   {
     "question": "Which country completely surrounds Vatican City?",
@@ -10711,7 +10717,7 @@
       "California",
       "Hawaii"
     ],
-    "explanation": "Hawaii is the place named in the clue and a standard geographic reference point."
+    "explanation": "Hawaii is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the Grand Canyon?",
@@ -10722,7 +10728,7 @@
       "Utah",
       "New Mexico"
     ],
-    "explanation": "Arizona is the place named in the clue and a standard geographic reference point."
+    "explanation": "Arizona is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains Yellowstone National Park's largest share?",
@@ -10733,7 +10739,7 @@
       "Colorado",
       "Wyoming"
     ],
-    "explanation": "Wyoming is the place named in the clue and a standard geographic reference point."
+    "explanation": "Wyoming is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains Mount Rushmore?",
@@ -10744,7 +10750,7 @@
       "South Dakota",
       "North Dakota"
     ],
-    "explanation": "South Dakota is the place named in the clue and a standard geographic reference point."
+    "explanation": "South Dakota is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of New Orleans?",
@@ -10755,7 +10761,7 @@
       "Alabama",
       "Louisiana"
     ],
-    "explanation": "Louisiana is the place named in the clue and a standard geographic reference point."
+    "explanation": "Louisiana is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Seattle?",
@@ -10777,7 +10783,7 @@
       "Kentucky",
       "Alabama"
     ],
-    "explanation": "Tennessee is the place named in the clue and a standard geographic reference point."
+    "explanation": "Tennessee is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Albuquerque?",
@@ -10788,7 +10794,7 @@
       "Arizona",
       "Texas"
     ],
-    "explanation": "New Mexico is the place named in the clue and a standard geographic reference point."
+    "explanation": "New Mexico is the place and a standard geographic reference point."
   },
   {
     "question": "Which U.S. state contains the city of Anchorage?",
@@ -10810,7 +10816,7 @@
       "Manitoba",
       "Saskatchewan"
     ],
-    "explanation": "Alberta is the place named in the clue and a standard geographic reference point."
+    "explanation": "Alberta is the place and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Halifax?",
@@ -10821,7 +10827,7 @@
       "Newfoundland and Labrador",
       "New Brunswick"
     ],
-    "explanation": "Nova Scotia is the place named in the clue and a standard geographic reference point."
+    "explanation": "Nova Scotia is the place and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Winnipeg?",
@@ -10832,7 +10838,7 @@
       "Saskatchewan",
       "Alberta"
     ],
-    "explanation": "Manitoba is the place named in the clue and a standard geographic reference point."
+    "explanation": "Manitoba is the place and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province contains the city of Victoria?",
@@ -10843,7 +10849,7 @@
       "British Columbia",
       "Quebec"
     ],
-    "explanation": "British Columbia is the place named in the clue and a standard geographic reference point."
+    "explanation": "British Columbia is the place and a standard geographic reference point."
   },
   {
     "question": "Which Canadian province is the only one officially bilingual at the provincial level?",
@@ -10854,7 +10860,7 @@
       "Quebec",
       "New Brunswick"
     ],
-    "explanation": "New Brunswick is the place named in the clue and a standard geographic reference point."
+    "explanation": "New Brunswick is the place and a standard geographic reference point."
   },
   {
     "question": "Which country has the capital city of Kigali?",

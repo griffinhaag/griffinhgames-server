@@ -825,7 +825,7 @@
     "explanation": "British actress Emilia Clarke portrayed Daenerys Targaryen. It matches the clue."
   },
   {
-    "question": "Trivia challenge — Which social media app has a ghost as its mascot?",
+    "question": "Which social media app has a ghost as its mascot?",
     "answer": "Snapchat",
     "choices": [
       "Instagram",
@@ -833,10 +833,10 @@
       "TikTok",
       "Twitter"
     ],
-    "explanation": "Trivia: Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
+    "explanation": "Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
   },
   {
-    "question": "Trivia challenge — What is the name of the fictional country in 'Black Panther'?",
+    "question": "What is the name of the fictional country in 'Black Panther'?",
     "answer": "Wakanda",
     "choices": [
       "Zamunda",
@@ -844,10 +844,10 @@
       "Genovia",
       "Latveria"
     ],
-    "explanation": "Trivia: Wakanda is the fictional African nation in Marvel Comics and the MCU."
+    "explanation": "Wakanda is the fictional African nation in Marvel Comics and the MCU."
   },
   {
-    "question": "Trivia challenge — Who plays Thor in the Marvel Cinematic Universe?",
+    "question": "Who plays Thor in the Marvel Cinematic Universe?",
     "answer": "Chris Hemsworth",
     "choices": [
       "Chris Evans",
@@ -855,10 +855,10 @@
       "Tom Hiddleston",
       "Oscar Isaac"
     ],
-    "explanation": "Trivia: Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
+    "explanation": "Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
   },
   {
-    "question": "Trivia challenge — What app has the slogan 'Make Your Day'?",
+    "question": "What app has the slogan 'Make Your Day'?",
     "answer": "TikTok",
     "choices": [
       "Instagram",
@@ -866,10 +866,10 @@
       "TikTok",
       "YouTube"
     ],
-    "explanation": "Trivia: TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
+    "explanation": "TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
   },
   {
-    "question": "Trivia challenge — What streaming service produced 'Stranger Things'?",
+    "question": "What streaming service produced 'Stranger Things'?",
     "answer": "Netflix",
     "choices": [
       "Netflix",
@@ -877,10 +877,10 @@
       "Disney+",
       "Amazon Prime"
     ],
-    "explanation": "Trivia: 'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
+    "explanation": "'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
   },
   {
-    "question": "Trivia challenge — What year was YouTube founded?",
+    "question": "What year was YouTube founded?",
     "answer": "2005",
     "choices": [
       "2003",
@@ -888,10 +888,10 @@
       "2007",
       "2009"
     ],
-    "explanation": "Trivia: YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
+    "explanation": "YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
   },
   {
-    "question": "Trivia challenge — Who founded Amazon?",
+    "question": "Who founded Amazon?",
     "answer": "Jeff Bezos",
     "choices": [
       "Elon Musk",
@@ -899,10 +899,10 @@
       "Bill Gates",
       "Mark Zuckerberg"
     ],
-    "explanation": "Trivia: Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
+    "explanation": "Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
   },
   {
-    "question": "Trivia challenge — What is the most-watched Netflix series of all time?",
+    "question": "What is the most-watched Netflix series of all time?",
     "answer": "Squid Game",
     "choices": [
       "Stranger Things",
@@ -910,10 +910,10 @@
       "Wednesday",
       "Money Heist"
     ],
-    "explanation": "Trivia: South Korean series 'Squid Game,' released in 2021. It matches the clue."
+    "explanation": "South Korean series 'Squid Game,' released in 2021. It matches the clue."
   },
   {
-    "question": "Trivia challenge — Which reality TV show features roses?",
+    "question": "Which reality TV show features roses?",
     "answer": "The Bachelor",
     "choices": [
       "Survivor",
@@ -921,10 +921,10 @@
       "Big Brother",
       "Love Island"
     ],
-    "explanation": "Trivia: In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
+    "explanation": "In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
   },
   {
-    "question": "Trivia challenge — What was Twitter renamed to in 2023?",
+    "question": "What was Twitter renamed to in 2023?",
     "answer": "X",
     "choices": [
       "Meta",
@@ -932,10 +932,10 @@
       "Thread",
       "Chirp"
     ],
-    "explanation": "Trivia: After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his vision."
+    "explanation": "After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his vision."
   },
   {
-    "question": "Trivia challenge — What company makes the iPhone?",
+    "question": "What company makes the iPhone?",
     "answer": "Apple",
     "choices": [
       "Samsung",
@@ -943,10 +943,10 @@
       "Google",
       "Microsoft"
     ],
-    "explanation": "Trivia: Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
+    "explanation": "Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
   },
   {
-    "question": "Trivia challenge — Who created Facebook?",
+    "question": "Who created Facebook?",
     "answer": "Mark Zuckerberg",
     "choices": [
       "Bill Gates",
@@ -954,10 +954,10 @@
       "Mark Zuckerberg",
       "Jack Dorsey"
     ],
-    "explanation": "Trivia: Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
+    "explanation": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
   },
   {
-    "question": "Trivia challenge — What was the first video ever uploaded to YouTube?",
+    "question": "What was the first video ever uploaded to YouTube?",
     "answer": "Me at the zoo",
     "choices": [
       "Charlie Bit My Finger",
@@ -965,10 +965,10 @@
       "Evolution of Dance",
       "Keyboard Cat"
     ],
-    "explanation": "Trivia: 'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
+    "explanation": "'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
   },
   {
-    "question": "Trivia challenge — What is the most followed account on Instagram?",
+    "question": "What is the most followed account on Instagram?",
     "answer": "Instagram",
     "choices": [
       "Cristiano Ronaldo",
@@ -976,10 +976,10 @@
       "Selena Gomez",
       "Kylie Jenner"
     ],
-    "explanation": "Trivia: Instagram's own official account (@instagram) is the most followed on the platform."
+    "explanation": "Instagram's own official account (@instagram) is the most followed on the platform."
   },
   {
-    "question": "Trivia challenge — What does 'NFT' stand for?",
+    "question": "What does 'NFT' stand for?",
     "answer": "Non-Fungible Token",
     "choices": [
       "New Financial Technology",
@@ -987,10 +987,10 @@
       "National Fund Transfer",
       "Network File Transfer"
     ],
-    "explanation": "Trivia: NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like digital."
+    "explanation": "NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like digital."
   },
   {
-    "question": "Trivia challenge — Who is the most subscribed YouTuber?",
+    "question": "Who is the most subscribed YouTuber?",
     "answer": "MrBeast",
     "choices": [
       "PewDiePie",
@@ -998,10 +998,10 @@
       "T-Series",
       "Cocomelon"
     ],
-    "explanation": "Trivia: MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
+    "explanation": "MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
   },
   {
-    "question": "Trivia challenge — What dating app uses a 'swipe right' feature?",
+    "question": "What dating app uses a 'swipe right' feature?",
     "answer": "Tinder",
     "choices": [
       "Bumble",
@@ -1009,10 +1009,10 @@
       "Hinge",
       "OkCupid"
     ],
-    "explanation": "Trivia: Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach online."
+    "explanation": "Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach online."
   },
   {
-    "question": "Trivia challenge — What metaverse company did Facebook rebrand as?",
+    "question": "What metaverse company did Facebook rebrand as?",
     "answer": "Meta",
     "choices": [
       "Meta",
@@ -1020,10 +1020,10 @@
       "Quest",
       "Reality Labs"
     ],
-    "explanation": "Trivia: In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building the."
+    "explanation": "In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building the."
   },
   {
-    "question": "Trivia challenge — What cryptocurrency was created by Satoshi Nakamoto?",
+    "question": "What cryptocurrency was created by Satoshi Nakamoto?",
     "answer": "Bitcoin",
     "choices": [
       "Ethereum",
@@ -1031,10 +1031,10 @@
       "Dogecoin",
       "Litecoin"
     ],
-    "explanation": "Trivia: Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
+    "explanation": "Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
   },
   {
-    "question": "Trivia challenge — What AI chatbot was released by OpenAI in 2022?",
+    "question": "What AI chatbot was released by OpenAI in 2022?",
     "answer": "ChatGPT",
     "choices": [
       "Siri",
@@ -1042,10 +1042,10 @@
       "ChatGPT",
       "Bard"
     ],
-    "explanation": "Trivia: OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
+    "explanation": "OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
   },
   {
-    "question": "Trivia challenge — What viral dance trend came from the song 'Renegade'?",
+    "question": "What viral dance trend came from the song 'Renegade'?",
     "answer": "Renegade dance",
     "choices": [
       "Floss",
@@ -1053,10 +1053,10 @@
       "Whip and Nae Nae",
       "Dab"
     ],
-    "explanation": "Trivia: The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
+    "explanation": "The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
   },
   {
-    "question": "Trivia challenge — What platform is known for its 'For You Page'?",
+    "question": "What platform is known for its 'For You Page'?",
     "answer": "TikTok",
     "choices": [
       "Instagram",
@@ -1064,10 +1064,10 @@
       "YouTube",
       "Twitter"
     ],
-    "explanation": "Trivia: TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
+    "explanation": "TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
   },
   {
-    "question": "Trivia challenge — What game caused a massive craze in 2016 with augmented reality?",
+    "question": "What game caused a massive craze in 2016 with augmented reality?",
     "answer": "Pokemon GO",
     "choices": [
       "Minecraft",
@@ -1075,10 +1075,10 @@
       "Fortnite",
       "Candy Crush"
     ],
-    "explanation": "Trivia: Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon that."
+    "explanation": "Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon that."
   },
   {
-    "question": "Trivia challenge — Who plays the Joker in the 2019 standalone film 'Joker'?",
+    "question": "Who plays the Joker in the 2019 standalone film 'Joker'?",
     "answer": "Joaquin Phoenix",
     "choices": [
       "Heath Ledger",
@@ -1086,10 +1086,10 @@
       "Joaquin Phoenix",
       "Jack Nicholson"
     ],
-    "explanation": "Trivia: Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips, a performance that earned him the Academy Award for Best Actor."
+    "explanation": "Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips, a performance that earned him the Academy Award for Best Actor."
   },
   {
-    "question": "Trivia challenge — What food delivery app uses a pink logo?",
+    "question": "What food delivery app uses a pink logo?",
     "answer": "DoorDash",
     "choices": [
       "Uber Eats",
@@ -1097,10 +1097,10 @@
       "Grubhub",
       "Postmates"
     ],
-    "explanation": "Trivia: DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
+    "explanation": "DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
   },
   {
-    "question": "Trivia challenge — Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
+    "question": "Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
     "answer": "Kendrick Lamar",
     "choices": [
       "J. Cole",
@@ -1108,10 +1108,10 @@
       "Kendrick Lamar",
       "Kanye West"
     ],
-    "explanation": "Trivia: Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
+    "explanation": "Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
   },
   {
-    "question": "Trivia challenge — Which 2023 movie became the highest-grossing film directed by a woman?",
+    "question": "Which 2023 movie became the highest-grossing film directed by a woman?",
     "answer": "Barbie",
     "choices": [
       "Wonder Woman",
@@ -1119,10 +1119,10 @@
       "Cocaine Bear",
       "Oppenheimer"
     ],
-    "explanation": "Trivia: Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
+    "explanation": "Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
   },
   {
-    "question": "Trivia challenge — What is the name of Meta's text-based rival to Twitter/X?",
+    "question": "What is the name of Meta's text-based rival to Twitter/X?",
     "answer": "Threads",
     "choices": [
       "Mastodon",
@@ -1130,10 +1130,10 @@
       "Threads",
       "Post"
     ],
-    "explanation": "Trivia: Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
+    "explanation": "Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
   },
   {
-    "question": "Trivia challenge — Which game won Game of the Year at the 2023 Game Awards?",
+    "question": "Which game won Game of the Year at the 2023 Game Awards?",
     "answer": "Baldur's Gate 3",
     "choices": [
       "Zelda: Tears of the Kingdom",
@@ -1141,10 +1141,10 @@
       "Baldur's Gate 3",
       "Alan Wake 2"
     ],
-    "explanation": "Trivia: Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
+    "explanation": "Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
   },
   {
-    "question": "Trivia challenge — Who played the title character in the 2023 film 'Oppenheimer'?",
+    "question": "Who played the title character in the 2023 film 'Oppenheimer'?",
     "answer": "Cillian Murphy",
     "choices": [
       "Robert Downey Jr.",
@@ -1152,10 +1152,10 @@
       "Matt Damon",
       "Florence Pugh"
     ],
-    "explanation": "Trivia: Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
+    "explanation": "Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
   },
   {
-    "question": "Trivia challenge — What is the name of the AI image generator developed by OpenAI?",
+    "question": "What is the name of the AI image generator developed by OpenAI?",
     "answer": "DALL-E",
     "choices": [
       "Midjourney",
@@ -1163,10 +1163,10 @@
       "DALL-E",
       "Firefly"
     ],
-    "explanation": "Trivia: DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
+    "explanation": "DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
   },
   {
-    "question": "Trivia challenge — Which pop star is known for her 'Fenty Beauty' makeup line?",
+    "question": "Which pop star is known for her 'Fenty Beauty' makeup line?",
     "answer": "Rihanna",
     "choices": [
       "Beyoncé",
@@ -1174,10 +1174,10 @@
       "Rihanna",
       "Ariana Grande"
     ],
-    "explanation": "Trivia: Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity in."
+    "explanation": "Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity in."
   },
   {
-    "question": "Trivia challenge — In 'The Last of Us' TV series, which actor plays the character Joel?",
+    "question": "In 'The Last of Us' TV series, which actor plays the character Joel?",
     "answer": "Pedro Pascal",
     "choices": [
       "Oscar Isaac",
@@ -1185,10 +1185,10 @@
       "Tom Hardy",
       "David Harbour"
     ],
-    "explanation": "Trivia: Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
+    "explanation": "Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
   },
   {
-    "question": "Trivia challenge — What daily word game was acquired by The New York Times in 2022?",
+    "question": "What daily word game was acquired by The New York Times in 2022?",
     "answer": "Wordle",
     "choices": [
       "Heardle",
@@ -1196,10 +1196,10 @@
       "Wordle",
       "Quordle"
     ],
-    "explanation": "Trivia: Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
+    "explanation": "Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
   },
   {
-    "question": "Trivia challenge — Which K-pop group is the first to headline Coachella?",
+    "question": "Which K-pop group is the first to headline Coachella?",
     "answer": "BLACKPINK",
     "choices": [
       "BTS",
@@ -1207,10 +1207,10 @@
       "NewJeans",
       "Twice"
     ],
-    "explanation": "Trivia: BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
+    "explanation": "BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
   },
   {
-    "question": "Trivia challenge — What is the name of MrBeast's chocolate and snack brand?",
+    "question": "What is the name of MrBeast's chocolate and snack brand?",
     "answer": "Feastables",
     "choices": [
       "Beast Bites",
@@ -1218,10 +1218,10 @@
       "MrSnacks",
       "Prime"
     ],
-    "explanation": "Trivia: MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
+    "explanation": "MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
   },
   {
-    "question": "Trivia challenge — Which streaming service features the hit show 'The Bear'?",
+    "question": "Which streaming service features the hit show 'The Bear'?",
     "answer": "Hulu",
     "choices": [
       "Netflix",
@@ -1229,10 +1229,10 @@
       "Apple TV+",
       "HBO Max"
     ],
-    "explanation": "Trivia: 'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
+    "explanation": "'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
   },
   {
-    "question": "Trivia challenge — What color is the 'correct letter, wrong spot' tile in Wordle?",
+    "question": "What color is the 'correct letter, wrong spot' tile in Wordle?",
     "answer": "Yellow",
     "choices": [
       "Green",
@@ -1240,10 +1240,10 @@
       "Grey",
       "Orange"
     ],
-    "explanation": "Trivia: In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
+    "explanation": "In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
   },
   {
-    "question": "Trivia challenge — Who performed the halftime show at Super Bowl LVII in 2023?",
+    "question": "Who performed the halftime show at Super Bowl LVII in 2023?",
     "answer": "Rihanna",
     "choices": [
       "Usher",
@@ -1251,10 +1251,10 @@
       "The Weeknd",
       "Taylor Swift"
     ],
-    "explanation": "Trivia: Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
+    "explanation": "Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
   },
   {
-    "question": "Trivia challenge — What is the name of Apple's first spatial computer/VR headset?",
+    "question": "What is the name of Apple's first spatial computer/VR headset?",
     "answer": "Vision Pro",
     "choices": [
       "Quest 3",
@@ -1262,10 +1262,10 @@
       "iGlass",
       "Air Lens"
     ],
-    "explanation": "Trivia: Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
+    "explanation": "Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
   },
   {
-    "question": "Trivia challenge — Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
+    "question": "Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
     "answer": "Jenna Ortega",
     "choices": [
       "Anya Taylor-Joy",
@@ -1273,10 +1273,10 @@
       "Millie Bobby Brown",
       "Sadie Sink"
     ],
-    "explanation": "Trivia: Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
+    "explanation": "Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
   },
   {
-    "question": "Trivia challenge — What is the primary currency used in the game Roblox?",
+    "question": "What is the primary currency used in the game Roblox?",
     "answer": "Robux",
     "choices": [
       "V-Bucks",
@@ -1284,10 +1284,10 @@
       "Robux",
       "Gems"
     ],
-    "explanation": "Trivia: Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories, and access to premium game experiences across the platform."
+    "explanation": "Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories, and access to premium game experiences across the platform."
   },
   {
-    "question": "Trivia challenge — Which city is the setting for the HBO show 'Succession'?",
+    "question": "Which city is the setting for the HBO show 'Succession'?",
     "answer": "New York City",
     "choices": [
       "Chicago",
@@ -1295,10 +1295,10 @@
       "Los Angeles",
       "London"
     ],
-    "explanation": "Trivia: 'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media and entertainment conglomerate, Waystar Royco."
+    "explanation": "'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media and entertainment conglomerate, Waystar Royco."
   },
   {
-    "question": "Trivia challenge — What is the name of the satellite internet constellation operated by SpaceX?",
+    "question": "What is the name of the satellite internet constellation operated by SpaceX?",
     "answer": "Starlink",
     "choices": [
       "SkyNet",
@@ -1306,10 +1306,10 @@
       "Blue Origin",
       "Kuiper"
     ],
-    "explanation": "Trivia: Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
+    "explanation": "Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
   },
   {
-    "question": "Trivia challenge — Which 2022 film won the Academy Award for Best Picture?",
+    "question": "Which 2022 film won the Academy Award for Best Picture?",
     "answer": "Everything Everywhere All at Once",
     "choices": [
       "Top Gun: Maverick",
@@ -1317,10 +1317,10 @@
       "The Fabelmans",
       "CODA"
     ],
-    "explanation": "Trivia: 'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
+    "explanation": "'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
   },
   {
-    "question": "Trivia challenge — Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
+    "question": "Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
     "answer": "Mariah Carey",
     "choices": [
       "Celine Dion",
@@ -1328,10 +1328,10 @@
       "Whitney Houston",
       "Cher"
     ],
-    "explanation": "Trivia: Mariah Carey released 'All I Want for Christmas Is You' in 1994."
+    "explanation": "Mariah Carey released 'All I Want for Christmas Is You' in 1994."
   },
   {
-    "question": "Trivia challenge — What social media app asks users to take a photo at a random time every day?",
+    "question": "What social media app asks users to take a photo at a random time every day?",
     "answer": "BeReal",
     "choices": [
       "Snapchat",
@@ -1339,10 +1339,10 @@
       "TikTok",
       "Instagram"
     ],
-    "explanation": "Trivia: BeReal sends users a daily notification at a random time. It matches the clue."
+    "explanation": "BeReal sends users a daily notification at a random time. It matches the clue."
   },
   {
-    "question": "Trivia challenge — Which artist released the 2022 album 'Renaissance'?",
+    "question": "Which artist released the 2022 album 'Renaissance'?",
     "answer": "Beyoncé",
     "choices": [
       "SZA",
@@ -1350,10 +1350,10 @@
       "Adele",
       "Lizzo"
     ],
-    "explanation": "Trivia: Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
+    "explanation": "Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
   },
   {
-    "question": "Trivia challenge — What is the name of the fictional language spoken in 'Avatar'?",
+    "question": "What is the name of the fictional language spoken in 'Avatar'?",
     "answer": "Na'vi",
     "choices": [
       "Dothraki",
@@ -1361,10 +1361,10 @@
       "Klingon",
       "Elvish"
     ],
-    "explanation": "Trivia: The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
+    "explanation": "The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
   },
   {
-    "question": "Trivia challenge — Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
+    "question": "Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
     "answer": "Amazon Prime Video",
     "choices": [
       "Netflix",
@@ -1372,10 +1372,10 @@
       "Amazon Prime Video",
       "Apple TV+"
     ],
-    "explanation": "Trivia: Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
+    "explanation": "Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
   },
   {
-    "question": "Trivia challenge — What is the name of the kingdom in Disney's 'Frozen'?",
+    "question": "What is the name of the kingdom in Disney's 'Frozen'?",
     "answer": "Arendelle",
     "choices": [
       "Arendelle",
@@ -1383,10 +1383,10 @@
       "Atlantica",
       "Agrabah"
     ],
-    "explanation": "Trivia: Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna, inspired by Norwegian culture and folklore."
+    "explanation": "Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna, inspired by Norwegian culture and folklore."
   },
   {
-    "question": "Trivia challenge — Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
+    "question": "Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
     "answer": "Fortnite",
     "choices": [
       "PUBG",
@@ -1394,10 +1394,10 @@
       "Fortnite",
       "Call of Duty"
     ],
-    "explanation": "Trivia: Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
+    "explanation": "Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
   },
   {
-    "question": "Trivia challenge — Who played Ken in the 2023 'Barbie' movie?",
+    "question": "Who played Ken in the 2023 'Barbie' movie?",
     "answer": "Ryan Gosling",
     "choices": [
       "Ryan Reynolds",
@@ -1405,10 +1405,10 @@
       "Simu Liu",
       "Chris Evans"
     ],
-    "explanation": "Trivia: Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film. It matches the clue."
+    "explanation": "Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film. It matches the clue."
   },
   {
-    "question": "Trivia challenge — What is the most common name for the child character Grogu in 'The Mandalorian'?",
+    "question": "What is the most common name for the child character Grogu in 'The Mandalorian'?",
     "answer": "Baby Yoda",
     "choices": [
       "Baby Yoda",
@@ -1416,10 +1416,10 @@
       "Little Mando",
       "The Apprentice"
     ],
-    "explanation": "Trivia: Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
+    "explanation": "Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
   },
   {
-    "question": "Trivia challenge — Which billionaire is the founder of the aerospace company Blue Origin?",
+    "question": "Which billionaire is the founder of the aerospace company Blue Origin?",
     "answer": "Jeff Bezos",
     "choices": [
       "Elon Musk",
@@ -1427,10 +1427,10 @@
       "Richard Branson",
       "Mark Zuckerberg"
     ],
-    "explanation": "Trivia: Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
+    "explanation": "Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
   },
   {
-    "question": "Trivia challenge — What is the name of the sports drink brand founded by Logan Paul and KSI?",
+    "question": "What is the name of the sports drink brand founded by Logan Paul and KSI?",
     "answer": "Prime",
     "choices": [
       "Gatorade",
@@ -1438,10 +1438,10 @@
       "Liquid IV",
       "BodyArmor"
     ],
-    "explanation": "Trivia: Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
+    "explanation": "Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
   },
   {
-    "question": "Trivia challenge — Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
+    "question": "Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
     "answer": "Spider-Man: No Way Home",
     "choices": [
       "Spider-Man: Far From Home",
@@ -1449,10 +1449,10 @@
       "Spider-Man: Into the Spider-Verse",
       "Doctor Strange in the Multiverse of Madness"
     ],
-    "explanation": "Trivia: 'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
+    "explanation": "'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
   },
   {
-    "question": "Trivia challenge — What is the name of the viral dance song by South Korean artist PSY?",
+    "question": "What is the name of the viral dance song by South Korean artist PSY?",
     "answer": "Gangnam Style",
     "choices": [
       "Gentleman",
@@ -1460,10 +1460,10 @@
       "DYNAMITE",
       "Pink Venom"
     ],
-    "explanation": "Trivia: PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
+    "explanation": "PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
   },
   {
-    "question": "Trivia challenge — Which company owns the YouTube platform?",
+    "question": "Which company owns the YouTube platform?",
     "answer": "Google",
     "choices": [
       "Microsoft",
@@ -1471,10 +1471,10 @@
       "Google",
       "Amazon"
     ],
-    "explanation": "Trivia: Google acquired YouTube in October 2006 for $1.65 billion in stock."
+    "explanation": "Google acquired YouTube in October 2006 for $1.65 billion in stock."
   },
   {
-    "question": "Trivia challenge — Who is the lead singer of the band Coldplay?",
+    "question": "Who is the lead singer of the band Coldplay?",
     "answer": "Chris Martin",
     "choices": [
       "Adam Levine",
@@ -1482,10 +1482,10 @@
       "Harry Styles",
       "Bono"
     ],
-    "explanation": "Trivia: Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
+    "explanation": "Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
   },
   {
-    "question": "Trivia challenge — What color is the 'X' in the current logo of the platform formerly known as Twitter?",
+    "question": "What color is the 'X' in the current logo of the platform formerly known as Twitter?",
     "answer": "White",
     "choices": [
       "Blue",
@@ -1493,10 +1493,10 @@
       "Black",
       "Gold"
     ],
-    "explanation": "Trivia: The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
+    "explanation": "The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
   },
   {
-    "question": "Trivia challenge — Which hit TV series is a prequel to 'Game of Thrones'?",
+    "question": "Which hit TV series is a prequel to 'Game of Thrones'?",
     "answer": "House of the Dragon",
     "choices": [
       "The Rings of Power",
@@ -1504,10 +1504,10 @@
       "The Witcher",
       "The Last Kingdom"
     ],
-    "explanation": "Trivia: 'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
+    "explanation": "'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
   },
   {
-    "question": "Trivia challenge — What is the name of the AI search engine assistant from Microsoft?",
+    "question": "What is the name of the AI search engine assistant from Microsoft?",
     "answer": "Copilot",
     "choices": [
       "Cortana",
@@ -1515,10 +1515,10 @@
       "Copilot",
       "Gemini"
     ],
-    "explanation": "Trivia: Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
+    "explanation": "Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
   },
   {
-    "question": "Trivia challenge — Which female artist has the most Grammy wins of all time?",
+    "question": "Which female artist has the most Grammy wins of all time?",
     "answer": "Beyoncé",
     "choices": [
       "Taylor Swift",
@@ -1526,10 +1526,10 @@
       "Adele",
       "Alison Krauss"
     ],
-    "explanation": "Trivia: Beyoncé holds the record for the most Grammy wins of any artist in history, surpassing 32 awards across her solo and group career with Destiny's Child."
+    "explanation": "Beyoncé holds the record for the most Grammy wins of any artist in history, surpassing 32 awards across her solo and group career with Destiny's Child."
   },
   {
-    "question": "Trivia challenge — What is the name of the fictional continent in 'The Witcher'?",
+    "question": "What is the name of the fictional continent in 'The Witcher'?",
     "answer": "The Continent",
     "choices": [
       "Westeros",
@@ -1537,10 +1537,10 @@
       "The Continent",
       "Tamriel"
     ],
-    "explanation": "Trivia: In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
+    "explanation": "In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
   },
   {
-    "question": "Trivia challenge — Which social media platform is primarily used for professional networking?",
+    "question": "Which social media platform is primarily used for professional networking?",
     "answer": "LinkedIn",
     "choices": [
       "Facebook",
@@ -1548,10 +1548,10 @@
       "Reddit",
       "Twitter"
     ],
-    "explanation": "Trivia: LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
+    "explanation": "LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
   },
   {
-    "question": "Trivia challenge — Who is the creator of the 'Squid Game' series?",
+    "question": "Who is the creator of the 'Squid Game' series?",
     "answer": "Hwang Dong-hyuk",
     "choices": [
       "Bong Joon-ho",
@@ -1559,10 +1559,10 @@
       "Park Chan-wook",
       "Lee Jung-jae"
     ],
-    "explanation": "Trivia: South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
+    "explanation": "South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
   },
   {
-    "question": "Trivia challenge — What is the name of the 2023 movie starring Mario and Luigi?",
+    "question": "What is the name of the 2023 movie starring Mario and Luigi?",
     "answer": "The Super Mario Bros. Movie",
     "choices": [
       "Mario Kart Live",
@@ -1570,10 +1570,10 @@
       "Mushroom Kingdom",
       "Super Mario World"
     ],
-    "explanation": "Trivia: 'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
+    "explanation": "'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
   },
   {
-    "question": "Trivia challenge — Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
+    "question": "Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
     "answer": "Chris Pratt",
     "choices": [
       "Chris Hemsworth",
@@ -1581,10 +1581,10 @@
       "Chris Evans",
       "Zachary Levi"
     ],
-    "explanation": "Trivia: Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
+    "explanation": "Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
   },
   {
-    "question": "Trivia challenge — What is the name of the world's most popular open-world 'sandbox' game?",
+    "question": "What is the name of the world's most popular open-world 'sandbox' game?",
     "answer": "Minecraft",
     "choices": [
       "Roblox",
@@ -1592,10 +1592,10 @@
       "Terraria",
       "Fortnite"
     ],
-    "explanation": "Trivia: Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
+    "explanation": "Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
   },
   {
-    "question": "Trivia challenge — Which company developed the video game 'Grand Theft Auto V'?",
+    "question": "Which company developed the video game 'Grand Theft Auto V'?",
     "answer": "Rockstar Games",
     "choices": [
       "Ubisoft",
@@ -1603,10 +1603,10 @@
       "Activision",
       "EA Sports"
     ],
-    "explanation": "Trivia: Grand Theft Auto V was developed by Rockstar Games and released in 2013."
+    "explanation": "Grand Theft Auto V was developed by Rockstar Games and released in 2013."
   },
   {
-    "question": "Trivia challenge — What does the 'S' stand for in the car brand SUV?",
+    "question": "What does the 'S' stand for in the car brand SUV?",
     "answer": "Sport",
     "choices": [
       "Standard",
@@ -1614,10 +1614,10 @@
       "Speed",
       "Super"
     ],
-    "explanation": "Trivia: SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
+    "explanation": "SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
   },
   {
-    "question": "Trivia challenge — Who is the protagonist of the 'Legend of Zelda' video game series?",
+    "question": "Who is the protagonist of the 'Legend of Zelda' video game series?",
     "answer": "Link",
     "choices": [
       "Zelda",
@@ -1625,10 +1625,10 @@
       "Ganon",
       "Epona"
     ],
-    "explanation": "Trivia: Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
+    "explanation": "Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
   },
   {
-    "question": "Trivia challenge — What is the most popular video-sharing app for short-form mobile videos?",
+    "question": "What is the most popular video-sharing app for short-form mobile videos?",
     "answer": "TikTok",
     "choices": [
       "Vine",
@@ -1636,10 +1636,10 @@
       "Reels",
       "Triller"
     ],
-    "explanation": "Trivia: TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
+    "explanation": "TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
   },
   {
-    "question": "Trivia challenge — Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
+    "question": "Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
     "answer": "Emilia Clarke",
     "choices": [
       "Sophie Turner",
@@ -1647,10 +1647,10 @@
       "Maisie Williams",
       "Natalie Dormer"
     ],
-    "explanation": "Trivia: British actress Emilia Clarke portrayed Daenerys Targaryen. It matches the clue."
+    "explanation": "British actress Emilia Clarke portrayed Daenerys Targaryen. It matches the clue."
   },
   {
-    "question": "Which option correctly answers this question? Which social media app has a ghost as its mascot?",
+    "question": "Which social media app has a ghost as its mascot?",
     "answer": "Snapchat",
     "choices": [
       "Instagram",
@@ -1658,10 +1658,10 @@
       "TikTok",
       "Twitter"
     ],
-    "explanation": "Options: Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
+    "explanation": "Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the fictional country in 'Black Panther'?",
+    "question": "What is the name of the fictional country in 'Black Panther'?",
     "answer": "Wakanda",
     "choices": [
       "Zamunda",
@@ -1669,10 +1669,10 @@
       "Genovia",
       "Latveria"
     ],
-    "explanation": "Options: Wakanda is the fictional African nation in Marvel Comics and the MCU."
+    "explanation": "Wakanda is the fictional African nation in Marvel Comics and the MCU."
   },
   {
-    "question": "Which option correctly answers this question? Who plays Thor in the Marvel Cinematic Universe?",
+    "question": "Who plays Thor in the Marvel Cinematic Universe?",
     "answer": "Chris Hemsworth",
     "choices": [
       "Chris Evans",
@@ -1680,10 +1680,10 @@
       "Tom Hiddleston",
       "Oscar Isaac"
     ],
-    "explanation": "Options: Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
+    "explanation": "Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
   },
   {
-    "question": "Which option correctly answers this question? What app has the slogan 'Make Your Day'?",
+    "question": "What app has the slogan 'Make Your Day'?",
     "answer": "TikTok",
     "choices": [
       "Instagram",
@@ -1691,10 +1691,10 @@
       "TikTok",
       "YouTube"
     ],
-    "explanation": "Options: TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
+    "explanation": "TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
   },
   {
-    "question": "Which option correctly answers this question? What streaming service produced 'Stranger Things'?",
+    "question": "What streaming service produced 'Stranger Things'?",
     "answer": "Netflix",
     "choices": [
       "Netflix",
@@ -1702,10 +1702,10 @@
       "Disney+",
       "Amazon Prime"
     ],
-    "explanation": "Options: 'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
+    "explanation": "'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
   },
   {
-    "question": "Which option correctly answers this question? What year was YouTube founded?",
+    "question": "What year was YouTube founded?",
     "answer": "2005",
     "choices": [
       "2003",
@@ -1713,10 +1713,10 @@
       "2007",
       "2009"
     ],
-    "explanation": "Options: YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
+    "explanation": "YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
   },
   {
-    "question": "Which option correctly answers this question? Who founded Amazon?",
+    "question": "Who founded Amazon?",
     "answer": "Jeff Bezos",
     "choices": [
       "Elon Musk",
@@ -1724,10 +1724,10 @@
       "Bill Gates",
       "Mark Zuckerberg"
     ],
-    "explanation": "Options: Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
+    "explanation": "Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
   },
   {
-    "question": "Which option correctly answers this question? What is the most-watched Netflix series of all time?",
+    "question": "What is the most-watched Netflix series of all time?",
     "answer": "Squid Game",
     "choices": [
       "Stranger Things",
@@ -1735,10 +1735,10 @@
       "Wednesday",
       "Money Heist"
     ],
-    "explanation": "Options: South Korean series 'Squid Game,' released in 2021. It matches the clue."
+    "explanation": "South Korean series 'Squid Game,' released in 2021. It matches the clue."
   },
   {
-    "question": "Which option correctly answers this question? Which reality TV show features roses?",
+    "question": "Which reality TV show features roses?",
     "answer": "The Bachelor",
     "choices": [
       "Survivor",
@@ -1746,10 +1746,10 @@
       "Big Brother",
       "Love Island"
     ],
-    "explanation": "Options: In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
+    "explanation": "In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
   },
   {
-    "question": "Which option correctly answers this question? What was Twitter renamed to in 2023?",
+    "question": "What was Twitter renamed to in 2023?",
     "answer": "X",
     "choices": [
       "Meta",
@@ -1757,10 +1757,10 @@
       "Thread",
       "Chirp"
     ],
-    "explanation": "Options: After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his vision."
+    "explanation": "After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his."
   },
   {
-    "question": "Which option correctly answers this question? What company makes the iPhone?",
+    "question": "What company makes the iPhone?",
     "answer": "Apple",
     "choices": [
       "Samsung",
@@ -1768,10 +1768,10 @@
       "Google",
       "Microsoft"
     ],
-    "explanation": "Options: Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
+    "explanation": "Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
   },
   {
-    "question": "Which option correctly answers this question? Who created Facebook?",
+    "question": "Who created Facebook?",
     "answer": "Mark Zuckerberg",
     "choices": [
       "Bill Gates",
@@ -1779,10 +1779,10 @@
       "Mark Zuckerberg",
       "Jack Dorsey"
     ],
-    "explanation": "Options: Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
+    "explanation": "Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
   },
   {
-    "question": "Which option correctly answers this question? What was the first video ever uploaded to YouTube?",
+    "question": "What was the first video ever uploaded to YouTube?",
     "answer": "Me at the zoo",
     "choices": [
       "Charlie Bit My Finger",
@@ -1790,10 +1790,10 @@
       "Evolution of Dance",
       "Keyboard Cat"
     ],
-    "explanation": "Options: 'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
+    "explanation": "'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
   },
   {
-    "question": "Which option correctly answers this question? What is the most followed account on Instagram?",
+    "question": "What is the most followed account on Instagram?",
     "answer": "Instagram",
     "choices": [
       "Cristiano Ronaldo",
@@ -1801,10 +1801,10 @@
       "Selena Gomez",
       "Kylie Jenner"
     ],
-    "explanation": "Options: Instagram's own official account (@instagram) is the most followed on the platform."
+    "explanation": "Instagram's own official account (@instagram) is the most followed on the platform."
   },
   {
-    "question": "Which option correctly answers this question? What does 'NFT' stand for?",
+    "question": "What does 'NFT' stand for?",
     "answer": "Non-Fungible Token",
     "choices": [
       "New Financial Technology",
@@ -1812,10 +1812,10 @@
       "National Fund Transfer",
       "Network File Transfer"
     ],
-    "explanation": "Options: NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like digital."
+    "explanation": "NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like."
   },
   {
-    "question": "Which option correctly answers this question? Who is the most subscribed YouTuber?",
+    "question": "Who is the most subscribed YouTuber?",
     "answer": "MrBeast",
     "choices": [
       "PewDiePie",
@@ -1823,10 +1823,10 @@
       "T-Series",
       "Cocomelon"
     ],
-    "explanation": "Options: MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
+    "explanation": "MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
   },
   {
-    "question": "Which option correctly answers this question? What dating app uses a 'swipe right' feature?",
+    "question": "What dating app uses a 'swipe right' feature?",
     "answer": "Tinder",
     "choices": [
       "Bumble",
@@ -1834,10 +1834,10 @@
       "Hinge",
       "OkCupid"
     ],
-    "explanation": "Options: Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach online."
+    "explanation": "Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach."
   },
   {
-    "question": "Which option correctly answers this question? What metaverse company did Facebook rebrand as?",
+    "question": "What metaverse company did Facebook rebrand as?",
     "answer": "Meta",
     "choices": [
       "Meta",
@@ -1845,10 +1845,10 @@
       "Quest",
       "Reality Labs"
     ],
-    "explanation": "Options: In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building the."
+    "explanation": "In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building."
   },
   {
-    "question": "Which option correctly answers this question? What cryptocurrency was created by Satoshi Nakamoto?",
+    "question": "What cryptocurrency was created by Satoshi Nakamoto?",
     "answer": "Bitcoin",
     "choices": [
       "Ethereum",
@@ -1856,10 +1856,10 @@
       "Dogecoin",
       "Litecoin"
     ],
-    "explanation": "Options: Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
+    "explanation": "Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
   },
   {
-    "question": "Which option correctly answers this question? What AI chatbot was released by OpenAI in 2022?",
+    "question": "What AI chatbot was released by OpenAI in 2022?",
     "answer": "ChatGPT",
     "choices": [
       "Siri",
@@ -1867,10 +1867,10 @@
       "ChatGPT",
       "Bard"
     ],
-    "explanation": "Options: OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
+    "explanation": "OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
   },
   {
-    "question": "Which option correctly answers this question? What viral dance trend came from the song 'Renegade'?",
+    "question": "What viral dance trend came from the song 'Renegade'?",
     "answer": "Renegade dance",
     "choices": [
       "Floss",
@@ -1878,10 +1878,10 @@
       "Whip and Nae Nae",
       "Dab"
     ],
-    "explanation": "Options: The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
+    "explanation": "The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
   },
   {
-    "question": "Which option correctly answers this question? What platform is known for its 'For You Page'?",
+    "question": "What platform is known for its 'For You Page'?",
     "answer": "TikTok",
     "choices": [
       "Instagram",
@@ -1889,10 +1889,10 @@
       "YouTube",
       "Twitter"
     ],
-    "explanation": "Options: TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
+    "explanation": "TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
   },
   {
-    "question": "Which option correctly answers this question? What game caused a massive craze in 2016 with augmented reality?",
+    "question": "What game caused a massive craze in 2016 with augmented reality?",
     "answer": "Pokemon GO",
     "choices": [
       "Minecraft",
@@ -1900,10 +1900,10 @@
       "Fortnite",
       "Candy Crush"
     ],
-    "explanation": "Options: Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon that."
+    "explanation": "Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon."
   },
   {
-    "question": "Which option correctly answers this question? Who plays the Joker in the 2019 standalone film 'Joker'?",
+    "question": "Who plays the Joker in the 2019 standalone film 'Joker'?",
     "answer": "Joaquin Phoenix",
     "choices": [
       "Heath Ledger",
@@ -1911,10 +1911,10 @@
       "Joaquin Phoenix",
       "Jack Nicholson"
     ],
-    "explanation": "Options: Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips."
+    "explanation": "Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips."
   },
   {
-    "question": "Which option correctly answers this question? What food delivery app uses a pink logo?",
+    "question": "What food delivery app uses a pink logo?",
     "answer": "DoorDash",
     "choices": [
       "Uber Eats",
@@ -1922,10 +1922,10 @@
       "Grubhub",
       "Postmates"
     ],
-    "explanation": "Options: DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
+    "explanation": "DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
   },
   {
-    "question": "Which option correctly answers this question? Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
+    "question": "Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
     "answer": "Kendrick Lamar",
     "choices": [
       "J. Cole",
@@ -1933,10 +1933,10 @@
       "Kendrick Lamar",
       "Kanye West"
     ],
-    "explanation": "Options: Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
+    "explanation": "Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
   },
   {
-    "question": "Which option correctly answers this question? Which 2023 movie became the highest-grossing film directed by a woman?",
+    "question": "Which 2023 movie became the highest-grossing film directed by a woman?",
     "answer": "Barbie",
     "choices": [
       "Wonder Woman",
@@ -1944,10 +1944,10 @@
       "Cocaine Bear",
       "Oppenheimer"
     ],
-    "explanation": "Options: Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
+    "explanation": "Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of Meta's text-based rival to Twitter/X?",
+    "question": "What is the name of Meta's text-based rival to Twitter/X?",
     "answer": "Threads",
     "choices": [
       "Mastodon",
@@ -1955,10 +1955,10 @@
       "Threads",
       "Post"
     ],
-    "explanation": "Options: Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
+    "explanation": "Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
   },
   {
-    "question": "Which option correctly answers this question? Which game won Game of the Year at the 2023 Game Awards?",
+    "question": "Which game won Game of the Year at the 2023 Game Awards?",
     "answer": "Baldur's Gate 3",
     "choices": [
       "Zelda: Tears of the Kingdom",
@@ -1966,10 +1966,10 @@
       "Baldur's Gate 3",
       "Alan Wake 2"
     ],
-    "explanation": "Options: Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
+    "explanation": "Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
   },
   {
-    "question": "Which option correctly answers this question? Who played the title character in the 2023 film 'Oppenheimer'?",
+    "question": "Who played the title character in the 2023 film 'Oppenheimer'?",
     "answer": "Cillian Murphy",
     "choices": [
       "Robert Downey Jr.",
@@ -1977,10 +1977,10 @@
       "Matt Damon",
       "Florence Pugh"
     ],
-    "explanation": "Options: Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
+    "explanation": "Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the AI image generator developed by OpenAI?",
+    "question": "What is the name of the AI image generator developed by OpenAI?",
     "answer": "DALL-E",
     "choices": [
       "Midjourney",
@@ -1988,10 +1988,10 @@
       "DALL-E",
       "Firefly"
     ],
-    "explanation": "Options: DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
+    "explanation": "DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
   },
   {
-    "question": "Which option correctly answers this question? Which pop star is known for her 'Fenty Beauty' makeup line?",
+    "question": "Which pop star is known for her 'Fenty Beauty' makeup line?",
     "answer": "Rihanna",
     "choices": [
       "Beyoncé",
@@ -1999,10 +1999,10 @@
       "Rihanna",
       "Ariana Grande"
     ],
-    "explanation": "Options: Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity in."
+    "explanation": "Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity."
   },
   {
-    "question": "Which option correctly answers this question? In 'The Last of Us' TV series, which actor plays the character Joel?",
+    "question": "In 'The Last of Us' TV series, which actor plays the character Joel?",
     "answer": "Pedro Pascal",
     "choices": [
       "Oscar Isaac",
@@ -2010,10 +2010,10 @@
       "Tom Hardy",
       "David Harbour"
     ],
-    "explanation": "Options: Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
+    "explanation": "Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
   },
   {
-    "question": "Which option correctly answers this question? What daily word game was acquired by The New York Times in 2022?",
+    "question": "What daily word game was acquired by The New York Times in 2022?",
     "answer": "Wordle",
     "choices": [
       "Heardle",
@@ -2021,10 +2021,10 @@
       "Wordle",
       "Quordle"
     ],
-    "explanation": "Options: Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
+    "explanation": "Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
   },
   {
-    "question": "Which option correctly answers this question? Which K-pop group is the first to headline Coachella?",
+    "question": "Which K-pop group is the first to headline Coachella?",
     "answer": "BLACKPINK",
     "choices": [
       "BTS",
@@ -2032,10 +2032,10 @@
       "NewJeans",
       "Twice"
     ],
-    "explanation": "Options: BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
+    "explanation": "BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of MrBeast's chocolate and snack brand?",
+    "question": "What is the name of MrBeast's chocolate and snack brand?",
     "answer": "Feastables",
     "choices": [
       "Beast Bites",
@@ -2043,10 +2043,10 @@
       "MrSnacks",
       "Prime"
     ],
-    "explanation": "Options: MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
+    "explanation": "MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
   },
   {
-    "question": "Which option correctly answers this question? Which streaming service features the hit show 'The Bear'?",
+    "question": "Which streaming service features the hit show 'The Bear'?",
     "answer": "Hulu",
     "choices": [
       "Netflix",
@@ -2054,10 +2054,10 @@
       "Apple TV+",
       "HBO Max"
     ],
-    "explanation": "Options: 'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
+    "explanation": "'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
   },
   {
-    "question": "Which option correctly answers this question? What color is the 'correct letter, wrong spot' tile in Wordle?",
+    "question": "What color is the 'correct letter, wrong spot' tile in Wordle?",
     "answer": "Yellow",
     "choices": [
       "Green",
@@ -2065,10 +2065,10 @@
       "Grey",
       "Orange"
     ],
-    "explanation": "Options: In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
+    "explanation": "In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
   },
   {
-    "question": "Which option correctly answers this question? Who performed the halftime show at Super Bowl LVII in 2023?",
+    "question": "Who performed the halftime show at Super Bowl LVII in 2023?",
     "answer": "Rihanna",
     "choices": [
       "Usher",
@@ -2076,10 +2076,10 @@
       "The Weeknd",
       "Taylor Swift"
     ],
-    "explanation": "Options: Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
+    "explanation": "Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of Apple's first spatial computer/VR headset?",
+    "question": "What is the name of Apple's first spatial computer/VR headset?",
     "answer": "Vision Pro",
     "choices": [
       "Quest 3",
@@ -2087,10 +2087,10 @@
       "iGlass",
       "Air Lens"
     ],
-    "explanation": "Options: Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
+    "explanation": "Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
   },
   {
-    "question": "Which option correctly answers this question? Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
+    "question": "Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
     "answer": "Jenna Ortega",
     "choices": [
       "Anya Taylor-Joy",
@@ -2098,10 +2098,10 @@
       "Millie Bobby Brown",
       "Sadie Sink"
     ],
-    "explanation": "Options: Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
+    "explanation": "Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
   },
   {
-    "question": "Which option correctly answers this question? What is the primary currency used in the game Roblox?",
+    "question": "What is the primary currency used in the game Roblox?",
     "answer": "Robux",
     "choices": [
       "V-Bucks",
@@ -2109,10 +2109,10 @@
       "Robux",
       "Gems"
     ],
-    "explanation": "Options: Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories."
+    "explanation": "Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories."
   },
   {
-    "question": "Which option correctly answers this question? Which city is the setting for the HBO show 'Succession'?",
+    "question": "Which city is the setting for the HBO show 'Succession'?",
     "answer": "New York City",
     "choices": [
       "Chicago",
@@ -2120,10 +2120,10 @@
       "Los Angeles",
       "London"
     ],
-    "explanation": "Options: 'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media and entertainment conglomerate, Waystar Royco."
+    "explanation": "'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the satellite internet constellation operated by SpaceX?",
+    "question": "What is the name of the satellite internet constellation operated by SpaceX?",
     "answer": "Starlink",
     "choices": [
       "SkyNet",
@@ -2131,10 +2131,10 @@
       "Blue Origin",
       "Kuiper"
     ],
-    "explanation": "Options: Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
+    "explanation": "Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
   },
   {
-    "question": "Which option correctly answers this question? Which 2022 film won the Academy Award for Best Picture?",
+    "question": "Which 2022 film won the Academy Award for Best Picture?",
     "answer": "Everything Everywhere All at Once",
     "choices": [
       "Top Gun: Maverick",
@@ -2142,10 +2142,10 @@
       "The Fabelmans",
       "CODA"
     ],
-    "explanation": "Options: 'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
+    "explanation": "'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
   },
   {
-    "question": "Which option correctly answers this question? Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
+    "question": "Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
     "answer": "Mariah Carey",
     "choices": [
       "Celine Dion",
@@ -2153,10 +2153,10 @@
       "Whitney Houston",
       "Cher"
     ],
-    "explanation": "Options: Mariah Carey released 'All I Want for Christmas Is You' in 1994."
+    "explanation": "Mariah Carey released 'All I Want for Christmas Is You' in 1994."
   },
   {
-    "question": "Which option correctly answers this question? What social media app asks users to take a photo at a random time every day?",
+    "question": "What social media app asks users to take a photo at a random time every day?",
     "answer": "BeReal",
     "choices": [
       "Snapchat",
@@ -2164,10 +2164,10 @@
       "TikTok",
       "Instagram"
     ],
-    "explanation": "Options: BeReal sends users a daily notification at a random time. It matches the clue."
+    "explanation": "BeReal sends users a daily notification at a random time. It matches the clue."
   },
   {
-    "question": "Which option correctly answers this question? Which artist released the 2022 album 'Renaissance'?",
+    "question": "Which artist released the 2022 album 'Renaissance'?",
     "answer": "Beyoncé",
     "choices": [
       "SZA",
@@ -2175,10 +2175,10 @@
       "Adele",
       "Lizzo"
     ],
-    "explanation": "Options: Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
+    "explanation": "Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the fictional language spoken in 'Avatar'?",
+    "question": "What is the name of the fictional language spoken in 'Avatar'?",
     "answer": "Na'vi",
     "choices": [
       "Dothraki",
@@ -2186,10 +2186,10 @@
       "Klingon",
       "Elvish"
     ],
-    "explanation": "Options: The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
+    "explanation": "The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
   },
   {
-    "question": "Which option correctly answers this question? Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
+    "question": "Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
     "answer": "Amazon Prime Video",
     "choices": [
       "Netflix",
@@ -2197,10 +2197,10 @@
       "Amazon Prime Video",
       "Apple TV+"
     ],
-    "explanation": "Options: Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
+    "explanation": "Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the kingdom in Disney's 'Frozen'?",
+    "question": "What is the name of the kingdom in Disney's 'Frozen'?",
     "answer": "Arendelle",
     "choices": [
       "Arendelle",
@@ -2208,10 +2208,10 @@
       "Atlantica",
       "Agrabah"
     ],
-    "explanation": "Options: Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna, inspired by Norwegian culture and folklore."
+    "explanation": "Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna."
   },
   {
-    "question": "Which option correctly answers this question? Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
+    "question": "Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
     "answer": "Fortnite",
     "choices": [
       "PUBG",
@@ -2219,10 +2219,10 @@
       "Fortnite",
       "Call of Duty"
     ],
-    "explanation": "Options: Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
+    "explanation": "Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
   },
   {
-    "question": "Which option correctly answers this question? Who played Ken in the 2023 'Barbie' movie?",
+    "question": "Who played Ken in the 2023 'Barbie' movie?",
     "answer": "Ryan Gosling",
     "choices": [
       "Ryan Reynolds",
@@ -2230,10 +2230,10 @@
       "Simu Liu",
       "Chris Evans"
     ],
-    "explanation": "Options: Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film."
+    "explanation": "Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film."
   },
   {
-    "question": "Which option correctly answers this question? What is the most common name for the child character Grogu in 'The Mandalorian'?",
+    "question": "What is the most common name for the child character Grogu in 'The Mandalorian'?",
     "answer": "Baby Yoda",
     "choices": [
       "Baby Yoda",
@@ -2241,10 +2241,10 @@
       "Little Mando",
       "The Apprentice"
     ],
-    "explanation": "Options: Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
+    "explanation": "Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
   },
   {
-    "question": "Which option correctly answers this question? Which billionaire is the founder of the aerospace company Blue Origin?",
+    "question": "Which billionaire is the founder of the aerospace company Blue Origin?",
     "answer": "Jeff Bezos",
     "choices": [
       "Elon Musk",
@@ -2252,10 +2252,10 @@
       "Richard Branson",
       "Mark Zuckerberg"
     ],
-    "explanation": "Options: Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
+    "explanation": "Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the sports drink brand founded by Logan Paul and KSI?",
+    "question": "What is the name of the sports drink brand founded by Logan Paul and KSI?",
     "answer": "Prime",
     "choices": [
       "Gatorade",
@@ -2263,10 +2263,10 @@
       "Liquid IV",
       "BodyArmor"
     ],
-    "explanation": "Options: Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
+    "explanation": "Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
   },
   {
-    "question": "Which option correctly answers this question? Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
+    "question": "Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
     "answer": "Spider-Man: No Way Home",
     "choices": [
       "Spider-Man: Far From Home",
@@ -2274,10 +2274,10 @@
       "Spider-Man: Into the Spider-Verse",
       "Doctor Strange in the Multiverse of Madness"
     ],
-    "explanation": "Options: 'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
+    "explanation": "'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the viral dance song by South Korean artist PSY?",
+    "question": "What is the name of the viral dance song by South Korean artist PSY?",
     "answer": "Gangnam Style",
     "choices": [
       "Gentleman",
@@ -2285,10 +2285,10 @@
       "DYNAMITE",
       "Pink Venom"
     ],
-    "explanation": "Options: PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
+    "explanation": "PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
   },
   {
-    "question": "Which option correctly answers this question? Which company owns the YouTube platform?",
+    "question": "Which company owns the YouTube platform?",
     "answer": "Google",
     "choices": [
       "Microsoft",
@@ -2296,10 +2296,10 @@
       "Google",
       "Amazon"
     ],
-    "explanation": "Options: Google acquired YouTube in October 2006 for $1.65 billion in stock."
+    "explanation": "Google acquired YouTube in October 2006 for $1.65 billion in stock."
   },
   {
-    "question": "Which option correctly answers this question? Who is the lead singer of the band Coldplay?",
+    "question": "Who is the lead singer of the band Coldplay?",
     "answer": "Chris Martin",
     "choices": [
       "Adam Levine",
@@ -2307,10 +2307,10 @@
       "Harry Styles",
       "Bono"
     ],
-    "explanation": "Options: Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
+    "explanation": "Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
   },
   {
-    "question": "Which option correctly answers this question? What color is the 'X' in the current logo of the platform formerly known as Twitter?",
+    "question": "What color is the 'X' in the current logo of the platform formerly known as Twitter?",
     "answer": "White",
     "choices": [
       "Blue",
@@ -2318,10 +2318,10 @@
       "Black",
       "Gold"
     ],
-    "explanation": "Options: The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
+    "explanation": "The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
   },
   {
-    "question": "Which option correctly answers this question? Which hit TV series is a prequel to 'Game of Thrones'?",
+    "question": "Which hit TV series is a prequel to 'Game of Thrones'?",
     "answer": "House of the Dragon",
     "choices": [
       "The Rings of Power",
@@ -2329,10 +2329,10 @@
       "The Witcher",
       "The Last Kingdom"
     ],
-    "explanation": "Options: 'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
+    "explanation": "'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the AI search engine assistant from Microsoft?",
+    "question": "What is the name of the AI search engine assistant from Microsoft?",
     "answer": "Copilot",
     "choices": [
       "Cortana",
@@ -2340,10 +2340,10 @@
       "Copilot",
       "Gemini"
     ],
-    "explanation": "Options: Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
+    "explanation": "Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
   },
   {
-    "question": "Which option correctly answers this question? Which female artist has the most Grammy wins of all time?",
+    "question": "Which female artist has the most Grammy wins of all time?",
     "answer": "Beyoncé",
     "choices": [
       "Taylor Swift",
@@ -2351,10 +2351,10 @@
       "Adele",
       "Alison Krauss"
     ],
-    "explanation": "Options: Beyoncé holds the record for the most Grammy wins of any artist in history, surpassing 32 awards across her solo and group career with Destiny's Child."
+    "explanation": "Beyoncé holds the record for the most Grammy wins of any artist in history."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the fictional continent in 'The Witcher'?",
+    "question": "What is the name of the fictional continent in 'The Witcher'?",
     "answer": "The Continent",
     "choices": [
       "Westeros",
@@ -2362,10 +2362,10 @@
       "The Continent",
       "Tamriel"
     ],
-    "explanation": "Options: In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
+    "explanation": "In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
   },
   {
-    "question": "Which option correctly answers this question? Which social media platform is primarily used for professional networking?",
+    "question": "Which social media platform is primarily used for professional networking?",
     "answer": "LinkedIn",
     "choices": [
       "Facebook",
@@ -2373,10 +2373,10 @@
       "Reddit",
       "Twitter"
     ],
-    "explanation": "Options: LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
+    "explanation": "LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
   },
   {
-    "question": "Which option correctly answers this question? Who is the creator of the 'Squid Game' series?",
+    "question": "Who is the creator of the 'Squid Game' series?",
     "answer": "Hwang Dong-hyuk",
     "choices": [
       "Bong Joon-ho",
@@ -2384,10 +2384,10 @@
       "Park Chan-wook",
       "Lee Jung-jae"
     ],
-    "explanation": "Options: South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
+    "explanation": "South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the 2023 movie starring Mario and Luigi?",
+    "question": "What is the name of the 2023 movie starring Mario and Luigi?",
     "answer": "The Super Mario Bros. Movie",
     "choices": [
       "Mario Kart Live",
@@ -2395,10 +2395,10 @@
       "Mushroom Kingdom",
       "Super Mario World"
     ],
-    "explanation": "Options: 'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
+    "explanation": "'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
   },
   {
-    "question": "Which option correctly answers this question? Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
+    "question": "Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
     "answer": "Chris Pratt",
     "choices": [
       "Chris Hemsworth",
@@ -2406,10 +2406,10 @@
       "Chris Evans",
       "Zachary Levi"
     ],
-    "explanation": "Options: Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
+    "explanation": "Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
   },
   {
-    "question": "Which option correctly answers this question? What is the name of the world's most popular open-world 'sandbox' game?",
+    "question": "What is the name of the world's most popular open-world 'sandbox' game?",
     "answer": "Minecraft",
     "choices": [
       "Roblox",
@@ -2417,10 +2417,10 @@
       "Terraria",
       "Fortnite"
     ],
-    "explanation": "Options: Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
+    "explanation": "Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
   },
   {
-    "question": "Which option correctly answers this question? Which company developed the video game 'Grand Theft Auto V'?",
+    "question": "Which company developed the video game 'Grand Theft Auto V'?",
     "answer": "Rockstar Games",
     "choices": [
       "Ubisoft",
@@ -2428,10 +2428,10 @@
       "Activision",
       "EA Sports"
     ],
-    "explanation": "Options: Grand Theft Auto V was developed by Rockstar Games and released in 2013."
+    "explanation": "Grand Theft Auto V was developed by Rockstar Games and released in 2013."
   },
   {
-    "question": "Which option correctly answers this question? What does the 'S' stand for in the car brand SUV?",
+    "question": "What does the 'S' stand for in the car brand SUV?",
     "answer": "Sport",
     "choices": [
       "Standard",
@@ -2439,10 +2439,10 @@
       "Speed",
       "Super"
     ],
-    "explanation": "Options: SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
+    "explanation": "SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
   },
   {
-    "question": "Which option correctly answers this question? Who is the protagonist of the 'Legend of Zelda' video game series?",
+    "question": "Who is the protagonist of the 'Legend of Zelda' video game series?",
     "answer": "Link",
     "choices": [
       "Zelda",
@@ -2450,10 +2450,10 @@
       "Ganon",
       "Epona"
     ],
-    "explanation": "Options: Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
+    "explanation": "Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
   },
   {
-    "question": "Which option correctly answers this question? What is the most popular video-sharing app for short-form mobile videos?",
+    "question": "What is the most popular video-sharing app for short-form mobile videos?",
     "answer": "TikTok",
     "choices": [
       "Vine",
@@ -2461,10 +2461,10 @@
       "Reels",
       "Triller"
     ],
-    "explanation": "Options: TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
+    "explanation": "TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
   },
   {
-    "question": "Which option correctly answers this question? Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
+    "question": "Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
     "answer": "Emilia Clarke",
     "choices": [
       "Sophie Turner",
@@ -2472,2482 +2472,7 @@
       "Maisie Williams",
       "Natalie Dormer"
     ],
-    "explanation": "Options: British actress Emilia Clarke portrayed Daenerys Targaryen. It matches the clue."
-  },
-  {
-    "question": "From these choices, which is correct? Which social media app has a ghost as its mascot?",
-    "answer": "Snapchat",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "Twitter"
-    ],
-    "explanation": "Choices: Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the fictional country in 'Black Panther'?",
-    "answer": "Wakanda",
-    "choices": [
-      "Zamunda",
-      "Wakanda",
-      "Genovia",
-      "Latveria"
-    ],
-    "explanation": "Choices: Wakanda is the fictional African nation in Marvel Comics and the MCU."
-  },
-  {
-    "question": "From these choices, which is correct? Who plays Thor in the Marvel Cinematic Universe?",
-    "answer": "Chris Hemsworth",
-    "choices": [
-      "Chris Evans",
-      "Chris Hemsworth",
-      "Tom Hiddleston",
-      "Oscar Isaac"
-    ],
-    "explanation": "Choices: Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
-  },
-  {
-    "question": "From these choices, which is correct? What app has the slogan 'Make Your Day'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "YouTube"
-    ],
-    "explanation": "Choices: TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
-  },
-  {
-    "question": "From these choices, which is correct? What streaming service produced 'Stranger Things'?",
-    "answer": "Netflix",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Disney+",
-      "Amazon Prime"
-    ],
-    "explanation": "Choices: 'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
-  },
-  {
-    "question": "From these choices, which is correct? What year was YouTube founded?",
-    "answer": "2005",
-    "choices": [
-      "2003",
-      "2005",
-      "2007",
-      "2009"
-    ],
-    "explanation": "Choices: YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
-  },
-  {
-    "question": "From these choices, which is correct? Who founded Amazon?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Bill Gates",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Choices: Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
-  },
-  {
-    "question": "From these choices, which is correct? What is the most-watched Netflix series of all time?",
-    "answer": "Squid Game",
-    "choices": [
-      "Stranger Things",
-      "Squid Game",
-      "Wednesday",
-      "Money Heist"
-    ],
-    "explanation": "Choices: South Korean series 'Squid Game,' released in 2021. It matches the clue."
-  },
-  {
-    "question": "From these choices, which is correct? Which reality TV show features roses?",
-    "answer": "The Bachelor",
-    "choices": [
-      "Survivor",
-      "The Bachelor",
-      "Big Brother",
-      "Love Island"
-    ],
-    "explanation": "Choices: In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
-  },
-  {
-    "question": "From these choices, which is correct? What was Twitter renamed to in 2023?",
-    "answer": "X",
-    "choices": [
-      "Meta",
-      "X",
-      "Thread",
-      "Chirp"
-    ],
-    "explanation": "Choices: After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his vision."
-  },
-  {
-    "question": "From these choices, which is correct? What company makes the iPhone?",
-    "answer": "Apple",
-    "choices": [
-      "Samsung",
-      "Apple",
-      "Google",
-      "Microsoft"
-    ],
-    "explanation": "Choices: Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
-  },
-  {
-    "question": "From these choices, which is correct? Who created Facebook?",
-    "answer": "Mark Zuckerberg",
-    "choices": [
-      "Bill Gates",
-      "Steve Jobs",
-      "Mark Zuckerberg",
-      "Jack Dorsey"
-    ],
-    "explanation": "Choices: Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
-  },
-  {
-    "question": "From these choices, which is correct? What was the first video ever uploaded to YouTube?",
-    "answer": "Me at the zoo",
-    "choices": [
-      "Charlie Bit My Finger",
-      "Me at the zoo",
-      "Evolution of Dance",
-      "Keyboard Cat"
-    ],
-    "explanation": "Choices: 'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
-  },
-  {
-    "question": "From these choices, which is correct? What is the most followed account on Instagram?",
-    "answer": "Instagram",
-    "choices": [
-      "Cristiano Ronaldo",
-      "Instagram",
-      "Selena Gomez",
-      "Kylie Jenner"
-    ],
-    "explanation": "Choices: Instagram's own official account (@instagram) is the most followed on the platform."
-  },
-  {
-    "question": "From these choices, which is correct? What does 'NFT' stand for?",
-    "answer": "Non-Fungible Token",
-    "choices": [
-      "New Financial Technology",
-      "Non-Fungible Token",
-      "National Fund Transfer",
-      "Network File Transfer"
-    ],
-    "explanation": "Choices: NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like digital."
-  },
-  {
-    "question": "From these choices, which is correct? Who is the most subscribed YouTuber?",
-    "answer": "MrBeast",
-    "choices": [
-      "PewDiePie",
-      "MrBeast",
-      "T-Series",
-      "Cocomelon"
-    ],
-    "explanation": "Choices: MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
-  },
-  {
-    "question": "From these choices, which is correct? What dating app uses a 'swipe right' feature?",
-    "answer": "Tinder",
-    "choices": [
-      "Bumble",
-      "Tinder",
-      "Hinge",
-      "OkCupid"
-    ],
-    "explanation": "Choices: Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach online."
-  },
-  {
-    "question": "From these choices, which is correct? What metaverse company did Facebook rebrand as?",
-    "answer": "Meta",
-    "choices": [
-      "Meta",
-      "Horizon",
-      "Quest",
-      "Reality Labs"
-    ],
-    "explanation": "Choices: In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building the."
-  },
-  {
-    "question": "From these choices, which is correct? What cryptocurrency was created by Satoshi Nakamoto?",
-    "answer": "Bitcoin",
-    "choices": [
-      "Ethereum",
-      "Bitcoin",
-      "Dogecoin",
-      "Litecoin"
-    ],
-    "explanation": "Choices: Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
-  },
-  {
-    "question": "From these choices, which is correct? What AI chatbot was released by OpenAI in 2022?",
-    "answer": "ChatGPT",
-    "choices": [
-      "Siri",
-      "Alexa",
-      "ChatGPT",
-      "Bard"
-    ],
-    "explanation": "Choices: OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
-  },
-  {
-    "question": "From these choices, which is correct? What viral dance trend came from the song 'Renegade'?",
-    "answer": "Renegade dance",
-    "choices": [
-      "Floss",
-      "Renegade dance",
-      "Whip and Nae Nae",
-      "Dab"
-    ],
-    "explanation": "Choices: The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
-  },
-  {
-    "question": "From these choices, which is correct? What platform is known for its 'For You Page'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "TikTok",
-      "YouTube",
-      "Twitter"
-    ],
-    "explanation": "Choices: TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
-  },
-  {
-    "question": "From these choices, which is correct? What game caused a massive craze in 2016 with augmented reality?",
-    "answer": "Pokemon GO",
-    "choices": [
-      "Minecraft",
-      "Pokemon GO",
-      "Fortnite",
-      "Candy Crush"
-    ],
-    "explanation": "Choices: Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon that."
-  },
-  {
-    "question": "From these choices, which is correct? Who plays the Joker in the 2019 standalone film 'Joker'?",
-    "answer": "Joaquin Phoenix",
-    "choices": [
-      "Heath Ledger",
-      "Jared Leto",
-      "Joaquin Phoenix",
-      "Jack Nicholson"
-    ],
-    "explanation": "Choices: Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips."
-  },
-  {
-    "question": "From these choices, which is correct? What food delivery app uses a pink logo?",
-    "answer": "DoorDash",
-    "choices": [
-      "Uber Eats",
-      "DoorDash",
-      "Grubhub",
-      "Postmates"
-    ],
-    "explanation": "Choices: DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
-  },
-  {
-    "question": "From these choices, which is correct? Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
-    "answer": "Kendrick Lamar",
-    "choices": [
-      "J. Cole",
-      "Drake",
-      "Kendrick Lamar",
-      "Kanye West"
-    ],
-    "explanation": "Choices: Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
-  },
-  {
-    "question": "From these choices, which is correct? Which 2023 movie became the highest-grossing film directed by a woman?",
-    "answer": "Barbie",
-    "choices": [
-      "Wonder Woman",
-      "Barbie",
-      "Cocaine Bear",
-      "Oppenheimer"
-    ],
-    "explanation": "Choices: Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of Meta's text-based rival to Twitter/X?",
-    "answer": "Threads",
-    "choices": [
-      "Mastodon",
-      "BlueSky",
-      "Threads",
-      "Post"
-    ],
-    "explanation": "Choices: Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
-  },
-  {
-    "question": "From these choices, which is correct? Which game won Game of the Year at the 2023 Game Awards?",
-    "answer": "Baldur's Gate 3",
-    "choices": [
-      "Zelda: Tears of the Kingdom",
-      "Spider-Man 2",
-      "Baldur's Gate 3",
-      "Alan Wake 2"
-    ],
-    "explanation": "Choices: Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
-  },
-  {
-    "question": "From these choices, which is correct? Who played the title character in the 2023 film 'Oppenheimer'?",
-    "answer": "Cillian Murphy",
-    "choices": [
-      "Robert Downey Jr.",
-      "Cillian Murphy",
-      "Matt Damon",
-      "Florence Pugh"
-    ],
-    "explanation": "Choices: Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the AI image generator developed by OpenAI?",
-    "answer": "DALL-E",
-    "choices": [
-      "Midjourney",
-      "Stable Diffusion",
-      "DALL-E",
-      "Firefly"
-    ],
-    "explanation": "Choices: DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
-  },
-  {
-    "question": "From these choices, which is correct? Which pop star is known for her 'Fenty Beauty' makeup line?",
-    "answer": "Rihanna",
-    "choices": [
-      "Beyoncé",
-      "Selena Gomez",
-      "Rihanna",
-      "Ariana Grande"
-    ],
-    "explanation": "Choices: Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity in."
-  },
-  {
-    "question": "From these choices, which is correct? In 'The Last of Us' TV series, which actor plays the character Joel?",
-    "answer": "Pedro Pascal",
-    "choices": [
-      "Oscar Isaac",
-      "Pedro Pascal",
-      "Tom Hardy",
-      "David Harbour"
-    ],
-    "explanation": "Choices: Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
-  },
-  {
-    "question": "From these choices, which is correct? What daily word game was acquired by The New York Times in 2022?",
-    "answer": "Wordle",
-    "choices": [
-      "Heardle",
-      "Connections",
-      "Wordle",
-      "Quordle"
-    ],
-    "explanation": "Choices: Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
-  },
-  {
-    "question": "From these choices, which is correct? Which K-pop group is the first to headline Coachella?",
-    "answer": "BLACKPINK",
-    "choices": [
-      "BTS",
-      "BLACKPINK",
-      "NewJeans",
-      "Twice"
-    ],
-    "explanation": "Choices: BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of MrBeast's chocolate and snack brand?",
-    "answer": "Feastables",
-    "choices": [
-      "Beast Bites",
-      "Feastables",
-      "MrSnacks",
-      "Prime"
-    ],
-    "explanation": "Choices: MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
-  },
-  {
-    "question": "From these choices, which is correct? Which streaming service features the hit show 'The Bear'?",
-    "answer": "Hulu",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Apple TV+",
-      "HBO Max"
-    ],
-    "explanation": "Choices: 'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
-  },
-  {
-    "question": "From these choices, which is correct? What color is the 'correct letter, wrong spot' tile in Wordle?",
-    "answer": "Yellow",
-    "choices": [
-      "Green",
-      "Yellow",
-      "Grey",
-      "Orange"
-    ],
-    "explanation": "Choices: In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
-  },
-  {
-    "question": "From these choices, which is correct? Who performed the halftime show at Super Bowl LVII in 2023?",
-    "answer": "Rihanna",
-    "choices": [
-      "Usher",
-      "Rihanna",
-      "The Weeknd",
-      "Taylor Swift"
-    ],
-    "explanation": "Choices: Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of Apple's first spatial computer/VR headset?",
-    "answer": "Vision Pro",
-    "choices": [
-      "Quest 3",
-      "Vision Pro",
-      "iGlass",
-      "Air Lens"
-    ],
-    "explanation": "Choices: Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
-  },
-  {
-    "question": "From these choices, which is correct? Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
-    "answer": "Jenna Ortega",
-    "choices": [
-      "Anya Taylor-Joy",
-      "Jenna Ortega",
-      "Millie Bobby Brown",
-      "Sadie Sink"
-    ],
-    "explanation": "Choices: Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
-  },
-  {
-    "question": "From these choices, which is correct? What is the primary currency used in the game Roblox?",
-    "answer": "Robux",
-    "choices": [
-      "V-Bucks",
-      "Minecoins",
-      "Robux",
-      "Gems"
-    ],
-    "explanation": "Choices: Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories."
-  },
-  {
-    "question": "From these choices, which is correct? Which city is the setting for the HBO show 'Succession'?",
-    "answer": "New York City",
-    "choices": [
-      "Chicago",
-      "New York City",
-      "Los Angeles",
-      "London"
-    ],
-    "explanation": "Choices: 'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media and entertainment conglomerate, Waystar Royco."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the satellite internet constellation operated by SpaceX?",
-    "answer": "Starlink",
-    "choices": [
-      "SkyNet",
-      "Starlink",
-      "Blue Origin",
-      "Kuiper"
-    ],
-    "explanation": "Choices: Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
-  },
-  {
-    "question": "From these choices, which is correct? Which 2022 film won the Academy Award for Best Picture?",
-    "answer": "Everything Everywhere All at Once",
-    "choices": [
-      "Top Gun: Maverick",
-      "Everything Everywhere All at Once",
-      "The Fabelmans",
-      "CODA"
-    ],
-    "explanation": "Choices: 'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
-  },
-  {
-    "question": "From these choices, which is correct? Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
-    "answer": "Mariah Carey",
-    "choices": [
-      "Celine Dion",
-      "Mariah Carey",
-      "Whitney Houston",
-      "Cher"
-    ],
-    "explanation": "Choices: Mariah Carey released 'All I Want for Christmas Is You' in 1994."
-  },
-  {
-    "question": "From these choices, which is correct? What social media app asks users to take a photo at a random time every day?",
-    "answer": "BeReal",
-    "choices": [
-      "Snapchat",
-      "BeReal",
-      "TikTok",
-      "Instagram"
-    ],
-    "explanation": "Choices: BeReal sends users a daily notification at a random time. It matches the clue."
-  },
-  {
-    "question": "From these choices, which is correct? Which artist released the 2022 album 'Renaissance'?",
-    "answer": "Beyoncé",
-    "choices": [
-      "SZA",
-      "Beyoncé",
-      "Adele",
-      "Lizzo"
-    ],
-    "explanation": "Choices: Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the fictional language spoken in 'Avatar'?",
-    "answer": "Na'vi",
-    "choices": [
-      "Dothraki",
-      "Na'vi",
-      "Klingon",
-      "Elvish"
-    ],
-    "explanation": "Choices: The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
-  },
-  {
-    "question": "From these choices, which is correct? Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
-    "answer": "Amazon Prime Video",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Amazon Prime Video",
-      "Apple TV+"
-    ],
-    "explanation": "Choices: Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the kingdom in Disney's 'Frozen'?",
-    "answer": "Arendelle",
-    "choices": [
-      "Arendelle",
-      "Corona",
-      "Atlantica",
-      "Agrabah"
-    ],
-    "explanation": "Choices: Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna, inspired by Norwegian culture and folklore."
-  },
-  {
-    "question": "From these choices, which is correct? Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
-    "answer": "Fortnite",
-    "choices": [
-      "PUBG",
-      "Apex Legends",
-      "Fortnite",
-      "Call of Duty"
-    ],
-    "explanation": "Choices: Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
-  },
-  {
-    "question": "From these choices, which is correct? Who played Ken in the 2023 'Barbie' movie?",
-    "answer": "Ryan Gosling",
-    "choices": [
-      "Ryan Reynolds",
-      "Ryan Gosling",
-      "Simu Liu",
-      "Chris Evans"
-    ],
-    "explanation": "Choices: Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film."
-  },
-  {
-    "question": "From these choices, which is correct? What is the most common name for the child character Grogu in 'The Mandalorian'?",
-    "answer": "Baby Yoda",
-    "choices": [
-      "Baby Yoda",
-      "The Kid",
-      "Little Mando",
-      "The Apprentice"
-    ],
-    "explanation": "Choices: Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
-  },
-  {
-    "question": "From these choices, which is correct? Which billionaire is the founder of the aerospace company Blue Origin?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Richard Branson",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Choices: Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the sports drink brand founded by Logan Paul and KSI?",
-    "answer": "Prime",
-    "choices": [
-      "Gatorade",
-      "Prime",
-      "Liquid IV",
-      "BodyArmor"
-    ],
-    "explanation": "Choices: Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
-  },
-  {
-    "question": "From these choices, which is correct? Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
-    "answer": "Spider-Man: No Way Home",
-    "choices": [
-      "Spider-Man: Far From Home",
-      "Spider-Man: No Way Home",
-      "Spider-Man: Into the Spider-Verse",
-      "Doctor Strange in the Multiverse of Madness"
-    ],
-    "explanation": "Choices: 'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the viral dance song by South Korean artist PSY?",
-    "answer": "Gangnam Style",
-    "choices": [
-      "Gentleman",
-      "Gangnam Style",
-      "DYNAMITE",
-      "Pink Venom"
-    ],
-    "explanation": "Choices: PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
-  },
-  {
-    "question": "From these choices, which is correct? Which company owns the YouTube platform?",
-    "answer": "Google",
-    "choices": [
-      "Microsoft",
-      "Meta",
-      "Google",
-      "Amazon"
-    ],
-    "explanation": "Choices: Google acquired YouTube in October 2006 for $1.65 billion in stock."
-  },
-  {
-    "question": "From these choices, which is correct? Who is the lead singer of the band Coldplay?",
-    "answer": "Chris Martin",
-    "choices": [
-      "Adam Levine",
-      "Chris Martin",
-      "Harry Styles",
-      "Bono"
-    ],
-    "explanation": "Choices: Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
-  },
-  {
-    "question": "From these choices, which is correct? What color is the 'X' in the current logo of the platform formerly known as Twitter?",
-    "answer": "White",
-    "choices": [
-      "Blue",
-      "White",
-      "Black",
-      "Gold"
-    ],
-    "explanation": "Choices: The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
-  },
-  {
-    "question": "From these choices, which is correct? Which hit TV series is a prequel to 'Game of Thrones'?",
-    "answer": "House of the Dragon",
-    "choices": [
-      "The Rings of Power",
-      "House of the Dragon",
-      "The Witcher",
-      "The Last Kingdom"
-    ],
-    "explanation": "Choices: 'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the AI search engine assistant from Microsoft?",
-    "answer": "Copilot",
-    "choices": [
-      "Cortana",
-      "Bing Chat",
-      "Copilot",
-      "Gemini"
-    ],
-    "explanation": "Choices: Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
-  },
-  {
-    "question": "From these choices, which is correct? Which female artist has the most Grammy wins of all time?",
-    "answer": "Beyoncé",
-    "choices": [
-      "Taylor Swift",
-      "Beyoncé",
-      "Adele",
-      "Alison Krauss"
-    ],
-    "explanation": "Choices: Beyoncé holds the record for the most Grammy wins of any artist in history, surpassing 32 awards across her solo and group career with Destiny's Child."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the fictional continent in 'The Witcher'?",
-    "answer": "The Continent",
-    "choices": [
-      "Westeros",
-      "Middle Earth",
-      "The Continent",
-      "Tamriel"
-    ],
-    "explanation": "Choices: In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
-  },
-  {
-    "question": "From these choices, which is correct? Which social media platform is primarily used for professional networking?",
-    "answer": "LinkedIn",
-    "choices": [
-      "Facebook",
-      "LinkedIn",
-      "Reddit",
-      "Twitter"
-    ],
-    "explanation": "Choices: LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
-  },
-  {
-    "question": "From these choices, which is correct? Who is the creator of the 'Squid Game' series?",
-    "answer": "Hwang Dong-hyuk",
-    "choices": [
-      "Bong Joon-ho",
-      "Hwang Dong-hyuk",
-      "Park Chan-wook",
-      "Lee Jung-jae"
-    ],
-    "explanation": "Choices: South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the 2023 movie starring Mario and Luigi?",
-    "answer": "The Super Mario Bros. Movie",
-    "choices": [
-      "Mario Kart Live",
-      "The Super Mario Bros. Movie",
-      "Mushroom Kingdom",
-      "Super Mario World"
-    ],
-    "explanation": "Choices: 'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
-  },
-  {
-    "question": "From these choices, which is correct? Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
-    "answer": "Chris Pratt",
-    "choices": [
-      "Chris Hemsworth",
-      "Chris Pratt",
-      "Chris Evans",
-      "Zachary Levi"
-    ],
-    "explanation": "Choices: Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
-  },
-  {
-    "question": "From these choices, which is correct? What is the name of the world's most popular open-world 'sandbox' game?",
-    "answer": "Minecraft",
-    "choices": [
-      "Roblox",
-      "Minecraft",
-      "Terraria",
-      "Fortnite"
-    ],
-    "explanation": "Choices: Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
-  },
-  {
-    "question": "From these choices, which is correct? Which company developed the video game 'Grand Theft Auto V'?",
-    "answer": "Rockstar Games",
-    "choices": [
-      "Ubisoft",
-      "Rockstar Games",
-      "Activision",
-      "EA Sports"
-    ],
-    "explanation": "Choices: Grand Theft Auto V was developed by Rockstar Games and released in 2013."
-  },
-  {
-    "question": "From these choices, which is correct? What does the 'S' stand for in the car brand SUV?",
-    "answer": "Sport",
-    "choices": [
-      "Standard",
-      "Sport",
-      "Speed",
-      "Super"
-    ],
-    "explanation": "Choices: SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
-  },
-  {
-    "question": "From these choices, which is correct? Who is the protagonist of the 'Legend of Zelda' video game series?",
-    "answer": "Link",
-    "choices": [
-      "Zelda",
-      "Link",
-      "Ganon",
-      "Epona"
-    ],
-    "explanation": "Choices: Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
-  },
-  {
-    "question": "From these choices, which is correct? What is the most popular video-sharing app for short-form mobile videos?",
-    "answer": "TikTok",
-    "choices": [
-      "Vine",
-      "TikTok",
-      "Reels",
-      "Triller"
-    ],
-    "explanation": "Choices: TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
-  },
-  {
-    "question": "From these choices, which is correct? Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
-    "answer": "Emilia Clarke",
-    "choices": [
-      "Sophie Turner",
-      "Emilia Clarke",
-      "Maisie Williams",
-      "Natalie Dormer"
-    ],
-    "explanation": "Choices: British actress Emilia Clarke portrayed Daenerys Targaryen. It matches the clue."
-  },
-  {
-    "question": "Knowledge check — Which social media app has a ghost as its mascot?",
-    "answer": "Snapchat",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "Twitter"
-    ],
-    "explanation": "Knowledge: Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
-  },
-  {
-    "question": "Knowledge check — What is the name of the fictional country in 'Black Panther'?",
-    "answer": "Wakanda",
-    "choices": [
-      "Zamunda",
-      "Wakanda",
-      "Genovia",
-      "Latveria"
-    ],
-    "explanation": "Knowledge: Wakanda is the fictional African nation in Marvel Comics and the MCU."
-  },
-  {
-    "question": "Knowledge check — Who plays Thor in the Marvel Cinematic Universe?",
-    "answer": "Chris Hemsworth",
-    "choices": [
-      "Chris Evans",
-      "Chris Hemsworth",
-      "Tom Hiddleston",
-      "Oscar Isaac"
-    ],
-    "explanation": "Knowledge: Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
-  },
-  {
-    "question": "Knowledge check — What app has the slogan 'Make Your Day'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "YouTube"
-    ],
-    "explanation": "Knowledge: TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
-  },
-  {
-    "question": "Knowledge check — What streaming service produced 'Stranger Things'?",
-    "answer": "Netflix",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Disney+",
-      "Amazon Prime"
-    ],
-    "explanation": "Knowledge: 'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
-  },
-  {
-    "question": "Knowledge check — What year was YouTube founded?",
-    "answer": "2005",
-    "choices": [
-      "2003",
-      "2005",
-      "2007",
-      "2009"
-    ],
-    "explanation": "Knowledge: YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
-  },
-  {
-    "question": "Knowledge check — Who founded Amazon?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Bill Gates",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Knowledge: Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
-  },
-  {
-    "question": "Knowledge check — What is the most-watched Netflix series of all time?",
-    "answer": "Squid Game",
-    "choices": [
-      "Stranger Things",
-      "Squid Game",
-      "Wednesday",
-      "Money Heist"
-    ],
-    "explanation": "Knowledge: South Korean series 'Squid Game,' released in 2021. It matches the clue."
-  },
-  {
-    "question": "Knowledge check — Which reality TV show features roses?",
-    "answer": "The Bachelor",
-    "choices": [
-      "Survivor",
-      "The Bachelor",
-      "Big Brother",
-      "Love Island"
-    ],
-    "explanation": "Knowledge: In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
-  },
-  {
-    "question": "Knowledge check — What was Twitter renamed to in 2023?",
-    "answer": "X",
-    "choices": [
-      "Meta",
-      "X",
-      "Thread",
-      "Chirp"
-    ],
-    "explanation": "Knowledge: After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his."
-  },
-  {
-    "question": "Knowledge check — What company makes the iPhone?",
-    "answer": "Apple",
-    "choices": [
-      "Samsung",
-      "Apple",
-      "Google",
-      "Microsoft"
-    ],
-    "explanation": "Knowledge: Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
-  },
-  {
-    "question": "Knowledge check — Who created Facebook?",
-    "answer": "Mark Zuckerberg",
-    "choices": [
-      "Bill Gates",
-      "Steve Jobs",
-      "Mark Zuckerberg",
-      "Jack Dorsey"
-    ],
-    "explanation": "Knowledge: Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
-  },
-  {
-    "question": "Knowledge check — What was the first video ever uploaded to YouTube?",
-    "answer": "Me at the zoo",
-    "choices": [
-      "Charlie Bit My Finger",
-      "Me at the zoo",
-      "Evolution of Dance",
-      "Keyboard Cat"
-    ],
-    "explanation": "Knowledge: 'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
-  },
-  {
-    "question": "Knowledge check — What is the most followed account on Instagram?",
-    "answer": "Instagram",
-    "choices": [
-      "Cristiano Ronaldo",
-      "Instagram",
-      "Selena Gomez",
-      "Kylie Jenner"
-    ],
-    "explanation": "Knowledge: Instagram's own official account (@instagram) is the most followed on the platform."
-  },
-  {
-    "question": "Knowledge check — What does 'NFT' stand for?",
-    "answer": "Non-Fungible Token",
-    "choices": [
-      "New Financial Technology",
-      "Non-Fungible Token",
-      "National Fund Transfer",
-      "Network File Transfer"
-    ],
-    "explanation": "Knowledge: NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like."
-  },
-  {
-    "question": "Knowledge check — Who is the most subscribed YouTuber?",
-    "answer": "MrBeast",
-    "choices": [
-      "PewDiePie",
-      "MrBeast",
-      "T-Series",
-      "Cocomelon"
-    ],
-    "explanation": "Knowledge: MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
-  },
-  {
-    "question": "Knowledge check — What dating app uses a 'swipe right' feature?",
-    "answer": "Tinder",
-    "choices": [
-      "Bumble",
-      "Tinder",
-      "Hinge",
-      "OkCupid"
-    ],
-    "explanation": "Knowledge: Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach."
-  },
-  {
-    "question": "Knowledge check — What metaverse company did Facebook rebrand as?",
-    "answer": "Meta",
-    "choices": [
-      "Meta",
-      "Horizon",
-      "Quest",
-      "Reality Labs"
-    ],
-    "explanation": "Knowledge: In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building."
-  },
-  {
-    "question": "Knowledge check — What cryptocurrency was created by Satoshi Nakamoto?",
-    "answer": "Bitcoin",
-    "choices": [
-      "Ethereum",
-      "Bitcoin",
-      "Dogecoin",
-      "Litecoin"
-    ],
-    "explanation": "Knowledge: Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
-  },
-  {
-    "question": "Knowledge check — What AI chatbot was released by OpenAI in 2022?",
-    "answer": "ChatGPT",
-    "choices": [
-      "Siri",
-      "Alexa",
-      "ChatGPT",
-      "Bard"
-    ],
-    "explanation": "Knowledge: OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
-  },
-  {
-    "question": "Knowledge check — What viral dance trend came from the song 'Renegade'?",
-    "answer": "Renegade dance",
-    "choices": [
-      "Floss",
-      "Renegade dance",
-      "Whip and Nae Nae",
-      "Dab"
-    ],
-    "explanation": "Knowledge: The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit was."
-  },
-  {
-    "question": "Knowledge check — What platform is known for its 'For You Page'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "TikTok",
-      "YouTube",
-      "Twitter"
-    ],
-    "explanation": "Knowledge: TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
-  },
-  {
-    "question": "Knowledge check — What game caused a massive craze in 2016 with augmented reality?",
-    "answer": "Pokemon GO",
-    "choices": [
-      "Minecraft",
-      "Pokemon GO",
-      "Fortnite",
-      "Candy Crush"
-    ],
-    "explanation": "Knowledge: Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon."
-  },
-  {
-    "question": "Knowledge check — Who plays the Joker in the 2019 standalone film 'Joker'?",
-    "answer": "Joaquin Phoenix",
-    "choices": [
-      "Heath Ledger",
-      "Jared Leto",
-      "Joaquin Phoenix",
-      "Jack Nicholson"
-    ],
-    "explanation": "Knowledge: Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips."
-  },
-  {
-    "question": "Knowledge check — What food delivery app uses a pink logo?",
-    "answer": "DoorDash",
-    "choices": [
-      "Uber Eats",
-      "DoorDash",
-      "Grubhub",
-      "Postmates"
-    ],
-    "explanation": "Knowledge: DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
-  },
-  {
-    "question": "Knowledge check — Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
-    "answer": "Kendrick Lamar",
-    "choices": [
-      "J. Cole",
-      "Drake",
-      "Kendrick Lamar",
-      "Kanye West"
-    ],
-    "explanation": "Knowledge: Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
-  },
-  {
-    "question": "Knowledge check — Which 2023 movie became the highest-grossing film directed by a woman?",
-    "answer": "Barbie",
-    "choices": [
-      "Wonder Woman",
-      "Barbie",
-      "Cocaine Bear",
-      "Oppenheimer"
-    ],
-    "explanation": "Knowledge: Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a woman."
-  },
-  {
-    "question": "Knowledge check — What is the name of Meta's text-based rival to Twitter/X?",
-    "answer": "Threads",
-    "choices": [
-      "Mastodon",
-      "BlueSky",
-      "Threads",
-      "Post"
-    ],
-    "explanation": "Knowledge: Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
-  },
-  {
-    "question": "Knowledge check — Which game won Game of the Year at the 2023 Game Awards?",
-    "answer": "Baldur's Gate 3",
-    "choices": [
-      "Zelda: Tears of the Kingdom",
-      "Spider-Man 2",
-      "Baldur's Gate 3",
-      "Alan Wake 2"
-    ],
-    "explanation": "Knowledge: Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
-  },
-  {
-    "question": "Knowledge check — Who played the title character in the 2023 film 'Oppenheimer'?",
-    "answer": "Cillian Murphy",
-    "choices": [
-      "Robert Downey Jr.",
-      "Cillian Murphy",
-      "Matt Damon",
-      "Florence Pugh"
-    ],
-    "explanation": "Knowledge: Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the Academy."
-  },
-  {
-    "question": "Knowledge check — What is the name of the AI image generator developed by OpenAI?",
-    "answer": "DALL-E",
-    "choices": [
-      "Midjourney",
-      "Stable Diffusion",
-      "DALL-E",
-      "Firefly"
-    ],
-    "explanation": "Knowledge: DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí and the Pixar robot WALL-E."
-  },
-  {
-    "question": "Knowledge check — Which pop star is known for her 'Fenty Beauty' makeup line?",
-    "answer": "Rihanna",
-    "choices": [
-      "Beyoncé",
-      "Selena Gomez",
-      "Rihanna",
-      "Ariana Grande"
-    ],
-    "explanation": "Knowledge: Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for inclusivity."
-  },
-  {
-    "question": "Knowledge check — In 'The Last of Us' TV series, which actor plays the character Joel?",
-    "answer": "Pedro Pascal",
-    "choices": [
-      "Oscar Isaac",
-      "Pedro Pascal",
-      "Tom Hardy",
-      "David Harbour"
-    ],
-    "explanation": "Knowledge: Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
-  },
-  {
-    "question": "Knowledge check — What daily word game was acquired by The New York Times in 2022?",
-    "answer": "Wordle",
-    "choices": [
-      "Heardle",
-      "Connections",
-      "Wordle",
-      "Quordle"
-    ],
-    "explanation": "Knowledge: Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
-  },
-  {
-    "question": "Knowledge check — Which K-pop group is the first to headline Coachella?",
-    "answer": "BLACKPINK",
-    "choices": [
-      "BTS",
-      "BLACKPINK",
-      "NewJeans",
-      "Twice"
-    ],
-    "explanation": "Knowledge: BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
-  },
-  {
-    "question": "Knowledge check — What is the name of MrBeast's chocolate and snack brand?",
-    "answer": "Feastables",
-    "choices": [
-      "Beast Bites",
-      "Feastables",
-      "MrSnacks",
-      "Prime"
-    ],
-    "explanation": "Knowledge: MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
-  },
-  {
-    "question": "Knowledge check — Which streaming service features the hit show 'The Bear'?",
-    "answer": "Hulu",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Apple TV+",
-      "HBO Max"
-    ],
-    "explanation": "Knowledge: 'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
-  },
-  {
-    "question": "Knowledge check — What color is the 'correct letter, wrong spot' tile in Wordle?",
-    "answer": "Yellow",
-    "choices": [
-      "Green",
-      "Yellow",
-      "Grey",
-      "Orange"
-    ],
-    "explanation": "Knowledge: In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
-  },
-  {
-    "question": "Knowledge check — Who performed the halftime show at Super Bowl LVII in 2023?",
-    "answer": "Rihanna",
-    "choices": [
-      "Usher",
-      "Rihanna",
-      "The Weeknd",
-      "Taylor Swift"
-    ],
-    "explanation": "Knowledge: Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
-  },
-  {
-    "question": "Knowledge check — What is the name of Apple's first spatial computer/VR headset?",
-    "answer": "Vision Pro",
-    "choices": [
-      "Quest 3",
-      "Vision Pro",
-      "iGlass",
-      "Air Lens"
-    ],
-    "explanation": "Knowledge: Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
-  },
-  {
-    "question": "Knowledge check — Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
-    "answer": "Jenna Ortega",
-    "choices": [
-      "Anya Taylor-Joy",
-      "Jenna Ortega",
-      "Millie Bobby Brown",
-      "Sadie Sink"
-    ],
-    "explanation": "Knowledge: Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
-  },
-  {
-    "question": "Knowledge check — What is the primary currency used in the game Roblox?",
-    "answer": "Robux",
-    "choices": [
-      "V-Bucks",
-      "Minecoins",
-      "Robux",
-      "Gems"
-    ],
-    "explanation": "Knowledge: Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories."
-  },
-  {
-    "question": "Knowledge check — Which city is the setting for the HBO show 'Succession'?",
-    "answer": "New York City",
-    "choices": [
-      "Chicago",
-      "New York City",
-      "Los Angeles",
-      "London"
-    ],
-    "explanation": "Knowledge: 'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media."
-  },
-  {
-    "question": "Knowledge check — What is the name of the satellite internet constellation operated by SpaceX?",
-    "answer": "Starlink",
-    "choices": [
-      "SkyNet",
-      "Starlink",
-      "Blue Origin",
-      "Kuiper"
-    ],
-    "explanation": "Knowledge: Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to locations."
-  },
-  {
-    "question": "Knowledge check — Which 2022 film won the Academy Award for Best Picture?",
-    "answer": "Everything Everywhere All at Once",
-    "choices": [
-      "Top Gun: Maverick",
-      "Everything Everywhere All at Once",
-      "The Fabelmans",
-      "CODA"
-    ],
-    "explanation": "Knowledge: 'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
-  },
-  {
-    "question": "Knowledge check — Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
-    "answer": "Mariah Carey",
-    "choices": [
-      "Celine Dion",
-      "Mariah Carey",
-      "Whitney Houston",
-      "Cher"
-    ],
-    "explanation": "Knowledge: Mariah Carey released 'All I Want for Christmas Is You' in 1994."
-  },
-  {
-    "question": "Knowledge check — What social media app asks users to take a photo at a random time every day?",
-    "answer": "BeReal",
-    "choices": [
-      "Snapchat",
-      "BeReal",
-      "TikTok",
-      "Instagram"
-    ],
-    "explanation": "Knowledge: BeReal sends users a daily notification at a random time. It matches the clue."
-  },
-  {
-    "question": "Knowledge check — Which artist released the 2022 album 'Renaissance'?",
-    "answer": "Beyoncé",
-    "choices": [
-      "SZA",
-      "Beyoncé",
-      "Adele",
-      "Lizzo"
-    ],
-    "explanation": "Knowledge: Beyoncé released 'Renaissance' in July 2022, a dance and house-music inspired solo album that celebrated Black LGBTQ+ contributions to club culture."
-  },
-  {
-    "question": "Knowledge check — What is the name of the fictional language spoken in 'Avatar'?",
-    "answer": "Na'vi",
-    "choices": [
-      "Dothraki",
-      "Na'vi",
-      "Klingon",
-      "Elvish"
-    ],
-    "explanation": "Knowledge: The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
-  },
-  {
-    "question": "Knowledge check — Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
-    "answer": "Amazon Prime Video",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Amazon Prime Video",
-      "Apple TV+"
-    ],
-    "explanation": "Knowledge: Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
-  },
-  {
-    "question": "Knowledge check — What is the name of the kingdom in Disney's 'Frozen'?",
-    "answer": "Arendelle",
-    "choices": [
-      "Arendelle",
-      "Corona",
-      "Atlantica",
-      "Agrabah"
-    ],
-    "explanation": "Knowledge: Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna."
-  },
-  {
-    "question": "Knowledge check — Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
-    "answer": "Fortnite",
-    "choices": [
-      "PUBG",
-      "Apex Legends",
-      "Fortnite",
-      "Call of Duty"
-    ],
-    "explanation": "Knowledge: Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
-  },
-  {
-    "question": "Knowledge check — Who played Ken in the 2023 'Barbie' movie?",
-    "answer": "Ryan Gosling",
-    "choices": [
-      "Ryan Reynolds",
-      "Ryan Gosling",
-      "Simu Liu",
-      "Chris Evans"
-    ],
-    "explanation": "Knowledge: Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film."
-  },
-  {
-    "question": "Knowledge check — What is the most common name for the child character Grogu in 'The Mandalorian'?",
-    "answer": "Baby Yoda",
-    "choices": [
-      "Baby Yoda",
-      "The Kid",
-      "Little Mando",
-      "The Apprentice"
-    ],
-    "explanation": "Knowledge: Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
-  },
-  {
-    "question": "Knowledge check — Which billionaire is the founder of the aerospace company Blue Origin?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Richard Branson",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Knowledge: Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
-  },
-  {
-    "question": "Knowledge check — What is the name of the sports drink brand founded by Logan Paul and KSI?",
-    "answer": "Prime",
-    "choices": [
-      "Gatorade",
-      "Prime",
-      "Liquid IV",
-      "BodyArmor"
-    ],
-    "explanation": "Knowledge: Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
-  },
-  {
-    "question": "Knowledge check — Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
-    "answer": "Spider-Man: No Way Home",
-    "choices": [
-      "Spider-Man: Far From Home",
-      "Spider-Man: No Way Home",
-      "Spider-Man: Into the Spider-Verse",
-      "Doctor Strange in the Multiverse of Madness"
-    ],
-    "explanation": "Knowledge: 'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
-  },
-  {
-    "question": "Knowledge check — What is the name of the viral dance song by South Korean artist PSY?",
-    "answer": "Gangnam Style",
-    "choices": [
-      "Gentleman",
-      "Gangnam Style",
-      "DYNAMITE",
-      "Pink Venom"
-    ],
-    "explanation": "Knowledge: PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
-  },
-  {
-    "question": "Knowledge check — Which company owns the YouTube platform?",
-    "answer": "Google",
-    "choices": [
-      "Microsoft",
-      "Meta",
-      "Google",
-      "Amazon"
-    ],
-    "explanation": "Knowledge: Google acquired YouTube in October 2006 for $1.65 billion in stock."
-  },
-  {
-    "question": "Knowledge check — Who is the lead singer of the band Coldplay?",
-    "answer": "Chris Martin",
-    "choices": [
-      "Adam Levine",
-      "Chris Martin",
-      "Harry Styles",
-      "Bono"
-    ],
-    "explanation": "Knowledge: Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
-  },
-  {
-    "question": "Knowledge check — What color is the 'X' in the current logo of the platform formerly known as Twitter?",
-    "answer": "White",
-    "choices": [
-      "Blue",
-      "White",
-      "Black",
-      "Gold"
-    ],
-    "explanation": "Knowledge: The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
-  },
-  {
-    "question": "Knowledge check — Which hit TV series is a prequel to 'Game of Thrones'?",
-    "answer": "House of the Dragon",
-    "choices": [
-      "The Rings of Power",
-      "House of the Dragon",
-      "The Witcher",
-      "The Last Kingdom"
-    ],
-    "explanation": "Knowledge: 'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
-  },
-  {
-    "question": "Knowledge check — What is the name of the AI search engine assistant from Microsoft?",
-    "answer": "Copilot",
-    "choices": [
-      "Cortana",
-      "Bing Chat",
-      "Copilot",
-      "Gemini"
-    ],
-    "explanation": "Knowledge: Microsoft rebranded its AI assistant to 'Copilot' in 2023. It matches the clue."
-  },
-  {
-    "question": "Knowledge check — Which female artist has the most Grammy wins of all time?",
-    "answer": "Beyoncé",
-    "choices": [
-      "Taylor Swift",
-      "Beyoncé",
-      "Adele",
-      "Alison Krauss"
-    ],
-    "explanation": "Knowledge: Beyoncé holds the record for the most Grammy wins of any artist in history."
-  },
-  {
-    "question": "Knowledge check — What is the name of the fictional continent in 'The Witcher'?",
-    "answer": "The Continent",
-    "choices": [
-      "Westeros",
-      "Middle Earth",
-      "The Continent",
-      "Tamriel"
-    ],
-    "explanation": "Knowledge: In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where humans."
-  },
-  {
-    "question": "Knowledge check — Which social media platform is primarily used for professional networking?",
-    "answer": "LinkedIn",
-    "choices": [
-      "Facebook",
-      "LinkedIn",
-      "Reddit",
-      "Twitter"
-    ],
-    "explanation": "Knowledge: LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million members."
-  },
-  {
-    "question": "Knowledge check — Who is the creator of the 'Squid Game' series?",
-    "answer": "Hwang Dong-hyuk",
-    "choices": [
-      "Bong Joon-ho",
-      "Hwang Dong-hyuk",
-      "Park Chan-wook",
-      "Lee Jung-jae"
-    ],
-    "explanation": "Knowledge: South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit it."
-  },
-  {
-    "question": "Knowledge check — What is the name of the 2023 movie starring Mario and Luigi?",
-    "answer": "The Super Mario Bros. Movie",
-    "choices": [
-      "Mario Kart Live",
-      "The Super Mario Bros. Movie",
-      "Mushroom Kingdom",
-      "Super Mario World"
-    ],
-    "explanation": "Knowledge: 'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time, earning."
-  },
-  {
-    "question": "Knowledge check — Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
-    "answer": "Chris Pratt",
-    "choices": [
-      "Chris Hemsworth",
-      "Chris Pratt",
-      "Chris Evans",
-      "Zachary Levi"
-    ],
-    "explanation": "Knowledge: Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
-  },
-  {
-    "question": "Knowledge check — What is the name of the world's most popular open-world 'sandbox' game?",
-    "answer": "Minecraft",
-    "choices": [
-      "Roblox",
-      "Minecraft",
-      "Terraria",
-      "Fortnite"
-    ],
-    "explanation": "Knowledge: Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
-  },
-  {
-    "question": "Knowledge check — Which company developed the video game 'Grand Theft Auto V'?",
-    "answer": "Rockstar Games",
-    "choices": [
-      "Ubisoft",
-      "Rockstar Games",
-      "Activision",
-      "EA Sports"
-    ],
-    "explanation": "Knowledge: Grand Theft Auto V was developed by Rockstar Games and released in 2013."
-  },
-  {
-    "question": "Knowledge check — What does the 'S' stand for in the car brand SUV?",
-    "answer": "Sport",
-    "choices": [
-      "Standard",
-      "Sport",
-      "Speed",
-      "Super"
-    ],
-    "explanation": "Knowledge: SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
-  },
-  {
-    "question": "Knowledge check — Who is the protagonist of the 'Legend of Zelda' video game series?",
-    "answer": "Link",
-    "choices": [
-      "Zelda",
-      "Link",
-      "Ganon",
-      "Epona"
-    ],
-    "explanation": "Knowledge: Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
-  },
-  {
-    "question": "Knowledge check — What is the most popular video-sharing app for short-form mobile videos?",
-    "answer": "TikTok",
-    "choices": [
-      "Vine",
-      "TikTok",
-      "Reels",
-      "Triller"
-    ],
-    "explanation": "Knowledge: TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical video."
-  },
-  {
-    "question": "Knowledge check — Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
-    "answer": "Emilia Clarke",
-    "choices": [
-      "Sophie Turner",
-      "Emilia Clarke",
-      "Maisie Williams",
-      "Natalie Dormer"
-    ],
-    "explanation": "Knowledge: British actress Emilia Clarke portrayed Daenerys Targaryen."
-  },
-  {
-    "question": "Which choice is right? Which social media app has a ghost as its mascot?",
-    "answer": "Snapchat",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "Twitter"
-    ],
-    "explanation": "Right choice: Snapchat's mascot is a ghost named 'Ghostface Chillah,' reflecting the app's original concept of messages that disappear after being viewed."
-  },
-  {
-    "question": "Which choice is right? What is the name of the fictional country in 'Black Panther'?",
-    "answer": "Wakanda",
-    "choices": [
-      "Zamunda",
-      "Wakanda",
-      "Genovia",
-      "Latveria"
-    ],
-    "explanation": "Right choice: Wakanda is the fictional African nation in Marvel Comics and the MCU."
-  },
-  {
-    "question": "Which choice is right? Who plays Thor in the Marvel Cinematic Universe?",
-    "answer": "Chris Hemsworth",
-    "choices": [
-      "Chris Evans",
-      "Chris Hemsworth",
-      "Tom Hiddleston",
-      "Oscar Isaac"
-    ],
-    "explanation": "Right choice: Australian actor Chris Hemsworth has portrayed Thor, the Asgardian god of thunder, across multiple MCU films since 'Thor' in 2011."
-  },
-  {
-    "question": "Which choice is right? What app has the slogan 'Make Your Day'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "Snapchat",
-      "TikTok",
-      "YouTube"
-    ],
-    "explanation": "Right choice: TikTok uses the slogan 'Make Your Day,' aligning with its mission to entertain and inspire users through short-form video content."
-  },
-  {
-    "question": "Which choice is right? What streaming service produced 'Stranger Things'?",
-    "answer": "Netflix",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Disney+",
-      "Amazon Prime"
-    ],
-    "explanation": "Right choice: 'Stranger Things' is a Netflix original series that debuted in 2016 and became one of the platform's most-watched shows."
-  },
-  {
-    "question": "Which choice is right? What year was YouTube founded?",
-    "answer": "2005",
-    "choices": [
-      "2003",
-      "2005",
-      "2007",
-      "2009"
-    ],
-    "explanation": "Right choice: YouTube was founded in February 2005 by three former PayPal employees, and was acquired by Google just 18 months later for $1.65 billion."
-  },
-  {
-    "question": "Which choice is right? Who founded Amazon?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Bill Gates",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Right choice: Jeff Bezos founded Amazon in 1994 as an online bookstore out of his garage in Bellevue."
-  },
-  {
-    "question": "Which choice is right? What is the most-watched Netflix series of all time?",
-    "answer": "Squid Game",
-    "choices": [
-      "Stranger Things",
-      "Squid Game",
-      "Wednesday",
-      "Money Heist"
-    ],
-    "explanation": "Right choice: South Korean series 'Squid Game,' released in 2021. It matches the clue."
-  },
-  {
-    "question": "Which choice is right? Which reality TV show features roses?",
-    "answer": "The Bachelor",
-    "choices": [
-      "Survivor",
-      "The Bachelor",
-      "Big Brother",
-      "Love Island"
-    ],
-    "explanation": "Right choice: In 'The Bachelor,' the lead gives out roses to contestants they want to keep."
-  },
-  {
-    "question": "Which choice is right? What was Twitter renamed to in 2023?",
-    "answer": "X",
-    "choices": [
-      "Meta",
-      "X",
-      "Thread",
-      "Chirp"
-    ],
-    "explanation": "Right choice: After Elon Musk acquired Twitter in 2022, he rebranded it to 'X' in July 2023, replacing the iconic bird logo with a stylized X as part of his."
-  },
-  {
-    "question": "Which choice is right? What company makes the iPhone?",
-    "answer": "Apple",
-    "choices": [
-      "Samsung",
-      "Apple",
-      "Google",
-      "Microsoft"
-    ],
-    "explanation": "Right choice: Apple Inc. created and manufactures the iPhone, first introduced by Steve Jobs in 2007, which revolutionized the smartphone industry."
-  },
-  {
-    "question": "Which choice is right? Who created Facebook?",
-    "answer": "Mark Zuckerberg",
-    "choices": [
-      "Bill Gates",
-      "Steve Jobs",
-      "Mark Zuckerberg",
-      "Jack Dorsey"
-    ],
-    "explanation": "Right choice: Mark Zuckerberg co-founded Facebook in 2004 while studying at Harvard University."
-  },
-  {
-    "question": "Which choice is right? What was the first video ever uploaded to YouTube?",
-    "answer": "Me at the zoo",
-    "choices": [
-      "Charlie Bit My Finger",
-      "Me at the zoo",
-      "Evolution of Dance",
-      "Keyboard Cat"
-    ],
-    "explanation": "Right choice: 'Me at the zoo' was uploaded on April 23, 2005 by YouTube co-founder Jawed Karim, making it the very first video ever posted to the platform."
-  },
-  {
-    "question": "Which choice is right? What is the most followed account on Instagram?",
-    "answer": "Instagram",
-    "choices": [
-      "Cristiano Ronaldo",
-      "Instagram",
-      "Selena Gomez",
-      "Kylie Jenner"
-    ],
-    "explanation": "Right choice: Instagram's own official account (@instagram) is the most followed on the platform."
-  },
-  {
-    "question": "Which choice is right? What does 'NFT' stand for?",
-    "answer": "Non-Fungible Token",
-    "choices": [
-      "New Financial Technology",
-      "Non-Fungible Token",
-      "National Fund Transfer",
-      "Network File Transfer"
-    ],
-    "explanation": "Right choice: NFT stands for Non-Fungible Token, a type of unique digital asset stored on a blockchain that verifies ownership of a one-of-a-kind item like."
-  },
-  {
-    "question": "Which choice is right? Who is the most subscribed YouTuber?",
-    "answer": "MrBeast",
-    "choices": [
-      "PewDiePie",
-      "MrBeast",
-      "T-Series",
-      "Cocomelon"
-    ],
-    "explanation": "Right choice: MrBeast (Jimmy Donaldson) surpassed T-Series to become the most subscribed individual creator on YouTube."
-  },
-  {
-    "question": "Which choice is right? What dating app uses a 'swipe right' feature?",
-    "answer": "Tinder",
-    "choices": [
-      "Bumble",
-      "Tinder",
-      "Hinge",
-      "OkCupid"
-    ],
-    "explanation": "Right choice: Tinder popularized the 'swipe right to like, swipe left to pass' mechanic when it launched in 2012, fundamentally changing how people approach."
-  },
-  {
-    "question": "Which choice is right? What metaverse company did Facebook rebrand as?",
-    "answer": "Meta",
-    "choices": [
-      "Meta",
-      "Horizon",
-      "Quest",
-      "Reality Labs"
-    ],
-    "explanation": "Right choice: In October 2021, Mark Zuckerberg announced that Facebook's parent company would rebrand to 'Meta,' reflecting the company's pivot toward building."
-  },
-  {
-    "question": "Which choice is right? What cryptocurrency was created by Satoshi Nakamoto?",
-    "answer": "Bitcoin",
-    "choices": [
-      "Ethereum",
-      "Bitcoin",
-      "Dogecoin",
-      "Litecoin"
-    ],
-    "explanation": "Right choice: Bitcoin was created in 2008 by the pseudonymous Satoshi Nakamoto."
-  },
-  {
-    "question": "Which choice is right? What AI chatbot was released by OpenAI in 2022?",
-    "answer": "ChatGPT",
-    "choices": [
-      "Siri",
-      "Alexa",
-      "ChatGPT",
-      "Bard"
-    ],
-    "explanation": "Right choice: OpenAI released ChatGPT in November 2022, and it became one of the fastest-growing apps in history, reaching 100 million users in just two months."
-  },
-  {
-    "question": "Which choice is right? What viral dance trend came from the song 'Renegade'?",
-    "answer": "Renegade dance",
-    "choices": [
-      "Floss",
-      "Renegade dance",
-      "Whip and Nae Nae",
-      "Dab"
-    ],
-    "explanation": "Right choice: The Renegade dance went viral on TikTok in 2019, choreographed by Jalaiah Harmon to the song 'Lottery (Renegade)' by K Camp, though the credit."
-  },
-  {
-    "question": "Which choice is right? What platform is known for its 'For You Page'?",
-    "answer": "TikTok",
-    "choices": [
-      "Instagram",
-      "TikTok",
-      "YouTube",
-      "Twitter"
-    ],
-    "explanation": "Right choice: TikTok's 'For You Page' (FYP) is an algorithmically curated feed of videos tailored to each user's interests."
-  },
-  {
-    "question": "Which choice is right? What game caused a massive craze in 2016 with augmented reality?",
-    "answer": "Pokemon GO",
-    "choices": [
-      "Minecraft",
-      "Pokemon GO",
-      "Fortnite",
-      "Candy Crush"
-    ],
-    "explanation": "Right choice: Pokemon GO, released in July 2016 by Niantic, used augmented reality to let players catch Pokemon in the real world, becoming a global phenomenon."
-  },
-  {
-    "question": "Which choice is right? Who plays the Joker in the 2019 standalone film 'Joker'?",
-    "answer": "Joaquin Phoenix",
-    "choices": [
-      "Heath Ledger",
-      "Jared Leto",
-      "Joaquin Phoenix",
-      "Jack Nicholson"
-    ],
-    "explanation": "Right choice: Joaquin Phoenix portrayed Arthur Fleck/Joker in the 2019 film directed by Todd Phillips."
-  },
-  {
-    "question": "Which choice is right? What food delivery app uses a pink logo?",
-    "answer": "DoorDash",
-    "choices": [
-      "Uber Eats",
-      "DoorDash",
-      "Grubhub",
-      "Postmates"
-    ],
-    "explanation": "Right choice: DoorDash is recognizable by its bright red/pink color scheme and 'D' logo."
-  },
-  {
-    "question": "Which choice is right? Which rapper released the Pulitzer Prize-winning album 'DAMN.' in 2017?",
-    "answer": "Kendrick Lamar",
-    "choices": [
-      "J. Cole",
-      "Drake",
-      "Kendrick Lamar",
-      "Kanye West"
-    ],
-    "explanation": "Right choice: Kendrick Lamar's 2017 album 'DAMN.' won the Pulitzer Prize for Music in 2018."
-  },
-  {
-    "question": "Which choice is right? Which 2023 movie became the highest-grossing film directed by a woman?",
-    "answer": "Barbie",
-    "choices": [
-      "Wonder Woman",
-      "Barbie",
-      "Cocaine Bear",
-      "Oppenheimer"
-    ],
-    "explanation": "Right choice: Directed by Greta Gerwig, 'Barbie' (2023) grossed over $1.4 billion worldwide, making it the highest-grossing film ever directed solely by a."
-  },
-  {
-    "question": "Which choice is right? What is the name of Meta's text-based rival to Twitter/X?",
-    "answer": "Threads",
-    "choices": [
-      "Mastodon",
-      "BlueSky",
-      "Threads",
-      "Post"
-    ],
-    "explanation": "Right choice: Meta launched Threads in July 2023 as a text-based social network integrated with Instagram."
-  },
-  {
-    "question": "Which choice is right? Which game won Game of the Year at the 2023 Game Awards?",
-    "answer": "Baldur's Gate 3",
-    "choices": [
-      "Zelda: Tears of the Kingdom",
-      "Spider-Man 2",
-      "Baldur's Gate 3",
-      "Alan Wake 2"
-    ],
-    "explanation": "Right choice: Baldur's Gate 3, developed by Larian Studios, won Game of the Year at The Game Awards 2023, praised for its depth, storytelling."
-  },
-  {
-    "question": "Which choice is right? Who played the title character in the 2023 film 'Oppenheimer'?",
-    "answer": "Cillian Murphy",
-    "choices": [
-      "Robert Downey Jr.",
-      "Cillian Murphy",
-      "Matt Damon",
-      "Florence Pugh"
-    ],
-    "explanation": "Right choice: Irish actor Cillian Murphy portrayed J. Robert Oppenheimer, the 'father of the atomic bomb,' in Christopher Nolan's 2023 biopic, winning the."
-  },
-  {
-    "question": "Which choice is right? What is the name of the AI image generator developed by OpenAI?",
-    "answer": "DALL-E",
-    "choices": [
-      "Midjourney",
-      "Stable Diffusion",
-      "DALL-E",
-      "Firefly"
-    ],
-    "explanation": "Right choice: DALL-E is OpenAI's AI image generation system, with the name being a portmanteau of the surrealist artist Salvador Dalí."
-  },
-  {
-    "question": "Which choice is right? Which pop star is known for her 'Fenty Beauty' makeup line?",
-    "answer": "Rihanna",
-    "choices": [
-      "Beyoncé",
-      "Selena Gomez",
-      "Rihanna",
-      "Ariana Grande"
-    ],
-    "explanation": "Right choice: Rihanna launched Fenty Beauty in 2017, celebrated for its groundbreaking 40-shade foundation range that set a new industry standard for."
-  },
-  {
-    "question": "Which choice is right? In 'The Last of Us' TV series, which actor plays the character Joel?",
-    "answer": "Pedro Pascal",
-    "choices": [
-      "Oscar Isaac",
-      "Pedro Pascal",
-      "Tom Hardy",
-      "David Harbour"
-    ],
-    "explanation": "Right choice: Pedro Pascal plays Joel Miller in HBO's 'The Last of Us,' the gruff survivor tasked with smuggling Ellie across a post-apocalyptic United States."
-  },
-  {
-    "question": "Which choice is right? What daily word game was acquired by The New York Times in 2022?",
-    "answer": "Wordle",
-    "choices": [
-      "Heardle",
-      "Connections",
-      "Wordle",
-      "Quordle"
-    ],
-    "explanation": "Right choice: Wordle, created by Josh Wardle as a gift for his partner, went viral in late 2021."
-  },
-  {
-    "question": "Which choice is right? Which K-pop group is the first to headline Coachella?",
-    "answer": "BLACKPINK",
-    "choices": [
-      "BTS",
-      "BLACKPINK",
-      "NewJeans",
-      "Twice"
-    ],
-    "explanation": "Right choice: BLACKPINK made history in 2023 as the first K-pop group to headline the Coachella Valley Music and Arts Festival."
-  },
-  {
-    "question": "Which choice is right? What is the name of MrBeast's chocolate and snack brand?",
-    "answer": "Feastables",
-    "choices": [
-      "Beast Bites",
-      "Feastables",
-      "MrSnacks",
-      "Prime"
-    ],
-    "explanation": "Right choice: MrBeast launched Feastables in 2022, a snack and chocolate bar brand that leverages his massive online following and is available in major retail."
-  },
-  {
-    "question": "Which choice is right? Which streaming service features the hit show 'The Bear'?",
-    "answer": "Hulu",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Apple TV+",
-      "HBO Max"
-    ],
-    "explanation": "Right choice: 'The Bear' is a critically acclaimed drama series on Hulu, following a fine-dining chef who returns to Chicago to run his family's sandwich shop."
-  },
-  {
-    "question": "Which choice is right? What color is the 'correct letter, wrong spot' tile in Wordle?",
-    "answer": "Yellow",
-    "choices": [
-      "Green",
-      "Yellow",
-      "Grey",
-      "Orange"
-    ],
-    "explanation": "Right choice: In Wordle, a yellow tile means the letter exists in the answer but is in the wrong position, while a green tile means the letter is correct."
-  },
-  {
-    "question": "Which choice is right? Who performed the halftime show at Super Bowl LVII in 2023?",
-    "answer": "Rihanna",
-    "choices": [
-      "Usher",
-      "Rihanna",
-      "The Weeknd",
-      "Taylor Swift"
-    ],
-    "explanation": "Right choice: Rihanna headlined the Apple Music Super Bowl LVII halftime show in February 2023."
-  },
-  {
-    "question": "Which choice is right? What is the name of Apple's first spatial computer/VR headset?",
-    "answer": "Vision Pro",
-    "choices": [
-      "Quest 3",
-      "Vision Pro",
-      "iGlass",
-      "Air Lens"
-    ],
-    "explanation": "Right choice: Apple's Vision Pro, announced in June 2023 and released in February 2024, is their first spatial computing headset, blending the real world with."
-  },
-  {
-    "question": "Which choice is right? Which actress starred as Wednesday Addams in the Netflix series 'Wednesday'?",
-    "answer": "Jenna Ortega",
-    "choices": [
-      "Anya Taylor-Joy",
-      "Jenna Ortega",
-      "Millie Bobby Brown",
-      "Sadie Sink"
-    ],
-    "explanation": "Right choice: Jenna Ortega plays Wednesday Addams in the Netflix series 'Wednesday' (2022)."
-  },
-  {
-    "question": "Which choice is right? What is the primary currency used in the game Roblox?",
-    "answer": "Robux",
-    "choices": [
-      "V-Bucks",
-      "Minecoins",
-      "Robux",
-      "Gems"
-    ],
-    "explanation": "Right choice: Robux is the virtual currency of Roblox, used to purchase in-game items, avatar accessories."
-  },
-  {
-    "question": "Which choice is right? Which city is the setting for the HBO show 'Succession'?",
-    "answer": "New York City",
-    "choices": [
-      "Chicago",
-      "New York City",
-      "Los Angeles",
-      "London"
-    ],
-    "explanation": "Right choice: 'Succession' is primarily set in New York City, the home base of the fictional Roy family's global media."
-  },
-  {
-    "question": "Which choice is right? What is the name of the satellite internet constellation operated by SpaceX?",
-    "answer": "Starlink",
-    "choices": [
-      "SkyNet",
-      "Starlink",
-      "Blue Origin",
-      "Kuiper"
-    ],
-    "explanation": "Right choice: Starlink is SpaceX's satellite internet service, consisting of thousands of low-orbit satellites that provide broadband internet access to."
-  },
-  {
-    "question": "Which choice is right? Which 2022 film won the Academy Award for Best Picture?",
-    "answer": "Everything Everywhere All at Once",
-    "choices": [
-      "Top Gun: Maverick",
-      "Everything Everywhere All at Once",
-      "The Fabelmans",
-      "CODA"
-    ],
-    "explanation": "Right choice: 'Everything Everywhere All at Once,' directed by the Daniels (Daniel Kwan and Daniel Scheinert)."
-  },
-  {
-    "question": "Which choice is right? Who is the 'Queen of Christmas' known for the song 'All I Want for Christmas Is You'?",
-    "answer": "Mariah Carey",
-    "choices": [
-      "Celine Dion",
-      "Mariah Carey",
-      "Whitney Houston",
-      "Cher"
-    ],
-    "explanation": "Right choice: Mariah Carey released 'All I Want for Christmas Is You' in 1994."
-  },
-  {
-    "question": "Which choice is right? What social media app asks users to take a photo at a random time every day?",
-    "answer": "BeReal",
-    "choices": [
-      "Snapchat",
-      "BeReal",
-      "TikTok",
-      "Instagram"
-    ],
-    "explanation": "Right choice: BeReal sends users a daily notification at a random time."
-  },
-  {
-    "question": "Which choice is right? Which artist released the 2022 album 'Renaissance'?",
-    "answer": "Beyoncé",
-    "choices": [
-      "SZA",
-      "Beyoncé",
-      "Adele",
-      "Lizzo"
-    ],
-    "explanation": "Right choice: Beyoncé released 'Renaissance' in July 2022, a dance. It matches the clue."
-  },
-  {
-    "question": "Which choice is right? What is the name of the fictional language spoken in 'Avatar'?",
-    "answer": "Na'vi",
-    "choices": [
-      "Dothraki",
-      "Na'vi",
-      "Klingon",
-      "Elvish"
-    ],
-    "explanation": "Right choice: The Na'vi language was constructed by linguist Paul Frommer for James Cameron's 'Avatar,' with a full vocabulary."
-  },
-  {
-    "question": "Which choice is right? Which streaming service is home to 'The Boys' and 'The Rings of Power'?",
-    "answer": "Amazon Prime Video",
-    "choices": [
-      "Netflix",
-      "Hulu",
-      "Amazon Prime Video",
-      "Apple TV+"
-    ],
-    "explanation": "Right choice: Both 'The Boys' and 'The Rings of Power' are Amazon Prime Video originals."
-  },
-  {
-    "question": "Which choice is right? What is the name of the kingdom in Disney's 'Frozen'?",
-    "answer": "Arendelle",
-    "choices": [
-      "Arendelle",
-      "Corona",
-      "Atlantica",
-      "Agrabah"
-    ],
-    "explanation": "Right choice: Arendelle is the fictional Scandinavian kingdom in Disney's 'Frozen,' home to Queen Elsa and Princess Anna."
-  },
-  {
-    "question": "Which choice is right? Which video game features a 'Battle Royale' mode and 'Building' mechanics?",
-    "answer": "Fortnite",
-    "choices": [
-      "PUBG",
-      "Apex Legends",
-      "Fortnite",
-      "Call of Duty"
-    ],
-    "explanation": "Right choice: Fortnite, developed by Epic Games, uniquely combines the battle royale genre with real-time building mechanics, allowing players to construct."
-  },
-  {
-    "question": "Which choice is right? Who played Ken in the 2023 'Barbie' movie?",
-    "answer": "Ryan Gosling",
-    "choices": [
-      "Ryan Reynolds",
-      "Ryan Gosling",
-      "Simu Liu",
-      "Chris Evans"
-    ],
-    "explanation": "Right choice: Ryan Gosling played Ken in Greta Gerwig's 2023 'Barbie' film."
-  },
-  {
-    "question": "Which choice is right? What is the most common name for the child character Grogu in 'The Mandalorian'?",
-    "answer": "Baby Yoda",
-    "choices": [
-      "Baby Yoda",
-      "The Kid",
-      "Little Mando",
-      "The Apprentice"
-    ],
-    "explanation": "Right choice: Grogu was nicknamed 'Baby Yoda' by fans before his real name was revealed."
-  },
-  {
-    "question": "Which choice is right? Which billionaire is the founder of the aerospace company Blue Origin?",
-    "answer": "Jeff Bezos",
-    "choices": [
-      "Elon Musk",
-      "Jeff Bezos",
-      "Richard Branson",
-      "Mark Zuckerberg"
-    ],
-    "explanation": "Right choice: Jeff Bezos founded Blue Origin in 2000, a private aerospace company focused on developing reusable rockets."
-  },
-  {
-    "question": "Which choice is right? What is the name of the sports drink brand founded by Logan Paul and KSI?",
-    "answer": "Prime",
-    "choices": [
-      "Gatorade",
-      "Prime",
-      "Liquid IV",
-      "BodyArmor"
-    ],
-    "explanation": "Right choice: Prime Hydration was launched in January 2022 by YouTubers Logan Paul and KSI."
-  },
-  {
-    "question": "Which choice is right? Which Marvel movie features the 'Multiverse' and three different versions of Spider-Man?",
-    "answer": "Spider-Man: No Way Home",
-    "choices": [
-      "Spider-Man: Far From Home",
-      "Spider-Man: No Way Home",
-      "Spider-Man: Into the Spider-Verse",
-      "Doctor Strange in the Multiverse of Madness"
-    ],
-    "explanation": "Right choice: 'Spider-Man: No Way Home' (2021) brought together Tobey Maguire."
-  },
-  {
-    "question": "Which choice is right? What is the name of the viral dance song by South Korean artist PSY?",
-    "answer": "Gangnam Style",
-    "choices": [
-      "Gentleman",
-      "Gangnam Style",
-      "DYNAMITE",
-      "Pink Venom"
-    ],
-    "explanation": "Right choice: PSY's 'Gangnam Style' (2012) became a global phenomenon and was the first YouTube video to reach one billion views."
-  },
-  {
-    "question": "Which choice is right? Which company owns the YouTube platform?",
-    "answer": "Google",
-    "choices": [
-      "Microsoft",
-      "Meta",
-      "Google",
-      "Amazon"
-    ],
-    "explanation": "Right choice: Google acquired YouTube in October 2006 for $1.65 billion in stock."
-  },
-  {
-    "question": "Which choice is right? Who is the lead singer of the band Coldplay?",
-    "answer": "Chris Martin",
-    "choices": [
-      "Adam Levine",
-      "Chris Martin",
-      "Harry Styles",
-      "Bono"
-    ],
-    "explanation": "Right choice: Chris Martin is the co-founder, lead vocalist, and primary songwriter for Coldplay, the British rock band known for hits like 'Yellow,' 'The."
-  },
-  {
-    "question": "Which choice is right? What color is the 'X' in the current logo of the platform formerly known as Twitter?",
-    "answer": "White",
-    "choices": [
-      "Blue",
-      "White",
-      "Black",
-      "Gold"
-    ],
-    "explanation": "Right choice: The 'X' logo introduced when Twitter was rebranded in 2023 features a white 'X' on a black background."
-  },
-  {
-    "question": "Which choice is right? Which hit TV series is a prequel to 'Game of Thrones'?",
-    "answer": "House of the Dragon",
-    "choices": [
-      "The Rings of Power",
-      "House of the Dragon",
-      "The Witcher",
-      "The Last Kingdom"
-    ],
-    "explanation": "Right choice: 'House of the Dragon,' which premiered on HBO in 2022. It matches the clue."
-  },
-  {
-    "question": "Which choice is right? What is the name of the AI search engine assistant from Microsoft?",
-    "answer": "Copilot",
-    "choices": [
-      "Cortana",
-      "Bing Chat",
-      "Copilot",
-      "Gemini"
-    ],
-    "explanation": "Right choice: Microsoft rebranded its AI assistant to 'Copilot' in 2023."
-  },
-  {
-    "question": "Which choice is right? Which female artist has the most Grammy wins of all time?",
-    "answer": "Beyoncé",
-    "choices": [
-      "Taylor Swift",
-      "Beyoncé",
-      "Adele",
-      "Alison Krauss"
-    ],
-    "explanation": "Right choice: Beyoncé holds the record for the most Grammy wins of any artist in history."
-  },
-  {
-    "question": "Which choice is right? What is the name of the fictional continent in 'The Witcher'?",
-    "answer": "The Continent",
-    "choices": [
-      "Westeros",
-      "Middle Earth",
-      "The Continent",
-      "Tamriel"
-    ],
-    "explanation": "Right choice: In 'The Witcher' universe — based on Andrzej Sapkowski's book series — the primary setting is simply known as 'The Continent,' a world where."
-  },
-  {
-    "question": "Which choice is right? Which social media platform is primarily used for professional networking?",
-    "answer": "LinkedIn",
-    "choices": [
-      "Facebook",
-      "LinkedIn",
-      "Reddit",
-      "Twitter"
-    ],
-    "explanation": "Right choice: LinkedIn, founded in 2003 and acquired by Microsoft in 2016, is the world's largest professional networking platform with over 900 million."
-  },
-  {
-    "question": "Which choice is right? Who is the creator of the 'Squid Game' series?",
-    "answer": "Hwang Dong-hyuk",
-    "choices": [
-      "Bong Joon-ho",
-      "Hwang Dong-hyuk",
-      "Park Chan-wook",
-      "Lee Jung-jae"
-    ],
-    "explanation": "Right choice: South Korean filmmaker Hwang Dong-hyuk wrote and directed 'Squid Game,' spending nearly a decade developing the concept before Netflix greenlit."
-  },
-  {
-    "question": "Which choice is right? What is the name of the 2023 movie starring Mario and Luigi?",
-    "answer": "The Super Mario Bros. Movie",
-    "choices": [
-      "Mario Kart Live",
-      "The Super Mario Bros. Movie",
-      "Mushroom Kingdom",
-      "Super Mario World"
-    ],
-    "explanation": "Right choice: 'The Super Mario Bros. Movie' (2023), produced by Nintendo and Illumination, became one of the highest-grossing animated films of all time."
-  },
-  {
-    "question": "Which choice is right? Who played Star-Lord in the 'Guardians of the Galaxy' movies?",
-    "answer": "Chris Pratt",
-    "choices": [
-      "Chris Hemsworth",
-      "Chris Pratt",
-      "Chris Evans",
-      "Zachary Levi"
-    ],
-    "explanation": "Right choice: Chris Pratt plays Peter Quill, aka Star-Lord, the half-human, half-alien leader of the Guardians of the Galaxy across multiple MCU films."
-  },
-  {
-    "question": "Which choice is right? What is the name of the world's most popular open-world 'sandbox' game?",
-    "answer": "Minecraft",
-    "choices": [
-      "Roblox",
-      "Minecraft",
-      "Terraria",
-      "Fortnite"
-    ],
-    "explanation": "Right choice: Minecraft, created by Markus 'Notch' Persson and released in 2011, is the best-selling video game of all time with over 300 million copies sold."
-  },
-  {
-    "question": "Which choice is right? Which company developed the video game 'Grand Theft Auto V'?",
-    "answer": "Rockstar Games",
-    "choices": [
-      "Ubisoft",
-      "Rockstar Games",
-      "Activision",
-      "EA Sports"
-    ],
-    "explanation": "Right choice: Grand Theft Auto V was developed by Rockstar Games and released in 2013."
-  },
-  {
-    "question": "Which choice is right? What does the 'S' stand for in the car brand SUV?",
-    "answer": "Sport",
-    "choices": [
-      "Standard",
-      "Sport",
-      "Speed",
-      "Super"
-    ],
-    "explanation": "Right choice: SUV stands for 'Sport Utility Vehicle,' a class of vehicle designed with a raised ride height and all-terrain capability."
-  },
-  {
-    "question": "Which choice is right? Who is the protagonist of the 'Legend of Zelda' video game series?",
-    "answer": "Link",
-    "choices": [
-      "Zelda",
-      "Link",
-      "Ganon",
-      "Epona"
-    ],
-    "explanation": "Right choice: Despite the series being named 'The Legend of Zelda,' the playable protagonist is actually Link."
-  },
-  {
-    "question": "Which choice is right? What is the most popular video-sharing app for short-form mobile videos?",
-    "answer": "TikTok",
-    "choices": [
-      "Vine",
-      "TikTok",
-      "Reels",
-      "Triller"
-    ],
-    "explanation": "Right choice: TikTok, owned by ByteDance, dominates the short-form video space with over one billion monthly active users, having popularized the vertical."
-  },
-  {
-    "question": "Which choice is right? Which actress plays Daenerys Targaryen in 'Game of Thrones'?",
-    "answer": "Emilia Clarke",
-    "choices": [
-      "Sophie Turner",
-      "Emilia Clarke",
-      "Maisie Williams",
-      "Natalie Dormer"
-    ],
-    "explanation": "Right choice: British actress Emilia Clarke portrayed Daenerys Targaryen."
+    "explanation": "British actress Emilia Clarke portrayed Daenerys Targaryen."
   },
   {
     "question": "What year did the iPhone first launch?",
@@ -5786,7 +3311,7 @@
     "explanation": "K-pop stands for Korean pop music, a genre that has gained massive global popularity through groups like BTS and BLACKPINK."
   },
   {
-    "question": "Which Grammy-winning group performed the halftime show at Super Bowl XLIX?",
+    "question": "Who performed the halftime show at Super Bowl XLIX in 2015?",
     "answer": "Katy Perry",
     "choices": [
       "Katy Perry",

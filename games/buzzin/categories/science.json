@@ -4301,17 +4301,6 @@
     "explanation": "Acid rain forms when sulfur dioxide (SO₂) and nitrogen oxides (NOₓ) from burning fossil fuels react with atmospheric water."
   },
   {
-    "question": "What is the name of the principle that states no two electrons can have the same quantum state?",
-    "answer": "Pauli Exclusion Principle",
-    "choices": [
-      "Pauli Exclusion Principle",
-      "Heisenberg Uncertainty Principle",
-      "Schrödinger's Wave Equation",
-      "Bohr's Atomic Model"
-    ],
-    "explanation": "The Pauli Exclusion Principle states that no two identical fermions (like electrons) can occupy the same quantum state simultaneously."
-  },
-  {
     "question": "What is the name of the process by which organisms regulate their internal temperature?",
     "answer": "Thermoregulation",
     "choices": [

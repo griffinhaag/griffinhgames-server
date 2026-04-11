@@ -192,6 +192,11 @@ const ABBREVIATIONS = {
   "gps": "global positioning system",
   "aids": "acquired immune deficiency syndrome",
   "hiv": "human immunodeficiency virus",
+  "wnba": "womens national basketball association",
+  "mls": "major league soccer",
+  "afl": "australian football league",
+  "ufc": "ultimate fighting championship",
+  "ioc": "international olympic committee",
 };
 
 function expandAbbreviations(s) {
@@ -245,8 +250,99 @@ if (groqClient) {
   console.warn("[BuzzIn] GROQ_API_KEY not set — AI grading disabled");
 }
 
+// Guard: returns true if both strings are short all-alpha strings with the same letters in
+// a different order (anagram). Used to reject acronym letter-order errors (e.g. "NWBA" for "WNBA")
+// without sending them to the AI which might mistakenly accept them.
+function isAcronymAnagram(a, b) {
+  if (a.length > 6 || b.length > 6) return false;
+  if (!/^[a-z]+$/.test(a) || !/^[a-z]+$/.test(b)) return false;
+  if (a === b) return false;
+  if (a.length !== b.length) return false;
+  return a.split("").sort().join("") === b.split("").sort().join("");
+}
+
+// Country → demonym lookup for fuzzy matching (e.g. "French" → "France").
+// Applied bidirectionally: if either side normalizes to a demonym of the other's country, accept.
+const COUNTRY_DEMONYMS = {
+  "france": ["french"],
+  "spain": ["spanish"],
+  "italy": ["italian"],
+  "germany": ["german"],
+  "japan": ["japanese"],
+  "china": ["chinese"],
+  "brazil": ["brazilian"],
+  "russia": ["russian"],
+  "mexico": ["mexican"],
+  "canada": ["canadian"],
+  "australia": ["australian"],
+  "india": ["indian"],
+  "england": ["english"],
+  "greece": ["greek"],
+  "egypt": ["egyptian"],
+  "turkey": ["turkish"],
+  "portugal": ["portuguese"],
+  "sweden": ["swedish"],
+  "norway": ["norwegian"],
+  "denmark": ["danish"],
+  "finland": ["finnish"],
+  "poland": ["polish"],
+  "netherlands": ["dutch"],
+  "belgium": ["belgian"],
+  "switzerland": ["swiss"],
+  "austria": ["austrian"],
+  "argentina": ["argentinian", "argentine"],
+  "colombia": ["colombian"],
+  "peru": ["peruvian"],
+  "chile": ["chilean"],
+  "scotland": ["scottish"],
+  "wales": ["welsh"],
+  "ireland": ["irish"],
+  "korea": ["korean"],
+  "thailand": ["thai"],
+  "vietnam": ["vietnamese"],
+  "indonesia": ["indonesian"],
+  "malaysia": ["malaysian"],
+  "philippines": ["filipino", "philippine"],
+  "pakistan": ["pakistani"],
+  "bangladesh": ["bangladeshi"],
+  "nigeria": ["nigerian"],
+  "kenya": ["kenyan"],
+  "ghana": ["ghanaian"],
+  "south africa": ["south african"],
+  "united states": ["american"],
+  "united states of america": ["american"],
+  "usa": ["american"],
+  "united kingdom": ["british"],
+};
+// Build reverse map: demonym → country
+const DEMONYM_TO_COUNTRY = {};
+for (const [country, demonyms] of Object.entries(COUNTRY_DEMONYMS)) {
+  for (const d of demonyms) {
+    DEMONYM_TO_COUNTRY[d] = country;
+  }
+}
+
+function checkDemonymMatch(a, b) {
+  // Returns true if one is the country name and the other is its demonym
+  const countryForA = DEMONYM_TO_COUNTRY[a];
+  const countryForB = DEMONYM_TO_COUNTRY[b];
+  if (countryForA && (countryForA === b || COUNTRY_DEMONYMS[b]?.includes(a))) return true;
+  if (countryForB && (countryForB === a || COUNTRY_DEMONYMS[a]?.includes(b))) return true;
+  // Direct lookup: a is demonym of b, or b is demonym of a
+  if (countryForA === b) return true;
+  if (countryForB === a) return true;
+  return false;
+}
+
 async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
   if (!groqClient || !userAnswer || !correctAnswer) return false;
+
+  // Hard guard: reject short all-alpha strings that are anagrams of the correct answer.
+  // Acronym letter order is always significant — "NWBA" must not pass for "WNBA".
+  const normU = userAnswer.toLowerCase().trim().replace(/[^a-z]/g, "");
+  const normC = correctAnswer.toLowerCase().trim().replace(/[^a-z]/g, "");
+  if (isAcronymAnagram(normU, normC)) return false;
+
   try {
     const timeoutPromise = new Promise((_, reject) =>
       setTimeout(() => reject(new Error("timeout")), 6000)
@@ -260,11 +356,18 @@ async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
           `Accept if: exact or near-exact match, common abbreviation (e.g. DNA for deoxyribonucleic acid), ` +
           `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
           `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"), ` +
-          `or the answer contains the correct answer as part of a larger valid response (e.g. "November 9, 1989" for "1989"). ` +
+          `the answer contains the correct answer as part of a larger valid response (e.g. "November 9, 1989" for "1989"), ` +
+          `the answer is the demonym/nationality adjective for the correct country name ` +
+          `(e.g. "French" for "France", "Italian" for "Italy", "Spanish" for "Spain" are all acceptable), ` +
+          `or the answer is a different verb form of the same action and the question context makes them equivalent ` +
+          `(e.g. "run" for "running", "swim" for "swimming" — use the question context to judge). ` +
           `STRICTLY REJECT if: the player described what kind of thing the answer is rather than naming the specific ` +
           `answer (e.g. "coffee shop" or "cafe" for "Central Perk" must be REJECTED — generic category descriptions ` +
           `are never acceptable), referring to a clearly different thing, too vague, only loosely related, or a ` +
-          `paraphrase that does not name the correct answer. The player must name the specific answer, not describe it. ` +
+          `paraphrase that does not name the correct answer. ` +
+          `STRICTLY REJECT if: the answer has the same letters as the correct answer but in a different order ` +
+          `(e.g. "NWBA" for "WNBA" — acronym letter order always matters). ` +
+          `The player must name the specific answer, not describe it. ` +
           `Reply with only "yes" or "no".`
       }],
       max_tokens: 5,
@@ -318,6 +421,25 @@ function fuzzyMatch(userAnswer, correctAnswer) {
   const stem = (s) => s.replace(/ies\b/g, "y").replace(/es\b/g, "").replace(/s\b/g, "");
   if (stem(ac) === stem(bc) || sortW(stem(ac)) === sortW(stem(bc))) return true;
 
+  // Verb form stemming: strip -ing (handles "running"/"run", "walking"/"walk").
+  // Also reverses consonant doubling before -ing (e.g. "running" → "runn" → "run").
+  const stemIng = (s) => {
+    if (s.endsWith("ing") && s.length >= 5) {
+      let base = s.slice(0, -3);
+      // Reverse consonant doubling: "runn" → "run", "swimm" → "swim"
+      if (base.length >= 2 && base[base.length - 1] === base[base.length - 2]) {
+        base = base.slice(0, -1);
+      }
+      return base;
+    }
+    return s;
+  };
+  const aIng = stemIng(ac), bIng = stemIng(bc);
+  if ((aIng !== ac || bIng !== bc) && (aIng === bIng || aIng === bc || ac === bIng)) return true;
+
+  // Demonym check: accept "French" for "France", "Spanish" for "Spain", etc.
+  if (checkDemonymMatch(ac, bc)) return true;
+
   // Abbreviation/acronym expansion: if either whole answer is a known abbreviation, expand and compare.
   const aE = expandAbbreviations(a);
   const bE = expandAbbreviations(b);
@@ -327,6 +449,9 @@ function fuzzyMatch(userAnswer, correctAnswer) {
       .join(" ");
     if (aE === b || a === bE || aE === bE) return true;
     if (noFillLocal(aE) === noFillLocal(b) || noFillLocal(a) === noFillLocal(bE)) return true;
+    // Also run demonym check on expanded forms (e.g. "UK"→"united kingdom"→"british" should match)
+    const acE = noFillLocal(aE), bcE = noFillLocal(bE);
+    if (checkDemonymMatch(acE, bc) || checkDemonymMatch(ac, bcE) || checkDemonymMatch(acE, bcE)) return true;
   }
 
   // Partial answer acceptance: user typed a single significant word that appears in a multi-word
@@ -405,6 +530,8 @@ export default {
     let timerRemaining = 0
     let activeTimerDuration = 30; // Timer duration for the current question (may differ for OFF THE DOME)
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
+    let lastRoundAwards = new Map(); // socketId -> points awarded in the most recent round (for rollback)
+    let flaggedQuestions = []; // { roundNumber, question, answer } — questions voided by host this game
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
     let hostAsPlayer = true; // Whether the host participates as a player (false = spectate/admin only)
     let offTheDomeCount = 3; // Number of "OFF THE DOME" free-text questions
@@ -557,7 +684,9 @@ export default {
           };
         }),
         // Players currently disconnected (for host between-question display)
-        disconnectedPlayers: Array.from(disconnectedTracker.values())
+        disconnectedPlayers: Array.from(disconnectedTracker.values()),
+        // Questions flagged as bad this game (no scores counted)
+        flaggedQuestions: [...flaggedQuestions]
       };
 
       io.to(room.code).emit("game:state", state);
@@ -567,8 +696,9 @@ export default {
       // Clear any existing timer
       stopQuestionTimer();
 
-      // Clear answer state
+      // Clear answer state and last-round tracking
       playerAnswers.clear();
+      lastRoundAwards.clear();
 
       currentQuestionIndex++;
 
@@ -662,26 +792,37 @@ export default {
       if (phase !== "question" && phase !== "paused") return;
       phase = "result";
 
+      // Clear awards tracker for this round (fresh slate)
+      lastRoundAwards.clear();
+
       // Calculate scores based on answers
       const currentQ = questions[currentQuestionIndex];
       const correctAnswer = currentQ?.answer?.toLowerCase().trim();
+
+      // Build normalized alternate-answer list (if the question defines them)
+      const altAnswers = Array.isArray(currentQ?.alternateAnswers)
+        ? currentQ.alternateAnswers.map(a => a.toLowerCase().trim()).filter(Boolean)
+        : [];
 
       // Only use fuzzy/AI matching for OFF THE DOME (free-text) questions;
       // multiple choice answers must match exactly since options are concrete.
       const isOTD = currentQ != null && otdQuestionTexts.has(currentQ.question);
 
       if (isOTD) {
-        // OTD grading: fast fuzzy match first, then Gemini AI for anything not caught by fuzzy.
-        // Both run before scoring so we can correctly identify the first correct answer.
+        // OTD grading: fast fuzzy match first (includes alternate answers), then AI for anything
+        // not caught by fuzzy. Both run before scoring to correctly identify the first correct answer.
         const aiTasks = [];
         playerAnswers.forEach((data) => {
           const playerAnswer = data.answer?.toLowerCase().trim() || "";
           if (!playerAnswer) {
             data.isCorrect = false;
-          } else if (fuzzyMatch(playerAnswer, correctAnswer || "")) {
+          } else if (
+            fuzzyMatch(playerAnswer, correctAnswer || "") ||
+            altAnswers.some(alt => fuzzyMatch(playerAnswer, alt) || playerAnswer === alt)
+          ) {
             data.isCorrect = true;
           } else {
-            // Not caught by fuzzy — ask Gemini
+            // Not caught by fuzzy — ask AI
             aiTasks.push(
               gradeAnswerWithGroq(data.answer, currentQ.answer)
                 .then(result => { data.isCorrect = result; })
@@ -690,10 +831,11 @@ export default {
         });
         if (aiTasks.length > 0) await Promise.allSettled(aiTasks);
       } else {
-        // Multiple choice: exact string match
+        // Multiple choice: exact string match (case-insensitive), with alternateAnswers support.
         playerAnswers.forEach((data) => {
           const playerAnswer = data.answer?.toLowerCase().trim();
-          data.isCorrect = (playerAnswer === correctAnswer);
+          data.isCorrect = (playerAnswer === correctAnswer) ||
+            altAnswers.includes(playerAnswer);
         });
       }
 
@@ -739,6 +881,8 @@ export default {
           const nameLower = playerName.toLowerCase();
           const oldScore = scores.get(socketId) ?? scoresByName.get(nameLower) ?? 0;
           updateScoreByName(socketId, oldScore + points, playerName);
+          // Track award for potential rollback (e.g. host shuffles or flags after result)
+          lastRoundAwards.set(socketId, points);
         }
         // Wrong or no answer = 0 points (no penalty)
 
@@ -1005,6 +1149,7 @@ export default {
             scores.clear();
             scoresByName.clear();
             disconnectedTracker.clear();
+            flaggedQuestions = [];
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -1078,6 +1223,7 @@ export default {
             scores.clear();
             scoresByName.clear();
             disconnectedTracker.clear();
+            flaggedQuestions = [];
             room.players.forEach((p) => {
               if (p.socketId && (hostAsPlayer || !p.isHost)) {
                 scores.set(p.socketId, 0);
@@ -1156,6 +1302,55 @@ export default {
             });
             break;
 
+          case "host:flagQuestion": {
+            // Host flags the current question as bad — no scores counted, advance to next question.
+            // Works in any active phase. In result phase, rolls back scores already awarded.
+            if (!isHostSocket(socketId)) return;
+            if (!["waiting", "question", "paused", "result"].includes(phase)) return;
+
+            stopQuestionTimer();
+
+            // Record the flagged question for end-of-game summary
+            {
+              const fq = questions[currentQuestionIndex];
+              if (fq) {
+                flaggedQuestions.push({
+                  roundNumber: currentQuestionIndex + 1,
+                  question: fq.question,
+                  answer: fq.answer
+                });
+              }
+            }
+
+            if (phase === "result") {
+              // Roll back any scores awarded this round.
+              // playerAnswers.get(sid)?.playerName is stored at buzz time and survives disconnects,
+              // so it's the most reliable name source for rollbacks involving disconnected players.
+              lastRoundAwards.forEach((points, sid) => {
+                const playerName = playerAnswers.get(sid)?.playerName
+                  || room.players.get(sid)?.name
+                  || roomManager.getPlayerName(sid);
+                const nameLower = playerName?.toLowerCase() ?? "";
+                const cur = scores.get(sid) ?? (nameLower ? scoresByName.get(nameLower) : undefined) ?? 0;
+                updateScoreByName(sid, Math.max(0, cur - points), playerName || null);
+              });
+              lastRoundAwards.clear();
+            } else {
+              // Clear any in-progress answers — no partial credit
+              playerAnswers.clear();
+            }
+
+            io.to(room.code).emit("game:event", {
+              type: "question_flagged",
+              message: "Question flagged — no scores counted"
+            });
+
+            // Skip directly to the next question without showing a result screen.
+            // nextQuestion() sets phase = "waiting" and calls broadcastState().
+            nextQuestion();
+            break;
+          }
+
           case "host:shuffleQuestions":
             if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown") return;
@@ -1166,10 +1361,61 @@ export default {
               const notYetAsked = questions.slice(currentQuestionIndex + 1);
 
               if (phase === "result") {
-                // Current question is already done — only shuffle UPCOMING questions.
-                // Never put the finished question back into the pool.
+                // Shuffling after everyone answered: void this round's scores, pick a new question,
+                // and restart from the waiting phase so no one gets credit for the cancelled round.
+                // Roll back any points awarded during endAnsweringPhase.
+                if (lastRoundAwards.size > 0) {
+                  lastRoundAwards.forEach((points, sid) => {
+                    const playerName = playerAnswers.get(sid)?.playerName
+                      || room.players.get(sid)?.name
+                      || roomManager.getPlayerName(sid);
+                    const nameLower = playerName?.toLowerCase() ?? "";
+                    const cur = scores.get(sid) ?? (nameLower ? scoresByName.get(nameLower) : undefined) ?? 0;
+                    updateScoreByName(sid, Math.max(0, cur - points), playerName || null);
+                  });
+                  lastRoundAwards.clear();
+
+                  // Notify all players before the state change so the toast is visible
+                  io.to(room.code).emit("game:event", {
+                    type: "questions_shuffled",
+                    voidedRound: true,
+                    message: "No scores counted — round was shuffled away"
+                  });
+
+                  // Pick a replacement question using the same pool logic as mid-question shuffle
+                  const gameQSet = new Set(questions.map(q => q.question));
+                  const sourcePool = currentHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
+                  const replacementPool = sourcePool.filter(q =>
+                    currentCategories.includes(q.category) &&
+                    !seenQuestionTexts.has(q.question) &&
+                    !gameQSet.has(q.question)
+                  );
+
+                  if (replacementPool.length > 0) {
+                    const replacementQ = replacementPool[Math.floor(Math.random() * replacementPool.length)];
+                    // NOTE: do NOT delete currentQ from seenQuestionTexts here — unlike a mid-question
+                    // shuffle where the question was never answered, in the result phase it WAS shown
+                    // and answered; keeping it in seenQuestionTexts prevents future repeats.
+                    if (otdQuestionTexts.has(currentQ.question)) {
+                      otdQuestionTexts.delete(currentQ.question);
+                      otdQuestionTexts.add(replacementQ.question);
+                    }
+                    questions = [...alreadyAsked, replacementQ, ...notYetAsked];
+                  } else if (notYetAsked.length > 0) {
+                    // Fresh pool exhausted — reshuffle remaining questions.
+                    // currentQ was already answered so do NOT include it back in the queue.
+                    questions = [...alreadyAsked, ...shuffle(notYetAsked)];
+                  } else {
+                    // No remaining questions — the voided round was the last one; end the game.
+                    questions = [...alreadyAsked];
+                  }
+                  currentQuestionIndex--;
+                  nextQuestion(); // nextQuestion will call endGame() if index exceeds length
+                  break;
+                }
+
+                // No scores were awarded (e.g. skipPoints round) — just reshuffle remaining questions
                 if (notYetAsked.length === 0) {
-                  // Nothing left to reorder; still emit the event so the client toasts.
                   io.to(room.code).emit("game:event", {
                     type: "questions_shuffled",
                     message: "Questions reshuffled!"
@@ -1510,7 +1756,8 @@ export default {
             const name = roomPlayer?.name || roomManager.getPlayerName(id) || `Player-${id.slice(0, 4)}`;
             return { socketId: id, name, score };
           }),
-          disconnectedPlayers: Array.from(disconnectedTracker.values())
+          disconnectedPlayers: Array.from(disconnectedTracker.values()),
+          flaggedQuestions: [...flaggedQuestions]
         };
       },
 
@@ -1527,6 +1774,8 @@ export default {
         disconnectedTracker.clear();
         seenQuestionTexts.clear();
         otdQuestionTexts.clear();
+        flaggedQuestions = [];
+        lastRoundAwards.clear();
         currentCategories = [];
         gameSettings = null;
         activeTimerDuration = 30;
