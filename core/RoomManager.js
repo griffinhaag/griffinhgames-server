@@ -123,15 +123,37 @@ export function createRoomManager() {
 
     // Determine if this player should be host
     let finalIsHost = isHost || wasHost;
+    // Set to true only when wasHost actually causes a host grant (used to gate host:restored event)
+    let hostRestored = false;
 
     // If room has no active host, this player becomes host
     if (!room.hostSocketId || !room.players.has(room.hostSocketId)) {
       finalIsHost = true;
     }
 
-    // If this player is (or becomes) host, update hostSocketId and ensure no other player
-    // has isHost=true (handles original host rejoining after interim promotion).
+    // Guard: if wasHost is the sole reason for the host claim, but a different player has
+    // already been promoted to host during the original host's absence, do NOT displace the
+    // promoted host. The original host rejoins as a regular player instead. This makes host
+    // promotion deterministic — once a player is promoted, they keep the role.
+    if (wasHost && finalIsHost) {
+      const currentHostPlayer = room.players.get(room.hostSocketId);
+      const promotedHostActive =
+        currentHostPlayer &&
+        currentHostPlayer.isHost &&
+        currentHostPlayer.socketId !== socketId;
+      if (promotedHostActive) {
+        finalIsHost = false;
+        genuineReconnect = false; // suppress host:restored toast on the client
+        logInfo(
+          `Original host ${name} rejoining room ${roomCode} as regular player — ` +
+          `promoted host ${currentHostPlayer.name} retains host status`
+        );
+      }
+    }
+
+    // If this player is (or becomes) host, clear isHost on all others and take ownership
     if (finalIsHost) {
+      if (wasHost) hostRestored = true;
       room.hostSocketId = socketId;
       room.players.forEach(p => { p.isHost = false; });
     }
@@ -153,7 +175,7 @@ export function createRoomManager() {
 
     names.set(socketId, name);
 
-    return { success: true, isReconnecting, wasHost, deferredHostRestore, genuineReconnect };
+    return { success: true, isReconnecting, wasHost, hostRestored, deferredHostRestore, genuineReconnect };
   }
 
   function removePlayerBySocket(socketId) {
