@@ -269,26 +269,19 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         });
       }
 
-      // If this reconnecting player reclaimed host, notify them explicitly in ALL phases.
-      // The room:state already reflects the change but the explicit event guarantees
-      // a reliable UI update regardless of race conditions with room:state delivery.
-      if ((joinResult.genuineReconnect || ipVerifiedSwitch) && joinResult.wasHost) {
+      // Notify the rejoining player that they are host again — only when they actually
+      // reclaimed host status (hostRestored=true). If a promoted host is already active,
+      // hostRestored is false so the original host rejoins silently as a regular player.
+      if ((joinResult.genuineReconnect || ipVerifiedSwitch) && joinResult.hostRestored) {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
         });
 
-        // If another player was promoted while the original host was away,
-        // notify them that they are no longer host so their UI updates.
-        const demotedPlayer = [...room.players.values()].find(
-          p => p.socketId !== socket.id && !p.isHost &&
-               room.hostSocketId === socket.id // original host is now set
-        );
-        // Broadcast updated room:state covers the demotion; also send explicit event
+        // Broadcast updated room:state covers any demotion; also send explicit event
         // to the previously-promoted socket so the client can react immediately.
         for (const [sid, p] of room.players) {
           if (sid !== socket.id) {
-            // Tell every other player the host has changed so their isHost flag refreshes
             io.to(sid).emit("host:changed", { newHostSocketId: socket.id });
           }
         }
