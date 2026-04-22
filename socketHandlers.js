@@ -513,6 +513,31 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       });
     });
 
+    // Host broadcasts selected categories to lobby players (lobby phase only — no game instance yet)
+    socket.on("host:previewCategories", ({ roomCode, categories } = {}) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      const room = roomManager.getRoom(code);
+      if (!checkIsHost(socket, room)) return;
+      io.to(code).emit("lobby:categoriesPreview", {
+        categories: Array.isArray(categories) ? categories : []
+      });
+    });
+
+    // Host flags the current question as bad (no scores counted for the round)
+    socket.on("host:flagQuestion", ({ roomCode }) => {
+      const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);
+      if (!code) return;
+      const room = roomManager.getRoom(code);
+      if (!checkIsHost(socket, room)) return;
+      gameEngine.handleGameEvent({
+        roomCode: code,
+        eventName: "host:flagQuestion",
+        payload: {},
+        socketId: socket.id
+      });
+    });
+
     // Host shuffle remaining questions
     socket.on("host:shuffleQuestions", ({ roomCode }) => {
       const code = roomCode || roomManager.getRoomCodeForSocket(socket.id);

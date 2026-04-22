@@ -893,7 +893,8 @@ export default {
           isCorrect: data.isCorrect || false,
           isFirstCorrect: socketId === firstCorrectId,
           points,
-          buzzedAt: data.buzzedAt
+          buzzedAt: data.buzzedAt,
+          answeredAt: data.timestamp  // answer submission time, used for client-side timing sort
         });
 
         // Emit individual events for animations
