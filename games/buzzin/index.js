@@ -67,7 +67,22 @@ function loadAllQuestions() {
   return deduped;
 }
 
-const allQuestions = loadAllQuestions();
+// Normalize "Flags" category questions at load time:
+// - Extract trailing regional-indicator pair from question text → imageDisplay
+// - Strip the emoji from the question text so the display element carries it separately
+const FLAG_EMOJI_RE = /[\u{1F1E6}-\u{1F1FF}]{2}$/u;
+function normalizeFlagQuestion(q) {
+  if (q.category !== "Flags") return q;
+  const match = q.question.match(FLAG_EMOJI_RE);
+  if (!match) return q;
+  return {
+    ...q,
+    question: q.question.replace(FLAG_EMOJI_RE, "").trimEnd(),
+    imageDisplay: q.imageDisplay || match[0],
+  };
+}
+
+const allQuestions = loadAllQuestions().map(normalizeFlagQuestion);
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
 
 // Load questions from the hard/ directory (one file per category, harder questions)
@@ -119,7 +134,7 @@ function loadHardQuestions() {
   return deduped;
 }
 
-const hardQuestions = loadHardQuestions();
+const hardQuestions = loadHardQuestions().map(normalizeFlagQuestion);
 console.log(`[BuzzIn] Loaded ${hardQuestions.length} hard questions from hard/ directory`);
 
 // Pre-compute per-category counts from the deduplicated allQuestions array.
@@ -530,6 +545,8 @@ export default {
     let timerRemaining = 0
     let activeTimerDuration = 30; // Timer duration for the current question (may differ for OFF THE DOME)
     let timerRemainingAtPause = 0; // Timer remaining when game was paused
+    let unpausingInterval = null; // Countdown interval during 'unpausing' phase
+    let unpausingCountdown = 0;  // Remaining seconds of unpause countdown (3..2..1)
     let lastRoundAwards = new Map(); // socketId -> points awarded in the most recent round (for rollback)
     let flaggedQuestions = []; // { roundNumber, question, answer } — questions voided by host this game
     let firstBonusEnabled = true; // Whether first correct answer gets +50 bonus
@@ -663,6 +680,7 @@ export default {
         currentQuestionIndex,
         totalQuestions: questions.length,
         countdownSeconds: phase === "countdown" ? countdownSeconds : null,
+        unpausingCountdown: phase === "unpausing" ? unpausingCountdown : null,
         // Timer state
         timerRemaining,
         timerDuration: activeTimerDuration,
@@ -975,6 +993,10 @@ export default {
       if (countdownInterval) {
         clearInterval(countdownInterval);
         countdownInterval = null;
+      }
+      if (unpausingInterval) {
+        clearInterval(unpausingInterval);
+        unpausingInterval = null;
       }
 
       // Clear disconnect display — game is over, no longer relevant
@@ -1354,7 +1376,12 @@ export default {
 
           case "host:shuffleQuestions":
             if (!isHostSocket(socketId)) return;
-            if (phase === "lobby" || phase === "countdown") return;
+            if (phase === "lobby" || phase === "countdown" || phase === "unpausing") return;
+            // Cancel unpausing countdown if one is running (shuffle wins)
+            if (unpausingInterval) {
+              clearInterval(unpausingInterval);
+              unpausingInterval = null;
+            }
 
             {
               const alreadyAsked = questions.slice(0, currentQuestionIndex);
@@ -1500,11 +1527,28 @@ export default {
           case "host:resumeGame":
             if (!isHostSocket(socketId)) return;
             if (phase !== "paused") return;
-            phase = "question";
-            // Resume timer from where it was paused
-            startQuestionTimer(activeTimerDuration, timerRemainingAtPause);
-            io.to(room.code).emit("game:event", { type: "game_resumed" });
+            // Clear any leftover unpausing interval (defensive)
+            if (unpausingInterval) {
+              clearInterval(unpausingInterval);
+              unpausingInterval = null;
+            }
+            unpausingCountdown = 3;
+            phase = "unpausing";
+            io.to(room.code).emit("game:event", { type: "game_resuming" });
             broadcastState();
+            unpausingInterval = setInterval(() => {
+              unpausingCountdown--;
+              if (unpausingCountdown <= 0) {
+                clearInterval(unpausingInterval);
+                unpausingInterval = null;
+                phase = "question";
+                startQuestionTimer(activeTimerDuration, timerRemainingAtPause);
+                io.to(room.code).emit("game:event", { type: "game_resumed" });
+                broadcastState();
+              } else {
+                broadcastState();
+              }
+            }, 1000);
             break;
 
           case "player:buzz":
@@ -1739,6 +1783,7 @@ export default {
           hostAsPlayer,
           offTheDomeCount,
           countdownSeconds: phase === "countdown" ? countdownSeconds : null,
+          unpausingCountdown: phase === "unpausing" ? unpausingCountdown : null,
           currentQuestionIndex,
           totalQuestions: questions.length,
           currentQuestion: currentQ ? {
@@ -1768,6 +1813,10 @@ export default {
         if (countdownInterval) {
           clearInterval(countdownInterval);
           countdownInterval = null;
+        }
+        if (unpausingInterval) {
+          clearInterval(unpausingInterval);
+          unpausingInterval = null;
         }
         questions = [];
         scores.clear();
