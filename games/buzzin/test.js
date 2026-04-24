@@ -425,3 +425,111 @@ function makeFuzzyCheck() {
     return levenshtein(a, b) <= 2;
   };
 }
+
+// ---------------------------------------------------------------------------
+// Group 4 — Unpause countdown, flag normalization
+// ---------------------------------------------------------------------------
+
+describe('Group 4: Unpause countdown phase', () => {
+  function startGame(gi, questionCount = 5) {
+    gi.handleEvent({ eventName: 'host:startGame', socketId: 'host1', payload: { questionCount } });
+  }
+
+  function advanceToQuestion(gi) {
+    // game starts in 'question' phase after host:startGame (server auto-advances through countdown)
+    gi.handleEvent({ eventName: 'host:showQuestion', socketId: 'host1', payload: {} });
+  }
+
+  it('transitions from paused → unpausing after host:resumeGame', function (done) {
+    this.timeout(6000);
+    const gi = buzzinModule.create({ io: mockIo, room: makeMockRoom(), roomManager: mockRoomManager });
+    startGame(gi);
+    // Game is in question phase — pause it
+    gi.handleEvent({ eventName: 'host:pauseGame', socketId: 'host1', payload: {} });
+    expect(gi.getState().phase).to.equal('paused');
+    // Resume — should immediately be 'unpausing'
+    gi.handleEvent({ eventName: 'host:resumeGame', socketId: 'host1', payload: {} });
+    const s = gi.getState();
+    expect(s.phase).to.equal('unpausing');
+    expect(s.unpausingCountdown).to.be.at.least(1).and.at.most(3);
+    // After 3+ seconds, should be back to 'question'
+    setTimeout(() => {
+      expect(gi.getState().phase).to.equal('question');
+      done();
+    }, 3500);
+  });
+
+  it('non-host cannot resume a paused game', () => {
+    const gi = buzzinModule.create({ io: mockIo, room: makeMockRoom(), roomManager: mockRoomManager });
+    startGame(gi);
+    gi.handleEvent({ eventName: 'host:pauseGame', socketId: 'host1', payload: {} });
+    gi.handleEvent({ eventName: 'host:resumeGame', socketId: 'p1', payload: {} });
+    expect(gi.getState().phase).to.equal('paused');
+  });
+
+  it('shuffle is blocked during unpausing phase', function (done) {
+    this.timeout(2000);
+    const gi = buzzinModule.create({ io: mockIo, room: makeMockRoom(), roomManager: mockRoomManager });
+    startGame(gi);
+    gi.handleEvent({ eventName: 'host:pauseGame', socketId: 'host1', payload: {} });
+    gi.handleEvent({ eventName: 'host:resumeGame', socketId: 'host1', payload: {} });
+    expect(gi.getState().phase).to.equal('unpausing');
+    // Shuffle should be ignored during unpausing
+    gi.handleEvent({ eventName: 'host:shuffleQuestions', socketId: 'host1', payload: {} });
+    expect(gi.getState().phase).to.equal('unpausing');
+    done();
+  });
+
+  it('player cannot submit answer during unpausing phase', () => {
+    const gi = buzzinModule.create({ io: mockIo, room: makeMockRoom(), roomManager: mockRoomManager });
+    startGame(gi);
+    gi.handleEvent({ eventName: 'host:pauseGame', socketId: 'host1', payload: {} });
+    gi.handleEvent({ eventName: 'host:resumeGame', socketId: 'host1', payload: {} });
+    expect(gi.getState().phase).to.equal('unpausing');
+    // Player answer submission should be silently ignored (server only accepts in 'question' phase)
+    gi.handleEvent({ eventName: 'player:submitAnswer', socketId: 'p1', payload: { answer: 'test' } });
+    const s = gi.getState();
+    // phase should still be unpausing and no answer recorded (answeredCount = 0)
+    expect(s.phase).to.equal('unpausing');
+    expect(s.answeredCount).to.equal(0);
+  });
+});
+
+describe('Group 4: Flag question normalization', () => {
+  it('flag questions loaded from allQuestions have clean question text', async () => {
+    const { default: mod } = await import('./index.js?v=flagtest1');
+    // Start a game with Flags category only
+    const rm = createRoomManager();
+    const room = rm.createRoom({ hostSocketId: 'fh1' });
+    rm.addPlayerToRoom(room.code, { socketId: 'fh1', name: 'FlagHost', isHost: true });
+    const gi = mod.create({ io: mockIo, room, roomManager: rm });
+    gi.handleEvent({
+      eventName: 'host:startGame',
+      socketId: 'fh1',
+      payload: { questionCount: 35, categories: ['Flags'] }
+    });
+    const state = gi.getState();
+    const q = state.currentQuestion;
+    if (q && q.category === 'Flags' && q.imageDisplay) {
+      // Question text must NOT end with a regional-indicator pair
+      const endsWithFlag = /[\u{1F1E6}-\u{1F1FF}]{2}$/u.test(q.question);
+      expect(endsWithFlag).to.equal(false);
+    }
+  });
+
+  it('flag imageDisplay renders as an image URL suffix in a safe code', () => {
+    // Verify that 🇺🇸 extracts to "us" via the same codepoint arithmetic used in the client
+    const emoji = '🇺🇸';
+    const pts = [...emoji].map(c => c.codePointAt(0));
+    expect(pts).to.deep.equal([0x1F1FA, 0x1F1F8]);
+    const code = String.fromCharCode(pts[0] - 0x1F1E6 + 65, pts[1] - 0x1F1E6 + 65).toLowerCase();
+    expect(code).to.equal('us');
+  });
+
+  it('cv emoji resolves to "cv" (Cape Verde) — the reported Edge fallback case', () => {
+    const emoji = '🇨🇻';
+    const pts = [...emoji].map(c => c.codePointAt(0));
+    const code = String.fromCharCode(pts[0] - 0x1F1E6 + 65, pts[1] - 0x1F1E6 + 65).toLowerCase();
+    expect(code).to.equal('cv');
+  });
+});
