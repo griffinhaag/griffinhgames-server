@@ -27,15 +27,27 @@ process.on("uncaughtException", (error) => {
   // Don't exit immediately - let the server try to handle it
 });
 
+// Only the GriffinGames site (and local development) may call this server from a browser.
+const ALLOWED_ORIGINS = [
+  /^https:\/\/(www\.)?griffinhgames\.xyz$/,
+  /^https:\/\/([a-z0-9-]+--)?griffinhgames\.netlify\.app$/, // production + Netlify previews
+  /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/,
+];
+const corsOrigin = (origin, callback) => {
+  // Requests without an Origin header (curl, health checks) aren't from a browser page
+  if (!origin || ALLOWED_ORIGINS.some(re => re.test(origin))) return callback(null, true);
+  callback(null, false);
+};
+
 const app = express();
-app.use(cors());
+app.use(cors({ origin: corsOrigin }));
 app.use(express.json());
 
 const httpServer = createServer(app);
 
 const io = new SocketIOServer(httpServer, {
   cors: {
-    origin: "*"
+    origin: corsOrigin
   },
   pingTimeout: 120000,   // 2 minutes before disconnect
   pingInterval: 30000    // ping every 30 seconds
