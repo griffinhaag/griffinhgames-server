@@ -5,6 +5,9 @@ export function createGameEngine(io, roomManager) {
   // Map<roomCode, { gameType, instance }>
   const activeGames = new Map();
 
+  // Tear down a room's game when the room itself is destroyed so timers and state don't leak
+  roomManager.onRoomDestroyed?.((roomCode) => endGame(roomCode, "room_destroyed"));
+
   function startGame(roomCode, requestedGameType, startPayload = {}) {
     const room = roomManager.getRoom(roomCode);
     if (!room) {
@@ -21,8 +24,18 @@ export function createGameEngine(io, roomManager) {
       throw new Error(`Unknown game type: ${gameType}`);
     }
 
-    if (activeGames.has(roomCode)) {
+    const existing = activeGames.get(roomCode);
+    if (existing) {
+      // A duplicate start (e.g. double-clicked START) must not spawn a second game whose
+      // timers keep running alongside the first. Ignore it while a game is under way;
+      // otherwise tear the old instance down before replacing it.
+      const existingPhase = existing.instance.getState?.()?.phase;
+      if (existingPhase && existingPhase !== "lobby" && existingPhase !== "end") {
+        logWarn(`Game already in progress in room ${roomCode}, ignoring duplicate start.`);
+        return;
+      }
       logWarn(`Game already active in room ${roomCode}, restarting.`);
+      existing.instance.teardown?.();
       activeGames.delete(roomCode);
     }
 

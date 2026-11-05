@@ -14,6 +14,12 @@ export function createRoomManager() {
   const disconnectedPlayers = new Map();
   const GRACE_PERIOD_MS = 300000; // 5 minutes to rejoin after all players disconnect
   const PLAYER_RECONNECT_WINDOW_MS = 600000; // 10 minutes to reconnect as same player
+  // Callbacks fired with the room code after a room is destroyed (e.g. game engine cleanup)
+  const roomDestroyedListeners = [];
+
+  function onRoomDestroyed(fn) {
+    roomDestroyedListeners.push(fn);
+  }
 
   function createRoom({ hostSocketId, gameType = null }) {
     let code;
@@ -250,6 +256,7 @@ export function createRoomManager() {
           deleteRoom(roomCode);
           disconnectedPlayers.delete(roomCode); // Clean up disconnected players too
           logInfo(`Room ${roomCode} destroyed (empty after grace period).`);
+          roomDestroyedListeners.forEach(fn => fn(roomCode));
         }
         destructionTimers.delete(roomCode);
       }, GRACE_PERIOD_MS);
@@ -336,6 +343,7 @@ export function createRoomManager() {
     setPlayerName,
     getPlayerName,
     getDisconnectedPlayer,
-    isPlayerReconnecting
+    isPlayerReconnecting,
+    onRoomDestroyed
   };
 }

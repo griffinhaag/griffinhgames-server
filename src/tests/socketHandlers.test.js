@@ -130,4 +130,29 @@ console.log("\nplayer:setName validation:");
     assert.equal(ctx.roomManager.getPlayerName(s.id), "N".repeat(20)));
 }
 
+// ─── Game lifecycle ─────────────────────────────────────────────────────────
+
+console.log("\nGame lifecycle — duplicate start and room destruction:");
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  const alice = ctx.join(code, "Alice");
+  host.send("host:startGame", { roomCode: code, ...START });
+  await clock.advance(400);
+  host.send("host:startGame", { roomCode: code, ...START });
+  await clock.advance(10500);
+  const countdownTicks = alice.all("game:state").filter(s => s.phase === "countdown").length;
+  await test("a duplicate start does not run a second countdown", () => assert.equal(countdownTicks, 11));
+  const firstQuestions = new Set(alice.all("game:state").filter(s => s.phase === "waiting").map(s => s.currentQuestion.question));
+  await test("only one first question is broadcast", () => assert.equal(firstQuestions.size, 1));
+
+  host.disconnect();
+  alice.disconnect();
+  await clock.advance(5 * 60 * 1000 + 1000);
+  await test("room destruction tears down the active game", () => {
+    assert.equal(ctx.roomManager.getRoom(code), null);
+    assert.equal(ctx.gameEngine.getGameState(code), null);
+  });
+}
+
 finish();
