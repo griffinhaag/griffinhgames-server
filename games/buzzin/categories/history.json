@@ -5324,7 +5324,7 @@
     "explanation": "The United Nations was founded on October 24, 1945, after World War II, to maintain international peace and security."
   },
   {
-    "question": "Which empress ruled the Austro-Hungarian Empire during much of the 19th century?",
+    "question": "Which empress was married to Emperor Franz Joseph I of Austria-Hungary?",
     "answer": "Empress Elisabeth (Sisi)",
     "choices": [
       "Empress Elisabeth (Sisi)",
@@ -5332,7 +5332,7 @@
       "Catherine the Great",
       "Victoria"
     ],
-    "explanation": "Empress Elisabeth of Austria (known as Sisi) was a beloved but tragic figure who was queen consort of the Austro-Hungarian Empire."
+    "explanation": "Elisabeth of Austria, known as Sisi, married Franz Joseph I in 1854. She was his empress consort; he was the one who ruled."
   },
   {
     "question": "What was the name of the famous British admiral who defeated Napoleon's fleet at Trafalgar?",
