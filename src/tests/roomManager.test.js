@@ -192,4 +192,5 @@ console.log("\nHostRestored return value — fresh join (non-reconnect):");
 // ─── Summary ────────────────────────────────────────────────────────────────
 
 console.log(`\nResults: ${passed} passed, ${failed} failed\n`);
-if (failed > 0) process.exit(1);
+// Exit explicitly: RoomManager reconnect timers would otherwise keep the process alive
+process.exit(failed > 0 ? 1 : 0);

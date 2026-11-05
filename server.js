@@ -97,8 +97,8 @@ try {
     res.status(500).json({ error: "Internal server error" });
   });
 
-  // Port binding: use PORT from environment (Vercel, Railway, Fly, etc.) or 3000 for local
-  const PORT = process.env.PORT || 10000;
+  // Hosting providers (Render) set PORT; 3000 is the local default the frontend expects
+  const PORT = process.env.PORT || 3000;
 
   // HTTP server error handler (must be set before listen)
   httpServer.on("error", (error) => {
