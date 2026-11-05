@@ -117,4 +117,17 @@ console.log("\nHost grace period — other players cannot grab host while host i
     assert.equal(ctx.playerIn(code, "Alice").isHost, true));
 }
 
+// ─── Name validation ────────────────────────────────────────────────────────
+
+console.log("\nplayer:setName validation:");
+{
+  const ctx = setup();
+  const s = ctx.connect();
+  s.send("player:setName", { evil: true });
+  await test("non-string names are rejected", () => assert.equal(ctx.roomManager.getPlayerName(s.id), null));
+  s.send("player:setName", "  " + "N".repeat(50) + "  ");
+  await test("names are trimmed and capped at 20 characters", () =>
+    assert.equal(ctx.roomManager.getPlayerName(s.id), "N".repeat(20)));
+}
+
 finish();

@@ -510,6 +510,8 @@ function fuzzyMatch(userAnswer, correctAnswer) {
 
 // Hard cap on questions per game — enforced on both server and client.
 const MAX_QUESTIONS_PER_GAME = 100;
+// Longest answer a player may submit (longer answers are truncated)
+const MAX_ANSWER_LENGTH = 200;
 
 export default {
   id: "buzzin",
@@ -1610,20 +1612,26 @@ export default {
               return;
             }
 
+            // Answers must be strings; trim and cap length so grading and broadcasts stay cheap
+            if (payload?.answer !== undefined && typeof payload.answer !== "string") {
+              return;
+            }
+            const submittedAnswer = (payload?.answer || "").trim().substring(0, MAX_ANSWER_LENGTH);
+
             const existingData = playerAnswers.get(socketId);
 
             if (!existingData) {
               // Player hasn't buzzed yet - auto-buzz and submit in one action, store name now
               playerAnswers.set(socketId, {
                 playerName: room.players.get(socketId)?.name || roomManager.getPlayerName(socketId) || null,
-                answer: payload?.answer || "",
+                answer: submittedAnswer,
                 timestamp: Date.now(),
                 buzzedAt: Date.now(),
                 isCorrect: false
               });
             } else if (existingData.answer === undefined) {
               // Player buzzed but hasn't answered yet
-              existingData.answer = payload?.answer || "";
+              existingData.answer = submittedAnswer;
               existingData.timestamp = Date.now();
             } else {
               // Already answered - ignore

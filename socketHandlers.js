@@ -98,7 +98,8 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
     // Optional: allow clients to set a display name
     socket.on("player:setName", (name) => {
-      const trimmed = typeof name === "string" ? name.trim() : "";
+      if (typeof name !== "string") return;
+      const trimmed = name.trim().substring(0, 20);
       const finalName = trimmed || `Player-${socket.id.slice(0, 4)}`;
 
       roomManager.setPlayerName(socket.id, finalName);
