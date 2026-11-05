@@ -1,5 +1,7 @@
 # GriffinGames Server
 
+[![Tests](https://github.com/griffinhaag/griffinhgames-server/actions/workflows/test.yml/badge.svg)](https://github.com/griffinhaag/griffinhgames-server/actions/workflows/test.yml)
+
 The real-time backend for [GriffinGames](https://github.com/griffinhaag/griffinhgames). It runs the rooms, players, and game logic for **LOCKED IN**, a buzzer-style trivia game where a host runs the game on a shared screen and everyone else plays from their phone.
 
 Built with Node.js, Express, and Socket.IO. Deployed on Render at https://griffinhgames-server.onrender.com.
