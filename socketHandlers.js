@@ -47,6 +47,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       room.players.forEach(p => { p.isHost = false; });
       newHostPlayer.isHost = true;
       room.hostSocketId = newHostPlayer.socketId;
+      room.hostAwayName = null;
 
       io.to(newHostPlayer.socketId).emit("host:transferred", {
         roomCode,
@@ -80,6 +81,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     room.players.forEach(p => { p.isHost = false; });
     alreadyRejoined.isHost = true;
     room.hostSocketId = alreadyRejoined.socketId;
+    room.hostAwayName = null;
 
     io.to(alreadyRejoined.socketId).emit("host:restored", {
       roomCode,

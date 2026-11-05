@@ -26,6 +26,9 @@ export function createRoomManager() {
       hostSocketId,
       gameType,
       phase: "lobby", // lobby | in-progress | ended
+      // Name of a host who disconnected and is still inside the host-promotion grace period.
+      // While set, other joiners must not grab host status.
+      hostAwayName: null,
       createdAt: Date.now(),
       updatedAt: Date.now(),
       players: new Map() // Map<socketId, Player>
@@ -126,8 +129,13 @@ export function createRoomManager() {
     // Set to true only when wasHost actually causes a host grant (used to gate host:restored event)
     let hostRestored = false;
 
-    // If room has no active host, this player becomes host
-    if (!room.hostSocketId || !room.players.has(room.hostSocketId)) {
+    // If room has no active host, this player becomes host — unless the original host is
+    // still inside the reconnect grace period and this is somebody else. An empty room has
+    // nobody to promote, so the grace period does not apply there.
+    const hostGracePending = !!room.hostAwayName && room.players.size > 0 && !wasHost;
+    if (hostGracePending) {
+      finalIsHost = false;
+    } else if (!room.hostSocketId || !room.players.has(room.hostSocketId)) {
       finalIsHost = true;
     }
 
@@ -154,6 +162,7 @@ export function createRoomManager() {
     // If this player is (or becomes) host, clear isHost on all others and take ownership
     if (finalIsHost) {
       if (wasHost) hostRestored = true;
+      room.hostAwayName = null;
       room.hostSocketId = socketId;
       room.players.forEach(p => { p.isHost = false; });
     }
@@ -250,11 +259,12 @@ export function createRoomManager() {
 
       // Return false so we don't emit room:closed yet
       roomDestroyed = false;
-    } else if (room.hostSocketId === socketId) {
-      // Host left: DON'T promote a new host immediately - wait for reconnection
-      // Only promote if there are other players and host doesn't reconnect
+    } else if (player?.isHost) {
+      // Host left: DON'T promote a new host immediately - wait for reconnection.
+      // hostAwayName blocks other joiners from taking host during the grace period;
+      // promoteNewHostIfNeeded (socketHandlers) clears it when the grace period ends.
+      room.hostAwayName = playerName || null;
       logInfo(`Host ${playerName} disconnected from room ${roomCode}, waiting for reconnection`);
-      // We'll handle host promotion in addPlayerToRoom if someone else joins
     }
 
     return { roomCode, roomDestroyed, playerName, wasHost: player?.isHost };

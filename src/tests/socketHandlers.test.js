@@ -73,4 +73,48 @@ console.log("\ngame:event — server-internal events cannot be spoofed:");
     assert.equal(host.last("game:state").answeredCount, 2));
 }
 
+// ─── Host grace period ──────────────────────────────────────────────────────
+
+console.log("\nHost grace period — other players cannot grab host while host is away:");
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  ctx.join(code, "Alice");
+  const bob = ctx.join(code, "Bob");
+
+  host.disconnect();
+  await clock.advance(200);
+  bob.disconnect();
+  ctx.join(code, "Bob"); // Bob refreshes during the grace period
+
+  await test("refreshing player does not become host during grace period", () =>
+    assert.equal(ctx.playerIn(code, "Bob").isHost, false));
+
+  ctx.join(code, "Hosty");
+  await test("original host gets host back when rejoining within grace period", () =>
+    assert.equal(ctx.playerIn(code, "Hosty").isHost, true));
+}
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  ctx.join(code, "Alice");
+  host.disconnect();
+  await clock.advance(31000);
+  await test("a player is promoted once the 30s grace period expires", () =>
+    assert.equal(ctx.playerIn(code, "Alice").isHost, true));
+  ctx.join(code, "Hosty");
+  await test("original host rejoining after promotion stays a regular player", () =>
+    assert.equal(ctx.playerIn(code, "Hosty").isHost, false));
+}
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  const alice = ctx.join(code, "Alice");
+  host.disconnect();
+  alice.disconnect();
+  ctx.join(code, "Alice");
+  await test("first player back into an empty room becomes host", () =>
+    assert.equal(ctx.playerIn(code, "Alice").isHost, true));
+}
+
 finish();
