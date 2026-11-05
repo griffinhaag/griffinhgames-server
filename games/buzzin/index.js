@@ -1258,6 +1258,12 @@ export default {
               clearInterval(countdownInterval);
               countdownInterval = null;
             }
+            // A restart during the 3-2-1 resume countdown must not later flip the game back
+            // into the old question
+            if (unpausingInterval) {
+              clearInterval(unpausingInterval);
+              unpausingInterval = null;
+            }
 
             // Update settings if new ones provided by play-again modal
             if (payload.categories?.length > 0) gameSettings.categories = payload.categories;

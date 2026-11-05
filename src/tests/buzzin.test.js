@@ -215,4 +215,27 @@ console.log("\nHost actions while OTD answers are still being graded:");
   });
 }
 
+// ─── Pause / resume ─────────────────────────────────────────────────────────
+
+console.log("\nRestart during the resume countdown:");
+{
+  const t = setup(2);
+  await startAndShow(t);
+  t.ev("h", "host:pauseGame");
+  t.ev("h", "host:resumeGame");
+  await clock.advance(500);
+  t.ev("h", "host:restartGame", {});
+  const phases = [];
+  for (let i = 0; i < 5; i++) {
+    await clock.advance(1000);
+    phases.push(t.game.getState().phase);
+  }
+  await test("game stays in the new countdown", () => assert.deepEqual(phases, Array(5).fill("countdown")));
+  await clock.advance(6000);
+  await test("then moves to the first question normally", () => {
+    assert.equal(t.game.getState().phase, "waiting");
+    assert.equal(t.game.getState().currentQuestionIndex, 0);
+  });
+}
+
 finish();
