@@ -370,7 +370,7 @@ function checkDemonymMatch(a, b) {
   return false;
 }
 
-async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
+async function gradeAnswerWithGroq(userAnswer, correctAnswer, questionText = null) {
   if (!groqClient || !userAnswer || !correctAnswer) return false;
 
   // Hard guard: reject short all-alpha strings that are anagrams of the correct answer.
@@ -388,7 +388,8 @@ async function gradeAnswerWithGroq(userAnswer, correctAnswer) {
       messages: [{
         role: "user",
         content:
-          `Trivia answer grading. Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
+          `Trivia answer grading. ${questionText ? `Question: "${questionText}". ` : ""}` +
+          `Correct answer: "${correctAnswer}". Player answered: "${userAnswer}". ` +
           `Accept if: exact or near-exact match, common abbreviation (e.g. DNA for deoxyribonucleic acid), ` +
           `last name only for a full name answer, 1-2 character typo, alternate spelling, partial answer that ` +
           `unambiguously identifies the correct answer (e.g. "Pacific" for "Pacific Ocean"), ` +
@@ -889,7 +890,7 @@ export default {
           } else {
             // Not caught by fuzzy — ask AI
             aiTasks.push(
-              gradeAnswerWithGroq(data.answer, currentQ.answer)
+              gradeAnswerWithGroq(data.answer, currentQ.answer, currentQ.question)
                 .then(result => { data.isCorrect = result; })
             );
           }
