@@ -70,17 +70,25 @@ function loadAllQuestions() {
 // Normalize "Flags" category questions at load time:
 // - Extract trailing regional-indicator pair from question text → imageDisplay
 // - Strip the emoji from the question text so the display element carries it separately
-const FLAG_EMOJI_RE = /[\u{1F1E6}-\u{1F1FF}]{2}$/u;
+// Written with explicit surrogate pairs: some V8 versions (seen on Node 26) fail to match the
+// equivalent /[\u{1F1E6}-\u{1F1FF}]{2}$/u when the class is anchored with $.
+const FLAG_EMOJI_RE = /(?:\uD83C[\uDDE6-\uDDFF]){2}$/;
 function normalizeFlagQuestion(q) {
   if (q.category !== "Flags") return q;
   const match = q.question.match(FLAG_EMOJI_RE);
   if (!match) return q;
   return {
     ...q,
+    // Many flag questions share the same text once the emoji is removed, so keep the original
+    // text as a unique key for OTD / seen-question tracking (see qKey).
+    key: q.question,
     question: q.question.replace(FLAG_EMOJI_RE, "").trimEnd(),
     imageDisplay: q.imageDisplay || match[0],
   };
 }
+
+// Unique identity of a question for OTD / seen tracking (display text can collide for flags)
+const qKey = (q) => q.key || q.question;
 
 const allQuestions = loadAllQuestions().map(normalizeFlagQuestion);
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
@@ -640,7 +648,7 @@ export default {
           : null;
 
       // Determine if this is an "OFF THE DOME" question (free-text typing)
-      const isOffTheDome = currentQ != null && otdQuestionTexts.has(currentQ.question);
+      const isOffTheDome = currentQ != null && otdQuestionTexts.has(qKey(currentQ));
 
       // Get all players from room to ensure we have valid names
       const roomPlayers = Array.from(room.players.values());
@@ -666,7 +674,7 @@ export default {
       // - Distributed mode: announce for every OTD question so players aren't caught off guard
       const isFirstOffTheDome = isOffTheDome && (
         otdAtEnd
-          ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question))
+          ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(qKey(q)))
           : true
       );
 
@@ -729,7 +737,7 @@ export default {
 
       // Mark this question as seen (server-side — survives game restarts within this room session)
       const nextQ = questions[currentQuestionIndex];
-      if (nextQ?.question) seenQuestionTexts.add(nextQ.question);
+      if (nextQ?.question) seenQuestionTexts.add(qKey(nextQ));
 
       // First show "waiting" phase - host must click "Show Question"
       phase = "waiting";
@@ -752,7 +760,7 @@ export default {
 
       // OFF THE DOME questions use their own configurable timer (default 60s)
       const curQ = questions[currentQuestionIndex];
-      const isOTD = curQ != null && otdQuestionTexts.has(curQ.question);
+      const isOTD = curQ != null && otdQuestionTexts.has(qKey(curQ));
       const effectiveTimer = isOTD ? otdTimerDuration : timerDuration;
 
       startQuestionTimer(effectiveTimer);
@@ -826,7 +834,7 @@ export default {
 
       // Only use fuzzy/AI matching for OFF THE DOME (free-text) questions;
       // multiple choice answers must match exactly since options are concrete.
-      const isOTD = currentQ != null && otdQuestionTexts.has(currentQ.question);
+      const isOTD = currentQ != null && otdQuestionTexts.has(qKey(currentQ));
 
       if (isOTD) {
         // OTD grading: fast fuzzy match first (includes alternate answers), then AI for anything
@@ -1051,14 +1059,14 @@ export default {
       // In hard mode, prefer questions from the hard/ directory; fall back to normal pool if needed
       const primaryPool = useHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
       const categoryFiltered = primaryPool.filter(q => categories.includes(q.category));
-      const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(q.question));
+      const fresh = categoryFiltered.filter(q => !seenQuestionTexts.has(qKey(q)));
       if (fresh.length >= needed) return buildEqualPool(fresh, needed);
-      const seenQs = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(q.question)));
+      const seenQs = shuffle(categoryFiltered.filter(q => seenQuestionTexts.has(qKey(q))));
       const combined = [...fresh, ...seenQs.slice(0, needed - fresh.length)];
       // If hard mode doesn't have enough questions, supplement with normal pool
       if (useHardMode && combined.length < needed) {
         const normalFresh = allQuestions.filter(q =>
-          categories.includes(q.category) && !seenQuestionTexts.has(q.question)
+          categories.includes(q.category) && !seenQuestionTexts.has(qKey(q))
         );
         return buildEqualPool([...combined, ...normalFresh], needed);
       }
@@ -1163,10 +1171,10 @@ export default {
             otdQuestionTexts.clear();
             if (offTheDomeCount > 0) {
               if (otdAtEnd) {
-                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(q.question));
+                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(qKey(q)));
               } else {
                 const otdIndices = shuffle([...Array(questions.length).keys()]).slice(0, offTheDomeCount);
-                otdIndices.forEach(i => otdQuestionTexts.add(questions[i].question));
+                otdIndices.forEach(i => otdQuestionTexts.add(qKey(questions[i])));
               }
             }
 
@@ -1280,10 +1288,10 @@ export default {
             otdQuestionTexts.clear();
             if (offTheDomeCount > 0) {
               if (otdAtEnd) {
-                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(q.question));
+                questions.slice(questions.length - offTheDomeCount).forEach(q => otdQuestionTexts.add(qKey(q)));
               } else {
                 const otdIndices = shuffle([...Array(questions.length).keys()]).slice(0, offTheDomeCount);
-                otdIndices.forEach(i => otdQuestionTexts.add(questions[i].question));
+                otdIndices.forEach(i => otdQuestionTexts.add(qKey(questions[i])));
               }
             }
 
@@ -1413,12 +1421,12 @@ export default {
                   });
 
                   // Pick a replacement question using the same pool logic as mid-question shuffle
-                  const gameQSet = new Set(questions.map(q => q.question));
+                  const gameQSet = new Set(questions.map(qKey));
                   const sourcePool = currentHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
                   const replacementPool = sourcePool.filter(q =>
                     currentCategories.includes(q.category) &&
-                    !seenQuestionTexts.has(q.question) &&
-                    !gameQSet.has(q.question)
+                    !seenQuestionTexts.has(qKey(q)) &&
+                    !gameQSet.has(qKey(q))
                   );
 
                   if (replacementPool.length > 0) {
@@ -1426,9 +1434,9 @@ export default {
                     // NOTE: do NOT delete currentQ from seenQuestionTexts here — unlike a mid-question
                     // shuffle where the question was never answered, in the result phase it WAS shown
                     // and answered; keeping it in seenQuestionTexts prevents future repeats.
-                    if (otdQuestionTexts.has(currentQ.question)) {
-                      otdQuestionTexts.delete(currentQ.question);
-                      otdQuestionTexts.add(replacementQ.question);
+                    if (otdQuestionTexts.has(qKey(currentQ))) {
+                      otdQuestionTexts.delete(qKey(currentQ));
+                      otdQuestionTexts.add(qKey(replacementQ));
                     }
                     questions = [...alreadyAsked, replacementQ, ...notYetAsked];
                   } else if (notYetAsked.length > 0) {
@@ -1468,12 +1476,12 @@ export default {
                 // Replacement pool = questions in the selected categories that:
                 //   1. Have never been seen in this room session (seenQuestionTexts), AND
                 //   2. Are not already queued in the current game (to avoid queue duplicates).
-                const gameQSet = new Set(questions.map(q => q.question));
+                const gameQSet = new Set(questions.map(qKey));
                 const sourcePool = currentHardMode && hardQuestions.length > 0 ? hardQuestions : allQuestions;
                 const replacementPool = sourcePool.filter(q =>
                   currentCategories.includes(q.category) &&
-                  !seenQuestionTexts.has(q.question) &&
-                  !gameQSet.has(q.question)
+                  !seenQuestionTexts.has(qKey(q)) &&
+                  !gameQSet.has(qKey(q))
                 );
 
                 if (replacementPool.length > 0) {
@@ -1481,11 +1489,11 @@ export default {
                   // Remove currentQ from seenQuestionTexts — it was never answered, so it
                   // should stay available for future games (not burned as "used").
                   const replacementQ = replacementPool[Math.floor(Math.random() * replacementPool.length)];
-                  seenQuestionTexts.delete(currentQ.question);
+                  seenQuestionTexts.delete(qKey(currentQ));
                   // Transfer OTD designation: if the skipped question was OTD, the replacement is too.
-                  if (otdQuestionTexts.has(currentQ.question)) {
-                    otdQuestionTexts.delete(currentQ.question);
-                    otdQuestionTexts.add(replacementQ.question);
+                  if (otdQuestionTexts.has(qKey(currentQ))) {
+                    otdQuestionTexts.delete(qKey(currentQ));
+                    otdQuestionTexts.add(qKey(replacementQ));
                   }
                   questions = [...alreadyAsked, replacementQ, ...notYetAsked];
                   currentQuestionIndex--; // nextQuestion() increments back, marks replacementQ seen
@@ -1494,7 +1502,7 @@ export default {
                   // Fresh pool exhausted — fall back to reshuffling the existing remaining
                   // questions, still guaranteeing a different question comes next.
                   const combinedPool = shuffle([currentQ, ...notYetAsked]);
-                  if (combinedPool[0].question === currentQ.question) {
+                  if (qKey(combinedPool[0]) === qKey(currentQ)) {
                     const swapIdx = Math.floor(Math.random() * (combinedPool.length - 1)) + 1;
                     [combinedPool[0], combinedPool[swapIdx]] = [combinedPool[swapIdx], combinedPool[0]];
                   }
@@ -1779,10 +1787,10 @@ export default {
           : null;
 
         // Determine if OFF THE DOME
-        const isOffTheDome = currentQ != null && otdQuestionTexts.has(currentQ.question);
+        const isOffTheDome = currentQ != null && otdQuestionTexts.has(qKey(currentQ));
         const isFirstOffTheDome = isOffTheDome && (
           otdAtEnd
-            ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(q.question))
+            ? questions.slice(0, currentQuestionIndex).every(q => !otdQuestionTexts.has(qKey(q)))
             : true
         );
 

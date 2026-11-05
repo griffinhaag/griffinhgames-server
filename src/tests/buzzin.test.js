@@ -69,4 +69,23 @@ console.log("\nAnswer validation:");
   });
 }
 
+// ─── Flag questions ─────────────────────────────────────────────────────────
+
+console.log("\nFlag questions — shared display text does not merge questions:");
+{
+  const t = setup(2);
+  t.ev("h", "host:startGame", { categories: ["Flags"], questionCount: 20, offTheDomeCount: 1, otdAtEnd: true });
+  await clock.advance(10500);
+  let otd = 0;
+  let pictureFlags = 0;
+  for (let i = 0; i < 20 && t.game.getState().phase !== "end"; i++) {
+    const s = t.game.getState();
+    if (s.isOffTheDome) otd++;
+    if (s.currentQuestion.imageDisplay) pictureFlags++;
+    t.ev("h", "host:flagQuestion"); // advance without answering
+  }
+  await test("flag emoji is moved out of the question text", () => assert.ok(pictureFlags > 1));
+  await test("exactly the configured number of OTD questions", () => assert.equal(otd, 1));
+}
+
 finish();
