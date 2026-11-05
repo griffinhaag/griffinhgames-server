@@ -211,6 +211,12 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         finalName = finalName.substring(0, 20);
       }
 
+      // Kicked players may not rejoin this room under the same name
+      if (room.kickedNames?.has(finalName.toLowerCase())) {
+        socket.emit("room:error", "You were kicked from this room.");
+        return;
+      }
+
       // Leaving a different room must happen before the name is stored for this socket
       leaveCurrentRoom(socket, code);
 
@@ -471,7 +477,8 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       // Guard: cannot kick another player who currently holds host status
       const targetPlayer = room.players.get(targetSocketId);
-      if (targetPlayer?.isHost) {
+      if (!targetPlayer) return; // only players in this room can be kicked from it
+      if (targetPlayer.isHost) {
         socket.emit("room:error", "Cannot kick the host.");
         return;
       }
@@ -494,8 +501,12 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         targetSocket.leave(code);
       }
 
-      // Remove from room
+      // Remove from room and remember the name so the player cannot simply rejoin
       roomManager.removePlayerBySocket(targetSocketId);
+      if (targetName) {
+        if (!room.kickedNames) room.kickedNames = new Set();
+        room.kickedNames.add(targetName.toLowerCase());
+      }
 
       // Notify game engine so kicked player disappears from scores/leaderboard
       // (their score is preserved in scoresByName so it restores if they rejoin)

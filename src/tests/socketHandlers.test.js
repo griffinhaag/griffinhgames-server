@@ -174,4 +174,30 @@ console.log("\nSwitching rooms — no ghost player left behind:");
   await test("player is in the new room", () => assert.ok(ctx.playerIn(code2, "Alice")));
 }
 
+// ─── Kicks ──────────────────────────────────────────────────────────────────
+
+console.log("\nKicked players cannot rejoin:");
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  const alice = ctx.join(code, "Alice");
+  ctx.join(code, "Bob");
+  host.send("host:kickPlayer", { roomCode: code, socketId: alice.id });
+  await test("kicked player is removed", () => assert.equal(ctx.playerIn(code, "Alice"), undefined));
+
+  alice.send("player:joinRoom", { roomCode: code, name: "alice" });
+  await test("rejoin with the same name is rejected", () => assert.equal(ctx.playerIn(code, "alice"), undefined));
+  await test("rejection message mentions the kick", () => assert.match(alice.last("room:error"), /kicked/));
+
+  const fresh = ctx.join(code, "Alice ");
+  await test("a fresh socket with the same name is also rejected", () =>
+    assert.match(fresh.last("room:error"), /kicked/));
+
+  const { code: otherCode } = ctx.createRoom("Other");
+  const carol = ctx.join(otherCode, "Carol");
+  host.send("host:kickPlayer", { roomCode: code, socketId: carol.id });
+  await test("host cannot kick a player who is in a different room", () =>
+    assert.ok(ctx.playerIn(otherCode, "Carol")));
+}
+
 finish();
