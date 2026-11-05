@@ -579,6 +579,16 @@ export default {
     // Tracks which question texts are "OFF THE DOME" for the current game (by question text).
     // Using a Set keyed by text means it survives reshuffles and question replacements correctly.
     let otdQuestionTexts = new Set();
+    // Round bookkeeping for the async results step (AI grading / explanation):
+    // roundToken changes whenever the round is abandoned (next question, restart, end) so a
+    // grading pass that finishes late discards its results; resultsPending blocks host actions
+    // that would advance past a round whose results have not been revealed yet.
+    let roundToken = 0;
+    let resultsPending = false;
+    function invalidateRound() {
+      roundToken++;
+      resultsPending = false;
+    }
 
     // --- Session-level seen question tracking ---
     // Persists across game restarts within the same room so Play Again never repeats questions.
@@ -745,6 +755,7 @@ export default {
     function nextQuestion() {
       // Clear any existing timer
       stopQuestionTimer();
+      invalidateRound();
 
       // Clear answer state and last-round tracking
       playerAnswers.clear();
@@ -843,6 +854,8 @@ export default {
       // Guard against double-fire from simultaneous timer expiry + checkAllAnswered
       if (phase !== "question" && phase !== "paused") return;
       phase = "result";
+      resultsPending = true;
+      const token = roundToken;
 
       // Clear awards tracker for this round (fresh slate)
       lastRoundAwards.clear();
@@ -882,6 +895,8 @@ export default {
           }
         });
         if (aiTasks.length > 0) await Promise.allSettled(aiTasks);
+        // The round was abandoned (restart / end) while grading — drop these results
+        if (token !== roundToken) return;
       } else {
         // Multiple choice: exact string match (case-insensitive), with alternateAnswers support.
         playerAnswers.forEach((data) => {
@@ -987,6 +1002,9 @@ export default {
         }
       }
 
+      if (token !== roundToken) return;
+      resultsPending = false;
+
       // Emit round results with all answers revealed
       io.to(room.code).emit("game:event", {
         type: "round_results",
@@ -1025,6 +1043,7 @@ export default {
     function endGame(reason = "ended") {
       // Clear all timers
       stopQuestionTimer();
+      invalidateRound();
       if (countdownInterval) {
         clearInterval(countdownInterval);
         countdownInterval = null;
@@ -1234,6 +1253,7 @@ export default {
             phase = "lobby";
             playerAnswers.clear();
             stopQuestionTimer();
+            invalidateRound();
             if (countdownInterval) {
               clearInterval(countdownInterval);
               countdownInterval = null;
@@ -1338,7 +1358,8 @@ export default {
 
           case "host:nextQuestion":
             if (!isHostSocket(socketId)) return;
-            if (phase === "result") {
+            // Wait until this round's results have been revealed
+            if (phase === "result" && !resultsPending) {
               nextQuestion();
             }
             break;
@@ -1365,6 +1386,7 @@ export default {
             // Works in any active phase. In result phase, rolls back scores already awarded.
             if (!isHostSocket(socketId)) return;
             if (!["waiting", "question", "paused", "result"].includes(phase)) return;
+            if (resultsPending) return; // results still being graded
 
             stopQuestionTimer();
 
@@ -1412,6 +1434,7 @@ export default {
           case "host:shuffleQuestions":
             if (!isHostSocket(socketId)) return;
             if (phase === "lobby" || phase === "countdown" || phase === "unpausing") return;
+            if (resultsPending) return; // results still being graded
             // Cancel unpausing countdown if one is running (shuffle wins)
             if (unpausingInterval) {
               clearInterval(unpausingInterval);
@@ -1875,6 +1898,7 @@ export default {
       teardown() {
         // Cleanup timers
         stopQuestionTimer();
+        invalidateRound();
         if (countdownInterval) {
           clearInterval(countdownInterval);
           countdownInterval = null;

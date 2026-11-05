@@ -178,4 +178,41 @@ console.log("\nAnswer, refresh, rejoin — answer and points follow the player:"
   await test("flagging the round rolls those points back", () => assert.deepEqual(t.score("P1"), [0]));
 }
 
+// ─── Async grading ──────────────────────────────────────────────────────────
+
+console.log("\nHost actions while OTD answers are still being graded:");
+{
+  const t = setup(3);
+  await startAndShow(t, { offTheDomeCount: 5 });
+  t.ev("p1", "player:submitAnswer", { answer: "needs the AI grader" });
+  t.ev("p2", "player:submitAnswer", { answer: "also needs grading" });
+  t.ev("h", "player:submitAnswer", { answer: "me too" });
+  // Grading is async: these arrive before results are revealed
+  t.ev("h", "host:nextQuestion");
+  t.ev("h", "host:flagQuestion");
+  t.ev("h", "host:shuffleQuestions");
+  await clock.flush();
+  await test("next/flag/shuffle are ignored until results are revealed", () => {
+    assert.equal(t.game.getState().phase, "result");
+    assert.equal(t.game.getState().currentQuestionIndex, 0);
+  });
+  await test("round results still include every answer", () =>
+    assert.equal(t.events("round_results")[0]?.results.length, 3));
+  t.ev("h", "host:nextQuestion");
+  await test("host can advance once results are out", () =>
+    assert.equal(t.game.getState().phase, "waiting"));
+}
+{
+  const t = setup(2);
+  await startAndShow(t, { offTheDomeCount: 5 });
+  t.ev("p1", "player:submitAnswer", { answer: "needs the AI grader" });
+  t.ev("h", "player:submitAnswer", { answer: "me too" });
+  t.ev("h", "host:restartGame", {});
+  await clock.flush();
+  await test("results from an abandoned round are discarded after a restart", () => {
+    assert.equal(t.events("round_results").length, 0);
+    assert.equal(t.game.getState().phase, "countdown");
+  });
+}
+
 finish();
