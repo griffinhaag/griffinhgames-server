@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { logInfo, logWarn } from "./utils/logger.js";
 
 // Game events a client may send through the generic "game:event" route
@@ -171,8 +172,13 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       socket.join(room.code);
 
+      // One-time code for the setup page to hand to the game page, so the server can tell
+      // "same host, now on the game page" apart from a host who left and came back.
+      // Only the creating socket receives it; it is never part of the broadcast room state.
+      room.handoffToken = randomUUID();
+
       const roomState = roomManager.serializeRoom(room.code);
-      socket.emit("room:created", roomState);
+      socket.emit("room:created", { ...roomState, handoffToken: room.handoffToken });
       
       // Also broadcast to room (though only host is in it)
       io.to(room.code).emit("room:state", roomState);
@@ -181,7 +187,7 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     });
 
     // Player joins an existing room by code
-    socket.on("player:joinRoom", ({ roomCode, name, isHost: claimsHost }) => {
+    socket.on("player:joinRoom", ({ roomCode, name, isHost: claimsHost, handoffToken } = {}) => {
       const code = typeof roomCode === "string"
         ? roomCode.trim().toUpperCase()
         : "";
@@ -238,6 +244,10 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       //             Notify the old device, evict its socket, then let the join proceed normally.
       // Diff IP   → potential hijack. Reject immediately.
       // No match  → no conflict, fall through.
+      // The host's own game page arriving from setup.html (see room.handoffToken).
+      const isSetupHandoff = typeof handoffToken === "string" && !!room.handoffToken
+        && handoffToken === room.handoffToken;
+
       let ipVerifiedSwitch = false;
       for (const [existingSocketId, existingPlayer] of room.players) {
         if (
@@ -246,6 +256,15 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
           io.sockets.sockets.has(existingSocketId)
         ) {
           const existingSocket = io.sockets.sockets.get(existingSocketId);
+
+          if (isSetupHandoff) {
+            // The setup page's connection hasn't closed yet. Retire it quietly: this is the
+            // same host moving to the game page, not a device switch.
+            logInfo(`Setup hand-off for ${finalName} in room ${code}: retiring setup socket ${existingSocketId}`);
+            roomManager.removePlayerBySocket(existingSocketId);
+            existingSocket.disconnect(true);
+            break;
+          }
           const existingIP = getClientIP(existingSocket);
           const newIP = getClientIP(socket);
 
@@ -301,24 +320,14 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
       socket.join(code);
 
-      const roomState = roomManager.serializeRoom(code);
-      io.to(code).emit("room:state", roomState);
-
-      // If game is in progress, send current game state to the player
-      if (roomState.phase === "in-progress") {
-        // Trigger player:joined event so game can restore state
-        gameEngine.handleGameEvent({
-          roomCode: code,
-          eventName: "player:joined",
-          payload: { isReconnecting: joinResult.isReconnecting },
-          socketId: socket.id
-        });
-      }
-
+      // Sent BEFORE the room state: join.html redirects as soon as it gets room:state, and it
+      // needs to have seen this first so the game page can show "Host status restored".
       // Notify the rejoining player that they are host again — only when they actually
       // reclaimed host status (hostRestored=true). If a promoted host is already active,
       // hostRestored is false so the original host rejoins silently as a regular player.
-      if ((joinResult.genuineReconnect || ipVerifiedSwitch) && joinResult.hostRestored) {
+      if (isSetupHandoff) {
+        room.handoffToken = null; // one use only
+      } else if ((joinResult.genuineReconnect || ipVerifiedSwitch) && joinResult.hostRestored) {
         socket.emit("host:restored", {
           roomCode: code,
           message: "You have been restored as host."
@@ -331,6 +340,20 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
             io.to(sid).emit("host:changed", { newHostSocketId: socket.id });
           }
         }
+      }
+
+      const roomState = roomManager.serializeRoom(code);
+      io.to(code).emit("room:state", roomState);
+
+      // If game is in progress, send current game state to the player
+      if (roomState.phase === "in-progress") {
+        // Trigger player:joined event so game can restore state
+        gameEngine.handleGameEvent({
+          roomCode: code,
+          eventName: "player:joined",
+          payload: { isReconnecting: joinResult.isReconnecting },
+          socketId: socket.id
+        });
       }
 
       const statusMsg = joinResult.isReconnecting

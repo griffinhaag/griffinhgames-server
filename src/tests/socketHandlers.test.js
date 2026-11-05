@@ -200,4 +200,93 @@ console.log("\nKicked players cannot rejoin:");
     assert.ok(ctx.playerIn(otherCode, "Carol")));
 }
 
+// ─── Setup page → game page hand-off ─────────────────────────────────────────
+// Creating a room happens on setup.html; the browser then loads index.html, which opens a
+// new connection and joins with the one-time hand-off code from room:created. That is the
+// same host continuing, never "host restored" or a "device switch".
+
+console.log("\nSetup → game page hand-off:");
+{
+  // Path 1: setup page's connection is still open when the game page joins (common online)
+  const ctx = setup();
+  const { host: setupPage, code } = ctx.createRoom("Hosty");
+  const token = setupPage.last("room:created").handoffToken;
+  await test("room:created includes a hand-off code for the setup page", () => assert.ok(token));
+  await test("the hand-off code is not broadcast to the room", () =>
+    assert.equal(setupPage.last("room:state").handoffToken, undefined));
+
+  const gamePage = ctx.connect();
+  gamePage.send("player:joinRoom", { roomCode: code, name: "Hosty", isHost: true, handoffToken: token });
+  await test("game page joins as host", () => assert.equal(ctx.playerIn(code, "Hosty")?.isHost, true));
+  await test("no 'host status restored' message when the setup page is still connected", () =>
+    assert.equal(gamePage.all("host:restored").length, 0));
+  await test("the setup page is not told its session moved to another device", () =>
+    assert.equal(setupPage.all("host:deviceChanged").length, 0));
+  await test("there is only one Hosty in the room", () =>
+    assert.equal([...ctx.roomManager.getRoom(code).players.values()].filter(p => p.name === "Hosty").length, 1));
+
+  setupPage.disconnect(); // the old connection finally closes later
+  await clock.advance(1000);
+  await test("no 'host status restored' when the old setup connection closes later", () =>
+    assert.equal(gamePage.all("host:restored").length, 0));
+}
+{
+  // Path 2: setup connection closed, game page is slow to load (> 5 seconds)
+  const ctx = setup();
+  const { host: setupPage, code } = ctx.createRoom("Hosty");
+  const token = setupPage.last("room:created").handoffToken;
+  setupPage.disconnect();
+  await clock.advance(6000);
+  const gamePage = ctx.connect();
+  gamePage.send("player:joinRoom", { roomCode: code, name: "Hosty", isHost: true, handoffToken: token });
+  await test("slow page load still joins as host", () => assert.equal(ctx.playerIn(code, "Hosty")?.isHost, true));
+  await test("no 'host status restored' message after a slow page load", () =>
+    assert.equal(gamePage.all("host:restored").length, 0));
+
+  // A real return later (no hand-off code) still gets the message
+  gamePage.disconnect();
+  await clock.advance(6000);
+  const back = ctx.connect();
+  back.send("player:joinRoom", { roomCode: code, name: "Hosty", isHost: true });
+  await test("a host who leaves and comes back still sees 'host status restored'", () =>
+    assert.equal(back.all("host:restored").length, 1));
+  await test("'restored' arrives before the room update (the join page redirects on room:state)", () => {
+    const order = back.received.map(r => r.event);
+    assert.ok(order.indexOf("host:restored") < order.indexOf("room:state"), order.join(", "));
+  });
+}
+{
+  // The hand-off code works once, and only for the right room
+  const ctx = setup();
+  const { host: setupPage, code } = ctx.createRoom("Hosty");
+  const token = setupPage.last("room:created").handoffToken;
+  const alice = ctx.join(code, "Alice");
+  const gamePage = ctx.connect();
+  gamePage.send("player:joinRoom", { roomCode: code, name: "Hosty", isHost: true, handoffToken: token });
+  const impostor = ctx.connect({ ip: "10.7.7.7" });
+  impostor.send("player:joinRoom", { roomCode: code, name: "Hosty", isHost: true, handoffToken: token });
+  await test("a used hand-off code can't take over the host's name", () =>
+    assert.match(impostor.last("room:error") || "", /already active/));
+  await test("the real host keeps host", () => assert.equal(ctx.playerIn(code, "Hosty")?.isHost, true));
+
+  const guesser = ctx.connect({ ip: "10.8.8.8" });
+  guesser.send("player:joinRoom", { roomCode: code, name: "Alice", isHost: true, handoffToken: "wrong" });
+  await test("a wrong hand-off code is ignored (normal name rules apply)", () =>
+    assert.match(guesser.last("room:error") || "", /already active/));
+  await test("Alice is still in the room", () => assert.ok(ctx.playerIn(code, "Alice")));
+  void alice;
+}
+{
+  // Promotion is still announced to the player who becomes host
+  const ctx = setup();
+  const { host, code } = ctx.createRoom("Hosty");
+  const alice = ctx.join(code, "Alice");
+  host.disconnect();
+  await clock.advance(31000);
+  await test("a promoted player is told they are now the host", () =>
+    assert.equal(alice.all("host:transferred").length, 1));
+  await test("the promoted player does not get a 'restored' message", () =>
+    assert.equal(alice.all("host:restored").length, 0));
+}
+
 finish();
