@@ -155,4 +155,23 @@ console.log("\nGame lifecycle — duplicate start and room destruction:");
   });
 }
 
+// ─── Switching rooms ────────────────────────────────────────────────────────
+
+console.log("\nSwitching rooms — no ghost player left behind:");
+{
+  const ctx = setup();
+  const { host, code } = ctx.createRoom();
+  const alice = ctx.join(code, "Alice");
+  host.send("host:createRoom", {});
+  const code2 = host.last("room:created").code;
+  await test("creating a second room removes the host from the first", () =>
+    assert.equal(ctx.playerIn(code, "Hosty"), undefined));
+  await test("host is in the new room", () => assert.equal(ctx.playerIn(code2, "Hosty")?.isHost, true));
+
+  alice.send("player:joinRoom", { roomCode: code2, name: "Alice" });
+  await test("joining another room removes the player from the old one", () =>
+    assert.equal(ctx.roomManager.getRoom(code).players.size, 0));
+  await test("player is in the new room", () => assert.ok(ctx.playerIn(code2, "Alice")));
+}
+
 finish();

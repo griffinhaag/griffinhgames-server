@@ -93,6 +93,35 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
     return true;
   }
 
+  // Remove a socket from the room it is currently in (if any) before it creates or joins
+  // another one, so it does not linger as a ghost player (or ghost host) in the old room.
+  function leaveCurrentRoom(socket, exceptCode = null) {
+    const oldCode = roomManager.getRoomCodeForSocket(socket.id);
+    if (!oldCode || oldCode === exceptCode) return;
+
+    const oldRoom = roomManager.getRoom(oldCode);
+    const gameInProgress = oldRoom?.phase === "in-progress";
+    const playerName = oldRoom?.players?.get(socket.id)?.name;
+
+    const result = roomManager.removePlayerBySocket(socket.id);
+    socket.leave(oldCode);
+    if (!result?.roomCode) return;
+
+    if (gameInProgress) {
+      gameEngine.handleGameEvent({
+        roomCode: oldCode,
+        eventName: "player:disconnected",
+        payload: { socketId: socket.id, playerName },
+        socketId: socket.id
+      });
+    }
+    promoteNewHostIfNeeded(oldCode, result.wasHost);
+
+    const roomState = roomManager.serializeRoom(oldCode);
+    if (roomState) io.to(oldCode).emit("room:state", roomState);
+    logInfo(`Socket ${socket.id} left room ${oldCode} to switch rooms`);
+  }
+
   io.on("connection", (socket) => {
     logInfo(`Socket connected: ${socket.id}`);
 
@@ -121,6 +150,8 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
         socket.emit("room:error", `Unknown game type: ${gameType}. Please use 'buzzin' or leave empty.`);
         return;
       }
+
+      leaveCurrentRoom(socket);
 
       const room = roomManager.createRoom({
         hostSocketId: socket.id,
@@ -179,6 +210,9 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
       if (finalName.length > 20) {
         finalName = finalName.substring(0, 20);
       }
+
+      // Leaving a different room must happen before the name is stored for this socket
+      leaveCurrentRoom(socket, code);
 
       // Store name immediately
       roomManager.setPlayerName(socket.id, finalName);
