@@ -1,5 +1,8 @@
 import { logInfo, logWarn } from "./utils/logger.js";
 
+// Game events a client may send through the generic "game:event" route
+const CLIENT_GAME_EVENTS = new Set(["player:buzz", "player:submitAnswer", "host:overrideScore"]);
+
 export default function registerSocketHandlers(io, roomManager, gameEngine) {
   // Helper: get the real client IP, respecting reverse-proxy X-Forwarded-For header
   function getClientIP(sock) {
@@ -611,11 +614,13 @@ export default function registerSocketHandlers(io, roomManager, gameEngine) {
 
     // Generic route for future in-game events:
     // e.g. "game:event" with { roomCode, eventName, payload }
-    socket.on("game:event", ({ roomCode, eventName, payload }) => {
-      const code = roomCode ||
-        roomManager.getRoomCodeForSocket(socket.id);
-
-      if (!code) return;
+    // Only client-originated events are routed, and only into the socket's own room.
+    // Server-internal events (player:kicked, player:disconnected, player:joined) must never
+    // be accepted from a client.
+    socket.on("game:event", ({ roomCode, eventName, payload } = {}) => {
+      if (!CLIENT_GAME_EVENTS.has(eventName)) return;
+      const code = roomManager.getRoomCodeForSocket(socket.id);
+      if (!code || (roomCode && roomCode !== code)) return;
 
       gameEngine.handleGameEvent({
         roomCode: code,

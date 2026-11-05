@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "start": "node server.js",
-        "test": "node src/tests/roomManager.test.js"
+        "test": "node src/tests/roomManager.test.js && node src/tests/socketHandlers.test.js"
     },
     "dependencies": {
         "cors": "^2.8.5",
