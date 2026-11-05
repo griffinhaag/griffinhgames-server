@@ -106,4 +106,33 @@ console.log("\nQuestion bank — multiple-choice options are unique:");
   await test("no question is served with duplicate choices", () => assert.deepEqual(dupes, []));
 }
 
+// ─── Disconnects mid-round ──────────────────────────────────────────────────
+
+// Simulate what socketHandlers does when a socket disconnects mid-game
+function disconnect(t, sid) {
+  const name = t.room.players.get(sid)?.name;
+  t.rm.removePlayerBySocket(sid);
+  t.ev(sid, "player:disconnected", { socketId: sid, playerName: name });
+}
+function rejoin(t, sid, name) {
+  const r = t.rm.addPlayerToRoom(t.room.code, { socketId: sid, name });
+  t.ev(sid, "player:joined", { isReconnecting: r.isReconnecting });
+}
+
+console.log("\nDisconnects mid-round:");
+{
+  const t = setup(3);
+  const q = await startAndShow(t);
+  t.ev("p1", "player:submitAnswer", { answer: q.answer });
+  disconnect(t, "p1");
+  t.ev("h", "player:submitAnswer", { answer: q.answer });
+  await clock.flush();
+  await test("round keeps waiting for players still in the room", () =>
+    assert.equal(t.game.getState().phase, "question"));
+  t.ev("p2", "player:submitAnswer", { answer: "nope" });
+  await clock.flush();
+  await test("round ends once every remaining player answered", () =>
+    assert.equal(t.game.getState().phase, "result"));
+}
+
 finish();

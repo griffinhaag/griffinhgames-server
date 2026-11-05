@@ -820,7 +820,9 @@ export default {
       const activePlayers = Array.from(room.players.values()).filter(p =>
         p.socketId && (hostAsPlayer || !p.isHost)
       );
-      const answeredPlayers = Array.from(playerAnswers.values()).filter(a => a.answer !== undefined);
+      // Only count answers from players still in the room — answers kept for players who
+      // disconnected must not stand in for players who are still thinking.
+      const answeredPlayers = activePlayers.filter(p => playerAnswers.get(p.socketId)?.answer !== undefined);
 
       if (answeredPlayers.length >= activePlayers.length && activePlayers.length > 0) {
         stopQuestionTimer();
