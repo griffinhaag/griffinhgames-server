@@ -1,282 +1,55 @@
-TechnicalREADME.md — GriffinGames Multiplayer Backend
+# Technical Notes
 
-This document provides a complete technical overview of the GriffinGames multiplayer backend. It explains the architecture, server flow, room system, extensibility, and how the modular game engine works internally.
+How the GriffinGames server is put together. For setup, see [README.md](README.md). For hosting, see [DeploymentREADME.md](DeploymentREADME.md).
 
-1. Overview
+## Overview
 
-This backend powers real-time multiplayer drinking games for GriffinGames. It uses:
+The frontend is a static site on Netlify. This server holds all the state: rooms, players, scores, and the current question. Clients send actions over Socket.IO, the server decides what happens, and then it broadcasts the new state back out. Clients don't trust each other or keep their own copy of the game rules.
 
-Node.js
+Everything is kept in memory (`Map`s), with no database. A restart clears active rooms, which is fine for party games that last about 20 minutes.
 
-Express
+## Pieces
 
-Socket.IO (WebSockets)
+**`server.js`** sets up Express and Socket.IO, registers the HTTP routes (`/`, `/games`, `/buzzin/category-counts`), and binds to `process.env.PORT`.
 
-Modular, pluggable game engine
+**`socketHandlers.js`** is the single place where socket events come in. It validates the request (is this socket the host? is it in this room?) and then calls the RoomManager or the active game.
 
-Room-based multiplayer system
+**`core/RoomManager.js`** tracks rooms, players, names, and which socket is the host. It also handles the messy parts of real phones:
+- A player who disconnects can rejoin under the same name for up to 10 minutes and keep their score.
+- A room with nobody connected stays alive for 5 minutes before it's cleaned up.
+- If the host drops, host control moves to another player in a consistent order, and goes back if the host returns.
 
-Stateless frontend (Netlify) + Stateful backend (Render)
+**`core/GameEngine.js`** creates one game instance per room from the registry in `games/index.js`, forwards events to it, and tears it down when the game ends.
 
-The system is intentionally designed for easy expansion, clean separation of concerns, and future migration to platforms like AWS, Fly.io, or Render without rewriting code.
+**`games/buzzin/`** is LOCKED IN. Its phases are `lobby → countdown → waiting → question → result → end`. It builds a question pool from the chosen categories, controls buzz locking and answer timers, scores answers, and grades "Off the Dome" free-response answers with Groq (Llama 3.1). Grading has a 6-second timeout and a few hard rules that run first, like rejecting acronyms with the letters swapped.
 
-2. Repository Structure
-griffinhgames-server/
-│
-├── package.json
-├── server.js
-├── socketHandlers.js
-├── README.md
-├── TechnicalREADME.md
-├── DeploymentREADME.md
-│
-├── core/
-│   ├── RoomManager.js        # Manages rooms, players, host roles
-│   ├── GameEngine.js         # Loads game modules, manages active games
-│   └── EventRouter.js        # Optional event routing subsystem
-│
-├── games/
-│   ├── index.js              # Central registry of all game modules
-│   ├── reflex/
-│   │   └── index.js          # Basic reflex game placeholder
-│   └── trivia/
-│       └── index.js          # Basic trivia game placeholder
-│
-└── utils/
-    ├── codes.js              # Generates room codes
-    └── logger.js             # Logging helpers
+## Socket events
 
+Client → server:
 
-This structure reflects a production-grade modular game engine, allowing unlimited games without modifying core server files.
+| Event | Who | Purpose |
+| --- | --- | --- |
+| `host:createRoom` | host | Create a room, get a code |
+| `player:joinRoom`, `player:setName`, `player:quit` | player | Join, rename, leave |
+| `room:getState` | anyone | Ask for the current room state |
+| `host:startGame`, `host:restartGame`, `host:endGame` | host | Game lifecycle |
+| `host:showQuestion`, `host:nextQuestion`, `host:skipRound` | host | Move through questions |
+| `host:pauseGame`, `host:resumeGame` | host | Pause, then resume after a 3-2-1 countdown |
+| `player:buzz`, `player:submitAnswer` | player | Buzz in and answer |
+| `host:judgeAnswer`, `host:flagQuestion`, `host:shuffleQuestions` | host | Manual judging and question control |
+| `host:previewCategories`, `host:kickPlayer` | host | Lobby tools |
+| `game:event` | anyone | Generic event passed to the active game |
 
-3. Core Architecture
-3.1 server.js
+Server → client: `room:created`, `room:state`, `room:error`, `room:closed`, `game:started`, `game:state`, `game:ended`, `host:changed`, `host:transferred`, `host:restored`, `player:kicked`, `lobby:categoriesPreview`.
 
-Initializes:
+## Adding a game
 
-Express app
+1. Create `games/<id>/index.js` that exports `{ id, name, description, minPlayers, maxPlayers, create({ io, room, roomManager }) }`.
+2. `create()` returns an object with `handleEvent()`, `getState()`, and `teardown()`.
+3. Register it in `games/index.js`.
 
-HTTP server
+No changes are needed in the room or socket code.
 
-Socket.IO server
+## Tests
 
-CORS
-
-RoomManager
-
-GameEngine
-
-Socket handlers
-
-PORT auto-binding for cloud environments
-
-This is the main entrypoint for Render or any Node hosting provider.
-
-3.2 socketHandlers.js
-
-Handles all incoming socket events:
-
-Lobby Events
-
-host:createRoom
-
-player:joinRoom
-
-player:setName
-
-room:getState
-
-Game Lifecycle
-
-host:startGame
-
-game:event (generic event router)
-
-Disconnect Logic
-
-Cleans up player
-
-Reassigns host if needed
-
-Destroys empty rooms
-
-Broadcasts updated room state
-
-Frontends rely on room:state updates to stay synced with the server.
-
-3.3 RoomManager.js (core)
-
-Tracks:
-
-Active rooms
-
-Active players
-
-Host socket
-
-Player names
-
-Room lifecycle
-
-Player index mapping
-
-Room serialization for the frontend
-
-Rooms are stored in memory using Map() objects.
-The manager is game-agnostic, meaning it works for any game type.
-
-3.4 GameEngine.js (core)
-
-Loads a game by its gameType and creates a game instance per room:
-
-Each game instance may implement:
-
-handleEvent()
-
-getState()
-
-teardown()
-
-The GameEngine stores:
-
-activeGames = Map<roomCode, { gameType, instance }>
-
-
-This ensures:
-
-multiple rooms can play different games simultaneously
-
-each room has its own isolated game state
-
-all game logic is separate from server infrastructure
-
-3.5 Game Modules (games/)
-
-Every game lives in its own folder, for example:
-
-games/
-  reflex/
-    index.js
-
-
-A game module exports an object:
-
-{
-  id: "reflex",
-  name: "Reflex Challenge",
-  create({ io, room, roomManager }) { ... }
-}
-
-
-Game modules handle gameplay logic independently, keeping the backend maintainable.
-
-To add a new game:
-
-Create folder in /games
-
-Export module with create()
-
-Add it to games/index.js
-
-No other file needs to change — this is the benefit of the modular engine.
-
-4. Networking Model
-Frontend → Backend
-
-Clients emit:
-
-host:createRoom
-
-player:joinRoom
-
-player:setName
-
-host:startGame
-
-game:event
-
-Backend → Frontend
-
-Backend emits:
-
-room:created
-
-room:state
-
-room:closed
-
-room:error
-
-game:started
-
-game:ended
-
-Room state objects include:
-
-{
-  code,
-  hostSocketId,
-  players: [
-    { socketId, name, isHost }
-  ],
-  phase,        // lobby, in-progress, ended
-  gameType,
-}
-
-5. Local Development Flow
-
-Run backend:
-
-npm install
-npm start
-
-
-Frontend communicates with:
-
-http://localhost:3000
-
-
-You can test everything without deploying.
-
-6. Production Deployment Flow
-
-Frontend (Netlify) connects to backend (Render) via:
-
-const socket = io("https://griffinhgames-server.onrender.com");
-
-
-Deployment is automatic whenever you push to GitHub.
-
-7. Scalability Notes
-
-This architecture supports:
-
-Multiple rooms
-
-Multiple simultaneous games
-
-Modular expansion
-
-Future Redis session storage
-
-Migration to AWS ECS/EB without code changes
-
-For now, in-memory storage is ideal for rapid development and low concurrency.
-
-8. Summary
-
-This backend is engineered for:
-
-Clean modularity
-
-Unlimited future expansion
-
-High code maintainability
-
-Real-time multiplayer
-
-Cloud portability
-
-Rapid iteration in Cursor
-
-You now have a professional-grade multiplayer game backend foundation built with industry best practices.
+`npm test` runs `src/tests/roomManager.test.js`, which covers joining, host transfer, and reconnect behavior.
