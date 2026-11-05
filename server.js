@@ -88,6 +88,15 @@ try {
     return res.status(500).json({ error: "Category counts unavailable" });
   });
 
+  // Is a lobby still open to rejoin? Used by the join page to suggest "Rejoin previous game".
+  // Open = the room exists and its game hasn't finished. Reveals nothing else about the room.
+  app.get("/buzzin/rooms/:code", (req, res) => {
+    const code = String(req.params.code || "").trim().toUpperCase();
+    const room = /^[A-Z0-9]{1,8}$/.test(code) ? roomManager.getRoom(code) : null;
+    const gamePhase = room ? gameEngine.getGameState(code)?.phase : null;
+    res.json({ open: !!room && gamePhase !== "end" });
+  });
+
   // Games list endpoint for frontend discovery
   app.get("/games", (req, res) => {
     const games = Object.values(gameRegistry).map(game => ({
