@@ -628,11 +628,20 @@ export default {
 
     // Helper to update both scores maps atomically so they never diverge.
     // Falls back to roomManager names for players who disconnected mid-round.
+    // A socket that has left the room is never re-added to `scores` (that would show a ghost
+    // "Player-XXXX" row); its score is stored by name, and applied to the player's current
+    // socket if they have already rejoined.
     const updateScoreByName = (socketId, score, knownName = null) => {
-      scores.set(socketId, score);
       const name = knownName
         || room.players.get(socketId)?.name
         || roomManager.getPlayerName(socketId);
+      if (room.players.has(socketId)) {
+        scores.set(socketId, score);
+      } else if (name) {
+        const nameLower = name.toLowerCase();
+        const current = [...room.players.values()].find(p => p.name?.toLowerCase() === nameLower);
+        if (current && scores.has(current.socketId)) scores.set(current.socketId, score);
+      }
       if (name) {
         scoresByName.set(name.toLowerCase(), score);
       }
@@ -922,7 +931,8 @@ export default {
           }
           // Fall back to scoresByName if player disconnected (scores map entry deleted on disconnect)
           const nameLower = playerName.toLowerCase();
-          const oldScore = scores.get(socketId) ?? scoresByName.get(nameLower) ?? 0;
+          const oldScore = (room.players.has(socketId) ? scores.get(socketId) : undefined)
+            ?? scoresByName.get(nameLower) ?? 0;
           updateScoreByName(socketId, oldScore + points, playerName);
           // Track award for potential rollback (e.g. host shuffles or flags after result)
           lastRoundAwards.set(socketId, points);
@@ -1702,6 +1712,27 @@ export default {
           }
 
           case "player:joined":
+            // A player who answered, dropped and rejoined under a new socket keeps their answer
+            // (and any award from this round, for rollback) — moved to the new socket so they
+            // cannot answer twice and are scored on their live entry. Must run before the purge.
+            {
+              const joinedName = room.players.get(socketId)?.name?.toLowerCase();
+              if (joinedName && !playerAnswers.has(socketId)) {
+                for (const [sid, data] of playerAnswers) {
+                  if (sid !== socketId && !room.players.has(sid) &&
+                      data.playerName?.toLowerCase() === joinedName) {
+                    playerAnswers.delete(sid);
+                    playerAnswers.set(socketId, data);
+                    if (lastRoundAwards.has(sid)) {
+                      lastRoundAwards.set(socketId, lastRoundAwards.get(sid));
+                      lastRoundAwards.delete(sid);
+                    }
+                    break;
+                  }
+                }
+              }
+            }
+
             // Purge any stale score entries for socketIds no longer in the room.
             // This handles device switches where the old socket hasn't yet disconnected
             // but has already been evicted from room.players. Without this, broadcastState
@@ -1727,6 +1758,9 @@ export default {
 
             // Broadcast state so the new player gets it
             broadcastState();
+
+            // A rejoining player may have brought their answer back with them
+            if (phase === "question") checkAllAnswered();
 
             if (payload?.isReconnecting) {
               const player = room.players.get(socketId);

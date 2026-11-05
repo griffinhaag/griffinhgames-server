@@ -135,4 +135,47 @@ console.log("\nDisconnects mid-round:");
     assert.equal(t.game.getState().phase, "result"));
 }
 
+console.log("\nAnswer, refresh, rejoin — answer and points follow the player:");
+{
+  const t = setup(3);
+  let q = await startAndShow(t);
+  t.ev("p1", "player:submitAnswer", { answer: q.answer });
+  disconnect(t, "p1");
+  rejoin(t, "p1b", "P1");
+  t.ev("p1b", "player:submitAnswer", { answer: "second try" });
+  t.ev("h", "player:submitAnswer", { answer: "nope" });
+  t.ev("p2", "player:submitAnswer", { answer: "nope" });
+  await clock.flush();
+  const res = t.events("round_results")[0].results;
+  await test("rejoined player cannot answer twice", () =>
+    assert.deepEqual(res.filter(r => r.name === "P1").map(r => r.answer), [q.answer]));
+  await test("points go to the rejoined player's live entry", () => assert.deepEqual(t.score("P1"), [150]));
+  await test("no ghost Player-XXXX row on the scoreboard", () =>
+    assert.ok(!t.game.getState().scores.some(s => s.name.startsWith("Player-"))));
+
+  t.ev("h", "host:nextQuestion");
+  t.ev("h", "host:showQuestion");
+  q = t.game.getState().currentQuestion;
+  t.ev("p1b", "player:submitAnswer", { answer: q.answer });
+  t.ev("h", "player:submitAnswer", { answer: "nope" });
+  t.ev("p2", "player:submitAnswer", { answer: "nope" });
+  await clock.flush();
+  await test("later points add onto the carried-over score", () => assert.deepEqual(t.score("P1"), [300]));
+}
+{
+  const t = setup(3);
+  const q = await startAndShow(t);
+  t.ev("p1", "player:submitAnswer", { answer: q.answer });
+  disconnect(t, "p1");
+  t.ev("h", "player:submitAnswer", { answer: "nope" });
+  t.ev("p2", "player:submitAnswer", { answer: "nope" });
+  await clock.flush();
+  await test("player still away at round end gets no ghost row", () =>
+    assert.ok(!t.game.getState().scores.some(s => s.name.startsWith("Player-"))));
+  rejoin(t, "p1b", "P1");
+  await test("their points are restored when they come back", () => assert.deepEqual(t.score("P1"), [150]));
+  t.ev("h", "host:flagQuestion");
+  await test("flagging the round rolls those points back", () => assert.deepEqual(t.score("P1"), [0]));
+}
+
 finish();
