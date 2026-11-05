@@ -88,4 +88,22 @@ console.log("\nFlag questions — shared display text does not merge questions:"
   await test("exactly the configured number of OTD questions", () => assert.equal(otd, 1));
 }
 
+// ─── Question bank ──────────────────────────────────────────────────────────
+
+console.log("\nQuestion bank — multiple-choice options are unique:");
+{
+  // Play through every Sports question (the category with the most duplicate-choice entries)
+  const t = setup(2);
+  t.ev("h", "host:startGame", { categories: ["Sports"], questionCount: 100, offTheDomeCount: 0 });
+  await clock.advance(10500);
+  const dupes = [];
+  for (let i = 0; i < 100 && t.game.getState().phase !== "end"; i++) {
+    const q = t.game.getState().currentQuestion;
+    const lower = (q.choices || []).map(c => c.toLowerCase().trim());
+    if (new Set(lower).size !== lower.length) dupes.push(q.question);
+    t.ev("h", "host:flagQuestion");
+  }
+  await test("no question is served with duplicate choices", () => assert.deepEqual(dupes, []));
+}
+
 finish();

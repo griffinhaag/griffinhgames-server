@@ -87,10 +87,23 @@ function normalizeFlagQuestion(q) {
   };
 }
 
+// Remove duplicate multiple-choice options (case-insensitive) so every choice shown is distinct
+function dedupeChoices(q) {
+  if (!Array.isArray(q.choices)) return q;
+  const seen = new Set();
+  const choices = q.choices.filter(c => {
+    const k = String(c).toLowerCase().trim();
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  return choices.length === q.choices.length ? q : { ...q, choices };
+}
+
 // Unique identity of a question for OTD / seen tracking (display text can collide for flags)
 const qKey = (q) => q.key || q.question;
 
-const allQuestions = loadAllQuestions().map(normalizeFlagQuestion);
+const allQuestions = loadAllQuestions().map(normalizeFlagQuestion).map(dedupeChoices);
 console.log(`[BuzzIn] Loaded ${allQuestions.length} questions from ${new Set(allQuestions.map(q => q.category)).size} categories`);
 
 // Load questions from the hard/ directory (one file per category, harder questions)
@@ -142,7 +155,7 @@ function loadHardQuestions() {
   return deduped;
 }
 
-const hardQuestions = loadHardQuestions().map(normalizeFlagQuestion);
+const hardQuestions = loadHardQuestions().map(normalizeFlagQuestion).map(dedupeChoices);
 console.log(`[BuzzIn] Loaded ${hardQuestions.length} hard questions from hard/ directory`);
 
 // Pre-compute per-category counts from the deduplicated allQuestions array.
